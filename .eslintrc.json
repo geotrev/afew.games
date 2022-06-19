@@ -1,26 +1,5 @@
 {
-  "env": {
-    "browser": true,
-    "node": true,
-    "commonjs": true,
-    "es6": true
-  },
-  "parser": "@babel/eslint-parser",
-  "parserOptions": {
-    "ecmaVersion": 2018,
-    "sourceType": "module"
-  },
-  "extends": ["eslint:recommended", "prettier"],
-  "settings": {
-    "import/resolver": {
-      "node": {
-        "extensions": [".js", ".jsx"],
-        "paths": ["src/"],
-        "moduleDirectory": ["node_modules/"]
-      }
-    },
-    "import/ignore": [".(scss)$"]
-  },
+  "extends": ["next/core-web-vitals", "eslint:recommended", "prettier"],
   "rules": {
     "no-console": 2
   }

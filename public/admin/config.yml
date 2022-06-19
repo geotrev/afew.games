@@ -1,0 +1,101 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: public/img
+public_folder: img
+publish_mode: editorial_workflow
+
+collections:
+  - name: "graded_games"
+    label: "Graded Games"
+    files:
+      - label: "Wata Graded"
+        name: "wata_games"
+        file: "public/static/wata-games.json"
+        fields:
+          - label: "Games"
+            name: "games"
+            widget: "list"
+            label_singular: "Game"
+            allow_add: true
+            add_to_top: true
+            collapsed: true
+            summary: "{{fields.name}} - {{fields.boxGrade}} {{fields.sealGrade}}"
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+              - label: "Console"
+                name: "console"
+                widget: "string"
+              - label: "Box Grade"
+                name: "boxGrade"
+                widget: "string"
+              - label: "Seal Grade"
+                name: "sealGrade"
+                widget: "string"
+              - label: "Variant"
+                name: "variant"
+                widget: "text"
+      - label: "VGA Graded"
+        name: "vga_games"
+        file: "public/static/vga-games.json"
+        fields:
+          - label: "Games"
+            name: "games"
+            widget: "list"
+            label_singular: "Game"
+            allow_add: true
+            add_to_top: true
+            collapsed: true
+            summary: "{{fields.name}} - {{fields.grade}}"
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+              - label: "Console"
+                name: "console"
+                widget: "string"
+              - label: "Grade"
+                name: "grade"
+                widget: "string"
+              - label: "Variant"
+                name: "variant"
+                widget: "text"
+  - name: "essays"
+    label: "Essays"
+    label_singular: "Essay"
+    preview_path_date_field: "updated_on"
+    folder: "public/essays"
+    preview_path: "{{dirname}}/{{year}}/{{month}}/{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}--{{slug}}"
+    publish: true
+    create: true
+    fields:
+      - label: "Title"
+        name: "title"
+        required: true
+        widget: "string"
+      - label: "Description"
+        name: "description"
+        required: true
+        widget: "string"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Home"
+        name: "home"
+        file: "content/home.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - label: "Cats"
+            name: "cats"
+            widget: list
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }

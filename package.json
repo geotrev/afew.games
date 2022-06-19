@@ -8,7 +8,11 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "npm run build && next export"
+    "export": "npm run build && next export",
+    "prepare": "husky install",
+    "prettier:check": "prettier --config .prettierrc.json --check",
+    "prettier:write": "prettier --config .prettierrc.json --write",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -29,5 +33,37 @@
     "next": "^12.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.18.2",
+    "@netlify/plugin-nextjs": "^4.9.1",
+    "commithelper": "^1.2.0",
+    "eslint": "^8.18.0",
+    "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.2",
+    "prettier": "^2.7.1"
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "npm run prettier:check",
+      "npm run eslint:check"
+    ],
+    "*.json": [
+      "npm run prettier:write"
+    ]
+  },
+  "commithelper": {
+    "types": [
+      "feat",
+      "fix",
+      "chore",
+      "docs",
+      "style",
+      "refactor",
+      "perf",
+      "test"
+    ]
   }
 }
