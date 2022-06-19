@@ -1,0 +1,200 @@
+{
+  "games": [
+    {
+      "name": "Gravity Rush Remastered",
+      "console": "PlayStation 4",
+      "boxGrade": "9.8",
+      "sealGrade": "A+",
+      "variant": "Y-Fold, Made in USA"
+    },
+    {
+      "name": "Gravity Rush 2",
+      "console": "PlayStation 4",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "Y-Fold, Made in USA"
+    },
+    {
+      "name": "Gravity Rush 2",
+      "console": "PlayStation 4",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "Y-Fold, Made in USA"
+    },
+    {
+      "name": "Journey Collector's Edition",
+      "console": "PlayStation 3",
+      "boxGrade": "9.4",
+      "sealGrade": "A",
+      "variant": "Y-Fold, Made in USA, Foster City Address"
+    },
+    {
+      "name": "Rockman.EXE Operate Shooting Star",
+      "console": "Nintendo DS",
+      "boxGrade": "9.8",
+      "sealGrade": "A+",
+      "variant": "Y-Fold, Assembled in Japan, Japanese Version"
+    },
+    {
+      "name": "Gauntlet Legends",
+      "console": "Nintendo 64",
+      "boxGrade": "9.8",
+      "sealGrade": "A++",
+      "variant": "V-Seam, Made in Japan/Printed in USA, T Rating (Pixelated), 78% Fiber, No Figure (USA Code)"
+    },
+    {
+      "name": "Golden Sun",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.8",
+      "sealGrade": "A++",
+      "variant": "H-Seam, Made in Japan/Printed in USA, E Rating, 83% Fiber (USA Code)"
+    },
+    {
+      "name": "Mega Man Battle Network 2",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.8",
+      "sealGrade": "A+",
+      "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)"
+    },
+    {
+      "name": "Mega Man Xtreme",
+      "console": "Game Boy Color",
+      "boxGrade": "9.8",
+      "sealGrade": "A+",
+      "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)"
+    },
+    {
+      "name": "Mega Man Xtreme 2",
+      "console": "Game Boy Color",
+      "boxGrade": "9.6",
+      "sealGrade": "A++",
+      "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)"
+    },
+    {
+      "name": "Mega Man & Bass",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.6",
+      "sealGrade": "A++",
+      "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber, Y-Fold box (USA Code)"
+    },
+    {
+      "name": "F-Zero",
+      "console": "Super NES",
+      "boxGrade": "9.6",
+      "sealGrade": "A++",
+      "variant": "V-Seam, Made in Japan, E Rating, 83% Fiber, 3 Line Warranty box, Players Choice (1997)"
+    },
+    {
+      "name": "Mega Man Battle Network 3: Blue",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "3-Side Seam, Made in Japan, E Rating, 83% Fiber, Double-Ended box (USA Code)"
+    },
+    {
+      "name": "Mega Man Zero 2",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)"
+    },
+    {
+      "name": "Metroid Fusion",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)"
+    },
+    {
+      "name": "Super Mario Advance",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)"
+    },
+    {
+      "name": "Kingdom Hearts: Chain of Memories",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.4",
+      "sealGrade": "A++",
+      "variant": "3-Side Seam, Made in Japan, E Rating, Double-Ended box (USA Code)"
+    },
+    {
+      "name": "Mega Man X",
+      "console": "Super NES",
+      "boxGrade": "9.4",
+      "sealGrade": "A++",
+      "variant": "H-Overlap Seam, Assembled in Mexico, No Rating, Upside-Down Code (Majesco)"
+    },
+    {
+      "name": "Mega Man Zero 4",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.4",
+      "sealGrade": "A++",
+      "variant": "3-Side Seam, Made in Japan, E Rating, Double-Ended box, UPC Sticker (USA Code)"
+    },
+    {
+      "name": "Mega Man Battle Network 6: Cybeast Gregar",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.4",
+      "sealGrade": "A+",
+      "variant": "3-Side Seam, Made in Japan, E Rating, Double-Ended box (USA Code)"
+    },
+    {
+      "name": "Sonic Adventure",
+      "console": "Sega Dreamcast",
+      "boxGrade": "9.4",
+      "sealGrade": "A+",
+      "variant": "Y-Fold, Made/Printed in USA, E Rating (Pixelated)"
+    },
+    {
+      "name": "Mega Man Zero 3",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.2",
+      "sealGrade": "A+",
+      "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)"
+    },
+    {
+      "name": "Mega Man Battle Network 6: Cybeast Falzar",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.2",
+      "sealGrade": "A+",
+      "variant": "3-Side Seam, Works With DS sticker, Made in Japan, E Rating, Double-Ended box (USA Code)"
+    },
+    {
+      "name": "Pokemon Snap",
+      "console": "Nintendo 64",
+      "boxGrade": "8.5",
+      "sealGrade": "A",
+      "variant": "V-Seam, Made in Japan, E Rating (Pixelated), 100% Fiber (USA Code)"
+    },
+    {
+      "name": "Guitar Hero",
+      "console": "PlayStation 2",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "Y-Fold, Part No. 85001 206 US"
+    },
+    {
+      "name": "Wario's Woods",
+      "console": "NES",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "H-seam, Rev-A, Oval SOQ R, K-A Rating, 3-Line Warranty box, 9-Digit ZIP (USA Code)"
+    },
+    {
+      "name": "Metroid Dread",
+      "console": "Nintendo Switch",
+      "boxGrade": "9.8",
+      "sealGrade": "A+",
+      "variant": "Y-Fold, Made in USA, 115991A"
+    },
+    {
+      "name": "Bayonetta 2",
+      "console": "Nintendo Wii u",
+      "boxGrade": "9.6",
+      "sealGrade": "A++",
+      "variant": "Y-Fold, Made in USA, M Rating, w/ Bayonetta Game disc, 83663A"
+    }
+  ]
+}

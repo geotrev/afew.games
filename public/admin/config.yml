@@ -11,7 +11,7 @@ collections:
     files:
       - label: "Wata Graded"
         name: "wata_games"
-        file: "public/static/wata-games.json"
+        file: "games/wata-games.json"
         fields:
           - label: "Games"
             name: "games"
@@ -39,7 +39,7 @@ collections:
                 widget: "text"
       - label: "VGA Graded"
         name: "vga_games"
-        file: "public/static/vga-games.json"
+        file: "games/vga-games.json"
         fields:
           - label: "Games"
             name: "games"
@@ -66,7 +66,7 @@ collections:
     label: "Essays"
     label_singular: "Essay"
     preview_path_date_field: "updated_on"
-    folder: "public/essays"
+    folder: "essays"
     preview_path: "{{dirname}}/{{year}}/{{month}}/{{slug}}"
     slug: "{{year}}-{{month}}-{{day}}--{{slug}}"
     publish: true
@@ -83,19 +83,3 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
-  - name: "pages"
-    label: "Pages"
-    files:
-      - label: "Home"
-        name: "home"
-        file: "content/home.md"
-        fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - label: "Cats"
-            name: "cats"
-            widget: list
-            fields:
-              - { label: "Name", name: "name", widget: "string" }
-              - { label: "Description", name: "description", widget: "text" }

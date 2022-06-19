@@ -1,0 +1,130 @@
+{
+  "games": [
+    {
+      "name": "Mario Kart 8",
+      "console": "Nintendo Wii U",
+      "grade": "95+",
+      "variant": "Y-Fold, 82909A"
+    },
+    {
+      "name": "Shadow of the Colossus",
+      "console": "PlayStation 4",
+      "grade": "95",
+      "variant": "3-Side Seam, Special Edition"
+    },
+    {
+      "name": "Mega Man Battle Network",
+      "console": "Game Boy Advance",
+      "grade": "90",
+      "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)"
+    },
+    {
+      "name": "Pokemon SoulSilver Version",
+      "console": "Nintendo DS",
+      "grade": "90",
+      "variant": "W/ PokeWalker Accessory, 70208A"
+    },
+    {
+      "name": "Pokemon HeartGold Version",
+      "console": "Nintendo DS",
+      "grade": "90",
+      "variant": "Canadian Ver. W/ PokeWalker Acc., 70207A"
+    },
+    {
+      "name": "Pokemon Sun Version",
+      "console": "Nintendo 3DS",
+      "grade": "90",
+      "variant": "Sticker Seal, Walmart Exclusive, 104299A"
+    },
+    {
+      "name": "Pokemon UltraMoon",
+      "console": "Nintendo 3DS",
+      "grade": "95",
+      "variant": "Y-Fold, 106570B"
+    },
+    {
+      "name": "Pokemon Sword & Shield Double Pack",
+      "console": "Nintendo Switch",
+      "grade": "85+",
+      "variant": "Sticker Seal, 111237A"
+    },
+    {
+      "name": "Pokemon Sword & Shield Double Pack",
+      "console": "Nintendo Switch",
+      "grade": "85",
+      "variant": "Sticker Seal, w/ Steelbook, 111181A"
+    },
+    {
+      "name": "Sonic Adventure 2: Battle",
+      "console": "Nintendo GameCube",
+      "grade": "90",
+      "variant": "Y-Fold, Black Label"
+    },
+    {
+      "name": "Kingdom Hearts",
+      "console": "PlayStation 2",
+      "grade": "85+",
+      "variant": "Y-Fold, Security Strip, Foil"
+    },
+    {
+      "name": "Kingdom Hearts 358/2 Days",
+      "console": "Nintendo DS",
+      "grade": "95",
+      "variant": "Y-Fold, Limited Edition Cover Art Sleeve, 580100"
+    },
+    {
+      "name": "Kingdom Hearts III",
+      "console": "PlayStation 4",
+      "grade": "90+",
+      "variant": "3-Side Seam, Deluxe Editon"
+    },
+    {
+      "name": "Super Smash Bros. Melee",
+      "console": "Nintendo GameCube",
+      "grade": "85+",
+      "variant": "Y-Fold, Made in Japan, 2005 Not For Resale on Front"
+    },
+    {
+      "name": "Super Smash Bros. Brawl",
+      "console": "Nintendo Wii",
+      "grade": "85+",
+      "variant": "Y-Fold, 64278D"
+    },
+    {
+      "name": "Super Smash Bros. For Wii U",
+      "console": "Nintendo Wii U",
+      "grade": "95+",
+      "variant": "Y-Fold, 83664A"
+    },
+    {
+      "name": "Hunter The Reckoning",
+      "console": "XBox",
+      "grade": "80+",
+      "variant": "Y-Fold"
+    },
+    {
+      "name": "Hyrule Warriors",
+      "console": "Nintendo Wii U",
+      "grade": "95+",
+      "variant": "Y-Fold, 83662A"
+    },
+    {
+      "name": "Hyrule Warriors",
+      "console": "Nintendo Switch",
+      "grade": "95",
+      "variant": "Y-Fold, 107775A"
+    },
+    {
+      "name": "The World Ends With You",
+      "console": "Nintendo DS",
+      "grade": "95",
+      "variant": "Y-Fold, 350100"
+    },
+    {
+      "name": "The Legend of Zelda: The Wind Waker HD",
+      "console": "Nintendo Wii U",
+      "grade": "85+",
+      "variant": "Y-Fold, Foil Cover, 81115A"
+    }
+  ]
+}
