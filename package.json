@@ -1,0 +1,33 @@
+{
+  "name": "afew.games",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geotrev/afew.games.git"
+  },
+  "keywords": [],
+  "author": "George Treviranus <geowtrev@gmail.com> (https://geotrev.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geotrev/afew.games/issues"
+  },
+  "homepage": "https://github.com/geotrev/afew.games#readme",
+  "dependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "frontmatter-markdown-loader": "^3.7.0",
+    "next": "^12.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
