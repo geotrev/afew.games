@@ -5,6 +5,7 @@ module.exports = {
       loader: "frontmatter-markdown-loader",
       options: { mode: ["react-component"] },
     })
+    cfg.experiments = { topLevelAwait: true }
     return cfg
   },
 }
