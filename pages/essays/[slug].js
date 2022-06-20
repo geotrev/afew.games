@@ -10,14 +10,13 @@ export default function Essay({ entry }) {
   const [content, setContent] = useState(null)
 
   useEffect(() => {
-    fetch("/api" + asPath).then(async (res) => {
-      //eslint-disable-next-line
-      console.log(await res.json())
-      // return res.json()
-    })
-    // .then((content) => {
-    //   setContent(content)
-    // })
+    fetch("/api" + asPath)
+      .then(async (res) => {
+        return res.json()
+      })
+      .then(({ content }) => {
+        setContent(content)
+      })
   }, [asPath])
 
   return (
