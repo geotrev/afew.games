@@ -1,13 +1,29 @@
-import { getEssayData } from "../../lib/get-essays"
+import { useRouter } from "next/router"
+import { useState, useEffect } from "react"
+import { getEssayData } from "../../lib/get-essay-metadata"
 
 export default function Essay({ entry }) {
-  const { metadata, content } = entry.article
-  const { title, description } = metadata
+  const { asPath } = useRouter()
+  const { date } = entry
+  const { title, description } = entry.metadata
+  const [content, setContent] = useState(null)
+
+  useEffect(() => {
+    fetch("/api" + asPath)
+      .then(async (res) => {
+        return res.json()
+      })
+      .then((content) => {
+        setContent(content)
+      })
+  }, [asPath])
+
   return (
     <article>
       <h1>{title}</h1>
       {description && <p>{description}</p>}
-      <div dangerouslySetInnerHTML={{ __html: content }}></div>
+      <time dateTime={date}>{date}</time>
+      {content && <div dangerouslySetInnerHTML={{ __html: content }} />}
     </article>
   )
 }
