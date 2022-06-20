@@ -1,22 +1,16 @@
-import { useRouter } from "next/router"
 import { useState, useEffect } from "react"
 import { getEssayData } from "../../lib/get-essay-metadata"
 
 export default function Essay({ entry }) {
-  const { asPath } = useRouter()
-  const { date } = entry
+  const { date, fileName } = entry
   const { title, description } = entry.metadata
   const [content, setContent] = useState(null)
 
   useEffect(() => {
-    fetch("/api" + asPath)
-      .then((res) => {
-        return res.json()
-      })
-      .then(({ content }) => {
-        setContent(content)
-      })
-  }, [asPath])
+    import(`../../public/essays/${fileName}`).then((mod) => {
+      setContent(mod.html)
+    })
+  }, [fileName])
 
   return (
     <article>
