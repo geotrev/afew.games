@@ -1,9 +1,9 @@
 backend:
-  name: git-gateway
-  branch: main
-media_folder: public/img
-public_folder: img
-publish_mode: editorial_workflow
+  name: "git-gateway"
+  branch: "main"
+media_folder: "public/uploads"
+public_folder: "/uploads"
+publish_mode: "editorial_workflow"
 
 collections:
   - name: "graded_games"
