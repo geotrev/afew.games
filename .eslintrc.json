@@ -7,6 +7,6 @@
   },
   "extends": ["next/core-web-vitals", "eslint:recommended", "prettier"],
   "rules": {
-    "no-console": 2
+    // "no-console": 2
   }
 }
