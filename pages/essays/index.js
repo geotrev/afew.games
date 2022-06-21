@@ -1,34 +1,121 @@
+import { useState, useEffect } from "react"
 import Link from "next/link"
-import { getEssayEntries } from "../../lib/get-essay-entries"
 
-export default function Essays({ essayList }) {
+async function fetchEssayItems(pageIdx, setPageData) {
+  fetch("/api/essays", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ pageIdx }),
+  })
+    .then((res) => {
+      if (res.ok) {
+        return res.json()
+      }
+    })
+    .then((pageData) => {
+      setPageData({
+        pageIdx,
+        ...pageData,
+      })
+    })
+    .catch((e) => {
+      throw new Error("FETCH ESSAYS ERROR:", e)
+    })
+}
+
+export default function Essays() {
+  const [pageData, setPageData] = useState({
+    count: -1,
+    essays: [],
+    pageIdx: -1,
+  })
+  const { count, essays, pageIdx } = pageData
+
+  useEffect(() => {
+    fetchEssayItems(0, setPageData)
+  }, [])
+
+  function goToPrevious() {
+    if (pageIdx === 0) return
+
+    const prevPageIdx = pageIdx - 1
+    fetchEssayItems(prevPageIdx, setPageData)
+  }
+
+  function goToPage(e) {
+    const targetPageIdx = parseInt(e.target.innerText, 10) - 1
+    if (pageIdx === targetPageIdx || Number.isNaN(targetPageIdx)) {
+      return
+    }
+
+    fetchEssayItems(targetPageIdx, setPageData)
+  }
+
+  function goToNext() {
+    const lastIdx = count - 1
+    if (pageIdx === lastIdx || count === 1) return
+
+    const nextPageIdx = pageIdx + 1
+    fetchEssayItems(nextPageIdx, setPageData)
+  }
+
+  function renderList() {
+    return (
+      <>
+        <ul>
+          {essays.map((entry) => {
+            const {
+              title,
+              description,
+              metadata: { urlPath, date, slug },
+            } = entry
+
+            return (
+              <li key={slug}>
+                <h3>
+                  <Link href={urlPath}>{title}</Link>
+                </h3>
+                <p>{description}</p>
+                <time dateTime={date}>{date}</time>
+              </li>
+            )
+          })}
+        </ul>
+        <ul>
+          <li>
+            <button type="button" onClick={goToPrevious}>
+              {"<"}
+            </button>
+          </li>
+          {Array(count)
+            .fill(null)
+            .map((_, idx) => {
+              return (
+                <li key={idx}>
+                  <button type="button" onClick={goToPage}>
+                    {idx + 1}
+                  </button>
+                </li>
+              )
+            })}
+          <li>
+            <button type="button" onClick={goToNext}>
+              {">"}
+            </button>
+          </li>
+        </ul>
+      </>
+    )
+  }
+
+  function renderLoader() {
+    return <div>Loading chips...</div>
+  }
+
   return (
     <div>
       <h1>Essays</h1>
-      <ul>
-        {essayList.map((entry) => {
-          const {
-            title,
-            description,
-            metadata: { urlPath, date, slug },
-          } = entry
-
-          return (
-            <li key={slug}>
-              <h3>
-                <Link href={urlPath}>{title}</Link>
-              </h3>
-              <p>{description}</p>
-              <time dateTime={date}>{date}</time>
-            </li>
-          )
-        })}
-      </ul>
+      {essays.length > 0 ? renderList() : renderLoader()}
     </div>
   )
-}
-
-export async function getServerSideProps() {
-  const essayList = await getEssayEntries()
-  return { props: { essayList } }
 }

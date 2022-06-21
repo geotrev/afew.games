@@ -15,7 +15,7 @@ async function getEntry(fileName) {
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
-    return res.status(501).end("Method Not Allowed")
+    return res.status(405).send("Method Not Allowed")
   }
 
   const content = await getEntry(req.body.fileName)

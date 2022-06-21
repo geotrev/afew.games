@@ -38,6 +38,16 @@ export default function Essay({ entry }) {
   )
 }
 
+/**
+ * 1. only static load slugs
+ * 2. use slug to retrieve full article content after initial load
+ *
+ * OR
+ *
+ * 1. use getServerSideProps to compare url/slug to static list of slugs
+ * 2a. if slug is valid, fetch article
+ * 2b. If slug is invalid, 404 or redirect to /essays
+ */
 export async function getStaticPaths() {
   const entries = await getEssayEntries()
   const paths = entries.map((entry) => getParams(entry.metadata.slug))
