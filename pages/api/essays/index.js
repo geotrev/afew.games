@@ -3,6 +3,8 @@ import path from "path"
 import * as parseMarkdown from "gray-matter"
 import chunk from "lodash-es/chunk"
 
+const MAX_LIST_LENGTH = 5
+
 async function getEntries(pageIdx) {
   const fileNames = (
     await fs.readdir(path.resolve(process.cwd(), "public", "essays"), "utf8")
@@ -22,7 +24,7 @@ async function getEntries(pageIdx) {
     return { ...data, metadata: { urlPath, date, slug } }
   })
 
-  const chunked = chunk(essayData, 10)
+  const chunked = chunk(essayData, MAX_LIST_LENGTH)
   const count = chunked.length
   if (count > 0) {
     const essays = await Promise.all(chunked[pageIdx])
