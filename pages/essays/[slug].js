@@ -3,10 +3,9 @@ import { getEssayEntries } from "../../lib/get-essay-entries"
 
 const getParams = (slug) => ({ params: { slug } })
 
-export default function Essay({ entry }) {
-  const { title, description } = entry
-  const { date, fileName, urlPath } = entry.metadata
-  const [content, setContent] = useState(null)
+export default function Essay({ metadata }) {
+  const { urlPath, fileName } = metadata
+  const [essay, setEssay] = useState(null)
 
   useEffect(() => {
     const url = "/api" + urlPath
@@ -20,22 +19,32 @@ export default function Essay({ entry }) {
           return res.json()
         }
       })
-      .then(({ content }) => {
-        setContent(content)
+      .then(({ essay }) => {
+        setEssay(essay)
       })
       .catch((e) => {
-        throw new Error(e)
+        throw new Error("FETCH ENTRY ERROR:", e)
       })
   }, [urlPath, fileName])
 
-  return (
-    <article>
-      <h1>{title}</h1>
-      {description && <p>{description}</p>}
-      <time dateTime={date}>{date}</time>
-      {content && <div dangerouslySetInnerHTML={{ __html: content }} />}
-    </article>
-  )
+  function renderLoader() {
+    return <div>Loading chips...</div>
+  }
+
+  function renderEssay() {
+    const { title, description, date, content } = essay
+
+    return (
+      <>
+        <time dateTime={date}>{date}</time>
+        <h1>{title}</h1>
+        {description && <p>{description}</p>}
+        <div dangerouslySetInnerHTML={{ __html: content }} />
+      </>
+    )
+  }
+
+  return <article>{essay ? renderEssay() : renderLoader()}</article>
 }
 
 /**
@@ -48,6 +57,7 @@ export default function Essay({ entry }) {
  * 2a. if slug is valid, fetch article
  * 2b. If slug is invalid, 404 or redirect to /essays
  */
+
 export async function getStaticPaths() {
   const entries = await getEssayEntries()
   const paths = entries.map((entry) => getParams(entry.metadata.slug))
@@ -56,6 +66,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: { slug } }) {
   const entries = await getEssayEntries()
-  const entry = entries.find((entry) => entry.metadata.slug === slug)
-  return { props: { entry } }
+  const { metadata } = entries.find((entry) => entry.metadata.slug === slug)
+  return { props: { metadata } }
 }

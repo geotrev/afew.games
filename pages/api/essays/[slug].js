@@ -8,9 +8,10 @@ async function getEntry(fileName) {
     path.resolve(process.cwd(), "public", "essays", fileName),
     "utf8"
   )
-  const { content: markdownContent } = parseMarkdown(raw)
+  const { data, content: markdownContent } = parseMarkdown(raw)
   const content = marked.parse(markdownContent)
-  return content
+  const [date] = fileName.split("--")
+  return { ...data, date, content }
 }
 
 export default async function handler(req, res) {
@@ -18,10 +19,10 @@ export default async function handler(req, res) {
     return res.status(405).send("Method Not Allowed")
   }
 
-  const content = await getEntry(req.body.fileName)
-  if (!content) {
+  const essay = await getEntry(req.body.fileName)
+  if (!essay) {
     return res.status(500)
   }
 
-  return res.status(200).json({ content })
+  return res.status(200).json({ essay })
 }
