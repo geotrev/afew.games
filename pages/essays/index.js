@@ -30,31 +30,25 @@ export default function Essays() {
     pageIdx: -1,
   })
   const { count, essays, pageIdx } = pageData
+  const lastPageIdx = count - 1
 
   useEffect(() => {
     fetchEssayItems(0, setPageData)
   }, [])
 
   function goToPrevious() {
-    if (pageIdx === 0) return
-
     const prevPageIdx = pageIdx - 1
     fetchEssayItems(prevPageIdx, setPageData)
   }
 
   function goToPage(e) {
     const targetPageIdx = parseInt(e.target.innerText, 10) - 1
-    if (pageIdx === targetPageIdx || Number.isNaN(targetPageIdx)) {
-      return
+    if (pageIdx !== targetPageIdx) {
+      fetchEssayItems(targetPageIdx, setPageData)
     }
-
-    fetchEssayItems(targetPageIdx, setPageData)
   }
 
   function goToNext() {
-    const lastIdx = count - 1
-    if (pageIdx === lastIdx || count === 1) return
-
     const nextPageIdx = pageIdx + 1
     fetchEssayItems(nextPageIdx, setPageData)
   }
@@ -83,7 +77,11 @@ export default function Essays() {
         </ul>
         <ul>
           <li>
-            <button type="button" onClick={goToPrevious}>
+            <button
+              type="button"
+              disabled={pageIdx === 0}
+              onClick={goToPrevious}
+            >
               {"<"}
             </button>
           </li>
@@ -92,14 +90,22 @@ export default function Essays() {
             .map((_, idx) => {
               return (
                 <li key={idx}>
-                  <button type="button" onClick={goToPage}>
+                  <button
+                    type="button"
+                    disabled={idx === pageIdx}
+                    onClick={goToPage}
+                  >
                     {idx + 1}
                   </button>
                 </li>
               )
             })}
           <li>
-            <button type="button" onClick={goToNext}>
+            <button
+              type="button"
+              disabled={lastPageIdx === pageIdx}
+              onClick={goToNext}
+            >
               {">"}
             </button>
           </li>
