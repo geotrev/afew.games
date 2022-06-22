@@ -1,0 +1,49 @@
+.essayList {
+  margin-block-end: 2rem;
+}
+
+.essayItem {
+  margin-block-end: 1rem;
+}
+
+.essayItemHeading {
+  font-size: 24px;
+  margin-block-end: 0.5rem;
+}
+
+.essayItemDescription {
+  font-size: 16px;
+  margin-block-end: 0.5rem;
+}
+
+.essayItemTime {
+  font-size: 14px;
+}
+
+.pagination {
+  display: flex;
+  gap: 1rem;
+}
+
+.paginationButton {
+  height: 2.15rem;
+  width: 2.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  appearance: none;
+  border-radius: 2px;
+  background: transparent;
+  border: none;
+  padding: 0.5rem 0.75rem;
+
+  &:hover:not([disabled]) {
+    background: lightgray;
+    color: #222;
+  }
+
+  &[disabled] {
+    color: #666;
+  }
+}

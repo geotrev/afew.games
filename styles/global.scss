@@ -1,5 +1,21 @@
 @use "reset";
 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  background-color: #222;
+  color: white;
+}
+
+a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+button {
+  color: white;
+}
+
 .app-container {
   max-width: 800px;
   margin: 0 auto;
@@ -7,4 +23,6 @@
 
 h1 {
   font-size: 34px;
+  font-weight: bold;
+  margin-block-end: 1rem;
 }

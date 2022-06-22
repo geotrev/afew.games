@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import Layout from "components/layout"
+import styles from "./essays.module.scss"
 
 async function fetchEssayItems(pageIdx, setPageData) {
   fetch("/api/essays", {
@@ -54,10 +55,53 @@ export default function Essays() {
     fetchEssayItems(nextPageIdx, setPageData)
   }
 
+  function renderPagination() {
+    return (
+      <ul className={styles.pagination}>
+        <li>
+          <button
+            className={styles.paginationButton}
+            type="button"
+            disabled={pageIdx === 0}
+            onClick={goToPrevious}
+          >
+            {"ᐊ"}
+          </button>
+        </li>
+        {Array(count)
+          .fill(null)
+          .map((_, idx) => {
+            return (
+              <li key={idx}>
+                <button
+                  className={styles.paginationButton}
+                  type="button"
+                  disabled={idx === pageIdx}
+                  onClick={goToPage}
+                >
+                  {idx + 1}
+                </button>
+              </li>
+            )
+          })}
+        <li>
+          <button
+            className={styles.paginationButton}
+            type="button"
+            disabled={lastPageIdx === pageIdx}
+            onClick={goToNext}
+          >
+            {"ᐅ"}
+          </button>
+        </li>
+      </ul>
+    )
+  }
+
   function renderList() {
     return (
       <>
-        <ul>
+        <ul className={styles.essayList}>
           {essays.map((entry) => {
             const {
               title,
@@ -66,51 +110,19 @@ export default function Essays() {
             } = entry
 
             return (
-              <li key={slug}>
-                <h3>
+              <li key={slug} className={styles.essayItem}>
+                <h2 className={styles.essayItemHeading}>
                   <Link href={urlPath}>{title}</Link>
-                </h3>
-                <p>{description}</p>
-                <time dateTime={date}>{date}</time>
+                </h2>
+                <p className={styles.essayItemDescription}>{description}</p>
+                <time className={styles.essayItemTime} dateTime={date}>
+                  {date}
+                </time>
               </li>
             )
           })}
         </ul>
-        <ul>
-          <li>
-            <button
-              type="button"
-              disabled={pageIdx === 0}
-              onClick={goToPrevious}
-            >
-              {"<"}
-            </button>
-          </li>
-          {Array(count)
-            .fill(null)
-            .map((_, idx) => {
-              return (
-                <li key={idx}>
-                  <button
-                    type="button"
-                    disabled={idx === pageIdx}
-                    onClick={goToPage}
-                  >
-                    {idx + 1}
-                  </button>
-                </li>
-              )
-            })}
-          <li>
-            <button
-              type="button"
-              disabled={lastPageIdx === pageIdx}
-              onClick={goToNext}
-            >
-              {">"}
-            </button>
-          </li>
-        </ul>
+        {renderPagination()}
       </>
     )
   }
