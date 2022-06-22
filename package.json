@@ -68,5 +68,8 @@
       "perf",
       "test"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.52.3"
   }
 }

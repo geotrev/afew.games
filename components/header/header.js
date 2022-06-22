@@ -1,22 +1,24 @@
 import Script from "next/script"
 import Link from "next/link"
+import styles from "./styles.module.scss"
 
 export default function Header() {
   return (
-    <header>
+    <header className={styles.pageHeader}>
       <Script
         defer
         src="https://identity.netlify.com/v1/netlify-identity-widget.js"
       />
+      <p className={styles.pageHeading}>A few games...</p>
       <nav>
-        <ul>
-          <li>
+        <ul className={styles.navList}>
+          <li className={styles.navListItem}>
             <Link href="/">Home</Link>
           </li>
-          <li>
+          <li className={styles.navListItem}>
             <Link href="/essays">Essays</Link>
           </li>
-          <li>
+          <li className={styles.navListItem}>
             <Link href="/games">Games</Link>
           </li>
         </ul>

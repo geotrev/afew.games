@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import Layout from "components/layout"
 import { getEssayEntries } from "../../lib/get-essay-entries"
 
 const getParams = (slug) => ({ params: { slug } })
@@ -44,7 +45,11 @@ export default function Essay({ metadata }) {
     )
   }
 
-  return <article>{essay ? renderEssay() : renderLoader()}</article>
+  return (
+    <Layout>
+      <article>{essay ? renderEssay() : renderLoader()}</article>
+    </Layout>
+  )
 }
 
 /**

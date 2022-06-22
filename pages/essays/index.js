@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Layout from "components/layout"
 
 async function fetchEssayItems(pageIdx, setPageData) {
   fetch("/api/essays", {
@@ -119,9 +120,9 @@ export default function Essays() {
   }
 
   return (
-    <div>
+    <Layout>
       <h1>Essays</h1>
       {essays.length > 0 ? renderList() : renderLoader()}
-    </div>
+    </Layout>
   )
 }

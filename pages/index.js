@@ -1,11 +1,9 @@
-// import { attributes, react as HomeContent } from '../content/home.md';
-// attributes (frontmatter)
-// <HomeContent /> (actual content)
+import Layout from "components/layout"
 
 export default function Home() {
   return (
-    <>
-      <div>This is a home page.</div>
-    </>
+    <Layout>
+      <h1>This is a home page.</h1>
+    </Layout>
   )
 }

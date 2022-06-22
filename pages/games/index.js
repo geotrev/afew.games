@@ -1,3 +1,9 @@
+import Layout from "components/layout"
+
 export default function Games() {
-  return <div>Games are here. Somewhere...</div>
+  return (
+    <Layout>
+      <h1>Games are here. Somewhere...</h1>
+    </Layout>
+  )
 }
