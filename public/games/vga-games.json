@@ -1,6 +1,18 @@
 {
   "games": [
     {
+      "name": "Switch Lite (Dialga & Palkia Edition)",
+      "console": "Nintendo Switch",
+      "grade": "90",
+      "variant": "No Seal"
+    },
+    {
+      "name": "Super Smash Bros. For Wii U",
+      "console": "Wii U",
+      "grade": "85+",
+      "variant": "W/ Controller and Adapter"
+    },
+    {
       "name": "Pokemon: Let's Go, Pikachu!",
       "console": "Nintendo Switch",
       "grade": "90",
