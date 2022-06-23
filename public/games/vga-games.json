@@ -1,6 +1,12 @@
 {
   "games": [
     {
+      "name": "Nintendo Switch (Animal Crossing Edition)",
+      "console": "Nintendo Switch",
+      "grade": "90",
+      "variant": "U.S. Date Format"
+    },
+    {
       "name": "Metroid Dread",
       "console": "Nintendo Switch",
       "grade": "85+",
