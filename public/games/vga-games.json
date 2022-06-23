@@ -1,6 +1,24 @@
 {
   "games": [
     {
+      "name": "POkemon: Let's Go, Pikachu!",
+      "console": "Nintendo Switch",
+      "grade": "90",
+      "variant": "W/ Pokeball Plus"
+    },
+    {
+      "name": "Pokemon: Let's Go, Eevee!",
+      "variant": "W/ Pokeball Plus",
+      "grade": "85+",
+      "console": "Nintendo Switch"
+    },
+    {
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "console": "Nintendo Switch",
+      "grade": "85",
+      "variant": "Special Edition"
+    },
+    {
       "name": "Nintendo Switch (Animal Crossing Edition)",
       "console": "Nintendo Switch",
       "grade": "90",
