@@ -65,12 +65,12 @@ export default function Essay({ metadata }) {
 
 export async function getStaticPaths() {
   const entries = await getEssayEntries()
-  const paths = entries.map((entry) => getParams(entry.metadata.slug))
+  const paths = entries.map((entry) => getParams(entry.slug))
   return { paths, fallback: false }
 }
 
 export async function getStaticProps({ params: { slug } }) {
   const entries = await getEssayEntries()
-  const { metadata } = entries.find((entry) => entry.metadata.slug === slug)
-  return { props: { metadata } }
+  const metadata = entries.find((entry) => entry.slug === slug)
+  return { props: metadata }
 }
