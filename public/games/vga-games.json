@@ -1,6 +1,12 @@
 {
   "games": [
     {
+      "name": "Nintendo DS Lite (Onyx Dialga & Palkia)",
+      "console": "Nintendo DS Lite",
+      "grade": "75",
+      "variant": "Limited Edition"
+    },
+    {
       "name": "Switch Lite (Dialga & Palkia Edition)",
       "console": "Nintendo Switch",
       "grade": "90",
