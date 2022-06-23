@@ -1,6 +1,78 @@
 {
   "games": [
     {
+      "name": "Nintendo DS Lite (Onyx Dialga & Palkia)",
+      "console": "Nintendo DS Lite",
+      "grade": "75",
+      "variant": "Limited Edition"
+    },
+    {
+      "name": "Switch Lite (Dialga & Palkia Edition)",
+      "console": "Nintendo Switch",
+      "grade": "90",
+      "variant": "No Seal"
+    },
+    {
+      "name": "Super Smash Bros. For Wii U",
+      "console": "Wii U",
+      "grade": "85+",
+      "variant": "W/ Controller and Adapter"
+    },
+    {
+      "name": "Pokemon: Let's Go, Pikachu!",
+      "console": "Nintendo Switch",
+      "grade": "90",
+      "variant": "W/ Pokeball Plus"
+    },
+    {
+      "name": "Pokemon: Let's Go, Eevee!",
+      "variant": "W/ Pokeball Plus",
+      "grade": "85+",
+      "console": "Nintendo Switch"
+    },
+    {
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "console": "Nintendo Switch",
+      "grade": "85",
+      "variant": "Special Edition"
+    },
+    {
+      "name": "Nintendo Switch (Animal Crossing Edition)",
+      "console": "Nintendo Switch",
+      "grade": "90",
+      "variant": "U.S. Date Format"
+    },
+    {
+      "name": "Metroid Dread",
+      "console": "Nintendo Switch",
+      "grade": "85+",
+      "variant": "Special Edition"
+    },
+    {
+      "name": "Metroid Dread",
+      "console": "Nintendo Switch",
+      "grade": "90+",
+      "variant": "Special Edition"
+    },
+    {
+      "name": "DSi (Reshiram & Zekrom Edition)",
+      "console": "Nintendo DSi",
+      "grade": "85",
+      "variant": "Console/Game Bundle, W/ Pokemon Black Version"
+    },
+    {
+      "name": "DSi (Reshiram & Zekrom Edition)",
+      "console": "Nintendo DSi",
+      "grade": "85+",
+      "variant": "Console/Game Bundle, W/ Pokemon White Version"
+    },
+    {
+      "name": "Mega Man Zero",
+      "console": "Game Boy Advance",
+      "grade": "85+",
+      "variant": "H-Seam"
+    },
+    {
       "name": "Mario Kart 8",
       "console": "Nintendo Wii U",
       "grade": "95+",
