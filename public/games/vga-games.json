@@ -1,6 +1,18 @@
 {
   "games": [
     {
+      "name": "DSi (Reshiram & Zekrom Edition)",
+      "console": "Nintendo DSi",
+      "grade": "85",
+      "variant": "Console/Game Bundle, W/ Pokemon Black Version"
+    },
+    {
+      "name": "DSi (Reshiram & Zekrom Edition)",
+      "console": "Nintendo DSi",
+      "grade": "85+",
+      "variant": "Console/Game Bundle, W/ Pokemon White Version"
+    },
+    {
       "name": "Mega Man Zero",
       "console": "Game Boy Advance",
       "grade": "85+",
