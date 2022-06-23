@@ -1,6 +1,18 @@
 {
   "games": [
     {
+      "name": "Metroid Dread",
+      "console": "Nintendo Switch",
+      "grade": "85+",
+      "variant": "Special Edition"
+    },
+    {
+      "name": "Metroid Dread",
+      "console": "Nintendo Switch",
+      "grade": "90+",
+      "variant": "Special Edition"
+    },
+    {
       "name": "DSi (Reshiram & Zekrom Edition)",
       "console": "Nintendo DSi",
       "grade": "85",
