@@ -1,6 +1,12 @@
 {
   "games": [
     {
+      "name": "Mega Man Zero",
+      "console": "Game Boy Advance",
+      "grade": "85+",
+      "variant": "H-Seam"
+    },
+    {
       "name": "Mario Kart 8",
       "console": "Nintendo Wii U",
       "grade": "95+",
