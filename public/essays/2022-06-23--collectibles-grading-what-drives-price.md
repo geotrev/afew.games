@@ -1,5 +1,5 @@
 ---
-title: "Collectibles & Grading: What Drives Price?"
+title: "Collectibles & Grading: What Drives Prices?"
 description: In 2022, grading collectibles is like saying butter goes on bread.
   Why? Let's talk about the appeal of this category and why prices seem to be in
   a league of their own!
