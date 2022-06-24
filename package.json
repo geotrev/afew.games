@@ -32,6 +32,7 @@
     "@babel/preset-env": "^7.18.2",
     "@babel/preset-react": "^7.17.12",
     "@netlify/plugin-nextjs": "^4.9.1",
+    "classnames": "^2.3.1",
     "commithelper": "^1.2.0",
     "eslint": "^8.18.0",
     "eslint-config-next": "12.1.6",
@@ -46,9 +47,10 @@
     "path": "^0.12.7",
     "prettier": "^2.7.1",
     "prop-types": "^15.8.1",
-    "sass": "^1.52.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.52.3"
   },
   "lint-staged": {
     "src/**/*.js": [

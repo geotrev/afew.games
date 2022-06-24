@@ -1,14 +1,28 @@
 .pageHeader {
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 1rem 1rem 3rem 1rem;
 }
 
 .pageHeading {
+  text-transform: uppercase;
+  color: #999;
   margin: 0 0 1rem 0;
   padding: 0;
-  font-size: 32px;
 }
 
 .navList {
   display: flex;
   gap: 1rem;
+}
+
+.navListItemLink {
+  display: block;
+  padding-block-end: 0.5rem;
+
+  &.isActive {
+    border-block-end: 3px solid #999;
+  }
+
+  &:hover:not(.isActive) {
+    border-block-end: 3px solid #666;
+  }
 }

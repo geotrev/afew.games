@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import classNames from "classnames"
 import Layout from "components/layout"
 import styles from "./essays.module.scss"
 
@@ -74,7 +75,9 @@ export default function Essays() {
             return (
               <li key={idx}>
                 <button
-                  className={styles.paginationButton}
+                  className={classNames(styles.paginationButton, {
+                    [styles.isActive]: idx === pageIdx,
+                  })}
                   type="button"
                   disabled={idx === pageIdx}
                   onClick={goToPage}
@@ -111,13 +114,15 @@ export default function Essays() {
 
             return (
               <li key={slug} className={styles.essayItem}>
-                <h2 className={styles.essayItemHeading}>
+                <p className={classNames(styles.essayItemTimePara, "text-xs")}>
+                  <time className={styles.essayItemTime} dateTime={date}>
+                    {date}
+                  </time>
+                </p>
+                <h2 className={classNames(styles.essayItemHeading, "text-xl")}>
                   <Link href={urlPath}>{title}</Link>
                 </h2>
                 <p className={styles.essayItemDescription}>{description}</p>
-                <time className={styles.essayItemTime} dateTime={date}>
-                  {date}
-                </time>
               </li>
             )
           })}
@@ -133,7 +138,7 @@ export default function Essays() {
 
   return (
     <Layout>
-      <h1>Essays</h1>
+      <h1>./Essays</h1>
       {essays.length > 0 ? renderList() : renderLoader()}
     </Layout>
   )

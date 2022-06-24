@@ -3,8 +3,6 @@ title: Welcome to a new world! 8
 description: This is a test post for development. It'll be deleted once the site is ready.
 ---
 
-## Introduction
-
 A bullfrog brew caricatures a miller toward a hops. The Pilsner Urquell eats a Jamaica Red Ale related to a Yuengling. A Harpoon from a scooby snack is twisted. A power drill drink makes love to an Amarillo Pale Ale over another miller. A monkey bite has a change of heart about some Bridgeport ESB beyond some bill.
 
 ### The Dixie Beer

@@ -1,0 +1,28 @@
+.essayTitle {
+  color: #ccc;
+  margin-block-end: 1.5rem;
+}
+
+.essayItemTimePara {
+  margin-block-end: 0.5rem;
+}
+
+.essayItemTime {
+  color: #999;
+  font-weight: bold;
+}
+
+.essayDescription {
+  margin-block-end: 3rem;
+}
+
+.essayBody {
+  > p:first-of-type::first-letter {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #666;
+    float: left;
+    font-size: 4.5rem;
+    margin: 0.65rem 0.75rem 0 0;
+    line-height: 0.85;
+  }
+}

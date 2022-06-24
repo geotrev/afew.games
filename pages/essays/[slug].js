@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react"
 import Layout from "components/layout"
+import classNames from "classnames"
 import { getEssayEntries } from "../../lib/get-essay-entries"
+import styles from "./essay.module.scss"
 
 const getParams = (slug) => ({ params: { slug } })
 
-export default function Essay({ metadata }) {
-  const { urlPath, fileName } = metadata
+export default function Essay({ urlPath, fileName }) {
   const [essay, setEssay] = useState(null)
 
   useEffect(() => {
@@ -37,10 +38,21 @@ export default function Essay({ metadata }) {
 
     return (
       <>
-        <time dateTime={date}>{date}</time>
-        <h1>{title}</h1>
-        {description && <p>{description}</p>}
-        <div dangerouslySetInnerHTML={{ __html: content }} />
+        <p className={[styles.essayItemTimePara]}>
+          <time className={styles.essayItemTime} dateTime={date}>
+            {date}
+          </time>
+        </p>
+        <h1 className={styles.essayTitle}>{title}</h1>
+        {description && (
+          <p className={classNames(styles.essayDescription, "text-lg")}>
+            {description}
+          </p>
+        )}
+        <div
+          className={styles.essayBody}
+          dangerouslySetInnerHTML={{ __html: content }}
+        />
       </>
     )
   }
@@ -71,6 +83,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: { slug } }) {
   const entries = await getEssayEntries()
-  const metadata = entries.find((entry) => entry.slug === slug)
-  return { props: metadata }
+  const props = entries.find((entry) => entry.slug === slug)
+  return { props }
 }
