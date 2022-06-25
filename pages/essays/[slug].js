@@ -29,10 +29,6 @@ export default function Essay({ urlPath, fileName }) {
       })
   }, [urlPath, fileName])
 
-  function renderLoader() {
-    return <div>Loading chips...</div>
-  }
-
   function renderEssay() {
     const { title, description, date, content } = essay
 
@@ -53,6 +49,56 @@ export default function Essay({ urlPath, fileName }) {
           className={styles.essayBody}
           dangerouslySetInnerHTML={{ __html: content }}
         />
+      </>
+    )
+  }
+
+  const bodyPlaceholderIterator = Array(10).fill(null)
+
+  function renderLoader() {
+    return (
+      <>
+        <div className={styles.empyStateContainer}>
+          <div
+            className={classNames(
+              styles.animateBg,
+              styles.bgHeightMd,
+              styles.bgNarrow,
+              styles.metadataAnim
+            )}
+          >
+            <div className={styles.bgMask}></div>
+          </div>
+          <div
+            className={classNames(
+              styles.animateBg,
+              styles.bgHeightXl,
+              styles.titleAnim
+            )}
+          >
+            <div className={styles.bgMask}></div>
+          </div>
+          <br />
+          <div className={classNames(styles.animateBg, styles.descAnim)}>
+            <div className={styles.bgMask}></div>
+          </div>
+          <br />
+          <br />
+          {bodyPlaceholderIterator.map((_, idx) => {
+            return (
+              <div
+                key={idx}
+                className={classNames(
+                  styles.animateBg,
+                  styles[`contentAnim-${idx}`],
+                  styles.bgHeightMd
+                )}
+              >
+                <div className={styles.bgMask}></div>
+              </div>
+            )
+          })}
+        </div>
       </>
     )
   }

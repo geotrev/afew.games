@@ -35,6 +35,9 @@ export default function Essays() {
   const { count, essays, pageIdx } = pageData
   const lastPageIdx = count - 1
 
+  const placeholderIterator = Array(5).fill(null)
+  const itemIterator = count > -1 ? Array(count).fill(null) : []
+
   useEffect(() => {
     fetchEssayItems(0, setPageData)
   }, [])
@@ -69,24 +72,22 @@ export default function Essays() {
             {"ᐊ"}
           </button>
         </li>
-        {Array(count)
-          .fill(null)
-          .map((_, idx) => {
-            return (
-              <li key={idx}>
-                <button
-                  className={classNames(styles.paginationButton, {
-                    [styles.isActive]: idx === pageIdx,
-                  })}
-                  type="button"
-                  disabled={idx === pageIdx}
-                  onClick={goToPage}
-                >
-                  {idx + 1}
-                </button>
-              </li>
-            )
-          })}
+        {itemIterator.map((_, idx) => {
+          return (
+            <li key={idx}>
+              <button
+                className={classNames(styles.paginationButton, {
+                  [styles.isActive]: idx === pageIdx,
+                })}
+                type="button"
+                disabled={idx === pageIdx}
+                onClick={goToPage}
+              >
+                {idx + 1}
+              </button>
+            </li>
+          )
+        })}
         <li>
           <button
             className={styles.paginationButton}
@@ -133,7 +134,38 @@ export default function Essays() {
   }
 
   function renderLoader() {
-    return <div>Loading chips...</div>
+    return (
+      <div>
+        {placeholderIterator.map((_, idx) => {
+          return (
+            <div key={idx} className={styles.empyStateContainer}>
+              <div
+                className={classNames(
+                  styles.animateBg,
+                  styles.bgHeightSm,
+                  styles.bgNarrow,
+                  styles.metadataAnim
+                )}
+              >
+                <div className={styles.bgMask}></div>
+              </div>
+              <div className={classNames(styles.animateBg, styles.titleAnim)}>
+                <div className={styles.bgMask}></div>
+              </div>
+              <div
+                className={classNames(
+                  styles.animateBg,
+                  styles.bgHeightMd,
+                  styles.descAnim
+                )}
+              >
+                <div className={styles.bgMask}></div>
+              </div>
+            </div>
+          )
+        })}
+      </div>
+    )
   }
 
   return (
