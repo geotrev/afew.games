@@ -1,4 +1,4 @@
-// import { useEffect, useState } from "react"
+import Image from "next/image"
 import { useRouter } from "next/router"
 import Script from "next/script"
 import Link from "next/link"
@@ -20,7 +20,15 @@ export default function Header() {
         defer
         src="https://identity.netlify.com/v1/netlify-identity-widget.js"
       />
-      <p className={classNames(styles.pageHeading, "text-xs")}>a few games</p>
+      <div className={styles.logoContainer}>
+        <Image
+          src="/logo.png"
+          width={183}
+          height={21}
+          alt="a few games"
+          role="presentation"
+        />
+      </div>
       <nav>
         <ul className={styles.navList}>
           <li>
