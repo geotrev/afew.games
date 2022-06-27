@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import Layout from "components/layout"
 import classNames from "classnames"
-import { getEssayEntries } from "../../lib/get-essay-entries"
+import { getEssaysMetadata } from "../../lib/get-essays-metadata"
 import styles from "./essay.module.scss"
 import Types from "prop-types"
 
@@ -117,13 +117,13 @@ Essay.propTypes = {
 }
 
 export async function getStaticPaths() {
-  const entries = await getEssayEntries()
+  const entries = await getEssaysMetadata()
   const paths = entries.map((entry) => getParams(entry.slug))
   return { paths, fallback: false }
 }
 
 export async function getStaticProps({ params: { slug } }) {
-  const entries = await getEssayEntries()
+  const entries = await getEssaysMetadata()
   const props = entries.find((entry) => entry.slug === slug)
   return { props }
 }

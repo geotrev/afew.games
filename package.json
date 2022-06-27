@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node ./.bin/seed-essays.js",
+    "postinstall": "npm run seed",
     "dev": "next",
     "build": "next build",
     "start": "next start",

@@ -5,7 +5,20 @@ import Layout from "components/layout"
 import Pagination from "components/pagination"
 import styles from "./essays.module.scss"
 
-async function fetchEssayItems(pageIdx, setPageData) {
+const PageMap = new Map()
+
+function purgeMapData() {
+  PageMap.clear()
+}
+
+async function fetchEssayItems(pageIdx, setPageData, pageData) {
+  if (PageMap.has(pageIdx)) {
+    return setPageData({ ...PageMap.get(pageIdx) })
+  }
+
+  // Show loading state while loading new items
+  const timerId = setTimeout(() => setPageData({ ...pageData, essays: [] }), 50)
+
   fetch("/api/essays", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -17,45 +30,54 @@ async function fetchEssayItems(pageIdx, setPageData) {
       }
     })
     .then((pageData) => {
+      clearTimeout(timerId)
       setPageData({
         pageIdx,
         ...pageData,
       })
+      PageMap.set(pageIdx, { pageIdx, ...pageData })
     })
     .catch((e) => {
-      throw new Error("FETCH ESSAYS ERROR:", e)
+      clearTimeout(timerId)
+      if (pageData) {
+        setPageData({ ...pageData })
+        return
+      }
+
+      // eslint-disable-next-line no-console
+      console.error(e)
     })
 }
 
 export default function Essays() {
   const [pageData, setPageData] = useState({
-    count: -1,
+    count: 0,
     essays: [],
     pageIdx: -1,
   })
   const { count, essays, pageIdx } = pageData
-
   const placeholderIterator = Array(5).fill(null)
 
   useEffect(() => {
     fetchEssayItems(0, setPageData)
+    return purgeMapData
   }, [])
 
   function onPreviousClick() {
     const prevPageIdx = pageIdx - 1
-    fetchEssayItems(prevPageIdx, setPageData)
+    fetchEssayItems(prevPageIdx, setPageData, pageData)
   }
 
   function onPageClick(e) {
     const targetPageIdx = parseInt(e.target.innerText, 10) - 1
     if (pageIdx !== targetPageIdx) {
-      fetchEssayItems(targetPageIdx, setPageData)
+      fetchEssayItems(targetPageIdx, setPageData, pageData)
     }
   }
 
   function onNextClick() {
     const nextPageIdx = pageIdx + 1
-    fetchEssayItems(nextPageIdx, setPageData)
+    fetchEssayItems(nextPageIdx, setPageData, pageData)
   }
 
   function renderEssayItem(entry) {
@@ -81,18 +103,7 @@ export default function Essays() {
   }
 
   function renderList() {
-    return (
-      <>
-        <ul className={styles.essayList}>{essays.map(renderEssayItem)}</ul>
-        <Pagination
-          count={count}
-          activePageIndex={pageIdx}
-          onNextClick={onNextClick}
-          onPreviousClick={onPreviousClick}
-          onPageClick={onPageClick}
-        />
-      </>
-    )
+    return <ul className={styles.essayList}>{essays.map(renderEssayItem)}</ul>
   }
 
   function renderLoader() {
@@ -132,8 +143,19 @@ export default function Essays() {
 
   return (
     <Layout>
-      <h1>./Essays</h1>
+      <h1>
+        <span aria-hidden="true">./</span>Essays
+      </h1>
       {essays.length > 0 ? renderList() : renderLoader()}
+      {count > 0 && (
+        <Pagination
+          count={count}
+          activePageIndex={pageIdx}
+          onNextClick={onNextClick}
+          onPreviousClick={onPreviousClick}
+          onPageClick={onPageClick}
+        />
+      )}
     </Layout>
   )
 }

@@ -15,7 +15,6 @@ Nisl nunc mi ipsum faucibus vitae aliquet nec. Lobortis elementum nibh tellus mo
 }
 
 function getFileName(i) {
-  const startingDate = 14
   const date = new Date(`2022-01-01`)
   if (i > 0) date.setDate(date.getDate() + i)
   const slug = `example-article-title-${i}`
@@ -24,10 +23,16 @@ function getFileName(i) {
 }
 
 function writeEssays() {
+  const seedPath = path.resolve(process.cwd(), ".seed/essays")
+
+  if (!fs.existsSync(seedPath)) {
+    fs.mkdirSync(seedPath, { recursive: true })
+  }
+
   for (let i = 0; i < iterations; i++) {
     const content = getContent(i)
     const fileName = getFileName(i)
-    const fileTarget = path.resolve(process.cwd(), "public/essays", fileName)
+    const fileTarget = path.resolve(seedPath, fileName)
     fs.writeFileSync(fileTarget, content, "utf8")
   }
 }

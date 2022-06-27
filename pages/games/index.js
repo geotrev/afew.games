@@ -65,7 +65,9 @@ function renderGamesTable(games, label) {
 export default function Games({ games }) {
   return (
     <Layout>
-      <h1>./Games</h1>
+      <h1>
+        <span aria-hidden="true">./</span>Games
+      </h1>
       <p>
         {
           "Many of the games I own are graded by third party authenticators. Namely, VGA (Video Game Authority) and Wata Games. Due to the rising prices of this service, I've opted to stop grading games and simply encase them in reusable acrylic holders."
