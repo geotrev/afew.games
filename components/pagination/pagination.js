@@ -9,50 +9,56 @@ export default function Pagination({
   onPreviousClick,
   onPageClick,
 }) {
-  if (count === -1) return null
+  if (count === -1 || !count) return null
 
   const lastPageIdx = count - 1
-  const itemIterator = count > -1 ? Array(count).fill(null) : []
+  const itemIterator = Array(count).fill(null)
 
   return (
-    <ul className={styles.pagination}>
-      <li>
-        <button
-          className={styles.paginationButton}
-          type="button"
-          disabled={activePageIndex === 0}
-          onClick={onPreviousClick}
-        >
-          {"ᐊ"}
-        </button>
-      </li>
-      {itemIterator.map((_, idx) => {
-        return (
-          <li key={idx}>
-            <button
-              className={classNames(styles.paginationButton, {
-                [styles.isActive]: idx === activePageIndex,
-              })}
-              type="button"
-              disabled={idx === activePageIndex}
-              onClick={onPageClick}
-            >
-              {idx + 1}
-            </button>
-          </li>
-        )
-      })}
-      <li>
-        <button
-          className={styles.paginationButton}
-          type="button"
-          disabled={lastPageIdx === activePageIndex}
-          onClick={onNextClick}
-        >
-          {"ᐅ"}
-        </button>
-      </li>
-    </ul>
+    <nav aria-label="Pagination navigation">
+      <ul className={styles.pagination}>
+        <li>
+          <button
+            className={styles.paginationButton}
+            type="button"
+            disabled={activePageIndex === 0}
+            onClick={onPreviousClick}
+          >
+            {"ᐊ"}
+          </button>
+        </li>
+        {itemIterator.map((_, idx) => {
+          const isActive = idx === activePageIndex
+          const label = `Page ${idx + 1}`
+          return (
+            <li key={idx}>
+              <button
+                className={classNames(styles.paginationButton, {
+                  [styles.isActive]: isActive,
+                })}
+                aria-current={isActive ? "true" : null}
+                aria-label={isActive ? `${label}, current page` : label}
+                type="button"
+                disabled={idx === activePageIndex}
+                onClick={onPageClick}
+              >
+                {idx + 1}
+              </button>
+            </li>
+          )
+        })}
+        <li>
+          <button
+            className={styles.paginationButton}
+            type="button"
+            disabled={lastPageIdx === activePageIndex}
+            onClick={onNextClick}
+          >
+            {"ᐅ"}
+          </button>
+        </li>
+      </ul>
+    </nav>
   )
 }
 

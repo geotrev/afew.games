@@ -11,13 +11,18 @@ function purgeMapData() {
   PageMap.clear()
 }
 
-function fetchEssayItems({ pageIdx, setPageData, pageData, focusHeading }) {
+function fetchEssayItems({
+  pageIdx,
+  setPageData,
+  pageData: prevPageData,
+  focusList,
+}) {
   if (PageMap.has(pageIdx)) {
     return setPageData({ ...PageMap.get(pageIdx) })
   }
 
   // Sets loading state
-  setPageData({ ...pageData, essays: [] })
+  setPageData({ ...(prevPageData || {}), essays: [] })
 
   // Fetch target pageIdx and load its items
   fetch("/api/essays", {
@@ -37,20 +42,20 @@ function fetchEssayItems({ pageIdx, setPageData, pageData, focusHeading }) {
       }
 
       // This is only really so initial page load doesn't
-      // steal focus. All other cases, focus heading
+      // steal focus. All other cases, focus list
       // to reflect new page content
-      if (focusHeading) {
-        payload.focusHeading = true
+      if (focusList) {
+        payload.focusList = true
       }
 
       setPageData(payload)
 
       // Memoize payload for quicker change next time
-      PageMap.set(pageIdx, { ...payload, focusHeading: true })
+      PageMap.set(pageIdx, { ...payload, focusList: true })
     })
     .catch((e) => {
-      if (pageData) {
-        setPageData({ ...pageData })
+      if (prevPageData) {
+        setPageData({ ...prevPageData })
         return
       }
 
@@ -64,31 +69,33 @@ export default function Essays() {
     count: 0,
     essays: [],
     pageIdx: -1,
-    focusHeading: false,
+    focusList: false,
   })
   const { count, essays, pageIdx } = pageData
   const placeholderIterator = Array(5).fill(null)
-  const headingRef = useRef(null)
+  const listRef = useRef(null)
 
   useEffect(() => {
+    // Initial fetch does not focus the list
+    // or need to rely on previous state
     fetchEssayItems({ pageIdx: 0, setPageData })
     return purgeMapData
   }, [])
 
   useEffect(() => {
-    if (pageData.focusHeading) {
-      const heading = headingRef.current
-      heading.scrollIntoView({
+    if (pageData.focusList) {
+      const list = listRef.current
+      list.scrollIntoView({
         block: "start",
         inline: "start",
         behavior: "smooth",
       })
 
-      heading.setAttribute("tabindex", "-1")
-      heading.focus({ preventScroll: true })
-      heading.removeAttribute("tabindex")
+      list.setAttribute("tabindex", "-1")
+      list.focus({ preventScroll: true })
+      list.removeAttribute("tabindex")
 
-      setPageData({ ...pageData, focusHeading: false })
+      setPageData({ ...pageData, focusList: false })
     }
   }, [pageData])
 
@@ -98,7 +105,7 @@ export default function Essays() {
       pageIdx: prevPageIdx,
       setPageData,
       pageData,
-      focusHeading: true,
+      focusList: true,
     })
   }
 
@@ -109,7 +116,7 @@ export default function Essays() {
         pageIdx: targetPageIdx,
         setPageData,
         pageData,
-        focusHeading: true,
+        focusList: true,
       })
     }
   }
@@ -120,7 +127,7 @@ export default function Essays() {
       pageIdx: nextPageIdx,
       setPageData,
       pageData,
-      focusHeading: true,
+      focusList: true,
     })
   }
 
@@ -147,7 +154,15 @@ export default function Essays() {
   }
 
   function renderList() {
-    return <ul className={styles.essayList}>{essays.map(renderEssayItem)}</ul>
+    return (
+      <ul
+        ref={listRef}
+        className={styles.essayList}
+        aria-label={`Essays, page ${pageIdx + 1}`}
+      >
+        {essays.map(renderEssayItem)}
+      </ul>
+    )
   }
 
   function renderLoader() {
@@ -187,7 +202,7 @@ export default function Essays() {
 
   return (
     <Layout>
-      <h1 ref={headingRef}>
+      <h1>
         <span aria-hidden="true">./</span>Essays
       </h1>
       {essays.length > 0 ? renderList() : renderLoader()}
