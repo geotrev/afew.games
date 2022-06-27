@@ -4,6 +4,7 @@ import vgaGames from "../../public/games/vga-games.json"
 import wataGames from "../../public/games/wata-games.json"
 import styles from "./styles.module.scss"
 import classNames from "classnames"
+import Types from "prop-types"
 
 function toFieldTuples(data) {
   return Object.keys(data).reduce((acc, fieldName) => {
@@ -76,6 +77,13 @@ export default function Games({ games }) {
       {renderGamesTable(games.wata, "Wata Graded Games")}
     </Layout>
   )
+}
+
+Games.propTypes = {
+  games: Types.shape({
+    wata: Types.array.isRequired,
+    vga: Types.array.isRequired,
+  }).isRequired,
 }
 
 export function getStaticProps() {

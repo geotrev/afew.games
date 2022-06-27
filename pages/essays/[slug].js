@@ -3,6 +3,7 @@ import Layout from "components/layout"
 import classNames from "classnames"
 import { getEssayEntries } from "../../lib/get-essay-entries"
 import styles from "./essay.module.scss"
+import Types from "prop-types"
 
 const getParams = (slug) => ({ params: { slug } })
 
@@ -110,16 +111,10 @@ export default function Essay({ urlPath, fileName }) {
   )
 }
 
-/**
- * 1. only static load slugs
- * 2. use slug to retrieve full article content after initial load
- *
- * OR
- *
- * 1. use getServerSideProps to compare url/slug to static list of slugs
- * 2a. if slug is valid, fetch article
- * 2b. If slug is invalid, 404 or redirect to /essays
- */
+Essay.propTypes = {
+  urlPath: Types.string.isRequired,
+  fileName: Types.string.isRequired,
+}
 
 export async function getStaticPaths() {
   const entries = await getEssayEntries()
