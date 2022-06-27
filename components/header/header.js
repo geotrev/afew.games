@@ -20,15 +20,17 @@ export default function Header() {
         defer
         src="https://identity.netlify.com/v1/netlify-identity-widget.js"
       />
-      <div className={styles.logoContainer}>
-        <Image
-          src="/logo.png"
-          width={183}
-          height={21}
-          alt="a few games"
-          role="presentation"
-        />
-      </div>
+      <Link passHref href={Routes.HOME_PATH}>
+        <a className={styles.logoContainer}>
+          <Image
+            src="/logo.png"
+            width={183}
+            height={21}
+            alt="a few games"
+            role="presentation"
+          />
+        </a>
+      </Link>
       <nav>
         <ul className={styles.navList}>
           <li>

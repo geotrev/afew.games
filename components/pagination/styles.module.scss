@@ -1,0 +1,35 @@
+.pagination {
+  display: flex;
+  gap: 1rem;
+}
+
+.paginationButton {
+  min-height: 2.15rem;
+  min-width: 2.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  appearance: none;
+  border-radius: 2px;
+  background: transparent;
+  border: none;
+  padding: 0.5rem;
+
+  &.isActive {
+    background: lightgray;
+    color: #222;
+  }
+
+  &:hover:not([disabled]) {
+    background: #333;
+  }
+
+  &:not([disabled]) {
+    cursor: pointer;
+  }
+
+  &[disabled]:not(.isActive) {
+    color: #666;
+  }
+}

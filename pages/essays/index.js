@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import classNames from "classnames"
 import Layout from "components/layout"
+import Pagination from "components/pagination"
 import styles from "./essays.module.scss"
 
 async function fetchEssayItems(pageIdx, setPageData) {
@@ -33,102 +34,63 @@ export default function Essays() {
     pageIdx: -1,
   })
   const { count, essays, pageIdx } = pageData
-  const lastPageIdx = count - 1
 
   const placeholderIterator = Array(5).fill(null)
-  const itemIterator = count > -1 ? Array(count).fill(null) : []
 
   useEffect(() => {
     fetchEssayItems(0, setPageData)
   }, [])
 
-  function goToPrevious() {
+  function onPreviousClick() {
     const prevPageIdx = pageIdx - 1
     fetchEssayItems(prevPageIdx, setPageData)
   }
 
-  function goToPage(e) {
+  function onPageClick(e) {
     const targetPageIdx = parseInt(e.target.innerText, 10) - 1
     if (pageIdx !== targetPageIdx) {
       fetchEssayItems(targetPageIdx, setPageData)
     }
   }
 
-  function goToNext() {
+  function onNextClick() {
     const nextPageIdx = pageIdx + 1
     fetchEssayItems(nextPageIdx, setPageData)
   }
 
-  function renderPagination() {
+  function renderEssayItem(entry) {
+    const {
+      title,
+      description,
+      metadata: { urlPath, date, slug },
+    } = entry
+
     return (
-      <ul className={styles.pagination}>
-        <li>
-          <button
-            className={styles.paginationButton}
-            type="button"
-            disabled={pageIdx === 0}
-            onClick={goToPrevious}
-          >
-            {"ᐊ"}
-          </button>
-        </li>
-        {itemIterator.map((_, idx) => {
-          return (
-            <li key={idx}>
-              <button
-                className={classNames(styles.paginationButton, {
-                  [styles.isActive]: idx === pageIdx,
-                })}
-                type="button"
-                disabled={idx === pageIdx}
-                onClick={goToPage}
-              >
-                {idx + 1}
-              </button>
-            </li>
-          )
-        })}
-        <li>
-          <button
-            className={styles.paginationButton}
-            type="button"
-            disabled={lastPageIdx === pageIdx}
-            onClick={goToNext}
-          >
-            {"ᐅ"}
-          </button>
-        </li>
-      </ul>
+      <li key={slug} className={styles.essayItem}>
+        <p className={classNames(styles.essayItemTimePara, "text-xs")}>
+          <time className={styles.essayItemTime} dateTime={date}>
+            {date}
+          </time>
+        </p>
+        <h2 className={classNames(styles.essayItemHeading, "text-xl")}>
+          <Link href={urlPath}>{title}</Link>
+        </h2>
+        <p className={styles.essayItemDescription}>{description}</p>
+      </li>
     )
   }
 
   function renderList() {
     return (
       <>
-        <ul className={styles.essayList}>
-          {essays.map((entry) => {
-            const {
-              title,
-              description,
-              metadata: { urlPath, date, slug },
-            } = entry
-
-            return (
-              <li key={slug} className={styles.essayItem}>
-                <p className={classNames(styles.essayItemTimePara, "text-xs")}>
-                  <time className={styles.essayItemTime} dateTime={date}>
-                    {date}
-                  </time>
-                </p>
-                <h2 className={classNames(styles.essayItemHeading, "text-xl")}>
-                  <Link href={urlPath}>{title}</Link>
-                </h2>
-                <p className={styles.essayItemDescription}>{description}</p>
-              </li>
-            )
-          })}
-        </ul>
-        {renderPagination()}
+        <ul className={styles.essayList}>{essays.map(renderEssayItem)}</ul>
+        <Pagination
+          count={count}
+          activePageIndex={pageIdx}
+          onNextClick={onNextClick}
+          onPreviousClick={onPreviousClick}
+          onPageClick={onPageClick}
+        />
       </>
     )
   }

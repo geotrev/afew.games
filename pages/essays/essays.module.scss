@@ -24,39 +24,3 @@
   font-weight: bold;
   color: #999;
 }
-
-.pagination {
-  display: flex;
-  gap: 1rem;
-}
-
-.paginationButton {
-  height: 2.15rem;
-  width: 2.15rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  display: block;
-  appearance: none;
-  border-radius: 2px;
-  background: transparent;
-  border: none;
-  padding: 0.5rem 0.75rem;
-
-  &.isActive {
-    background: lightgray;
-    color: #222;
-  }
-
-  &:hover:not([disabled]) {
-    background: #333;
-  }
-
-  &:not([disabled]) {
-    cursor: pointer;
-  }
-
-  &[disabled]:not(.isActive) {
-    color: #666;
-  }
-}
