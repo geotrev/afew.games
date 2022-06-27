@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import Link from "next/link"
 import classNames from "classnames"
 import Layout from "components/layout"
@@ -11,14 +11,15 @@ function purgeMapData() {
   PageMap.clear()
 }
 
-async function fetchEssayItems(pageIdx, setPageData, pageData) {
+function fetchEssayItems({ pageIdx, setPageData, pageData, focusHeading }) {
   if (PageMap.has(pageIdx)) {
     return setPageData({ ...PageMap.get(pageIdx) })
   }
 
-  // Show loading state while loading new items
-  const timerId = setTimeout(() => setPageData({ ...pageData, essays: [] }), 50)
+  // Sets loading state
+  setPageData({ ...pageData, essays: [] })
 
+  // Fetch target pageIdx and load its items
   fetch("/api/essays", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -30,15 +31,24 @@ async function fetchEssayItems(pageIdx, setPageData, pageData) {
       }
     })
     .then((pageData) => {
-      clearTimeout(timerId)
-      setPageData({
-        pageIdx,
+      const payload = {
         ...pageData,
-      })
-      PageMap.set(pageIdx, { pageIdx, ...pageData })
+        pageIdx,
+      }
+
+      // This is only really so initial page load doesn't
+      // steal focus. All other cases, focus heading
+      // to reflect new page content
+      if (focusHeading) {
+        payload.focusHeading = true
+      }
+
+      setPageData(payload)
+
+      // Memoize payload for quicker change next time
+      PageMap.set(pageIdx, { ...payload, focusHeading: true })
     })
     .catch((e) => {
-      clearTimeout(timerId)
       if (pageData) {
         setPageData({ ...pageData })
         return
@@ -54,30 +64,64 @@ export default function Essays() {
     count: 0,
     essays: [],
     pageIdx: -1,
+    focusHeading: false,
   })
   const { count, essays, pageIdx } = pageData
   const placeholderIterator = Array(5).fill(null)
+  const headingRef = useRef(null)
 
   useEffect(() => {
-    fetchEssayItems(0, setPageData)
+    fetchEssayItems({ pageIdx: 0, setPageData })
     return purgeMapData
   }, [])
 
+  useEffect(() => {
+    if (pageData.focusHeading) {
+      const heading = headingRef.current
+      heading.scrollIntoView({
+        block: "start",
+        inline: "start",
+        behavior: "smooth",
+      })
+
+      heading.setAttribute("tabindex", "-1")
+      heading.focus({ preventScroll: true })
+      heading.removeAttribute("tabindex")
+
+      setPageData({ ...pageData, focusHeading: false })
+    }
+  }, [pageData])
+
   function onPreviousClick() {
     const prevPageIdx = pageIdx - 1
-    fetchEssayItems(prevPageIdx, setPageData, pageData)
+    fetchEssayItems({
+      pageIdx: prevPageIdx,
+      setPageData,
+      pageData,
+      focusHeading: true,
+    })
   }
 
   function onPageClick(e) {
     const targetPageIdx = parseInt(e.target.innerText, 10) - 1
     if (pageIdx !== targetPageIdx) {
-      fetchEssayItems(targetPageIdx, setPageData, pageData)
+      fetchEssayItems({
+        pageIdx: targetPageIdx,
+        setPageData,
+        pageData,
+        focusHeading: true,
+      })
     }
   }
 
   function onNextClick() {
     const nextPageIdx = pageIdx + 1
-    fetchEssayItems(nextPageIdx, setPageData, pageData)
+    fetchEssayItems({
+      pageIdx: nextPageIdx,
+      setPageData,
+      pageData,
+      focusHeading: true,
+    })
   }
 
   function renderEssayItem(entry) {
@@ -143,7 +187,7 @@ export default function Essays() {
 
   return (
     <Layout>
-      <h1>
+      <h1 ref={headingRef}>
         <span aria-hidden="true">./</span>Essays
       </h1>
       {essays.length > 0 ? renderList() : renderLoader()}
