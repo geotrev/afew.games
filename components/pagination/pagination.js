@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react"
 import Types from "prop-types"
 import classNames from "classnames"
 import styles from "./styles.module.scss"
@@ -12,9 +13,15 @@ export default function Pagination({
   onLastPageClick,
   maxVisiblePageCount,
 }) {
-  if (count === -1 || !count) return null
-
+  const [rovingIndex, setRovingIndex] = useState(0)
   const lastPageIdx = count - 1
+  const visibleIndexRange = getVisiblePageIdxRange()
+  const visibleRangeLength = visibleIndexRange.length
+  const lastVisibleIndex = visibleIndexRange[visibleRangeLength - 1]
+
+  useEffect(() => {
+    setRovingIndex(activePageIndex)
+  }, [activePageIndex])
 
   function getVisiblePageIdxRange() {
     let range
@@ -58,20 +65,38 @@ export default function Pagination({
     return iterator
   }
 
-  function renderVisiblePageItems() {
-    const itemIterator = getVisiblePageIdxRange()
+  function setRovingTarget(target, delta) {
+    target.focus()
+    setRovingIndex(rovingIndex + delta)
+  }
 
-    return itemIterator.map((idx) => {
+  function handleKeydown(e) {
+    if (e.key === "ArrowLeft" && rovingIndex > visibleIndexRange[0]) {
+      setRovingTarget(
+        e.target.parentNode.previousElementSibling.firstElementChild,
+        -1
+      )
+    } else if (e.key === "ArrowRight" && rovingIndex < lastVisibleIndex) {
+      setRovingTarget(
+        e.target.parentNode.nextElementSibling.firstElementChild,
+        1
+      )
+    }
+  }
+
+  function renderVisiblePageItems() {
+    return visibleIndexRange.map((idx) => {
       const isActive = idx === activePageIndex
       const label = `Page ${idx + 1}`
       return (
-        <li key={idx}>
+        <li key={idx} data-pagination-index={idx}>
           <button
             className={classNames(styles.paginationButton, {
               [styles.isActive]: isActive,
             })}
+            tabIndex={rovingIndex === idx ? "0" : "-1"}
             aria-current={isActive ? "true" : null}
-            aria-label={isActive ? `${label}, current page` : label}
+            aria-label={isActive ? `${label}, current page` : `Goto ${label}`}
             type="button"
             aria-disabled={idx === activePageIndex ? "true" : null}
             onClick={onPageClick}
@@ -83,64 +108,70 @@ export default function Pagination({
     })
   }
 
+  // There's nothing to render when the count is non-positive.
+  if (count < 1) {
+    return null
+  }
+
   return (
-    <nav aria-label="Pagination navigation">
-      <ul className={styles.pagination}>
-        <li>
-          <button
-            className={classNames(
-              styles.paginationButton,
-              styles.paginationPaginateButton
-            )}
-            type="button"
-            aria-disabled={activePageIndex === 0 ? "true" : null}
-            onClick={onFirstPageClick}
-          >
-            {"≪"}
-          </button>
-        </li>
-        <li>
-          <button
-            className={classNames(
-              styles.paginationButton,
-              styles.paginationPaginateButton
-            )}
-            type="button"
-            aria-disabled={activePageIndex === 0 ? "true" : null}
-            onClick={onPreviousClick}
-          >
-            {"ᐸ"}
-          </button>
-        </li>
-        {renderVisiblePageItems()}
-        <li>
-          <button
-            className={classNames(
-              styles.paginationButton,
-              styles.paginationPaginateButton
-            )}
-            type="button"
-            aria-disabled={lastPageIdx === activePageIndex ? "true" : null}
-            onClick={onNextClick}
-          >
-            {"ᐳ"}
-          </button>
-        </li>
-        <li>
-          <button
-            className={classNames(
-              styles.paginationButton,
-              styles.paginationPaginateButton
-            )}
-            type="button"
-            aria-disabled={activePageIndex === count - 1 ? "true" : null}
-            onClick={onLastPageClick}
-          >
-            {"≫"}
-          </button>
-        </li>
-      </ul>
-    </nav>
+    <div
+      role="group"
+      aria-label="Use left and right arrow keys to focus available page numbers"
+    >
+      <nav aria-label="Pagination" onKeyDown={handleKeydown}>
+        <ul className={styles.pagination}>
+          <li className={styles.paginationPaginateListItem}>
+            <button
+              onKeyDown={(e) => e.stopPropagation()}
+              className={styles.paginationButton}
+              aria-label="Goto first page"
+              type="button"
+              aria-disabled={activePageIndex === 0 ? "true" : null}
+              onClick={onFirstPageClick}
+            >
+              {"≪"}
+            </button>
+          </li>
+          <li className={styles.paginationPaginateListItem}>
+            <button
+              onKeyDown={(e) => e.stopPropagation()}
+              className={styles.paginationButton}
+              aria-label="Goto previous page"
+              type="button"
+              aria-disabled={activePageIndex === 0 ? "true" : null}
+              onClick={onPreviousClick}
+            >
+              {"ᐸ"}
+            </button>
+          </li>
+          {renderVisiblePageItems()}
+          <li className={styles.paginationPaginateListItem}>
+            <button
+              onKeyDown={(e) => e.stopPropagation()}
+              className={styles.paginationButton}
+              aria-label="Goto next page"
+              type="button"
+              aria-disabled={lastPageIdx === activePageIndex ? "true" : null}
+              onClick={onNextClick}
+            >
+              {"ᐳ"}
+            </button>
+          </li>
+          <li className={styles.paginationPaginateListItem}>
+            <button
+              onKeyDown={(e) => e.stopPropagation()}
+              className={styles.paginationButton}
+              aria-label="Goto last page"
+              type="button"
+              aria-disabled={activePageIndex === count - 1 ? "true" : null}
+              onClick={onLastPageClick}
+            >
+              {"≫"}
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
   )
 }
 
