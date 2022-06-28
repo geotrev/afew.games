@@ -100,6 +100,7 @@ export default function Essays() {
   }, [pageData])
 
   function onPreviousClick() {
+    if (pageIdx === 0) return
     const prevPageIdx = pageIdx - 1
     fetchEssayItems({
       pageIdx: prevPageIdx,
@@ -111,20 +112,40 @@ export default function Essays() {
 
   function onPageClick(e) {
     const targetPageIdx = parseInt(e.target.innerText, 10) - 1
-    if (pageIdx !== targetPageIdx) {
-      fetchEssayItems({
-        pageIdx: targetPageIdx,
-        setPageData,
-        pageData,
-        focusList: true,
-      })
-    }
+    if (pageIdx === targetPageIdx) return
+    fetchEssayItems({
+      pageIdx: targetPageIdx,
+      setPageData,
+      pageData,
+      focusList: true,
+    })
   }
 
   function onNextClick() {
     const nextPageIdx = pageIdx + 1
+    if (pageIdx === count - 1) return
     fetchEssayItems({
       pageIdx: nextPageIdx,
+      setPageData,
+      pageData,
+      focusList: true,
+    })
+  }
+
+  function onFirstPageClick() {
+    if (pageIdx === 0) return
+    fetchEssayItems({
+      pageIdx: 0,
+      setPageData,
+      pageData,
+      focusList: true,
+    })
+  }
+
+  function onLastPageClick() {
+    if (pageIdx === count - 1) return
+    fetchEssayItems({
+      pageIdx: count - 1,
       setPageData,
       pageData,
       focusList: true,
@@ -209,10 +230,13 @@ export default function Essays() {
       {count > 0 && (
         <Pagination
           count={count}
+          maxVisiblePageCount={9}
           activePageIndex={pageIdx}
           onNextClick={onNextClick}
           onPreviousClick={onPreviousClick}
           onPageClick={onPageClick}
+          onFirstPageClick={onFirstPageClick}
+          onLastPageClick={onLastPageClick}
         />
       )}
     </Layout>

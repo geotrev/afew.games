@@ -21,15 +21,21 @@
     color: #222;
   }
 
-  &:hover:not([disabled]) {
+  &:hover:not([aria-disabled]) {
     background: #333;
   }
 
-  &:not([disabled]) {
+  &:not([aria-disabled]) {
     cursor: pointer;
   }
 
-  &[disabled]:not(.isActive) {
+  &[aria-disabled]:not(.isActive) {
     color: #666;
   }
+}
+
+.paginationPaginateButton {
+  border-block-end: 1px solid #666;
+  border-end-start-radius: 0;
+  border-end-end-radius: 0;
 }
