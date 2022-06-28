@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { Helmet } from "react-helmet"
 import Layout from "components/layout"
 import classNames from "classnames"
 import { getEssaysMetadata } from "../../lib/get-essays-metadata"
@@ -106,6 +107,12 @@ export default function Essay({ urlPath, fileName }) {
 
   return (
     <Layout>
+      <Helmet>
+        {essay?.title && <title>{essay.title}</title>}
+        {essay?.description && (
+          <meta name="description" content={essay.description} />
+        )}
+      </Helmet>
       <article>{essay ? renderEssay() : renderLoader()}</article>
     </Layout>
   )

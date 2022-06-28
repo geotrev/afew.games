@@ -6,7 +6,7 @@ import classNames from "classnames"
 import styles from "./styles.module.scss"
 
 const Routes = {
-  GAMES_PATH: "/games",
+  COLLECTION_PATH: "/collection",
   ESSAYS_PATH: "/essays",
   HOME_PATH: "/",
 }
@@ -56,13 +56,13 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link passHref href={Routes.GAMES_PATH}>
+            <Link passHref href={Routes.COLLECTION_PATH}>
               <a
                 className={classNames(styles.navListItemLink, {
-                  [styles.isActive]: asPath.startsWith(Routes.GAMES_PATH),
+                  [styles.isActive]: asPath.startsWith(Routes.COLLECTION_PATH),
                 })}
               >
-                Games
+                Collection
               </a>
             </Link>
           </li>

@@ -62,11 +62,11 @@ function renderGamesTable(games, label) {
   )
 }
 
-export default function Games({ games }) {
+export default function Collection({ games }) {
   return (
     <Layout>
       <h1>
-        <span aria-hidden="true">./</span>Games
+        <span aria-hidden="true">./</span>Collection
       </h1>
       <p>
         {
@@ -81,7 +81,7 @@ export default function Games({ games }) {
   )
 }
 
-Games.propTypes = {
+Collection.propTypes = {
   games: Types.shape({
     wata: Types.array.isRequired,
     vga: Types.array.isRequired,
