@@ -1,8 +1,8 @@
 .next/
 node_modules/
+out/
 /npm-debug.log
 .DS_Store
-out/
 
 # Local Netlify folder
 .netlify

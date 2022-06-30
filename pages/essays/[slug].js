@@ -1,39 +1,12 @@
-import { useState, useEffect } from "react"
 import { Helmet } from "react-helmet"
 import Layout from "components/layout"
 import classNames from "classnames"
-import { getEssaysMetadata } from "../../lib/get-essays-metadata"
+import { getMatchingEssay } from "../../lib/get-matching-essay"
 import styles from "./essay.module.scss"
 import Types from "prop-types"
 
-const getParams = (slug) => ({ params: { slug } })
-
-export default function Essay({ urlPath, fileName }) {
-  const [essay, setEssay] = useState(null)
-
-  useEffect(() => {
-    const url = "/api" + urlPath
-    fetch(url, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ fileName }),
-    })
-      .then((res) => {
-        if (res.ok) {
-          return res.json()
-        }
-      })
-      .then(({ essay }) => {
-        setEssay(essay)
-      })
-      .catch((e) => {
-        throw new Error("FETCH ENTRY ERROR:", e)
-      })
-  }, [urlPath, fileName])
-
+export default function Essay({ title, description, date, content }) {
   function renderEssay() {
-    const { title, description, date, content } = essay
-
     return (
       <>
         <p className={[styles.essayItemTimePara]}>
@@ -55,82 +28,35 @@ export default function Essay({ urlPath, fileName }) {
     )
   }
 
-  const bodyPlaceholderIterator = Array(10).fill(null)
-
-  function renderLoader() {
-    return (
-      <>
-        <div className={styles.empyStateContainer}>
-          <div
-            className={classNames(
-              styles.animateBg,
-              styles.bgHeightMd,
-              styles.bgNarrow,
-              styles.metadataAnim
-            )}
-          >
-            <div className={styles.bgMask}></div>
-          </div>
-          <div
-            className={classNames(
-              styles.animateBg,
-              styles.bgHeightXl,
-              styles.titleAnim
-            )}
-          >
-            <div className={styles.bgMask}></div>
-          </div>
-          <br />
-          <div className={classNames(styles.animateBg, styles.descAnim)}>
-            <div className={styles.bgMask}></div>
-          </div>
-          <br />
-          <br />
-          {bodyPlaceholderIterator.map((_, idx) => {
-            return (
-              <div
-                key={idx}
-                className={classNames(
-                  styles.animateBg,
-                  styles[`contentAnim-${idx}`],
-                  styles.bgHeightMd
-                )}
-              >
-                <div className={styles.bgMask}></div>
-              </div>
-            )
-          })}
-        </div>
-      </>
-    )
-  }
-
   return (
     <Layout>
       <Helmet>
-        {essay?.title && <title>{essay.title}</title>}
-        {essay?.description && (
-          <meta name="description" content={essay.description} />
-        )}
+        <title>{title}</title>
+        <meta name="description" content={description} />
       </Helmet>
-      <article>{essay ? renderEssay() : renderLoader()}</article>
+      <article>{renderEssay()}</article>
     </Layout>
   )
 }
 
 Essay.propTypes = {
-  urlPath: Types.string.isRequired,
-  fileName: Types.string.isRequired,
+  title: Types.string.isRequired,
+  description: Types.string.isRequired,
+  date: Types.string.isRequired,
+  content: Types.string.isRequired,
 }
 
-export async function getStaticPaths() {
-  const entries = await getEssaysMetadata()
-  const paths = entries.map((entry) => getParams(entry.slug))
-  return { paths, fallback: false }
-}
+export async function getServerSideProps({ res, params }) {
+  res.setHeader(
+    "Cache-Control",
+    "public, s-maxage=10, stale-while-revalidate=59"
+  )
 
-export async function getStaticProps({ params: { slug } }) {
-  const entries = await getEssaysMetadata()
-  const props = entries.find((entry) => entry.slug === slug)
+  const props = getMatchingEssay(params)
+
+  if (!props) {
+    return { notFound: true }
+  }
+
   return { props }
 }

@@ -230,7 +230,7 @@ export default function Essays() {
       {count > 0 && (
         <Pagination
           count={count}
-          maxVisiblePageCount={9}
+          maxVisiblePageCount={5}
           activePageIndex={pageIdx}
           onNextClick={onNextClick}
           onPreviousClick={onPreviousClick}
