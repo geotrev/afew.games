@@ -1,9 +1,9 @@
-import Image from "next/image"
 import { useRouter } from "next/router"
 import Script from "next/script"
 import Link from "next/link"
 import classNames from "classnames"
 import styles from "./styles.module.scss"
+import Logo from "./logo"
 
 const Routes = {
   COLLECTION_PATH: "/collection",
@@ -22,13 +22,7 @@ export default function Header() {
       />
       <Link passHref href={Routes.HOME_PATH}>
         <a className={styles.logoContainer}>
-          <Image
-            src="/logo.png"
-            width={183}
-            height={21}
-            alt="a few games"
-            role="presentation"
-          />
+          <Logo />
         </a>
       </Link>
       <nav>

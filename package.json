@@ -32,6 +32,7 @@
     "@babel/eslint-parser": "^7.18.2",
     "@babel/preset-env": "^7.18.2",
     "@babel/preset-react": "^7.17.12",
+    "@faker-js/faker": "^7.3.0",
     "@netlify/plugin-nextjs": "^4.9.1",
     "classnames": "^2.3.1",
     "commithelper": "^1.2.0",
@@ -74,8 +75,5 @@
       "perf",
       "test"
     ]
-  },
-  "devDependencies": {
-    "@faker-js/faker": "^7.3.0"
   }
 }

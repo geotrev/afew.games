@@ -133,7 +133,7 @@ export default class Collection extends Component {
     return (
       <div className={styles.search}>
         <label htmlFor="search" className={styles.searchLabel}>
-          Search for a game
+          Filter games
         </label>
         <input
           className={styles.searchInput}
