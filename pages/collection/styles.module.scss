@@ -33,3 +33,24 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+
+// Search input
+
+.search {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 1rem 0 3rem 0;
+}
+
+.searchLabel {
+  margin-block-end: 1rem;
+}
+
+.searchInput {
+  appearance: none;
+  border: 2px solid #777;
+  background-color: transparent;
+  color: #ddd;
+  padding: 0.5rem;
+  border-radius: 4px;
+}

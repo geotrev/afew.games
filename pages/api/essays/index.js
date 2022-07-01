@@ -1,7 +1,7 @@
 import { promises as fs } from "fs"
 import * as parseMarkdown from "gray-matter"
 import chunk from "lodash-es/chunk"
-import { getEssaysPath } from "../../../lib/get-essays-path"
+import { getEssaysPath } from "lib/get-essays-path"
 
 const MAX_LIST_LENGTH = 5
 

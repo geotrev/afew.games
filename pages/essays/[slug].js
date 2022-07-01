@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet"
 import Layout from "components/layout"
 import classNames from "classnames"
-import { getMatchingEssay } from "../../lib/get-matching-essay"
+import { getMatchingEssay } from "lib/get-matching-essay"
 import styles from "./essay.module.scss"
 import Types from "prop-types"
 

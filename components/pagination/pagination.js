@@ -124,24 +124,22 @@ export default function Pagination({
             <button
               onKeyDown={(e) => e.stopPropagation()}
               className={styles.paginationButton}
-              aria-label="Goto first page"
               type="button"
               aria-disabled={activePageIndex === 0 ? "true" : null}
               onClick={onFirstPageClick}
             >
-              {"≪"}
+              {"Newest"}
             </button>
           </li>
           <li className={styles.paginationPaginateListItem}>
             <button
               onKeyDown={(e) => e.stopPropagation()}
               className={styles.paginationButton}
-              aria-label="Goto previous page"
               type="button"
               aria-disabled={activePageIndex === 0 ? "true" : null}
               onClick={onPreviousClick}
             >
-              {"ᐸ"}
+              {"Previous Page"}
             </button>
           </li>
           {renderVisiblePageItems()}
@@ -149,24 +147,22 @@ export default function Pagination({
             <button
               onKeyDown={(e) => e.stopPropagation()}
               className={styles.paginationButton}
-              aria-label="Goto next page"
               type="button"
               aria-disabled={lastPageIdx === activePageIndex ? "true" : null}
               onClick={onNextClick}
             >
-              {"ᐳ"}
+              {"Next Page"}
             </button>
           </li>
           <li className={styles.paginationPaginateListItem}>
             <button
               onKeyDown={(e) => e.stopPropagation()}
               className={styles.paginationButton}
-              aria-label="Goto last page"
               type="button"
               aria-disabled={activePageIndex === count - 1 ? "true" : null}
               onClick={onLastPageClick}
             >
-              {"≫"}
+              {"Oldest"}
             </button>
           </li>
         </ul>
