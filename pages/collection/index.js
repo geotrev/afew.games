@@ -17,7 +17,7 @@ export default class Collection extends Component {
       vga: this.props.games.vga,
     }
     this.filterGames = this.filterGames.bind(this)
-    this.debounceFilter = debounce(this.filterGames, 500)
+    this.debounceFilter = debounce(this.filterGames, 200)
   }
 
   handleChange = (e) => {
@@ -129,6 +129,25 @@ export default class Collection extends Component {
     )
   }
 
+  renderInput() {
+    return (
+      <div className={styles.search}>
+        <label htmlFor="search" className={styles.searchLabel}>
+          Search for a game
+        </label>
+        <input
+          className={styles.searchInput}
+          name="search"
+          type="text"
+          placeholder="E.g., Mega Man"
+          id="search"
+          onChange={this.handleChange}
+          value={this.state.search}
+        />
+      </div>
+    )
+  }
+
   render() {
     return (
       <Layout>
@@ -140,20 +159,7 @@ export default class Collection extends Component {
             "Many of the games I own are graded by third party authenticators. Namely, VGA (Video Game Authority) and Wata Games. Due to the rising prices of this service, I've opted to stop grading games and simply encase them in reusable acrylic holders."
           }
         </p>
-        <div className={styles.search}>
-          <label htmlFor="search" className={styles.searchLabel}>
-            Search for a game
-          </label>
-          <input
-            className={styles.searchInput}
-            name="search"
-            type="text"
-            placeholder="E.g., Mega Man"
-            id="search"
-            onChange={this.handleChange}
-            value={this.state.search}
-          />
-        </div>
+        {this.renderInput()}
         <h2>VGA Graded</h2>
         {this.renderGamesTable(this.state.vga, "VGA Graded Games")}
         <h2>Wata Graded</h2>
