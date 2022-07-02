@@ -11,7 +11,7 @@ To start, take the UPC of <game> as a reference:
 
 Let's explain these details a bit:
 
-1. **Satellite Code:** Denotes the product's manufacturing code as well as the revision. The first five (sometimes six) digits is the product code, and the ending letter is the revision. "A" is first, "B" second, etc. In my experience, USA copies have the lowest product code, but you can always refer to the regional text, often located very close to the main UPC, which can say "USA" or "CAN" for United States and canada, respectively.
+1. **Satellite Code:** Denotes the product's manufacturing code as well as the revision. The first five (sometimes six) digits is the product code, and the ending letter is the revision. "A" is first, "B" second, etc. In my experience, USA copies have the lowest product code, but you can always refer to the regional text, often located very close to the main UPC, which can say "USA" or "CAN" for United States and Canada, respectively.
 2. **Regional UPC:** Indicates both the region of manufacture and revision. The third number from the left is the region (0 for Japan, 1 for USA), and the far right number is the revision (0 is first, 1 is second, etc; often a mirror of the satellite revision code, but not always). This is less important than the satellite code, but is good to know about.
 
 There are probably more official names for these, so bear with me. :)
