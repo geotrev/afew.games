@@ -1,5 +1,5 @@
 ---
-title: Decoding Modern Nintendo Game Prints
+title: Decoding Modern Nintendo Video Game Print Variants
 description: Gone are the days of memorizing every dot on a box; in are the days
   of standardized print data!
 ---
