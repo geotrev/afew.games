@@ -1,7 +1,7 @@
 ---
 title: Decoding Modern Nintendo Game Prints
-description: Gone are the days of deciphering game box art until your eyes
-  bleed, in are the days of standardized manufacturing data
+description: Gone are the days of memorizing every dot on a box; in are the days
+  of standardized print data!
 ---
 With the release of the Nintendo Wii and DS, Nintendo made identifying game prints much easier. While they still use(d) major revision differences in "player's choice," they also introduced a new discrete data point in the form of "satellite codes." These are positioned right next to a game's primary UPC on the back of a case/box.
 
@@ -50,4 +50,4 @@ To work around this, you'll see an immense discount when finding CAN variants of
 
 I hope this has been a helpful introduction to the concept of modern Nintendo game print variants. There really isn't any magic here. Like all game variants, however, if you can't find information online, you can always hit up eBay and compile a list of satellite codes (along with other identifying markers, such as Not For Resale/NFR labels and Nintendo Select/Player's Choice banners) and find the print you're after (which, let's be honest, is the first print).
 
-Have questions or comments about corrections? Feel free to email me at afewgames@gmail.com
+Have questions or comments about corrections? Feel free to email me at [contact@afew.games](mailto:contact@afew.games).
