@@ -45,9 +45,9 @@ Here's an example in *Kingdom Hearts: 358/2 Days* on Nintendo DSwhere Square Eni
 
 ![Some third party publishers, like Square Enix, won't fully honor the satellite or region code system and will omit some or all of that data.](/uploads/kingdom-hearts.jpg)
 
-Apologies if that's hard to read.
+(Apologies if that's hard to read!)
 
-Here's another UPC of Bayonetta 2 on Wii U denoting a `00000` regional UPC with "Made in USA" text, where that code clearly should have been `00100`. This is apparently common for this manufacturer/publisher.
+Here's another odd example of *Bayonetta 2* (2nd party developer) on Wii U, showing a `00000` region code UPC with "Made in USA" text, where that code clearly should have been `00100`. According to [ModernDB](https://www.instagram.com/Moderndatabase/), this was common for this manufacturer.
 
 ![Bayonetta 2 on Wii U has mismatching regional UPC code and country of manufacture text.](/uploads/bayonetta-2-wii-u.jpg)
 
@@ -57,7 +57,9 @@ In case you're worried that big box games don't have these codes, fear not. Whil
 
 ## Market Preference & Prices
 
-I'm not going to pretend that there isn't a tendency for collectors to prefer NTSC-U (USA) copies of games. It has been and continues to be the norm. As a result, finding new copies of certain modern games will be a challenge as more resellers at large are seeing NTSC-U, first-print satellite codes as the key to profit. Especially with modern game grading becoming as prevalent as it is (akin to comics and sports cards).
+I'm not going to pretend that there isn't a tendency for collectors to prefer NTSC-U (USA) copies of games. It has been and continues to be the norm.
+
+As a result, finding new copies of certain modern games will be a challenge as more resellers at large are seeing NTSC-U, first-print satellite codes as the key to profit. Especially with modern game grading becoming as prevalent as it is (akin to comics and sports cards).
 
 To work around this, you'll see an immense discount when finding CAN variants of your favorite games. They will still play on your console and even have the same language options (heck, probably even the same default language in your case!). The strict difference is often the packaging alone!
 
