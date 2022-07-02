@@ -7,6 +7,8 @@ With the release of the Nintendo Wii and DS, Nintendo made identifying game prin
 
 Thankfully, these codes have persisted even to the most recent generation of games (Nintendo Switch).
 
+***
+
 To start, take the UPC of *Hyrule Warriros* on the Switch as a reference:
 
 ![Hyrule Warriors for Nintendo Switch; shows locale, satellite, and region codes on the back of the game case](/uploads/hyrule-warriors.jpg)
