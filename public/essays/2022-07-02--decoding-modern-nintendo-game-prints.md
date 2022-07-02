@@ -3,34 +3,57 @@ title: Decoding Modern Nintendo Game Prints
 description: Gone are the days of memorizing every dot on a box; in are the days
   of standardized print data!
 ---
-With the release of the Nintendo Wii and DS, Nintendo made identifying game prints much easier. While they still use(d) major revision differences in "player's choice," they also introduced a new discrete data point in the form of "satellite codes." These are positioned right next to a game's primary UPC on the back of a case/box.
+With the release of the Nintendo Wii and DS, Nintendo made identifying game prints much easier. While they still use(d) major revision differences in "player's choice," they also introduced a new discrete data point in the form of "satellite codes." These are positioned right next to a game's primary UPC on the back of a case/box. 
 
-To start, take the UPC of <game> as a reference:
+Thankfully, these codes have persisted even to the most recent generation of games (Nintendo Switch).
 
-<pic of UPC, Wii>
+To start, take the UPC of *Hyrule Warriros* on the Switch as a reference:
+
+![Hyrule Warriors for Nintendo Switch; shows locale, satellite, and region codes on the back of the game case](/uploads/hyrule-warriors.jpg)
 
 Let's explain these details a bit:
 
-1. **Satellite Code:** Denotes the product's manufacturing code as well as the revision. The first five (sometimes six) digits is the product code, and the ending letter is the revision. "A" is first, "B" second, etc. In my experience, USA copies have the lowest product code, but you can always refer to the regional text, often located very close to the main UPC, which can say "USA" or "CAN" for United States and Canada, respectively.
-2. **Regional UPC:** Indicates both the region of manufacture and revision. The third number from the left is the region (0 for Japan, 1 for USA), and the far right number is the revision (0 is first, 1 is second, etc; often a mirror of the satellite revision code, but not always). This is less important than the satellite code, but is good to know about.
+1. **Satellite Code:** Denotes the product's manufacturing code as well as the revision. The first five (sometimes six) digits indicate a product code. The last character, usually a letter, is the revision, starting with "A" for the first release, then "B" for next revision, etc.
+2. **Region Code**: Indicates both the region of manufacture and revision. The third number from the left is the region (`0` for Japan, `1` for USA), and the far right number is the revision (`0` is first, `1` is second, etc). Note that the revision here may not always directly reflection the revision in the satellite code, but usually does.
+3. **Locale:** This indicates the intended region for general consumer distribution. In this case, the ending (e.g., `USA`) is what matters. Sometimes it will say `USZ` if meant for a combination of US, Canada, and/or Mexico, or `CAN` if intended specifically for Canada.
 
 There are probably more official names for these, so bear with me. :)
 
 Here's additional examples on other Nintendo consoles. It's always the same combination, but laid out differently.
 
-<pic of UPC, DS>
+### Nintendo DS
 
-<pic of UPC, 3DS>
+![Nintendo DS variant details are aligned completely to the right of the UPC.](/uploads/pokemon_white_2.jpg)
 
-<pic of UPC, Wii U>
+### Nintendo 3DS
 
-<pic of UPC, Switch>
+![Nintendo 3DS variant details are aligned completely to the right of the UPC.](/uploads/pokemon-ultra-moon.jpg)
+
+### Nintendo Wii
+
+![Nintendo Wii variant details are split on either side of the UPC.](/uploads/skyward-sword.jpg)
+
+### Nintendo Wii U
+
+![Nintendo Wii U variant details sit just above the UPC, in a straight line.](/uploads/super-smash-wii-u.jpg)
+
+- - -
 
 Of course, like all things, there are and have been exceptions/mistakes where games are printed with the wrong code but the error was noticed too late in the production process. Similarly, third parties don't always respect the satellite code/regional UPC pattern like Nintendo. 
 
-To better explain the case of third parties, here's the UPC of Bayonetta 2 on Wii U denoting a `00000` regional UPC with "Made in USA" text, where that code clearly should have been `00100`.
+Here's an example in *Kingdom Hearts: 358/2 Days* on Nintendo DSwhere Square Enix omitted the revision character in the satellite code and entirely omitted the regional code sub-UPC.
 
-<pic of Bayo UPC>
+![](/uploads/kingdom-hearts.jpg)
+
+Apologies if that's hard to read.
+
+Here's another UPC of Bayonetta 2 on Wii U denoting a `00000` regional UPC with "Made in USA" text, where that code clearly should have been `00100`. This is apparently common for this manufacturer/publisher.
+
+![Bayonetta 2 on Wii U has mismatching regional UPC code and country of manufacture text.](/uploads/bayonetta-2-wii-u.jpg)
+
+In case you're worried that big box games don't have these codes, fear not. While they may not have the regional code and UPC, they will still include satellite and regional codes.
+
+![](/uploads/super-smash-bros-wii-u-bundle.jpg)
 
 ## Dual-Language Variants
 
