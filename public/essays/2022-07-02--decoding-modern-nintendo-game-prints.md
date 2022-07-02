@@ -14,7 +14,7 @@ To start, take the UPC of *Hyrule Warriros* on the Switch as a reference:
 Let's explain these details a bit:
 
 1. **Satellite Code:** Denotes the product's manufacturing code as well as the revision. The first five (sometimes six) digits indicate a product code. The last character, usually a letter, is the revision, starting with "A" for the first release, then "B" for next revision, etc.
-2. **Region Code**: Indicates both the region of manufacture and revision. The third number from the left is the region (`0` for Japan, `1` for USA), and the far right number is the revision (`0` is first, `1` is second, etc). Note that the revision here may not always directly reflection the revision in the satellite code, but usually does.
+2. **Region Code**: Indicates both the region of manufacture and revision. The third number from the left is the region (`0` for Japan, `1` for USA), and the far right number is the revision (`0` is first, `1` is second, etc). Note that the revision here may not always directly reflection the revision in the satellite code, but usually does. To validate this further, the "Made in USA" or "Made in Japan" text, always near the UPC, will validate the regional code.
 3. **Locale:** This indicates the intended region for general consumer distribution. In this case, the ending (e.g., `USA`) is what matters. Sometimes it will say `USZ` if meant for a combination of US, Canada, and/or Mexico, or `CAN` if intended specifically for Canada.
 
 There are probably more official names for these, so bear with me. :)
@@ -43,7 +43,7 @@ Of course, like all things, there are and have been exceptions/mistakes where ga
 
 Here's an example in *Kingdom Hearts: 358/2 Days* on Nintendo DSwhere Square Enix omitted the revision character in the satellite code and entirely omitted the regional code sub-UPC.
 
-![](/uploads/kingdom-hearts.jpg)
+![Some third party publishers, like Square Enix, won't fully honor the satellite or region code system and will omit some or all of that data.](/uploads/kingdom-hearts.jpg)
 
 Apologies if that's hard to read.
 
@@ -53,15 +53,7 @@ Here's another UPC of Bayonetta 2 on Wii U denoting a `00000` regional UPC with 
 
 In case you're worried that big box games don't have these codes, fear not. While they may not have the regional code and UPC, they will still include satellite and regional codes.
 
-![](/uploads/super-smash-bros-wii-u-bundle.jpg)
-
-## Dual-Language Variants
-
-It's not all fun and games, though. You still need to be wary of which might get print runs in multiple languages. They have satellite codes that still denote a "first print" code like `XXXXXXA`, but the locale text might indicate "CAN" (for Canada) with both English and French text throughout the case art.
-
-<pic of Smash Bros Ultimate back>
-
-Again, *this is still a first print*, however it is regional to Canada, in this case. 
+![Boxed Wii U game bundle has locale text and satellite code, but no region UPC code or strip.](/uploads/super-smash-bros-wii-u-bundle.jpg)
 
 ## Market Preference & Prices
 
