@@ -1,8 +1,10 @@
+@use "../../styles/vars" as vars;
+
 .logoContainer {
   display: inline-block;
   max-width: 100px;
   height: auto;
-  margin: 1rem 0 1rem 0;
+  margin: 1rem 0 2rem 0;
 }
 
 .pageHeader {
@@ -26,10 +28,10 @@
   padding-block-end: 0.5rem;
 
   &.isActive {
-    border-block-end: 3px solid #999;
+    border-block-end: 3px solid vars.$primary-color-1;
   }
 
   &:hover:not(.isActive) {
-    border-block-end: 3px solid #666;
+    border-block-end: 3px solid vars.$primary-color-2;
   }
 }

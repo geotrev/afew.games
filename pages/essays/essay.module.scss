@@ -1,4 +1,4 @@
-@use "../../styles/empty-state";
+@use "../../styles/vars" as vars;
 
 .essayTitle {
   color: #ccc;
@@ -21,7 +21,7 @@
 .essayBody {
   > p:first-of-type::first-letter {
     font-family: Georgia, "Times New Roman", Times, serif;
-    color: #666;
+    color: vars.$secondary-color-2;
     float: left;
     font-size: 4.5rem;
     padding: 0;

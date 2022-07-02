@@ -1,3 +1,5 @@
+@use "../../styles/vars" as vars;
+
 .pagination {
   display: flex;
   gap: 1rem;
@@ -17,12 +19,12 @@
   padding: 0.5rem;
 
   &.isActive {
-    background: lightgray;
+    background: white;
     color: #222;
   }
 
   &:hover:not([aria-disabled]) {
-    background: #333;
+    background: vars.$primary-color-2;
   }
 
   &:not([aria-disabled]) {
@@ -30,10 +32,18 @@
   }
 
   &[aria-disabled]:not(.isActive) {
-    color: #666;
+    color: vars.$tertiary-color-2;
   }
 }
 
-.paginationPaginateListItem {
-  border-block-end: 1px solid #777;
+.paginateSkipbutton {
+  background: vars.$primary-color-2;
+
+  &:hover:not([aria-disabled]) {
+    background: vars.$primary-color-1;
+  }
+
+  &[aria-disabled] {
+    background: transparent;
+  }
 }

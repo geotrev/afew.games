@@ -120,49 +120,61 @@ export default function Pagination({
     >
       <nav aria-label="Pagination" onKeyDown={handleKeydown}>
         <ul className={styles.pagination}>
-          <li className={styles.paginationPaginateListItem}>
+          <li>
             <button
               onKeyDown={(e) => e.stopPropagation()}
-              className={styles.paginationButton}
+              className={classNames(
+                styles.paginationButton,
+                styles.paginateSkipbutton
+              )}
               type="button"
               aria-disabled={activePageIndex === 0 ? "true" : null}
               onClick={onFirstPageClick}
             >
-              {"Newest"}
+              {"≪"}
             </button>
           </li>
-          <li className={styles.paginationPaginateListItem}>
+          <li>
             <button
               onKeyDown={(e) => e.stopPropagation()}
-              className={styles.paginationButton}
+              className={classNames(
+                styles.paginationButton,
+                styles.paginateSkipbutton
+              )}
               type="button"
               aria-disabled={activePageIndex === 0 ? "true" : null}
               onClick={onPreviousClick}
             >
-              {"Previous Page"}
+              {"Previous"}
             </button>
           </li>
           {renderVisiblePageItems()}
-          <li className={styles.paginationPaginateListItem}>
+          <li>
             <button
               onKeyDown={(e) => e.stopPropagation()}
-              className={styles.paginationButton}
+              className={classNames(
+                styles.paginationButton,
+                styles.paginateSkipbutton
+              )}
               type="button"
               aria-disabled={lastPageIdx === activePageIndex ? "true" : null}
               onClick={onNextClick}
             >
-              {"Next Page"}
+              {"Next"}
             </button>
           </li>
-          <li className={styles.paginationPaginateListItem}>
+          <li>
             <button
               onKeyDown={(e) => e.stopPropagation()}
-              className={styles.paginationButton}
+              className={classNames(
+                styles.paginationButton,
+                styles.paginateSkipbutton
+              )}
               type="button"
               aria-disabled={activePageIndex === count - 1 ? "true" : null}
               onClick={onLastPageClick}
             >
-              {"Oldest"}
+              {"≫"}
             </button>
           </li>
         </ul>
