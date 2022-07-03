@@ -6,6 +6,7 @@ out/
 
 # Local Netlify folder
 .netlify
+.env.local
 
 # Locally generated content for development
 .seed

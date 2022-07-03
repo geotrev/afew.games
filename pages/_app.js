@@ -1,6 +1,9 @@
 import { Helmet } from "react-helmet"
+import { useEffect } from "react"
+import Script from "next/script"
 import { useRouter } from "next/router"
 import Header from "components/header"
+import { pageView } from "lib/analytics"
 import "styles/global.scss"
 
 const BASE_TITLE = "a few games"
@@ -16,10 +19,19 @@ const Descriptions = {
   [ExactPaths[2]]: "A collection of rare Wata- and VGA-graded video games",
 }
 
+const handleRouteChange = (url) => {
+  pageView(url)
+}
+
 export default function App({ Component, pageProps }) {
-  const { asPath } = useRouter()
+  const { asPath, events } = useRouter()
   const title = Titles[asPath]
   const description = Descriptions[asPath]
+
+  useEffect(() => {
+    events.on("routeChangeComplete", handleRouteChange)
+    return () => events.off("routeChangeComplete", handleRouteChange)
+  }, [events])
 
   function renderMeta() {
     return (
@@ -37,6 +49,19 @@ export default function App({ Component, pageProps }) {
 
   return (
     <div className="app-container">
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`}
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', '${process.env.NEXT_PUBLIC_MEASUREMENT_ID}');
+        `}
+      </Script>
       {renderMeta()}
       <Header />
       <Component {...pageProps} />
