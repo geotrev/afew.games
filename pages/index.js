@@ -7,7 +7,11 @@ export default function Home() {
         <span aria-hidden="true">./</span>
         <span className="visually-hidden">Home</span>
       </h1>
-      <p>Sublime journeys beyond the extraordinary.</p>
+      <p>
+        Hello and welcome. This is my personal blog and collection website. I
+        like to write about, document, and track my video games. I hope you stay
+        for a while!
+      </p>
     </Layout>
   )
 }

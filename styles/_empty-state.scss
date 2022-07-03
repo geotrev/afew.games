@@ -1,3 +1,5 @@
+@use "./vars" as vars;
+
 .empyStateContainer {
   margin-block-end: 3rem;
 }
@@ -68,7 +70,12 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   background-color: #444;
-  background: linear-gradient(130deg, #444 5%, #4f4f4f 18%, #444 30%);
+  background: linear-gradient(
+    130deg,
+    darken(vars.$primary-color-1, 45%) 5%,
+    darken(vars.$primary-color-1, 42%) 18%,
+    darken(vars.$primary-color-1, 45%) 30%
+  );
   background-size: 800px 104px;
   height: 30px;
   position: relative;
