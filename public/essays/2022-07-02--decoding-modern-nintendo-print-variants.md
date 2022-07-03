@@ -85,29 +85,21 @@ On _Bayonetta 2_ for Wii U (2nd party developed), there is a `00000` satellite c
 
 ![Bayonetta 2 on Wii U has mismatching satellite code versus country of manufacture](/uploads/bayonetta-2-wii-u.jpg)
 
-And in case you're worried that big box bundles don't have these codes, fear not. While they may not have a satellite code, they should still include print codes and an MPN. The game inside will have a unique print code and revision set as well.
+And in case you're worried that games in boxed bundles don't have these codes, fear not. While they may not have a satellite code, they should still include a unique print code and MPN.
 
-On Super Smash Bros for Wii U (controller bundle) for example we see the MPN and print code but no satellite code.
+Here is _Super Smash Bros for Wii U_ (the controller bundle):
 
 ![Boxed Wii U game bundle has locale text and print code, but no satellite UPC code or strip](/uploads/super-smash-bros-wii-u-bundle.jpg)
 
-## A Word on Market Preference & Prices
+If we were to look at the game case inside, it would have the same code along with its own satellite code and "Not For Resale" text.
 
-I'm not going to pretend that there isn't a tendency for collectors to prefer NTSC-U (USA) copies of games. It has been and continues to be the norm.
-
-For this reason, I think it's important to know these details so you don't overpay for a game the market sees as "less valuable." At the same time, if you find a "valuable" print for a low price, well, you nailed it!
-
-All in all, finding new copies of certain modern games will be a challenge as more resellers at large are seeing NTSC-U, first-print print codes as the key to profit. Especially with modern game grading becoming as prevalent as it is (akin to comics and sports cards).
-
-We're seeing this market activity happen on games as modern as Super Mario Odyssey, The Legend of Zelda: Breath of the Wild, and Super Smash Bros Ultimate. Will it last into the future? Who knows, but knowing what you're buying will better inform you.
-
-To work around this, you'll see an immense discount when finding CAN or even MX (Mexico) variants of your favorite games. In this case, often these regional games still have English options and will play all the same!
+This isn't a fast and hard rule for all bundles, though. For instance, Pokemon HeartGold and SoulSilver (Pokewalker bundle) have all the critical info on the outer box, but the game inside simply says "Not For Resale" and no UPCs or print codes to be seen, just an MPN. So like most things in the world of commerce, your mileage may vary.
 
 ## Conclusion
 
 I hope this has been a helpful introduction to the concept of modern Nintendo game print variants. There really isn't any magic here!
 
-Like all things data-based, though, if you can't find information online, you can always hit up eBay and compile a list of print codes by scanning active listing photos. I've begun keeping a spreadsheet for each game I document, noting all the information we've discussed above, plus any significant packaging differences (e.g., multi-language, DLC features, bonus content, etc).
+Like all things data-based, though, if you can't find information online, you can always hit up eBay and compile a list of print codes/variant data simply by scanning active listing photos. I've begun keeping a spreadsheet for each game I document, noting all the information we've discussed above, plus any significant packaging differences (e.g., multi-language, DLC features, bonus content, notable dates or addresses, etc).
 
 ---
 
