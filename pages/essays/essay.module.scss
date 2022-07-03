@@ -23,6 +23,20 @@
 .essayBody {
   line-height: 2;
 
+  p {
+    line-height: 2;
+  }
+
+  p:first-of-type::first-letter {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: vars.$secondary-color-2;
+    float: left;
+    font-size: 4.5rem;
+    padding: 0;
+    margin: 0.65rem 0.75rem 0 0;
+    line-height: 0.85;
+  }
+
   h2 {
     font-size: 32px;
   }
@@ -41,16 +55,6 @@
   b,
   strong {
     font-weight: bold;
-  }
-
-  > p:first-of-type::first-letter {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: vars.$secondary-color-2;
-    float: left;
-    font-size: 4.5rem;
-    padding: 0;
-    margin: 0.65rem 0.75rem 0 0;
-    line-height: 0.85;
   }
 
   img {

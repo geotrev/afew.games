@@ -71,7 +71,7 @@ _The Legend of Zelda: Skyward Sword_ for Nintendo Wii, retail first print, made 
 
 _Super Smash Bros for Wii U_, retail first print, made in USA, distributed in USA and Canada (there is French on the packaging).
 
-## Errors, Inconsistencies, and Models
+## Errors, Inconsistencies, and Bundles
 
 Like all things, there have been and will be exceptions/mistakes where games are printed with the wrong codes but the error was noticed too late in the production process, resulting in "error" copies. Similarly, third parties don't always respect Nintendo's print/satellite code pattern.
 
@@ -86,6 +86,8 @@ On _Bayonetta 2_ for Wii U (2nd party developed), there is a `00000` satellite c
 ![Bayonetta 2 on Wii U has mismatching satellite code versus country of manufacture](/uploads/bayonetta-2-wii-u.jpg)
 
 And in case you're worried that big box bundles don't have these codes, fear not. While they may not have a satellite code, they should still include print codes and an MPN. The game inside will have a unique print code and revision set as well.
+
+On Super Smash Bros for Wii U (controller bundle) for example we see the MPN and print code but no satellite code.
 
 ![Boxed Wii U game bundle has locale text and print code, but no satellite UPC code or strip](/uploads/super-smash-bros-wii-u-bundle.jpg)
 
