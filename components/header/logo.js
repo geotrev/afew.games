@@ -4,8 +4,7 @@ export default function Logo() {
       id="a"
       xmlns="<http://www.w3.org/2000/svg>"
       viewBox="0 0 193.96 155.75"
-      width="100%"
-      height="auto"
+      style={{ height: "auto", width: "100%" }}
     >
       <g>
         <path

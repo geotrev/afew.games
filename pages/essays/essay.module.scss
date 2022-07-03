@@ -5,15 +5,12 @@
   margin-block-end: 1.5rem;
   line-height: 1.2;
 }
+@use "../../styles/vars" as vars;
 
 .essayItemTimePara {
   line-height: 1.5;
   margin-block-end: 0.5rem;
-}
-
-.essayItemTime {
-  color: #999;
-  font-weight: bold;
+  color: vars.$tertiary-color-1;
 }
 
 .essayDescription {
@@ -33,6 +30,7 @@
     float: left;
     font-size: 4.5rem;
     padding: 0;
+    box-sizing: border-box;
     margin: 0.65rem 0.75rem 0 0;
     line-height: 0.85;
   }

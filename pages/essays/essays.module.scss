@@ -1,3 +1,4 @@
+@use "../../styles/vars" as vars;
 @use "../../styles/empty-state";
 
 .essayList {
@@ -16,7 +17,11 @@
   margin-block-end: 0.5rem;
 }
 
+.essayItemDescription {
+  color: vars.$tertiary-color-1;
+}
+
 .essayItemTime {
   font-weight: bold;
-  color: #999;
+  color: vars.$tertiary-color-1;
 }

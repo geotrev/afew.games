@@ -10,11 +10,14 @@ export default function Essay({ title, description, date, content }) {
     return (
       <>
         <p className={[styles.essayItemTimePara]}>
-          <time className={styles.essayItemTime} dateTime={date}>
+          Published{" "}
+          <time aria-labelledby="essay-heading" dateTime={date}>
             {date}
           </time>
         </p>
-        <h1 className={styles.essayTitle}>{title}</h1>
+        <h1 id="essay-heading" className={styles.essayTitle}>
+          {title}
+        </h1>
         {description && (
           <p className={classNames(styles.essayDescription, "text-lg")}>
             {description}
