@@ -18,7 +18,7 @@ button {
 }
 
 p {
-  line-height: 1.35;
+  line-height: 1.5;
   margin-block-start: 0;
   margin-block-end: 1rem;
 }
@@ -34,12 +34,14 @@ h6 {
 }
 
 h1 {
+  line-height: 1.2;
   font-size: 44px;
   margin-block-end: 3rem;
   color: vars.$primary-color-2;
 }
 
 h2 {
+  line-height: 1.2;
   margin-block-end: 1.15rem;
 }
 
@@ -47,5 +49,6 @@ h3,
 h4,
 h5,
 h6 {
+  line-height: 1.2;
   margin-block-end: 1rem;
 }
