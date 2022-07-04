@@ -5,6 +5,8 @@ description: Every variant for the 14 games on GBA and GBC, and what to look for
 ---
 It's no secret that Mega Man is a huge IP spanning decades, with dozens and dozens of games. If you're a set collector or just want to collect every entry on the Game Boy Color and Advance systems, then this post is for you.
 
+**Credits:** [Renmauzo](https://www.videogamesage.com/profile/1879-renmauzo/) on VideoGameSage for providing photos and cross-referencing various games
+
 ## Preface
 
 Before we jump into the list, here are some base expectations:
@@ -12,10 +14,6 @@ Before we jump into the list, here are some base expectations:
 * Each game covered will show a cart, manual, precautions booklet, and cardboard inlay/tray. There are exceptions that will be noted when appropriate (such as ads or postcards).
 * Differences in paperwork, such as copy quirks or print codes, aren't noted here (but may be added in the future).
 * When appropriate, major visual differences will be highlighted.
-
-Credits are at the end for contributions.
-
-Credits: [Renmauzo](https://www.videogamesage.com/profile/1879-renmauzo/) on VideoGameSage for providing photos and cross-references various games
 
 Here is a brief list of games covered in this post:
 
