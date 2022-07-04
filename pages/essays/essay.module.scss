@@ -1,7 +1,6 @@
 @use "../../styles/vars" as vars;
 
 .essayTitle {
-  color: #ccc;
   margin-block-end: 1.5rem;
   line-height: 1.2;
 }
@@ -57,7 +56,6 @@
   }
 
   img {
-    width: 100%;
     max-width: 100%;
     height: auto;
   }
