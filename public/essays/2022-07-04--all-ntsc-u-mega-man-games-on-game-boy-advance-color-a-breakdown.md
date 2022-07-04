@@ -32,72 +32,74 @@ Here is a brief list of games covered in this post:
 
 ### Mega Man Xtreme
 
-<photo>
+![Mega Man Xtreme box, cartridge, and paperwork](/uploads/mmxtreme.jpg)
 
 ### Mega Man Xtreme 2
 
-<photo>
+![Mega Man Xtreme 2 box, cartridge, and paperwork](/uploads/mmxtreme2.jpg)
 
 ### Mega Man Battle Network
 
-<photo>
+![Mega Man Battle Network box, cartridge, and paperwork](/uploads/mmbn1.jpg)
 
 ### Mega Man Battle Network 2
 
-<photo>
+![Mega Man Battle Network 2 box, cartridge, and paperwork](/uploads/mmbn2.jpg)
 
 ### Mega Man Battle Network 3: Blue Version
 
-<photo>
+![Mega Man Battle Network 3: Blue Version box, cartridge, and paperwork](/uploads/mmbn3blue.jpg)
 
 ### Mega Man Battle Network 3: White Version
 
-<photo>
+![Mega Man Battle Network 3: White Version Y-fold box, cartridge, and paperwork](/uploads/mmbn3white.jpg)
+
+![Mega Man Battle Network 3: White Version double-ended box, cartridge, and paperwork](/uploads/mmbn3white2ended.jpg)
 
 ### Mega Man Battle Network 4: Red Sun
 
-<photo>
+![Mega Man Battle Network 4: Red Sun box, cartridge, and paperwork](/uploads/mmbn4rs.jpg)
 
 ### Mega Man Battle Network 4: Blue Moon
 
-<photo>
+![Mega Man Battle Network 4: Blue Moon box, cartridge, and paperwork](/uploads/mmbn4bm.jpg)
 
 ### Mega Man Battle Network 5: Team Colonel
 
-<photo>
+![Mega Man Battle Network 5: Team Colonel box, cartridge, and paperwork](/uploads/mmbn5tc.jpg)
 
 ### Mega Man Battle Network 5: Team Protoman
 
-<photo>
+![Mega Man Battle Network 5: Team Protoman box, cartridge, and paperwork](/uploads/mmbn5tp.jpg)
 
 ### Mega Man Battle Network 6: Cybeast Gregar
 
-<photo>
+![Mega Man Battle Network 6: Cybeast Gregar box, cartridge, and paperwork](/uploads/mmbn6cg.jpg)
 
 ### Mega Man Battle Network 6: Cybeast Falzar
 
-<photo>
+![Mega Man Battle Network 6: Cybeast Falzar box, cartridge, and paperwork](/uploads/mmbn6cf.jpg)
 
 ### Mega Man Battle Chip Challenge
 
-<photo>
+![Mega Man Battle Chip Challenge box, cartridge, and paperwork](/uploads/mmbcc.jpg)
 
 ### Mega Man Zero
 
-<photo>
+![Mega Man Zero box, cartridge, and paperwork](/uploads/mmz1.jpg)
 
 ### Mega Man Zero 2
 
-<photo>
+![Mega Man Zero 2 box, cartridge, and paperwork](/uploads/mmz2.jpg)
 
 ### Mega Man Zero 3
 
-<photo>
+![Mega Man Zero 3 box, cartridge, and paperwork](/uploads/mmz3.jpg)
 
 ### Mega Man Zero 4
 
-<photo>
+![Mega Man Zero 4 box, cartridge, and paperwork](/uploads/mmz4.jpg)
 
 ### Mega Man & Bass
 
-<photo>
+![Mega Man & Bass box, cartridge, and paperwork](/uploads/mmb.jpg)
