@@ -3,7 +3,8 @@ title: "All NTSC-U Mega Man Games on Game Boy Advance/Color: Variant Breakdown"
 description: Every variant for the 14 games on GBA and GBC, and what to look for
   in both sealed and complete-in-box copies
 ---
-It's no secret that Mega Man is a huge IP spanning decades, with dozens and dozens of games. If you're a set collector or just want to collect every entry on the Game Boy Color and Advance systems, then this post is for you.
+
+It's no secret that Mega Man is a huge IP spanning decades, with dozens and dozens of games. If you're a set collector or just want to collect every entry on the Game Boy Advance and color systems, then this post is for you.
 
 **Credits:** [Renmauzo](https://www.videogamesage.com/profile/1879-renmauzo/) on VideoGameSage for providing photos and cross-referencing various games
 
@@ -11,18 +12,18 @@ It's no secret that Mega Man is a huge IP spanning decades, with dozens and doze
 
 Before we jump into the list, here are some base expectations:
 
-* Each game covered will show a cart, manual, precautions booklet, and cardboard inlay/tray. There are exceptions that will be noted when appropriate (such as ads or postcards).
-* Differences in paperwork, such as copy quirks or print codes, aren't noted here (but may be added in the future).
-* When appropriate, major visual differences will be highlighted.
+- Each game covered will show a cart, manual, precautions booklet, and cardboard inlay/tray. There are exceptions that will be noted when appropriate (such as ads or postcards).
+- Differences in paperwork, such as copy quirks or print codes, aren't noted here (but may be added in the future).
+- When appropriate, major visual differences will be highlighted.
 
 Here is a brief list of games covered in this post:
 
-* Mega Man Xtreme
-* Mega Man Xtreme 2
-* Mega Man Battle Network (1-6)
-* Mega Man Battle Chip Challenge
-* Mega Man Zero (1-4)
-* Mega Man & Bass
+- Mega Man Xtreme
+- Mega Man Xtreme 2
+- Mega Man Battle Network (1-6)
+- Mega Man Battle Chip Challenge
+- Mega Man Zero (1-4)
+- Mega Man & Bass
 
 ## The Games
 
@@ -36,11 +37,11 @@ If you have questions, comments, or corrections to note, please drop me a line a
 
 **Variants:**
 
-* Y-Fold box + H-seam
+- Y-Fold box + H-seam
 
 **Additional contents:**
 
-* Power Up ad
+- Power Up ad
 
 ### Mega Man Xtreme 2
 
@@ -48,11 +49,11 @@ If you have questions, comments, or corrections to note, please drop me a line a
 
 **Variants:**
 
-* Y-fold box + H-seam
+- Y-fold box + H-seam
 
 **Additional contents:**
 
-* Power Up ad
+- Power Up ad
 
 ### Mega Man Battle Network
 
@@ -60,11 +61,11 @@ If you have questions, comments, or corrections to note, please drop me a line a
 
 **Variants:**
 
-* Y-fold box + H-seam
+- Y-fold box + H-seam
 
 **Additional contents:**
 
-* Nintendo power advance ad
+- Nintendo power advance ad
 
 ### Mega Man Battle Network 2
 
@@ -72,11 +73,11 @@ If you have questions, comments, or corrections to note, please drop me a line a
 
 **Variants:**
 
-* Y-fold box + H-seam
+- Y-fold box + H-seam
 
 **Additional contents:**
 
-* Nintendo power advance ad
+- Nintendo power advance ad
 
 ### Mega Man Battle Network 3: Blue Version
 
@@ -84,14 +85,14 @@ If you have questions, comments, or corrections to note, please drop me a line a
 
 **Variants:**
 
-* Y-fold box + H-seam
-* Double-Ended box + 3-side seam (built-in game cartridge holder)
+- Y-fold box + H-seam
+- Double-Ended box + 3-side seam (built-in game cartridge holder)
 
 **Notes:** There's likely content differences between the above variants. I'll confirm here when I find them.
 
 **Additional contents:**
 
-* Free gift / Nintendo power ad
+- Free gift / Nintendo power ad
 
 ### Mega Man Battle Network 3: White Version
 
@@ -101,14 +102,14 @@ If you have questions, comments, or corrections to note, please drop me a line a
 
 **Variants:**
 
-* Y-fold box + H-seam (error "white" cover)
-* Double-Ended box + 3-side seam (built-in game cartridge holder) (corrected "gray" cover)
+- Y-fold box + H-seam (error "white" cover)
+- Double-Ended box + 3-side seam (built-in game cartridge holder) (corrected "gray" cover)
 
 **Notes:** There's likely content differences between the above variants. I'll confirm here when I find them.
 
 **Additional contents:**
 
-* Free gift / Nintendo power ad
+- Free gift / Nintendo power ad
 
 ### Mega Man Battle Network 4: Red Sun
 
@@ -116,12 +117,12 @@ If you have questions, comments, or corrections to note, please drop me a line a
 
 **Variants:**
 
-* Y-fold box + H-seam
+- Y-fold box + H-seam
 
 **Additional contents:**
 
-* Free gift / Nintendo power ad
-* Capcom registration card
+- Free gift / Nintendo power ad
+- Capcom registration card
 
 ### Mega Man Battle Network 4: Blue Moon
 
@@ -129,12 +130,12 @@ If you have questions, comments, or corrections to note, please drop me a line a
 
 **Variants:**
 
-* Y-fold box + H-seam
+- Y-fold box + H-seam
 
 **Additional contents:**
 
-* Free gift / Nintendo power ad
-* Capcom registration card
+- Free gift / Nintendo power ad
+- Capcom registration card
 
 ### Mega Man Battle Network 5: Team Colonel
 
@@ -142,16 +143,16 @@ If you have questions, comments, or corrections to note, please drop me a line a
 
 **Variants:**
 
-* Double-Ended box + 3-side seam (built-in game cartridge holder)
-* Might have "Plays on DS*" sticker
-* “Bonus! Mattel Battle Chip Inside!” sticker
+- Double-Ended box + 3-side seam (built-in game cartridge holder)
+- Might have "Plays on DS\*" sticker
+- “Bonus! Mattel Battle Chip Inside!” sticker
 
-**Notes:** "Plays on DS*" and "Bonus! Mattel Battle Chip Inside!" stickers may appear at the same time.
+**Notes:** "Plays on DS\*" and "Bonus! Mattel Battle Chip Inside!" stickers may appear at the same time.
 
 **Additional contents:**
 
-* NT warrior/advanced PET ad
-* Bonus battle chip
+- NT warrior/advanced PET ad
+- Bonus battle chip
 
 ### Mega Man Battle Network 5: Team Protoman
 
@@ -159,16 +160,16 @@ If you have questions, comments, or corrections to note, please drop me a line a
 
 **Variants:**
 
-* Double-Ended box + 3-side seam (built-in game cartridge holder)
-* Might have "Plays on DS*" sticker
-* “Bonus! Mattel Battle Chip Inside!” sticker
+- Double-Ended box + 3-side seam (built-in game cartridge holder)
+- Might have "Plays on DS\*" sticker
+- “Bonus! Mattel Battle Chip Inside!” sticker
 
-**Notes:** "Plays on DS*" and "Bonus! Mattel Battle Chip Inside!" stickers may appear at the same time.
+**Notes:** "Plays on DS\*" and "Bonus! Mattel Battle Chip Inside!" stickers may appear at the same time.
 
 **Additional contents:**
 
-* NT warrior/advanced PET ad
-* Bonus battle chip
+- NT warrior/advanced PET ad
+- Bonus battle chip
 
 ### Mega Man Battle Network 6: Cybeast Gregar
 
@@ -176,8 +177,8 @@ If you have questions, comments, or corrections to note, please drop me a line a
 
 **Variants:**
 
-* Double-Ended box + 3-side seam (built-in  game cartridge holder)
-* Can have "Plays on DS*" sticker
+- Double-Ended box + 3-side seam (built-in game cartridge holder)
+- Can have "Plays on DS\*" sticker
 
 **Additional contents:** N/A
 
@@ -187,8 +188,8 @@ If you have questions, comments, or corrections to note, please drop me a line a
 
 **Variants:**
 
-* Double-Ended box + 3-side seam (built-in  game cartridge holder)
-* Can have "Plays on DS*" sticker
+- Double-Ended box + 3-side seam (built-in game cartridge holder)
+- Can have "Plays on DS\*" sticker
 
 **Additional contents:** N/A
 
@@ -198,8 +199,8 @@ If you have questions, comments, or corrections to note, please drop me a line a
 
 **Variants:**
 
-* Y-fold box + H-seam
-* Double-Ended box + 3-side seam (built-in game cartridge holder)
+- Y-fold box + H-seam
+- Double-Ended box + 3-side seam (built-in game cartridge holder)
 
 **Additional contents:** N/A
 
@@ -209,11 +210,11 @@ If you have questions, comments, or corrections to note, please drop me a line a
 
 **Variants:**
 
-* Y-fold box + H-seam
+- Y-fold box + H-seam
 
 **Additional contents:**
 
-* Nintendo power advance ad
+- Nintendo power advance ad
 
 ### Mega Man Zero 2
 
@@ -221,11 +222,11 @@ If you have questions, comments, or corrections to note, please drop me a line a
 
 **Variants:**
 
-* Y-fold box + H-seam
+- Y-fold box + H-seam
 
 **Additional contents:**
 
-* Free gift / Nintendo power ad
+- Free gift / Nintendo power ad
 
 ### Mega Man Zero 3
 
@@ -233,12 +234,12 @@ If you have questions, comments, or corrections to note, please drop me a line a
 
 **Variants:**
 
-* Y-fold box + H-seam
+- Y-fold box + H-seam
 
 **Additional contents:**
 
-* Capcom registration card
-* Free gift / Nintendo power ad
+- Capcom registration card
+- Free gift / Nintendo power ad
 
 ### Mega Man Zero 4
 
@@ -246,8 +247,8 @@ If you have questions, comments, or corrections to note, please drop me a line a
 
 **Variants:**
 
-* Double-Ended box + 3-side seam (built-in game cartridge holder)
-* Bar code sticker (beneath seal)
+- Double-Ended box + 3-side seam (built-in game cartridge holder)
+- Bar code sticker (beneath seal)
 
 **Additional contents:** N/A
 
@@ -257,10 +258,10 @@ If you have questions, comments, or corrections to note, please drop me a line a
 
 **Variants:**
 
-* Double-Ended box + 3-side seam (built-in game cartridge holder)
-* Y-fold box + H-seam
+- Double-Ended box + 3-side seam (built-in game cartridge holder)
+- Y-fold box + H-seam
 
 **Additional contents:**
 
-* Free gift / Nintendo power ad
-* My Nintendo registration card
+- Free gift / Nintendo power ad
+- My Nintendo registration card
