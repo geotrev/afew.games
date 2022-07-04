@@ -154,11 +154,7 @@ export default class Collection extends Component {
         <h1>
           <span aria-hidden="true">./</span>Collection
         </h1>
-        <p>
-          {
-            "Many of the games I own are graded by third party authenticators. Namely, VGA (Video Game Authority) and Wata Games. Due to the rising prices of this service and general quality control concerns with both companies, I've put a hold on grading in favor of acrylic cases. In the future I'll add those ungraded games as I have quite a few!"
-          }
-        </p>
+        <p>I own some games.</p>
         {this.renderInput()}
         <h2>VGA Graded</h2>
         {this.renderGamesTable(this.state.vga, "VGA Graded Games")}

@@ -55,7 +55,7 @@ export async function getServerSideProps({ res, params }) {
     "public, s-maxage=10, stale-while-revalidate=59"
   )
 
-  const props = getMatchingEssay(params)
+  const props = await getMatchingEssay(params)
 
   if (!props) {
     return { notFound: true }

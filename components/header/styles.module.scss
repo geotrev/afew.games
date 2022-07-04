@@ -13,7 +13,6 @@
 
 .pageHeading {
   text-transform: uppercase;
-  color: #999;
   margin: 0 0 1rem 0;
   padding: 0;
 }
@@ -25,6 +24,7 @@
 
 .navListItemLink {
   display: block;
+  font-weight: normal;
   padding-block-end: 0.5rem;
 
   &.isActive {

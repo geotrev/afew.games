@@ -63,13 +63,13 @@ _Pokemon UltraMoon_, retail first print, made in Japan, distributed in USA.
 
 ![Nintendo Wii print details with print code on the left of the UPC, and satellite code on the right.](/uploads/skyward-sword.jpg)
 
-_The Legend of Zelda: Skyward Sword_ for Nintendo Wii, retail first print, made in USA, distributed in USA.
+_The Legend of Zelda: Skyward Sword_ for Nintendo Wii, retail first print, made in USA, distributed in USA and Canada (English and French packaging).
 
 ### Nintendo Wii U
 
 ![Nintendo Wii U print details just above the UPC.](/uploads/super-smash-wii-u.jpg)
 
-_Super Smash Bros for Wii U_, retail first print, made in USA, distributed in USA and Canada (there is French on the packaging).
+_Super Smash Bros for Wii U_, retail first print, made in USA, distributed in USA and Canada (English and French packaging).
 
 ## Errors, Inconsistencies, and Bundles
 

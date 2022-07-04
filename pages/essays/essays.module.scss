@@ -11,14 +11,18 @@
 
 .essayItemHeading {
   margin-block-end: 1rem;
+
+  > a {
+    color: vars.$text-color;
+
+    &:hover {
+      color: white;
+    }
+  }
 }
 
 .essayItemTimePara {
   margin-block-end: 0.5rem;
-}
-
-.essayItemDescription {
-  color: vars.$tertiary-color-1;
 }
 
 .essayItemTime {
