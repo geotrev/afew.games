@@ -30,25 +30,60 @@ Here is a brief list of games covered in this post:
 
 ## The Games
 
+Below is the comprehensive list of each game, variants, and contents. Enjoy!
+
 ### Mega Man Xtreme
 
 ![Mega Man Xtreme box, cartridge, and paperwork](/uploads/mmxtreme.jpg)
+
+Variants:\
+- Y-Fold box + H-seam
+
+Additional contents:\
+- Power Up ad
 
 ### Mega Man Xtreme 2
 
 ![Mega Man Xtreme 2 box, cartridge, and paperwork](/uploads/mmxtreme2.jpg)
 
+Variants:\
+- Y-fold box + H-seam
+
+Additional contents:\
+- Power Up ad
+
 ### Mega Man Battle Network
 
 ![Mega Man Battle Network box, cartridge, and paperwork](/uploads/mmbn1.jpg)
+
+Variants:\
+- Y-fold box + H-seam
+
+Additional contents:\
+- Nintendo power advance ad
 
 ### Mega Man Battle Network 2
 
 ![Mega Man Battle Network 2 box, cartridge, and paperwork](/uploads/mmbn2.jpg)
 
+Variants:\
+- Y-fold box + H-seam
+
+Additional contents:\
+- Nintendo power advance ad
+
 ### Mega Man Battle Network 3: Blue Version
 
 ![Mega Man Battle Network 3: Blue Version box, cartridge, and paperwork](/uploads/mmbn3blue.jpg)
+
+Variants:\
+- Y-fold box + H-seam\
+- Double-Ended box + 3-side seam
+
+Notes: There's likely content differences between the above variants. I'll confirm here when I find them.
+
+Additional contents:\
+- Free gift / Nintendo power ad
 
 ### Mega Man Battle Network 3: White Version
 
@@ -56,29 +91,86 @@ Here is a brief list of games covered in this post:
 
 ![Mega Man Battle Network 3: White Version double-ended box, cartridge, and paperwork](/uploads/mmbn3white2ended.jpg)
 
+Variants:\
+- Y-fold box + H-seam (White cover)\
+- Double-Ended box + 3-side seam (Gray cover)
+
+Notes: There's likely content differences between the above variants. I'll confirm here when I find them.
+
+Additional contents:\
+- Free gift / Nintendo power ad
+
 ### Mega Man Battle Network 4: Red Sun
 
 ![Mega Man Battle Network 4: Red Sun box, cartridge, and paperwork](/uploads/mmbn4rs.jpg)
+
+Variants:\
+- Y-fold box + H-seam
+
+Additional contents:\
+- Free gift / Nintendo power ad\
+- Capcom registration card
 
 ### Mega Man Battle Network 4: Blue Moon
 
 ![Mega Man Battle Network 4: Blue Moon box, cartridge, and paperwork](/uploads/mmbn4bm.jpg)
 
+Variants:\
+- Y-fold box + H-seam
+
+Additional contents:\
+- Free gift / Nintendo power ad\
+- Capcom registration card
+
 ### Mega Man Battle Network 5: Team Colonel
 
 ![Mega Man Battle Network 5: Team Colonel box, cartridge, and paperwork](/uploads/mmbn5tc.jpg)
+
+Variants:\
+- Double-Ended box + 3-side seam (built-in game cartridge holder)\
+- Might have "Plays on DS*" sticker\
+- “Bonus! Mattel Battle Chip Inside!” sticker
+
+Notes: "Plays on DS*" and "Bonus! Mattel Battle Chip Inside!" stickers may appear at the same time.
+
+Additional contents:\
+- NT warrior/advanced PET ad\
+- Bonus battle chip
 
 ### Mega Man Battle Network 5: Team Protoman
 
 ![Mega Man Battle Network 5: Team Protoman box, cartridge, and paperwork](/uploads/mmbn5tp.jpg)
 
+Variants:\
+- Double-Ended box + 3-side seam (built-in game cartridge holder)\
+- Might have "Plays on DS*" sticker\
+- “Bonus! Mattel Battle Chip Inside!” sticker
+
+Notes: "Plays on DS*" and "Bonus! Mattel Battle Chip Inside!" stickers may appear at the same time.
+
+Additional contents:\
+- NT warrior/advanced PET ad\
+- Bonus battle chip
+
 ### Mega Man Battle Network 6: Cybeast Gregar
 
 ![Mega Man Battle Network 6: Cybeast Gregar box, cartridge, and paperwork](/uploads/mmbn6cg.jpg)
 
+Variants:\
+- Double-Ended box + 3-side seam (built-in  game cartridge holder)\
+- "Plays on DS*" sticker\
+\
+Additional contents: N/A
+
 ### Mega Man Battle Network 6: Cybeast Falzar
 
 ![Mega Man Battle Network 6: Cybeast Falzar box, cartridge, and paperwork](/uploads/mmbn6cf.jpg)
+
+Variants:\
+- Double-Ended box + 3-side seam (built-in  game cartridge holder)\
+- "Plays on DS*" sticker\
+\
+Additional contents: N/A
 
 ### Mega Man Battle Chip Challenge
 
@@ -103,3 +195,7 @@ Here is a brief list of games covered in this post:
 ### Mega Man & Bass
 
 ![Mega Man & Bass box, cartridge, and paperwork](/uploads/mmb.jpg)
+
+- - -
+
+Again, if you found this useful, have comments, or want to suggest corrections, please reach out via contact@afew.gaems. Thanks!
