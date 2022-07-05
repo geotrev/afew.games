@@ -56,6 +56,12 @@
     font-weight: bold;
   }
 
+  code {
+    font-family: monospace;
+    background-color: vars.$tertiary-color-2;
+    border-radius: 2px;
+  }
+
   img {
     max-width: 100%;
     height: auto;
