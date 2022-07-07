@@ -23,6 +23,7 @@ export default function Essay({ title, description, date, content }) {
             {description}
           </p>
         )}
+        <h2>{"By George W."}</h2>
         <div
           className={styles.essayBody}
           dangerouslySetInnerHTML={{ __html: content }}
