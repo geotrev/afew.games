@@ -40,7 +40,7 @@ export default function Essay({ title, description, date, content }) {
             <em>
               <strong>{"George W."}</strong>{" "}
               {
-                "is a web developer by day, and avid game collector by night. He considers himself an amateur blogger and isn't sure why he's writing in the third person here."
+                "is a web developer by day, and avid game collector by night. He considers himself an amateur blogger and isn't sure why he's writing in the third person."
               }
             </em>
           </p>
