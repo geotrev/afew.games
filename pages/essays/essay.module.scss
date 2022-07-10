@@ -16,22 +16,11 @@
   margin-block-end: 3rem;
 }
 
-.essayBody {
+.essayContent {
   line-height: 2;
 
   p {
     line-height: 2;
-  }
-
-  p:first-of-type::first-letter {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: vars.$tertiary-color-1;
-    float: left;
-    font-size: 4.5rem;
-    padding: 0;
-    box-sizing: border-box;
-    margin: 0.65rem 0.75rem 0 0;
-    line-height: 0.85;
   }
 
   h2 {
@@ -94,4 +83,21 @@
   ol {
     list-style-type: decimal;
   }
+}
+
+.essayBody {
+  p:first-of-type::first-letter {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: vars.$tertiary-color-1;
+    float: left;
+    font-size: 4.5rem;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0.65rem 0.75rem 0 0;
+    line-height: 0.85;
+  }
+}
+
+.essayFooter {
+  opacity: 0.75;
 }
