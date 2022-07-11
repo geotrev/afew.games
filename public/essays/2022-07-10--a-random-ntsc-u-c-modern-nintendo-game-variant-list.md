@@ -9,11 +9,23 @@ Often, I'll seek out an early variant, or simply determine which variant I find 
 
 - - -
 
-With that said, here is a brief list of games and their variants, including print codes, satellite codes, and other useful information. Consider them ordered starting with (what I've concluded to be) first print, down to most recent (or last) print. These are a mixture of retail and special edition copies.
+With that said, here is a brief list of games and their variants, including print codes, satellite codes, and other useful information.
+
+If you haven't already, I recommend reading my semi-comprehensive [guide to understanding modern Nintendo print variants](/essays/decoding-modern-nintendo-print-variants). I've tried to structure the data below in a way that will both look familiar and be easy to digest according to that guide.
+
+Consider these ordered starting with (what I've concluded to be) first print, down to most recent (or last) print. These are a mixture of retail and special edition copies.
 
 Additionally, please note this list is not comprehensive. If you'd like me to add other variants or simply have corrections for me, feel free to reach out at [contact@afew.games](mailto:contact@afew.games).
 
 Enjoy!
+
+## How to Read Variants
+
+Here is the structure of each variant: 
+
+```
+[print code] | [region of manufacture] | [satellite code] | [identifying package content]
+```
 
 ## Mario Kart 8 (Wii U)
 
@@ -52,7 +64,7 @@ Notable for this release is the special edition (dubbed "Ultimate Edition"), whe
 
 ## Metroid Prime: Hunters (DS)
 
-As noted in a [previous essay](/essays/decoding-modern-nintendo-print-variants) on this site, this iteration of Metroid is missing a `57096A` print code variant. Likely due to a production error early in the first print run. For this reason, `57096B` is the earliest print.
+As noted in my print variant guide, this iteration of Metroid is an example of a game missing a print code. Specifically, `57096A`. This is likely due to a production error early in the first print run. As a result, `57096B` is the earliest print code you're likely to find.
 
 * **57096B** | Made in Japan | 00001
 * **57102A** | Made in Japan | 00002
