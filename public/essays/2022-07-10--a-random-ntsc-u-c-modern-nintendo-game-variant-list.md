@@ -7,7 +7,7 @@ Sometimes the craving hits you for a particular game - you need to have it in yo
 
 Often, I'll seek out an early variant, or simply determine which variant I find most interesting or relevant to my nostalgia. For this reason, I often just make a list of as many variants I can find, often just USA/Canadian variants.
 
----
+- - -
 
 With that said, here is a brief list of games and their variants, including print codes, satellite codes, and other useful information. Consider them ordered starting with (what I've concluded to be) first print, down to most recent (or last) print. These are a mixture of retail and special edition copies.
 
@@ -38,10 +38,12 @@ Most notable about Super Mario in this generation is its special edition pack, d
 * Made in Japan; 00000; 105882A; English & Spanish
 * Made in Japan; 00001; 105882B; English & Spanish
 * Made in Japan; 00002; 105882C; English & Spanish
-* Made in Japan (no satellite code); 105882A; "starter pack" box (English, Spanish & French)
-* Made in Japan; 00000; 108807A; NFR, "starter pack" pack-in
+* Made in Japan (no satellite code); 105882A; "starter pack" outer box (English, Spanish & French)
+* Made in Japan; 00000; 108807A; NFR, "starter pack" pack-in game
 
 ## Super Smash Bros Ultimate (Switch)
+
+Notable for this release is the special edition (dubbed "Ultimate Edition"), where there isn't a standard retail copy of the game inside, but rather a steel book. As a result you won't see any codes except on the outer big box.
 
 * Made in Japan; 00000; 108491A; English & Spanish
 * Made in Japan; 00001; 108491B; English & Spanish
