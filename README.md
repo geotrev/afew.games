@@ -5,5 +5,5 @@
 - [x] Don't disable buttons in pagination
 - [x] Simple title-based fuzzy search on `/collection` page
 - [x] Logo
-- [ ] Add single article to start
-- [ ] Remove all the placeholder content in `public/essays`
+- [x] Add single article to start
+- [x] Remove all the placeholder content in `public/essays`
