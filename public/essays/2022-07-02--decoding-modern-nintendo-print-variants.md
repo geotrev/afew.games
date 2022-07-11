@@ -32,7 +32,7 @@ The most important factor in the print is noting how the game was distributed an
 
 A great example of this is The Legend of Zelda: Breath of the Wild, which had three separate versions during its release in 2016: retail, Special Edition, and Master Edition. All of these are "first print."
 
-At the end of the day, the print code is ultimately *b*oth a function of identifying a product and in keeping chronological reference between variants. But which came first can't solely be determined by the print code.
+At the end of the day, the print code is ultimately *both* a function of identifying a product and in keeping chronological reference between variants. But which came first can't solely be determined by the print code.
 
 Now, let's get to some examples!
 
