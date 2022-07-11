@@ -19,51 +19,51 @@ Enjoy!
 
 This iteration of *Mario Kart* was released just a bit before *amiibo* hit store shelves in the USA. This is why the "Made in USA" variant is the earliest, as it has no mention of amiibo and uses the legacy Nintendo Network badge.
 
-* Made in USA; 00100; 82909A; Nintendo Network Badge 
-* Made in USA; 00101; 82909B; Nintendo Network Badge
-* Made in USA; 00100; 83055A; Nintendo Network Badge, NFR, 2014 Wii U 32GB + Mario Kart 7 Deluxe Set
-* Made in USA; 00100 101514A; "amiibo" badge, "amiibo" without TM
-* Made in Japan; 00000; 101979A; "amiibo" badge, "amiibo" with TM
+* **82909A** | Made in USA | 00100 | Nintendo Network Badge 
+* **82909B** | Made in USA | 00101 | Nintendo Network Badge
+* **83055A** | Made in USA | 00100 | Nintendo Network Badge, NFR, 2014 Wii U 32GB + Mario Kart 7 Deluxe Set
+* **101514A** | Made in USA | 00100 | "amiibo" badge, "amiibo" without TM
+* **101979A** | Made in Japan | 00000 | "amiibo" badge, "amiibo" with TM
 
 ## Mario Kart 8 Deluxe (Switch)
 
-* Made in Japan; 00000; 105278A
-* Made In Japan; 00001; 105278B
-* Made in Japan; 00002; 105278C; English & Spanish
+* **105278A** | Made in Japan | 00000
+* **105278B** | Made In Japan | 00001
+* **105278C** | Made in Japan | 00002 | English & Spanish
 
 ## Super Mario Odyssey (Switch)
 
 Most notable about Super Mario in this generation is its special edition pack, dubbed "starter pack." Its pack-in game has a different print code than whats on the box, which is a first in my (very limited) experience documenting variants for modern Nintendo games.
 
-* Made in Japan; 00000; 105882A; English & Spanish
-* Made in Japan; 00001; 105882B; English & Spanish
-* Made in Japan; 00002; 105882C; English & Spanish
-* Made in Japan (no satellite code); 105882A; "starter pack" outer box (English, Spanish & French)
-* Made in Japan; 00000; 108807A; NFR, "starter pack" pack-in game
+* **105882A** | Made in Japan | 00000 | English & Spanish
+* **105882B** | Made in Japan | 00001 | English & Spanish
+* **105882C** | Made in Japan | 00002 | English & Spanish
+* **105882A** | Made in Japan | no satellite code | "starter pack" outer box (English, Spanish & French)
+* **108807A** | Made in Japan | 00000 | NFR, "starter pack" pack-in game
 
 ## Super Smash Bros Ultimate (Switch)
 
 Notable for this release is the special edition (dubbed "Ultimate Edition"), where there isn't a standard retail copy of the game inside, but rather a steel book. As a result you won't see any codes except on the outer big box.
 
-* Made in Japan; 00000; 108491A; English & Spanish
-* Made in Japan; 00001; 108491B; English & Spanish
-* Made in Japan; 00000; 108613A; "Ultimate Edition" controller bundle (English, Spanish & French)
-* Made in Japan; 00000; 108492A; Canadian release (English & French)
+* **108491A** | Made in Japan | 00000 | English & Spanish
+* **108491B** | Made in Japan | 00001 | English & Spanish
+* **108613A** | Made in Japan | 00000 | "Ultimate Edition" controller bundle (English, Spanish & French)
+* **108492A** | Made in Japan | 00000 | Canadian release (English & French)
 
 ## Metroid Prime: Hunters (DS)
 
 As noted in a [previous essay](/essays/decoding-modern-nintendo-print-variants) on this site, this iteration of Metroid is missing a `57096A` print code variant. Likely due to a production error early in the first print run. For this reason, `57096B` is the earliest print.
 
-* Made in Japan; 00001; 57096B
-* Made in Japan; 00002; 57102A
-* Made in Japan; 00000; 57102A; Canadian release (English & French)
-* Made in Japan; 00000; 57102B; Canadian release (English & French)
+* **57096B** | Made in Japan | 00001
+* **57102A** | Made in Japan | 00002
+* **57102A** | Made in Japan | 00000 | Canadian release (English & French)
+* **57102B** | Made in Japan | 00000 | Canadian release (English & French)
 
 ## Bayonetta 2 (Wii U)
 
 Similar to Metroid, above, we covered this in the modern Nintendo variants guide. Unfortunately Platinum and Nintendo shipped their first version of this game with an incorrect satellite code. *Made in USA* variants will always use `00100`, using the middle digit to denote the game is USA printed. [ModernDB](https://www.instagram.com/moderndatabase/) confirmed this is a common trend for the developer.
 
-* Made in USA; 00000; 83663A; Satellite code error, bonus Bayonetta 1
-* Made in USA; 00100; 83663B; Bonus Bayonetta 1
-* Made in USA; 00100; 100178A; Bonus Bayonetta 1
-* Made in Japan; 00000; 103567A
+* **83663A** | Made in USA | 00000 | Satellite code error, bonus Bayonetta 1
+* **83663B** | Made in USA | 00100 | Bonus Bayonetta 1
+* **100178A** | Made in USA | 00100 | Bonus Bayonetta 1
+* **103567A** | Made in Japan | 00000
