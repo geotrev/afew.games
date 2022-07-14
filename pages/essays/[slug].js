@@ -4,6 +4,7 @@ import classNames from "classnames"
 import { getMatchingEssay } from "lib/get-matching-essay"
 import styles from "./essay.module.scss"
 import Types from "prop-types"
+import xss from "xss"
 
 export default function Essay({ title, description, date, content }) {
   function renderEssay() {
@@ -27,7 +28,7 @@ export default function Essay({ title, description, date, content }) {
         <div className={styles.essayContent}>
           <div
             className={styles.essayBody}
-            dangerouslySetInnerHTML={{ __html: content }}
+            dangerouslySetInnerHTML={{ __html: xss(content) }}
           />
           <hr />
           <p className={styles.essayFooter}>
