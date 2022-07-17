@@ -50,7 +50,7 @@ Most notable about Super Mario in this generation is its special edition pack, d
 * **105882A** | Made in Japan | 00000 | English & Spanish
 * **105882B** | Made in Japan | 00001 | English & Spanish
 * **105882C** | Made in Japan | 00002 | English & Spanish
-* **105882A** | Made in Japan | no satellite code | "starter pack" outer box (English, Spanish & French)
+* **108795A** | Made in Japan | no satellite code | "starter pack" outer box (English, Spanish & French)
 * **108807A** | Made in Japan | 00000 | NFR, "starter pack" pack-in game
 
 ## Super Smash Bros Ultimate (Switch)
