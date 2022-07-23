@@ -6,7 +6,7 @@ description: Once you know these three simple tricks, you won't be tricked by re
 
 \> Prevalence of reseals
 
-\> The three identifiers to an authentic sealed game
+\> The three identifiers to an authentic sealed game (an authentic, unopened and factory seal is currently unmatched)
 
 \> If it looks suspicious, it probably is
 
