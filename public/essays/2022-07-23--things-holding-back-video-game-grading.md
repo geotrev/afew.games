@@ -15,7 +15,7 @@ But first, how did we get here? Let's take a brief look at the timeline.
 
 Like coins and comics before, the idea of "grading" and "authenticating" a video game by a third party service entered in the late 2000s by [VGA](https://cgagrading.com/) (Video Game Authority). For a small fee, you can send you game to their offices and have your sealed games confirmed as factory authentic (or unsealed, but new contents, also referred to as "Qualified").
 
-Up until about 2018, VGA operated essentially without competition in the market. That was until Wata Games came around, with a parternship with Heritage Auctions (one of the largest auction houses in the USA), to rebrand the category of rare, sealed, and desirable games.
+Up until about 2018, VGA operated essentially without competition in the market. That was until Wata Games came around, with a partnership with Heritage Auctions (one of the largest auction houses in the USA), to rebrand the category of rare, sealed, and desirable games.
 
 A few press releases later (notably, the [$100,000 sale](https://mashable.com/article/super-mario-bros-auction-record) of a 2nd print Super Mario Bros for NES), suddenly there seemed to be this understanding that games might be highly desirable and therefore worth a lot depending on the buyer (and how many compete at auction).
 
@@ -41,7 +41,24 @@ The grading process can be incredibly anxiety-provoking, but fun. I've been thro
 
 ### The Community
 
+Another fantastic aspect to collecting is the people in the space. While not wholly diverse (read: mostly men), it's an enjoyable scene with a lot of good personalities. Special shout out to the SACK community (run by [GetTheGregGames](https://www.youtube.com/c/GetTheGregGames) on YouTube). He streams most of the major auctions nowadays and is even sponsored by Heritage Auctions directly.
 
+A lesser-talked about aspect to collecting is you often run into people who collect more than just your interest area. For instance, many of the same folks collecting games, also collect cards and comics.
+
+## The Worst Parts
+
+There's never a good without a bad, and in this case there's no exception.
+
+Many of my personal complaints in graded games start as high up as the grading companies themselves, and to a smaller extent, some individuals in the community.
+
+### The Grading Companies
+
+There's currently a crisis in identity for the grading companies. By this I mean the two big players, Wata Games and VGA, are seriously struggling in specific, unique areas depending on which one we're talking about.
+
+Let's start with Wata Games, the self-proclaimed "clear leader" in the market:
+
+* **The Holder:** Wata Games has a decent-enough looking holder. Some folks love it, some hate it. Personally, I've had a bell-curve style appreciation of it over the years. I started not really liking it, then thought it was charming and lovely, and now I've landed at "it's not good enough." The holder is all prefabricated so their marketing saying, "We. Grade. Everything." is hilariously incorrect. Even now, after four years in operation.
+* **Quality Control:** The holder has been shown to damage sharp corners of cardboard box games, have numerous unsightly quality control issues like scuffing, and the rare occasion a hair or house fly (you read correctly) are sealed in.
 
 \---
 
