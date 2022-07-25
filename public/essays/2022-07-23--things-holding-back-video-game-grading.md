@@ -68,9 +68,15 @@ VGAs issues rest mainly in a history of poor communication and reduction in serv
 
 And here lays the second issue: communication. Customers have been told for 10 years that a new website was coming, with a better submission process and population data. Well, it's 2022, and the new website is here. Sadly, we still have neither of those things.
 
-- - -
+### The Value
 
-On a much narrower scale, the issues I often see in the community tends to be the bullish behavior of some sellers, asking the absolute peak of the market and beyond, having little market fundamentals knowledge, thinking one sale at X price means their game must also be worth X price. It's disheartening when it's a game you'd love to own.
+While it might seem the value is more of a positive, and generally it is, there are certainly issues that arise from increased value.
+
+Namely, participants in the market looking to profit as much as possible, and some going to fraudulent lengths to do so. Reseals are even more common now than they were in recent years.
+
+I plan to discuss in a future essay on how to tell when a game is authentic, but for the sake of this explanation, let's just say it can be hard to want to participate in the hobby when all the ebay listings are astronomically high, and you'll need to get your hands dirty with 1-on-1 negotation to grab your favorite games (because chances are, they're everyone else's favorites, too!)
+
+- - -
 
 At the end of the day, the issues are clear as day. The two "trusted" grading outlets have severe flaws and there's still only the two options for the bulk of the market (not including less popular or non-USA companies, which could be another discussion, perhaps).
 
@@ -80,14 +86,6 @@ All said and done, what is coming next? Well, as mentioned above, VGA's new webs
 
 And even better, competitors are entering the market every day. CGC is slated to start accepting games for grading in the later trimester this year, which will serve greatly to add some much needed competition in the market.
 
-There's also been a lot of visibility on this market in recent years, which is also a huge plus. Both for market growth and for normalization of the hobby. A great example of this is YouTube channels like Reserved Investments, which helps to bring dow
+There's also been a lot of visibility on this market in recent years, which is also a huge plus. Both for market growth and for normalization of the hobby. A great example of this is YouTube channels like [Reserved Investments](https://www.youtube.com/c/ReservedInvestments), which helps to bring expectations of the hobby back down to Earth while showcasing the market's potential.
 
 Ultimately, I hope your takeaway here isn't dread for the future of graded video games. Rather, it's to see there is much room for improvement, and ultimately we're in no rush to send off our games anyway, right? I choose to vote with my wallet, so when the time is right, I'll likely send my games off to be graded too.
-
-\---
-
-Reserved investments, financial realism in the gaming community: https://www.youtube.com/c/ReservedInvestments
-
-Karl Jobst expose on games: https://www.youtube.com/watch?v=rvLFEh7V18A
-
-Jason Brassard stolen games: https://www.vanityfair.com/style/2022/06/rare-nintendo-atari-games-stolen
