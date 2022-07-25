@@ -1,7 +1,6 @@
 ---
-title: Things holding back video game grading
-description: "Like many other collecting categories, the last few years has seen
-  a massive boom in graded video games. Is it all it appears to be, though? "
+title: The 1000 Cuts in Graded Video Games
+description: "As exciting and lucrative as graded games might be "
 ---
 Take a walk with me down memory lane, friend. For as long as video games have existed, there have been people who collect them. Like many items historical or antiquitous in nature, video games have a facet of art culture (even if not originally intended to be so). Games we love, games that bring back memories, widely accepted "icons" of the gaming world, and rare games that only show up every blue moon at a garage sale or pawn shop and the seller "had no idea what it was worth." 
 
@@ -41,24 +40,49 @@ The grading process can be incredibly anxiety-provoking, but fun. I've been thro
 
 ### The Community
 
-Another fantastic aspect to collecting is the people in the space. While not wholly diverse (read: mostly men), it's an enjoyable scene with a lot of good personalities. Special shout out to the SACK community (run by [GetTheGregGames](https://www.youtube.com/c/GetTheGregGames) on YouTube). He streams most of the major auctions nowadays and is even sponsored by Heritage Auctions directly.
+Another fantastic aspect to collecting is the people in the space. While not wholly diverse (read: mostly men), it's an enjoyable scene with a lot of personality. Special shout out to the SACK community (run by [GetTheGregGames](https://www.youtube.com/c/GetTheGregGames) on YouTube). He streams most of the major auctions nowadays and is even sponsored by Heritage Auctions directly. Plus, the Discord server is a lot of fun.
 
 A lesser-talked about aspect to collecting is you often run into people who collect more than just your interest area. For instance, many of the same folks collecting games, also collect cards and comics.
 
 ## The Worst Parts
 
-There's never a good without a bad, and in this case there's no exception.
+There's never good without the bad, and video games are no exception.
 
 Many of my personal complaints in graded games start as high up as the grading companies themselves, and to a smaller extent, some individuals in the community.
 
 ### The Grading Companies
 
-There's currently a crisis in identity for the grading companies. By this I mean the two big players, Wata Games and VGA, are seriously struggling in specific, unique areas depending on which one we're talking about.
+Both Wata and VGA have shown disappointing flaws in either the service or product. In either case, I can't honestly recommend collectors send in their games to be graded. 
 
-Let's start with Wata Games, the self-proclaimed "clear leader" in the market:
+### Wata Games
 
-* **The Holder:** Wata Games has a decent-enough looking holder. Some folks love it, some hate it. Personally, I've had a bell-curve style appreciation of it over the years. I started not really liking it, then thought it was charming and lovely, and now I've landed at "it's not good enough." The holder is all prefabricated so their marketing saying, "We. Grade. Everything." is hilariously incorrect. Even now, after four years in operation.
-* **Quality Control:** The holder has been shown to damage sharp corners of cardboard box games, have numerous unsightly quality control issues like scuffing, and the rare occasion a hair or house fly (you read correctly) are sealed in.
+With Wata, I've seen a lot of issues mainly centered around quality control, and to a more serious extent, the holder itself damaging games. In terms of quality control, games have been auctioned with hair or bugs (yes, bugs) sealed in the holder, and you might get your game back with a low-ink label or with a grade that's off center/tilted. Puts a sour taste in my mouth knowing I waited possibly months just to request a reholder.
+
+Similarly, the inner plastic liner has been seen to damage games in some cases; mainly titles on Game Boy where the sharp corners get pushed in. On DVD games, if a cardboard slip-on sleeve is there, it has a chance of being crushed because of the tight fit.
+
+Note that the above is not an attack on Wata as much as a report on the claims I've seen in the community. Thankfully, Wata has acknowledged at least the modern slip-on sleeve issue and now informs customers that the encapulsation process requires removal of the sleeve.
+
+### VGA
+
+VGAs issues rest mainly in a history of poor communication and reduction in services. Over the 15 years or so of business, where VGA started with population reports and an online submission process both available, both have been retired. Online submissions went south when flash support got nuked by modern browsers, and the population data, well, who knows why that's gone. 
+
+And here lays the second issue: communication. Customers have been told for 10 years that a new website was coming, with a better submission process and population data. Well, it's 2022, and the new website is here. Sadly, we still have neither of those things.
+
+- - -
+
+On a much narrower scale, the issues I often see in the community tends to be the bullish behavior of some sellers, asking the absolute peak of the market and beyond, having little market fundamentals knowledge, thinking one sale at X price means their game must also be worth X price. It's disheartening when it's a game you'd love to own.
+
+At the end of the day, the issues are clear as day. The two "trusted" grading outlets have severe flaws and there's still only the two options for the bulk of the market (not including less popular or non-USA companies, which could be another discussion, perhaps).
+
+## Looking Ahead
+
+All said and done, what is coming next? Well, as mentioned above, VGA's new website is live, and although it doesn't have all the things promised over the years, it's a step in the right direction. Similarly, Wata's acquisition by CU has seen some great benefits. Turnaround times are better than ever and with added resourcing, we're likely to see improvements as customers voice the concerns I mentioned.
+
+And even better, competitors are entering the market every day. CGC is slated to start accepting games for grading in the later trimester this year, which will serve greatly to add some much needed competition in the market.
+
+There's also been a lot of visibility on this market in recent years, which is also a huge plus. Both for market growth and for normalization of the hobby. A great example of this is YouTube channels like Reserved Investments, which helps to bring dow
+
+Ultimately, I hope your takeaway here isn't dread for the future of graded video games. Rather, it's to see there is much room for improvement, and ultimately we're in no rush to send off our games anyway, right? I choose to vote with my wallet, so when the time is right, I'll likely send my games off to be graded too.
 
 \---
 
