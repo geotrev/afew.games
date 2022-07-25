@@ -1,6 +1,20 @@
 {
   "games": [
     {
+      "name": "Kingdom Hearts 2",
+      "console": "PlayStation 2",
+      "boxGrade": "9.8",
+      "sealGrade": "A++",
+      "variant": "Black Label, Foil "
+    },
+    {
+      "name": "Kingdom Hearts",
+      "console": "PlayStation 2",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "Black Label, Square Soft"
+    },
+    {
       "name": "Gravity Rush Remastered",
       "console": "PlayStation 4",
       "boxGrade": "9.8",
