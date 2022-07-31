@@ -100,7 +100,7 @@
 }
 
 .essayBody {
-  p:first-of-type::first-letter {
+  > p:first-of-type::first-letter {
     font-family: Georgia, "Times New Roman", Times, serif;
     color: vars.$tertiary-color-1;
     float: left;
