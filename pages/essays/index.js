@@ -64,6 +64,8 @@ function fetchEssayItems({
     })
 }
 
+let initialLoadFinished = false
+
 export default function Essays() {
   const [pageData, setPageData] = useState({
     count: 0,
@@ -76,10 +78,16 @@ export default function Essays() {
   const listRef = useRef(null)
 
   useEffect(() => {
+    if (initialLoadFinished) return
     // Initial fetch does not focus the list
     // or need to rely on previous state
     fetchEssayItems({ pageIdx: 0, setPageData })
-    return purgeMapData
+    initialLoadFinished = true
+
+    return () => {
+      purgeMapData
+      initialLoadFinished = false
+    }
   }, [])
 
   useEffect(() => {
