@@ -1,11 +1,11 @@
 ---
 title: The (Unfortunate) State of Graded Games
-description: As fun and lucrative as graded games might be, the "industry" has a
-  long way to go
+description: As fun and lucrative as graded games might seem, the hobby (and
+  corporate industry) has a long way to go
 ---
-I want to preface this by saying, I love to collect games. Grading games is largely a fun and enjoyable experience if you're comfortable with the current drawbacks (whatever they might be).
+I want to preface this by saying, I love to collect games. Grading games is largely a fun and enjoyable experience if you can find good deals and know what you're doing.
 
-That said, I have some complaints. Some personal, some not-so personal, others challenged by folks embedded deeply in the hobby (read: have a large investment stake).
+That said, I have some complaints. Some personal, some not-so personal.
 
 1. Not enough competition. We have two graders, Wata and VGA (video game authority), and both ahve severe drawbacks. A third is entering the market soon (CGC).
 2. Wata has several issues right now:
@@ -23,7 +23,7 @@ That said, I have some complaints. Some personal, some not-so personal, others c
    * The current submission option (filling out a lengthy form) is fairly broken. It feels like I'm doing my taxes.
    * Outdated transparency on grade methodology. With Wata grading box and seal separately, and VGA grading VHS in the same way, it feels like high time video games got the same treatment.
 4. We're probably kidding ourselves if we think the active market for graded games is large right now. There's been more visibility brought in due to the pandemic and high value auctions taking place in the past couple years, but the overall buyer pool is still relatively small. In my opinion, it's probably in the three to low four figure range still.
-5. General lack of accountability. At the end of the day, these grading companies are corporations that have legal counsel, and are seeking to protect their reputation and bottom line. If your game is damaged, lost, or mishandled in some way, it's in their best interest to pay out as little as possible or avoid liability altogether. I say this as a separate complaint because companies like Wata have often advertised that they're doing hard work to protect and preserve your collectables, but don't always show that when it comes time to do right by customers.
+5. General lack of honoring customers (accountability). At the end of the day, these grading companies are corporations with legal counsel seeking to protect their reputation and bottom line. If your game is damaged, lost, or mishandled in some way, it's in their best interest to pay out as little as possible or avoid liability altogether. I say this as a separate complaint because companies like Wata have often advertised that they're doing hard work to protect and preserve your collectables, but don't always show that when it comes time to do right by customers. Similarly, VGA often gives radio silence when raising issues.
 
 The above list is based on my own observations in the community and personal experiences.
 
@@ -32,3 +32,5 @@ The above list is based on my own observations in the community and personal exp
 As the above criticisms might seem harsh, I want to self-counter a bit by saying the graded market has a bright future ahead if Wata can continue to improve its systems, VGA catch up finally in terms of customer experience and data transparency (read: pop reports), and CGC can deliver a solid product sufficient to kick the other two into gear.
 
 In terms of things happening right now, Wata is finally delivering its population reports and VGA just recently updated its new website. Some movement is always promising, even if it's not the full picture yet.
+
+What I recommend to new and even veteran collectors in the graded space hasn't changed much in the last year or so: collect what you enjoy. Nothing beats the feeling of a purchase that you know you won't regret 5 years down the line!
