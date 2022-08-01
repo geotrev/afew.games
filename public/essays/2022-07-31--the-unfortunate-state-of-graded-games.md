@@ -10,7 +10,7 @@ That said, I have some complaints. Some personal, some not-so personal.
 1. Not enough competition. We have two graders, Wata and VGA (video game authority), and both have severe drawbacks. A third is entering the market soon (CGC).
 2. Wata has several issues right now:
 
-   * Poor quality control (the grade is off center on the label, labels with low on ink, etc).
+   * Poor quality control (the grade is off center on the label, low-ink labels, objects in the holder like hair, etc).
    * Not enough packaging when returning submissions to customers, resulting in broken cases and dealing with customer service for a free reholder.
    * Limited size options; can only submit standard-size games, meaning if you want to grade special editions, your only option is VGA.
    * If your game is standard but has a sleeve, it has a non-zero probability of being damaged when put into the inner blister. Thankfully Wata recently started informing customers that the sleeve must be removed on these games.
