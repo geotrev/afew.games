@@ -11,10 +11,10 @@ That said, I have some complaints. Some personal, some not-so personal.
 2. Wata has several issues right now:
 
    * Poor quality control (the grade is off center on the label, low-ink labels, objects in the holder like hair, etc).
-   * Not enough packaging when returning submissions to customers, resulting in broken cases and dealing with customer service for a free reholder.
+   * Not enough packaging when returning submissions to customers, resulting in broken cases.
    * Limited size options; can only submit standard-size games, meaning if you want to grade special editions, your only option is VGA.
    * If your game is standard but has a sleeve, it has a non-zero probability of being damaged when put into the inner blister. Thankfully Wata recently started informing customers that the sleeve must be removed on these games.
-   * General optics and marketing problems. Wata's somewhat shady dealings in its early days don't inspire confidence in their future. In terms of marketing, it would help if they were more honest about their grading options. "We Grade Everything" is pretty embarassing when you learn they don't. Similarly, prominent and public figures in the market have questionable role in the market (e.g., saying they are big collectors but are only in it for the money).
+   * General optics and marketing problems. Wata's somewhat shady dealings in its early days have left many collectors scratching their heads. While most folk don't hold it against them *now,* it's still odd a lot of the information they never disclosed. In terms of marketing, it would help if they were more honest about their grading options. "We Grade Everything" is pretty embarassing when you learn they don't. Similarly, prominent and public figures in the market have questionable role in the market (e.g., saying they are big collectors but are only in it for the money).
 3. VGA has several issues as well:
 
    * No end in sight for catching up on its backlog. They supposedly doubled their operational capacity, but have admitted on social media they've been unable to fill openings for new graders. Meanwhile, their top two tiers are more expensive than ever and dedicate 1/2 their working time just to the backlog.
