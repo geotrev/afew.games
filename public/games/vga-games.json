@@ -1,6 +1,12 @@
 {
   "games": [
     {
+      "name": "Pokemon Crystal",
+      "console": "Game Boy Color",
+      "grade": "95",
+      "variant": "Japanese Version"
+    },
+    {
       "name": "Pokemon Sun & Moon",
       "variant": "W/ First Partner Figure Set",
       "console": "Nintendo 3DS",
