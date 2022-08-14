@@ -1,6 +1,12 @@
 {
   "games": [
     {
+      "name": "Pokemon Sun & Moon",
+      "variant": "W/ First Partner Figure Set",
+      "console": "Nintendo 3DS",
+      "grade": "90+"
+    },
+    {
       "name": "Nintendo DS Lite (Onyx Dialga & Palkia)",
       "console": "Nintendo DS Lite",
       "grade": "75",
