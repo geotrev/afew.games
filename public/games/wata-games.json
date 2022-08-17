@@ -1,6 +1,20 @@
 {
   "games": [
     {
+      "name": "Metroid Prime",
+      "console": "Nintendo GameCube",
+      "variant": "49688A",
+      "boxGrade": "9.8",
+      "sealGrade": "A+"
+    },
+    {
+      "name": "Tom Clancy's Splinter Cell",
+      "console": "PlayStation 2",
+      "boxGrade": "9.6",
+      "sealGrade": "A++",
+      "variant": "Made/Printed in USA, T Rating"
+    },
+    {
       "name": "Kingdom Hearts 2",
       "console": "PlayStation 2",
       "boxGrade": "9.8",
@@ -205,10 +219,10 @@
     },
     {
       "name": "Bayonetta 2",
-      "console": "Nintendo Wii u",
+      "console": "Nintendo Wii U",
       "boxGrade": "9.6",
       "sealGrade": "A++",
-      "variant": "Y-Fold, Made in USA, M Rating, w/ Bayonetta Game disc, 83663A"
+      "variant": "Y-Fold, Made in USA, M Rating, w/ Bayonetta Game Disc, 83663A"
     }
   ]
 }
