@@ -1,6 +1,12 @@
 {
   "games": [
     {
+      "name": "Halo 2",
+      "console": "XBOX",
+      "grade": "90",
+      "variant": "Do Not Sell Before, 3-side seam"
+    },
+    {
       "name": "Pokemon Crystal",
       "console": "Game Boy Color",
       "grade": "95",
