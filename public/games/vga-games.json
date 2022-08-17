@@ -1,6 +1,36 @@
 {
   "games": [
     {
+      "name": "Ninja Gaiden",
+      "console": "XBOX",
+      "variant": "Black Label, Live Enabled",
+      "grade": "90"
+    },
+    {
+      "name": "Kingdom Hearts: Birth By Sleep",
+      "console": "PlayStation Portable",
+      "grade": "90",
+      "variant": "W/ Walmart/Target Exclusive Sleeve"
+    },
+    {
+      "name": "Oxenfree",
+      "console": "PlayStation 4",
+      "grade": "95",
+      "variant": "MRLR-0037-CVR"
+    },
+    {
+      "name": "Celeste",
+      "console": "PlayStation 4",
+      "grade": "90",
+      "variant": "Collector's Edition"
+    },
+    {
+      "name": "Persona 4",
+      "console": "PlayStation 2",
+      "grade": "95U",
+      "variant": "Black Label, Includes Bonus Disc"
+    },
+    {
       "name": "Final Fantasy X-2",
       "variant": "Black Label, Security Strip w/ Security Tear Strip",
       "grade": "85+",
@@ -182,7 +212,7 @@
     },
     {
       "name": "Hunter The Reckoning",
-      "console": "XBox",
+      "console": "XBOX",
       "grade": "80+",
       "variant": "Y-Fold"
     },
