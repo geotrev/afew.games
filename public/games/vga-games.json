@@ -1,6 +1,18 @@
 {
   "games": [
     {
+      "name": "Final Fantasy X-2",
+      "variant": "Black Label, Security Strip w/ Security Tear Strip",
+      "grade": "85+",
+      "console": "PlayStation 2"
+    },
+    {
+      "name": "The Legend of Zelda: The Wind Waker",
+      "console": "Nintendo GameCube",
+      "grade": "90",
+      "variant": "50516A"
+    },
+    {
       "name": "Halo 2",
       "console": "XBOX",
       "grade": "90",
