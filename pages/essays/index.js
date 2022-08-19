@@ -6,28 +6,25 @@ import Pagination from "components/pagination"
 import styles from "./essays.module.scss"
 
 const PageMap = new Map()
+const method = "POST"
+const headers = { "Content-Type": "application/json" }
 
 function purgeMapData() {
   PageMap.clear()
 }
 
-function fetchEssayItems({
-  pageIdx,
-  setPageData,
-  pageData: prevPageData,
-  focusList,
-}) {
+function fetchEssayItems({ pageIdx, setPageData, pageData, focusList = true }) {
   if (PageMap.has(pageIdx)) {
     return setPageData({ ...PageMap.get(pageIdx) })
   }
 
   // Sets loading state
-  setPageData({ ...(prevPageData || {}), essays: [] })
+  setPageData({ ...(pageData || {}), essays: [] })
 
   // Fetch target pageIdx and load its items
   fetch("/api/essays", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
+    method,
+    headers,
     body: JSON.stringify({ pageIdx }),
   })
     .then((res) => {
@@ -35,27 +32,14 @@ function fetchEssayItems({
         return res.json()
       }
     })
-    .then((pageData) => {
-      const payload = {
-        ...pageData,
-        pageIdx,
-      }
-
-      // This is only really so initial page load doesn't
-      // steal focus. All other cases, focus list
-      // to reflect new page content
-      if (focusList) {
-        payload.focusList = true
-      }
-
+    .then((res) => {
+      const payload = { ...res, focusList, pageIdx }
       setPageData(payload)
-
-      // Memoize payload for quicker change next time
-      PageMap.set(pageIdx, { ...payload, focusList: true })
+      PageMap.set(pageIdx, payload)
     })
     .catch((e) => {
-      if (prevPageData) {
-        setPageData({ ...prevPageData })
+      if (pageData) {
+        setPageData({ ...pageData })
         return
       }
 
@@ -81,11 +65,11 @@ export default function Essays() {
     if (initialLoadFinished) return
     // Initial fetch does not focus the list
     // or need to rely on previous state
-    fetchEssayItems({ pageIdx: 0, setPageData })
+    fetchEssayItems({ pageIdx: 0, setPageData, focusList: false })
     initialLoadFinished = true
 
     return () => {
-      purgeMapData
+      purgeMapData()
       initialLoadFinished = false
     }
   }, [])
@@ -98,7 +82,6 @@ export default function Essays() {
         inline: "start",
         behavior: "smooth",
       })
-
       list.setAttribute("tabindex", "-1")
       list.focus({ preventScroll: true })
       list.removeAttribute("tabindex")
@@ -109,55 +92,29 @@ export default function Essays() {
 
   function onPreviousClick() {
     if (pageIdx === 0) return
-    const prevPageIdx = pageIdx - 1
-    fetchEssayItems({
-      pageIdx: prevPageIdx,
-      setPageData,
-      pageData,
-      focusList: true,
-    })
+    fetchEssayItems({ pageIdx: pageIdx - 1, setPageData, pageData })
   }
 
   function onPageClick(e) {
     const targetPageIdx = parseInt(e.target.innerText, 10) - 1
     if (pageIdx === targetPageIdx) return
-    fetchEssayItems({
-      pageIdx: targetPageIdx,
-      setPageData,
-      pageData,
-      focusList: true,
-    })
+    fetchEssayItems({ pageIdx: targetPageIdx, setPageData, pageData })
   }
 
   function onNextClick() {
     const nextPageIdx = pageIdx + 1
     if (pageIdx === count - 1) return
-    fetchEssayItems({
-      pageIdx: nextPageIdx,
-      setPageData,
-      pageData,
-      focusList: true,
-    })
+    fetchEssayItems({ pageIdx: nextPageIdx, setPageData, pageData })
   }
 
   function onFirstPageClick() {
     if (pageIdx === 0) return
-    fetchEssayItems({
-      pageIdx: 0,
-      setPageData,
-      pageData,
-      focusList: true,
-    })
+    fetchEssayItems({ pageIdx: 0, setPageData, pageData })
   }
 
   function onLastPageClick() {
     if (pageIdx === count - 1) return
-    fetchEssayItems({
-      pageIdx: count - 1,
-      setPageData,
-      pageData,
-      focusList: true,
-    })
+    fetchEssayItems({ pageIdx: count - 1, setPageData, pageData })
   }
 
   function renderEssayItem(entry) {
