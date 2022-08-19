@@ -1,6 +1,12 @@
 {
   "games": [
     {
+      "name": "Spider-Man 2",
+      "console": "Nintendo GameCube",
+      "grade": "95",
+      "variant": "Black Label"
+    },
+    {
       "name": "Ninja Gaiden",
       "console": "XBOX",
       "variant": "Black Label, Live Enabled",
