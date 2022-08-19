@@ -1,9 +1,30 @@
 {
   "games": [
     {
+      "name": "Star Wars: The Clone Wars",
+      "console": "PlayStation 2",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "Y-Fold, Black Label"
+    },
+    {
+      "name": "ICO",
+      "console": "PlayStation 2",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "Y-Fold, Black Label"
+    },
+    {
+      "name": "Super Mario Advance 4: Super Mario Bros 3",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.6",
+      "sealGrade": "A++",
+      "variant": "W/ Two Bonus Level Cards"
+    },
+    {
       "name": "Metroid Prime",
       "console": "Nintendo GameCube",
-      "variant": "49688A",
+      "variant": "Y-Fold, 49688A",
       "boxGrade": "9.8",
       "sealGrade": "A+"
     },
@@ -12,21 +33,21 @@
       "console": "PlayStation 2",
       "boxGrade": "9.6",
       "sealGrade": "A++",
-      "variant": "Made/Printed in USA, T Rating"
+      "variant": "Y-Fold, Made/Printed in USA, T Rating"
     },
     {
       "name": "Kingdom Hearts 2",
       "console": "PlayStation 2",
       "boxGrade": "9.8",
       "sealGrade": "A++",
-      "variant": "Black Label"
+      "variant": "Y-Fold, Black Label"
     },
     {
       "name": "Kingdom Hearts",
       "console": "PlayStation 2",
       "boxGrade": "9.6",
       "sealGrade": "A+",
-      "variant": "Black Label"
+      "variant": "Y-Fold, Security Strip, Black Label"
     },
     {
       "name": "Gravity Rush Remastered",
