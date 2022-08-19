@@ -4,41 +4,41 @@
       "name": "Spider-Man 2",
       "console": "Nintendo GameCube",
       "grade": "95",
-      "variant": "Black Label"
+      "variant": "Y-Fold, Black Label"
     },
     {
       "name": "Ninja Gaiden",
       "console": "XBOX",
-      "variant": "Black Label, Live Enabled",
+      "variant": "Y-Fold, Black Label, Live Enabled",
       "grade": "90"
     },
     {
       "name": "Kingdom Hearts: Birth By Sleep",
       "console": "PlayStation Portable",
       "grade": "90",
-      "variant": "W/ Walmart/Target Exclusive Sleeve"
+      "variant": "Y-Fold, W/ Walmart/Target Exclusive Sleeve"
     },
     {
       "name": "Oxenfree",
       "console": "PlayStation 4",
       "grade": "95",
-      "variant": "MRLR-0037-CVR"
+      "variant": "Y-Fold, MRLR-0037-CVR"
     },
     {
       "name": "Celeste",
       "console": "PlayStation 4",
       "grade": "90",
-      "variant": "Collector's Edition"
+      "variant": "3-Side Seam, Collector's Edition"
     },
     {
       "name": "Persona 4",
       "console": "PlayStation 2",
       "grade": "95U",
-      "variant": "Black Label, Includes Bonus Disc"
+      "variant": "Y-Fold, Black Label, Includes Bonus Disc"
     },
     {
       "name": "Final Fantasy X-2",
-      "variant": "Black Label, Security Strip w/ Security Tear Strip",
+      "variant": "Y-Fold, Black Label, Security Strip w/ Security Tear Strip",
       "grade": "85+",
       "console": "PlayStation 2"
     },
@@ -46,31 +46,25 @@
       "name": "The Legend of Zelda: The Wind Waker",
       "console": "Nintendo GameCube",
       "grade": "90",
-      "variant": "50516A"
+      "variant": "Y-Fold, 50516A"
     },
     {
       "name": "Halo 2",
       "console": "XBOX",
       "grade": "90",
-      "variant": "Do Not Sell Before, 3-side seam"
+      "variant": "3-Side Seam, Do Not Sell Before"
     },
     {
       "name": "Pokemon Crystal",
       "console": "Game Boy Color",
       "grade": "95",
-      "variant": "Japanese Version"
+      "variant": "No Seal, Japanese Version"
     },
     {
       "name": "Pokemon Sun & Moon",
-      "variant": "W/ First Partner Figure Set",
+      "variant": "Sticker Seal, W/ First Partner Figure Set",
       "console": "Nintendo 3DS",
       "grade": "90+"
-    },
-    {
-      "name": "Nintendo DS Lite (Onyx Dialga & Palkia)",
-      "console": "Nintendo DS Lite",
-      "grade": "75",
-      "variant": "Limited Edition"
     },
     {
       "name": "Switch Lite (Dialga & Palkia Edition)",
@@ -82,17 +76,17 @@
       "name": "Super Smash Bros. For Wii U",
       "console": "Wii U",
       "grade": "85+",
-      "variant": "W/ Controller and Adapter"
+      "variant": "Sticker Seal, W/ Controller and Adapter"
     },
     {
       "name": "Pokemon: Let's Go, Pikachu!",
       "console": "Nintendo Switch",
       "grade": "90",
-      "variant": "W/ Pokeball Plus"
+      "variant": "Sticker Seal, W/ Pokeball Plus"
     },
     {
       "name": "Pokemon: Let's Go, Eevee!",
-      "variant": "W/ Pokeball Plus",
+      "variant": "Sticker Seal, W/ Pokeball Plus",
       "grade": "85+",
       "console": "Nintendo Switch"
     },
@@ -100,25 +94,25 @@
       "name": "The Legend of Zelda: Breath of the Wild",
       "console": "Nintendo Switch",
       "grade": "85",
-      "variant": "Special Edition"
+      "variant": "Sticker Seal, Special Edition"
     },
     {
       "name": "Nintendo Switch (Animal Crossing Edition)",
       "console": "Nintendo Switch",
       "grade": "90",
-      "variant": "U.S. Date Format"
+      "variant": "No Seal, U.S. Date Format"
     },
     {
       "name": "Metroid Dread",
       "console": "Nintendo Switch",
       "grade": "85+",
-      "variant": "Special Edition"
+      "variant": "Sticker Seal, Special Edition"
     },
     {
       "name": "Metroid Dread",
       "console": "Nintendo Switch",
       "grade": "90+",
-      "variant": "Special Edition"
+      "variant": "Sticker Seal, Special Edition"
     },
     {
       "name": "Mega Man Zero",
