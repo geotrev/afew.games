@@ -21,13 +21,19 @@ async function getEntries(pageIdx) {
   const count = chunked.length
   if (count > 0) {
     const essays = await Promise.all(chunked[pageIdx])
-    return { essays, count }
+    return { essays, count, pageIdx }
   }
 }
 
+/**
+ * @returns {{ essays: [], count: number, pageIdx: number }}
+ */
 export default async function handler(req, res) {
   // eslint-disable-next-line no-console
-  console.log("/api/essays", { NODE_ENV: process.env.NODE_ENV })
+  console.log("/api/essays", {
+    NODE_ENV: process.env.NODE_ENV,
+    reqBody: req.body,
+  })
 
   if (req.method !== "POST") {
     return res.status(405).end("Method Not Allowed")

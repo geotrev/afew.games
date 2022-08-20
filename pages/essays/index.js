@@ -1,120 +1,91 @@
-import { useState, useEffect, useRef } from "react"
+import { debounce } from "lodash-es"
+import { useEffect, useRef } from "react"
+import { useQueryClient, useMutation, useQuery } from "@tanstack/react-query"
 import Link from "next/link"
 import classNames from "classnames"
 import Layout from "components/layout"
 import Pagination from "components/pagination"
 import styles from "./essays.module.scss"
 
-const PageMap = new Map()
 const method = "POST"
 const headers = { "Content-Type": "application/json" }
+const QUERY_KEY = "essays"
 
-function purgeMapData() {
-  PageMap.clear()
-}
-
-function fetchEssayItems({ pageIdx, setPageData, pageData, focusList = true }) {
-  if (PageMap.has(pageIdx)) {
-    return setPageData({ ...PageMap.get(pageIdx) })
-  }
-
-  // Sets loading state
-  setPageData({ ...(pageData || {}), essays: [] })
-
-  // Fetch target pageIdx and load its items
-  fetch("/api/essays", {
+async function postEssays({ pageIdx = 0 } = {}) {
+  return fetch("/api/essays", {
     method,
     headers,
     body: JSON.stringify({ pageIdx }),
-  })
-    .then((res) => {
-      if (res.ok) {
-        return res.json()
-      }
-    })
-    .then((res) => {
-      const payload = { ...res, focusList, pageIdx }
-      setPageData(payload)
-      PageMap.set(pageIdx, payload)
-    })
-    .catch((e) => {
-      if (pageData) {
-        setPageData({ ...pageData })
-        return
-      }
-
-      // eslint-disable-next-line no-console
-      console.error(e)
-    })
+  }).then((res) => res.json())
 }
 
-let initialLoadFinished = false
+let initialLoad = true
+
+// react-query automatically refetches when user navigates away
+// from this page, then back. Debouncing prevents
+// focus from suddenly moving back to the essay list.
+const toggleInitialLoad = debounce(() => (initialLoad = false), 50)
+const PlaceholderIterator = Array(5).fill(null)
 
 export default function Essays() {
-  const [pageData, setPageData] = useState({
-    count: 0,
-    essays: [],
-    pageIdx: -1,
-    focusList: false,
-  })
-  const { count, essays, pageIdx } = pageData
-  const placeholderIterator = Array(5).fill(null)
   const listRef = useRef(null)
+  const queryClient = useQueryClient()
+
+  const { isError, data } = useQuery([QUERY_KEY], postEssays, {
+    initialData: { pageIdx: 0, essays: [], count: 0 },
+  })
+
+  const mutation = useMutation(postEssays, {
+    onSuccess: (res) => {
+      queryClient.setQueryData([QUERY_KEY], res)
+    },
+  })
 
   useEffect(() => {
-    if (initialLoadFinished) return
-    // Initial fetch does not focus the list
-    // or need to rely on previous state
-    fetchEssayItems({ pageIdx: 0, setPageData, focusList: false })
-    initialLoadFinished = true
-
-    return () => {
-      purgeMapData()
-      initialLoadFinished = false
-    }
+    return () => (initialLoad = true)
   }, [])
 
   useEffect(() => {
-    if (pageData.focusList) {
-      const list = listRef.current
-      list.scrollIntoView({
-        block: "start",
-        inline: "start",
-        behavior: "smooth",
-      })
-      list.setAttribute("tabindex", "-1")
-      list.focus({ preventScroll: true })
-      list.removeAttribute("tabindex")
-
-      setPageData({ ...pageData, focusList: false })
+    if (initialLoad) {
+      toggleInitialLoad()
+      return
     }
-  }, [pageData])
+
+    const list = listRef.current
+    list.scrollIntoView({
+      block: "start",
+      inline: "start",
+      behavior: "smooth",
+    })
+    list.setAttribute("tabindex", "-1")
+    list.focus({ preventScroll: true })
+    list.removeAttribute("tabindex")
+  }, [data.pageIdx])
 
   function onPreviousClick() {
-    if (pageIdx === 0) return
-    fetchEssayItems({ pageIdx: pageIdx - 1, setPageData, pageData })
+    if (data.pageIdx === 0) return
+    mutation.mutate({ pageIdx: data.pageIdx - 1 })
   }
 
   function onPageClick(e) {
     const targetPageIdx = parseInt(e.target.innerText, 10) - 1
-    if (pageIdx === targetPageIdx) return
-    fetchEssayItems({ pageIdx: targetPageIdx, setPageData, pageData })
+    if (data.pageIdx === targetPageIdx) return
+    mutation.mutate({ pageIdx: targetPageIdx })
   }
 
   function onNextClick() {
-    const nextPageIdx = pageIdx + 1
-    if (pageIdx === count - 1) return
-    fetchEssayItems({ pageIdx: nextPageIdx, setPageData, pageData })
+    if (data.pageIdx === data.count - 1) return
+    mutation.mutate({ pageIdx: data.pageIdx + 1 })
   }
 
   function onFirstPageClick() {
-    if (pageIdx === 0) return
-    fetchEssayItems({ pageIdx: 0, setPageData, pageData })
+    if (data.pageIdx === 0) return
+    mutation.mutate({ pageIdx: 0 })
   }
 
   function onLastPageClick() {
-    if (pageIdx === count - 1) return
-    fetchEssayItems({ pageIdx: count - 1, setPageData, pageData })
+    if (data.pageIdx === data.count - 1) return
+    mutation.mutate({ pageIdx: data.count - 1 })
   }
 
   function renderEssayItem(entry) {
@@ -141,20 +112,32 @@ export default function Essays() {
 
   function renderList() {
     return (
-      <ul
-        ref={listRef}
-        className={styles.essayList}
-        aria-label={`Essays, page ${pageIdx + 1}`}
-      >
-        {essays.map(renderEssayItem)}
-      </ul>
+      <>
+        <ul
+          ref={listRef}
+          className={styles.essayList}
+          aria-label={`Essays, page ${data.pageIdx + 1}`}
+        >
+          {data.essays.map(renderEssayItem)}
+        </ul>
+        <Pagination
+          count={data.count}
+          maxVisiblePageCount={5}
+          activePageIndex={data.pageIdx}
+          onNextClick={onNextClick}
+          onPreviousClick={onPreviousClick}
+          onPageClick={onPageClick}
+          onFirstPageClick={onFirstPageClick}
+          onLastPageClick={onLastPageClick}
+        />
+      </>
     )
   }
 
   function renderLoader() {
     return (
-      <div>
-        {placeholderIterator.map((_, idx) => {
+      <>
+        {PlaceholderIterator.map((_, idx) => {
           return (
             <div key={idx} className={styles.empyStateContainer}>
               <div
@@ -182,7 +165,16 @@ export default function Essays() {
             </div>
           )
         })}
-      </div>
+      </>
+    )
+  }
+
+  function renderError() {
+    return (
+      <p>
+        Uh oh... there was an error fetching the essays. Refresh or try again
+        later.
+      </p>
     )
   }
 
@@ -191,19 +183,11 @@ export default function Essays() {
       <h1>
         <span aria-hidden="true">./</span>Essays
       </h1>
-      {essays.length > 0 ? renderList() : renderLoader()}
-      {count > 0 && (
-        <Pagination
-          count={count}
-          maxVisiblePageCount={5}
-          activePageIndex={pageIdx}
-          onNextClick={onNextClick}
-          onPreviousClick={onPreviousClick}
-          onPageClick={onPageClick}
-          onFirstPageClick={onFirstPageClick}
-          onLastPageClick={onLastPageClick}
-        />
-      )}
+      {isError
+        ? renderError()
+        : data?.count > 0
+        ? renderList()
+        : renderLoader()}
     </Layout>
   )
 }

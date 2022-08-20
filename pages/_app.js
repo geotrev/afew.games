@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet"
 import { useEffect } from "react"
 import Script from "next/script"
 import { useRouter } from "next/router"
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
 import Header from "components/header"
 import { pageView } from "lib/analytics"
 import "styles/global.scss"
@@ -22,6 +23,8 @@ const Descriptions = {
 const handleRouteChange = (url) => {
   pageView(url)
 }
+
+const queryClient = new QueryClient()
 
 export default function App({ Component, pageProps }) {
   const { asPath, events } = useRouter()
@@ -48,23 +51,25 @@ export default function App({ Component, pageProps }) {
   }
 
   return (
-    <div className="app-container">
-      <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`}
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+    <QueryClientProvider client={queryClient}>
+      <div className="app-container">
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', '${process.env.NEXT_PUBLIC_MEASUREMENT_ID}');
-        `}
-      </Script>
-      {renderMeta()}
-      <Header />
-      <Component {...pageProps} />
-    </div>
+            gtag('config', '${process.env.NEXT_PUBLIC_MEASUREMENT_ID}');
+          `}
+        </Script>
+        {renderMeta()}
+        <Header />
+        <Component {...pageProps} />
+      </div>
+    </QueryClientProvider>
   )
 }
