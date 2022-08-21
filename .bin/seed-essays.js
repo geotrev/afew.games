@@ -32,6 +32,7 @@ function getFileName(title, i) {
 }
 
 function writeEssays() {
+  console.time("building-seeds")
   const seedPath = path.resolve(process.cwd(), ".seed/essays")
 
   if (!fs.existsSync(seedPath)) {
@@ -44,6 +45,8 @@ function writeEssays() {
     const fileTarget = path.resolve(seedPath, fileName)
     fs.writeFileSync(fileTarget, content, "utf8")
   }
+
+  console.timeEnd("building-seeds")
 }
 
 writeEssays()

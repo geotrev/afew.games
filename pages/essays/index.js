@@ -1,120 +1,66 @@
-import { useState, useEffect, useRef } from "react"
-import Link from "next/link"
+import { useEffect, useRef } from "react"
+import { debounce } from "lodash-es"
 import classNames from "classnames"
+import Link from "next/link"
 import Layout from "components/layout"
 import Pagination from "components/pagination"
 import styles from "./essays.module.scss"
+import { useFetchEssays } from "hooks/use-fetch-essays"
 
-const PageMap = new Map()
-const method = "POST"
-const headers = { "Content-Type": "application/json" }
-
-function purgeMapData() {
-  PageMap.clear()
-}
-
-function fetchEssayItems({ pageIdx, setPageData, pageData, focusList = true }) {
-  if (PageMap.has(pageIdx)) {
-    return setPageData({ ...PageMap.get(pageIdx) })
-  }
-
-  // Sets loading state
-  setPageData({ ...(pageData || {}), essays: [] })
-
-  // Fetch target pageIdx and load its items
-  fetch("/api/essays", {
-    method,
-    headers,
-    body: JSON.stringify({ pageIdx }),
-  })
-    .then((res) => {
-      if (res.ok) {
-        return res.json()
-      }
-    })
-    .then((res) => {
-      const payload = { ...res, focusList, pageIdx }
-      setPageData(payload)
-      PageMap.set(pageIdx, payload)
-    })
-    .catch((e) => {
-      if (pageData) {
-        setPageData({ ...pageData })
-        return
-      }
-
-      // eslint-disable-next-line no-console
-      console.error(e)
-    })
-}
-
-let initialLoadFinished = false
+let initialLoad = true
+const toggleInitialLoad = debounce(() => (initialLoad = false), 50)
 
 export default function Essays() {
-  const [pageData, setPageData] = useState({
-    count: 0,
-    essays: [],
-    pageIdx: -1,
-    focusList: false,
-  })
-  const { count, essays, pageIdx } = pageData
+  const { isLoading, isError, data, setData } = useFetchEssays()
   const placeholderIterator = Array(5).fill(null)
   const listRef = useRef(null)
 
   useEffect(() => {
-    if (initialLoadFinished) return
-    // Initial fetch does not focus the list
-    // or need to rely on previous state
-    fetchEssayItems({ pageIdx: 0, setPageData, focusList: false })
-    initialLoadFinished = true
-
-    return () => {
-      purgeMapData()
-      initialLoadFinished = false
-    }
+    return () => (initialLoad = true)
   }, [])
 
   useEffect(() => {
-    if (pageData.focusList) {
-      const list = listRef.current
-      list.scrollIntoView({
-        block: "start",
-        inline: "start",
-        behavior: "smooth",
-      })
-      list.setAttribute("tabindex", "-1")
-      list.focus({ preventScroll: true })
-      list.removeAttribute("tabindex")
-
-      setPageData({ ...pageData, focusList: false })
+    if (initialLoad) {
+      toggleInitialLoad()
+      return
     }
-  }, [pageData])
+
+    const list = listRef.current
+    list.scrollIntoView({
+      block: "start",
+      inline: "start",
+      behavior: "smooth",
+    })
+    list.setAttribute("tabindex", "-1")
+    list.focus({ preventScroll: true })
+    list.removeAttribute("tabindex")
+  }, [data.index])
 
   function onPreviousClick() {
-    if (pageIdx === 0) return
-    fetchEssayItems({ pageIdx: pageIdx - 1, setPageData, pageData })
+    if (data.index === 0) return
+    setData(data.index - 1)
   }
 
   function onPageClick(e) {
     const targetPageIdx = parseInt(e.target.innerText, 10) - 1
-    if (pageIdx === targetPageIdx) return
-    fetchEssayItems({ pageIdx: targetPageIdx, setPageData, pageData })
+    if (data.index === targetPageIdx) return
+    setData(targetPageIdx)
   }
 
   function onNextClick() {
-    const nextPageIdx = pageIdx + 1
-    if (pageIdx === count - 1) return
-    fetchEssayItems({ pageIdx: nextPageIdx, setPageData, pageData })
+    const nextPageIdx = data.index + 1
+    if (data.index === data.totalPages - 1) return
+    setData(nextPageIdx)
   }
 
   function onFirstPageClick() {
-    if (pageIdx === 0) return
-    fetchEssayItems({ pageIdx: 0, setPageData, pageData })
+    if (data.index === 0) return
+    setData(0)
   }
 
   function onLastPageClick() {
-    if (pageIdx === count - 1) return
-    fetchEssayItems({ pageIdx: count - 1, setPageData, pageData })
+    if (data.index === data.totalPages - 1) return
+    setData(data.totalPages - 1)
   }
 
   function renderEssayItem(entry) {
@@ -141,13 +87,25 @@ export default function Essays() {
 
   function renderList() {
     return (
-      <ul
-        ref={listRef}
-        className={styles.essayList}
-        aria-label={`Essays, page ${pageIdx + 1}`}
-      >
-        {essays.map(renderEssayItem)}
-      </ul>
+      <>
+        <ul
+          ref={listRef}
+          className={styles.essayList}
+          aria-label={`Essays, data ${data.index + 1}`}
+        >
+          {data.essays.map(renderEssayItem)}
+        </ul>
+        <Pagination
+          count={data.totalPages}
+          maxVisiblePageCount={5}
+          activePageIndex={data.index}
+          onNextClick={onNextClick}
+          onPreviousClick={onPreviousClick}
+          onPageClick={onPageClick}
+          onFirstPageClick={onFirstPageClick}
+          onLastPageClick={onLastPageClick}
+        />
+      </>
     )
   }
 
@@ -186,24 +144,22 @@ export default function Essays() {
     )
   }
 
+  function renderError() {
+    return (
+      <div>
+        <p>
+          {"Uh oh, looks like there was an error. Refresh or try again later."}
+        </p>
+      </div>
+    )
+  }
+
   return (
     <Layout>
       <h1>
         <span aria-hidden="true">./</span>Essays
       </h1>
-      {essays.length > 0 ? renderList() : renderLoader()}
-      {count > 0 && (
-        <Pagination
-          count={count}
-          maxVisiblePageCount={5}
-          activePageIndex={pageIdx}
-          onNextClick={onNextClick}
-          onPreviousClick={onPreviousClick}
-          onPageClick={onPageClick}
-          onFirstPageClick={onFirstPageClick}
-          onLastPageClick={onLastPageClick}
-        />
-      )}
+      {isLoading ? renderLoader() : isError ? renderError() : renderList()}
     </Layout>
   )
 }
