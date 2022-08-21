@@ -18,10 +18,10 @@ async function getEntries(pageIdx) {
   })
 
   const chunked = chunk(essayData, MAX_LIST_LENGTH)
-  const count = chunked.length
-  if (count > 0) {
+  const totalPages = chunked.length
+  if (totalPages > 0) {
     const essays = await Promise.all(chunked[pageIdx])
-    return { essays, count }
+    return { index: pageIdx, essays, totalPages }
   }
 }
 
@@ -34,8 +34,14 @@ export default async function handler(req, res) {
   }
 
   try {
-    const data = await getEntries(req.body.pageIdx)
-    return res.status(200).json(data)
+    if (typeof req.body.pageIdx === "number") {
+      const data = await getEntries(req.body.pageIdx)
+      return res.status(200).json(data)
+    } else {
+      throw new Error(
+        "Invalid data type given to 'page'. Must be type 'string'."
+      )
+    }
   } catch (e) {
     return res.status(500)
   }
