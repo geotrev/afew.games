@@ -1,22 +1,88 @@
 {
   "games": [
     {
+      "name": "Pokemon UltraSun & UltraMoon",
+      "variant": "Sticker Seal, 2-Pack",
+      "console": "Nintendo 3DS",
+      "grade": "85+"
+    },
+    {
+      "name": "Axiom Verge",
+      "console": "PC",
+      "grade": "85+",
+      "variant": "3-Side Seam, IndieBox Limited Edition"
+    },
+    {
+      "name": "Metroid: Samus Returns",
+      "console": "Nintendo 3DS",
+      "grade": "85+",
+      "variant": "No Seal, Special Edition"
+    },
+    {
+      "name": "Kingdom Hearts HD 2.5 ReMIX",
+      "console": "PlayStation 3",
+      "grade": "90",
+      "variant": "Sticker Seal, Collector's Edition"
+    },
+    {
+      "name": "Pokemon SoulSilver",
+      "console": "Nintendo DS",
+      "grade": "85+",
+      "variant": "Sticker Seal, Walmart Limited w/ Figure & Jacket"
+    },
+    {
+      "name": "Pokemon Mystery Dungeon: Explorers of Time",
+      "console": "Nintendo DS",
+      "grade": "85+",
+      "variant": "Y-Fold"
+    },
+    {
+      "name": "Pokemon Platinum",
+      "console": "Nintendo DS",
+      "grade": "85+",
+      "variant": "Y-Fold"
+    },
+    {
+      "name": "Pokemon Pearl",
+      "console": "Nintendo DS",
+      "grade": "90",
+      "variant": "Y-Fold"
+    },
+    {
+      "name": "Pokemon Diamond",
+      "console": "Nintendo DS",
+      "grade": "85",
+      "variant": "Y-Fold"
+    },
+    {
+      "variant": "Y-Fold, Black Label",
+      "grade": "85",
+      "console": "PlayStation 2",
+      "name": "Kingdom Hearts II"
+    },
+    {
+      "name": "Shadow of the Colossus",
+      "console": "PlayStation 2",
+      "grade": "85",
+      "variant": "Y-Fold, Black Label"
+    },
+    {
       "name": "Zelda No Densetsu: Kaze No Takuto",
       "console": "Nintendo GameCube",
       "grade": "90",
-      "variant": "Japanese Version"
+      "variant": "V-Seam, Japanese Version"
     },
     {
       "name": "Hey You, Pikachu!",
       "console": "Nintendo 64",
       "grade": "85+",
-      "variant": "Qualified"
+      "variant": "Sticker Seal, Qualified"
     },
     {
       "name": "Mega Man 8 Anniversary Collector's Edition",
       "console": "PlayStation",
       "grade": "85",
-      "variant": "Black Label"
+      "variant": "Y-Fold, Black Label"
     },
     {
       "name": "Spider-Man 2",
