@@ -1,6 +1,24 @@
 {
   "games": [
     {
+      "name": "Zelda No Densetsu: Kaze No Takuto",
+      "console": "Nintendo GameCube",
+      "grade": "90",
+      "variant": "Japanese Version"
+    },
+    {
+      "name": "Hey You, Pikachu!",
+      "console": "Nintendo 64",
+      "grade": "85+",
+      "variant": "Qualified"
+    },
+    {
+      "name": "Mega Man 8 Anniversary Collector's Edition",
+      "console": "PlayStation",
+      "grade": "85",
+      "variant": "Black Label"
+    },
+    {
       "name": "Spider-Man 2",
       "console": "Nintendo GameCube",
       "grade": "95",
