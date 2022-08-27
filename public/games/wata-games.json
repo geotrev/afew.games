@@ -1,6 +1,27 @@
 {
   "games": [
     {
+      "name": "God of War",
+      "console": "PlayStation 2",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "Y-Fold, Made/Printed in USA, M Rating, No Dolby Pro Logic II"
+    },
+    {
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "console": "Nintendo Wii U",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "Y-Fold, 7 Controllers"
+    },
+    {
+      "name": "Golden Sun: The Lost age",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.8",
+      "sealGrade": "A+",
+      "variant": "H-seam, Made in Japan"
+    },
+    {
       "name": "Star Wars: The Clone Wars",
       "console": "PlayStation 2",
       "boxGrade": "9.6",
