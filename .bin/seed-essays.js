@@ -1,8 +1,8 @@
 const path = require("path")
-const fs = require("fs")
+const { existsSync, promises: fs } = require("fs")
 const { faker } = require("@faker-js/faker")
 
-const iterations = 50
+const SEED_COUNT = 50
 
 function toSlug(str) {
   return str
@@ -31,22 +31,29 @@ function getFileName(title, i) {
   return `${date.toISOString().slice(0, 10)}--${slug}.md`
 }
 
-function writeEssays() {
+async function seed() {
   console.time("building-seeds")
   const seedPath = path.resolve(process.cwd(), ".seed/essays")
 
-  if (!fs.existsSync(seedPath)) {
-    fs.mkdirSync(seedPath, { recursive: true })
+  if (!existsSync(seedPath)) {
+    await fs.mkdir(seedPath, { recursive: true })
   }
 
-  for (let i = 0; i < iterations; i++) {
+  const promises = []
+
+  for (let i = 0; i < SEED_COUNT; i++) {
     const { title, content } = getContent(i)
     const fileName = getFileName(title, i)
     const fileTarget = path.resolve(seedPath, fileName)
-    fs.writeFileSync(fileTarget, content, "utf8")
+    promises.push(async () =>
+      fs.writeFile(fileTarget, content, { encoding: "utf8" })
+    )
   }
 
+  await Promise.all(promises).then((writeFns) => {
+    writeFns.forEach((fn) => fn())
+  })
   console.timeEnd("building-seeds")
 }
 
-writeEssays()
+seed()
