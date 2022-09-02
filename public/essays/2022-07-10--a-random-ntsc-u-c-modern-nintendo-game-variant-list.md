@@ -67,9 +67,9 @@ Notable for this release is the special edition (dubbed "Ultimate Edition"), whe
 As noted in my print variant guide, this iteration of Metroid is an example of a game missing a print code. Specifically, `57096A`. This is likely due to a production error early in the first print run. As a result, `57096B` is the earliest print code you're likely to find.
 
 * **57096B** | Made in Japan | 00001
-* **57102A** | Made in Japan | 00002
+* **57096C** | Made in Japan | 00002
 * **57102A** | Made in Japan | 00000 | Canadian release (English & French)
-* **57102B** | Made in Japan | 00000 | Canadian release (English & French)
+* **57102B** | Made in Japan | 00001 | Canadian release (English & French)
 
 ## Bayonetta 2 (Wii U)
 
