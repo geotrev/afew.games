@@ -20,7 +20,7 @@ collections:
             allow_add: true
             add_to_top: true
             collapsed: true
-            summary: "{{fields.name}} - {{fields.boxGrade}} {{fields.sealGrade}}"
+            summary: "{{fields.name}} ({{fields.console}}) {{fields.boxGrade}} {{fields.sealGrade}}"
             fields:
               - label: "Name"
                 name: "name"
@@ -35,6 +35,7 @@ collections:
                 name: "sealGrade"
                 widget: "string"
               - label: "Variant"
+                required: false
                 name: "variant"
                 widget: "text"
       - label: "VGA Graded"
@@ -48,7 +49,7 @@ collections:
             allow_add: true
             add_to_top: true
             collapsed: true
-            summary: "{{fields.name}} - {{fields.grade}}"
+            summary: "{{fields.name}} ({{fields.console}}) {{fields.grade}}"
             fields:
               - label: "Name"
                 name: "name"
@@ -60,6 +61,7 @@ collections:
                 name: "grade"
                 widget: "string"
               - label: "Variant"
+                required: false
                 name: "variant"
                 widget: "text"
   - name: "essays"
