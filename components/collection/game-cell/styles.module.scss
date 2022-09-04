@@ -1,0 +1,12 @@
+@use "../../../styles/vars" as vars;
+
+.gameCell {
+  background-color: rgba(vars.$tertiary-color-1, 0.15);
+  padding: 1rem;
+}
+
+.gameCellData {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  row-gap: 0.5rem;
+}

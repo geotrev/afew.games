@@ -1,0 +1,14 @@
+@use "../../../styles/vars" as vars;
+
+.gameGrid {
+  display: grid;
+  gap: 1rem;
+  line-height: 1.3;
+  margin-block-end: 3rem;
+}
+
+@media (min-width: 640px) {
+  .gameGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
