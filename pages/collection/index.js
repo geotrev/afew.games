@@ -1,8 +1,5 @@
-import {
-  useState,
-  // useCallback
-} from "react"
-// import { debounce } from "lodash-es"
+import { useState, useMemo, useEffect } from "react"
+import { debounce } from "lodash-es"
 import Layout from "components/layout"
 import { flattenValues } from "lib/flatten-values"
 import vgaGames from "public/games/vga-games.json"
@@ -15,24 +12,29 @@ const WATA_TYPE = "wata"
 const VGA_TYPE = "vga"
 
 export default function Collection({ games, queryData }) {
-  const [search, setSearch] = useState("")
-  function handleChange(e) {
-    setSearch(e.target.value)
-  }
+  const [searchValue, setSearchValue] = useState("")
+  const [queryValue, setQueryValue] = useState("")
+  const debounceQueryValue = useMemo(() => debounce(setQueryValue, 200), [])
 
-  // const debounceChange = useCallback(() => debounce(handleChange, 250), [])
+  useEffect(() => {
+    debounceQueryValue(searchValue)
+  }, [debounceQueryValue, searchValue])
+
+  function handleChange(e) {
+    setSearchValue(e.target.value)
+  }
 
   function filterGamesBySearchTerm(type) {
     const graderGames = games[type]
-    const normalizedSearch = search.toLowerCase()
-    if (!search) return graderGames
+    const query = queryValue.toLowerCase()
+    if (!queryValue) return graderGames
 
     const graderQueryData = queryData[type]
 
     return graderQueryData.reduce((acc, queryString, idx) => {
       const game = graderGames[idx]
 
-      if (queryString.includes(normalizedSearch)) {
+      if (queryString.includes(query)) {
         return acc.concat(game)
       }
 
@@ -46,7 +48,7 @@ export default function Collection({ games, queryData }) {
         <span aria-hidden="true">./</span>Collection
       </h1>
       <p>Just some games.</p>
-      <Search value={search} handleChange={handleChange} />
+      <Search value={searchValue} handleChange={handleChange} />
       <GamesGrid
         games={filterGamesBySearchTerm(VGA_TYPE)}
         label="VGA Graded"
@@ -83,8 +85,14 @@ export function getStaticProps() {
 
   return {
     props: {
-      games: { vga, wata },
-      queryData: { vga: flattenValues(vga), wata: flattenValues(wata) },
+      games: {
+        vga,
+        wata,
+      },
+      queryData: {
+        vga: flattenValues(vga),
+        wata: flattenValues(wata),
+      },
     },
   }
 }
