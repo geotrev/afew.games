@@ -50,6 +50,10 @@ export default function App({ Component, pageProps }) {
   return (
     <div className="app-container">
       <Script
+        src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+        strategy="afterInteractive"
+      />
+      <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`}
         strategy="afterInteractive"
       />

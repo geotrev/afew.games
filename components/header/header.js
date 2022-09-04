@@ -1,5 +1,4 @@
 import { useRouter } from "next/router"
-import Script from "next/script"
 import Link from "next/link"
 import classNames from "classnames"
 import styles from "./styles.module.scss"
@@ -16,10 +15,6 @@ export default function Header() {
 
   return (
     <header className={styles.pageHeader}>
-      <Script
-        defer
-        src="https://identity.netlify.com/v1/netlify-identity-widget.js"
-      />
       <Link passHref href={Routes.HOME_PATH}>
         <a className={styles.logoContainer}>
           <Logo />
