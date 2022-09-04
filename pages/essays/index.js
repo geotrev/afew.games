@@ -1,18 +1,19 @@
 import { useEffect, useRef } from "react"
 import { debounce } from "lodash-es"
-import classNames from "classnames"
-import Link from "next/link"
+import { useFetchEssays } from "hooks/use-fetch-essays"
 import Layout from "components/layout"
 import Pagination from "components/pagination"
-import styles from "./essays.module.scss"
-import { useFetchEssays } from "hooks/use-fetch-essays"
+import { PageHeading } from "components/heading"
+import { ListLoader } from "components/essays/list-loader"
+import { ListError } from "components/essays/list-error"
+import { List } from "components/essays/list"
 
 let initialLoad = true
 const toggleInitialLoad = debounce(() => (initialLoad = false), 50)
+const VISIBLE_PAGES = 5
 
 export default function Essays() {
   const { isLoading, isError, data, setData } = useFetchEssays()
-  const placeholderIterator = Array(5).fill(null)
   const listRef = useRef(null)
 
   useEffect(() => {
@@ -63,103 +64,28 @@ export default function Essays() {
     setData(data.totalPages - 1)
   }
 
-  function renderEssayItem(entry) {
-    const {
-      title,
-      description,
-      metadata: { urlPath, date, slug },
-    } = entry
-
-    return (
-      <li key={slug} className={styles.essayItem}>
-        <p className={classNames(styles.essayItemTimePara, "text-xs")}>
-          <time className={styles.essayItemTime} dateTime={date}>
-            {date}
-          </time>
-        </p>
-        <h2 className={classNames(styles.essayItemHeading, "text-xl")}>
-          <Link href={urlPath}>{title}</Link>
-        </h2>
-        <p className={styles.essayItemDescription}>{description}</p>
-      </li>
-    )
-  }
-
-  function renderList() {
-    return (
-      <>
-        <ul
-          ref={listRef}
-          className={styles.essayList}
-          aria-label={`Essays, data ${data.index + 1}`}
-        >
-          {data.essays.map(renderEssayItem)}
-        </ul>
-        <Pagination
-          count={data.totalPages}
-          maxVisiblePageCount={5}
-          activePageIndex={data.index}
-          onNextClick={onNextClick}
-          onPreviousClick={onPreviousClick}
-          onPageClick={onPageClick}
-          onFirstPageClick={onFirstPageClick}
-          onLastPageClick={onLastPageClick}
-        />
-      </>
-    )
-  }
-
-  function renderLoader() {
-    return (
-      <div>
-        {placeholderIterator.map((_, idx) => {
-          return (
-            <div key={idx} className={styles.empyStateContainer}>
-              <div
-                className={classNames(
-                  styles.animateBg,
-                  styles.bgHeightSm,
-                  styles.bgNarrow,
-                  styles.metadataAnim
-                )}
-              >
-                <div className={styles.bgMask}></div>
-              </div>
-              <div className={classNames(styles.animateBg, styles.titleAnim)}>
-                <div className={styles.bgMask}></div>
-              </div>
-              <div
-                className={classNames(
-                  styles.animateBg,
-                  styles.bgHeightMd,
-                  styles.descAnim
-                )}
-              >
-                <div className={styles.bgMask}></div>
-              </div>
-            </div>
-          )
-        })}
-      </div>
-    )
-  }
-
-  function renderError() {
-    return (
-      <div>
-        <p>
-          {"Uh oh, looks like there was an error. Refresh or try again later."}
-        </p>
-      </div>
-    )
-  }
-
   return (
     <Layout>
-      <h1>
-        <span aria-hidden="true">./</span>Essays
-      </h1>
-      {isLoading ? renderLoader() : isError ? renderError() : renderList()}
+      <PageHeading heading="Essays" />
+      {isLoading ? (
+        <ListLoader />
+      ) : isError ? (
+        <ListError />
+      ) : (
+        <>
+          <List data={data} ref={listRef} />
+          <Pagination
+            count={data.totalPages}
+            maxVisiblePageCount={VISIBLE_PAGES}
+            activePageIndex={data.index}
+            onNextClick={onNextClick}
+            onPreviousClick={onPreviousClick}
+            onPageClick={onPageClick}
+            onFirstPageClick={onFirstPageClick}
+            onLastPageClick={onLastPageClick}
+          />
+        </>
+      )}
     </Layout>
   )
 }

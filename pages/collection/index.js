@@ -7,6 +7,7 @@ import wataGames from "public/games/wata-games.json"
 import Types from "prop-types"
 import { GamesGrid } from "components/collection/games-grid"
 import { Search } from "components/collection/search"
+import { PageHeading } from "components/heading"
 
 const WATA_TYPE = "wata"
 const VGA_TYPE = "vga"
@@ -44,10 +45,7 @@ export default function Collection({ games, queryData }) {
 
   return (
     <Layout>
-      <h1>
-        <span aria-hidden="true">./</span>Collection
-      </h1>
-      <p>Just some games.</p>
+      <PageHeading heading="Collection" subheading="Just some games." />
       <Search value={searchValue} handleChange={handleChange} />
       <GamesGrid
         games={filterGamesBySearchTerm(VGA_TYPE)}
