@@ -1,21 +1,19 @@
 import { GameCell } from "../game-cell"
 import styles from "./styles.module.scss"
 
-export function GamesGrid({ games, label }) {
+export function GamesGrid({ games, label, id }) {
   return (
     <>
-      <h2>VGA Graded</h2>
+      <h2 id={id}>{label}</h2>
+      <div className={styles.listInfo}>
+        <p>{games.length} games shown</p>
+      </div>
       {games.length ? (
-        <div
-          role="grid"
-          className={styles.gameGrid}
-          aria-label={label}
-          aria-colcount="2"
-        >
+        <ul aria-labelledby={id} className={styles.gameGrid} aria-label={label}>
           {games.map((data) => (
             <GameCell key={`${data.name}-${data.grade}`} data={data} />
           ))}
-        </div>
+        </ul>
       ) : (
         <p className={styles.gameGrid}>Sorry, no matches found.</p>
       )}

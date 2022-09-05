@@ -50,12 +50,12 @@ export default function Collection({ games, queryData }) {
       <GamesGrid
         games={filterGamesBySearchTerm(VGA_TYPE)}
         label="VGA Graded"
-        ariaLabel="VGA Graded Games"
+        id="VGA_List"
       />
       <GamesGrid
         games={filterGamesBySearchTerm(WATA_TYPE)}
         label="Wata Graded"
-        ariaLabel="Wata Graded Games"
+        id="Wata_List"
       />
     </Layout>
   )
