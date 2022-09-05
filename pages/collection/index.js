@@ -14,12 +14,12 @@ const VGA_TYPE = "vga"
 
 export default function Collection({ games, queryData }) {
   const [searchValue, setSearchValue] = useState("")
-  const [queryValue, setQueryValue] = useState("")
-  const debounceQueryValue = useMemo(() => debounce(setQueryValue, 200), [])
+  const [filterValue, setFilterValue] = useState("")
+  const debouncedFilterValue = useMemo(() => debounce(setFilterValue, 200), [])
 
   useEffect(() => {
-    debounceQueryValue(searchValue)
-  }, [debounceQueryValue, searchValue])
+    debouncedFilterValue(searchValue)
+  }, [debouncedFilterValue, searchValue])
 
   function handleChange(e) {
     setSearchValue(e.target.value)
@@ -27,8 +27,8 @@ export default function Collection({ games, queryData }) {
 
   function filterGamesBySearchTerm(type) {
     const graderGames = games[type]
-    const query = queryValue.toLowerCase()
-    if (!queryValue) return graderGames
+    const query = filterValue.toLowerCase()
+    if (!filterValue) return graderGames
 
     const graderQueryData = queryData[type]
 
