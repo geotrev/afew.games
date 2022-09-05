@@ -10,7 +10,7 @@ const Routes = {
   HOME_PATH: "/",
 }
 
-export default function Header() {
+export default function SiteHeader() {
   const { asPath } = useRouter()
 
   return (

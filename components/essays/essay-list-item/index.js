@@ -2,7 +2,7 @@ import cn from "classnames"
 import Link from "next/link"
 import styles from "./styles.module.scss"
 
-export function ListItem({ entry }) {
+export function EssayListItem({ entry }) {
   const {
     title,
     description,

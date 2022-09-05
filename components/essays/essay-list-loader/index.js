@@ -1,7 +1,7 @@
 import cn from "classnames"
 import styles from "./styles.module.scss"
 
-export function ListLoader() {
+export function EssayListLoader() {
   const placeholderIterator = Array(5).fill(null)
 
   return (

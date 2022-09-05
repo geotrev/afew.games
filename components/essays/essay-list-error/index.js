@@ -1,4 +1,4 @@
-export function ListError() {
+export function EssayListError() {
   return (
     <div>
       <p>

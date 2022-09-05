@@ -2,8 +2,8 @@ import { Helmet } from "react-helmet"
 import { useEffect } from "react"
 import Script from "next/script"
 import { useRouter } from "next/router"
-import Header from "components/header"
 import { pageView } from "lib/analytics"
+import SiteHeader from "components/global/site-header"
 import "styles/global.scss"
 
 const BASE_TITLE = "a few games"
@@ -67,7 +67,7 @@ export default function App({ Component, pageProps }) {
         `}
       </Script>
       {renderMeta()}
-      <Header />
+      <SiteHeader />
       <Component {...pageProps} />
     </div>
   )

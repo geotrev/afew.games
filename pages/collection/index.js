@@ -7,7 +7,7 @@ import wataGames from "public/games/wata-games.json"
 import Types from "prop-types"
 import { GamesGrid } from "components/collection/games-grid"
 import { Search } from "components/collection/search"
-import { PageHeading } from "components/heading"
+import { PageHeading } from "components/global/page-heading"
 
 const WATA_TYPE = "wata"
 const VGA_TYPE = "vga"

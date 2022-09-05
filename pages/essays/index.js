@@ -2,11 +2,11 @@ import { useEffect, useRef } from "react"
 import { debounce } from "lodash-es"
 import { useFetchEssays } from "hooks/use-fetch-essays"
 import Layout from "components/layout"
-import Pagination from "components/pagination"
-import { PageHeading } from "components/heading"
-import { ListLoader } from "components/essays/list-loader"
-import { ListError } from "components/essays/list-error"
-import { List } from "components/essays/list"
+import Pagination from "components/global/pagination"
+import { PageHeading } from "components/global/page-heading"
+import { EssayListLoader } from "components/essays/essay-list-loader"
+import { EssayListError } from "components/essays/essay-list-error"
+import { EssayList } from "components/essays/essay-list"
 
 let initialLoad = true
 const toggleInitialLoad = debounce(() => (initialLoad = false), 50)
@@ -68,12 +68,12 @@ export default function Essays() {
     <Layout>
       <PageHeading heading="Essays" />
       {isLoading ? (
-        <ListLoader />
+        <EssayListLoader />
       ) : isError ? (
-        <ListError />
+        <EssayListError />
       ) : (
         <>
-          <List data={data} ref={listRef} />
+          <EssayList data={data} ref={listRef} />
           <Pagination
             count={data.totalPages}
             maxVisiblePageCount={VISIBLE_PAGES}
