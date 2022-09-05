@@ -1,21 +1,15 @@
-import classNames from "classnames"
+import cn from "classnames"
 import styles from "./styles.module.scss"
 
 export function GameCellMetadata({ name, value }) {
   return (
     <>
       <dt
-        className={classNames(
-          styles.gameCellLabel,
-          styles.gameCellDataItem,
-          "text-sm"
-        )}
+        className={cn(styles.gameCellLabel, styles.gameCellDataItem, "text-sm")}
       >
         {name}
       </dt>
-      <dd className={classNames(styles.gameCellDataItem, "text-sm")}>
-        {value}
-      </dd>
+      <dd className={cn(styles.gameCellDataItem, "text-sm")}>{value}</dd>
     </>
   )
 }

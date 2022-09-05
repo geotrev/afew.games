@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import Types from "prop-types"
-import classNames from "classnames"
+import cn from "classnames"
 import styles from "./styles.module.scss"
 
 export default function Pagination({
@@ -91,7 +91,7 @@ export default function Pagination({
       return (
         <li key={idx} data-pagination-index={idx}>
           <button
-            className={classNames(styles.paginationButton, {
+            className={cn(styles.paginationButton, {
               [styles.isActive]: isActive,
             })}
             tabIndex={rovingIndex === idx ? "0" : "-1"}
@@ -123,10 +123,7 @@ export default function Pagination({
           <li>
             <button
               onKeyDown={(e) => e.stopPropagation()}
-              className={classNames(
-                styles.paginationButton,
-                styles.paginateSkipbutton
-              )}
+              className={cn(styles.paginationButton, styles.paginateSkipbutton)}
               type="button"
               aria-disabled={activePageIndex === 0 ? "true" : null}
               onClick={onFirstPageClick}
@@ -137,10 +134,7 @@ export default function Pagination({
           <li>
             <button
               onKeyDown={(e) => e.stopPropagation()}
-              className={classNames(
-                styles.paginationButton,
-                styles.paginateSkipbutton
-              )}
+              className={cn(styles.paginationButton, styles.paginateSkipbutton)}
               type="button"
               aria-disabled={activePageIndex === 0 ? "true" : null}
               onClick={onPreviousClick}
@@ -152,10 +146,7 @@ export default function Pagination({
           <li>
             <button
               onKeyDown={(e) => e.stopPropagation()}
-              className={classNames(
-                styles.paginationButton,
-                styles.paginateSkipbutton
-              )}
+              className={cn(styles.paginationButton, styles.paginateSkipbutton)}
               type="button"
               aria-disabled={lastPageIdx === activePageIndex ? "true" : null}
               onClick={onNextClick}
@@ -166,10 +157,7 @@ export default function Pagination({
           <li>
             <button
               onKeyDown={(e) => e.stopPropagation()}
-              className={classNames(
-                styles.paginationButton,
-                styles.paginateSkipbutton
-              )}
+              className={cn(styles.paginationButton, styles.paginateSkipbutton)}
               type="button"
               aria-disabled={activePageIndex === count - 1 ? "true" : null}
               onClick={onLastPageClick}

@@ -1,4 +1,4 @@
-import classNames from "classnames"
+import cn from "classnames"
 import styles from "./styles.module.scss"
 
 export function ListLoader() {
@@ -10,7 +10,7 @@ export function ListLoader() {
         return (
           <div key={idx} className={styles.empyStateContainer}>
             <div
-              className={classNames(
+              className={cn(
                 styles.animateBg,
                 styles.bgHeightSm,
                 styles.bgNarrow,
@@ -19,11 +19,11 @@ export function ListLoader() {
             >
               <div className={styles.bgMask}></div>
             </div>
-            <div className={classNames(styles.animateBg, styles.titleAnim)}>
+            <div className={cn(styles.animateBg, styles.titleAnim)}>
               <div className={styles.bgMask}></div>
             </div>
             <div
-              className={classNames(
+              className={cn(
                 styles.animateBg,
                 styles.bgHeightMd,
                 styles.descAnim

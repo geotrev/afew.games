@@ -1,0 +1,17 @@
+@use "../../../styles/vars" as vars;
+
+.essayFooter {
+  color: rgba(vars.$text-color, 0.7);
+
+  em,
+  italic,
+  i {
+    font-style: italic;
+  }
+
+  bold,
+  b,
+  strong {
+    font-weight: bold;
+  }
+}

@@ -1,20 +1,4 @@
-@use "../../styles/vars" as vars;
-
-.essayTitle {
-  color: white;
-  margin-block-end: 1.5rem;
-  line-height: 1.2;
-}
-
-.essayItemTimePara {
-  line-height: 1.5;
-  margin-block-end: 0.5rem;
-  color: vars.$tertiary-color-1;
-}
-
-.essayDescription {
-  margin-block-end: 3rem;
-}
+@use "../../../styles/vars" as vars;
 
 .essayContent {
   line-height: 2;
@@ -110,8 +94,4 @@
     margin: 0.65rem 0.75rem 0 0;
     line-height: 0.85;
   }
-}
-
-.essayFooter {
-  color: rgba(vars.$text-color, 0.7);
 }

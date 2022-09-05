@@ -1,4 +1,4 @@
-import classNames from "classnames"
+import cn from "classnames"
 import Link from "next/link"
 import styles from "./styles.module.scss"
 
@@ -11,12 +11,12 @@ export function ListItem({ entry }) {
 
   return (
     <li className={styles.essayItem}>
-      <p className={classNames(styles.essayItemTimePara, "text-xs")}>
+      <p className={cn(styles.essayItemTimePara, "text-xs")}>
         <time className={styles.essayItemTime} dateTime={date}>
           {date}
         </time>
       </p>
-      <h2 className={classNames(styles.essayItemHeading, "text-xl")}>
+      <h2 className={cn(styles.essayItemHeading, "text-xl")}>
         <Link href={urlPath}>{title}</Link>
       </h2>
       <p className={styles.essayItemDescription}>{description}</p>
