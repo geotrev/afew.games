@@ -1,19 +1,19 @@
 @use "../../../styles/vars" as vars;
 
-.container {
+.searchContainer {
   display: flex;
   flex-flow: column nowrap;
   padding: 1rem 0 3rem 0;
 }
 
-.label {
+.searchLabel {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
   margin-block-end: 1rem;
 }
 
-.input {
+.searchInput {
   outline: none;
   appearance: none;
   font-size: 18px;

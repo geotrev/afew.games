@@ -5,7 +5,7 @@ import { flattenValues } from "lib/flatten-values"
 import vgaGames from "public/games/vga-games.json"
 import wataGames from "public/games/wata-games.json"
 import Types from "prop-types"
-import { GamesGrid } from "components/collection/games-grid"
+import { CollectionList } from "components/collection/collection-list"
 import { Search } from "components/collection/search"
 import { PageHeading } from "components/global/page-heading"
 
@@ -47,12 +47,12 @@ export default function Collection({ games, queryData }) {
     <Layout>
       <PageHeading heading="Collection" subheading="Just some games." />
       <Search value={searchValue} handleChange={handleChange} />
-      <GamesGrid
+      <CollectionList
         games={filterGamesBySearchTerm(VGA_TYPE)}
         label="VGA Graded"
         id="VGA_List"
       />
-      <GamesGrid
+      <CollectionList
         games={filterGamesBySearchTerm(WATA_TYPE)}
         label="Wata Graded"
         id="Wata_List"

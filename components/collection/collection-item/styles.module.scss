@@ -1,11 +1,11 @@
 @use "../../../styles/vars" as vars;
 
-.gameCell {
+.collectionItem {
   background-color: rgba(vars.$tertiary-color-1, 0.15);
   padding: 1rem;
 }
 
-.gameCellData {
+.collectionItemDataList {
   display: grid;
   grid-template-columns: auto 1fr;
   row-gap: 0.5rem;
