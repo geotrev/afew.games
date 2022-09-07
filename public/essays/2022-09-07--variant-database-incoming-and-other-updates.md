@@ -21,8 +21,10 @@ Soon I'll add a database archive of all these variants available right from this
 
 My collection page served its purpose initially when I didn't have many games; simply throwing them up in two piles: one VGA, and one Wata, was OK at the time.
 
-Having amassed more games lately (and many more on the way from Wata), I need to think in smaller buckets. Soon it will be re-divided by console, with the grader intermixed in each. It'll make my games much easier to track query going forward
+Having amassed more games lately (and many more on the way from Wata), I need to think in smaller buckets. Soon it will be re-divided by console, with the grader intermixed in each. It'll make my games much easier to query going forward.
 
-Until then, the sections can now collapse and expand using the small control on the top right of each list. The search will be the best way to navigate it until that's changed.
+Until then, the sections can now collapse and expand using the small control on the top right of each list. Search will still be the best way to navigate it until everything is reorganized.
+
+---
 
 Thanks for reading and I look forward to sharing more of data with y'all soon!
