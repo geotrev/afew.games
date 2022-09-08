@@ -81,6 +81,34 @@
   ol {
     list-style-type: decimal;
   }
+
+  blockquote {
+    margin-block-end: 2rem;
+    font-style: italic;
+    padding-inline-start: 1.5rem;
+    border-inline-start: 3px solid rgba(vars.$tertiary-color-2, 0.2);
+  }
+
+  table {
+    margin-block-end: 2rem;
+    border-spacing: 0.5rem;
+    border-collapse: separate;
+    background: rgba(vars.$primary-color-1, 0.15);
+
+    th,
+    td {
+      padding: 0 0.5rem;
+    }
+
+    th {
+      font-weight: bold;
+      text-align: start;
+    }
+
+    td {
+      background-color: rgba(vars.$tertiary-color-2, 0.2);
+    }
+  }
 }
 
 .essayBody {
