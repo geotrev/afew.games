@@ -152,7 +152,11 @@ And of course, the top five submitted games should surprise no one:
 | Pokémon FireRed Version    | 77              | 2.55%  |
 | Total                      | 407/3013        | 13.51% |
 
-There's simply a wider spread most-submitted games in the top 50. Considering video games as a whole have only became more popular, especially by this era, it makes sense there would be more desirable games to submit.
+Interestingly, there are a couple dozen games in the top 50 that exceed 20 submissions each. There's simply a wider spread of popular games, it would seem.
+
+Considering video games as a whole have only became more popular over time, especially by this era, it makes sense there would be more desirable games to submit.
+
+At this point, there is a trend of more overall games submitted to Wata, but with fewer games pulling triple-digit submissions.
 
 [See the full list of GBA populations](https://www.watagames.com/populations/gba/index.html)
 
