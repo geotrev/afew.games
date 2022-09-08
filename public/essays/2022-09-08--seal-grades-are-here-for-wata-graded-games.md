@@ -39,7 +39,7 @@ Here's a high level view of all seal grades:
 | C          | 4     | 0.002% |
 | Total      | 1975  | 100%   |
 
-When we break down seal grades for box grades at 9.0 and higher, the patterns are clearer, but not entirely surprising:
+When we break down seal grades for each box grade, the patterns are clearer, but not entirely surprising:
 
 | Box Grade | A++    | A+     | A      | B+    | B     | C+  | C   |
 | --------- | ------ | ------ | ------ | ----- | ----- | --- | --- |
@@ -51,7 +51,7 @@ When we break down seal grades for box grades at 9.0 and higher, the patterns ar
 | Total     | 468    | 811    | 258    | 37    | 9     | 0   | 0   |
 | %         | 23.67% | 41.06% | 13.06% | 1.87% | 0.45% | 0%  | 0%  |
 
-**64% of all submissions** at 9.0 or higher received at least an A+ level seal. While this shouldn't entirely surprise you (because 9.0 is the start of the near mint/mint condition levels), that's pretty fantastic for submitters!
+**64% of all 9.0 and higher submissions** received at least an A+ level seal. While this shouldn't entirely surprise you (because 9.0 is the start of the near mint/mint condition levels), that's pretty fantastic for submitters!
 
 Here's the top five most submitted games:
 
@@ -97,9 +97,7 @@ Much like Game Boy, GBC sees a spread with A++ and A+ as focal points:
 | Total     | 338    | 527    | 91    | 13    | 9     | 0   | 0   |
 | %         | 22.38% | 34.90% | 6.03% | 0.86% | 0.60% | 0%  | 0%  |
 
-Once again, the focus is on A++ and A+. Given the box grade is already 9.0 or better, this could be considered expected.
-
-Here's the top five most submitted games. Once again, Pokemon is king:
+Here's the top five most submitted games. Once again, Pokemon is king with three out of the five titles:
 
 | Title                                  | Total Submitted | %   |
 | -------------------------------------- | --------------- | --- |
