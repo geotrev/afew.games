@@ -4,7 +4,7 @@ description: A quick look into what the new data means and how it changes rarity
 ---
 It's finally here! Almost a year after Wata released its initial population data for box grades, Wata has not only updated the census (as of August 1st, 2022), but added seal grades simply by hovering on a given grade.
 
-Here's the statement (August 17th, 2022):
+Here's the statement, for reference:
 
 > **Population Reports update**
 >
