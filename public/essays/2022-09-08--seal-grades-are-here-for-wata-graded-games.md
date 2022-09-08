@@ -110,6 +110,8 @@ Here's the top five most submitted games. Once again, Pokemon is king:
 | Pokémon Trading Card Game              | 47              | 3%  |
 | Total                                  | 415/1510        | 28% |
 
+Similar to its big brother, Game Boy Color only sees 16 titles out of its 1510-large library with submissions of 20 or more. In total, **these 16 titles were submitted 731 times, or 49% of all submissions**.
+
 ## Game Boy Advance
 
 Ever since the initial populations were released (way back in 2021), it was clear GBA has an interesting submission curve similar to its ancestor, the Game Boy. The main difference here is that there are much more A++ seals compared to A.
