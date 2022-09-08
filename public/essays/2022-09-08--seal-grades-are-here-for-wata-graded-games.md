@@ -1,10 +1,10 @@
 ---
-title: Seal Grades Are Here for Wata Graded Games
-description: A deep dive into Game Boy, Game Boy Color, and Game Boy Advance grades!
+title: "In-Depth Wata Games Pop Report Analysis: Game Boy"
+description: Are the grades what we expected? Let's take a look at seal grades populations!
 ---
-It's finally here! Almost a year after Wata released its initial population data for box grades, Wata has not only updated the census (as of August 1st, 2022), but added seal grades simply by hovering on a given grade.
+It's finally here! Almost a year after Wata released its initial population data for box grades, Wata has not only updated box grades (as of August 1st, 2022), but added seal grades simply by hovering on a given grade. It's interesting it took us so long to get here, but I digress.
 
-Here's the statement, for reference:
+Here's the statement they released with this change, for reference:
 
 > **Population Reports update**
 >
@@ -12,17 +12,13 @@ Here's the statement, for reference:
 >
 > *\- Wata, Aug. 17, 2022*
 
-While it's not news at this point, being almost a full month late, I did want to share some interesting data I've compiled for a few consoles and their games.
+While it's not news at this point, being almost a full month late, I did want to share some interesting data I've compiled for Game Boy, Game Boy Color, and Game Boy Advance!
 
 - - -
 
 As a caveat to the below data, remember: games submitted to Wata won't and will never be able to represent the wider collecting hobby. This is mainly due to the fact that the hobby and its community is still very small when compared to the larger collecting sphere. 
 
-With that said, enjoy!
-
-- - -
-
-To start, let's take a look at seal grades for Game Boy, Game Boy Color, and Game Boy Advance.
+With that said, the data is broken out by console: seal grade totals, seal grade breakdown across each box grade, and the top five submitted games for each (just for fun).
 
 ## Game Boy
 
@@ -111,6 +107,8 @@ Here's the top five most submitted games. Once again, Pokemon is king:
 | Total                                  | 415/1510        | 28% |
 
 Similar to its big brother, Game Boy Color only sees 16 titles out of its 1510-large library with submissions of 20 or more. In total, **these 16 titles were submitted 731 times, or 49% of all submissions**.
+
+[See the full list of GBC populations](https://www.watagames.com/populations/gbc/index.html)
 
 ## Game Boy Advance
 
