@@ -53,14 +53,14 @@ When we break down seal grades for box grades at 9.0 and higher, the patterns ar
 
 Here's the top five most submitted games:
 
-| Title                  | Total Submitted (out of 1975) | %   |
-| ---------------------- | ----------------------------- | --- |
-| Pokémon Yellow Version | 212                           | 11% |
-| Pokémon Red Version    | 165                           | 8%  |
-| Pokémon Blue Version   | 164                           | 8%  |
-| Donkey Kong Land III   | 115                           | 6%  |
-| Super Mario Land       | 99                            | 5%  |
-| Total                  | 755                           | 38% |
+| Title                  | Total Submitted | %   |
+| ---------------------- | --------------- | --- |
+| Pokémon Yellow Version | 212             | 11% |
+| Pokémon Red Version    | 165             | 8%  |
+| Pokémon Blue Version   | 164             | 8%  |
+| Donkey Kong Land III   | 115             | 6%  |
+| Super Mario Land       | 99              | 5%  |
+| Total                  | 755/1975        | 38% |
 
 Even more interesting is that **only 15 out of 426 games were submitted more than 20 times**, accounting for **1078 submissions** in this sub-category. In other words, **54%** of all submissions account for 15 unique titles.
 
@@ -93,9 +93,18 @@ Break down by seal grades in 9.0 or higher:
 | Total     | 781    | 1181   | 176   | 23    | 4     | 1     | 0   |
 | %         | 25.92% | 39.20% | 5.84% | 0.76% | 0.13% | 0.03% | 0%  |
 
-And of course, the top five submitted games:
+And of course, the top five submitted games should surprise no one:
 
-The spread of submitted games in the top 50 (of 3013) is gradual, unlike Game Boy. While I wouldn't say there were more popular games on GBA vs. GB by measure of this number, it certainly makes it interesting. Video games as a whole became more popular by this era, so it makes sense!
+| Title                      | Total Submitted | %      |
+| -------------------------- | --------------- | ------ |
+| Yu-Gi-Oh! The Sacred Cards | 86              | 2.85%  |
+| Pokémon LeafGreen Version  | 82              | 2.72%  |
+| Pokémon Emerald Version    | 81              | 2.69%  |
+| Pokémon Sapphire Version   | 81              | 2.69%  |
+| Pokémon FireRed Version    | 77              | 2.55%  |
+| Total                      | 407/3013        | 13.51% |
+
+There's simply a wider spread most-submitted games in the top 50. While I wouldn't say there were *more* popular games on GBA vs. GB by measure of this number, it certainly makes it interesting. Video games as a whole became more popular by this era, so it makes sense!
 
 ## Nintendo 64
 
