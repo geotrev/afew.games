@@ -51,6 +51,8 @@ When we break down seal grades for box grades at 9.0 and higher, the patterns ar
 | Total     | 468    | 811    | 258    | 37    | 9     | 0   | 0   |
 | %         | 23.67% | 41.06% | 13.06% | 1.87% | 0.45% | 0%  | 0%  |
 
+**64% of all submissions** at 9.0 or higher received at least an A+ level seal. While this shouldn't entirely surprise you (because 9.0 is the start of the near mint/mint condition levels), that's pretty fantastic for submitters!
+
 Here's the top five most submitted games:
 
 | Title                  | Total Submitted | %   |
@@ -62,7 +64,9 @@ Here's the top five most submitted games:
 | Super Mario Land       | 99              | 5%  |
 | Total                  | 755/1975        | 38% |
 
-Even more interesting is that **only 15 out of 426 games were submitted more than 20 times**, accounting for **1078 submissions** in this sub-category. In other words, **54%** of all submissions account for 15 unique titles.
+Taking a broader step back from the top 5 games, we'll see that **only 15 out of 426 games contained in Wata's census were submitted 20 or more times**, accounting for **1078 submissions**. In other words, **54%** of all submissions account for 15 unique titles.
+
+Let's just say Pokemon is still the king all these years later.
 
 [See the full list of GB populations](https://www.watagames.com/populations/gb/index.html)
 
@@ -81,28 +85,30 @@ Same as before, let's start with the high level breakdown:
 | C          | 0     | 0%      |
 | Total      | 1510  | 100%    |
 
-Much like Game Boy, GBC sees a spread with A+ as the focal point:
+Much like Game Boy, GBC sees a spread with A++ and A+ as focal points:
 
-| Box Grade | A++    | A+     | A      | B+    | B     | C+  | C   |
-| --------- | ------ | ------ | ------ | ----- | ----- | --- | --- |
-| 9.8       | 165    | 53     | 4      | 0     | 0     | 0   | 0   |
-| 9.6       | 124    | 202    | 49     | 5     | 1     | 0   | 0   |
-| 9.4       | 103    | 254    | 64     | 10    | 1     | 0   | 0   |
-| 9.2       | 47     | 172    | 74     | 11    | 5     | 0   | 0   |
-| 9.0       | 29     | 130    | 67     | 11    | 2     | 0   | 0   |
-| Total     | 468    | 811    | 258    | 37    | 9     | 0   | 0   |
-| %         | 23.67% | 41.06% | 13.06% | 1.87% | 0.45% | 0%  | 0%  |
+| Box Grade | A++    | A+     | A     | B+    | B     | C+  | C   |
+| --------- | ------ | ------ | ----- | ----- | ----- | --- | --- |
+| 9.8       | 95     | 35     | 0     | 1     | 0     | 0   | 0   |
+| 9.6       | 109    | 149    | 8     | 1     | 0     | 0   | 0   |
+| 9.4       | 75     | 153    | 23    | 2     | 5     | 0   | 0   |
+| 9.2       | 40     | 118    | 31    | 6     | 4     | 0   | 0   |
+| 9.0       | 19     | 72     | 29    | 3     | 0     | 0   | 0   |
+| Total     | 338    | 527    | 91    | 13    | 9     | 0   | 0   |
+| %         | 22.38% | 34.90% | 6.03% | 0.86% | 0.60% | 0%  | 0%  |
 
-Here's the top five most submitted games:
+Once again, the focus is on A++ and A+. Given the box grade is already 9.0 or better, this could be considered expected.
 
-| Title                  | Total Submitted | %   |
-| ---------------------- | --------------- | --- |
-| Pokémon Yellow Version | 212             | 11% |
-| Pokémon Red Version    | 165             | 8%  |
-| Pokémon Blue Version   | 164             | 8%  |
-| Donkey Kong Land III   | 115             | 6%  |
-| Super Mario Land       | 99              | 5%  |
-| Total                  | 755/1975        | 38% |
+Here's the top five most submitted games. Once again, Pokemon is king:
+
+| Title                                  | Total Submitted | %   |
+| -------------------------------------- | --------------- | --- |
+| Pokémon Gold Version                   | 132             | 9%  |
+| Pokémon Silver Version                 | 123             | 8%  |
+| The Legend of Zelda: Oracle of Ages    | 58              | 4%  |
+| The Legend of Zelda: Oracle of Seasons | 55              | 4%  |
+| Pokémon Trading Card Game              | 47              | 3%  |
+| Total                                  | 415/1510        | 28% |
 
 ## Game Boy Advance
 
