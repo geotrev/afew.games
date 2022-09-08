@@ -156,7 +156,7 @@ Interestingly, there are a couple dozen games in the top 50 that exceed 20 submi
 
 Considering video games as a whole have only became more popular over time, especially by this era, it makes sense there would be more desirable games to submit.
 
-At this point, there is a trend of more overall games submitted to Wata, but with fewer games pulling triple-digit submissions.
+Unfortunately, no single GBA game pulls a triple-digit submission number.
 
 [See the full list of GBA populations](https://www.watagames.com/populations/gba/index.html)
 
