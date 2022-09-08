@@ -1,6 +1,6 @@
 ---
 title: "Wata Games Pop Report Analysis: Game Boy"
-description: Are the grades what we expected? Let's take a look at seal grades populations!
+description: Are the grades what we expected? Let's take a look at the Game Boy lineup!
 ---
 It's finally here! Almost a year after Wata released its initial population data for box grades, Wata has not only updated box grades (as of August 1st, 2022), but added seal grades simply by hovering on a given grade. It's interesting it took us so long to get here, but I digress.
 
