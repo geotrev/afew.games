@@ -2,7 +2,7 @@
 title: "Wata Games Pop Report Analysis: Game Boy"
 description: Are the grades what we expected? Let's take a look at the Game Boy lineup!
 ---
-It's finally here! Almost a year after Wata released its initial population data for box grades, Wata has not only updated box grades (as of August 1st, 2022), but added seal grades simply by hovering on a given grade. It's interesting it took us so long to get here, but I digress.
+It's finally here! Almost a year after Wata released its initial population data for box grades, Wata has not only updated box grades (as of August 1st, 2022), but added seal grades by hovering on a given grade. It's interesting it took us so long to get here, but I digress.
 
 Here's the statement they released with this change, for reference:
 
@@ -16,9 +16,13 @@ While it's not news at this point, being almost a full month late, I did want to
 
 - - -
 
-As a caveat to the below data, remember: games submitted to Wata won't and will never be able to represent the wider collecting hobby. This is mainly due to the fact that the hobby and its community is still very small when compared to the larger collecting sphere. 
+As a caveat to the below data, remember: games submitted to Wata won't and will never be able to represent the wider collecting hobby. This is mainly due to the fact that the hobby and its community is still very small when compared to the larger collecting sphere, and the motivations of grading are at least partially skewed by the highest value items. 
 
-With that said, the data is broken out by console: seal grade totals, seal grade breakdown across each box grade, and the top five submitted games for each (just for fun).
+With that said, the data is broken out by console:
+
+* Seal grade totals
+* Seal grade breakdown across each box grade, starting at 9.0
+* The top five submitted games
 
 ## Game Boy
 
