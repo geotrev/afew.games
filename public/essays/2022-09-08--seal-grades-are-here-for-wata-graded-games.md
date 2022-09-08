@@ -64,6 +64,46 @@ Here's the top five most submitted games:
 
 Even more interesting is that **only 15 out of 426 games were submitted more than 20 times**, accounting for **1078 submissions** in this sub-category. In other words, **54%** of all submissions account for 15 unique titles.
 
+[See the full list of GB populations](https://www.watagames.com/populations/gb/index.html)
+
+## Game Boy Color
+
+Same as before, let's start with the high level breakdown:
+
+| Seal Grade | Total | %       |
+| ---------- | ----- | ------- |
+| A++        | 370   | 24.500% |
+| A+         | 794   | 52.58%  |
+| A          | 282   | 18.67%  |
+| B+         | 44    | 2.91%   |
+| B          | 18    | 1.19%   |
+| C+         | 2     | 0.13%   |
+| C          | 0     | 0%      |
+| Total      | 1510  | 100%    |
+
+Much like Game Boy, GBC sees a spread with A+ as the focal point:
+
+| Box Grade | A++    | A+     | A      | B+    | B     | C+  | C   |
+| --------- | ------ | ------ | ------ | ----- | ----- | --- | --- |
+| 9.8       | 165    | 53     | 4      | 0     | 0     | 0   | 0   |
+| 9.6       | 124    | 202    | 49     | 5     | 1     | 0   | 0   |
+| 9.4       | 103    | 254    | 64     | 10    | 1     | 0   | 0   |
+| 9.2       | 47     | 172    | 74     | 11    | 5     | 0   | 0   |
+| 9.0       | 29     | 130    | 67     | 11    | 2     | 0   | 0   |
+| Total     | 468    | 811    | 258    | 37    | 9     | 0   | 0   |
+| %         | 23.67% | 41.06% | 13.06% | 1.87% | 0.45% | 0%  | 0%  |
+
+Here's the top five most submitted games:
+
+| Title                  | Total Submitted | %   |
+| ---------------------- | --------------- | --- |
+| Pokémon Yellow Version | 212             | 11% |
+| Pokémon Red Version    | 165             | 8%  |
+| Pokémon Blue Version   | 164             | 8%  |
+| Donkey Kong Land III   | 115             | 6%  |
+| Super Mario Land       | 99              | 5%  |
+| Total                  | 755/1975        | 38% |
+
 ## Game Boy Advance
 
 Ever since the initial populations were released (way back in 2021), it was clear GBA has an interesting submission curve similar to its ancestor, the Game Boy. The main difference here is that there are much more A++ seals compared to A.
@@ -104,8 +144,12 @@ And of course, the top five submitted games should surprise no one:
 | Pokémon FireRed Version    | 77              | 2.55%  |
 | Total                      | 407/3013        | 13.51% |
 
-There's simply a wider spread most-submitted games in the top 50. While I wouldn't say there were *more* popular games on GBA vs. GB by measure of this number, it certainly makes it interesting. Video games as a whole became more popular by this era, so it makes sense!
+There's simply a wider spread most-submitted games in the top 50. Considering video games as a whole have only became more popular, especially by this era, it makes sense there would be more desirable games to submit.
 
-## Nintendo 64
+[See the full list of GBA populations](https://www.watagames.com/populations/gba/index.html)
 
-Another personal favorite and one I thought had some interesting data. To start, the high level of seal grade totals:
+## General conclusions
+
+If we're to take these numbers at face value, even considering the variance of seal grade within a single seal grade option, people seem to have generally submitted good condition games more often than not. Which makes sense! After all, the grade is largely what drives a higher price in these markets, and collectors like to have nice examples.
+
+Next we'll look at NES, SNES, and N64. Stay tuned!
