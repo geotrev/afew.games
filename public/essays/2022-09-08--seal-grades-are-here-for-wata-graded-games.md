@@ -16,9 +16,9 @@ While it's not news at this point, being almost a full month late, I did want to
 
 - - -
 
-An important caveat to all of this information: it's largely driven by human behavior - meaning the games submitted are prone to interest and nostalgia, and people are likely prone to submitting games of better condition.
+As a caveat to the below data, remember: games submitted to Wata won't and will never be able to represent the wider collecting hobby. This is mainly due to the fact that the hobby and its community is still very small when compared to the larger collecting sphere. 
 
-For these reasons alone, it's worth saying that **this data is not representative of the larger game supply**. 
+With that said, enjoy!
 
 - - -
 
