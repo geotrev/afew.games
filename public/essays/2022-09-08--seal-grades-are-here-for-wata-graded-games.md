@@ -1,6 +1,6 @@
 ---
 title: Seal Grades Are Here for Wata Graded Games
-description: A quick look into what the new data means and how it changes rarity
+description: A deep dive into Game Boy, Game Boy Color, and Game Boy Advance grades!
 ---
 It's finally here! Almost a year after Wata released its initial population data for box grades, Wata has not only updated the census (as of August 1st, 2022), but added seal grades simply by hovering on a given grade.
 
