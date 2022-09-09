@@ -1,6 +1,34 @@
 {
   "games": [
     {
+      "name": "Dishonored",
+      "console": "Xbox 360",
+      "boxGrade": "9.4",
+      "sealGrade": "A+",
+      "variant": "2x, Y-Fold, Assembled in USA, Microsoft security label"
+    },
+    {
+      "name": "Dishonored",
+      "console": "PlayStation 3",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "Y-Fold, Made in USA"
+    },
+    {
+      "name": "Dishonored",
+      "console": "PlayStation 3",
+      "boxGrade": "9.8",
+      "sealGrade": "A+",
+      "variant": "Y-Fold, Made in USA"
+    },
+    {
+      "name": "Sly 2: Band of Thieves",
+      "console": "PlayStation 2",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "Y-Fold, Made in USA, Sony security label"
+    },
+    {
       "name": "God of War",
       "console": "PlayStation 2",
       "boxGrade": "9.6",
