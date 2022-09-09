@@ -6,6 +6,48 @@ public_folder: "/uploads"
 publish_mode: "editorial_workflow"
 
 collections:
+  - name: "games"
+    label: "Games"
+    files:
+      - label: "Graded Games"
+        name: "graded_games"
+        file: "public/games/graded-games.json"
+        fields:
+          - label: "Platforms"
+            name: "platforms"
+            widget: "list"
+            label_singular: "Platform"
+            allow_add: true
+            add_to_top: true
+            collapsed: true
+            summary: "{{fields.platform}}"
+            fields:
+              - label: "Platform"
+                name: "platform"
+                widget: "string"
+              - label: "Games"
+                name: "games"
+                widget: "list"
+                label_singular: "Game"
+                allow_add: true
+                add_to_top: true
+                collapsed: true
+                summary: "{{fields.name}} - {{fields.grade}}"
+                fields:
+                  - label: "Name"
+                    name: "name"
+                    widget: "string"
+                  - label: "Grade"
+                    name: "grade"
+                    widget: "string"
+                  - label: "Variant"
+                    required: false
+                    name: "variant"
+                    widget: "text"
+                  - label: "Grader"
+                    name: "grader"
+                    widget: "select"
+                    options: ["Wata", "VGA"]
   - name: "graded_games"
     label: "Graded Games"
     files:
