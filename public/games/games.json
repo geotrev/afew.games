@@ -1,0 +1,766 @@
+{
+  "Game Boy Advance": [
+    {
+      "name": "Golden Sun",
+      "console": "Game Boy Advance",
+      "variant": "H-Seam, Made in Japan/Printed in USA, E Rating, 83% Fiber (USA Code)",
+      "grader": "Wata",
+      "grade": "9.8 A++"
+    },
+    {
+      "name": "Golden Sun: The Lost age",
+      "console": "Game Boy Advance",
+      "variant": "H-seam, Made in Japan",
+      "grader": "Wata",
+      "grade": "9.8 A+"
+    },
+    {
+      "name": "Kingdom Hearts: Chain of Memories",
+      "console": "Game Boy Advance",
+      "variant": "3-Side Seam, Made in Japan, E Rating, Double-Ended Box (USA Code)",
+      "grader": "Wata",
+      "grade": "9.8 A++"
+    },
+    {
+      "name": "Mega Man & Bass",
+      "console": "Game Boy Advance",
+      "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber, Y-Fold box (USA Code)",
+      "grader": "Wata",
+      "grade": "9.6 A++"
+    },
+    {
+      "name": "Mega Man Battle Chip Challenge",
+      "console": "Game Boy Advance",
+      "variant": "3-Side Seam, Double-Ended Box, Made in Japan",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "Mega Man Battle Network",
+      "console": "Game Boy Advance",
+      "grade": "90",
+      "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
+      "grader": "VGA"
+    },
+    {
+      "name": "Mega Man Battle Network 2",
+      "console": "Game Boy Advance",
+      "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
+      "grader": "Wata",
+      "grade": "9.8 A+"
+    },
+    {
+      "name": "Mega Man Battle Network 3: Blue",
+      "console": "Game Boy Advance",
+      "variant": "3-Side Seam, Made in Japan, E Rating, 83% Fiber, Double-Ended box (USA Code)",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "Mega Man Battle Network 3: White Version",
+      "console": "Game Boy Advance",
+      "variant": "H-Seam, Y-Fold Box, Made In Japan, White Cover",
+      "grader": "Wata",
+      "grade": "9.8 A+"
+    },
+    {
+      "name": "Mega Man Battle Network 4: Blue Moon",
+      "console": "Game Boy Advance",
+      "variant": "H-Seam, Y-Fold Box, Made in Japan",
+      "grader": "Wata",
+      "grade": "9.4 A+"
+    },
+    {
+      "name": "Mega Man Battle Network 4: Red Sun",
+      "console": "Game Boy Advance",
+      "variant": "H-Seam, Y-Fold Box, Made in Japan",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "Mega Man Battle Network 5: Team Colonel",
+      "console": "Game Boy Advance",
+      "variant": "3-Side Seam, Double-Ended Box, Made in Japan, \"Works With DS\" Sticker",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "Mega Man Battle Network 5: Team Protoman",
+      "console": "Game Boy Advance",
+      "variant": "3-Side Seam, Double-Ended Box, Made in Japan, \"Toys R Us\" Sticker",
+      "grader": "Wata",
+      "grade": "9.8 A+"
+    },
+    {
+      "name": "Mega Man Battle Network 6: Cybeast Falzar",
+      "console": "Game Boy Advance",
+      "variant": "3-Side Seam, Works With DS sticker, Made in Japan, E Rating, Double-Ended box (USA Code)",
+      "grader": "Wata",
+      "grade": "9.2 A+"
+    },
+    {
+      "name": "Mega Man Battle Network 6: Cybeast Gregar",
+      "console": "Game Boy Advance",
+      "variant": "3-Side Seam, Made in Japan, E Rating, Double-Ended box (USA Code)",
+      "grader": "Wata",
+      "grade": "9.4 A+"
+    },
+    {
+      "name": "Mega Man Zero",
+      "console": "Game Boy Advance",
+      "grade": "85+",
+      "variant": "H-Seam",
+      "grader": "VGA"
+    },
+    {
+      "name": "Mega Man Zero 2",
+      "console": "Game Boy Advance",
+      "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "Mega Man Zero 3",
+      "console": "Game Boy Advance",
+      "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
+      "grader": "Wata",
+      "grade": "9.2 A+"
+    },
+    {
+      "name": "Mega Man Zero 4",
+      "console": "Game Boy Advance",
+      "variant": "3-Side Seam, Made in Japan, E Rating, Double-Ended box, UPC Sticker (USA Code)",
+      "grader": "Wata",
+      "grade": "9.4 A++"
+    },
+    {
+      "name": "Metroid Fusion",
+      "console": "Game Boy Advance",
+      "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "Super Mario Advance",
+      "console": "Game Boy Advance",
+      "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "Super Mario Advance 4: Super Mario Bros 3",
+      "console": "Game Boy Advance",
+      "variant": "W/ Two Bonus Level Cards",
+      "grader": "Wata",
+      "grade": "9.6 A++"
+    }
+  ],
+  "Game Boy Color": [
+    {
+      "name": "Mega Man Xtreme",
+      "console": "Game Boy Color",
+      "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
+      "grader": "Wata",
+      "grade": "9.8 A+"
+    },
+    {
+      "name": "Mega Man Xtreme 2",
+      "console": "Game Boy Color",
+      "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
+      "grader": "Wata",
+      "grade": "9.6 A++"
+    },
+    {
+      "name": "Pokemon Crystal",
+      "console": "Game Boy Color",
+      "grade": "95",
+      "variant": "No Seal, Japanese Version",
+      "grader": "VGA"
+    }
+  ],
+  "NES": [
+    {
+      "name": "Wario's Woods",
+      "console": "NES",
+      "variant": "H-seam, Rev-A, Oval SOQ R, K-A Rating, 3-Line Warranty box, 9-Digit ZIP (USA Code)",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    }
+  ],
+  "Nintendo 3DS": [
+    {
+      "name": "Metroid: Samus Returns",
+      "console": "Nintendo 3DS",
+      "grade": "85+",
+      "variant": "No Seal, Special Edition",
+      "grader": "VGA"
+    },
+    {
+      "name": "Pokemon Sun & Moon",
+      "variant": "Sticker Seal, W/ First Partner Figure Set",
+      "console": "Nintendo 3DS",
+      "grade": "90+",
+      "grader": "VGA"
+    },
+    {
+      "name": "Pokemon Sun Version",
+      "console": "Nintendo 3DS",
+      "grade": "90",
+      "variant": "Sticker Seal, Walmart Exclusive, 104299A",
+      "grader": "VGA"
+    },
+    {
+      "name": "Pokemon UltraMoon",
+      "console": "Nintendo 3DS",
+      "grade": "95",
+      "variant": "Y-Fold, 106570B",
+      "grader": "VGA"
+    },
+    {
+      "name": "Pokemon UltraSun & UltraMoon",
+      "variant": "Sticker Seal, 2-Pack",
+      "console": "Nintendo 3DS",
+      "grade": "85+",
+      "grader": "VGA"
+    }
+  ],
+  "Nintendo 64": [
+    {
+      "name": "Gauntlet Legends",
+      "console": "Nintendo 64",
+      "variant": "V-Seam, Made in Japan/Printed in USA, T Rating (Pixelated), 78% Fiber, No Figure (USA Code)",
+      "grader": "Wata",
+      "grade": "9.8 A++"
+    },
+    {
+      "name": "Hey You, Pikachu!",
+      "console": "Nintendo 64",
+      "grade": "85+",
+      "variant": "Sticker Seal, Qualified",
+      "grader": "VGA"
+    },
+    {
+      "name": "Pokemon Snap",
+      "console": "Nintendo 64",
+      "variant": "V-Seam, Made in Japan, E Rating (Pixelated), 100% Fiber (USA Code)",
+      "grader": "Wata",
+      "grade": "8.5 A"
+    }
+  ],
+  "Nintendo DS": [
+    {
+      "name": "Kingdom Hearts 358/2 Days",
+      "console": "Nintendo DS",
+      "grade": "95",
+      "variant": "Y-Fold, Limited Edition Cover Art Sleeve, 580100",
+      "grader": "VGA"
+    },
+    {
+      "name": "Pokemon Diamond",
+      "console": "Nintendo DS",
+      "grade": "85",
+      "variant": "Y-Fold",
+      "grader": "VGA"
+    },
+    {
+      "name": "Pokemon HeartGold Version",
+      "console": "Nintendo DS",
+      "grade": "90",
+      "variant": "Canadian Ver. W/ PokeWalker Acc., 70207A",
+      "grader": "VGA"
+    },
+    {
+      "name": "Pokemon Mystery Dungeon: Explorers of Time",
+      "console": "Nintendo DS",
+      "grade": "85+",
+      "variant": "Y-Fold",
+      "grader": "VGA"
+    },
+    {
+      "name": "Pokemon Pearl",
+      "console": "Nintendo DS",
+      "grade": "90",
+      "variant": "Y-Fold",
+      "grader": "VGA"
+    },
+    {
+      "name": "Pokemon Platinum",
+      "console": "Nintendo DS",
+      "grade": "85+",
+      "variant": "Y-Fold",
+      "grader": "VGA"
+    },
+    {
+      "name": "Pokemon SoulSilver",
+      "console": "Nintendo DS",
+      "grade": "85+",
+      "variant": "Sticker Seal, Walmart Limited w/ Figure & Jacket",
+      "grader": "VGA"
+    },
+    {
+      "name": "Pokemon SoulSilver Version",
+      "console": "Nintendo DS",
+      "grade": "90",
+      "variant": "W/ PokeWalker Accessory, 70208A",
+      "grader": "VGA"
+    },
+    {
+      "name": "Rockman.EXE Operate Shooting Star",
+      "console": "Nintendo DS",
+      "variant": "Y-Fold, Assembled in Japan, Japanese Version",
+      "grader": "Wata",
+      "grade": "9.8 A+"
+    },
+    {
+      "name": "The World Ends With You",
+      "console": "Nintendo DS",
+      "grade": "95",
+      "variant": "Y-Fold, 350100",
+      "grader": "VGA"
+    }
+  ],
+  "Nintendo GameCube": [
+    {
+      "name": "Hunter: The Reckoning",
+      "console": "Nintendo GameCube",
+      "variant": "Y-Fold, Made in USA",
+      "grader": "Wata",
+      "grade": "9.4 A"
+    },
+    {
+      "name": "Mega Man Network Transmission",
+      "console": "Nintendo GameCube",
+      "variant": "Y-Fold, Made in USA, 51153A",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "Metroid Prime",
+      "console": "Nintendo GameCube",
+      "variant": "Y-Fold, 49688A",
+      "grader": "Wata",
+      "grade": "9.8 A+"
+    },
+    {
+      "name": "Sonic Adventure 2: Battle",
+      "console": "Nintendo GameCube",
+      "grade": "90",
+      "variant": "Y-Fold, Black Label",
+      "grader": "VGA"
+    },
+    {
+      "name": "Spider-Man 2",
+      "console": "Nintendo GameCube",
+      "grade": "95",
+      "variant": "Y-Fold, Black Label",
+      "grader": "VGA"
+    },
+    {
+      "name": "Super Smash Bros. Melee",
+      "console": "Nintendo GameCube",
+      "grade": "85+",
+      "variant": "Y-Fold, Made in Japan, 2005 Not For Resale on Front",
+      "grader": "VGA"
+    },
+    {
+      "name": "The Legend of Zelda: The Wind Waker",
+      "console": "Nintendo GameCube",
+      "grade": "90",
+      "variant": "Y-Fold, 50516A",
+      "grader": "VGA"
+    },
+    {
+      "name": "Zelda No Densetsu: Kaze No Takuto",
+      "console": "Nintendo GameCube",
+      "grade": "90",
+      "variant": "V-Seam, Japanese Version",
+      "grader": "VGA"
+    }
+  ],
+  "Nintendo Switch": [
+    {
+      "name": "Hyrule Warriors",
+      "console": "Nintendo Switch",
+      "grade": "95",
+      "variant": "Y-Fold, 107775A",
+      "grader": "VGA"
+    },
+    {
+      "name": "Mario Kart 8 Deluxe",
+      "console": "Nintendo Switch",
+      "variant": "Y-Fold, Made in Japan, 105278A",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "Metroid Dread",
+      "console": "Nintendo Switch",
+      "variant": "Y-Fold, Made in USA, 115991A",
+      "grader": "Wata",
+      "grade": "9.8 A+"
+    },
+    {
+      "name": "Metroid Dread",
+      "console": "Nintendo Switch",
+      "grade": "85+",
+      "variant": "Sticker Seal, Special Edition",
+      "grader": "VGA"
+    },
+    {
+      "name": "Metroid Dread",
+      "console": "Nintendo Switch",
+      "grade": "90+",
+      "variant": "Sticker Seal, Special Edition",
+      "grader": "VGA"
+    },
+    {
+      "name": "Nintendo Switch (Animal Crossing Edition)",
+      "console": "Nintendo Switch",
+      "grade": "90",
+      "variant": "No Seal, U.S. Date Format",
+      "grader": "VGA"
+    },
+    {
+      "name": "Pokemon Sword & Shield Double Pack",
+      "console": "Nintendo Switch",
+      "grade": "85+",
+      "variant": "Sticker Seal, 111237A",
+      "grader": "VGA"
+    },
+    {
+      "name": "Pokemon Sword & Shield Double Pack",
+      "console": "Nintendo Switch",
+      "grade": "85",
+      "variant": "Sticker Seal, w/ Steelbook, 111181A",
+      "grader": "VGA"
+    },
+    {
+      "name": "Pokemon: Let's Go, Eevee!",
+      "variant": "Sticker Seal, W/ Pokeball Plus",
+      "grade": "85+",
+      "console": "Nintendo Switch",
+      "grader": "VGA"
+    },
+    {
+      "name": "Pokemon: Let's Go, Pikachu!",
+      "console": "Nintendo Switch",
+      "grade": "90",
+      "variant": "Sticker Seal, W/ Pokeball Plus",
+      "grader": "VGA"
+    },
+    {
+      "name": "Super Mario Odyssey",
+      "console": "Nintendo Switch",
+      "variant": "Y-Fold, Made in Japan, 105882A",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "Super Smash Bros. Ultimate",
+      "console": "Nintendo Switch",
+      "variant": "Y-Fold, Made in Japan, 108491A",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "Switch Lite (Dialga & Palkia Edition)",
+      "console": "Nintendo Switch",
+      "grade": "90",
+      "variant": "No Seal",
+      "grader": "VGA"
+    },
+    {
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "console": "Nintendo Switch",
+      "grade": "85",
+      "variant": "Sticker Seal, Special Edition",
+      "grader": "VGA"
+    }
+  ],
+  "Nintendo Wii U": [
+    {
+      "name": "Bayonetta 2",
+      "console": "Nintendo Wii U",
+      "variant": "Y-Fold, Made in USA, M Rating, w/ Bayonetta Game Disc, 83663A",
+      "grader": "Wata",
+      "grade": "9.6 A++"
+    },
+    {
+      "name": "Hyrule Warriors",
+      "console": "Nintendo Wii U",
+      "grade": "95+",
+      "variant": "Y-Fold, 83662A",
+      "grader": "VGA"
+    },
+    {
+      "name": "Mario Kart 8",
+      "console": "Nintendo Wii U",
+      "grade": "95+",
+      "variant": "Y-Fold, 82909A",
+      "grader": "VGA"
+    },
+    {
+      "name": "Super Smash Bros. For Wii U",
+      "console": "Nintendo Wii U",
+      "grade": "95+",
+      "variant": "Y-Fold, 83664A",
+      "grader": "VGA"
+    },
+    {
+      "name": "Super Smash Bros. For Wii U",
+      "console": "Nintendo Wii U",
+      "grade": "85+",
+      "variant": "Sticker Seal, W/ Controller and Adapter",
+      "grader": "VGA"
+    },
+    {
+      "name": "The Legend of Zelda: Breath of the Wild",
+      "console": "Nintendo Wii U",
+      "variant": "Y-Fold, Made in Japan, E 10+ rating, 7 Controllers",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "The Legend of Zelda: The Wind Waker HD",
+      "console": "Nintendo Wii U",
+      "grade": "85+",
+      "variant": "Y-Fold, Foil Cover, 81115A",
+      "grader": "VGA"
+    }
+  ],
+  "PC": [
+    {
+      "name": "Axiom Verge",
+      "console": "PC",
+      "grade": "85+",
+      "variant": "3-Side Seam, IndieBox Limited Edition",
+      "grader": "VGA"
+    }
+  ],
+  "PlayStation": [
+    {
+      "name": "Mega Man 8 Anniversary Collector's Edition",
+      "console": "PlayStation",
+      "grade": "85",
+      "variant": "Y-Fold, Black Label",
+      "grader": "VGA"
+    }
+  ],
+  "PlayStation 2": [
+    {
+      "name": "Final Fantasy X-2",
+      "variant": "Y-Fold, Black Label, Security Strip w/ Security Tear Strip",
+      "grade": "85+",
+      "console": "PlayStation 2",
+      "grader": "VGA"
+    },
+    {
+      "name": "God of War",
+      "console": "PlayStation 2",
+      "variant": "Y-Fold, Made/Printed in USA, M Rating, No Dolby Pro Logic II",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "Guitar Hero",
+      "console": "PlayStation 2",
+      "variant": "Y-Fold, Part No. 85001 206 US",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "ICO",
+      "console": "PlayStation 2",
+      "variant": "Y-Fold, Black Label, Security Strip w/ Security Tear Strip and Plastic Hangtab",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "Kingdom Hearts",
+      "console": "PlayStation 2",
+      "variant": "Y-Fold, Security Strip, Black Label, Security Strip w/ Security Tear Strip and Plastic Hangtab",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "Kingdom Hearts II",
+      "console": "PlayStation 2",
+      "variant": "Y-Fold, Black Label",
+      "grader": "Wata",
+      "grade": "9.8 A++"
+    },
+    {
+      "variant": "Y-Fold, Black Label",
+      "grade": "85",
+      "console": "PlayStation 2",
+      "name": "Kingdom Hearts II",
+      "grader": "VGA"
+    },
+    {
+      "name": "Persona 4",
+      "console": "PlayStation 2",
+      "grade": "95U",
+      "variant": "Y-Fold, Black Label, Includes Bonus Disc",
+      "grader": "VGA"
+    },
+    {
+      "name": "Shadow of the Colossus",
+      "console": "PlayStation 2",
+      "grade": "85",
+      "variant": "Y-Fold, Black Label",
+      "grader": "VGA"
+    },
+    {
+      "name": "Sly 2: Band of Thieves",
+      "console": "PlayStation 2",
+      "variant": "Y-Fold, Made in USA, Sony security label",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "Star Wars: The Clone Wars",
+      "console": "PlayStation 2",
+      "variant": "Y-Fold, Black Label, Security Strip w/ Security Tear Strip and Plastic Hangtab",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "Tom Clancy's Splinter Cell",
+      "console": "PlayStation 2",
+      "variant": "Y-Fold, Made/Printed in USA, T Rating, Security Strip w/ Security Tear Strip and Plastic Hangtab",
+      "grader": "Wata",
+      "grade": "9.6 A++"
+    }
+  ],
+  "PlayStation 3": [
+    {
+      "name": "Dishonored",
+      "console": "PlayStation 3",
+      "variant": "Y-Fold, Made in USA",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "Dishonored",
+      "console": "PlayStation 3",
+      "variant": "Y-Fold, Made in USA",
+      "grader": "Wata",
+      "grade": "9.8 A+"
+    },
+    {
+      "name": "Journey Collector's Edition",
+      "console": "PlayStation 3",
+      "variant": "Y-Fold, Made in USA, Foster City Address",
+      "grader": "Wata",
+      "grade": "9.4 A"
+    },
+    {
+      "name": "Kingdom Hearts HD 2.5 ReMIX",
+      "console": "PlayStation 3",
+      "grade": "90",
+      "variant": "Sticker Seal, Collector's Edition",
+      "grader": "VGA"
+    },
+    {
+      "name": "Sonic Generations",
+      "console": "PlayStation 3",
+      "variant": "Y-Fold, Made in USA",
+      "grader": "Wata",
+      "grade": "9.8 A"
+    }
+  ],
+  "PlayStation 4": [
+    {
+      "name": "Celeste",
+      "console": "PlayStation 4",
+      "grade": "90",
+      "variant": "3-Side Seam, Collector's Edition",
+      "grader": "VGA"
+    },
+    {
+      "name": "Gravity Rush 2",
+      "console": "PlayStation 4",
+      "variant": "Y-Fold, Made in USA",
+      "grader": "Wata",
+      "grade": "9.6 A+"
+    },
+    {
+      "name": "Gravity Rush Remastered",
+      "console": "PlayStation 4",
+      "variant": "Y-Fold, Made in USA",
+      "grader": "Wata",
+      "grade": "9.8 A+"
+    },
+    {
+      "name": "Kingdom Hearts III",
+      "console": "PlayStation 4",
+      "grade": "90+",
+      "variant": "3-Side Seam, Deluxe Editon",
+      "grader": "VGA"
+    },
+    {
+      "name": "Oxenfree",
+      "console": "PlayStation 4",
+      "grade": "95",
+      "variant": "Y-Fold, MRLR-0037-CVR",
+      "grader": "VGA"
+    },
+    {
+      "name": "Shadow of the Colossus",
+      "console": "PlayStation 4",
+      "grade": "95",
+      "variant": "3-Side Seam, Special Edition",
+      "grader": "VGA"
+    }
+  ],
+  "PlayStation Portable": [
+    {
+      "name": "Kingdom Hearts: Birth By Sleep",
+      "console": "PlayStation Portable",
+      "grade": "90",
+      "variant": "Y-Fold, W/ Walmart/Target Exclusive Sleeve",
+      "grader": "VGA"
+    }
+  ],
+  "SNES": [
+    {
+      "name": "F-Zero",
+      "console": "SNES",
+      "variant": "V-Seam, Made in Japan, E Rating, 83% Fiber, 3 Line Warranty box, Players Choice (1997)",
+      "grader": "Wata",
+      "grade": "9.6 A++"
+    },
+    {
+      "name": "Mega Man X",
+      "console": "SNES",
+      "variant": "H-Overlap Seam, Assembled in Mexico, No Rating, Upside-Down Code (Majesco)",
+      "grader": "Wata",
+      "grade": "9.4 A++"
+    }
+  ],
+  "Xbox": [
+    {
+      "name": "Halo 2",
+      "console": "Xbox",
+      "grade": "90",
+      "variant": "3-Side Seam, Do Not Sell Before",
+      "grader": "VGA"
+    },
+    {
+      "name": "Ninja Gaiden",
+      "console": "Xbox",
+      "variant": "Y-Fold, Black Label, Live Enabled",
+      "grade": "90",
+      "grader": "VGA"
+    }
+  ],
+  "Xbox 360": [
+    {
+      "name": "Dishonored",
+      "console": "Xbox 360",
+      "variant": "2x, Y-Fold, Assembled in USA, Microsoft security label",
+      "grader": "Wata",
+      "grade": "9.4 A+"
+    }
+  ]
+}
