@@ -1,6 +1,48 @@
 {
   "games": [
     {
+      "name": "Super Smash Bros. Ultimate",
+      "console": "Nintendo Switch",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "Y-Fold, Made in Japan, 108491A"
+    },
+    {
+      "name": "Super Mario Odyssey",
+      "console": "Nintendo Switch",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "Y-Fold, Made in Japan, 105882A"
+    },
+    {
+      "name": "Mario Kart 8 Deluxe",
+      "console": "Nintendo Switch",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "Y-Fold, Made in Japan, 105278A"
+    },
+    {
+      "name": "Sonic Generations",
+      "console": "PlayStation 3",
+      "variant": "Y-Fold, Made in USA",
+      "boxGrade": "9.8",
+      "sealGrade": "A"
+    },
+    {
+      "name": "Mega Man Network Transmission",
+      "console": "GameCube",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "Y-Fold, Made in USA, 51153A"
+    },
+    {
+      "name": "Hunter: The Reckoning",
+      "console": "GameCube",
+      "boxGrade": "9.4",
+      "sealGrade": "A",
+      "variant": "Y-Fold, Made in USA"
+    },
+    {
       "name": "Dishonored",
       "console": "Xbox 360",
       "boxGrade": "9.4",
