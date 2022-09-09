@@ -125,3 +125,5 @@ Ultimately, like all things in the world of commerce, your mileage may vary. To 
 I hope this has been a helpful introduction to the concept of modern Nintendo game print variants. There really isn't any magic here; it's all about understanding the data distributors and even Nintendo use to track their products. Huge shoutout to the fine folks at [VideoGameSage](https://videogamesage.com) and in [SACK](https://discord.gg/Jcz7Vt48RQ) (Sealed and Collectibles Knowledge) as well for helping me understand this finicky subject.
 
 Lastly, one more tip: I recommend perusing eBay to compile a list of print codes/variant data. There is a high chance the game you're interested in researching has dozens, if not hundreds of online listings.
+
+(09/09/2022) Correction: changed introduction to note print codes started with GameCube.
