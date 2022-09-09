@@ -3,11 +3,13 @@ title: Decoding Modern Nintendo Print Variants
 description: Gone are the days of memorizing every dot on a box; in are the days
   of standardized print data!
 ---
-With the release of the Nintendo Wii and DS, Nintendo made identifying game prints much easier. While they still use(d) major revision differences in "player's choice," they also introduced two new data points in the form of UPC satellite codes and print (variant) codes. These are typically positioned very close to the game's primary UPC on the back of a case/box.
+With the release of GameCube and DS, Nintendo made identifying game prints much easier. While they still use(d) major revision differences in "player's choice," they also began using new data points in the form of UPC satellite codes and print codes. These are typically positioned very close to the game's primary UPC on the back of a case/box.
 
-Thankfully, these codes have persisted even to the most recent generation of games (Nintendo Switch).
+Thankfully, these codes have persisted even to the most recent generation of games, so they appear here to stay!
 
 In this article, I'll show you how to read this information on your game to identify the exact print run you own, including its region of manufacture and intended locale. It's taken me some time to understand the nuances of how Nintendo annotates their games, and now that I think I have a decent grasp of it, I'm here to share the goodness.
+
+If you see any information that looks inaccurate, feel free to reach out (email at the end of the post).
 
 ## Game Data Breakdown
 
@@ -19,20 +21,20 @@ Let's explain these details a bit:
 
 * **Print (variant) code:** This is a unique identifier for the specific iteration of a game. For first and second party Nintendo games, this is a numerical value (five to six digits) representing the form of the game (e.g., retail standalone, limited edition, etc), followed by a single letter suffix, indicating the production revision. The revision suffix will always be in order, starting at `A` (first print), then to `B`, and so on.
 * **Satellite code**: A simple five-digit code denoting the region of production (third digit) and iteration of the game (0, 1, 2, etc). You'll often see the revision suffix in the print code correlate to this value, but not always.
-* **Model Part # (MPN)**: Similar to the print code, this is a custom code used to track the game on the open market. What's useful for our purposes is that it also denotes the intended region of distribution, e.g., `USA` (USA specific), `USZ` (USA and Canada/Mexico), or `CAN` (Canada).
-* **Region of manufacture**: The physical location the game was manufactured in. For many games, that's Japan. This should match the middle digit of the satellite code, although there are exceptions (we'll cover that in a few moments).
+* **Model Part # (MPN)**: Similar to the print code, this is a custom code used to track the game on the open market. What's useful for our purposes is that it also denotes the intended region of distribution, e.g., `USA` (USA specific), `USZ` (USA and Canada/Mexico), or `CAN` (Canada), to name a few.
+* **Region of manufacture**: The physical location the game was manufactured in. For many games, that's Japan. This should match the middle digit of the satellite code (`0` is USA, `1` is Japan), although there are exceptions (we'll cover that in a few moments). 
 
 ## A Note About "First Prints"
 
-In media, the concept of a "first print" typically refers to the *original* release of an item on its release date.
+In media, the concept of a "first print" typically refers to the *original* release of an item, preorders included.
 
-While it might seem intuitive to say a "lower" print code (excluding the suffix) is the "earliest print" form of a given game, that's sadly not accurate.
+While it might seem intuitive to say a "lower" print code (excluding the suffix) is the "earliest print" form of a given game, that's sadly not always accurate.
 
 The most important factor in the print is noting how the game was distributed and cross referencing that info to any dates on the packaging. For instance, if a game was distributed as part of a bundle at release, its print code won't match its correlating retail release form. As a result, both will have separate print codes and still be considered "first print."
 
-A great example of this is The Legend of Zelda: Breath of the Wild, which had three separate versions during its release in 2017: retail, Special Edition, and Master Edition. All of these are "first print."
+A great example of this is The Legend of Zelda: Breath of the Wild, which had three separate versions during its release in 2017: retail, Special Edition, and Master Edition. All of these are "first print" despite their slight design differences.
 
-At the end of the day, the print code is ultimately *both* a function of identifying a product and in keeping chronological reference between variants. But which came first can't solely be determined by the print code.
+At the end of the day, the print code is ultimately *both* a function of identifying a product and in keeping chronological reference between variants, and with the help of other data on the case, you can usually determine a logical order.
 
 Now, let's get to some examples!
 
@@ -123,3 +125,5 @@ Ultimately, like all things in the world of commerce, your mileage may vary. To 
 I hope this has been a helpful introduction to the concept of modern Nintendo game print variants. There really isn't any magic here; it's all about understanding the data distributors and even Nintendo use to track their products. Huge shoutout to the fine folks at [VideoGameSage](https://videogamesage.com) and in [SACK](https://discord.gg/Jcz7Vt48RQ) (Sealed and Collectibles Knowledge) as well for helping me understand this finicky subject.
 
 Lastly, one more tip: I recommend perusing eBay to compile a list of print codes/variant data. There is a high chance the game you're interested in researching has dozens, if not hundreds of online listings.
+
+(09/09/2022) Correction: changed introduction to note print codes started with GameCube.
