@@ -30,14 +30,14 @@ Here's a high level view of all seal grades:
 
 | Seal Grade | Total | %      |
 | ---------- | ----- | ------ |
-| A++        | 511   | 25.87% |
-| A+         | 1177  | 59.59% |
-| A          | 600   | 30.37% |
-| B+         | 140   | 0.07%  |
-| B          | 39    | 0.01%  |
-| C+         | 14    | 0.007% |
-| C          | 4     | 0.002% |
-| Total      | 1975  | 100%   |
+| A++        | 511   | 20.56% |
+| A+         | 1177  | 47.36% |
+| A          | 600   | 24.14% |
+| B+         | 140   | 5.63%  |
+| B          | 39    | 1.57%  |
+| C+         | 14    | 0.56%  |
+| C          | 4     | 0.16%  |
+| Total      | 2485  | 100%   |
 
 When we break down seal grades for each box grade, the patterns are clearer, but not entirely surprising:
 
