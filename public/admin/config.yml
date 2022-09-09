@@ -6,6 +6,13 @@ public_folder: "/uploads"
 publish_mode: "editorial_workflow"
 
 collections:
+  - name: "games"
+    label: "Games"
+    files:
+      - label: "Graded Games"
+        name: "graded_games"
+        widget: "object"
+        file: "public/games/games.json"
   - name: "graded_games"
     label: "Graded Games"
     files:
