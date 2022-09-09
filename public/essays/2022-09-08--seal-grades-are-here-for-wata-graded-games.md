@@ -49,22 +49,22 @@ When we break down seal grades for each box grade, the patterns are clearer, but
 | 9.2       | 47     | 172    | 74     | 11    | 5     | 0   | 0   |
 | 9.0       | 29     | 130    | 67     | 11    | 2     | 0   | 0   |
 | Total     | 468    | 811    | 258    | 37    | 9     | 0   | 0   |
-| %         | 23.67% | 41.06% | 13.06% | 1.87% | 0.45% | 0%  | 0%  |
+| %         | 18.83% | 32.64% | 10.38% | 1.47% | 0.36% | 0%  | 0%  |
 
-**64% of all 9.0 and higher submissions** received at least an A+ level seal. While this shouldn't entirely surprise you (because 9.0 is the start of the near mint/mint condition levels), that's pretty fantastic for submitters!
+**Over 50% of all 9.0 and higher submissions** received at least an A+ level seal. While this shouldn't entirely surprise you (because 9.0 is the start of the near mint/mint condition levels), that's pretty fantastic!
 
 Here's the top five most submitted games:
 
-| Title                  | Total Submitted | %   |
-| ---------------------- | --------------- | --- |
-| Pokémon Yellow Version | 212             | 11% |
-| Pokémon Red Version    | 165             | 8%  |
-| Pokémon Blue Version   | 164             | 8%  |
-| Donkey Kong Land III   | 115             | 6%  |
-| Super Mario Land       | 99              | 5%  |
-| Total                  | 755/1975        | 38% |
+| Title                  | Total Submitted | %      |
+| ---------------------- | --------------- | ------ |
+| Pokémon Yellow Version | 212             | 8.53%  |
+| Pokémon Red Version    | 165             | 6.64%  |
+| Pokémon Blue Version   | 164             | 6.60%  |
+| Donkey Kong Land III   | 115             | 4.63%  |
+| Super Mario Land       | 99              | 3.98%  |
+| Total                  | 755/2485        | 30.38% |
 
-Taking a broader step back from the top 5 games, we'll see that **only 15 out of 426 games contained in Wata's census were submitted 20 or more times**, accounting for **1078 submissions**. In other words, **54%** of all submissions account for 15 unique titles.
+Taking a broader step back from the top 5 games, we'll see that **only 15 out of 426 games contained in Wata's census were submitted 20 or more times**, accounting for **1078 submissions**. In other words, **over 43%** of all submissions account for 15 unique titles!
 
 Let's just say Pokemon is still the king all these years later.
 
