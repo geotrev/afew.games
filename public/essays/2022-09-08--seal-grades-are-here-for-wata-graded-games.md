@@ -99,14 +99,14 @@ Much like Game Boy, GBC sees a spread with A++ and A+ as focal points:
 
 Here's the top five most submitted games. Once again, Pokemon is king with three out of the five titles:
 
-| Title                                  | Total Submitted | %   |
-| -------------------------------------- | --------------- | --- |
-| Pokémon Gold Version                   | 132             | 9%  |
-| Pokémon Silver Version                 | 123             | 8%  |
-| The Legend of Zelda: Oracle of Ages    | 58              | 4%  |
-| The Legend of Zelda: Oracle of Seasons | 55              | 4%  |
-| Pokémon Trading Card Game              | 47              | 3%  |
-| Total                                  | 415/1510        | 28% |
+| Title                                  | Total Submitted | %      |
+| -------------------------------------- | --------------- | ------ |
+| Pokémon Gold Version                   | 132             | 8.74%  |
+| Pokémon Silver Version                 | 123             | 8.15%  |
+| The Legend of Zelda: Oracle of Ages    | 58              | 3.84%  |
+| The Legend of Zelda: Oracle of Seasons | 55              | 3.64%  |
+| Pokémon Trading Card Game              | 47              | 3.11%  |
+| Total                                  | 415/1510        | 27.48% |
 
 Similar to its big brother, Game Boy Color only sees 16 titles out of its 255 game library with submissions of 20 or more. In total, **these 16 titles were submitted 731 times**, or **49% of all submissions**.
 
@@ -125,7 +125,7 @@ The high level numbers:
 | A          | 432   | 14.34% |
 | B+         | 89    | 2.95%  |
 | B          | 22    | 0.73%  |
-| C+         | 5     | 0.16%  |
+| C+         | 5     | 0.17%  |
 | C          | 1     | 0.03%  |
 | Total      | 3013  | 100%   |
 
@@ -138,8 +138,8 @@ Break down by seal grades in 9.0 or higher:
 | 9.4       | 171    | 338    | 50    | 9     | 2     | 0     | 0   |
 | 9.2       | 79     | 233    | 57    | 4     | 2     | 0     | 0   |
 | 9.0       | 44     | 148    | 43    | 6     | 0     | 1     | 0   |
-| Total     | 781    | 1181   | 176   | 23    | 4     | 1     | 0   |
-| %         | 25.92% | 39.20% | 5.84% | 0.76% | 0.13% | 0.03% | 0%  |
+| Total     | 781    | 1181   | 176   | 23    | 5     | 1     | 0   |
+| %         | 25.92% | 39.20% | 5.84% | 0.76% | 0.17% | 0.03% | 0%  |
 
 And of course, the top five submitted games should surprise no one:
 
