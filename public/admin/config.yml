@@ -11,66 +11,43 @@ collections:
     files:
       - label: "Graded Games"
         name: "graded_games"
-        widget: "object"
-        file: "public/games/games.json"
-  - name: "graded_games"
-    label: "Graded Games"
-    files:
-      - label: "Wata Graded"
-        name: "wata_games"
-        file: "public/games/wata-games.json"
+        file: "public/games/graded-games.json"
         fields:
-          - label: "Games"
-            name: "games"
+          - label: "Platforms"
+            name: "platforms"
             widget: "list"
-            label_singular: "Game"
+            label_singular: "Platform"
             allow_add: true
             add_to_top: true
             collapsed: true
-            summary: "{{fields.name}} ({{fields.console}}) {{fields.boxGrade}} {{fields.sealGrade}}"
+            summary: "{{fields.platform}}"
             fields:
-              - label: "Name"
-                name: "name"
+              - label: "Platform"
+                name: "platform"
                 widget: "string"
-              - label: "Console"
-                name: "console"
-                widget: "string"
-              - label: "Box Grade"
-                name: "boxGrade"
-                widget: "string"
-              - label: "Seal Grade"
-                name: "sealGrade"
-                widget: "string"
-              - label: "Variant"
-                required: false
-                name: "variant"
-                widget: "text"
-      - label: "VGA Graded"
-        name: "vga_games"
-        file: "public/games/vga-games.json"
-        fields:
-          - label: "Games"
-            name: "games"
-            widget: "list"
-            label_singular: "Game"
-            allow_add: true
-            add_to_top: true
-            collapsed: true
-            summary: "{{fields.name}} ({{fields.console}}) {{fields.grade}}"
-            fields:
-              - label: "Name"
-                name: "name"
-                widget: "string"
-              - label: "Console"
-                name: "console"
-                widget: "string"
-              - label: "Grade"
-                name: "grade"
-                widget: "string"
-              - label: "Variant"
-                required: false
-                name: "variant"
-                widget: "text"
+              - label: "Games"
+                name: "games"
+                widget: "list"
+                label_singular: "Game"
+                allow_add: true
+                add_to_top: true
+                collapsed: true
+                summary: "{{fields.name}} - {{fields.grade}}"
+                fields:
+                  - label: "Name"
+                    name: "name"
+                    widget: "string"
+                  - label: "Grade"
+                    name: "grade"
+                    widget: "string"
+                  - label: "Variant"
+                    required: false
+                    name: "variant"
+                    widget: "text"
+                  - label: "Grader"
+                    name: "grader"
+                    widget: "select"
+                    options: ["Wata", "VGA"]
   - name: "essays"
     label: "Essays"
     label_singular: "Essay"
