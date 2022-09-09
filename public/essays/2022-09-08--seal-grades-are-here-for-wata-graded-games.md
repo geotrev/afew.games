@@ -164,4 +164,6 @@ Unfortunately, no single GBA game pulls a triple-digit submission number.
 
 If we're to take these numbers at face value, even considering the variance of seal grade within a single seal grade option, people seem to have generally submitted good condition games more often than not. Which makes sense! After all, the grade is largely what drives a higher price in these markets, and collectors like to have nice examples.
 
-Next we'll look at NES, SNES, and N64. Stay tuned!
+Next we'll look at NES, SNES, and N64. Stay tuned!\
+\
+(09/08/2022) Correction: Official Game Boy population data and resulting percentages have been corrected to show the correct submission count at **2485**.
