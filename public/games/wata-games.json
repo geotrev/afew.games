@@ -1,6 +1,48 @@
 {
   "games": [
     {
+      "name": "Mega Man Battle Network 5: Team Protoman",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.8",
+      "sealGrade": "A+",
+      "variant": "3-Side Seam, Double-Ended Box, Made in Japan, \"Toys R Us\" Sticker"
+    },
+    {
+      "name": "Mega Man Battle Network 5: Team Colonel",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "3-Side Seam, Double-Ended Box, Made in Japan, \"Works With DS\" Sticker"
+    },
+    {
+      "name": "Mega Man Battle Network 4: Red Sun",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "H-Seam, Y-Fold Box, Made in Japan"
+    },
+    {
+      "name": "Mega Man Battle Network 4: Blue Moon",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.4",
+      "sealGrade": "A+",
+      "variant": "H-Seam, Y-Fold Box, Made in Japan"
+    },
+    {
+      "name": "Mega Man Battle Chip Challenge",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.6",
+      "sealGrade": "A+",
+      "variant": "3-Side Seam, Double-Ended Box, Made in Japan"
+    },
+    {
+      "name": "Mega Man Battle Network 3: White Version",
+      "console": "Game Boy Advance",
+      "boxGrade": "9.8",
+      "sealGrade": "A+",
+      "variant": "H-Seam, Y-Fold Box, Made In Japan, White Cover"
+    },
+    {
       "name": "Super Smash Bros. Ultimate",
       "console": "Nintendo Switch",
       "boxGrade": "9.6",
