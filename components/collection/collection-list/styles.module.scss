@@ -29,13 +29,11 @@
   appearance: none;
   background: none;
   border: none;
-  color: vars.$secondary-color-1;
+  color: vars.$primary-color-1;
   cursor: pointer;
-  border-inline-start: 1px solid vars.$secondary-color-2;
-  border-inline-end: 1px solid vars.$secondary-color-2;
 
   &:hover {
-    border-color: vars.$secondary-color-1;
+    background: rgba(vars.$primary-color-2, 0.1);
   }
 }
 
