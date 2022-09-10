@@ -2,15 +2,11 @@ import { useState, useMemo, useEffect } from "react"
 import { debounce } from "lodash-es"
 import Layout from "components/layout"
 import { flattenValues } from "lib/flatten-values"
-import vgaGames from "public/games/vga-games.json"
-import wataGames from "public/games/wata-games.json"
+import gamesData from "public/games/graded-games.json"
 import Types from "prop-types"
 import { CollectionList } from "components/collection/collection-list"
 import { Search } from "components/collection/search"
 import { PageHeading } from "components/global/page-heading"
-
-const WATA_TYPE = "wata"
-const VGA_TYPE = "vga"
 
 export default function Collection({ games, queryData }) {
   const [searchValue, setSearchValue] = useState("")
@@ -25,72 +21,68 @@ export default function Collection({ games, queryData }) {
     setSearchValue(e.target.value)
   }
 
-  function filterGamesBySearchTerm(type) {
-    const graderGames = games[type]
+  function filterGamesBySearchTerm() {
     const query = filterValue.toLowerCase()
-    if (!filterValue) return graderGames
+    if (!filterValue) return games
 
-    const graderQueryData = queryData[type]
+    return queryData.reduce((acc, p, idx) => {
+      const gameList = games[idx].games
+      let picked = []
 
-    return graderQueryData.reduce((acc, queryString, idx) => {
-      const game = graderGames[idx]
+      p.games.forEach((game, gameIdx) => {
+        if (game.includes(query)) {
+          picked.push(gameList[gameIdx])
+        }
+      })
 
-      if (queryString.includes(query)) {
-        return acc.concat(game)
-      }
-
+      acc.push({ platform: p.platform, games: picked })
       return acc
     }, [])
+  }
+
+  const filteredGames = filterGamesBySearchTerm()
+
+  function renderCollectionLists(p) {
+    return (
+      <CollectionList
+        key={p.platform}
+        games={p.games}
+        label={p.platform}
+        id={p.platform}
+      />
+    )
   }
 
   return (
     <Layout>
       <PageHeading heading="Collection" subheading="Just some games." />
       <Search value={searchValue} handleChange={handleChange} />
-      <CollectionList
-        games={filterGamesBySearchTerm(VGA_TYPE)}
-        label="VGA Graded"
-        id="VGA_List"
-      />
-      <CollectionList
-        games={filterGamesBySearchTerm(WATA_TYPE)}
-        label="Wata Graded"
-        id="Wata_List"
-      />
+      {filteredGames.map(renderCollectionLists)}
     </Layout>
   )
 }
 
 Collection.propTypes = {
-  games: Types.shape({
-    wata: Types.arrayOf(Types.object).isRequired,
-    vga: Types.arrayOf(Types.object).isRequired,
-  }).isRequired,
-  queryData: Types.shape({
-    wata: Types.arrayOf(Types.string).isRequired,
-    vga: Types.arrayOf(Types.string).isRequired,
-  }),
+  games: Types.arrayOf(Types.object).isRequired,
+  queryData: Types.arrayOf(Types.object).isRequired,
 }
 
 export function getStaticProps() {
-  const wata = wataGames.games.sort((a, b) => {
-    return a.name > b.name ? 1 : -1
+  const games = gamesData.platforms.map((p) => {
+    return {
+      platform: p.platform,
+      games: p.games.sort((a, b) => {
+        return a.name > b.name ? 1 : -1
+      }),
+    }
   })
 
-  const vga = vgaGames.games.sort((a, b) => {
-    return a.name > b.name ? 1 : -1
+  const queryData = gamesData.platforms.map((p) => {
+    return {
+      platform: p.platform,
+      games: flattenValues(p.games),
+    }
   })
 
-  return {
-    props: {
-      games: {
-        vga,
-        wata,
-      },
-      queryData: {
-        vga: flattenValues(vga),
-        wata: flattenValues(wata),
-      },
-    },
-  }
+  return { props: { games, queryData } }
 }

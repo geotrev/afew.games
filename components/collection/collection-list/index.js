@@ -22,7 +22,7 @@ export function CollectionList({ games, label, id }) {
 
   function renderListInfoBar() {
     return (
-      <>
+      <div className={styles.collectionListInfo}>
         <p>
           {length} {length === 1 ? "game" : "games"}{" "}
           {opened ? "shown" : "hidden"}
@@ -34,7 +34,7 @@ export function CollectionList({ games, label, id }) {
         >
           {renderMinimizeText()}
         </button>
-      </>
+      </div>
     )
   }
 
@@ -56,17 +56,15 @@ export function CollectionList({ games, label, id }) {
     )
   }
 
+  if (!games.length) {
+    return null
+  }
+
   return (
     <>
       <h2 id={id}>{label}</h2>
-      <div className={styles.collectionListInfo}>
-        {games.length > 0 && renderListInfoBar()}
-      </div>
-      {length > 0 ? (
-        renderList()
-      ) : (
-        <p className={styles.collectionList}>Sorry, no matches found.</p>
-      )}
+      {renderListInfoBar()}
+      {renderList()}
     </>
   )
 }
