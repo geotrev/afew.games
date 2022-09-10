@@ -1,8 +1,8 @@
 import { Helmet } from "react-helmet"
 import Types from "prop-types"
 import { getMatchingEssay } from "lib/get-matching-essay"
-import Layout from "components/layout"
-import { EssayContent } from "components/essays/essay-content"
+import { Layout } from "components/global"
+import { EssayContent } from "components/essays"
 
 export default function Essay(props) {
   const { title, description } = props

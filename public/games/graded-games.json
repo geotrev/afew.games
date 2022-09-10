@@ -172,7 +172,7 @@
       ]
     },
     {
-      "platform": "Nintendo 3DS",
+      "platform": "3DS",
       "games": [
         {
           "name": "Pokemon UltraSun & UltraMoon",
@@ -207,7 +207,7 @@
       ]
     },
     {
-      "platform": "Nintendo 64",
+      "platform": "N64",
       "games": [
         {
           "name": "Hey You, Pikachu!",
@@ -230,7 +230,7 @@
       ]
     },
     {
-      "platform": "Nintendo DS",
+      "platform": "DS",
       "games": [
         {
           "name": "Pokemon SoulSilver",
@@ -295,7 +295,7 @@
       ]
     },
     {
-      "platform": "Nintendo GameCube",
+      "platform": "GameCube",
       "games": [
         {
           "name": "Zelda No Densetsu: Kaze No Takuto",
@@ -348,7 +348,7 @@
       ]
     },
     {
-      "platform": "Nintendo Switch",
+      "platform": "Switch",
       "games": [
         {
           "name": "Switch Lite (Dialga & Palkia Edition)",
@@ -437,7 +437,7 @@
       ]
     },
     {
-      "platform": "Nintendo Wii U",
+      "platform": "Wii U",
       "games": [
         {
           "name": "Super Smash Bros. For Wii U",

@@ -1,12 +1,8 @@
 import { useEffect, useRef } from "react"
 import { debounce } from "lodash-es"
 import { useFetchEssays } from "hooks/use-fetch-essays"
-import Layout from "components/layout"
-import Pagination from "components/global/pagination"
-import { PageHeading } from "components/global/page-heading"
-import { EssayListLoader } from "components/essays/essay-list-loader"
-import { EssayListError } from "components/essays/essay-list-error"
-import { EssayList } from "components/essays/essay-list"
+import { PageHeading, Layout, Pagination } from "components/global"
+import { EssayListLoader, EssayListError, EssayList } from "components/essays"
 
 let initialLoad = true
 const toggleInitialLoad = debounce(() => (initialLoad = false), 50)

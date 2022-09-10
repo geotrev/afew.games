@@ -1,17 +1,23 @@
 import { useState, useMemo, useEffect } from "react"
 import { debounce } from "lodash-es"
-import Layout from "components/layout"
-import { flattenValues } from "lib/flatten-values"
-import gamesData from "public/games/graded-games.json"
 import Types from "prop-types"
-import { CollectionList } from "components/collection/collection-list"
-import { Search } from "components/collection/search"
-import { PageHeading } from "components/global/page-heading"
+import gamesData from "public/games/graded-games.json"
+import { flattenValues } from "lib/flatten-values"
+import { PageHeading, Layout } from "components/global"
+import {
+  CollectionList,
+  CollectionPlatformPills,
+  Search,
+} from "components/collection"
 
 export default function Collection({ games, queryData }) {
   const [searchValue, setSearchValue] = useState("")
   const [filterValue, setFilterValue] = useState("")
+  const [filterPlatforms, setFilterPlatforms] = useState(
+    games.map((p) => ({ value: p.platform, selected: true }))
+  )
   const debouncedFilterValue = useMemo(() => debounce(setFilterValue, 200), [])
+  const allSelected = filterPlatforms.every((p) => p.selected)
 
   useEffect(() => {
     debouncedFilterValue(searchValue)
@@ -21,28 +27,53 @@ export default function Collection({ games, queryData }) {
     setSearchValue(e.target.value)
   }
 
-  function filterGamesBySearchTerm() {
+  function handlePillSelect(e) {
+    const platform = e.target.dataset.platform
+    setFilterPlatforms(
+      filterPlatforms.map((p) =>
+        p.value === platform
+          ? { ...p, selected: allSelected ? true : !p.selected }
+          : allSelected
+          ? { ...p, selected: false }
+          : p
+      )
+    )
+  }
+
+  function handlePillReset() {
+    const filteredPlatforms = filterPlatforms.map((p) => ({
+      ...p,
+      selected: true,
+    }))
+    setFilterPlatforms(filteredPlatforms)
+  }
+
+  // Reduce the games in the list based on:
+  // 1. Search query
+  // 2. Selected platforms
+  function filterGames() {
     const query = filterValue.toLowerCase()
-    if (!filterValue) return games
+    if (!filterValue && allSelected) return games
 
     return queryData.reduce((acc, p, idx) => {
       const gameList = games[idx].games
-      let picked = []
+      const filteredEntry = { ...games[idx], games: [] }
 
+      filteredEntry.selected = filterPlatforms[idx].selected
       p.games.forEach((game, gameIdx) => {
         if (game.includes(query)) {
-          picked.push(gameList[gameIdx])
+          filteredEntry.games.push(gameList[gameIdx])
         }
       })
 
-      acc.push({ platform: p.platform, games: picked })
+      acc.push(filteredEntry)
       return acc
     }, [])
   }
 
-  const filteredGames = filterGamesBySearchTerm()
-
   function renderCollectionLists(p) {
+    if (!p.selected) return
+
     return (
       <CollectionList
         key={p.platform}
@@ -53,10 +84,22 @@ export default function Collection({ games, queryData }) {
     )
   }
 
+  function renderPlatformPills() {
+    return (
+      <CollectionPlatformPills
+        items={filterPlatforms}
+        handleSelect={handlePillSelect}
+        handleReset={handlePillReset}
+      />
+    )
+  }
+
+  const filteredGames = filterGames()
   return (
     <Layout>
       <PageHeading heading="Collection" subheading="Just some games." />
       <Search value={searchValue} handleChange={handleChange} />
+      {renderPlatformPills()}
       {filteredGames.map(renderCollectionLists)}
     </Layout>
   )
@@ -71,6 +114,7 @@ export function getStaticProps() {
   const games = gamesData.platforms.map((p) => {
     return {
       platform: p.platform,
+      selected: true,
       games: p.games.sort((a, b) => {
         return a.name > b.name ? 1 : -1
       }),

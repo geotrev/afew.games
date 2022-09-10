@@ -3,7 +3,7 @@ import { useEffect } from "react"
 import Script from "next/script"
 import { useRouter } from "next/router"
 import { pageView } from "lib/analytics"
-import SiteHeader from "components/global/site-header"
+import { SiteHeader } from "components/global"
 import "styles/global.scss"
 
 const BASE_TITLE = "a few games"

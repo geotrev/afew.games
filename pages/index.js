@@ -1,5 +1,4 @@
-import Layout from "components/layout"
-import { PageHeading } from "components/global/page-heading"
+import { PageHeading, Layout } from "components/global"
 
 export default function Home() {
   return (
