@@ -31,11 +31,7 @@ export default function Collection({ games, queryData }) {
     const platform = e.target.dataset.platform
     setFilterPlatforms(
       filterPlatforms.map((p) =>
-        p.value === platform
-          ? { ...p, selected: allSelected ? true : !p.selected }
-          : allSelected
-          ? { ...p, selected: false }
-          : p
+        p.value === platform ? { ...p, selected: !p.selected } : p
       )
     )
   }
@@ -43,9 +39,18 @@ export default function Collection({ games, queryData }) {
   function handlePillReset() {
     const filteredPlatforms = filterPlatforms.map((p) => ({
       ...p,
-      selected: true,
+      selected: false,
     }))
     setFilterPlatforms(filteredPlatforms)
+  }
+
+  function handlePillSelectAll() {
+    setFilterPlatforms(
+      filterPlatforms.map((p) => ({
+        ...p,
+        selected: true,
+      }))
+    )
   }
 
   // Reduce the games in the list based on:
@@ -90,6 +95,7 @@ export default function Collection({ games, queryData }) {
         items={filterPlatforms}
         handleSelect={handlePillSelect}
         handleReset={handlePillReset}
+        handleSelectAll={handlePillSelectAll}
       />
     )
   }

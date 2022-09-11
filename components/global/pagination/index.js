@@ -98,7 +98,6 @@ export function Pagination({
             aria-current={isActive ? "true" : null}
             aria-label={isActive ? `${label}, current page` : `Goto ${label}`}
             type="button"
-            aria-disabled={idx === activePageIndex ? "true" : null}
             onClick={onPageClick}
           >
             {idx + 1}
@@ -123,7 +122,7 @@ export function Pagination({
           <li>
             <button
               onKeyDown={(e) => e.stopPropagation()}
-              className={cn(styles.paginationButton, styles.paginateSkipbutton)}
+              className={styles.paginationButton}
               type="button"
               aria-disabled={activePageIndex === 0 ? "true" : null}
               onClick={onFirstPageClick}
@@ -134,7 +133,7 @@ export function Pagination({
           <li>
             <button
               onKeyDown={(e) => e.stopPropagation()}
-              className={cn(styles.paginationButton, styles.paginateSkipbutton)}
+              className={styles.paginationButton}
               type="button"
               aria-disabled={activePageIndex === 0 ? "true" : null}
               onClick={onPreviousClick}
@@ -146,7 +145,7 @@ export function Pagination({
           <li>
             <button
               onKeyDown={(e) => e.stopPropagation()}
-              className={cn(styles.paginationButton, styles.paginateSkipbutton)}
+              className={styles.paginationButton}
               type="button"
               aria-disabled={lastPageIdx === activePageIndex ? "true" : null}
               onClick={onNextClick}
@@ -157,7 +156,7 @@ export function Pagination({
           <li>
             <button
               onKeyDown={(e) => e.stopPropagation()}
-              className={cn(styles.paginationButton, styles.paginateSkipbutton)}
+              className={styles.paginationButton}
               type="button"
               aria-disabled={activePageIndex === count - 1 ? "true" : null}
               onClick={onLastPageClick}

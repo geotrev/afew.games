@@ -18,33 +18,31 @@
   background: transparent;
   border: none;
   padding: 0.5rem;
-
-  &.isActive {
-    background: white;
-    color: #222;
-  }
-
-  &:hover:not([aria-disabled]) {
-    background: rgba(vars.$primary-color-2, 0.1);
-  }
-
-  &:not([aria-disabled]) {
-    cursor: pointer;
-  }
-
-  &[aria-disabled]:not(.isActive) {
-    color: vars.$tertiary-color-2;
-  }
-}
-
-.paginateSkipbutton {
-  background: rgba(vars.$primary-color-2, 0.1);
-
-  &:hover:not([aria-disabled]) {
-    background: vars.$primary-color-2;
-  }
+  cursor: pointer;
 
   &[aria-disabled] {
-    background: transparent;
+    cursor: not-allowed;
+    color: vars.$tertiary-color-2;
+  }
+
+  &:hover:not([aria-disabled]) {
+    background: rgba(vars.$primary-color-2, 0.25);
+  }
+
+  &:active:not([aria-disabled]) {
+    background: rgba(vars.$primary-color-2, 0.15);
+  }
+
+  &.isActive {
+    color: vars.$text-color;
+    background: vars.$primary-color-2;
+
+    &:hover {
+      background: rgba(vars.$primary-color-1, 0.4);
+    }
+
+    &:active {
+      background: rgba(vars.$primary-color-1, 0.3);
+    }
   }
 }

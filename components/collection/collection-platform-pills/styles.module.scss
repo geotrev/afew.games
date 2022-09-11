@@ -15,6 +15,11 @@
   display: inline-block;
 }
 
+.pillOptions {
+  display: flex;
+  gap: 0.75rem;
+}
+
 .pillBtn {
   min-height: 2.15rem;
   height: 100%;
@@ -22,7 +27,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  display: block;
+  display: inline-block;
   appearance: none;
   border-radius: 2px;
   background: transparent;
