@@ -65,6 +65,7 @@ export function CollectionPlatformPills({
           onClick={handleReset}
           aria-disabled={noneSelected ? "true" : null}
           bare
+          size="sm"
         >
           <span aria-hidden="true">𐌗&nbsp;&nbsp;</span>Clear Filter
         </Button>
@@ -72,6 +73,7 @@ export function CollectionPlatformPills({
           onClick={handleSelectAll}
           aria-disabled={allSelected ? "true" : null}
           bare
+          size="sm"
         >
           <span aria-hidden="true">✓&nbsp;&nbsp;</span>Select All
         </Button>

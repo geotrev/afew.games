@@ -1,18 +1,18 @@
 @use "../../../styles/vars" as vars;
 
 .button {
-  min-height: 2.15rem;
   height: 100%;
   min-width: 2.15rem;
   display: flex;
   align-items: center;
   justify-content: center;
   display: block;
+  font-family: vars.$font-family;
   appearance: none;
   background: transparent;
   border: none;
-  padding: 0.5rem;
   cursor: pointer;
+  line-height: 1;
 
   &:not(.bare) {
     border: 2px solid vars.$primary-color-2;
@@ -62,6 +62,16 @@
     &:active:not([aria-disabled]) {
       background: rgba(vars.$primary-color-1, 0.1);
     }
+  }
+
+  &.md {
+    font-size: 16px;
+    padding: 0.5rem;
+  }
+
+  &.sm {
+    font-size: 14px;
+    padding: 0.25rem 0.5rem;
   }
 
   &.squircle {

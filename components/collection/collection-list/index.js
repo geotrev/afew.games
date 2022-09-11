@@ -30,6 +30,7 @@ export function CollectionList({ games, label, id }) {
         </p>
         <Button
           bare
+          size="sm"
           onClick={() => setOpened(!opened)}
           aria-describedby={`header-${id}`}
         >

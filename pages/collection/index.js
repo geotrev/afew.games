@@ -68,11 +68,14 @@ export default function Collection({ games, queryData }) {
       const filteredEntry = { ...games[idx], games: [] }
 
       filteredEntry.selected = filterPlatforms[idx].selected
-      p.games.forEach((game, gameIdx) => {
-        if (game.includes(query)) {
-          filteredEntry.games.push(gameList[gameIdx])
-        }
-      })
+
+      if (query) {
+        p.games.forEach((game, gameIdx) => {
+          if (game.includes(query)) {
+            filteredEntry.games.push(gameList[gameIdx])
+          }
+        })
+      }
 
       acc.push(filteredEntry)
       return acc
