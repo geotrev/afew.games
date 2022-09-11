@@ -76,7 +76,7 @@ export default function Collection({ games, queryData }) {
           }
         })
       } else {
-        filteredEntry.games.push(...p.games)
+        filteredEntry.games.push(...gameList)
       }
 
       acc.push(filteredEntry)
