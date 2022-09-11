@@ -11,7 +11,7 @@ export function CollectionPlatformPills({ items, handleSelect, handleReset }) {
               <button
                 type="button"
                 className={cn(styles.pillBtn, {
-                  [styles.isActive]: platform.selected,
+                  [styles.selected]: platform.selected,
                 })}
                 data-platform={platform.value}
                 onClick={handleSelect}
@@ -23,12 +23,8 @@ export function CollectionPlatformPills({ items, handleSelect, handleReset }) {
         })}
       </ul>
       <div>
-        <button
-          type="button"
-          className={styles.pillResetBtn}
-          onClick={handleReset}
-        >
-          𐌗&nbsp;&nbsp;Clear Filter
+        <button type="button" className={styles.pillBtn} onClick={handleReset}>
+          <span aria-hidden="true">𐌗&nbsp;&nbsp;</span>Clear Filter
         </button>
       </div>
     </div>
