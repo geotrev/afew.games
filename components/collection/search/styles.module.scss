@@ -27,4 +27,9 @@
   &:hover {
     border-color: vars.$secondary-color-1;
   }
+
+  &::-webkit-search-cancel-button {
+    cursor: pointer;
+    margin-left: 1rem;
+  }
 }

@@ -9,7 +9,7 @@ export function Search({ value, handleChange }) {
       <input
         className={styles.searchInput}
         name="search"
-        type="text"
+        type="search"
         placeholder="E.g., Mega Man"
         id="search"
         onChange={handleChange}

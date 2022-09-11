@@ -75,16 +75,11 @@ export function Pagination({
   }
 
   function handleKeydown(e) {
+    const parentNode = e.target.parentNode
     if (e.key === "ArrowLeft" && rovingIndex > visibleIndexRange[0]) {
-      setRovingTarget(
-        e.target.parentNode.previousElementSibling.firstElementChild,
-        -1
-      )
+      setRovingTarget(parentNode.previousElementSibling.firstElementChild, -1)
     } else if (e.key === "ArrowRight" && rovingIndex < lastVisibleIndex) {
-      setRovingTarget(
-        e.target.parentNode.nextElementSibling.firstElementChild,
-        1
-      )
+      setRovingTarget(parentNode.nextElementSibling.firstElementChild, 1)
     }
   }
 

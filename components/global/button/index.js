@@ -2,17 +2,17 @@ import PropTypes from "prop-types"
 import cn from "classnames"
 import styles from "./styles.module.scss"
 
-export function Button(props) {
+export function Button({ type, bare, selected, children, ...props }) {
   return (
     <button
       className={cn(styles.button, {
-        [styles.bare]: props.bare,
-        [styles.selected]: props.selected,
+        [styles.bare]: bare,
+        [styles.selected]: selected,
       })}
-      type={props.type}
+      type={type}
       {...props}
     >
-      {props.children}
+      {children}
     </button>
   )
 }
