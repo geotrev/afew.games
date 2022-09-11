@@ -2,7 +2,7 @@ import { useState, useMemo, useEffect } from "react"
 import { debounce } from "lodash-es"
 import Types from "prop-types"
 import gamesData from "public/games/graded-games.json"
-import { flattenValues } from "lib/flatten-values"
+import { flattenObjectValues, sortByKey } from "lib/helpers"
 import { PageHeading, Layout } from "components/global"
 import {
   CollectionList,
@@ -125,20 +125,18 @@ Collection.propTypes = {
 }
 
 export function getStaticProps() {
-  const games = gamesData.platforms.map((p) => {
+  const games = gamesData.platforms.sort(sortByKey("platform")).map((p) => {
     return {
       platform: p.platform,
       selected: true,
-      games: p.games.sort((a, b) => {
-        return a.name > b.name ? 1 : -1
-      }),
+      games: p.games.sort(sortByKey("name")),
     }
   })
 
-  const queryData = gamesData.platforms.map((p) => {
+  const queryData = games.map((p) => {
     return {
       platform: p.platform,
-      games: flattenValues(p.games),
+      games: flattenObjectValues(p.games),
     }
   })
 

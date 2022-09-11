@@ -1,4 +1,5 @@
-import { useState } from "react"
+import { useState, useCallback } from "react"
+import PropTypes from "prop-types"
 import { Button } from "components/global"
 import styles from "./styles.module.scss"
 
@@ -12,27 +13,46 @@ export function CollectionPlatformPills({
   const allSelected = items.every((item) => item.selected)
   const noneSelected = items.every((item) => !item.selected)
 
-  function setRovingTarget(target, delta) {
-    if (!target) return
-    target.focus()
-    setRovingIndex(rovingIndex + delta)
-  }
+  const handleKeydown = useCallback(
+    (e) => {
+      const parentNode = e.target.parentNode
+      let target, targetIndex
 
-  function handleKeydown(e) {
-    const parentNode = e.target.parentNode
-    if (e.key === "ArrowLeft") {
-      setRovingTarget(e.target.previousElementSibling, -1)
-    } else if (e.key === "ArrowRight") {
-      setRovingTarget(e.target.nextElementSibling, 1)
-    } else if (e.key === "Home") {
-      setRovingTarget(parentNode.childNodes[0]?.firstElementChild, -rovingIndex)
-    } else if (e.key === "End") {
-      const lastIdx = items.length - 1
-      setRovingTarget(
-        parentNode.childNodes[lastIdx]?.firstElementChild,
-        lastIdx - rovingIndex
-      )
-    }
+      if (e.key === "ArrowLeft") {
+        target = e.target.previousElementSibling
+        targetIndex = rovingIndex - 1
+      } else if (e.key === "ArrowRight") {
+        target = e.target.nextElementSibling
+        targetIndex = rovingIndex + 1
+      } else if (e.key === "Home") {
+        target = parentNode.childNodes[0]
+        targetIndex = 0
+      } else if (e.key === "End") {
+        const lastIdx = items.length - 1
+        target = parentNode.childNodes[lastIdx]
+        targetIndex = lastIdx
+      } else if (/[0-9A-Za-z]/.test(e.key)) {
+        const key = e.key
+        targetIndex = items.findIndex((item) =>
+          item.value.toLowerCase().startsWith(key)
+        )
+        target = parentNode.childNodes[targetIndex]
+      }
+
+      if (target && targetIndex > -1) {
+        target.focus()
+        setRovingIndex(targetIndex)
+      }
+    },
+    [items, rovingIndex]
+  )
+
+  function handlePillClick(e) {
+    const index = items.findIndex(
+      (item) => item.value === e.target.dataset.platform
+    )
+    setRovingIndex(index)
+    handleSelect(e)
   }
 
   return (
@@ -47,7 +67,7 @@ export function CollectionPlatformPills({
                   selected={platform.selected}
                   cornerType="round"
                   data-platform={platform.value}
-                  onClick={handleSelect}
+                  onClick={handlePillClick}
                   onKeyDown={handleKeydown}
                   aria-selected={String(platform.selected)}
                   tabIndex={rovingIndex === idx ? "0" : "-1"}
@@ -80,4 +100,16 @@ export function CollectionPlatformPills({
       </div>
     </div>
   )
+}
+
+CollectionPlatformPills.propTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      value: PropTypes.string,
+      selected: PropTypes.bool,
+    })
+  ).isRequired,
+  handleSelect: PropTypes.func,
+  handleReset: PropTypes.func,
+  handleSelectAll: PropTypes.func,
 }
