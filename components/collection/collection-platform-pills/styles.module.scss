@@ -4,55 +4,14 @@
   margin-block-end: 3rem;
 }
 
-.pillList {
+.collectionPillsList {
   display: flex;
   flex-flow: row wrap;
   gap: 0.75rem;
   margin-block-end: 1rem;
 }
 
-.pillItem {
-  display: inline-block;
-}
-
-.pillOptions {
+.collectionPillsOptions {
   display: flex;
   gap: 0.75rem;
-}
-
-.pillBtn {
-  min-height: 2.15rem;
-  height: 100%;
-  min-width: 2.15rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  display: inline-block;
-  appearance: none;
-  border-radius: 2px;
-  background: transparent;
-  border: none;
-  padding: 0.5rem;
-  cursor: pointer;
-
-  &:hover {
-    background: rgba(vars.$primary-color-2, 0.25);
-  }
-
-  &:active {
-    background: rgba(vars.$primary-color-2, 0.15);
-  }
-
-  &.selected {
-    color: vars.$text-color;
-    background: vars.$primary-color-2;
-
-    &:hover {
-      background: rgba(vars.$primary-color-1, 0.4);
-    }
-
-    &:active {
-      background: rgba(vars.$primary-color-1, 0.3);
-    }
-  }
 }

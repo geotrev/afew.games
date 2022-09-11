@@ -21,18 +21,15 @@ export function CollectionPlatformPills({
   function handleKeydown(e) {
     const parentNode = e.target.parentNode
     if (e.key === "ArrowLeft") {
-      setRovingTarget(parentNode.previousElementSibling?.firstElementChild, -1)
+      setRovingTarget(e.target.previousElementSibling, -1)
     } else if (e.key === "ArrowRight") {
-      setRovingTarget(parentNode.nextElementSibling?.firstElementChild, 1)
+      setRovingTarget(e.target.nextElementSibling, 1)
     } else if (e.key === "Home") {
-      setRovingTarget(
-        parentNode.parentNode.childNodes[0]?.firstElementChild,
-        -rovingIndex
-      )
+      setRovingTarget(parentNode.childNodes[0]?.firstElementChild, -rovingIndex)
     } else if (e.key === "End") {
       const lastIdx = items.length - 1
       setRovingTarget(
-        parentNode.parentNode.childNodes[lastIdx]?.firstElementChild,
+        parentNode.childNodes[lastIdx]?.firstElementChild,
         lastIdx - rovingIndex
       )
     }
@@ -42,29 +39,28 @@ export function CollectionPlatformPills({
     <div className={styles.collectionPills}>
       <div aria-label="Select an item to filter games by platform" role="grid">
         <div role="rowgroup">
-          <ul className={styles.pillList} role="row">
+          <div className={styles.collectionPillsList} role="row">
             {items.map((platform, idx) => {
               return (
-                <li key={platform.value} className={styles.pillItem}>
-                  <Button
-                    selected={platform.selected}
-                    cornerType="round"
-                    data-platform={platform.value}
-                    onClick={handleSelect}
-                    onKeyDown={handleKeydown}
-                    aria-selected={String(platform.selected)}
-                    tabIndex={rovingIndex === idx ? "0" : "-1"}
-                    role="gridcell"
-                  >
-                    {platform.value}
-                  </Button>
-                </li>
+                <Button
+                  key={platform.value}
+                  selected={platform.selected}
+                  cornerType="round"
+                  data-platform={platform.value}
+                  onClick={handleSelect}
+                  onKeyDown={handleKeydown}
+                  aria-selected={String(platform.selected)}
+                  tabIndex={rovingIndex === idx ? "0" : "-1"}
+                  role="gridcell"
+                >
+                  {platform.value}
+                </Button>
               )
             })}
-          </ul>
+          </div>
         </div>
       </div>
-      <div className={styles.pillOptions}>
+      <div className={styles.collectionPillsOptions}>
         <Button
           onClick={handleReset}
           aria-disabled={noneSelected ? "true" : null}

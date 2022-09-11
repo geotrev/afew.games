@@ -12,6 +12,9 @@ const Routes = {
 
 export function SiteHeader() {
   const { asPath } = useRouter()
+  const isEssaysPath = asPath.startsWith(Routes.ESSAYS_PATH)
+  const isCollectionsPath = asPath.startsWith(Routes.COLLECTION_PATH)
+  const isHomePath = asPath === Routes.HOME_PATH
 
   return (
     <header className={styles.pageHeader}>
@@ -26,8 +29,9 @@ export function SiteHeader() {
             <Link passHref href={Routes.HOME_PATH}>
               <a
                 className={cn(styles.navListItemLink, {
-                  [styles.isActive]: asPath === Routes.HOME_PATH,
+                  [styles.isActive]: isHomePath,
                 })}
+                aria-current={isHomePath ? "true" : null}
               >
                 Home
               </a>
@@ -37,8 +41,9 @@ export function SiteHeader() {
             <Link passHref href={Routes.ESSAYS_PATH}>
               <a
                 className={cn(styles.navListItemLink, {
-                  [styles.isActive]: asPath.startsWith(Routes.ESSAYS_PATH),
+                  [styles.isActive]: isEssaysPath,
                 })}
+                aria-current={isEssaysPath ? "true" : null}
               >
                 Essays
               </a>
@@ -48,8 +53,9 @@ export function SiteHeader() {
             <Link passHref href={Routes.COLLECTION_PATH}>
               <a
                 className={cn(styles.navListItemLink, {
-                  [styles.isActive]: asPath.startsWith(Routes.COLLECTION_PATH),
+                  [styles.isActive]: isCollectionsPath,
                 })}
+                aria-current={isCollectionsPath ? "true" : null}
               >
                 Collection
               </a>
