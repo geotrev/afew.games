@@ -1,0 +1,67 @@
+@use "../../../styles/vars" as vars;
+
+.button {
+  min-height: 2.15rem;
+  height: 100%;
+  min-width: 2.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  appearance: none;
+  border-radius: 4px;
+  background: transparent;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+
+  &:not(.bare) {
+    border: 2px solid vars.$primary-color-2;
+
+    &[aria-disabled] {
+      cursor: not-allowed;
+      color: vars.$tertiary-color-2;
+      border-color: rgba(vars.$primary-color-1, 0.35);
+    }
+
+    &:hover:not([aria-disabled]) {
+      background: rgba(vars.$primary-color-2, 0.25);
+    }
+
+    &:active:not([aria-disabled]) {
+      background: rgba(vars.$primary-color-2, 0.15);
+    }
+
+    &.selected {
+      color: vars.$text-color;
+      background: vars.$primary-color-2;
+      border-color: transparent;
+
+      &:hover {
+        background: rgba(vars.$primary-color-1, 0.8);
+      }
+
+      &:active {
+        background: rgba(vars.$primary-color-1, 0.6);
+      }
+    }
+  }
+
+  &.bare {
+    background: rgba(vars.$primary-color-1, 0.15);
+
+    &[aria-disabled] {
+      cursor: not-allowed;
+      color: vars.$tertiary-color-2;
+      background: none;
+    }
+
+    &:hover:not([aria-disabled]) {
+      background: rgba(vars.$primary-color-1, 0.2);
+    }
+
+    &:active:not([aria-disabled]) {
+      background: rgba(vars.$primary-color-1, 0.1);
+    }
+  }
+}

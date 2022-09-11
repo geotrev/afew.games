@@ -1,4 +1,4 @@
-import cn from "classnames"
+import { Button } from "components/global"
 import styles from "./styles.module.scss"
 
 export function CollectionPlatformPills({
@@ -7,37 +7,40 @@ export function CollectionPlatformPills({
   handleReset,
   handleSelectAll,
 }) {
+  const allSelected = items.every((item) => item.selected)
+  const noneSelected = items.every((item) => !item.selected)
   return (
     <div className={styles.collectionPills}>
       <ul className={styles.pillList}>
         {items.map((platform) => {
           return (
             <li key={platform.value} className={styles.pillItem}>
-              <button
-                type="button"
-                className={cn(styles.pillBtn, {
-                  [styles.selected]: platform.selected,
-                })}
+              <Button
+                selected={platform.selected}
                 data-platform={platform.value}
                 onClick={handleSelect}
               >
                 {platform.value}
-              </button>
+              </Button>
             </li>
           )
         })}
       </ul>
       <div className={styles.pillOptions}>
-        <button type="button" className={styles.pillBtn} onClick={handleReset}>
+        <Button
+          onClick={handleReset}
+          aria-disabled={noneSelected ? "true" : null}
+          bare
+        >
           <span aria-hidden="true">𐌗&nbsp;&nbsp;</span>Clear Filter
-        </button>
-        <button
-          type="button"
-          className={styles.pillBtn}
+        </Button>
+        <Button
           onClick={handleSelectAll}
+          aria-disabled={allSelected ? "true" : null}
+          bare
         >
           <span aria-hidden="true">✓&nbsp;&nbsp;</span>Select All
-        </button>
+        </Button>
       </div>
     </div>
   )

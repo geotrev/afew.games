@@ -18,6 +18,7 @@ export default function Collection({ games, queryData }) {
   )
   const debouncedFilterValue = useMemo(() => debounce(setFilterValue, 200), [])
   const allSelected = filterPlatforms.every((p) => p.selected)
+  const noneSelected = filterPlatforms.every((p) => !p.selected)
 
   useEffect(() => {
     debouncedFilterValue(searchValue)
@@ -37,6 +38,7 @@ export default function Collection({ games, queryData }) {
   }
 
   function handlePillReset() {
+    if (noneSelected) return
     const filteredPlatforms = filterPlatforms.map((p) => ({
       ...p,
       selected: false,
@@ -45,6 +47,7 @@ export default function Collection({ games, queryData }) {
   }
 
   function handlePillSelectAll() {
+    if (allSelected) return
     setFilterPlatforms(
       filterPlatforms.map((p) => ({
         ...p,

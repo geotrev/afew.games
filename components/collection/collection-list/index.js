@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { Button } from "components/global"
 import { CollectionItem } from "../collection-item"
 import styles from "./styles.module.scss"
 
@@ -27,13 +28,9 @@ export function CollectionList({ games, label, id }) {
           {length} {length === 1 ? "game" : "games"}{" "}
           {opened ? "shown" : "hidden"}
         </p>
-        <button
-          type="button"
-          className={styles.collectionMinimizeBtn}
-          onClick={() => setOpened(!opened)}
-        >
+        <Button bare onClick={() => setOpened(!opened)}>
           {renderMinimizeText()}
-        </button>
+        </Button>
       </div>
     )
   }

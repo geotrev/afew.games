@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import Types from "prop-types"
-import cn from "classnames"
+import { Button } from "../button"
 import styles from "./styles.module.scss"
 
 export function Pagination({
@@ -22,6 +22,10 @@ export function Pagination({
   useEffect(() => {
     setRovingIndex(activePageIndex)
   }, [activePageIndex])
+
+  if (count < 1) {
+    return null
+  }
 
   function getVisiblePageIdxRange() {
     let range
@@ -90,26 +94,18 @@ export function Pagination({
       const label = `Page ${idx + 1}`
       return (
         <li key={idx} data-pagination-index={idx}>
-          <button
-            className={cn(styles.paginationButton, {
-              [styles.isActive]: isActive,
-            })}
+          <Button
+            selected={isActive}
             tabIndex={rovingIndex === idx ? "0" : "-1"}
+            onClick={onPageClick}
             aria-current={isActive ? "true" : null}
             aria-label={isActive ? `${label}, current page` : `Goto ${label}`}
-            type="button"
-            onClick={onPageClick}
           >
             {idx + 1}
-          </button>
+          </Button>
         </li>
       )
     })
-  }
-
-  // There's nothing to render when the count is non-positive.
-  if (count < 1) {
-    return null
   }
 
   return (
@@ -120,49 +116,47 @@ export function Pagination({
       <nav aria-label="Pagination" onKeyDown={handleKeydown}>
         <ul className={styles.pagination}>
           <li>
-            <button
+            <Button
               onKeyDown={(e) => e.stopPropagation()}
-              className={styles.paginationButton}
-              type="button"
               aria-disabled={activePageIndex === 0 ? "true" : null}
               onClick={onFirstPageClick}
+              aria-label={"Goto First Page"}
+              bare
             >
-              {"≪"}
-            </button>
+              <span aria-hidden="true">{"≪"}</span>
+            </Button>
           </li>
           <li>
-            <button
+            <Button
               onKeyDown={(e) => e.stopPropagation()}
-              className={styles.paginationButton}
-              type="button"
               aria-disabled={activePageIndex === 0 ? "true" : null}
               onClick={onPreviousClick}
+              bare
             >
               {"Previous"}
-            </button>
+            </Button>
           </li>
           {renderVisiblePageItems()}
           <li>
-            <button
+            <Button
               onKeyDown={(e) => e.stopPropagation()}
-              className={styles.paginationButton}
-              type="button"
               aria-disabled={lastPageIdx === activePageIndex ? "true" : null}
               onClick={onNextClick}
+              bare
             >
               {"Next"}
-            </button>
+            </Button>
           </li>
           <li>
-            <button
+            <Button
               onKeyDown={(e) => e.stopPropagation()}
-              className={styles.paginationButton}
-              type="button"
               aria-disabled={activePageIndex === count - 1 ? "true" : null}
               onClick={onLastPageClick}
+              aria-label={"Goto Last Page"}
+              bare
             >
-              {"≫"}
-            </button>
+              <span aria-hidden="true">{"≫"}</span>
+            </Button>
           </li>
         </ul>
       </nav>
