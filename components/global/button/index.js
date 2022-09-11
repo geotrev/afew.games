@@ -1,4 +1,4 @@
-import PropTypes from "prop-types"
+import propTypes from "prop-types"
 import cn from "classnames"
 import styles from "./styles.module.scss"
 
@@ -40,10 +40,10 @@ Button.defaultProps = {
 }
 
 Button.propTypes = {
-  bare: PropTypes.bool,
-  size: PropTypes.oneOf([SM, MD]),
-  children: PropTypes.any.isRequired,
-  type: PropTypes.string,
-  selected: PropTypes.bool,
-  cornerType: PropTypes.oneOf([SQUIRCLE, ROUND]),
+  bare: propTypes.bool,
+  size: propTypes.oneOf([SM, MD]),
+  children: propTypes.any.isRequired,
+  type: propTypes.string,
+  selected: propTypes.bool,
+  cornerType: propTypes.oneOf([SQUIRCLE, ROUND]),
 }

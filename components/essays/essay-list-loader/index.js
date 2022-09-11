@@ -1,7 +1,8 @@
+import { memo } from "react"
 import cn from "classnames"
 import styles from "./styles.module.scss"
 
-export function EssayListLoader() {
+export function Loader() {
   const placeholderIterator = Array(5).fill(null)
 
   return (
@@ -37,3 +38,5 @@ export function EssayListLoader() {
     </div>
   )
 }
+
+export const EssayListLoader = memo(Loader)

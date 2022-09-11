@@ -2,6 +2,7 @@ import xss from "xss"
 import styles from "./styles.module.scss"
 import { EssayFooter } from "components/essays/essay-footer"
 import { EssayHeader } from "../essay-header"
+import propTypes from "prop-types"
 
 export function EssayContent({ title, description, date, content }) {
   return (
@@ -17,4 +18,11 @@ export function EssayContent({ title, description, date, content }) {
       <EssayFooter />
     </article>
   )
+}
+
+EssayContent.propTypes = {
+  title: propTypes.string,
+  description: propTypes.string,
+  date: propTypes.string,
+  content: propTypes.string,
 }

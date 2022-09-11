@@ -1,3 +1,4 @@
+import propTypes from "prop-types"
 import styles from "./styles.module.scss"
 
 export function Search({ value, handleChange }) {
@@ -17,4 +18,9 @@ export function Search({ value, handleChange }) {
       />
     </div>
   )
+}
+
+Search.propTypes = {
+  value: propTypes.string,
+  handleChange: propTypes.func,
 }

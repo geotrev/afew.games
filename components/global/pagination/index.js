@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import Types from "prop-types"
+import propTypes from "prop-types"
 import { Button } from "../button"
 import styles from "./styles.module.scss"
 
@@ -159,17 +159,13 @@ export function Pagination({
   )
 }
 
-Pagination.defaultProps = {
-  count: -1,
-  activePageIndex: 0,
-  maxVisiblePageCount: 5,
-}
-
 Pagination.propTypes = {
-  count: Types.number.isRequired,
-  maxVisiblePageCount: Types.number.isRequired,
-  activePageIndex: Types.number.isRequired,
-  onNextClick: Types.func.isRequired,
-  onPreviousClick: Types.func.isRequired,
-  onPageClick: Types.func.isRequired,
+  count: propTypes.number.isRequired,
+  maxVisiblePageCount: propTypes.number.isRequired,
+  activePageIndex: propTypes.number.isRequired,
+  onNextClick: propTypes.func.isRequired,
+  onPreviousClick: propTypes.func.isRequired,
+  onFirstPageClick: propTypes.func.isRequired,
+  onLastPageClick: propTypes.func.isRequired,
+  onPageClick: propTypes.func.isRequired,
 }

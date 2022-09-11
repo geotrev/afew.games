@@ -1,4 +1,5 @@
 import cn from "classnames"
+import propTypes from "prop-types"
 import styles from "./styles.module.scss"
 
 export function CollectionItemMetadata({ name, value }) {
@@ -16,4 +17,9 @@ export function CollectionItemMetadata({ name, value }) {
       <dd className={cn(styles.collectionItemData, "text-sm")}>{value}</dd>
     </>
   )
+}
+
+CollectionItemMetadata.propTypes = {
+  name: propTypes.string,
+  value: propTypes.string,
 }

@@ -1,4 +1,5 @@
 import { omit } from "lodash-es"
+import propTypes from "prop-types"
 import { CollectionItemMetadata } from "../collection-item-metadata"
 import styles from "./styles.module.scss"
 
@@ -17,4 +18,13 @@ export function CollectionItem({ data }) {
       </dl>
     </li>
   )
+}
+
+CollectionItem.propTypes = {
+  data: propTypes.shape({
+    name: propTypes.string,
+    variant: propTypes.string,
+    grade: propTypes.string,
+    grader: propTypes.oneOf(["Wata", "VGA"]),
+  }),
 }

@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from "react"
 import { debounce } from "lodash-es"
-import Types from "prop-types"
+import propTypes from "prop-types"
 import gamesData from "public/games/graded-games.json"
 import { flattenObjectValues, sortByKey } from "lib/helpers"
 import { PageHeading, Layout } from "components/global"
@@ -120,8 +120,25 @@ export default function Collection({ games, queryData }) {
 }
 
 Collection.propTypes = {
-  games: Types.arrayOf(Types.object).isRequired,
-  queryData: Types.arrayOf(Types.object).isRequired,
+  games: propTypes.arrayOf(
+    propTypes.shape({
+      platform: propTypes.string,
+      games: propTypes.arrayOf(
+        propTypes.shape({
+          name: propTypes.string,
+          variant: propTypes.string,
+          grade: propTypes.string,
+          grader: propTypes.oneOf(["Wata", "VGA"]),
+        })
+      ),
+    })
+  ).isRequired,
+  queryData: propTypes.arrayOf(
+    propTypes.shape({
+      platform: propTypes.string,
+      games: propTypes.arrayOf(propTypes.string),
+    })
+  ).isRequired,
 }
 
 export function getStaticProps() {

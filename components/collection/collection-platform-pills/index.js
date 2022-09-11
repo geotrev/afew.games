@@ -1,5 +1,5 @@
 import { useState, useCallback } from "react"
-import PropTypes from "prop-types"
+import propTypes from "prop-types"
 import { Button } from "components/global"
 import styles from "./styles.module.scss"
 
@@ -103,13 +103,13 @@ export function CollectionPlatformPills({
 }
 
 CollectionPlatformPills.propTypes = {
-  items: PropTypes.arrayOf(
-    PropTypes.shape({
-      value: PropTypes.string,
-      selected: PropTypes.bool,
+  items: propTypes.arrayOf(
+    propTypes.shape({
+      value: propTypes.string,
+      selected: propTypes.bool,
     })
   ).isRequired,
-  handleSelect: PropTypes.func,
-  handleReset: PropTypes.func,
-  handleSelectAll: PropTypes.func,
+  handleSelect: propTypes.func,
+  handleReset: propTypes.func,
+  handleSelectAll: propTypes.func,
 }

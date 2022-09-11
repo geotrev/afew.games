@@ -1,3 +1,5 @@
+import propTypes from "prop-types"
+
 export function PageHeading({ heading, subheading }) {
   return (
     <>
@@ -8,4 +10,9 @@ export function PageHeading({ heading, subheading }) {
       {subheading && <p>{subheading}</p>}
     </>
   )
+}
+
+PageHeading.propTypes = {
+  heading: propTypes.string,
+  subheading: propTypes.string,
 }

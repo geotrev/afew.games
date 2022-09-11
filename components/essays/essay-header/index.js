@@ -1,4 +1,5 @@
 import cn from "classnames"
+import propTypes from "prop-types"
 import styles from "./styles.module.scss"
 
 export function EssayHeader({ title, description, date }) {
@@ -19,4 +20,10 @@ export function EssayHeader({ title, description, date }) {
       <h2>{"By George W."}</h2>
     </>
   )
+}
+
+EssayHeader.propTypes = {
+  title: propTypes.string,
+  description: propTypes.string,
+  date: propTypes.string,
 }
