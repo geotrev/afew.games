@@ -28,7 +28,11 @@ export function CollectionList({ games, label, id }) {
           {length} {length === 1 ? "game" : "games"}{" "}
           {opened ? "shown" : "hidden"}
         </p>
-        <Button bare onClick={() => setOpened(!opened)}>
+        <Button
+          bare
+          onClick={() => setOpened(!opened)}
+          aria-describedby={`header-${id}`}
+        >
           {renderMinimizeText()}
         </Button>
       </div>
@@ -41,11 +45,7 @@ export function CollectionList({ games, label, id }) {
     }
 
     return (
-      <ul
-        aria-labelledby={id}
-        className={styles.collectionList}
-        aria-label={label}
-      >
+      <ul aria-labelledby={`header-${id}`} className={styles.collectionList}>
         {games.map((data) => (
           <CollectionItem key={`${data.name}-${data.grade}`} data={data} />
         ))}
@@ -59,7 +59,7 @@ export function CollectionList({ games, label, id }) {
 
   return (
     <>
-      <h2 id={id}>{label}</h2>
+      <h2 id={`header-${id}`}>{label}</h2>
       {renderListInfoBar()}
       {renderList()}
     </>

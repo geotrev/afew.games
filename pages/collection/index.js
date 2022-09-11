@@ -87,7 +87,7 @@ export default function Collection({ games, queryData }) {
         key={p.platform}
         games={p.games}
         label={p.platform}
-        id={p.platform}
+        id={p.platform.split(" ").join("-")}
       />
     )
   }

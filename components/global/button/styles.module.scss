@@ -9,7 +9,6 @@
   justify-content: center;
   display: block;
   appearance: none;
-  border-radius: 4px;
   background: transparent;
   border: none;
   padding: 0.5rem;
@@ -63,5 +62,15 @@
     &:active:not([aria-disabled]) {
       background: rgba(vars.$primary-color-1, 0.1);
     }
+  }
+
+  &.squircle {
+    border-radius: 4px;
+  }
+
+  &.round {
+    border-radius: 10rem;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
   }
 }

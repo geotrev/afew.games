@@ -24,29 +24,46 @@ export function CollectionPlatformPills({
       setRovingTarget(parentNode.previousElementSibling?.firstElementChild, -1)
     } else if (e.key === "ArrowRight") {
       setRovingTarget(parentNode.nextElementSibling?.firstElementChild, 1)
+    } else if (e.key === "Home") {
+      setRovingTarget(
+        parentNode.parentNode.childNodes[0]?.firstElementChild,
+        -rovingIndex
+      )
+    } else if (e.key === "End") {
+      const lastIdx = items.length - 1
+      setRovingTarget(
+        parentNode.parentNode.childNodes[lastIdx]?.firstElementChild,
+        lastIdx - rovingIndex
+      )
     }
   }
 
   return (
     <div className={styles.collectionPills}>
-      <ul className={styles.pillList}>
-        {items.map((platform, idx) => {
-          return (
-            <li key={platform.value} className={styles.pillItem}>
-              <Button
-                selected={platform.selected}
-                data-platform={platform.value}
-                onClick={handleSelect}
-                onKeyDown={handleKeydown}
-                aria-selected={platform.selected ? "true" : null}
-                tabIndex={rovingIndex === idx ? "0" : "-1"}
-              >
-                {platform.value}
-              </Button>
-            </li>
-          )
-        })}
-      </ul>
+      <div aria-label="Select an item to filter games by platform" role="grid">
+        <div role="rowgroup">
+          <ul className={styles.pillList} role="row">
+            {items.map((platform, idx) => {
+              return (
+                <li key={platform.value} className={styles.pillItem}>
+                  <Button
+                    selected={platform.selected}
+                    cornerType="round"
+                    data-platform={platform.value}
+                    onClick={handleSelect}
+                    onKeyDown={handleKeydown}
+                    aria-selected={String(platform.selected)}
+                    tabIndex={rovingIndex === idx ? "0" : "-1"}
+                    role="gridcell"
+                  >
+                    {platform.value}
+                  </Button>
+                </li>
+              )
+            })}
+          </ul>
+        </div>
+      </div>
       <div className={styles.pillOptions}>
         <Button
           onClick={handleReset}
