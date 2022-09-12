@@ -3,14 +3,8 @@ import propTypes from "prop-types"
 import { Button } from "components/global"
 import styles from "./styles.module.scss"
 
-export function CollectionPlatformPills({
-  items,
-  handleSelect,
-  handleReset,
-  handleSelectAll,
-}) {
+export function CollectionPlatformPills({ items, handleSelect, handleReset }) {
   const [rovingIndex, setRovingIndex] = useState(0)
-  const allSelected = items.every((item) => item.selected)
   const noneSelected = items.every((item) => !item.selected)
 
   const handleKeydown = useCallback(
@@ -87,15 +81,7 @@ export function CollectionPlatformPills({
           bare
           size="sm"
         >
-          <span aria-hidden="true">𐌗&nbsp;&nbsp;</span>Clear Filter
-        </Button>
-        <Button
-          onClick={handleSelectAll}
-          aria-disabled={allSelected ? "true" : null}
-          bare
-          size="sm"
-        >
-          <span aria-hidden="true">✓&nbsp;&nbsp;</span>Select All
+          <span aria-hidden="true">𐌗&nbsp;&nbsp;</span>Reset Filter
         </Button>
       </div>
     </div>
@@ -111,5 +97,4 @@ CollectionPlatformPills.propTypes = {
   ).isRequired,
   handleSelect: propTypes.func,
   handleReset: propTypes.func,
-  handleSelectAll: propTypes.func,
 }

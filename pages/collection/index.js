@@ -14,11 +14,15 @@ export default function Collection({ games, queryData }) {
   const [searchValue, setSearchValue] = useState("")
   const [filterValue, setFilterValue] = useState("")
   const [filterPlatforms, setFilterPlatforms] = useState(
-    games.map((p) => ({ value: p.platform, selected: true }))
+    games.map((p) => ({ value: p.platform, selected: false }))
   )
   const debouncedFilterValue = useMemo(() => debounce(setFilterValue, 200), [])
   const allSelected = filterPlatforms.every((p) => p.selected)
   const noneSelected = filterPlatforms.every((p) => !p.selected)
+  const selectedPlatforms = filterPlatforms.reduce(
+    (acc, p) => (p.selected ? [...acc, p.value] : acc),
+    []
+  )
 
   useEffect(() => {
     debouncedFilterValue(searchValue)
@@ -28,7 +32,7 @@ export default function Collection({ games, queryData }) {
     setSearchValue(e.target.value)
   }
 
-  function handlePillSelect(e) {
+  function handlePillClick(e) {
     const platform = e.target.dataset.platform
     setFilterPlatforms(
       filterPlatforms.map((p) =>
@@ -46,16 +50,6 @@ export default function Collection({ games, queryData }) {
     setFilterPlatforms(filteredPlatforms)
   }
 
-  function handlePillSelectAll() {
-    if (allSelected) return
-    setFilterPlatforms(
-      filterPlatforms.map((p) => ({
-        ...p,
-        selected: true,
-      }))
-    )
-  }
-
   // Reduce the games in the list based on:
   // 1. Search query
   // 2. Selected platforms
@@ -63,20 +57,28 @@ export default function Collection({ games, queryData }) {
     const query = filterValue.toLowerCase()
     if (!filterValue && allSelected) return games
 
-    return queryData.reduce((acc, p, idx) => {
+    return queryData.reduce((acc, queryGames, idx) => {
       const gameList = games[idx].games
       const filteredEntry = { ...games[idx], games: [] }
+      let shouldQuery = true
 
-      filteredEntry.selected = filterPlatforms[idx].selected
+      if (
+        !noneSelected &&
+        !allSelected &&
+        selectedPlatforms.indexOf(games[idx].platform) === -1
+      ) {
+        shouldQuery = false
+      }
 
-      if (query) {
-        p.games.forEach((game, gameIdx) => {
-          if (game.includes(query)) {
+      if (shouldQuery) {
+        if (query) {
+          queryGames.forEach((q, gameIdx) => {
+            if (!q.includes(query)) return
             filteredEntry.games.push(gameList[gameIdx])
-          }
-        })
-      } else {
-        filteredEntry.games.push(...gameList)
+          })
+        } else {
+          filteredEntry.games.push(...gameList)
+        }
       }
 
       acc.push(filteredEntry)
@@ -85,8 +87,6 @@ export default function Collection({ games, queryData }) {
   }
 
   function renderCollectionLists(p) {
-    if (!p.selected) return
-
     return (
       <CollectionList
         key={p.platform}
@@ -101,9 +101,8 @@ export default function Collection({ games, queryData }) {
     return (
       <CollectionPlatformPills
         items={filterPlatforms}
-        handleSelect={handlePillSelect}
+        handleSelect={handlePillClick}
         handleReset={handlePillReset}
-        handleSelectAll={handlePillSelectAll}
       />
     )
   }
@@ -133,28 +132,19 @@ Collection.propTypes = {
       ),
     })
   ).isRequired,
-  queryData: propTypes.arrayOf(
-    propTypes.shape({
-      platform: propTypes.string,
-      games: propTypes.arrayOf(propTypes.string),
-    })
-  ).isRequired,
+  queryData: propTypes.arrayOf(propTypes.arrayOf(propTypes.string)).isRequired,
 }
 
 export function getStaticProps() {
   const games = gamesData.platforms.sort(sortByKey("platform")).map((p) => {
     return {
       platform: p.platform,
-      selected: true,
       games: p.games.sort(sortByKey("name")),
     }
   })
 
   const queryData = games.map((p) => {
-    return {
-      platform: p.platform,
-      games: flattenObjectValues(p.games),
-    }
+    return flattenObjectValues(p.games)
   })
 
   return { props: { games, queryData } }
