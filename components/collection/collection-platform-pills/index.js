@@ -1,10 +1,12 @@
 import { useState, useCallback } from "react"
 import propTypes from "prop-types"
+import cn from "classnames"
 import { Button } from "components/global"
 import styles from "./styles.module.scss"
 
 export function CollectionPlatformPills({ items, handleSelect, handleReset }) {
   const [rovingIndex, setRovingIndex] = useState(0)
+  const [opened, setOpened] = useState(false)
   const noneSelected = items.every((item) => !item.selected)
 
   const handleKeydown = useCallback(
@@ -49,40 +51,65 @@ export function CollectionPlatformPills({ items, handleSelect, handleReset }) {
     handleSelect(e)
   }
 
+  function handleToggleClick() {
+    setOpened(!opened)
+  }
+
   return (
     <div className={styles.collectionPills}>
-      <div aria-label="Select an item to filter games by platform" role="grid">
-        <div role="rowgroup">
-          <div className={styles.collectionPillsList} role="row">
-            {items.map((platform, idx) => {
-              return (
-                <Button
-                  key={platform.value}
-                  selected={platform.selected}
-                  cornerType="round"
-                  data-platform={platform.value}
-                  onClick={handlePillClick}
-                  onKeyDown={handleKeydown}
-                  aria-selected={String(platform.selected)}
-                  tabIndex={rovingIndex === idx ? "0" : "-1"}
-                  role="gridcell"
-                >
-                  {platform.value}
-                </Button>
-              )
-            })}
+      <div className={styles.collectionPillsToggle}>
+        <Button
+          id="filter-toggle"
+          aria-controls="filter-controls"
+          aria-expanded={String(opened)}
+          bare
+          onClick={handleToggleClick}
+        >
+          {opened ? "Hide" : "Show"} Filter Options
+        </Button>
+      </div>
+      <div
+        className={cn({ [styles.hidden]: !opened })}
+        id="filter-controls"
+        role="region"
+        aria-labelledby="filter-toggle"
+      >
+        <div
+          aria-label="Select an item to filter games by platform"
+          role="grid"
+        >
+          <div role="rowgroup">
+            <div className={styles.collectionPillsList} role="row">
+              {items.map((platform, idx) => {
+                return (
+                  <Button
+                    key={platform.value}
+                    selected={platform.selected}
+                    cornerType="round"
+                    data-platform={platform.value}
+                    onClick={handlePillClick}
+                    onKeyDown={handleKeydown}
+                    aria-selected={String(platform.selected)}
+                    tabIndex={rovingIndex === idx ? "0" : "-1"}
+                    role="gridcell"
+                  >
+                    {platform.value}
+                  </Button>
+                )
+              })}
+            </div>
           </div>
         </div>
-      </div>
-      <div className={styles.collectionPillsOptions}>
-        <Button
-          onClick={handleReset}
-          aria-disabled={noneSelected ? "true" : null}
-          bare
-          size="sm"
-        >
-          <span aria-hidden="true">𐌗&nbsp;&nbsp;</span>Reset Filter
-        </Button>
+        <div className={styles.collectionPillsOptions}>
+          <Button
+            onClick={handleReset}
+            aria-disabled={noneSelected ? "true" : null}
+            bare
+            size="sm"
+          >
+            <span aria-hidden="true">𐌗&nbsp;&nbsp;</span>Reset Filter
+          </Button>
+        </div>
       </div>
     </div>
   )

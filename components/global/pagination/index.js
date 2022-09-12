@@ -131,7 +131,9 @@ export function Pagination({
               {"Previous"}
             </Button>
           </li>
+          <li aria-hidden="true" className={styles.paginationBreak} />
           {renderVisiblePageItems()}
+          <li aria-hidden="true" className={styles.paginationBreak} />
           <li>
             <Button
               onKeyDown={(e) => e.stopPropagation()}

@@ -22,7 +22,7 @@ export function EssayListItem({ entry }) {
           {date}
         </time>
       </p>
-      <h2 className={cn(styles.essayItemHeading, "text-xl")} id={id}>
+      <h2 className={styles.essayItemHeading} id={id}>
         <Link href={urlPath}>{title}</Link>
       </h2>
       <p className={styles.essayItemDescription}>{description}</p>

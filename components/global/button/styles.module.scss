@@ -65,8 +65,13 @@
   }
 
   &.md {
-    font-size: 16px;
-    padding: 0.5rem;
+    font-size: 14px;
+    padding: 0.25rem;
+
+    @media (min-width: 640px) {
+      font-size: 16px;
+      padding: 0.5rem;
+    }
   }
 
   &.sm {

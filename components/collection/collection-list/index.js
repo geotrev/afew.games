@@ -30,6 +30,8 @@ export function CollectionList({ games, label, id }) {
           {opened ? "shown" : "hidden"}
         </p>
         <Button
+          aria-expanded={String(opened)}
+          aria-controls={`list-${id}`}
           bare
           size="sm"
           onClick={() => setOpened(!opened)}
@@ -47,7 +49,11 @@ export function CollectionList({ games, label, id }) {
     }
 
     return (
-      <ul aria-labelledby={`header-${id}`} className={styles.collectionList}>
+      <ul
+        aria-labelledby={`header-${id}`}
+        id={`list-${id}`}
+        className={styles.collectionList}
+      >
         {games.map((data) => (
           <CollectionItem key={`${data.name}-${data.grade}`} data={data} />
         ))}
