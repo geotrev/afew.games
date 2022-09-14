@@ -89,9 +89,8 @@ export function CollectionPlatformPills({ items, handleSelect, handleReset }) {
                     data-platform={platform.value}
                     onClick={handlePillClick}
                     onKeyDown={handleKeydown}
-                    aria-selected={String(platform.selected)}
+                    aria-pressed={String(platform.selected)}
                     tabIndex={rovingIndex === idx ? "0" : "-1"}
-                    role="gridcell"
                   >
                     {platform.value}
                   </Button>
