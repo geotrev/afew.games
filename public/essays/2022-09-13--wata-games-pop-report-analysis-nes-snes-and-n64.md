@@ -141,13 +141,12 @@ First, the seal grade breakdown
 | NS           | 2     | 0.05%      |
 | Total Graded | 4426  | 100.00%    |
 
-Slightly less overall games than SNES but a slightly wider game between A+ and A++.
+Slightly less overall games than SNES but a slightly wider gap between A+ and A++.
 
 The box grade breakdown:
 
-|                   |        |        |       |       |       |       |       |       |           |
-| ----------------- | ------ | ------ | ----- | ----- | ----- | ----- | ----- | ----- | --------- |
 | Box Grade         | A++    | A+     | A     | B+    | B     | C+    | C     | NS    | Box Total |
+| ----------------- | ------ | ------ | ----- | ----- | ----- | ----- | ----- | ----- | --------- |
 | 10                | 2      | 0      | 0     | 0     | 0     | 0     | 0     | 0     | 2         |
 | 9.8               | 230    | 50     | 1     | 0     | 0     | 0     | 0     | 0     | 281       |
 | 9.6               | 295    | 191    | 13    | 3     | 1     | 0     | 0     | 0     | 503       |
@@ -159,27 +158,27 @@ The box grade breakdown:
 
 Unlike its predecessors, only 54% of all games submitted received a 9.0 or better box grade, however far more games have better seal grades. Just shy of 50% received A+ or better.
 
-And finally, the top 10 for N64:
+And finally, the top 10:
 
-| Title                    | Total Graded | % of Total Graded |                                                 |
-| ------------------------ | ------------ | ----------------- | ----------------------------------------------- |
-| Gauntlet Legends         | 212          | 4.79%             | \*210 no figure variant, 55 9.8 A++, 55 9.6 A++ |
-| The Legend of Zelda: OOT | 211          | 4.77%             | \*124 CE, 75 standard                           |
-| The Legend of Zelda: MM  | 192          | 4.34%             | \*151 CE, 41 standrad                           |
-| Perfect Dark             | 174          | 3.93%             |                                                 |
-| Super Mario 64           | 132          | 2.98%             | \*84 red label                                  |
-| GoldenEye 007            | 122          | 2.76%             | \*59 red label                                  |
-| Conker's Bad Fur Day     | 115          | 2.60%             |                                                 |
-| Pokemon Snap             | 97           | 2.19%             | \*15 w/ 78% fiber                               |
-| Paper Mario              | 95           | 2.15%             |                                                 |
-| Mario Kart 64            | 87           | 1.97%             | \*34 red label                                  |
-| Total                    | 1437         | 32.47%            |                                                 |
+| Title                    | Total Graded | % of Total Graded |                                                                                                    |
+| ------------------------ | ------------ | ----------------- | -------------------------------------------------------------------------------------------------- |
+| Gauntlet Legends         | 212          | 4.79%             | \*210 no figure variant, 55 9.8 A++, 55 9.6 A++; 2 total graded w/ figurine, 9.0 A+ highest graded |
+| The Legend of Zelda: OOT | 211          | 4.77%             | \*124 CE, 75 standard                                                                              |
+| The Legend of Zelda: MM  | 192          | 4.34%             | \*151 CE, 41 standrad                                                                              |
+| Perfect Dark             | 174          | 3.93%             |                                                                                                    |
+| Super Mario 64           | 132          | 2.98%             | \*84 red label                                                                                     |
+| GoldenEye 007            | 122          | 2.76%             | \*59 red label                                                                                     |
+| Conker's Bad Fur Day     | 115          | 2.60%             |                                                                                                    |
+| Pokemon Snap             | 97           | 2.19%             | \*15 w/ 78% fiber                                                                                  |
+| Paper Mario              | 95           | 2.15%             |                                                                                                    |
+| Mario Kart 64            | 87           | 1.97%             | \*34 red label                                                                                     |
+| Total                    | 1437         | 32.47%            |                                                                                                    |
 
-Remember the pattern I mentioned for N64 vs. SNES? Well, Gauntlet Legends rivals F-Zero (Player's Choice) with over 200 submitted and over 55 each in 9.6 and 9.8, including a A++ seal grade.
+Remember the pattern I mentioned for N64 vs. SNES? Well, Gauntlet Legends rivals F-Zero (Player's Choice) with over 200 submitted and over 55 each in 9.6 and 9.8, including a A++ seal grade. It reaches slightly closer to 5% of all games submitted. Up until very recently, you could still find sealed cases at auction, but now they seem to be spoken for.
 
-Also of interest is ther eare only 15 Pokemon Snap with 78% fiber; an uninteresting variant but it brings the question: were these earlier prints, or later prints? If an earlier print, then my 100% fiber variant is even less interesting than its average grade (8.5 A). 
+Also of interest is the 15 copies of Pokemon Snap with 78% fiber. While it's a relatively uninteresting variant, it brings the question: were these earlier prints, or later prints? If an earlier print, then my 100% fiber variant is even less interesting when taking into account its grade (8.5 A aka the poor man grade).
 
-Another area of note: there are quite a few more collector's edition (CE) variants of the Legend of Zelda games, although that shouldn't be surprising. What is surprising is that, despite so many more copies, they still sell higher (on average) than their standard edition siblings. Perhaps due to the CE being more appealing and being indicative of a "first" print (standard were also available at launch, but CE for only a limited time, as it usually goes).
+Another area of note: there are quite a few more collector's edition (CE) variants of the Legend of Zelda games, although that shouldn't be surprising as they're far more sought after.
 
 - - -
 
