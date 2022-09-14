@@ -65,7 +65,7 @@ export function CollectionFilter({ items, handleSelect, handleReset }) {
           bare
           onClick={handleToggleClick}
         >
-          {opened ? "–" : "+"} Filter Options
+          <span aria-hidden="true">{opened ? "–" : "+"}</span> Filter Options
         </Button>
       </div>
       <div

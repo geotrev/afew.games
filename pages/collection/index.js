@@ -104,10 +104,11 @@ export default function Collection({ games, queryData }) {
   }
 
   const filteredGames = filterGames()
-  const noMatches = filteredGames.every((p) => p.games.length === 0)
+  let count = 0
+  filteredGames.forEach((p) => (count += p.games.length))
 
   function renderGameLists() {
-    if (noMatches) {
+    if (count === 0) {
       return <p>No matches found, sorry.</p>
     }
 
@@ -116,7 +117,12 @@ export default function Collection({ games, queryData }) {
 
   return (
     <Layout>
-      <PageHeading heading="Collection" subheading="Just some games." />
+      <PageHeading
+        heading="Collection"
+        subheading={`There ${
+          count === 1 ? `is 1 game` : `are ${count} games`
+        } down yonder.`}
+      />
       <Search value={searchValue} handleChange={handleChange} />
       {renderPlatformPills()}
       {renderGameLists()}
