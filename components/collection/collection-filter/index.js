@@ -4,7 +4,7 @@ import cn from "classnames"
 import { Button } from "components/global"
 import styles from "./styles.module.scss"
 
-export function CollectionPlatformPills({ items, handleSelect, handleReset }) {
+export function CollectionFilter({ items, handleSelect, handleReset }) {
   const [rovingIndex, setRovingIndex] = useState(0)
   const [opened, setOpened] = useState(false)
   const noneSelected = items.every((item) => !item.selected)
@@ -43,7 +43,7 @@ export function CollectionPlatformPills({ items, handleSelect, handleReset }) {
     [items, rovingIndex]
   )
 
-  function handlePillClick(e) {
+  function handleItemClick(e) {
     const index = items.findIndex(
       (item) => item.value === e.target.dataset.itemValue
     )
@@ -56,8 +56,8 @@ export function CollectionPlatformPills({ items, handleSelect, handleReset }) {
   }
 
   return (
-    <div className={styles.collectionPills}>
-      <div className={styles.collectionPillsToggle}>
+    <div className={styles.collectionFilter}>
+      <div className={styles.collectionFilterToggle}>
         <Button
           id="filter-toggle"
           aria-controls="filter-controls"
@@ -65,7 +65,7 @@ export function CollectionPlatformPills({ items, handleSelect, handleReset }) {
           bare
           onClick={handleToggleClick}
         >
-          {opened ? "Hide" : "Show"} Filter Options
+          {opened ? "–" : "+"} Filter Options
         </Button>
       </div>
       <div
@@ -79,7 +79,7 @@ export function CollectionPlatformPills({ items, handleSelect, handleReset }) {
           role="grid"
         >
           <div role="rowgroup">
-            <div className={styles.collectionPillsList} role="row">
+            <div className={styles.collectionFilterList} role="row">
               {items.map((item, idx) => {
                 return (
                   <Button
@@ -87,7 +87,7 @@ export function CollectionPlatformPills({ items, handleSelect, handleReset }) {
                     selected={item.selected}
                     cornerType="round"
                     data-item-value={item.value}
-                    onClick={handlePillClick}
+                    onClick={handleItemClick}
                     onKeyDown={handleKeydown}
                     aria-pressed={String(item.selected)}
                     tabIndex={rovingIndex === idx ? "0" : "-1"}
@@ -99,7 +99,7 @@ export function CollectionPlatformPills({ items, handleSelect, handleReset }) {
             </div>
           </div>
         </div>
-        <div className={styles.collectionPillsOptions}>
+        <div className={styles.collectionFilterReset}>
           <Button
             onClick={handleReset}
             aria-disabled={noneSelected ? "true" : null}
@@ -114,7 +114,7 @@ export function CollectionPlatformPills({ items, handleSelect, handleReset }) {
   )
 }
 
-CollectionPlatformPills.propTypes = {
+CollectionFilter.propTypes = {
   items: propTypes.arrayOf(
     propTypes.shape({
       value: propTypes.string,

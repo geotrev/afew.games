@@ -16,8 +16,7 @@ export function CollectionList({ games, label, id }) {
   function renderMinimizeText() {
     return (
       <span>
-        <span aria-hidden="true">{opened ? "–" : "+"}</span>{" "}
-        {opened ? "Hide" : "Show"} Games
+        <span aria-hidden="true">{opened ? "–" : "+"}</span> Toggle List
       </span>
     )
   }

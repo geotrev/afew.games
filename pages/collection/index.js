@@ -4,11 +4,7 @@ import propTypes from "prop-types"
 import gamesData from "public/games/graded-games.json"
 import { flattenObjectValues, sortByKey } from "lib/helpers"
 import { PageHeading, Layout } from "components/global"
-import {
-  CollectionList,
-  CollectionPlatformPills,
-  Search,
-} from "components/collection"
+import { CollectionList, CollectionFilter, Search } from "components/collection"
 
 export default function Collection({ games, queryData }) {
   const [searchValue, setSearchValue] = useState("")
@@ -99,7 +95,7 @@ export default function Collection({ games, queryData }) {
 
   function renderPlatformPills() {
     return (
-      <CollectionPlatformPills
+      <CollectionFilter
         items={filterPlatforms}
         handleSelect={handlePillClick}
         handleReset={handlePillReset}
@@ -108,12 +104,22 @@ export default function Collection({ games, queryData }) {
   }
 
   const filteredGames = filterGames()
+  const noMatches = filteredGames.every((p) => p.games.length === 0)
+
+  function renderGameLists() {
+    if (noMatches) {
+      return <p>No matches found, sorry.</p>
+    }
+
+    return filteredGames.map(renderCollectionLists)
+  }
+
   return (
     <Layout>
       <PageHeading heading="Collection" subheading="Just some games." />
       <Search value={searchValue} handleChange={handleChange} />
       {renderPlatformPills()}
-      {filteredGames.map(renderCollectionLists)}
+      {renderGameLists()}
     </Layout>
   )
 }

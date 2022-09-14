@@ -1,3 +1,3 @@
 export * from "./collection-list"
-export * from "./collection-platform-pills"
+export * from "./collection-filter"
 export * from "./search"
