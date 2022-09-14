@@ -103,7 +103,7 @@ The 9.0 and up box grades should look familiar:
 
 Just like NES, over 60% of all games hit 9.0, although seal grades seem to hit A+ and higher more often.
 
-Then, the top 10 on SNES:
+Then, the top 10:
 
 | Title                                     | Total Graded | % of Total Graded | Notable Figures                            |
 | ----------------------------------------- | ------------ | ----------------- | ------------------------------------------ |
