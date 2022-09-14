@@ -1,6 +1,6 @@
 ---
 title: "Wata Games Pop Report Analysis: NES, SNES, and N64"
-description: A breakdown of seal grades across the classic home consoles
+description: A breakdown of seal grades across the breakthrough home consoles
 ---
 This is a follow up to a similar article I published last week, [Wata Games Pop Report Analysis: Game Boy](https://www.afew.games/essays/seal-grades-are-here-for-wata-graded-games), where I shared both high level and focused analyses of each Game Boy-era pop report. Now that we have seal grades available, we can finally get a sense of how seal grades play into the top graded games.
 
