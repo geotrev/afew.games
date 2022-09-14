@@ -169,19 +169,20 @@ And finally, the top 10:
 | Super Mario 64           | 132          | 2.98%             | \*84 red label                                                                                     |
 | GoldenEye 007            | 122          | 2.76%             | \*59 red label                                                                                     |
 | Conker's Bad Fur Day     | 115          | 2.60%             |                                                                                                    |
-| Pokemon Snap             | 97           | 2.19%             | \*15 w/ 78% fiber                                                                                  |
+| Pokemon Snap             | 97           | 2.19%             | \*15 w/ 78% fiber, including pop one 9.8 A+                                                        |
 | Paper Mario              | 95           | 2.15%             |                                                                                                    |
 | Mario Kart 64            | 87           | 1.97%             | \*34 red label                                                                                     |
 | Total                    | 1437         | 32.47%            |                                                                                                    |
 
 Remember the pattern I mentioned for N64 vs. SNES? Well, Gauntlet Legends rivals F-Zero (Player's Choice) with over 200 submitted and over 55 each in 9.6 and 9.8, including a A++ seal grade. It reaches slightly closer to 5% of all games submitted. Up until very recently, you could still find sealed cases at auction, but now they seem to be spoken for.
 
-Also of interest is the 15 copies of Pokemon Snap with 78% fiber. While it's a relatively uninteresting variant, it brings the question: were these earlier prints, or later prints? If an earlier print, then my 100% fiber variant is even less interesting when taking into account its grade (8.5 A aka the poor man grade).
+A few areas stick out to me otherwise
 
-Another area of note: there are quite a few more collector's edition (CE) variants of the Legend of Zelda games, although that shouldn't be surprising as they're far more sought after.
+* What's with the 15 copies of Pokemon Snap with 78% fiber (one of which is a pop one 9.8)? While it's a relatively uninteresting variant, it brings the question: were these earlier prints, or later prints? If an earlier print, then my 100% fiber variant is even less interesting when taking into account its grade (8.5 A aka the poor man grade).
+* There are quite a few more collector's edition (CE) variants of both The Legend of Zelda games, but maybe that shouldn't be *too* surprising as they're far more sought after. 
 
 - - -
 
 I hope this information is both educational and interesting! The hobby continues to grow and more interesting information coming out each month.
 
-Tomorrow for instance, CGC might finally announce their new case design for their graded video games initiative. It's been over 400 days since they announced it. Hopefully it was worth the wait!
+Tomorrow for instance, CGC might finally announce their new case design for their graded video games initiative. It's been over 400 days since they announced grading video games (then subsequently announcing grading VHS). Hopefully it was worth the wait!
