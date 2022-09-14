@@ -33,7 +33,7 @@ export default function Collection({ games, queryData }) {
   }
 
   function handlePillClick(e) {
-    const platform = e.target.dataset.platform
+    const platform = e.target.dataset.itemValue
     setFilterPlatforms(
       filterPlatforms.map((p) =>
         p.value === platform ? { ...p, selected: !p.selected } : p

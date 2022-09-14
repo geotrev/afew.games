@@ -45,7 +45,7 @@ export function CollectionPlatformPills({ items, handleSelect, handleReset }) {
 
   function handlePillClick(e) {
     const index = items.findIndex(
-      (item) => item.value === e.target.dataset.platform
+      (item) => item.value === e.target.dataset.itemValue
     )
     setRovingIndex(index)
     handleSelect(e)
@@ -80,19 +80,19 @@ export function CollectionPlatformPills({ items, handleSelect, handleReset }) {
         >
           <div role="rowgroup">
             <div className={styles.collectionPillsList} role="row">
-              {items.map((platform, idx) => {
+              {items.map((item, idx) => {
                 return (
                   <Button
-                    key={platform.value}
-                    selected={platform.selected}
+                    key={item.value}
+                    selected={item.selected}
                     cornerType="round"
-                    data-platform={platform.value}
+                    data-item-value={item.value}
                     onClick={handlePillClick}
                     onKeyDown={handleKeydown}
-                    aria-pressed={String(platform.selected)}
+                    aria-pressed={String(item.selected)}
                     tabIndex={rovingIndex === idx ? "0" : "-1"}
                   >
-                    {platform.value}
+                    {item.value}
                   </Button>
                 )
               })}
