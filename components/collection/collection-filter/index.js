@@ -11,28 +11,28 @@ export function CollectionFilter({ items, handleSelect, handleReset }) {
 
   const handleKeydown = useCallback(
     (e) => {
-      const parentNode = e.target.parentNode
+      const parentNode = e.target.parentNode.parentNode
       let target, targetIndex
 
       if (e.key === "ArrowLeft") {
-        target = e.target.previousElementSibling
+        target = e.target.previousElementSibling.firstElementChild
         targetIndex = rovingIndex - 1
       } else if (e.key === "ArrowRight") {
-        target = e.target.nextElementSibling
+        target = e.target.nextElementSibling.firstElementChild
         targetIndex = rovingIndex + 1
       } else if (e.key === "Home") {
-        target = parentNode.childNodes[0]
+        target = parentNode.childNodes[0].firstElementChild
         targetIndex = 0
       } else if (e.key === "End") {
         const lastIdx = items.length - 1
-        target = parentNode.childNodes[lastIdx]
+        target = parentNode.childNodes[lastIdx].firstElementChild
         targetIndex = lastIdx
       } else if (/[0-9A-Za-z]/.test(e.key)) {
         const key = e.key
         targetIndex = items.findIndex((item) =>
           item.value.toLowerCase().startsWith(key)
         )
-        target = parentNode.childNodes[targetIndex]
+        target = parentNode.childNodes[targetIndex].firstElementChild
       }
 
       if (target && targetIndex > -1) {
@@ -82,18 +82,19 @@ export function CollectionFilter({ items, handleSelect, handleReset }) {
             <div className={styles.collectionFilterList} role="row">
               {items.map((item, idx) => {
                 return (
-                  <Button
-                    key={item.value}
-                    selected={item.selected}
-                    cornerType="round"
-                    data-item-value={item.value}
-                    onClick={handleItemClick}
-                    onKeyDown={handleKeydown}
-                    aria-pressed={String(item.selected)}
-                    tabIndex={rovingIndex === idx ? "0" : "-1"}
-                  >
-                    {item.value}
-                  </Button>
+                  <div key={item.value} role="gridcell">
+                    <Button
+                      selected={item.selected}
+                      cornerType="round"
+                      data-item-value={item.value}
+                      onClick={handleItemClick}
+                      onKeyDown={handleKeydown}
+                      aria-pressed={String(item.selected)}
+                      tabIndex={rovingIndex === idx ? "0" : "-1"}
+                    >
+                      {item.value}
+                    </Button>
+                  </div>
                 )
               })}
             </div>
