@@ -1,13 +1,19 @@
 import propTypes from "prop-types"
 
-export function PageHeading({ heading, subheading }) {
+export function PageHeading({ heading, subheading, liveSubheading }) {
+  const liveProps = liveSubheading
+    ? {
+        "aria-live": "polite",
+        "aria-atomic": "true",
+      }
+    : {}
   return (
     <>
       <h1>
         <span aria-hidden="true">./</span>
         {heading}
       </h1>
-      {subheading && <p>{subheading}</p>}
+      {subheading && <p {...liveProps}>{subheading}</p>}
     </>
   )
 }
@@ -15,4 +21,5 @@ export function PageHeading({ heading, subheading }) {
 PageHeading.propTypes = {
   heading: propTypes.string,
   subheading: propTypes.string,
+  liveSubheading: propTypes.bool,
 }

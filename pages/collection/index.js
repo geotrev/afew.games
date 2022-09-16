@@ -122,6 +122,7 @@ export default function Collection({ games, queryData }) {
         subheading={`There ${
           count === 1 ? `is 1 game` : `are ${count} games`
         } down yonder.`}
+        liveSubheading
       />
       <Search value={searchValue} handleChange={handleChange} />
       {renderPlatformPills()}
