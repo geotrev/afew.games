@@ -11,28 +11,28 @@ export function CollectionFilter({ items, handleSelect, handleReset }) {
 
   const handleKeydown = useCallback(
     (e) => {
-      const parentNode = e.target.parentNode.parentNode
+      const parentNode = e.target.parentNode
       let target, targetIndex
 
       if (e.key === "ArrowLeft") {
-        target = e.target.previousElementSibling.firstElementChild
+        target = parentNode.previousElementSibling.firstElementChild
         targetIndex = rovingIndex - 1
       } else if (e.key === "ArrowRight") {
-        target = e.target.nextElementSibling.firstElementChild
+        target = parentNode.nextElementSibling.firstElementChild
         targetIndex = rovingIndex + 1
       } else if (e.key === "Home") {
-        target = parentNode.childNodes[0].firstElementChild
+        target = parentNode.parentNode.childNodes[0].firstElementChild
         targetIndex = 0
       } else if (e.key === "End") {
         const lastIdx = items.length - 1
-        target = parentNode.childNodes[lastIdx].firstElementChild
+        target = parentNode.parentNode.childNodes[lastIdx].firstElementChild
         targetIndex = lastIdx
       } else if (/[0-9A-Za-z]/.test(e.key)) {
         const key = e.key
         targetIndex = items.findIndex((item) =>
           item.value.toLowerCase().startsWith(key)
         )
-        target = parentNode.childNodes[targetIndex].firstElementChild
+        target = parentNode.parentNode.childNodes[targetIndex].firstElementChild
       }
 
       if (target && targetIndex > -1) {
