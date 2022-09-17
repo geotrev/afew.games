@@ -27,12 +27,15 @@ export function CollectionFilter({ items, handleSelect, handleReset }) {
         const lastIdx = items.length - 1
         target = parentNode.parentNode.childNodes[lastIdx].firstElementChild
         targetIndex = lastIdx
-      } else if (/[0-9A-Za-z]/.test(e.key)) {
+      } else if (e.key.length === 1 && /[0-9A-Za-z]/.test(e.key)) {
         const key = e.key
         targetIndex = items.findIndex((item) =>
           item.value.toLowerCase().startsWith(key)
         )
-        target = parentNode.parentNode.childNodes[targetIndex].firstElementChild
+        target =
+          targetIndex > -1
+            ? parentNode.parentNode.childNodes[targetIndex].firstElementChild
+            : null
       }
 
       if (target && targetIndex > -1) {

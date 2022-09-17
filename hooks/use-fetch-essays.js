@@ -14,7 +14,6 @@ function fetchEssays(pageIdx, setData, setIsLoading, setIsError, isError) {
     return setData({ ...PageMap.get(pageIdx) })
   }
 
-  // Sets loading state
   setIsLoading(true)
 
   fetch("/api/essays", {
@@ -37,25 +36,21 @@ function fetchEssays(pageIdx, setData, setIsLoading, setIsError, isError) {
     })
 }
 
-export function useFetchEssays() {
+export function useFetchEssays(initialData) {
   const [isError, setIsError] = useState(false)
-  const [isLoading, setIsLoading] = useState(true)
-  const [data, setData] = useState({
-    index: 0,
-    pageCount: 0,
-    essays: [],
-  })
+  const [isLoading, setIsLoading] = useState(false)
+  const [data, setData] = useState(initialData)
 
   useEffect(() => {
     if (!initialLoad) return
     initialLoad = false
-    fetchEssays(0, setData, setIsLoading, setIsError)
+    PageMap.set(initialData.index, initialData)
 
     return () => {
       PageMap.clear()
       initialLoad = true
     }
-  }, [])
+  }, [initialData])
 
   return {
     isLoading,

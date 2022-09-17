@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react"
 import { debounce } from "lodash-es"
+import { getEssayList } from "lib/get-essay-list"
 import { useFetchEssays } from "hooks/use-fetch-essays"
 import { PageHeading, Layout, Pagination } from "components/global"
 import { EssayListLoader, EssayListError, EssayList } from "components/essays"
@@ -8,8 +9,8 @@ let initialLoad = true
 const toggleInitialLoad = debounce(() => (initialLoad = false), 50)
 const VISIBLE_PAGES = 5
 
-export default function Essays() {
-  const { isLoading, isError, data, setData } = useFetchEssays()
+export default function Essays({ initialData }) {
+  const { isLoading, isError, data, setData } = useFetchEssays(initialData)
   const listRef = useRef(null)
 
   useEffect(() => {
@@ -84,4 +85,10 @@ export default function Essays() {
       )}
     </Layout>
   )
+}
+
+export async function getStaticProps() {
+  const FIRST_PAGE_INDEX = 0
+  const initialData = await getEssayList(FIRST_PAGE_INDEX)
+  return { props: { initialData } }
 }
