@@ -53,16 +53,21 @@ When we break down seal grades for each box grade, the patterns are clearer, but
 
 **Over 50% of all 9.0 and higher submissions** received at least an A+ level seal. While this shouldn't entirely surprise you (because 9.0 is the start of the near mint/mint condition levels), that's pretty fantastic!
 
-Here's the top five most submitted games:
+Here's the top 10 most submitted games:
 
-| Title                  | Total Submitted | %      |
-| ---------------------- | --------------- | ------ |
-| Pokémon Yellow Version | 212             | 8.53%  |
-| Pokémon Red Version    | 165             | 6.64%  |
-| Pokémon Blue Version   | 164             | 6.60%  |
-| Donkey Kong Land III   | 115             | 4.63%  |
-| Super Mario Land       | 99              | 3.98%  |
-| Total                  | 755/2485        | 30.38% |
+| Title                                 | Total Graded | % of Total Graded | Notable Figures                        |
+| ------------------------------------- | ------------ | ----------------- | -------------------------------------- |
+| Pokemon Yellow Version                | 212          | 8.53%             | \*110 Pixelated E Rating               |
+| Pokemon Red Version                   | 165          | 6.64%             | \*64 sandshrew screenshot              |
+| Pokemon Blue Version                  | 164          | 6.60%             | \*10 red text, 45 sandshrew screenshot |
+| Donkey Kong Land III                  | 115          | 4.63%             |                                        |
+| Super Mario Land                      | 99           | 3.98%             | \*3 green screenshots                  |
+| Dr. Mario                             | 77           | 3.10%             | \*4 3-line warranty                    |
+| Super Mario Land 2: 6 Golden Coins    | 48           | 1.93%             | 35 non-PC                              |
+| The Legend of Zelda: Link's Awakening | 33           | 1.33%             |                                        |
+| Tetris                                | 28           | 1.13%             |                                        |
+| Looney Tunes                          | 25           | 1.01%             |                                        |
+| Total                                 | 966          | 38.87%            |                                        |
 
 Taking a broader step back from the top 5 games, we'll see that **only 15 out of 426 games contained in Wata's census were submitted 20 or more times**, accounting for **1078 submissions**. In other words, **over 43%** of all submissions account for 15 unique titles!
 
@@ -97,16 +102,21 @@ Much like Game Boy, GBC sees a spread with A++ and A+ as focal points:
 | Total     | 338    | 527    | 91    | 13    | 9     | 0   | 0   |
 | %         | 22.38% | 34.90% | 6.03% | 0.86% | 0.60% | 0%  | 0%  |
 
-Here's the top five most submitted games. Once again, Pokemon is king with three out of the five titles:
+Here's the top 10 most submitted games. Once again, Pokemon is king with three out of the five titles:
 
-| Title                                  | Total Submitted | %      |
-| -------------------------------------- | --------------- | ------ |
-| Pokémon Gold Version                   | 132             | 8.74%  |
-| Pokémon Silver Version                 | 123             | 8.15%  |
-| The Legend of Zelda: Oracle of Ages    | 58              | 3.84%  |
-| The Legend of Zelda: Oracle of Seasons | 55              | 3.64%  |
-| Pokémon Trading Card Game              | 47              | 3.11%  |
-| Total                                  | 415/1510        | 27.48% |
+| Title                                   | Total Graded | % of Total Graded | Notable Figures                                                                          |
+| --------------------------------------- | ------------ | ----------------- | ---------------------------------------------------------------------------------------- |
+| Pokemon Gold Version                    | 132          | 8.74%             |                                                                                          |
+| Pokemon Silver Version                  | 123          | 8.15%             |                                                                                          |
+| The Legend of Zelda: Oracle of Ages     | 58           | 3.84%             | \*18 foil (only 3 higher than 9.2)                                                       |
+| The Legend of Zelda: Oracle of Seasons  | 55           | 3.64%             | \*24 foil (only 7 higher than 9.2)                                                       |
+| Pokemon Trading Card Game               | 47           | 3.11%             |                                                                                          |
+| Tony Hawk's Pro Skater                  | 42           | 2.78%             |                                                                                          |
+| Dragon Ball Z: Legendary Super Warriors | 39           | 2.58%             |                                                                                          |
+| Pokemon Pinball                         | 37           | 2.45%             |                                                                                          |
+| Pokemon Crystal Version                 | 33           | 2.19%             | \*18 "series" misprint (only 9 higher than 9.2), only 4 Y-fold box w/ "series" corrected |
+| Monster Rancher Explorer                | 26           | 1.72%             |                                                                                          |
+| Total                                   | 592          | 39.21%            |                                                                                          |
 
 Similar to its big brother, Game Boy Color only sees 16 titles out of its 255 game library with submissions of 20 or more. In total, **these 16 titles were submitted 731 times**, or **49% of all submissions**.
 
@@ -141,16 +151,21 @@ Break down by seal grades in 9.0 or higher:
 | Total     | 781    | 1181   | 176   | 23    | 5     | 1     | 0   |
 | %         | 25.92% | 39.20% | 5.84% | 0.76% | 0.17% | 0.03% | 0%  |
 
-And of course, the top five submitted games should surprise no one:
+And of course, the top 10 submitted games should surprise no one:
 
-| Title                      | Total Submitted | %      |
-| -------------------------- | --------------- | ------ |
-| Yu-Gi-Oh! The Sacred Cards | 86              | 2.85%  |
-| Pokémon LeafGreen Version  | 82              | 2.72%  |
-| Pokémon Emerald Version    | 81              | 2.69%  |
-| Pokémon Sapphire Version   | 81              | 2.69%  |
-| Pokémon FireRed Version    | 77              | 2.55%  |
-| Total                      | 407/3013        | 13.51% |
+| Title                                                   | Total Graded | % of Total Graded | Notable Figures                          |
+| ------------------------------------------------------- | ------------ | ----------------- | ---------------------------------------- |
+| Yu-Gi-Oh! The Sacred Cards                              | 86           | 2.85%             |                                          |
+| Pokémon LeafGreen Version                               | 82           | 2.72%             | \*33 "adapter" misprint, 2 "plays on DS" |
+| Pokémon Emerald Version                                 | 81           | 2.69%             | \*0 "plays on DS"                        |
+| Pokémon Sapphire Version                                | 81           | 2.69%             |                                          |
+| Pokémon FireRed Version                                 | 77           | 2.56%             | \*24 "adapter" misprint, 0 "plays on DS" |
+| Pokémon Mystery Dungeon: Red Rescue Team                | 74           | 2.46%             |                                          |
+| The Legend of Zelda: A Link to the Past and Four Swords | 70           | 2.32%             |                                          |
+| Pokemon Ruby Version                                    | 57           | 1.89%             |                                          |
+| Zelda II: The Adventure of Link (Classic NES Series)    | 52           | 1.73%             |                                          |
+| The Legend of Zelda: The Minish Cap                     | 48           | 1.59%             |                                          |
+| Total                                                   | 407          | 13.51%            |                                          |
 
 Interestingly, there are a couple dozen games in the top 50 that exceed 20 submissions each. There's simply a wider spread of popular games, it would seem.
 
@@ -166,4 +181,6 @@ If we're to take these numbers at face value, even considering the variance of s
 
 Next we'll look at NES, SNES, and N64. Stay tuned!\
 \
-(09/08/2022) Correction: Official Game Boy population data and resulting percentages have been corrected to show the correct submission count at **2485**.
+**(09/08/2022) Correction**: Official Game Boy population data and resulting percentages have been corrected to show the correct submission count at **2485**.
+
+**(09/17/2022) Update**: Expanded the "top submitted" games for each platform to 10 games, including notable figures for select games.
