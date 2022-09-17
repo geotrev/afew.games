@@ -75,18 +75,19 @@ Of interest for those unaware of how rare early print Nintendo games are, is the
 
 ## Super Nintendo Entertainment System (SNES)
 
-First, the high level seal grade breakdown
+First, the high level seal grade breakdow
 
-| A++          | 811  | 15.48%  |
-| ------------ | ---- | ------- |
-| A+           | 1998 | 38.14%  |
-| A            | 1643 | 31.36%  |
-| B+           | 573  | 10.94%  |
-| B            | 152  | 2.90%   |
-| C+           | 41   | 0.78%   |
-| C            | 4    | 0.08%   |
-| NS           | 17   | 0.32%   |
-| Total Graded | 5239 | 100.00% |
+| Seal Grade   | Total | % of Total |
+| ------------ | ----- | ---------- |
+| A++          | 811   | 15.48%     |
+| A++          | 1998  | 38.14%     |
+| A            | 1643  | 31.36%     |
+| B+           | 573   | 10.94%     |
+| B            | 152   | 2.90%      |
+| C+           | 41    | 0.78%      |
+| C            | 4     | 0.08%      |
+| NS           | 17    | 0.32%      |
+| Total Graded | 5239  | 100.00%    |
 
 The 9.0 and up box grades should look familiar:
 
@@ -160,7 +161,7 @@ Unlike its predecessors, only 54% of all games submitted received a 9.0 or bette
 
 And finally, the top 10:
 
-| Title                    | Total Graded | % of Total Graded |                                                                                                    |
+| Title                    | Total Graded | % of Total Graded | Notable Figures                                                                                    |
 | ------------------------ | ------------ | ----------------- | -------------------------------------------------------------------------------------------------- |
 | Gauntlet Legends         | 212          | 4.79%             | \*210 no figure variant, 55 9.8 A++, 55 9.6 A++; 2 total graded w/ figurine, 9.0 A+ highest graded |
 | The Legend of Zelda: OOT | 211          | 4.77%             | \*124 CE, 75 standard                                                                              |
