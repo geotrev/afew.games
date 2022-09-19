@@ -2,16 +2,12 @@ import propTypes from "prop-types"
 import cn from "classnames"
 import styles from "./styles.module.scss"
 
-// radius type
+// radius types
 const SQUIRCLE = "squircle"
 const ROUND = "round"
-// size
+// sizes
 const SM = "sm"
 const MD = "md"
-// visual type
-const BARE = "bare"
-// interactive type
-const SELECTED = "selected"
 
 export function Button(props) {
   const { type, bare, size, cornerType, selected, children, ...restProps } =
@@ -19,8 +15,8 @@ export function Button(props) {
   return (
     <button
       className={cn(styles.button, {
-        [styles[BARE]]: bare,
-        [styles[SELECTED]]: selected,
+        [styles.bare]: bare,
+        [styles.selected]: selected,
         [styles[cornerType]]: [SQUIRCLE, ROUND].includes(cornerType),
         [styles[size]]: [SM, MD].includes(size),
       })}
@@ -35,7 +31,7 @@ export function Button(props) {
 Button.defaultProps = {
   bare: false,
   type: "button",
-  size: "md",
+  size: MD,
   cornerType: SQUIRCLE,
 }
 
