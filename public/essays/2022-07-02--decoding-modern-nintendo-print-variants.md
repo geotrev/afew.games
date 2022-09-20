@@ -26,11 +26,11 @@ Let's explain these details a bit:
 
 ## Examples
 
-First, let's take a look at the anatomy of a UPC label on modern Nintendo games.
+First, let's take a look at the anatomy of a UPC label on modern Nintendo games. 
 
 ![Pokemon UltraMoon manufacturing and product info, highlighting the satellite and print codes.](/uploads/pokemon-ultra-moon-revision.jpg)
 
-You would read this as: **retail second print, made in Japan, distributed in USA.**
+Although you can't see the rest of the game, this is a standard retail version of *Pokemon UltraMoon*. Based on the info we already talked about, the B on the print code denotes this as a revision, aka the second printing of the retail copy. The 1 on the satellite code confirms that as well, in addition to its country of manufacture (Japan) and distribution (USA).
 
 Here are additional examples on various Nintendo consoles. It's always the same combination of data, but laid out slightly different.
 
@@ -41,6 +41,8 @@ Here are additional examples on various Nintendo consoles. It's always the same 
 *The Legend of Zelda: The Wind Waker*, retail first print, made in and distributed in USA.
 
 Something interesting of note on GameCube is that these print numbers didn't start until shortly after GameCube's launch. That's why you'll see release titles, such as Super Smash Bros. Melee, have only the satellite code.
+
+GameCube print codes are sometimes to the far left on the bottom, but occasionally are located right above the main UPC, under the "WARNING" label.
 
 ### Nintendo DS
 
