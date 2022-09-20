@@ -24,35 +24,31 @@ Let's explain these details a bit:
 * **Model Part # (MPN)**: Similar to the print code, this is a custom code used to track the game on the open market. What's useful for our purposes is that it also denotes the intended region of distribution, e.g., `USA` (USA specific), `USZ` (USA and Canada/Mexico), or `CAN` (Canada), to name a few.
 * **Region of manufacture**: The physical location the game was manufactured in. For many games, that's Japan. This should match the middle digit of the satellite code (`0` is USA, `1` is Japan), although there are exceptions (we'll cover that in a few moments). 
 
-## A Note About "First Prints"
-
-In media, the concept of a "first print" typically refers to the *original* release of an item, preorders included.
-
-While it might seem intuitive to say a "lower" print code (excluding the suffix) is the "earliest print" form of a given game, that's sadly not always accurate.
-
-The most important factor in the print is noting how the game was distributed and cross referencing that info to any dates on the packaging. For instance, if a game was distributed as part of a bundle at release, its print code won't match its correlating retail release form. As a result, both will have separate print codes and still be considered "first print."
-
-A great example of this is The Legend of Zelda: Breath of the Wild, which had three separate versions during its release in 2017: retail, Special Edition, and Master Edition. All of these are "first print" despite their slight design differences.
-
-At the end of the day, the print code is ultimately *both* a function of identifying a product and in keeping chronological reference between variants, and with the help of other data on the case, you can usually determine a logical order.
-
-Now, let's get to some examples!
-
 ## Examples
 
-First, let's take a look at the anatomy of a UPC label on modern Nintendo games.
+First, let's take a look at the anatomy of a UPC label on modern Nintendo games. 
 
 ![Pokemon UltraMoon manufacturing and product info, highlighting the satellite and print codes.](/uploads/pokemon-ultra-moon-revision.jpg)
 
-You would read this as: **retail second print, made in Japan, distributed in USA.**
+Although you can't see the rest of the game, this is a standard retail version of *Pokemon UltraMoon*. Based on the info we already talked about, the B on the print code denotes this as a revision, aka the second printing of the retail copy. The 1 on the satellite code confirms that as well, in addition to its country of manufacture (Japan) and distribution (USA).
 
 Here are additional examples on various Nintendo consoles. It's always the same combination of data, but laid out slightly different.
+
+### Nintendo GameCube
+
+![Nintendo GameCube print details on the back and bottom of the game.](/uploads/img-0048.jpg)
+
+*The Legend of Zelda: The Wind Waker*, retail first print, made in and distributed in USA.
+
+Something interesting of note on GameCube is that these print numbers didn't start until shortly after GameCube's launch. That's why you'll see release titles, such as Super Smash Bros. Melee, have only the satellite code.
+
+GameCube print codes are sometimes to the far left on the bottom, but occasionally are located right above the main UPC, under the "WARNING" label.
 
 ### Nintendo DS
 
 ![Nintendo DS print details aligned completely to the right of the UPC](/uploads/pokemon_white_2.jpg)
 
-Pokemon White 2 Version, retail first print, made in Japan, distributed in USA.
+*Pokemon White 2 Version*, retail first print, made in Japan, distributed in USA.
 
 ### Nintendo 3DS
 
@@ -78,13 +74,24 @@ Pokemon White 2 Version, retail first print, made in Japan, distributed in USA.
 
 *Super Smash Bros Ultimate* for Switch, retail first print, Made in Japan, distributed in Canada (see `CAN` MPN suffix). Notice that the print code here ends with `2A`, whereas on the USA print, it ends with `1A`.
 
+### Gotchas
+
+Although you might find a game that is the initial release, be careful: not all "first" prints are equal.
+
+An example gotcha here is *The Legend of Zelda: Breath of the Wild*. It had a standalone retail release in addition to a bundled NFR version, on March 3rd, 2017. The latter of which was actually *re-used* in the Explorer's Edition, which released on November 23rd, 2017.
+
+Another scenario to be careful about is when there are multiple printings of a game across countries. A good example here is Super Smash Bros Melee, where available [print dates on redump](http://redump.org/disc/6910/) indicate Japan had been manufacturing the game roughly one week ahead of the USA (11/2/2001 and 11/8/2001, respectively). The caveats here being: this data is limited to the dumps available, and Japan and USA pressings of the game overlap starting when the USA factories began operating.
+
+The takeaway here: always compare variants with the data available. Complete in box listings are great resources for this.
+
 ## Errors, Inconsistencies, and Bundles
 
 Like all things, there have been and will be exceptions/mistakes where...
 
 * A game is produced with the wrong info but the error was noticed too late in the production process, resulting in "error" copies. This can affect not just packaging details but the manufacturing data too (see examples below).
 * The "first print" never actually hits the open market because of a production issue, resulting in the "second" print being the true "first" print.
-* Third parties don't always respect Nintendo's print/satellite code pattern.
+* Third parties don't always respect the print code patterns on their first party game counterparts
+* "Mismatching" print codes on a limited edition outer box compared to the pack-in game; they do not always match!
 
 Let's look at some examples.
 
@@ -92,33 +99,31 @@ Let's look at some examples.
 
 ![Shows third-party published game missing satellite code and revision suffix on print code](/uploads/kingdom-hearts.jpg)
 
-On *Kingdom Hearts: 358/2 Days* for DS (third party developed and published), Square Enix omitted the revision suffix in the print code and entirely omitted the satellite code.
+On *Kingdom Hearts: 358/2 Days* for DS, third party publisher Square Enix omitted the revision suffix in the print code and entirely omitted the satellite code.
 
 ### "Missing" Print Code
 
 ![Shows Metroid Prime: Hunters second print; first print never left the factory, likely due to an error.](/uploads/metroid_prime_hunters.jpg)
 
-On *Metroid Prime: Hunters* for DS, Nintendo never printed a version of the game with the print code `57096A`, which means `57096B` is the "first" print.
+On *Metroid Prime: Hunters* for DS, Nintendo never printed a version of the game with the print code `57096A`, which means `57096B` is the "first" print. As far as I have found, the "A" code doesn't exist. Again, likely an error during production that was caught quickly and thrown out.
 
 ### Incorrect Codes
 
 ![Bayonetta 2 on Wii U has mismatching satellite code versus country of manufacture](/uploads/bayonetta-2-wii-u.jpg)
 
-On *Bayonetta 2* for Wii U (2nd party developed), there is a `00000` satellite code accompanied by "Made in USA." According to [ModernDB](https://www.instagram.com/Moderndatabase/), it was common for the developer to make this mistake on their games.
+On *Bayonetta 2* for Wii U (2nd party developed), there is a `00000` satellite code accompanied by "Made in USA." I asked [ModernDB](https://www.instagram.com/Moderndatabase/), and apparently the publisher made this error on multiple games around this time.
 
 ### Bundles
 
 ![Boxed Wii U game bundle has locale text and print code, but no satellite code](/uploads/super-smash-bros-wii-u-bundle.jpg)
 
-On *Super Smash Bros* for Wii U (the controller bundle version) there is no satellite code, however the game on the inside *will* have a satellite code along with a matching print code and "Not For Resale" printed somewhere near the UPC.
+On *Super Smash Bros* for Wii U (the controller bundle version) there is no satellite code, however the game on the inside *will* have a satellite code, with print code 83665A. Since it's a bundle it'll also say "Not For Resale," of course.
 
 The above pattern isn't a fast and hard rule for all bundles, though.
 
 For instance, Pokemon HeartGold and SoulSilver (Pokewalker bundle) have all the critical info on the outer box, but the game inside simply says "Not For Resale" and no UPCs or print codes to be seen, just an MPN.
 
-Another example of inconsistency is Super Mario Odyssey for Switch. It was released as a "Starter Pack" bundle about a year after its initial release. The print code on the box vs. the game is different (`108795A` on the box, `108807A` on the game).
-
-Ultimately, like all things in the world of commerce, your mileage may vary. To make matters more complicated, this information is likely to change in the future as inventory/product indexing methods advance.
+Ultimately, like all things in the world of data and commerce, your mileage may vary. To make matters more complicated, this information is likely to change in the future as inventory/product indexing methods advance.
 
 ## Conclusion
 
@@ -127,3 +132,5 @@ I hope this has been a helpful introduction to the concept of modern Nintendo ga
 Lastly, one more tip: I recommend perusing eBay to compile a list of print codes/variant data. There is a high chance the game you're interested in researching has dozens, if not hundreds of online listings.
 
 (09/09/2022) Correction: changed introduction to note print codes started with GameCube.
+
+(09/19/2022) Correction: specifies the correct pack-in print code for Super Smash Bros. for Wii U; Addition: adds GameCube game example and explainer; Addition: "Gotchas" section for first prints.
