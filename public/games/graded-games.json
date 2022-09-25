@@ -351,6 +351,12 @@
       "platform": "Switch",
       "games": [
         {
+          "name": "Super Mario 3D World + Bowser's Fury",
+          "grade": "9.8 A+",
+          "grader": "Wata",
+          "variant": "Y-Fold, Made in Japan, 113321A"
+        },
+        {
           "name": "Switch Lite (Dialga & Palkia Edition)",
           "grade": "90",
           "variant": "No Seal",
