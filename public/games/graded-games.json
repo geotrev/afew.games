@@ -515,6 +515,18 @@
       "platform": "PlayStation 2",
       "games": [
         {
+          "name": "Shadow of the Colossus",
+          "grade": "90",
+          "variant": "Y-Fold, Black Label",
+          "grader": "P1G"
+        },
+        {
+          "grader": "P1G",
+          "name": "Resident Evil 4",
+          "grade": "90",
+          "variant": "Y-Fold, Black Label, 2005 Re-Release"
+        },
+        {
           "variant": "Y-Fold, Black Label",
           "grade": "85",
           "name": "Kingdom Hearts II",
