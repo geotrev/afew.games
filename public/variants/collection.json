@@ -1,0 +1,35 @@
+{
+  "platforms": [
+    {
+      "platform": "GameCube",
+      "games": [
+        {
+          "name": "The Legend of Zelda: The Wind Waker",
+          "variants": [
+            {
+              "print_code": "50517A",
+              "satellite_code": "00000",
+              "country_manufactured": "Japan",
+              "mpn": "",
+              "notes": ""
+            },
+            {
+              "print_code": "50517B",
+              "satellite_code": "00001",
+              "country_manufactured": "Japan",
+              "mpn": "",
+              "notes": "Player's Choice"
+            },
+            {
+              "print_code": "50517B",
+              "satellite_code": "00001",
+              "country_manufactured": "Japan",
+              "mpn": "",
+              "notes": "Player's Choice"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

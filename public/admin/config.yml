@@ -31,7 +31,7 @@ collections:
     files:
       - label: "Graded Games"
         name: "graded_games"
-        file: "public/games/graded-games.json"
+        file: "public/games/collection.json"
         fields:
           - label: "Platforms"
             name: "platforms"
