@@ -67,4 +67,4 @@ collections:
                   - label: "Grader"
                     name: "grader"
                     widget: "select"
-                    options: ["Wata", "VGA"]
+                    options: ["Wata", "VGA", "CGC", "P1G"]
