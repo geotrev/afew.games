@@ -1,31 +1,775 @@
 {
   "platforms": [
     {
+      "platform": "DS",
+      "games": [
+        {
+          "name": "Metroid Prime Hunters",
+          "variants": [
+            {
+              "Print Code": "57096B",
+              "Satellite Code": "00001",
+              "Manufactured": "Japan",
+              "MPN": "USA",
+              "Notes": ""
+            },
+            {
+              "Print Code": "57096C",
+              "Satellite Code": "00002",
+              "Manufactured": "Japan",
+              "MPN": "USA",
+              "Notes": ""
+            },
+            {
+              "Print Code": "57102A",
+              "Satellite Code": "00000",
+              "Manufactured": "Japan",
+              "MPN": "CAN",
+              "Notes": "French Canadian"
+            },
+            {
+              "Print Code": "57102B",
+              "Satellite Code": "00001",
+              "Manufactured": "Japan",
+              "MPN": "CAN",
+              "Notes": "French Canadian"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "platform": "GameCube",
       "games": [
         {
-          "name": "The Legend of Zelda: The Wind Waker",
+          "name": "Luigi's Mansion",
           "variants": [
             {
-              "print_code": "50517A",
-              "satellite_code": "00000",
-              "country_manufactured": "Japan",
-              "mpn": "",
-              "notes": ""
+              "Print Code": "",
+              "Satellite Code": "00000",
+              "Manufactured": "Japan",
+              "MPN": "",
+              "Notes": "\"Uses 3 Blocks\" missing"
             },
             {
-              "print_code": "50517B",
-              "satellite_code": "00001",
-              "country_manufactured": "Japan",
-              "mpn": "",
-              "notes": "Player's Choice"
+              "Print Code": "",
+              "Satellite Code": "00000",
+              "Manufactured": "Japan",
+              "MPN": "",
+              "Notes": "\"Uses 3 Blocks\" missing, French Canadian"
             },
             {
-              "print_code": "50517B",
-              "satellite_code": "00001",
-              "country_manufactured": "Japan",
-              "mpn": "",
-              "notes": "Player's Choice"
+              "Print Code": "",
+              "Satellite Code": "00100",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "\"Uses 3 Blocks\" corrected"
+            },
+            {
+              "Print Code": "",
+              "Satellite Code": "00101",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": ""
+            },
+            {
+              "Print Code": "46179C",
+              "Satellite Code": "00102",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Mario Kart Double Dash",
+          "variants": [
+            {
+              "Print Code": "52955A",
+              "Satellite": "00100",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": ""
+            },
+            {
+              "Print Code": "53156A",
+              "Satellite": "00000",
+              "Manufactured": "Japan",
+              "MPN": "",
+              "Notes": "Preorder Bonus Disc"
+            }
+          ]
+        },
+        {
+          "name": "Metroid Prime",
+          "variants": [
+            {
+              "Print Code": "49689A",
+              "Satellite": "00000",
+              "Manufactured": "Japan",
+              "MPN": "",
+              "Notes": ""
+            },
+            {
+              "Print Code": "49688A",
+              "Satellite": "00100",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": ""
+            },
+            {
+              "Print Code": "49688B",
+              "Satellite": "00101",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "Player's Choice"
+            },
+            {
+              "Print Code": "49690A",
+              "Satellite": "00100",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "Best of Show E3 2002, French Canadian"
+            },
+            {
+              "Print Code": "49690B",
+              "Satellite": "00101",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "Player's Choice, Video Game of the Year, French Canadian"
+            },
+            {
+              "Print Code": "49692A",
+              "Satellite": "00100",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "NFR, K-Mart Exclusive, Wavebird Promo, front barcode"
+            },
+            {
+              "Print Code": "49830A",
+              "Satellite": "00100",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "Target coupons promo"
+            },
+            {
+              "Print Code": "55107A",
+              "Satellite": "00100",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "Metro Prime 2 Echoes bonus disc, RP-T rating"
+            },
+            {
+              "Print Code": "58069A",
+              "Satellite": "00100",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "NFR, Prime & Wind Waker 2-pack, E-T rating"
+            }
+          ]
+        },
+        {
+          "name": "Super Smash Bros Melee",
+          "variants": [
+            {
+              "Print Code": "",
+              "Satellite": "00000",
+              "Manufactured": "Japan",
+              "MPN": "",
+              "Notes": "Standard case, early Japan print start: 11/2/2001"
+            },
+            {
+              "Print Code": "",
+              "Satellite": "00000",
+              "Manufactured": "Japan",
+              "MPN": "",
+              "Notes": "Security case"
+            },
+            {
+              "Print Code": "46552B",
+              "Satellite": "00001",
+              "Manufactured": "Japan",
+              "MPN": "",
+              "Notes": "Best Seller"
+            },
+            {
+              "Print Code": "",
+              "Satellite": "00100",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "Early USA print start: 11/8/2001"
+            },
+            {
+              "Print Code": "46551B",
+              "Satellite": "00101",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "Player's Choice"
+            },
+            {
+              "Print Code": "46551C",
+              "Satellite": "00102",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "Best Seller"
+            },
+            {
+              "Print Code": "",
+              "Satellite": "00000",
+              "Manufactured": "Japan",
+              "MPN": "",
+              "Notes": "NFR (front), 2002 Indigo GameCube pack-in"
+            },
+            {
+              "Print Code": "58073A",
+              "Satellite": "00100",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "NFR (back), 2005 Platinum  Gamecube pack-in; Cross-referenced with disc"
+            },
+            {
+              "Print Code": "58074A",
+              "Satellite": "00100",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "NFR (back), French Canadian"
+            },
+            {
+              "Print Code": "",
+              "Satellite": "00000",
+              "Manufactured": "Japan",
+              "MPN": "",
+              "Notes": "French Canadian"
+            },
+            {
+              "Print Code": "46554B",
+              "Satellite": "00101",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "Player's Choice, French Canadian"
+            },
+            {
+              "Print Code": "46554C",
+              "Satellite": "00102",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "Best Seller, French Canadian"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda The Wind Waker",
+          "variants": [
+            {
+              "Print Code": "50517A",
+              "Satellite": "00000",
+              "Manufactured": "Japan",
+              "MPN": "",
+              "Notes": ""
+            },
+            {
+              "Print Code": "50517B",
+              "Satellite": "00001",
+              "Manufactured": "Japan",
+              "MPN": "",
+              "Notes": "Player's Choice"
+            },
+            {
+              "Print Code": "50516A",
+              "Satellite": "00100",
+              "Manufactured": "USA",
+              "MPN": "GZLE",
+              "Notes": ""
+            },
+            {
+              "Print Code": "50516B",
+              "Satellite": "00101",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "Player's Choice"
+            },
+            {
+              "Print Code": "50955A",
+              "Satellite": "00100",
+              "Manufactured": "USA",
+              "MPN": "YZL",
+              "Notes": "Rental Exclusive (e.g., blockbuster)"
+            },
+            {
+              "Print Code": "50954A",
+              "Satellite": "00100",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "K-Mart Exclusive"
+            },
+            {
+              "Print Code": "51061A",
+              "Satellite": "00100",
+              "Manufactured": "USA",
+              "MPN": "YZL",
+              "Notes": ""
+            },
+            {
+              "Print Code": "57818A",
+              "Satellite": "00100",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "Player's Choice"
+            },
+            {
+              "Print Code": "51021A",
+              "Satellite": "00100",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "Ocarina of Time & Master Quest bonus disc, NFR"
+            },
+            {
+              "Print Code": "58069A",
+              "Satellite": "00100",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "NFR, Metroid Prime & Wind Waker 2-pack, E-T rating"
+            },
+            {
+              "Print Code": "57581A",
+              "Satellite": "00100",
+              "Manufactured": "USA",
+              "MPN": "",
+              "Notes": "Player's Choice (French Canadian)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "Switch",
+      "games": [
+        {
+          "name": "Mario Kart 8 Deluxe",
+          "variants": [
+            {
+              "Print Code": "105278A",
+              "Satellite Code": "00000",
+              "Manufactured": "USA",
+              "MPN": "USA",
+              "Notes": ""
+            },
+            {
+              "Print Code": "105278B",
+              "Satellite Code": "00001",
+              "Manufactured": "USA",
+              "MPN": "USA",
+              "Notes": ""
+            },
+            {
+              "Print Code": "105278C",
+              "Satellite Code": "00002",
+              "Manufactured": "USA",
+              "MPN": "USA",
+              "Notes": "English & Spanish"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Odyssey",
+          "variants": [
+            {
+              "Print Code": "105882A",
+              "Satellite Code": "00000",
+              "Manufactured": "Japan",
+              "MPN": "USA",
+              "Notes": "English & Spanish"
+            },
+            {
+              "Print Code": "105882A",
+              "Satellite Code": "00001",
+              "Manufactured": "Japan",
+              "MPN": "USA",
+              "Notes": "English & Spanish"
+            },
+            {
+              "Print Code": "105882C",
+              "Satellite Code": "00002",
+              "Manufactured": "Japan",
+              "MPN": "USA",
+              "Notes": "English & Spanish"
+            },
+            {
+              "Print Code": "108795A",
+              "Satellite Code": "",
+              "Manufactured": "Japan",
+              "MPN": "USZ",
+              "Notes": "\"Starter Pack\" box (English & Spanish)"
+            },
+            {
+              "Print Code": "108807A",
+              "Satellite Code": "00000",
+              "Manufactured": "Japan",
+              "MPN": "",
+              "Notes": "\"Starter Pack\" pack-in, NFR (English & Spanish)"
+            }
+          ]
+        },
+        {
+          "name": "Super Smash Bros Ultimate",
+          "variants": [
+            {
+              "Print Code": "108491A",
+              "Satellite Code": "00000",
+              "Manufactured": "Japan",
+              "MPN": "USA",
+              "Notes": "English & Spanish"
+            },
+            {
+              "Print Code": "108491B",
+              "Satellite Code": "00001",
+              "Manufactured": "Japan",
+              "MPN": "USA",
+              "Notes": "English & Spanish"
+            },
+            {
+              "Print Code": "108613A",
+              "Satellite Code": "",
+              "Manufactured": "Japan",
+              "MPN": "USZ",
+              "Notes": "\"Ultimate Edition\" bundle (English, Spanish & French)"
+            },
+            {
+              "Print Code": "108492A",
+              "Satellite Code": "00000",
+              "Manufactured": "Japan",
+              "MPN": "CAN",
+              "Notes": "French Canadian"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda Breath of the Wild",
+          "variants": [
+            {
+              "Print Code": "105211A",
+              "Satellite Code": "00000",
+              "Manufactured": "Japan",
+              "MPN": "USA",
+              "Notes": ""
+            },
+            {
+              "Print Code": "105211B",
+              "Satellite Code": "00001",
+              "Manufactured": "Japan",
+              "MPN": "USA",
+              "Notes": "English & Spanish ESRB (front)"
+            },
+            {
+              "Print Code": "105252A",
+              "Satellite Code": "00000",
+              "Manufactured": "Japan",
+              "MPN": "USA",
+              "Notes": "Master Edition, Special Edition, Explorer's Edition (pack-in); no ESRB, no MPN, NFR (March 3, 2017; Explorer's Edition: Nov 23, 2017)"
+            },
+            {
+              "Print Code": "105212A",
+              "Satellite Code": "00000",
+              "Manufactured": "Japan",
+              "MPN": "CAN",
+              "Notes": "French Canadian"
+            },
+            {
+              "Print Code": "105212B",
+              "Satellite Code": "00001",
+              "Manufactured": "Japan",
+              "MPN": "CAN",
+              "Notes": "French Canadian"
+            },
+            {
+              "Print Code": "108492A",
+              "Satellite Code": "00000",
+              "Manufactured": "Japan",
+              "MPN": "CAN",
+              "Notes": "French Canadian"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "Wii",
+      "games": [
+        {
+          "name": "Super Smash Bros Brawl",
+          "variants": [
+            {
+              "Print Code": "64279A",
+              "Satellite Code": "00000",
+              "Manufactured": "Japan",
+              "MPN": "USA",
+              "Notes": "Wi-Fi Logo"
+            },
+            {
+              "Print Code": "64279B",
+              "Satellite Code": "00001",
+              "Manufactured": "Japan",
+              "MPN": "USA",
+              "Notes": "No Wi-Fi logo, White ESRB"
+            },
+            {
+              "Print Code": "64278A",
+              "Satellite Code": "00100",
+              "Manufactured": "USA",
+              "MPN": "USA",
+              "Notes": "Wi-Fi logo"
+            },
+            {
+              "Print Code": "64278B",
+              "Satellite Code": "00101",
+              "Manufactured": "USA",
+              "MPN": "USA",
+              "Notes": "Wi-Fi logo, Fighting Game of the Year"
+            },
+            {
+              "Print Code": "64278C",
+              "Satellite Code": "00102",
+              "Manufactured": "USA",
+              "MPN": "USA",
+              "Notes": "Wi-Fi logo"
+            },
+            {
+              "Print Code": "64278D",
+              "Satellite Code": "00103",
+              "Manufactured": "USA",
+              "MPN": "USA",
+              "Notes": "No Wi-Fi logo, White ESRB"
+            },
+            {
+              "Print Code": "77615A",
+              "Satellite Code": "00100",
+              "Manufactured": "USA",
+              "MPN": "USA",
+              "Notes": "Wi-Fi logo"
+            },
+            {
+              "Print Code": "77615B",
+              "Satellite Code": "00101",
+              "Manufactured": "USA",
+              "MPN": "USA",
+              "Notes": "No Wi-Fi logo, White ESRB"
+            },
+            {
+              "Print Code": "65591A",
+              "Satellite Code": "00100",
+              "Manufactured": "USA",
+              "MPN": "CAN",
+              "Notes": "Wi-Fi logo"
+            },
+            {
+              "Print Code": "65591B",
+              "Satellite Code": "00101",
+              "Manufactured": "USA",
+              "MPN": "CAN",
+              "Notes": "Wi-Fi logo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "Wii U",
+      "games": [
+        {
+          "name": "Bayonetta 2",
+          "variants": [
+            {
+              "Print Code": "83663A",
+              "Satellite Code": "00000",
+              "Manufactured": "USA",
+              "MPN": "USZ",
+              "Notes": "Satellite code error, includes Bayonetta 1"
+            },
+            {
+              "Print Code": "83663B",
+              "Satellite Code": "00100",
+              "Manufactured": "USA",
+              "MPN": "USZ",
+              "Notes": "Includes Bayonetta 1"
+            },
+            {
+              "Print Code": "100178A",
+              "Satellite Code": "00100",
+              "Manufactured": "USA",
+              "MPN": "USZ",
+              "Notes": "Includes Bayonetta 1"
+            },
+            {
+              "Print Code": "103567A",
+              "Satellite Code": "00000",
+              "Manufactured": "Japan",
+              "MPN": "USZ",
+              "Notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Mario Kart 8",
+          "variants": [
+            {
+              "Print Code": "82909A",
+              "Satellite Code": "00100",
+              "Manufactured": "USA",
+              "MPN": "USZ",
+              "Notes": "Nintendo Network badge"
+            },
+            {
+              "Print Code": "82909B",
+              "Satellite Code": "00101",
+              "Manufactured": "USA",
+              "MPN": "USZ",
+              "Notes": "Nintendo Network badge"
+            },
+            {
+              "Print Code": "83055A",
+              "Satellite Code": "00100",
+              "Manufactured": "USA",
+              "MPN": "USZ",
+              "Notes": "Nintendo Network badge, NFR (2014 Wii U 32GB + Mario Kart 8 \"Deluxe Set\")"
+            },
+            {
+              "Print Code": "101514A",
+              "Satellite Code": "00100",
+              "Manufactured": "USA",
+              "MPN": "USZ",
+              "Notes": "\"amiibo\" badge, \"amiibo\" no TM"
+            },
+            {
+              "Print Code": "101979A",
+              "Satellite Code": "00000",
+              "Manufactured": "Japan",
+              "MPN": "USZ",
+              "Notes": "\"amiibo\" badge, \"amiibo\" with TM"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario 3D World",
+          "variants": [
+            {
+              "Print Code": "81224A",
+              "Satellite Code": "00100",
+              "Manufactured": "USA",
+              "MPN": "USZ",
+              "Notes": "English, French & Spanish"
+            },
+            {
+              "Print Code": "81224C",
+              "Satellite Code": "00102",
+              "Manufactured": "USA",
+              "MPN": "USZ",
+              "Notes": "Red Case, Family Game of the Year Badge (English, French & Spanish)"
+            },
+            {
+              "Print Code": "101973A",
+              "Satellite Code": "00000",
+              "Manufactured": "Japan",
+              "MPN": "USZ",
+              "Notes": "Red Case (English, French & Spanish)"
+            },
+            {
+              "Print Code": "100420A",
+              "Satellite Code": "00100",
+              "Manufactured": "USA",
+              "MPN": "USZ",
+              "Notes": "Red Case, NFR (English, French & Spanish)"
+            },
+            {
+              "Print Code": "103634A",
+              "Satellite Code": "00000",
+              "Manufactured": "Japan",
+              "MPN": "USZ",
+              "Notes": "Nintendo Selects (English, French & Spanish)"
+            }
+          ]
+        },
+        {
+          "name": "Super Smash Bros For Wii U",
+          "variants": [
+            {
+              "Print Code": "83664A",
+              "Satellite Code": "00100",
+              "Manufactured": "USA",
+              "MPN": "USZ",
+              "Notes": ""
+            },
+            {
+              "Print Code": "100201A",
+              "Satellite Code": "N/A",
+              "Manufactured": "USA",
+              "MPN": "USA",
+              "Notes": "Controller w/ Adapter bundle box, limited edition first print"
+            },
+            {
+              "Print Code": "83665A",
+              "Satellite Code": "00100",
+              "Manufactured": "USA",
+              "MPN": "N/A",
+              "Notes": "Controller w/ Adapter bundle pack-in, NFR, first print"
+            },
+            {
+              "Print Code": "101842A",
+              "Satellite Code": "00100",
+              "Manufactured": "USA",
+              "MPN": "USZ",
+              "Notes": "\"Read/Write\" text"
+            },
+            {
+              "Print Code": "101986A",
+              "Satellite Code": "00000",
+              "Manufactured": "Japan",
+              "MPN": "USZ",
+              "Notes": "\"Read/Write\" text"
+            },
+            {
+              "Print Code": "101986B",
+              "Satellite Code": "00001",
+              "Manufactured": "Japan",
+              "MPN": "USZ",
+              "Notes": "\"Read/Write\" text"
+            },
+            {
+              "Print Code": "101986C",
+              "Satellite Code": "00002",
+              "Manufactured": "Japan",
+              "MPN": "USZ",
+              "Notes": "\"Read/Write\" text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "Xbox 360",
+      "games": [
+        {
+          "name": "Dishonored",
+          "variants": [
+            {
+              "Print Code": "793WR",
+              "Satellite Code": "",
+              "Manufactured": "",
+              "MPN": "",
+              "Notes": "2012, Made in Mexico sticker"
+            },
+            {
+              "Print Code": "793WR",
+              "Satellite Code": "",
+              "Manufactured": "",
+              "MPN": "",
+              "Notes": "2012, Made in Mexico stamp"
+            },
+            {
+              "Print Code": "892WR",
+              "Satellite Code": "",
+              "Manufactured": "",
+              "MPN": "",
+              "Notes": "2013, Slip cover, Game of the Year Edition"
             }
           ]
         }

@@ -68,3 +68,63 @@ collections:
                     name: "grader"
                     widget: "select"
                     options: ["Wata", "VGA", "CGC", "P1G"]
+  - name: "database"
+    label: "Database"
+    files:
+      - label: "Print Variants"
+        name: "print_variants"
+        file: "public/variants/collection.json"
+        fields:
+          - label: "Platforms"
+            name: "platforms"
+            widget: "list"
+            label_singular: "Platform"
+            allow_add: true
+            add_to_top: true
+            collapsed: true
+            summary: "{{fields.platform}}"
+            fields:
+              - label: "Platform"
+                name: "platform"
+                widget: "string"
+              - label: "Games"
+                name: "games"
+                widget: "list"
+                label_singular: "Game"
+                allow_add: true
+                add_to_top: true
+                collapsed: true
+                summary: "{{fields.name}}"
+                fields:
+                  - label: "Name"
+                    name: "name"
+                    widget: "string"
+                  - label: "Variants"
+                    name: "variants"
+                    widget: "list"
+                    label_singular: "Game"
+                    allow_add: true
+                    add_to_top: true
+                    collapsed: true
+                    fields:
+                      - label: "Print Code"
+                        name: "print_code"
+                        required: false
+                        widget: "string"
+                      - label: "Satellite Code"
+                        name: "satellite_code"
+                        required: false
+                        widget: "string"
+                      - label: "Manufactured"
+                        name: "manufactured"
+                        widget: "select"
+                        required: false
+                        options: ["USA", "Japan", "Mexico"]
+                      - label: "MPN"
+                        name: "mpn"
+                        required: false
+                        widget: "string"
+                      - label: "Notes"
+                        name: "notes"
+                        required: false
+                        widget: "string"
