@@ -102,7 +102,7 @@ collections:
                   - label: "Variants"
                     name: "variants"
                     widget: "list"
-                    label_singular: "Game"
+                    label_singular: "Variant"
                     allow_add: true
                     add_to_top: true
                     collapsed: true
@@ -127,4 +127,4 @@ collections:
                       - label: "Notes"
                         name: "notes"
                         required: false
-                        widget: "string"
+                        widget: "text"
