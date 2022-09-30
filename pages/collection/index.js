@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect } from "react"
 import { debounce } from "lodash-es"
 import propTypes from "prop-types"
-import gamesData from "public/games/graded-games.json"
+import gamesData from "public/games/collection.json"
 import { flattenObjectValues, sortByKey } from "lib/helpers"
 import { PageHeading, Layout } from "components/global"
 import { CollectionList, CollectionFilter, Search } from "components/collection"
