@@ -351,18 +351,6 @@
       "platform": "Switch",
       "games": [
         {
-          "name": "The Legend of Zelda: Breath of the Wild",
-          "grade": "9.2 A+",
-          "variant": "Y-Fold, Made in Japan, 105211A",
-          "grader": "Wata"
-        },
-        {
-          "name": "Super Mario 3D World + Bowser's Fury",
-          "grade": "9.8 A+",
-          "grader": "Wata",
-          "variant": "Y-Fold, Made in Japan, 113321A"
-        },
-        {
           "name": "Switch Lite (Dialga & Palkia Edition)",
           "grade": "90",
           "variant": "No Seal",
@@ -421,6 +409,18 @@
           "grade": "95",
           "variant": "Y-Fold, 107775A",
           "grader": "VGA"
+        },
+        {
+          "name": "Super Mario 3D World + Bowser's Fury",
+          "grade": "9.8 A+",
+          "grader": "Wata",
+          "variant": "Y-Fold, Made in Japan, 113321A"
+        },
+        {
+          "name": "The Legend of Zelda: Breath of the Wild",
+          "grade": "9.2 A+",
+          "variant": "Y-Fold, Made in Japan, 105211A",
+          "grader": "Wata"
         },
         {
           "name": "Super Smash Bros. Ultimate",
@@ -531,12 +531,6 @@
           "name": "Resident Evil 4",
           "grade": "90",
           "variant": "Y-Fold, Black Label, 2005 Re-Release"
-        },
-        {
-          "variant": "Y-Fold, Black Label",
-          "grade": "85",
-          "name": "Kingdom Hearts II",
-          "grader": "VGA"
         },
         {
           "name": "Shadow of the Colossus",
