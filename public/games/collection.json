@@ -351,6 +351,12 @@
       "platform": "Switch",
       "games": [
         {
+          "name": "The Legend of Zelda: Breath of the Wild",
+          "grade": "9.2 A+",
+          "variant": "Y-Fold, Made in Japan, 105211A",
+          "grader": "Wata"
+        },
+        {
           "name": "Super Mario 3D World + Bowser's Fury",
           "grade": "9.8 A+",
           "grader": "Wata",
