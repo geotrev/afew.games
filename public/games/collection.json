@@ -239,18 +239,6 @@
       "platform": "DS",
       "games": [
         {
-          "name": "Pokemon SoulSilver",
-          "grade": "85+",
-          "variant": "Sticker Seal, Walmart Limited w/ Figure & Jacket",
-          "grader": "VGA"
-        },
-        {
-          "name": "Pokemon Mystery Dungeon: Explorers of Time",
-          "grade": "85+",
-          "variant": "Y-Fold",
-          "grader": "VGA"
-        },
-        {
           "name": "Pokemon Platinum",
           "grade": "85+",
           "variant": "Y-Fold",
@@ -266,12 +254,6 @@
           "name": "Pokemon Diamond",
           "grade": "85",
           "variant": "Y-Fold",
-          "grader": "VGA"
-        },
-        {
-          "name": "Pokemon SoulSilver Version",
-          "grade": "90",
-          "variant": "W/ PokeWalker Accessory, 70208A",
           "grader": "VGA"
         },
         {
@@ -526,12 +508,6 @@
     {
       "platform": "PlayStation 2",
       "games": [
-        {
-          "name": "Shadow of the Colossus",
-          "grade": "90",
-          "variant": "Y-Fold, Black Label",
-          "grader": "P1G"
-        },
         {
           "grader": "P1G",
           "name": "Resident Evil 4",
