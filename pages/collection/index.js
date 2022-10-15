@@ -19,6 +19,7 @@ export default function Collection({ games, queryData }) {
     (acc, p) => (p.selected ? [...acc, p.value] : acc),
     []
   )
+  let gameCount = 0
 
   const handleChange = useCallback(
     (e) => {
@@ -92,6 +93,9 @@ export default function Collection({ games, queryData }) {
     selectedPlatforms,
   ])
 
+  const filteredGames = filterGames()
+  filteredGames.forEach((p) => (gameCount += p.games.length))
+
   function renderCollectionLists(p) {
     return (
       <CollectionList
@@ -113,12 +117,8 @@ export default function Collection({ games, queryData }) {
     )
   }
 
-  const filteredGames = filterGames()
-  let count = 0
-  filteredGames.forEach((p) => (count += p.games.length))
-
   function renderGameLists() {
-    if (count === 0) {
+    if (gameCount === 0) {
       return <p>No matches found, sorry.</p>
     }
 
@@ -130,7 +130,7 @@ export default function Collection({ games, queryData }) {
       <PageHeading
         heading="Collection"
         subheading={`There ${
-          count === 1 ? `is 1 game` : `are ${count} games`
+          gameCount === 1 ? `is 1 game` : `are ${gameCount} games`
         } down yonder.`}
         liveSubheading
       />

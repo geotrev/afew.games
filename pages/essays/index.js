@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react"
+import { useEffect, useCallback, useRef } from "react"
 import { debounce } from "lodash-es"
 import { getEssayList } from "lib/get-essay-list"
 import { useFetchEssays } from "hooks/use-fetch-essays"
@@ -34,32 +34,34 @@ export default function Essays({ initialData }) {
     list.removeAttribute("tabindex")
   }, [data.index])
 
-  function onPreviousClick() {
+  const onPreviousClick = useCallback(() => {
     if (data.index === 0) return
     setData(data.index - 1)
-  }
+  }, [data.index, setData])
 
-  function onPageClick(e) {
-    const targetPageIdx = parseInt(e.target.innerText, 10) - 1
-    if (data.index === targetPageIdx) return
-    setData(targetPageIdx)
-  }
+  const onPageClick = useCallback(
+    (e) => {
+      const targetPageIdx = parseInt(e.target.innerText, 10) - 1
+      if (data.index === targetPageIdx) return
+      setData(targetPageIdx)
+    },
+    [data.index, setData]
+  )
 
-  function onNextClick() {
-    const nextPageIdx = data.index + 1
+  const onNextClick = useCallback(() => {
     if (data.index === data.totalPages - 1) return
-    setData(nextPageIdx)
-  }
+    setData(data.index + 1)
+  }, [data.index, data.totalPages, setData])
 
-  function onFirstPageClick() {
+  const onFirstPageClick = useCallback(() => {
     if (data.index === 0) return
     setData(0)
-  }
+  }, [data.index, setData])
 
-  function onLastPageClick() {
+  const onLastPageClick = useCallback(() => {
     if (data.index === data.totalPages - 1) return
     setData(data.totalPages - 1)
-  }
+  }, [data.index, data.totalPages, setData])
 
   return (
     <Layout>
