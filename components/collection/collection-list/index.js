@@ -79,7 +79,7 @@ CollectionList.propTypes = {
       name: propTypes.string,
       variant: propTypes.string,
       grade: propTypes.string,
-      grader: propTypes.oneOf(["Wata", "VGA"]),
+      grader: propTypes.oneOf(["Wata", "VGA", "CGC", "P1G"]),
     })
   ),
   label: propTypes.string,

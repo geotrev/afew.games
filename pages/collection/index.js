@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from "react"
+import { useState, useMemo, useCallback } from "react"
 import { debounce } from "lodash-es"
 import propTypes from "prop-types"
 import gamesData from "public/games/collection.json"
@@ -12,7 +12,7 @@ export default function Collection({ games, queryData }) {
   const [filterPlatforms, setFilterPlatforms] = useState(
     games.map((p) => ({ value: p.platform, selected: false }))
   )
-  const debouncedFilterValue = useMemo(() => debounce(setFilterValue, 200), [])
+  const debouncedFilterValue = useMemo(() => debounce(setFilterValue, 300), [])
   const allSelected = filterPlatforms.every((p) => p.selected)
   const noneSelected = filterPlatforms.every((p) => !p.selected)
   const selectedPlatforms = filterPlatforms.reduce(
@@ -20,36 +20,39 @@ export default function Collection({ games, queryData }) {
     []
   )
 
-  useEffect(() => {
-    debouncedFilterValue(searchValue)
-  }, [debouncedFilterValue, searchValue])
+  const handleChange = useCallback(
+    (e) => {
+      setSearchValue(e.target.value)
+      debouncedFilterValue(e.target.value)
+    },
+    [debouncedFilterValue]
+  )
 
-  function handleChange(e) {
-    setSearchValue(e.target.value)
-  }
-
-  function handlePillClick(e) {
-    const platform = e.target.dataset.itemValue
-    setFilterPlatforms(
-      filterPlatforms.map((p) =>
-        p.value === platform ? { ...p, selected: !p.selected } : p
+  const handlePillClick = useCallback(
+    (e) => {
+      const platform = e.target.dataset.itemValue
+      setFilterPlatforms(
+        filterPlatforms.map((p) =>
+          p.value === platform ? { ...p, selected: !p.selected } : p
+        )
       )
-    )
-  }
+    },
+    [filterPlatforms]
+  )
 
-  function handlePillReset() {
+  const handlePillReset = useCallback(() => {
     if (noneSelected) return
     const filteredPlatforms = filterPlatforms.map((p) => ({
       ...p,
       selected: false,
     }))
     setFilterPlatforms(filteredPlatforms)
-  }
+  }, [filterPlatforms, noneSelected])
 
   // Reduce the games in the list based on:
   // 1. Search query
   // 2. Selected platforms
-  function filterGames() {
+  const filterGames = useCallback(() => {
     const query = filterValue.toLowerCase()
     if (!filterValue && allSelected) return games
 
@@ -80,7 +83,14 @@ export default function Collection({ games, queryData }) {
       acc.push(filteredEntry)
       return acc
     }, [])
-  }
+  }, [
+    allSelected,
+    noneSelected,
+    filterValue,
+    games,
+    queryData,
+    selectedPlatforms,
+  ])
 
   function renderCollectionLists(p) {
     return (
@@ -140,7 +150,7 @@ Collection.propTypes = {
           name: propTypes.string,
           variant: propTypes.string,
           grade: propTypes.string,
-          grader: propTypes.oneOf(["Wata", "VGA"]),
+          grader: propTypes.oneOf(["Wata", "VGA", "CGC", "P1G"]),
         })
       ),
     })
