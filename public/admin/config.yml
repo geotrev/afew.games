@@ -28,6 +28,8 @@ collections:
         widget: "markdown"
   - name: "games"
     label: "Games"
+    editor:
+      preview: false
     files:
       - label: "Graded Games"
         name: "graded_games"
@@ -70,6 +72,8 @@ collections:
                     options: ["Wata", "VGA", "CGC", "P1G"]
   - name: "database"
     label: "Database"
+    editor:
+      preview: false
     files:
       - label: "Print Variants"
         name: "print_variants"
