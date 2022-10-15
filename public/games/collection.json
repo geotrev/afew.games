@@ -10,10 +10,22 @@
           "grader": "VGA"
         },
         {
-          "name": "Mega Man Battle Network",
-          "grade": "9.8 A++",
-          "variant": "H-Seam, Made in Japan",
-          "grader": "Wata"
+          "name": "Mega Man Zero 2",
+          "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
+          "grader": "Wata",
+          "grade": "9.6 A+"
+        },
+        {
+          "name": "Mega Man Zero 3",
+          "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
+          "grader": "Wata",
+          "grade": "9.2 A+"
+        },
+        {
+          "name": "Mega Man Zero 4",
+          "variant": "3-Side Seam, Made in Japan, E Rating, Double-Ended box, UPC Sticker (USA Code)",
+          "grader": "Wata",
+          "grade": "9.4 A++"
         },
         {
           "name": "Mega Man Battle Network",
@@ -22,10 +34,34 @@
           "grader": "VGA"
         },
         {
+          "name": "Mega Man Battle Network",
+          "grade": "9.8 A++",
+          "variant": "H-Seam, Made in Japan",
+          "grader": "Wata"
+        },
+        {
+          "name": "Mega Man Battle Network 2",
+          "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
+          "grader": "Wata",
+          "grade": "9.8 A+"
+        },
+        {
+          "name": "Mega Man Battle Network 3: White Version",
+          "variant": "H-Seam, Y-Fold Box, Made In Japan, White Cover",
+          "grader": "Wata",
+          "grade": "9.8 A+"
+        },
+        {
           "name": "Mega Man Battle Network 5: Team Protoman",
           "variant": "3-Side Seam, Double-Ended Box, Made in Japan, \"Toys R Us\" Sticker",
           "grader": "Wata",
           "grade": "9.8 A+"
+        },
+        {
+          "name": "Mega Man Battle Network 3: Blue",
+          "variant": "3-Side Seam, Made in Japan, E Rating, 83% Fiber, Double-Ended box (USA Code)",
+          "grader": "Wata",
+          "grade": "9.6 A+"
         },
         {
           "name": "Mega Man Battle Network 5: Team Colonel",
@@ -46,26 +82,26 @@
           "grade": "9.4 A+"
         },
         {
+          "name": "Mega Man Battle Network 6: Cybeast Falzar",
+          "variant": "3-Side Seam, Works With DS sticker, Made in Japan, E Rating, Double-Ended box (USA Code)",
+          "grader": "Wata",
+          "grade": "9.2 A+"
+        },
+        {
+          "name": "Mega Man Battle Network 6: Cybeast Gregar",
+          "variant": "3-Side Seam, Made in Japan, E Rating, Double-Ended box (USA Code)",
+          "grader": "Wata",
+          "grade": "9.4 A+"
+        },
+        {
           "name": "Mega Man Battle Chip Challenge",
           "variant": "3-Side Seam, Double-Ended Box, Made in Japan",
           "grader": "Wata",
           "grade": "9.6 A+"
         },
         {
-          "name": "Mega Man Battle Network 3: White Version",
-          "variant": "H-Seam, Y-Fold Box, Made In Japan, White Cover",
-          "grader": "Wata",
-          "grade": "9.8 A+"
-        },
-        {
-          "name": "Golden Sun: The Lost age",
-          "variant": "H-seam, Made in Japan",
-          "grader": "Wata",
-          "grade": "9.8 A+"
-        },
-        {
-          "name": "Super Mario Advance 4: Super Mario Bros 3",
-          "variant": "W/ Two Bonus Level Cards",
+          "name": "Mega Man & Bass",
+          "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber, Y-Fold box (USA Code)",
           "grader": "Wata",
           "grade": "9.6 A++"
         },
@@ -76,28 +112,10 @@
           "grade": "9.8 A++"
         },
         {
-          "name": "Mega Man Battle Network 2",
-          "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
+          "name": "Golden Sun: The Lost age",
+          "variant": "H-seam, Made in Japan",
           "grader": "Wata",
           "grade": "9.8 A+"
-        },
-        {
-          "name": "Mega Man & Bass",
-          "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber, Y-Fold box (USA Code)",
-          "grader": "Wata",
-          "grade": "9.6 A++"
-        },
-        {
-          "name": "Mega Man Battle Network 3: Blue",
-          "variant": "3-Side Seam, Made in Japan, E Rating, 83% Fiber, Double-Ended box (USA Code)",
-          "grader": "Wata",
-          "grade": "9.6 A+"
-        },
-        {
-          "name": "Mega Man Zero 2",
-          "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
-          "grader": "Wata",
-          "grade": "9.6 A+"
         },
         {
           "name": "Metroid Fusion",
@@ -106,46 +124,40 @@
           "grade": "9.6 A+"
         },
         {
+          "name": "Metroid: Zero Mission",
+          "grade": "9.6 A++",
+          "variant": "H-Seam, Made in Japan",
+          "grader": "Wata"
+        },
+        {
           "name": "Super Mario Advance",
           "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
           "grader": "Wata",
           "grade": "9.6 A+"
         },
         {
+          "name": "Super Mario Advance 4: Super Mario Bros 3",
+          "variant": "W/ Two Bonus Level Cards",
+          "grader": "Wata",
+          "grade": "9.6 A++"
+        },
+        {
           "name": "Kingdom Hearts: Chain of Memories",
           "variant": "3-Side Seam, Made in Japan, E Rating, Double-Ended Box (USA Code)",
           "grader": "Wata",
           "grade": "9.8 A++"
-        },
-        {
-          "name": "Mega Man Zero 4",
-          "variant": "3-Side Seam, Made in Japan, E Rating, Double-Ended box, UPC Sticker (USA Code)",
-          "grader": "Wata",
-          "grade": "9.4 A++"
-        },
-        {
-          "name": "Mega Man Battle Network 6: Cybeast Gregar",
-          "variant": "3-Side Seam, Made in Japan, E Rating, Double-Ended box (USA Code)",
-          "grader": "Wata",
-          "grade": "9.4 A+"
-        },
-        {
-          "name": "Mega Man Zero 3",
-          "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
-          "grader": "Wata",
-          "grade": "9.2 A+"
-        },
-        {
-          "name": "Mega Man Battle Network 6: Cybeast Falzar",
-          "variant": "3-Side Seam, Works With DS sticker, Made in Japan, E Rating, Double-Ended box (USA Code)",
-          "grader": "Wata",
-          "grade": "9.2 A+"
         }
       ]
     },
     {
       "platform": "Game Boy Color",
       "games": [
+        {
+          "name": "The Legend of Zelda: Oracle of Ages",
+          "grade": "9.4 A+",
+          "variant": "H-Seam, Made in Japan, Foil, Seal applied 90 degrees rotated",
+          "grader": "Wata"
+        },
         {
           "name": "Pokemon Crystal",
           "grade": "95",
@@ -215,6 +227,12 @@
     {
       "platform": "N64",
       "games": [
+        {
+          "name": "Pocket Monsters' Stadium: Gold and Silver",
+          "grade": "9.8 NS",
+          "variant": "NS, Made in Japan, Unopened",
+          "grader": "Wata"
+        },
         {
           "name": "Hey You, Pikachu!",
           "grade": "85+",
