@@ -1,5 +1,5 @@
-.next/
 node_modules/
+.next/
 out/
 /npm-debug.log
 .DS_Store
@@ -10,3 +10,7 @@ out/
 
 # Locally generated content for development
 .seed
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

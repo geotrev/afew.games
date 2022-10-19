@@ -6,7 +6,8 @@
       "components/*": ["components/*"],
       "hooks/*": ["hooks/*"],
       "lib": ["lib/*"],
-      "public": ["public/*"]
+      "public": ["public/*"],
+      "types": ["types/*"]
     }
   }
 }

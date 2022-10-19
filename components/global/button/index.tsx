@@ -1,0 +1,48 @@
+import propTypes from "prop-types"
+import cn from "classnames"
+import styles from "./styles.module.scss"
+import { ButtonProps } from "./types"
+
+// radius types
+const SQUIRCLE = "squircle"
+const ROUND = "round"
+// sizes
+const SM = "sm"
+const MD = "md"
+
+export function Button(props: ButtonProps) {
+  const { type, bare, size, cornerType, selected, children, ...restProps } =
+    props
+  return (
+    <button
+      className={cn(styles.button, {
+        [styles.bare]: bare,
+        [styles.selected]: selected,
+        [styles[cornerType as string]]: [SQUIRCLE, ROUND].includes(
+          cornerType as string
+        ),
+        [styles[size as string]]: [SM, MD].includes(size as string),
+      })}
+      type={type}
+      {...restProps}
+    >
+      {children}
+    </button>
+  )
+}
+
+Button.defaultProps = {
+  bare: false,
+  selected: false,
+  type: "button",
+  size: MD,
+  cornerType: SQUIRCLE,
+}
+
+Button.propTypes = {
+  bare: propTypes.bool,
+  size: propTypes.oneOf([SM, MD]),
+  type: propTypes.oneOf(["button", "submit", "reset", undefined]),
+  cornerType: propTypes.oneOf([SQUIRCLE, ROUND]),
+  selected: propTypes.bool,
+}
