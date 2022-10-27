@@ -399,6 +399,12 @@
           "grader": "VGA"
         },
         {
+          "name": "Metroid Dread",
+          "variant": "Y-Fold, Made in USA, 115991A",
+          "grader": "Wata",
+          "grade": "9.8 A+"
+        },
+        {
           "name": "Pokemon Sword & Shield Double Pack",
           "grade": "85+",
           "variant": "Sticker Seal, 111237A",
@@ -435,10 +441,22 @@
           "grade": "9.6 A+"
         },
         {
+          "name": "Super Smash Bros. Ultimate",
+          "grade": "9.8 A++",
+          "variant": "Y-Fold, Made in Japan, 108491B",
+          "grader": "Wata"
+        },
+        {
           "name": "Super Mario Odyssey",
           "variant": "Y-Fold, Made in Japan, 105882A",
           "grader": "Wata",
           "grade": "9.6 A+"
+        },
+        {
+          "name": "Super Mario Odyssey",
+          "grade": "9.8 A++",
+          "variant": "Y-Fold, Made in Japan, 105882C",
+          "grader": "Wata"
         },
         {
           "name": "Mario Kart 8 Deluxe",
@@ -447,10 +465,10 @@
           "grade": "9.6 A+"
         },
         {
-          "name": "Metroid Dread",
-          "variant": "Y-Fold, Made in USA, 115991A",
+          "name": "Mario Kart 8 Deluxe",
+          "grade": "9.8 A++",
           "grader": "Wata",
-          "grade": "9.8 A+"
+          "variant": "Y-Fold, Made in Japan, 105278C"
         }
       ]
     },
