@@ -375,10 +375,28 @@
           "grader": "VGA"
         },
         {
+          "name": "Pokemon Sword & Shield Double Pack",
+          "grade": "85+",
+          "variant": "Sticker Seal, 111237A",
+          "grader": "VGA"
+        },
+        {
+          "name": "Pokemon Sword & Shield Double Pack",
+          "grade": "85",
+          "variant": "Sticker Seal, w/ Steelbook, 111181A",
+          "grader": "VGA"
+        },
+        {
           "name": "The Legend of Zelda: Breath of the Wild",
           "grade": "85",
           "variant": "Sticker Seal, Special Edition",
           "grader": "VGA"
+        },
+        {
+          "name": "The Legend of Zelda: Breath of the Wild",
+          "grade": "9.2 A+",
+          "variant": "Y-Fold, Made in Japan, 105211A",
+          "grader": "Wata"
         },
         {
           "name": "Nintendo Switch (Animal Crossing Edition)",
@@ -405,18 +423,6 @@
           "grade": "9.8 A+"
         },
         {
-          "name": "Pokemon Sword & Shield Double Pack",
-          "grade": "85+",
-          "variant": "Sticker Seal, 111237A",
-          "grader": "VGA"
-        },
-        {
-          "name": "Pokemon Sword & Shield Double Pack",
-          "grade": "85",
-          "variant": "Sticker Seal, w/ Steelbook, 111181A",
-          "grader": "VGA"
-        },
-        {
           "name": "Hyrule Warriors",
           "grade": "95",
           "variant": "Y-Fold, 107775A",
@@ -427,12 +433,6 @@
           "grade": "9.8 A+",
           "grader": "Wata",
           "variant": "Y-Fold, Made in Japan, 113321A"
-        },
-        {
-          "name": "The Legend of Zelda: Breath of the Wild",
-          "grade": "9.2 A+",
-          "variant": "Y-Fold, Made in Japan, 105211A",
-          "grader": "Wata"
         },
         {
           "name": "Super Smash Bros. Ultimate",
