@@ -1,11 +1,11 @@
 import propTypes from "prop-types"
 import { forwardRef, ReactElement, Ref } from "react"
-import { FetchEssaysResponse } from "types/essays"
+import { EssayPageData } from "types/essays"
 import { EssayListItem } from "../essay-list-item"
 import styles from "./styles.module.scss"
 
 type EssayListBaseProps = {
-  data: FetchEssaysResponse
+  data: EssayPageData
 }
 
 function EssayListBase(

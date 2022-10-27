@@ -1,6 +1,6 @@
 import { getEssayList } from "lib/get-essay-list"
 import { NextApiRequest, NextApiResponse } from "next"
-import { FetchEssaysResponse } from "types/essays"
+import { EssayPageData } from "types/essays"
 
 export default async function handler(
   req: NextApiRequest,
@@ -16,9 +16,7 @@ export default async function handler(
   try {
     const index = req.body.index
     if (typeof index === "number") {
-      const data: FetchEssaysResponse = getEssayList(
-        index
-      ) as FetchEssaysResponse
+      const data: EssayPageData = getEssayList(index) as EssayPageData
       return res.status(200).json(data)
     } else {
       throw new Error(

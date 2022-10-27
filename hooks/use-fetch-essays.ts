@@ -1,9 +1,9 @@
-import { FetchEssaysResponse } from "types/essays"
+import { EssayPageData } from "types/essays"
 import { useState, useEffect, Dispatch, SetStateAction } from "react"
 
 interface FetchEssaysParameters {
   index: number
-  setData: Dispatch<SetStateAction<FetchEssaysResponse>>
+  setData: Dispatch<SetStateAction<EssayPageData>>
   setIsLoading: Dispatch<SetStateAction<boolean>>
   setIsError: Dispatch<SetStateAction<boolean>>
   isError: boolean
@@ -37,7 +37,7 @@ function fetchEssays({
     body: JSON.stringify({ index }),
   })
     .then((res) => res.json())
-    .then((payload: FetchEssaysResponse) => {
+    .then((payload: EssayPageData) => {
       setData(payload)
       setIsLoading(false)
 
@@ -51,10 +51,10 @@ function fetchEssays({
     })
 }
 
-export function useFetchEssays(initialData: FetchEssaysResponse) {
+export function useFetchEssays(initialData: EssayPageData) {
   const [isError, setIsError] = useState<boolean>(false)
   const [isLoading, setIsLoading] = useState<boolean>(false)
-  const [data, setData] = useState<FetchEssaysResponse>(initialData)
+  const [data, setData] = useState<EssayPageData>(initialData)
 
   useEffect(() => {
     if (!initialLoad) return

@@ -1,7 +1,7 @@
 import { useEffect, useCallback, useRef } from "react"
 import { debounce } from "lodash-es"
 
-import { FetchEssaysResponse } from "types/essays"
+import { EssayPageData } from "types/essays"
 import { getEssayList } from "lib/get-essay-list"
 import { useFetchEssays } from "hooks/use-fetch-essays"
 import {
@@ -18,7 +18,7 @@ const VISIBLE_PAGES = 5
 const DEFAULT_PAGE = 0
 
 type EssaysProps = {
-  initialData: FetchEssaysResponse
+  initialData: EssayPageData
 }
 
 export default function Essays({ initialData }: EssaysProps) {
@@ -106,8 +106,6 @@ export default function Essays({ initialData }: EssaysProps) {
 }
 
 export async function getStaticProps() {
-  const initialData: FetchEssaysResponse = getEssayList(
-    DEFAULT_PAGE
-  ) as FetchEssaysResponse
+  const initialData: EssayPageData = getEssayList(DEFAULT_PAGE) as EssayPageData
   return { props: { initialData } }
 }

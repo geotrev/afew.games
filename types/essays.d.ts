@@ -8,7 +8,7 @@ export type Essay = {
   }
 }
 
-export type FetchEssaysResponse = {
+export type EssayPageData = {
   index: number
   essays: Essay[]
   totalPages: number
