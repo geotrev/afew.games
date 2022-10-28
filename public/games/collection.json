@@ -228,6 +228,12 @@
       "platform": "N64",
       "games": [
         {
+          "name": "The Legend of Zelda: Ocarina of Time",
+          "grade": "9.6",
+          "variant": "Made in Japan, Collector's Edition; 9.6 (box), 9.6 (cart), 9.4 (manual)",
+          "grader": "Wata"
+        },
+        {
           "name": "Pocket Monsters' Stadium: Gold and Silver",
           "grade": "9.8 NS",
           "variant": "NS, Made in Japan, Unopened",
