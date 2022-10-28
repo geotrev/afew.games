@@ -1,7 +1,7 @@
 import { readdirSync, readFileSync } from "fs"
 import matter, { GrayMatterFile } from "gray-matter"
 import chunk from "lodash-es/chunk"
-import { Essay, EssayPageData } from "types/essays"
+import { Essay, EssayPageData } from "src/types/essays"
 import { getEssaysPath } from "./get-essays-path"
 
 const MAX_LIST_LENGTH = 5

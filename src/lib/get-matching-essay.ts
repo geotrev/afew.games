@@ -2,7 +2,7 @@ import { readdirSync, readFileSync } from "fs"
 import matter, { GrayMatterFile } from "gray-matter"
 import { marked } from "marked"
 import { ParsedUrlQuery } from "querystring"
-import { EssayProps } from "types/essays"
+import { EssayProps } from "src/types/essays"
 import { getEssaysPath } from "./get-essays-path"
 
 export function getMatchingEssay(
