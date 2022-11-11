@@ -52,20 +52,8 @@
           "grade": "9.8 A+"
         },
         {
-          "name": "Mega Man Battle Network 5: Team Protoman",
-          "variant": "3-Side Seam, Double-Ended Box, Made in Japan, \"Toys R Us\" Sticker",
-          "grader": "Wata",
-          "grade": "9.8 A+"
-        },
-        {
           "name": "Mega Man Battle Network 3: Blue",
           "variant": "3-Side Seam, Made in Japan, E Rating, 83% Fiber, Double-Ended box (USA Code)",
-          "grader": "Wata",
-          "grade": "9.6 A+"
-        },
-        {
-          "name": "Mega Man Battle Network 5: Team Colonel",
-          "variant": "3-Side Seam, Double-Ended Box, Made in Japan, \"Works With DS\" Sticker",
           "grader": "Wata",
           "grade": "9.6 A+"
         },
@@ -79,7 +67,19 @@
           "name": "Mega Man Battle Network 4: Blue Moon",
           "variant": "H-Seam, Y-Fold Box, Made in Japan",
           "grader": "Wata",
-          "grade": "9.4 A+"
+          "grade": "9.6 A++"
+        },
+        {
+          "name": "Mega Man Battle Network 5: Team Protoman",
+          "variant": "3-Side Seam, Double-Ended Box, Made in Japan, \"Toys R Us\" Sticker",
+          "grader": "Wata",
+          "grade": "9.8 A+"
+        },
+        {
+          "name": "Mega Man Battle Network 5: Team Colonel",
+          "variant": "3-Side Seam, Double-Ended Box, Made in Japan, \"Works With DS\" Sticker",
+          "grader": "Wata",
+          "grade": "9.6 A+"
         },
         {
           "name": "Mega Man Battle Network 6: Cybeast Falzar",
