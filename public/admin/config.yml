@@ -26,8 +26,8 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
-  - name: "games"
-    label: "Games"
+  - name: "databases"
+    label: "Databases"
     editor:
       preview: false
     files:
@@ -70,13 +70,8 @@ collections:
                     name: "grader"
                     widget: "select"
                     options: ["Wata", "VGA", "CGC", "P1G"]
-  - name: "database"
-    label: "Database"
-    editor:
-      preview: false
-    files:
-      - label: "Print Variants"
-        name: "print_variants"
+      - label: "Video Game Variants"
+        name: "video_game_variants"
         file: "public/variants/collection.json"
         fields:
           - label: "Platforms"
