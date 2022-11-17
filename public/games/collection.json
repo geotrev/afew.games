@@ -663,16 +663,16 @@
       "platform": "PlayStation 4",
       "games": [
         {
-          "name": "Celeste",
-          "grade": "95+",
-          "grader": "VGA",
-          "variant": "Y-Fold, MRLR-0207-CVR"
-        },
-        {
           "name": "Oxenfree",
           "grade": "95",
           "variant": "Y-Fold, MRLR-0037-CVR",
           "grader": "VGA"
+        },
+        {
+          "name": "Celeste",
+          "grade": "95+",
+          "grader": "VGA",
+          "variant": "Y-Fold, MRLR-0207-CVR"
         },
         {
           "name": "Celeste",
