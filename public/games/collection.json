@@ -4,6 +4,12 @@
       "platform": "Game Boy Advance",
       "games": [
         {
+          "name": "Yoshi's Island: Super Mario Advance 3",
+          "grade": "90",
+          "variant": "H-Seam",
+          "grader": "VGA"
+        },
+        {
           "name": "Mega Man Zero",
           "grade": "85+",
           "variant": "H-Seam",
@@ -657,6 +663,12 @@
       "platform": "PlayStation 4",
       "games": [
         {
+          "name": "Celeste",
+          "grade": "95+",
+          "grader": "VGA",
+          "variant": "Y-Fold, MRLR-0207-CVR"
+        },
+        {
           "name": "Oxenfree",
           "grade": "95",
           "variant": "Y-Fold, MRLR-0037-CVR",
@@ -708,6 +720,12 @@
     {
       "platform": "SNES",
       "games": [
+        {
+          "name": "The Legend of Zelda: A Link to the Past",
+          "grade": "9.2",
+          "variant": "Made in Japan, Black Label; 9.0 (box), 9.6 (cart), 9.4 (manual)",
+          "grader": "Wata"
+        },
         {
           "name": "F-Zero",
           "variant": "V-Seam, Made in Japan, E Rating, 83% Fiber, 3 Line Warranty box, Players Choice (1997)",
