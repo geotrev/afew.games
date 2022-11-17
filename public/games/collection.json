@@ -721,6 +721,12 @@
       "platform": "SNES",
       "games": [
         {
+          "name": "The Legend of Zelda: A Link to the Past",
+          "grade": "9.2",
+          "variant": "Made in Japan, Black Label; 9.0 (box), 9.6 (cart), 9.4 (manual)",
+          "grader": "Wata"
+        },
+        {
           "name": "F-Zero",
           "variant": "V-Seam, Made in Japan, E Rating, 83% Fiber, 3 Line Warranty box, Players Choice (1997)",
           "grader": "Wata",
