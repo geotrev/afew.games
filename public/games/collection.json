@@ -4,6 +4,12 @@
       "platform": "Game Boy Advance",
       "games": [
         {
+          "name": "Yoshi's Island: Super Mario Advance 3",
+          "grade": "90",
+          "variant": "H-Seam",
+          "grader": "VGA"
+        },
+        {
           "name": "Mega Man Zero",
           "grade": "85+",
           "variant": "H-Seam",
@@ -656,6 +662,12 @@
     {
       "platform": "PlayStation 4",
       "games": [
+        {
+          "name": "Celeste",
+          "grade": "95+",
+          "grader": "VGA",
+          "variant": "Y-Fold, MRLR-0207-CVR"
+        },
         {
           "name": "Oxenfree",
           "grade": "95",
