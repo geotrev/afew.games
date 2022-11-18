@@ -316,6 +316,12 @@
       "platform": "GameCube",
       "games": [
         {
+          "name": "Pikmin",
+          "grade": "90+",
+          "variant": "Y-Fold, Black Label, Made in Japan",
+          "grader": "VGA"
+        },
+        {
           "name": "Zelda No Densetsu: Kaze No Takuto",
           "grade": "90",
           "variant": "V-Seam, Japanese Version",
