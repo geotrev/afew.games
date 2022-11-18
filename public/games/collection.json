@@ -199,6 +199,17 @@
       "platform": "3DS",
       "games": [
         {
+          "name": "Nintendo 3DS XL: Majora's Mask Edition",
+          "grade": "85+",
+          "grader": "VGA"
+        },
+        {
+          "name": "Nintendo 3DS XL: Hyrule Edition",
+          "grade": "85+",
+          "variant": "GameStop Exclusive",
+          "grader": "VGA"
+        },
+        {
           "name": "Pokemon UltraSun & UltraMoon",
           "variant": "Sticker Seal, 2-Pack",
           "grade": "85+",
