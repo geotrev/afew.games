@@ -1,7 +1,7 @@
 export interface Game {
   name: string
   grade: string
-  variant: string
+  variant?: string
   grader: string
 }
 
