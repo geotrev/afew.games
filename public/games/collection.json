@@ -488,6 +488,12 @@
       "platform": "Wii U",
       "games": [
         {
+          "name": "Mario Kart 8 (Limited Edition)",
+          "grade": "85+",
+          "variant": "Nintendo World NY Exclusive, W/ Blue Shell Figure",
+          "grader": "VGA"
+        },
+        {
           "name": "Super Smash Bros. For Wii U",
           "grade": "85+",
           "variant": "Sticker Seal, W/ Controller and Adapter",
