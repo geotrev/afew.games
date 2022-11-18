@@ -557,6 +557,12 @@
       "platform": "PlayStation 2",
       "games": [
         {
+          "name": "Shadow of the Colossus",
+          "grade": "9.6 A+",
+          "variant": "Y-Fold, Black Label, cross from P1G 90",
+          "grader": "Wata"
+        },
+        {
           "grader": "P1G",
           "name": "Resident Evil 4",
           "grade": "90",
