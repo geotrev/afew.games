@@ -3,15 +3,17 @@ title: "Choose Your Own Adventure: Tips and Tricks for Online Game Hunting!"
 description: Searching for games doesn't need to be confusing; use this guide to
   fill your collection!
 ---
-It can be intimidating to look for things online. The internet has somewhere around a billion websites, after all. but that doesn't mean searching for video games - or really anything specific you might need - needs to be difficult. As such, this isn't so much a "how to search for video games" article as much as a "how to search for stuff" one.
+It can be intimidating to hunt games online. Listings always have high prices, sometimes there aren't many options, and there's always several websites to think about. Also, am I even using these websites "correctly"? You start with one question and balloon into half a dozen quickly.
 
-So let's talk strategy. Where should you start? How should you approach the process of hunting for your beloved video games?
+The internet has somewhere around a billion websites, but that doesn't mean searching for video games – or really anything at all – needs to be difficult. As such, this write-up might help you in any or all of your consumer endeavors.
 
-The cold truth here is that you will likely need to put in the work - not unlike grinding your party level in your RPG of choice. It takes patience and determination. But if I can succeed at this for years, so can you!
+So let's talk strategy. Where should you start? How should you approach the process of hunting for video games?
+
+The cold truth here is that you will likely need to put in a surprising amount of work – not unlike grinding your party level in your RPG of choice. It takes patience and determination. But if I can succeed at this for years, so can you!
 
 - - -
 
-In this article, I'll answer the following key questions:
+We'll answer the following key questions:
 
 * Which websites should I use?
 * How do I search effectively?
@@ -19,42 +21,42 @@ In this article, I'll answer the following key questions:
 * Should I bother with auctions?
 * How do I watch for new listings?
 
-As well, I'll go over some other video-game-specific resources.
+I'll go over some some other video-game-specific resources at the end, as well.
 
-Most important, at each step I'll point you in the direction of the features I've found most useful!
+Worth noting, I will focus primarily on eBay in this write-up to make the examples as streamlined as possible.
 
 ## Which websites should I use?
 
 Of course, the simplest place to start is which websites are most likely to have your target games. The answer to this question will also depend on your sub-category of collecting.
 
-The best question to ask yourself at this point is what form factor you want your games to be in. Cartridge (loose)? Do you want the box and manual too? Or do you want to jump right to sealed? There are nuances within these paths as well, for instance: do you want both sealed and an extra cartridge to actually play the game? If so, then you'll need to consider a combination of approaches to find your items.
+Here's a quick round-up:
 
-Piggy-backing off of the above questions, here is a list of websites that will help you land on your feet:
+* **eBay:** The obvious and biggest choice. Find any and all forms of your target video game (CIB, sealed, or loose carts).
+* **Mercari:** A Japanese website with a USA/EU presence. Similar to eBay, but with less options and less buyer protection.
+* **OfferUp:** A Craigslist-style website, with less even less protections and less options than Mercari. Use at your own risk, although it can be a good source to keep in your back pocket.
+* **StandardGaming** and **Metropolis Comics**: Great resources if you're going after fixed priced marketplaces. These mainly provide sealed & graded video games.
+* **Heritage Auctions, CertifiedLink, ComicConnect, PWCC, Goldin Auctions, and Hakes:** Auction houses that often only sell sealed and graded video games. You can also purchase previously sold games if a buy out price is given. Some of them (like Heritage) also have fixed prices if a buyer relists their game after buying at auction.
+* **Google:** While it doesn't directly have listings, Google is of course a great search engine and can provide additional visibility into resources, like brick and mortar shops. I've had great luck with those int he past.
 
-* **eBay:** Find any and all forms of your target video game. Likely to be your main source for any path you take.
-* **Mercari:** A japanese website with a USA/EU presence. Similar to eBay, but with less options and less buyer protection.
-* **OfferUp:** A CraigsList-style website, with less even less protections and less options than Mercari. Use at your own risk, although it can be a good source to keep in your back pocket.
-* **Heritage Auctions, CertifiedLink, Goldin Auctions, and Hakes:** Auction houses that often only sell sealed and graded video games. You can find these elsewhere, but if this is your primary focus, there's a chance your game could be auctioned in an upcoming session.
-
-Choose one or multiple options. Personally, I stick to eBay and auction houses. For the purposes of this article, I'll focus on eBay as the main example since it's the biggest platform by a long shot.
+Choose one or multiple options. Personally, I stick to eBay for almost everything, and dabble int he others as needed.
 
 ## How do I search effectively?
 
-The best chance at finding your games is to study and use a given website's search tools. For eBay, you can generally steer clear of the advanced search page and simply use the search bar and the various features its provides (we'll cover that below).
+My main advice here is to search from a specific category, then work your way up into more general umbrella categories if you can't find what you're looking for.
 
-Also, it's generally good to only *loosely* rely on listing categories. Reason being is many people list goods in incorrect categories and those items will be entirely excluded from search results if you're focused solely on the "Video Games" category. 
+Personally, I *start* a search from "Video Games", but go back to "Video Games & Consoles", then finally "All" if the results didn't satisfy me.
 
-Personally, I *start* a search from "Video Games", but go back to "All Categories" if the results didn't satisfy me.
+### Search Commands aka Search Superpowers
 
-### Search term customization
+Take advantage of eBay's search commands as often as possible. Here's how that looks in practice:
 
-Take advantage of eBay's optional search term feature. Here's how that looks in practice:
+![eBay search box showing main search term, keywords, and excluded terms.](/uploads/searchcommands.jpg "eBay search example")
 
-<pic of optional search terms>
-
-Refer to the breakdown above. Your "main search term" is the meat of the search. The "optional terms" will prioritize applicable listings. Use quotes around an optional term if it contains spaces.
+Refer to the breakdown above. Your "main search term" is the meat of the search. The "keywords" will prioritize applicable listings. Use quotes around a term to search exactly that content. Finally, the "excluded" terms will ignore listings if they contain those words.
 
 The other websites I listed above have their own equivalent to this type of feature. It's very useful and saves you time!
+
+You can read all about the other search commands available to you [here](https://www.ebay.com.sg/pages/help/search/search-commands.html), but the above options are what I rely on.
 
 ## Should I negotiate with sellers?
 
