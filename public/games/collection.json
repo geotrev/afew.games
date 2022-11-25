@@ -199,6 +199,12 @@
       "platform": "3DS",
       "games": [
         {
+          "name": "Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey",
+          "grade": "95+",
+          "variant": "Y-Fold, 108503A",
+          "grader": "VGA"
+        },
+        {
           "name": "Nintendo 3DS XL: Majora's Mask Edition",
           "grade": "85+",
           "grader": "VGA"
