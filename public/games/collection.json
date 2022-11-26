@@ -4,12 +4,6 @@
       "platform": "Game Boy Advance",
       "games": [
         {
-          "name": "Yoshi's Island: Super Mario Advance 3",
-          "grade": "90",
-          "variant": "H-Seam",
-          "grader": "VGA"
-        },
-        {
           "name": "Mega Man Zero",
           "grade": "85+",
           "variant": "H-Seam",
@@ -36,7 +30,7 @@
         {
           "name": "Mega Man Battle Network",
           "grade": "90",
-          "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
+          "variant": "H-Seam, Made in Japan",
           "grader": "VGA"
         },
         {
@@ -118,7 +112,7 @@
           "grade": "9.8 A++"
         },
         {
-          "name": "Golden Sun: The Lost age",
+          "name": "Golden Sun: The Lost Age",
           "variant": "H-seam, Made in Japan",
           "grader": "Wata",
           "grade": "9.8 A+"
@@ -143,7 +137,7 @@
         },
         {
           "name": "Super Mario Advance 4: Super Mario Bros 3",
-          "variant": "W/ Two Bonus Level Cards",
+          "variant": "H-Seam, W/ Two Bonus Level Cards",
           "grader": "Wata",
           "grade": "9.6 A++"
         },
@@ -207,12 +201,13 @@
         {
           "name": "Nintendo 3DS XL: Majora's Mask Edition",
           "grade": "85+",
-          "grader": "VGA"
+          "grader": "VGA",
+          "variant": "No Seal"
         },
         {
           "name": "Nintendo 3DS XL: Hyrule Edition",
           "grade": "85+",
-          "variant": "GameStop Exclusive",
+          "variant": "No Seal, GameStop Exclusive",
           "grader": "VGA"
         },
         {
@@ -371,20 +366,20 @@
         {
           "name": "Mega Man Network Transmission",
           "variant": "Y-Fold, Made in USA, 51153A",
-          "grader": "Wata",
-          "grade": "9.6 A+"
+          "grade": "9.6 A+",
+          "grader": "Wata"
         },
         {
           "name": "Hunter: The Reckoning",
           "variant": "Y-Fold, Made in USA",
-          "grader": "Wata",
-          "grade": "9.4 A"
+          "grade": "9.4 A",
+          "grader": "Wata"
         },
         {
           "name": "Metroid Prime",
           "variant": "Y-Fold, 49688A",
-          "grader": "Wata",
-          "grade": "9.8 A+"
+          "grade": "9.8 A+",
+          "grader": "Wata"
         }
       ]
     },
@@ -454,8 +449,8 @@
         {
           "name": "Metroid Dread",
           "variant": "Y-Fold, Made in USA, 115991A",
-          "grader": "Wata",
-          "grade": "9.8 A+"
+          "grade": "9.8 A+",
+          "grader": "Wata"
         },
         {
           "name": "Hyrule Warriors",
@@ -472,8 +467,8 @@
         {
           "name": "Super Smash Bros. Ultimate",
           "variant": "Y-Fold, Made in Japan, 108491A",
-          "grader": "Wata",
-          "grade": "9.6 A+"
+          "grade": "9.6 A+",
+          "grader": "Wata"
         },
         {
           "name": "Super Smash Bros. Ultimate",
@@ -484,8 +479,8 @@
         {
           "name": "Super Mario Odyssey",
           "variant": "Y-Fold, Made in Japan, 105882A",
-          "grader": "Wata",
-          "grade": "9.6 A+"
+          "grade": "9.6 A+",
+          "grader": "Wata"
         },
         {
           "name": "Super Mario Odyssey",
@@ -496,8 +491,8 @@
         {
           "name": "Mario Kart 8 Deluxe",
           "variant": "Y-Fold, Made in Japan, 105278A",
-          "grader": "Wata",
-          "grade": "9.6 A+"
+          "grade": "9.6 A+",
+          "grader": "Wata"
         },
         {
           "name": "Mario Kart 8 Deluxe",
@@ -513,7 +508,7 @@
         {
           "name": "Mario Kart 8 (Limited Edition)",
           "grade": "85+",
-          "variant": "Nintendo World NY Exclusive, W/ Blue Shell Figure",
+          "variant": "Sticker Seal, Nintendo World NY Exclusive, W/ Blue Shell Figure",
           "grader": "VGA"
         },
         {
@@ -594,14 +589,8 @@
         {
           "grader": "P1G",
           "name": "Resident Evil 4",
-          "grade": "90",
-          "variant": "Y-Fold, Black Label, 2005 Re-Release"
-        },
-        {
-          "name": "Shadow of the Colossus",
-          "grade": "85",
-          "variant": "Y-Fold, Black Label",
-          "grader": "VGA"
+          "variant": "Y-Fold, Black Label, 2005 Re-Release",
+          "grade": "90"
         },
         {
           "name": "Persona 4",
@@ -659,7 +648,7 @@
         },
         {
           "name": "Guitar Hero",
-          "variant": "Y-Fold, Part No. 85001 206 US",
+          "variant": "Y-Fold, Part No. 206",
           "grader": "Wata",
           "grade": "9.6 A+"
         }
@@ -706,8 +695,8 @@
         {
           "name": "Celeste",
           "grade": "95+",
-          "grader": "VGA",
-          "variant": "Y-Fold, MRLR-0207-CVR"
+          "variant": "Y-Fold, MRLR-0207-CVR",
+          "grader": "VGA"
         },
         {
           "name": "Celeste",
@@ -730,14 +719,14 @@
         {
           "name": "Gravity Rush Remastered",
           "variant": "Y-Fold, Made in USA",
-          "grader": "Wata",
-          "grade": "9.8 A+"
+          "grade": "9.8 A+",
+          "grader": "Wata"
         },
         {
           "name": "Gravity Rush 2",
           "variant": "Y-Fold, Made in USA",
-          "grader": "Wata",
-          "grade": "9.6 A+"
+          "grade": "9.6 A+",
+          "grader": "Wata"
         }
       ]
     },
@@ -797,7 +786,7 @@
       "games": [
         {
           "name": "Dishonored",
-          "variant": "2x, Y-Fold, Assembled in USA, Microsoft security label",
+          "variant": "Y-Fold, Assembled in USA, Microsoft Security Label",
           "grader": "Wata",
           "grade": "9.4 A+"
         }
