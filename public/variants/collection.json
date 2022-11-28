@@ -48,36 +48,57 @@
               "print_code": "",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DOL GLME",
               "notes": "\"Uses 3 Blocks\" missing"
             },
             {
-              "print_code": "",
-              "satellite_code": "00000",
+              "print_code": "46300B",
+              "satellite_code": "00001",
               "manufactured": "Japan",
-              "mpn": "",
-              "notes": "\"Uses 3 Blocks\" missing, French Canadian"
+              "mpn": "DOL P GLME",
+              "notes": "\"Uses 3 Blocks\" corrected"
             },
             {
               "print_code": "",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "",
-              "notes": "\"Uses 3 Blocks\" corrected"
+              "mpn": "DOL GLME",
+              "notes": "\"Uses 3 Blocks\" missing"
             },
             {
               "print_code": "",
               "satellite_code": "00101",
               "manufactured": "USA",
-              "mpn": "",
-              "notes": ""
+              "mpn": "DOL GLME",
+              "notes": "\"Uses 3 blocks\" corrected"
             },
             {
               "print_code": "46179C",
               "satellite_code": "00102",
               "manufactured": "USA",
-              "mpn": "",
-              "notes": "Player's Choice"
+              "mpn": "DOL P GLME",
+              "notes": "Player's Choice, \"Uses 3 blocks\" corrected"
+            },
+            {
+              "print_code": "",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "DOL P GLME",
+              "notes": "\"Uses 3 Blocks\" missing, French Canadian"
+            },
+            {
+              "print_code": "46363B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "DOL P GLME",
+              "notes": "\"Uses 3 Blocks\" corrected, French Canadian"
+            },
+            {
+              "print_code": "46181B",
+              "satellite_code": "00101",
+              "manufactured": "USA",
+              "mpn": "DOL P GLME",
+              "notes": "\"Uses 3 Blocks\" corrected, French Canadian"
             }
           ]
         },
@@ -88,15 +109,29 @@
               "print_code": "52955A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "",
+              "mpn": "DOL P GM4E",
+              "notes": ""
+            },
+            {
+              "print_code": "52956A",
+              "satellite_code": "00000",
+              "manufactured": "USA",
+              "mpn": "DOL P GM4E",
               "notes": ""
             },
             {
               "print_code": "53156A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DOL R GM41",
               "notes": "Preorder Bonus Disc"
+            },
+            {
+              "print_code": "56043A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "",
+              "notes": "Not For Resale"
             }
           ]
         },
