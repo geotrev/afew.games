@@ -49,56 +49,56 @@
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "DOL GLME",
-              "notes": "\"Uses 3 Blocks\" missing"
+              "notes": "\"Memory Card\" Text"
             },
             {
               "print_code": "46300B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "DOL P GLME",
-              "notes": "\"Uses 3 Blocks\" corrected"
+              "notes": "\"Uses 3 Blocks\" Text"
             },
             {
               "print_code": "",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL GLME",
-              "notes": "\"Uses 3 Blocks\" missing"
+              "notes": "\"Memory Card\" Text"
             },
             {
               "print_code": "",
               "satellite_code": "00101",
               "manufactured": "USA",
               "mpn": "DOL GLME",
-              "notes": "\"Uses 3 blocks\" corrected"
+              "notes": "\"Uses 3 blocks\" Text"
             },
             {
               "print_code": "46179C",
               "satellite_code": "00102",
               "manufactured": "USA",
               "mpn": "DOL P GLME",
-              "notes": "Player's Choice, \"Uses 3 blocks\" corrected"
+              "notes": "Player's Choice"
             },
             {
               "print_code": "",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "DOL P GLME",
-              "notes": "\"Uses 3 Blocks\" missing, French Canadian"
+              "notes": "\"Memory Card\" Text, French Canadian"
             },
             {
               "print_code": "46363B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "DOL P GLME",
-              "notes": "\"Uses 3 Blocks\" corrected, French Canadian"
+              "notes": "\"Uses 3 Blocks\" Text, French Canadian"
             },
             {
               "print_code": "46181B",
               "satellite_code": "00101",
               "manufactured": "USA",
               "mpn": "DOL P GLME",
-              "notes": "\"Uses 3 Blocks\" corrected, French Canadian"
+              "notes": "\"Uses 3 Blocks\" Text, French Canadian"
             }
           ]
         },
