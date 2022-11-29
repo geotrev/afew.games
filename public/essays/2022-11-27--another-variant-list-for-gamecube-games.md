@@ -21,6 +21,8 @@ But until that glorious day comes, enjoy these variants!
 |            | 00101          | USA          | DOL GLME   | "Uses 3 Blocks" Text |
 | 46179C     | 00102          | USA          | DOL P GLME | Player's Choice      |
 
+See also: [Wata Games' variant guide & pop report](https://www.instagram.com/p/CjtgkS9DF0c/)
+
 ## Mario Kart Double Dash
 
 | Print Code | Satellite Code | Manufactured | MPN        | Notes                |
@@ -54,7 +56,7 @@ But until that glorious day comes, enjoy these variants!
 | 46551C     | 00102          | USA          | DOL P GALE | Best Seller                        |
 | 58073A     | 00100          | USA          | DOL P GALE | NFR (back), 2005 GameCube Pack-In  |
 
-See also: [Wata Games' variant guide](https://blog.watagames.com/2022/09/26/variant-guide-super-smash-bros-melee/)
+See also: [Wata Games' variant guide & pop report](https://blog.watagames.com/2022/09/26/variant-guide-super-smash-bros-melee/)
 
 ## The Legend of Zelda: The Wind Waker
 
@@ -69,7 +71,7 @@ See also: [Wata Games' variant guide](https://blog.watagames.com/2022/09/26/vari
 | 50954A     | 00100          | USA          | DOL P ZLK  | K-Mart Exclusive |
 | 57818A     | 00100          | USA          | DOL P GZLE | Player's Choice  |
 
-See also: [Wata Games' variant guide](https://blog.watagames.com/2022/09/24/variant-guide-the-legend-of-zelda-wind-waker/)
+See also: [Wata Games' variant guide & pop report](https://blog.watagames.com/2022/09/24/variant-guide-the-legend-of-zelda-wind-waker/)
 
 ## Bundle Releases
 
