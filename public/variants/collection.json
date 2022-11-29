@@ -48,36 +48,57 @@
               "print_code": "",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DOL GLME",
               "notes": "\"Uses 3 Blocks\" missing"
             },
             {
-              "print_code": "",
-              "satellite_code": "00000",
+              "print_code": "46300B",
+              "satellite_code": "00001",
               "manufactured": "Japan",
-              "mpn": "",
-              "notes": "\"Uses 3 Blocks\" missing, French Canadian"
+              "mpn": "DOL P GLME",
+              "notes": "\"Uses 3 Blocks\" corrected"
             },
             {
               "print_code": "",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "",
-              "notes": "\"Uses 3 Blocks\" corrected"
+              "mpn": "DOL GLME",
+              "notes": "\"Uses 3 Blocks\" missing"
             },
             {
               "print_code": "",
               "satellite_code": "00101",
               "manufactured": "USA",
-              "mpn": "",
-              "notes": ""
+              "mpn": "DOL GLME",
+              "notes": "\"Uses 3 blocks\" corrected"
             },
             {
               "print_code": "46179C",
               "satellite_code": "00102",
               "manufactured": "USA",
-              "mpn": "",
-              "notes": "Player's Choice"
+              "mpn": "DOL P GLME",
+              "notes": "Player's Choice, \"Uses 3 blocks\" corrected"
+            },
+            {
+              "print_code": "",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "DOL P GLME",
+              "notes": "\"Uses 3 Blocks\" missing, French Canadian"
+            },
+            {
+              "print_code": "46363B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "DOL P GLME",
+              "notes": "\"Uses 3 Blocks\" corrected, French Canadian"
+            },
+            {
+              "print_code": "46181B",
+              "satellite_code": "00101",
+              "manufactured": "USA",
+              "mpn": "DOL P GLME",
+              "notes": "\"Uses 3 Blocks\" corrected, French Canadian"
             }
           ]
         },
@@ -88,15 +109,29 @@
               "print_code": "52955A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "",
+              "mpn": "DOL P GM4E",
+              "notes": ""
+            },
+            {
+              "print_code": "52956A",
+              "satellite_code": "00000",
+              "manufactured": "USA",
+              "mpn": "DOL P GM4E",
               "notes": ""
             },
             {
               "print_code": "53156A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DOL R GM41",
               "notes": "Preorder Bonus Disc"
+            },
+            {
+              "print_code": "56043A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "",
+              "notes": "Not For Resale"
             }
           ]
         },
@@ -107,49 +142,42 @@
               "print_code": "49689A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DOL P GM8E",
               "notes": ""
+            },
+            {
+              "print_code": "49689B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "DOL P GM8E",
+              "notes": "Player's Choice"
             },
             {
               "print_code": "49688A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "",
+              "mpn": "DOL P GM8E",
               "notes": ""
             },
             {
               "print_code": "49688B",
               "satellite_code": "00101",
               "manufactured": "USA",
-              "mpn": "",
+              "mpn": "DOL P GM8E",
               "notes": "Player's Choice"
-            },
-            {
-              "print_code": "49690A",
-              "satellite_code": "00100",
-              "manufactured": "USA",
-              "mpn": "",
-              "notes": "Best of Show E3 2002, French Canadian"
-            },
-            {
-              "print_code": "49690B",
-              "satellite_code": "00101",
-              "manufactured": "USA",
-              "mpn": "",
-              "notes": "Player's Choice, Video Game of the Year, French Canadian"
             },
             {
               "print_code": "49692A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "",
-              "notes": "NFR, K-Mart Exclusive, Wavebird Promo, front barcode"
+              "mpn": "DOL P M8K",
+              "notes": "NFR, K-Mart Exclusive, Wavebird Promo, Front Barcode"
             },
             {
               "print_code": "49830A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "",
+              "mpn": "DOL P GM8E",
               "notes": "Target coupons promo"
             },
             {
@@ -157,14 +185,28 @@
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "",
-              "notes": "Metro Prime 2 Echoes bonus disc, RP-T rating"
+              "notes": "Metro Prime 2 Echoes Bonus Disc, RP-T rating"
             },
             {
               "print_code": "58069A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "",
-              "notes": "NFR, Prime & Wind Waker 2-pack, E-T rating"
+              "notes": "NFR, Metroid Prime & Wind Waker 2-pack"
+            },
+            {
+              "print_code": "49690A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P GM8E",
+              "notes": "Best of Show E3 2002, French Canadian"
+            },
+            {
+              "print_code": "49690B",
+              "satellite_code": "00101",
+              "manufactured": "USA",
+              "mpn": "DOL P GM8E",
+              "notes": "Player's Choice, Video Game of the Year, French Canadian"
             }
           ]
         },
@@ -175,166 +217,166 @@
               "print_code": "",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DOL P GALE",
               "notes": "Standard case, early Japan print start: 11/2/2001"
             },
             {
               "print_code": "",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DOL P GALE",
               "notes": "Security case"
             },
             {
               "print_code": "46552B",
               "satellite_code": "00001",
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DOL P GALE",
               "notes": "Best Seller"
+            },
+            {
+              "print_code": "",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "DOL P GALE",
+              "notes": "NFR (front), 2002 Indigo GameCube pack-in"
             },
             {
               "print_code": "",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "",
+              "mpn": "DOL P GALE",
               "notes": "Early USA print start: 11/8/2001"
             },
             {
               "print_code": "46551B",
               "satellite_code": "00101",
               "manufactured": "USA",
-              "mpn": "",
+              "mpn": "DOL P GALE",
               "notes": "Player's Choice"
             },
             {
               "print_code": "46551C",
               "satellite_code": "00102",
               "manufactured": "USA",
-              "mpn": "",
+              "mpn": "DOL P GALE",
               "notes": "Best Seller"
-            },
-            {
-              "print_code": "",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "",
-              "notes": "NFR (front), 2002 Indigo GameCube pack-in"
             },
             {
               "print_code": "58073A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "",
+              "mpn": "DOL P GALE",
               "notes": "NFR (back), 2005 Platinum Gamecube pack-in"
             },
             {
               "print_code": "58074A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "",
+              "mpn": "DOL P GALE",
               "notes": "NFR (back), French Canadian"
             },
             {
               "print_code": "",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DOL P GALE",
               "notes": "French Canadian"
             },
             {
               "print_code": "46554B",
               "satellite_code": "00101",
               "manufactured": "USA",
-              "mpn": "",
+              "mpn": "DOL P GALE",
               "notes": "Player's Choice, French Canadian"
             },
             {
               "print_code": "46554C",
               "satellite_code": "00102",
               "manufactured": "USA",
-              "mpn": "",
+              "mpn": "DOL P GALE",
               "notes": "Best Seller, French Canadian"
             }
           ]
         },
         {
-          "name": "The Legend of Zelda The Wind Waker",
+          "name": "The Legend of Zelda: The Wind Waker",
           "variants": [
             {
               "print_code": "50517A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DOL P GZLE",
               "notes": ""
             },
             {
               "print_code": "50517B",
               "satellite_code": "00001",
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DOL P GZLE",
               "notes": "Player's Choice"
             },
             {
               "print_code": "50516A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "GZLE",
+              "mpn": "DOL P GZLE",
               "notes": ""
             },
             {
               "print_code": "50516B",
               "satellite_code": "00101",
               "manufactured": "USA",
-              "mpn": "",
-              "notes": "Player's Choice"
-            },
-            {
-              "print_code": "50955A",
-              "satellite_code": "00100",
-              "manufactured": "USA",
-              "mpn": "YZL",
-              "notes": "Rental Exclusive (e.g., blockbuster)"
+              "mpn": "DOL P GZLE",
+              "notes": "Player's Choice / Best Seller"
             },
             {
               "print_code": "50954A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "",
-              "notes": "K-Mart Exclusive"
+              "mpn": "DOL P ZLK",
+              "notes": "K-Mart Exclusive/Nintendo Power Bonus"
+            },
+            {
+              "print_code": "50955A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P YZL",
+              "notes": "Rental Exclusive"
             },
             {
               "print_code": "51061A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "YZL",
-              "notes": ""
+              "mpn": "DOL P YZL",
+              "notes": "Rental Exclusive"
             },
             {
               "print_code": "57818A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "",
-              "notes": "Player's Choice"
+              "mpn": "DOL P GZLE",
+              "notes": "NFR (front), Player's Choice"
             },
             {
               "print_code": "51021A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "",
-              "notes": "Ocarina of Time & Master Quest bonus disc, NFR"
+              "mpn": "DOL P ZWD1",
+              "notes": "NFR, Ocarina of Time & Master Quest bonus disc"
             },
             {
               "print_code": "58069A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "",
-              "notes": "NFR, Metroid Prime & Wind Waker 2-pack, E-T rating"
+              "notes": "NFR, Metroid Prime & Wind Waker 2-pack"
             },
             {
               "print_code": "57581A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "",
+              "mpn": "DOL P GZLE",
               "notes": "Player's Choice (French Canadian)"
             }
           ]
