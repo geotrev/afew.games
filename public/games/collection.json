@@ -193,6 +193,12 @@
       "platform": "3DS",
       "games": [
         {
+          "name": "Mario Party: Star Rush",
+          "grade": "95+",
+          "variant": "Y-Fold, 104174A",
+          "grader": "VGA"
+        },
+        {
           "name": "Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey",
           "grade": "95+",
           "variant": "Y-Fold, 108503A",
