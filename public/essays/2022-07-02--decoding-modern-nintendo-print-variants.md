@@ -16,7 +16,7 @@ If you see any information that looks inaccurate, feel free to reach out (email 
 
 Let's start with _Hyrule Warriors_ on the Switch as a reference:
 
-![Hyrule Warriors for Nintendo Switch game case showing model part number, satellite, and part codes.](/uploads/hyrule-warriors.jpg)
+![Hyrule Warriors for Nintendo Switch game case showing model part number, satellite, and part codes.](/uploads/upc-info.jpg)
 
 Let's explain these details a bit:
 
