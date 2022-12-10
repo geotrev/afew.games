@@ -13,7 +13,7 @@ It's no secret that Mega Man is a huge IP spanning decades, with dozens and doze
 Before we jump into the list, here are some base expectations:
 
 - Each game covered will show a cart, manual, precautions booklet, and cardboard inlay/tray. There are exceptions that will be noted when appropriate (such as ads or postcards).
-- Differences in paperwork, such as copy quirks or print codes, aren't noted here (but may be added in the future).
+- Differences in paperwork, such as copy quirks or part codes, aren't noted here (but may be added in the future).
 - When appropriate, major visual differences will be highlighted.
 
 Here is a brief list of games covered in this post:
