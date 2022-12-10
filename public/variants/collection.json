@@ -7,28 +7,28 @@
           "name": "Metroid Prime Hunters",
           "variants": [
             {
-              "print_code": "57096B",
+              "part_code": "57096B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "USA",
               "notes": ""
             },
             {
-              "print_code": "57096C",
+              "part_code": "57096C",
               "satellite_code": "00002",
               "manufactured": "Japan",
               "mpn": "USA",
               "notes": ""
             },
             {
-              "print_code": "57102A",
+              "part_code": "57102A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "CAN",
               "notes": "French Canadian"
             },
             {
-              "print_code": "57102B",
+              "part_code": "57102B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "CAN",
@@ -45,56 +45,56 @@
           "name": "Luigi's Mansion",
           "variants": [
             {
-              "print_code": "",
+              "part_code": "",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "DOL GLME",
               "notes": "\"Memory Card\" Text"
             },
             {
-              "print_code": "46300B",
+              "part_code": "46300B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "DOL P GLME",
               "notes": "\"Uses 3 Blocks\" Text"
             },
             {
-              "print_code": "",
+              "part_code": "",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL GLME",
               "notes": "\"Memory Card\" Text"
             },
             {
-              "print_code": "",
+              "part_code": "",
               "satellite_code": "00101",
               "manufactured": "USA",
               "mpn": "DOL GLME",
               "notes": "\"Uses 3 blocks\" Text"
             },
             {
-              "print_code": "46179C",
+              "part_code": "46179C",
               "satellite_code": "00102",
               "manufactured": "USA",
               "mpn": "DOL P GLME",
               "notes": "Player's Choice"
             },
             {
-              "print_code": "",
+              "part_code": "",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "DOL P GLME",
               "notes": "\"Memory Card\" Text, French Canadian"
             },
             {
-              "print_code": "46363B",
+              "part_code": "46363B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "DOL P GLME",
               "notes": "\"Uses 3 Blocks\" Text, French Canadian"
             },
             {
-              "print_code": "46181B",
+              "part_code": "46181B",
               "satellite_code": "00101",
               "manufactured": "USA",
               "mpn": "DOL P GLME",
@@ -106,28 +106,28 @@
           "name": "Mario Kart Double Dash",
           "variants": [
             {
-              "print_code": "52955A",
+              "part_code": "52955A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P GM4E",
               "notes": ""
             },
             {
-              "print_code": "52956A",
+              "part_code": "52956A",
               "satellite_code": "00000",
               "manufactured": "USA",
               "mpn": "DOL P GM4E",
               "notes": ""
             },
             {
-              "print_code": "53156A",
+              "part_code": "53156A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "DOL R GM41",
               "notes": "Preorder Bonus Disc"
             },
             {
-              "print_code": "56043A",
+              "part_code": "56043A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "",
@@ -139,70 +139,70 @@
           "name": "Metroid Prime",
           "variants": [
             {
-              "print_code": "49689A",
+              "part_code": "49689A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "DOL P GM8E",
               "notes": ""
             },
             {
-              "print_code": "49689B",
+              "part_code": "49689B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "DOL P GM8E",
               "notes": "Player's Choice"
             },
             {
-              "print_code": "49688A",
+              "part_code": "49688A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P GM8E",
               "notes": ""
             },
             {
-              "print_code": "49688B",
+              "part_code": "49688B",
               "satellite_code": "00101",
               "manufactured": "USA",
               "mpn": "DOL P GM8E",
               "notes": "Player's Choice"
             },
             {
-              "print_code": "49692A",
+              "part_code": "49692A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P M8K",
               "notes": "NFR, K-Mart Exclusive, Wavebird Promo, Front Barcode"
             },
             {
-              "print_code": "49830A",
+              "part_code": "49830A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P GM8E",
               "notes": "Target coupons promo"
             },
             {
-              "print_code": "55107A",
+              "part_code": "55107A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "",
               "notes": "Metro Prime 2 Echoes Bonus Disc, RP-T rating"
             },
             {
-              "print_code": "58069A",
+              "part_code": "58069A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "",
               "notes": "NFR, Metroid Prime & Wind Waker 2-pack"
             },
             {
-              "print_code": "49690A",
+              "part_code": "49690A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P GM8E",
               "notes": "Best of Show E3 2002, French Canadian"
             },
             {
-              "print_code": "49690B",
+              "part_code": "49690B",
               "satellite_code": "00101",
               "manufactured": "USA",
               "mpn": "DOL P GM8E",
@@ -214,84 +214,84 @@
           "name": "Super Smash Bros Melee",
           "variants": [
             {
-              "print_code": "",
+              "part_code": "",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "DOL P GALE",
               "notes": "Standard case, early Japan print start: 11/2/2001"
             },
             {
-              "print_code": "",
+              "part_code": "",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "DOL P GALE",
               "notes": "Security case"
             },
             {
-              "print_code": "46552B",
+              "part_code": "46552B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "DOL P GALE",
               "notes": "Best Seller"
             },
             {
-              "print_code": "",
+              "part_code": "",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "DOL P GALE",
               "notes": "NFR (front), 2002 Indigo GameCube pack-in"
             },
             {
-              "print_code": "",
+              "part_code": "",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P GALE",
               "notes": "Early USA print start: 11/8/2001"
             },
             {
-              "print_code": "46551B",
+              "part_code": "46551B",
               "satellite_code": "00101",
               "manufactured": "USA",
               "mpn": "DOL P GALE",
               "notes": "Player's Choice"
             },
             {
-              "print_code": "46551C",
+              "part_code": "46551C",
               "satellite_code": "00102",
               "manufactured": "USA",
               "mpn": "DOL P GALE",
               "notes": "Best Seller"
             },
             {
-              "print_code": "58073A",
+              "part_code": "58073A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P GALE",
               "notes": "NFR (back), 2005 Platinum Gamecube pack-in"
             },
             {
-              "print_code": "58074A",
+              "part_code": "58074A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P GALE",
               "notes": "NFR (back), French Canadian"
             },
             {
-              "print_code": "",
+              "part_code": "",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "DOL P GALE",
               "notes": "French Canadian"
             },
             {
-              "print_code": "46554B",
+              "part_code": "46554B",
               "satellite_code": "00101",
               "manufactured": "USA",
               "mpn": "DOL P GALE",
               "notes": "Player's Choice, French Canadian"
             },
             {
-              "print_code": "46554C",
+              "part_code": "46554C",
               "satellite_code": "00102",
               "manufactured": "USA",
               "mpn": "DOL P GALE",
@@ -303,77 +303,77 @@
           "name": "The Legend of Zelda: The Wind Waker",
           "variants": [
             {
-              "print_code": "50517A",
+              "part_code": "50517A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "DOL P GZLE",
               "notes": ""
             },
             {
-              "print_code": "50517B",
+              "part_code": "50517B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "DOL P GZLE",
               "notes": "Player's Choice"
             },
             {
-              "print_code": "50516A",
+              "part_code": "50516A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P GZLE",
               "notes": ""
             },
             {
-              "print_code": "50516B",
+              "part_code": "50516B",
               "satellite_code": "00101",
               "manufactured": "USA",
               "mpn": "DOL P GZLE",
               "notes": "Player's Choice / Best Seller"
             },
             {
-              "print_code": "50954A",
+              "part_code": "50954A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P ZLK",
               "notes": "K-Mart Exclusive/Nintendo Power Bonus"
             },
             {
-              "print_code": "50955A",
+              "part_code": "50955A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P YZL",
               "notes": "Rental Exclusive"
             },
             {
-              "print_code": "51061A",
+              "part_code": "51061A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P YZL",
               "notes": "Rental Exclusive"
             },
             {
-              "print_code": "57818A",
+              "part_code": "57818A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P GZLE",
               "notes": "NFR (front), Player's Choice"
             },
             {
-              "print_code": "51021A",
+              "part_code": "51021A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P ZWD1",
               "notes": "NFR, Ocarina of Time & Master Quest bonus disc"
             },
             {
-              "print_code": "58069A",
+              "part_code": "58069A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "",
               "notes": "NFR, Metroid Prime & Wind Waker 2-pack"
             },
             {
-              "print_code": "57581A",
+              "part_code": "57581A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P GZLE",
@@ -390,21 +390,21 @@
           "name": "Mario Kart 8 Deluxe",
           "variants": [
             {
-              "print_code": "105278A",
+              "part_code": "105278A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "USA",
               "notes": ""
             },
             {
-              "print_code": "105278B",
+              "part_code": "105278B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "USA",
               "notes": ""
             },
             {
-              "print_code": "105278C",
+              "part_code": "105278C",
               "satellite_code": "00002",
               "manufactured": "Japan",
               "mpn": "USA",
@@ -416,35 +416,35 @@
           "name": "Super Mario Odyssey",
           "variants": [
             {
-              "print_code": "105882A",
+              "part_code": "105882A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "USA",
               "notes": "English & Spanish"
             },
             {
-              "print_code": "105882B",
+              "part_code": "105882B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "USA",
               "notes": "English & Spanish"
             },
             {
-              "print_code": "105882C",
+              "part_code": "105882C",
               "satellite_code": "00002",
               "manufactured": "Japan",
               "mpn": "USA",
               "notes": "English & Spanish"
             },
             {
-              "print_code": "108795A",
+              "part_code": "108795A",
               "satellite_code": "",
               "manufactured": "Japan",
               "mpn": "USZ",
               "notes": "\"Starter Pack\" box (English & Spanish)"
             },
             {
-              "print_code": "108807A",
+              "part_code": "108807A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "",
@@ -456,28 +456,28 @@
           "name": "Super Smash Bros Ultimate",
           "variants": [
             {
-              "print_code": "108491A",
+              "part_code": "108491A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "USA",
               "notes": "English & Spanish"
             },
             {
-              "print_code": "108491B",
+              "part_code": "108491B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "USA",
               "notes": "English & Spanish"
             },
             {
-              "print_code": "108613A",
+              "part_code": "108613A",
               "satellite_code": "",
               "manufactured": "Japan",
               "mpn": "USZ",
               "notes": "\"Ultimate Edition\" bundle (English, Spanish & French)"
             },
             {
-              "print_code": "108492A",
+              "part_code": "108492A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "CAN",
@@ -489,42 +489,42 @@
           "name": "The Legend of Zelda Breath of the Wild",
           "variants": [
             {
-              "print_code": "105211A",
+              "part_code": "105211A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "USA",
+              "mpn": "HAC P AAAAA USA",
               "notes": ""
             },
             {
-              "print_code": "105211B",
+              "part_code": "105211B",
               "satellite_code": "00001",
               "manufactured": "Japan",
-              "mpn": "USA",
+              "mpn": "HAC P AAAAA USA",
               "notes": "English & Spanish ESRB (front)"
             },
             {
-              "print_code": "105252A",
+              "part_code": "105252A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "USA",
+              "mpn": "",
               "notes": "Master Edition, Special Edition, Explorer's Edition (pack-in); no ESRB, no mpn, NFR (March 3, 2017; Explorer's Edition: Nov 23, 2017)"
             },
             {
-              "print_code": "105212A",
+              "part_code": "105212A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "CAN",
               "notes": "French Canadian"
             },
             {
-              "print_code": "105212B",
+              "part_code": "105212B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "CAN",
               "notes": "French Canadian"
             },
             {
-              "print_code": "108492A",
+              "part_code": "108492A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "CAN",
@@ -541,73 +541,73 @@
           "name": "Super Smash Bros Brawl",
           "variants": [
             {
-              "print_code": "64279A",
+              "part_code": "64279A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "USA",
+              "mpn": "RVL P RSBE USA",
               "notes": "Wi-Fi Logo"
             },
             {
-              "print_code": "64279B",
+              "part_code": "64279B",
               "satellite_code": "00001",
               "manufactured": "Japan",
-              "mpn": "USA",
+              "mpn": "RVL P RSBE USA",
               "notes": "No Wi-Fi logo, White ESRB"
             },
             {
-              "print_code": "64278A",
+              "part_code": "64278A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "USA",
+              "mpn": "RVL P RSBE USA",
               "notes": "Wi-Fi logo"
             },
             {
-              "print_code": "64278B",
+              "part_code": "64278B",
               "satellite_code": "00101",
               "manufactured": "USA",
-              "mpn": "USA",
+              "mpn": "RVL P RSBE USA",
               "notes": "Wi-Fi logo, Fighting Game of the Year"
             },
             {
-              "print_code": "64278C",
+              "part_code": "64278C",
               "satellite_code": "00102",
               "manufactured": "USA",
-              "mpn": "USA",
+              "mpn": "RVL P RSBE USA",
               "notes": "Wi-Fi logo"
             },
             {
-              "print_code": "64278D",
+              "part_code": "64278D",
               "satellite_code": "00103",
               "manufactured": "USA",
-              "mpn": "USA",
+              "mpn": "RVL P RSBE USA",
               "notes": "No Wi-Fi logo, White ESRB"
             },
             {
-              "print_code": "77615A",
+              "part_code": "77615A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "USA",
+              "mpn": "RVL P GSB USA",
               "notes": "Wi-Fi logo"
             },
             {
-              "print_code": "77615B",
+              "part_code": "77615B",
               "satellite_code": "00101",
               "manufactured": "USA",
-              "mpn": "USA",
+              "mpn": "RVL P GSB USA",
               "notes": "No Wi-Fi logo, White ESRB"
             },
             {
-              "print_code": "65591A",
+              "part_code": "65591A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "CAN",
+              "mpn": "RVL P RSBE CAN",
               "notes": "Wi-Fi logo"
             },
             {
-              "print_code": "65591B",
+              "part_code": "65591B",
               "satellite_code": "00101",
               "manufactured": "USA",
-              "mpn": "CAN",
+              "mpn": "RVL P RSBE CAN",
               "notes": "Wi-Fi logo"
             }
           ]
@@ -621,28 +621,28 @@
           "name": "Bayonetta 2",
           "variants": [
             {
-              "print_code": "83663A",
+              "part_code": "83663A",
               "satellite_code": "00000",
               "manufactured": "USA",
               "mpn": "USZ",
               "notes": "satellite_code error, includes Bayonetta 1"
             },
             {
-              "print_code": "83663B",
+              "part_code": "83663B",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "USZ",
               "notes": "Includes Bayonetta 1"
             },
             {
-              "print_code": "100178A",
+              "part_code": "100178A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "USZ",
               "notes": "Includes Bayonetta 1"
             },
             {
-              "print_code": "103567A",
+              "part_code": "103567A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "USZ",
@@ -654,35 +654,35 @@
           "name": "Mario Kart 8",
           "variants": [
             {
-              "print_code": "82909A",
+              "part_code": "82909A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "USZ",
               "notes": "Nintendo Network badge"
             },
             {
-              "print_code": "82909B",
+              "part_code": "82909B",
               "satellite_code": "00101",
               "manufactured": "USA",
               "mpn": "USZ",
               "notes": "Nintendo Network badge"
             },
             {
-              "print_code": "83055A",
+              "part_code": "83055A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "USZ",
               "notes": "Nintendo Network badge, NFR (2014 Wii U 32GB + Mario Kart 8 \"Deluxe Set\")"
             },
             {
-              "print_code": "101514A",
+              "part_code": "101514A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "USZ",
               "notes": "\"amiibo\" badge, \"amiibo\" no TM"
             },
             {
-              "print_code": "101979A",
+              "part_code": "101979A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "USZ",
@@ -694,39 +694,39 @@
           "name": "Super Mario 3D World",
           "variants": [
             {
-              "print_code": "81224A",
+              "part_code": "81224A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "USZ",
-              "notes": "English, French & Spanish"
+              "mpn": "WUP P ARDE USZ",
+              "notes": ""
             },
             {
-              "print_code": "81224C",
+              "part_code": "81224C",
               "satellite_code": "00102",
               "manufactured": "USA",
-              "mpn": "USZ",
-              "notes": "Red Case, Family Game of the Year Badge (English, French & Spanish)"
+              "mpn": "WUP P ARDE USZ",
+              "notes": "Red Case, Family Game of the Year Badge"
             },
             {
-              "print_code": "101973A",
+              "part_code": "101973A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "USZ",
-              "notes": "Red Case (English, French & Spanish)"
+              "mpn": "WUP P ARDE USZ",
+              "notes": "Red Case"
             },
             {
-              "print_code": "100420A",
+              "part_code": "100420A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "USZ",
-              "notes": "Red Case, NFR (English, French & Spanish)"
+              "mpn": "WUP P ARDE USZ",
+              "notes": "Red Case, NFR"
             },
             {
-              "print_code": "103634A",
+              "part_code": "103634A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "USZ",
-              "notes": "Nintendo Selects (English, French & Spanish)"
+              "mpn": "WUP P ARD2 USZ",
+              "notes": "Nintendo Selects"
             }
           ]
         },
@@ -734,53 +734,72 @@
           "name": "Super Smash Bros For Wii U",
           "variants": [
             {
-              "print_code": "83664A",
+              "part_code": "83664A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "USZ",
+              "mpn": "WUP P AXFE USZ",
               "notes": ""
             },
             {
-              "print_code": "100201A",
+              "part_code": "100201A",
               "satellite_code": "N/A",
               "manufactured": "USA",
-              "mpn": "USA",
+              "mpn": "WUP Q AXFE USA",
               "notes": "Controller w/ Adapter bundle box, limited edition first print"
             },
             {
-              "print_code": "83665A",
+              "part_code": "83665A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "N/A",
+              "mpn": "",
               "notes": "Controller w/ Adapter bundle pack-in, NFR, first print"
             },
             {
-              "print_code": "101842A",
+              "part_code": "101842A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "USZ",
+              "mpn": "WUP P AXFE USZ",
               "notes": "\"Read/Write\" text"
             },
             {
-              "print_code": "101986A",
+              "part_code": "101986A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "USZ",
+              "mpn": "WUP P AXFE USZ",
               "notes": "\"Read/Write\" text"
             },
             {
-              "print_code": "101986B",
+              "part_code": "101986B",
               "satellite_code": "00001",
               "manufactured": "Japan",
-              "mpn": "USZ",
+              "mpn": "WUP P AXFE USZ",
               "notes": "\"Read/Write\" text"
             },
             {
-              "print_code": "101986C",
+              "part_code": "101986C",
               "satellite_code": "00002",
               "manufactured": "Japan",
-              "mpn": "USZ",
+              "mpn": "WUP P AXFE USZ",
               "notes": "\"Read/Write\" text"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda Breath of the Wild",
+          "variants": [
+            {
+              "part_code": "103423A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "WUP P ALZE USZ",
+              "notes": "7 Controllers Error"
+            },
+            {
+              "part_code": "103423B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "WUP P ALZE USZ",
+              "notes": "2 Controllers"
             }
           ]
         }
@@ -793,21 +812,21 @@
           "name": "Dishonored",
           "variants": [
             {
-              "print_code": "793WR",
+              "part_code": "793WR",
               "satellite_code": "",
               "manufactured": "",
               "mpn": "",
               "notes": "2012, Made in Mexico sticker"
             },
             {
-              "print_code": "793WR",
+              "part_code": "793WR",
               "satellite_code": "",
               "manufactured": "",
               "mpn": "",
               "notes": "2012, Made in Mexico stamp"
             },
             {
-              "print_code": "892WR",
+              "part_code": "892WR",
               "satellite_code": "",
               "manufactured": "",
               "mpn": "",

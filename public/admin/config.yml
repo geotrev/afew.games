@@ -106,8 +106,8 @@ collections:
                     add_to_top: true
                     collapsed: true
                     fields:
-                      - label: "Print Code"
-                        name: "print_code"
+                      - label: "Part Code"
+                        name: "part_code"
                         required: false
                         widget: "string"
                       - label: "Satellite Code"
