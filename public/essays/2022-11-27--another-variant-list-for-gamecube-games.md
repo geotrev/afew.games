@@ -76,7 +76,7 @@ See also: [Wata Games' variant guide & pop report](https://blog.watagames.com/20
 
 ## Bundle Releases
 
-Sometimes games were shipped as as 2-in-1. Here are a couple of those:
+Sometimes games were shipped as a 2-in-1. Here are a couple of those:
 
 | Part code | Satellite Code | Manufactured | MPN        | Notes                                                  |
 | --------- | -------------- | ------------ | ---------- | ------------------------------------------------------ |
