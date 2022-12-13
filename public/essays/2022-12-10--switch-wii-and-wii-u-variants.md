@@ -20,7 +20,7 @@ With that said, I hope you find this information helpful!
 | 105211B   | 00001          | Japan        | HAC P AAAAA USA | English & Spanish ESRB               |
 | 105252A   | 00000          | Japan        |                 | Not For Resale (NFR) [1] |
 
-<p id="note-1"><small>[1] This NFR is somewhat unique. The game was bundled in all limited edition versions in 2017. This includes release bundles like Master Edition and Special Edition, then eventually the Explorer's Edition (November 23rd, 2017). This variant has no ESRB or NMPN.</small></p>
+<small>[1] This NFR is somewhat unique. The game was bundled in all limited edition versions in 2017. This includes release bundles like Master Edition and Special Edition, then eventually the Explorer's Edition (November 23rd, 2017). This variant has no ESRB or NMPN.</small>
 
 ## Super Mario 3D World (Wii U)
 
