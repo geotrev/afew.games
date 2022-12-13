@@ -2,8 +2,7 @@
 title: Switch, Wii, and Wii U Variants
 description: A hodgepodge of video game variants across modern Nintendo consoles
 ---
-
-I have a few games which account for the totality of one console in my notes. They're popular games, however, and I think the variants are worth noting.
+Here I'm sharing a some variants that have been leftover from the past months. They're popular games, however, and I think the variants are worth noting!
 
 If you haven't already, do check out my [variant guide](https://www.afew.games/essays/decoding-modern-nintendo-print-variants) to learn what each portion of the below data means and why it matters.
 
@@ -11,21 +10,21 @@ As usual, this guide will focus primarily on North American (NTSC-U/C) editions,
 
 With that said, I hope you find this information helpful!
 
----
+- - -
 
 ## The Legend of Zelda: Breath of the Wild (Switch)
 
-| Part code | Satellite Code | Manufactured | MPN             | Notes                  |
+| Part Code | Satellite Code | Manufactured | MPN             | Notes                  |
 | --------- | -------------- | ------------ | --------------- | ---------------------- |
 | 105211A   | 00000          | Japan        | HAC P AAAAA USA |                        |
 | 105211B   | 00001          | Japan        | HAC P AAAAA USA | English & Spanish ESRB |
 | 105252A   | 00000          | Japan        |                 | \*Not For Resale (NFR) |
 
-<small>\* This NFR is somewhat unique. The game was bundled in all limited edition versions in 2017. This includes release bundles like Master Edition and Special Edition, then eventually the Explorer's Edition (November 23rd, 2017). This variant has no ESRB or NMPN.</small>
+<small>* This NFR is somewhat unique. The game was bundled in all limited edition versions in 2017. This includes release bundles like Master Edition and Special Edition, then eventually the Explorer's Edition (November 23rd, 2017). This variant has no ESRB or NMPN.</small>
 
 ## Super Mario 3D World (Wii U)
 
-| Part code | Satellite Code | Manufactured | MPN            | Notes                 |
+| Part Code | Satellite Code | Manufactured | MPN            | Notes                 |
 | --------- | -------------- | ------------ | -------------- | --------------------- |
 | 81224A    | 00100          | USA          | WUP P ARDE USZ |                       |
 | 81224C    | 00102          | USA          | WUP P ARDE USZ | Red Case, Family GOTY |
@@ -35,14 +34,14 @@ With that said, I hope you find this information helpful!
 
 ## The Legend of Zelda: Breath of the Wild (Wii U)
 
-| Part code | Satellite Code | Manufactured | MPN            | Notes               |
+| Part Code | Satellite Code | Manufactured | MPN            | Notes               |
 | --------- | -------------- | ------------ | -------------- | ------------------- |
 | 103423A   | 00000          | Japan        | WUP P ALZE USZ | 7 Controllers Error |
 | 103423B   | 00001          | Japan        | WUP P ALZE USZ | 2 Controllers       |
 
 ## Super Smash Bros. for Wii U
 
-| Part code | Satellite Code | Manufactured | MPN            | Notes                              |
+| Part Code | Satellite Code | Manufactured | MPN            | Notes                              |
 | --------- | -------------- | ------------ | -------------- | ---------------------------------- |
 | 83664A    | 00100          | USA          | WUP P AXFE USZ |                                    |
 | 100201A   |                | USA          | WUP Q AXFE USA | Controller W/ Adapter Bundle       |
@@ -54,7 +53,7 @@ With that said, I hope you find this information helpful!
 
 ## Super Smash Bros. Brawl
 
-| Part code | Satellite Code | Manufactured | MPN            | Notes                             |
+| Part Code | Satellite Code | Manufactured | MPN            | Notes                             |
 | --------- | -------------- | ------------ | -------------- | --------------------------------- |
 | 64279A    | 00000          | Japan        | RVL P RSBE USA | Wi-Fi Logo                        |
 | 64279B    | 00001          | Japan        | RVL P RSBE USA | No Wi-Fi Logo, White ESRB         |
