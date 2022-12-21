@@ -14,14 +14,22 @@
               "notes": "\"Nintendo Network\" badge"
             },
             {
-              "part_code": "101840C",
-              "satellite_code": "00002",
+              "part_code": "101840A",
+              "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "CTR P AXCE USA",
               "notes": "\"amiibo\" badge"
             },
             {
               "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P AXCE USA",
+              "notes": "\"amiibo\" badge",
+              "part_code": "101840B"
+            },
+            {
+              "part_code": "101840C",
+              "satellite_code": "00002",
               "manufactured": "Japan",
               "mpn": "CTR P AXCE USA",
               "notes": "\"amiibo\" badge"
