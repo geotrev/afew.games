@@ -541,6 +541,11 @@
           "name": "Super Smash Bros Brawl",
           "variants": [
             {
+              "part_code": "101880A",
+              "satellite_code": "00000",
+              "manufactured": "Japan"
+            },
+            {
               "part_code": "64279A",
               "satellite_code": "00000",
               "manufactured": "Japan",
