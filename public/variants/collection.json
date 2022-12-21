@@ -538,6 +538,29 @@
       "platform": "Wii",
       "games": [
         {
+          "name": "The Legend of Zelda: Skyward Sword",
+          "variants": [
+            {
+              "part_code": "75627A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "notes": "Non-Foil Cover"
+            },
+            {
+              "part_code": "75631A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "notes": "Not For Resale, Gold Wiimote Bundle"
+            },
+            {
+              "part_code": "75798A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "notes": "Foil Cover"
+            }
+          ]
+        },
+        {
           "name": "Super Smash Bros Brawl",
           "variants": [
             {
