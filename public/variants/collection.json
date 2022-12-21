@@ -7,13 +7,6 @@
           "name": "Super Smash Bros. for 3DS",
           "variants": [
             {
-              "part_code": "83566A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P AXCE CAN",
-              "notes": "Canadian"
-            },
-            {
               "part_code": "83565A",
               "satellite_code": "00000",
               "manufactured": "Japan",
@@ -40,6 +33,13 @@
               "manufactured": "Japan",
               "mpn": "CTR P AXCE USA",
               "notes": "\"amiibo\" badge"
+            },
+            {
+              "part_code": "83566A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P AXCE CAN",
+              "notes": "Canadian"
             }
           ]
         }
