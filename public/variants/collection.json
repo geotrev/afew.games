@@ -1,6 +1,36 @@
 {
   "platforms": [
     {
+      "platform": "3DS",
+      "games": [
+        {
+          "name": "Super Smash Bros. for 3DS",
+          "variants": [
+            {
+              "part_code": "83565A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P AXCE USA",
+              "notes": "\"Nintendo Network\" badge"
+            },
+            {
+              "part_code": "101840C",
+              "satellite_code": "00002",
+              "manufactured": "Japan",
+              "mpn": "CTR P AXCE USA",
+              "notes": "\"amiibo\" badge"
+            },
+            {
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P AXCE USA",
+              "notes": "\"amiibo\" badge"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "platform": "DS",
       "games": [
         {
