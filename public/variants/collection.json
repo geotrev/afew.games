@@ -42,6 +42,25 @@
       "platform": "GameCube",
       "games": [
         {
+          "name": "Pikmin",
+          "variants": [
+            {
+              "satellite_code": "00000",
+              "manufactured": "Japan"
+            },
+            {
+              "satellite_code": "00100",
+              "manufactured": "USA"
+            },
+            {
+              "part_code": "46556B",
+              "satellite_code": "00101",
+              "manufactured": "USA",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
           "name": "Luigi's Mansion",
           "variants": [
             {
