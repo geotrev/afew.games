@@ -45,3 +45,16 @@ With box grades, the numbers are equally revealing as they show a heavy skew in 
 | 9.8       | 300   | 8.35%    |
 | 10       | 0   | 0%    |
 | Total     | 3594| 100%    |
+
+Box grades from 9.0 and up spread as you would expect across seal grades:
+
+| Box Grade | A++    | A+     | A      | B+    | B     | C+  | C   |
+| --------- | ------ | ------ | ------ | ----- | ----- | --- | --- |
+| 10       | 0 | 0     | 0      | 0     | 0     | 0   | 0   |
+| 9.8       | 165    | 53     | 4      | 0     | 0     | 0   | 0   |
+| 9.6       | 124    | 202    | 49     | 5     | 1     | 0   | 0   |
+| 9.4       | 103    | 254    | 64     | 10    | 1     | 0   | 0   |
+| 9.2       | 47     | 172    | 74     | 11    | 5     | 0   | 0   |
+| 9.0       | 29     | 130    | 67     | 11    | 2     | 0   | 0   |
+| Total     | 468    | 811    | 258    | 37    | 9     | 0   | 0   |
+| %         | 18.83% | 32.64% | 10.38% | 1.47% | 0.36% | 0%  | 0%  |
