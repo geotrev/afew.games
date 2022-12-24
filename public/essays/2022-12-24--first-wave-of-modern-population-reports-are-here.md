@@ -87,8 +87,8 @@ Not surprisingly, the top five comprise the top selling franchises of Nintendo: 
 
 Here are some intriguing figures:
 
-* Wind Waker has nine Made in Japan examples graded, one `9.8 A`+, and only two `9.6 A+`.
-* Wind Waker 130 Made in USA examples graded, one `9.8 A++`, three `9.8 A+`, one `9.6 A++`, and \*\*twenty\*\* `9.6 A+` graded.
+* Wind Waker has only nine Made in Japan examples graded, one `9.8 A`+, and only two `9.6 A+`.
+* Wind Waker also has 130 Made in USA examples graded, one `9.8 A++`, three `9.8 A+`, one `9.6 A++`, and \*\*twenty\*\* `9.6 A+` graded.
 * Super Smash Bros Melee (SSBM) has 13 Made in Japan (standard retail) examples graded. There is one `9.8 A+` and two `9.6 A+`.
 * SSBM has only five Made in Japan NFR examples graded (this was part of the 2002 console pack-in). The highest graded is `9.6 A+` with two examples.
 * SSBM has 23 Made in USA examples graded. There is one of `9.8 A++` and `9.6 A++`, each, and three `9.6 A+`.
