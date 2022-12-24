@@ -32,25 +32,25 @@ Not surprisingly, seal grades for GameCube skew to A+, with a surprisingly low n
 | B          | 64    | 1.71%  |
 | C+         | 6     | 0.16%  |
 | C          | 1     | 0.03%  |
-| Total      | 3749  | 100%  |
+| Total      | 3749  | 100%   |
 
 With box grades, the numbers are equally revealing as they show a heavy skew in 9.6 and up. Basically, this means if you're after a grade that meets a condition minimum equal to or better than most people, you'll want *at least* 9.6 A+.
 
-| Box Grade | Total | %   |
-| --------- | ----- | --- |
-| 9.0       | 198   | 5.51%    |
-| 9.2       | 474   | 13.19%    |
-| 9.4       | 1251  | 34.81%    |
-| 9.6       | 1371  | 38.15%    |
-| 9.8       | 300   | 8.35%    |
-| 10       | 0   | 0%    |
-| Total     | 3594| 100%    |
+| Box Grade | Total | %      |
+| --------- | ----- | ------ |
+| 9.0       | 198   | 5.51%  |
+| 9.2       | 474   | 13.19% |
+| 9.4       | 1251  | 34.81% |
+| 9.6       | 1371  | 38.15% |
+| 9.8       | 300   | 8.35%  |
+| 10        | 0     | 0%     |
+| Total     | 3594  | 100%   |
 
 Box grades from 9.0 and up spread as you would expect across seal grades:
 
 | Box Grade | A++    | A+     | A      | B+    | B     | C+  | C   |
 | --------- | ------ | ------ | ------ | ----- | ----- | --- | --- |
-| 10       | 0 | 0     | 0      | 0     | 0     | 0   | 0   |
+| 10        | 0      | 0      | 0      | 0     | 0     | 0   | 0   |
 | 9.8       | 165    | 53     | 4      | 0     | 0     | 0   | 0   |
 | 9.6       | 124    | 202    | 49     | 5     | 1     | 0   | 0   |
 | 9.4       | 103    | 254    | 64     | 10    | 1     | 0   | 0   |
