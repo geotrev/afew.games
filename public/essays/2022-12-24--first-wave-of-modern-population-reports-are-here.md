@@ -4,9 +4,11 @@ description: An analysis of Nintendo GameCube graded population data
 ---
 If you're in the graded game space, you're likely well familiar with how long pop reports have taken to be released to the public. VGA's pop reports are nowhere to be seen and Wata had only previously released generations 1-5 (e.g., only vintage).
 
-Thankfully Christmas came early this year with 13 new mid-generation (6-7) console population reports! For pre-Nintendo collectors, there's also Atari, Intellivision, and Colecovision populations to peruse as well.
+Thankfully Christmas came early this year with six new mid-generation (6-7) console populations! Included in the update is seven additional vintage consoles, including Atari, Intellivision, and Colecovision populations to peruse as well.
 
-For now, I wanted to gather some data on a handful of the earliest modern consoles available, including GameCube, Xbox, and PS2. There's some interesting, and perhaps unsurprising info to see.
+For now, I wanted to gather some data and focus briefly on GameCube. There's some interesting, and perhaps unsurprising info to see.
+
+Stay tuned for Xbox and PS2 in the near future.
 
 - - -
 
