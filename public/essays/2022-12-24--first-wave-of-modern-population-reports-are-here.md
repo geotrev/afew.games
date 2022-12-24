@@ -12,7 +12,7 @@ Stay tuned for Xbox and PS2 in the near future.
 
 - - -
 
-As a caveat to the below data, remember: games submitted to Wata won't and will never be able to represent the wider collecting hobby. This is mainly due to the fact that graded games and its community of enthusiasts is still very small when compared to the larger collecting sphere, and the motivations of grading are at least partially skewed by the highest value and/or sought-after games.
+As a caveat to the below data, remember: games submitted to Wata won't and will never be able to represent the wider collecting hobby. This is mainly due to the fact that graded games and its community(ies) of enthusiasts are still very small when compared to the larger collecting sphere. The motivations of grading are at least partially skewed by the highest value and/or sought-after games too.
 
 Same as in previous essays, we'll break down each console into a few metrics:
 
