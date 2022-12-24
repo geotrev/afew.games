@@ -61,7 +61,7 @@ Breaking down box grades from `9.0` and up, the results map predictably:
 | Seal Total        | 212   | 1688   | 1353   | 298   | 42    | 1     | 0     | 0     |
 | % of Total Graded | 5.65% | 45.03% | 36.09% | 7.95% | 1.12% | 0.03% | 0.00% | 0.00% |
 
-These might be somewhat shocking figures, but **96.87% scored `9.0` or higher** and **50% of all games submitted are at least `9.0 A+`**.
+These might be somewhat shocking figures, but **95.87% scored `9.0` or higher** and **50% of all games submitted are at least `9.0 A+`**.
 
 Combining box and seal grades, if you want **above the weighted average** for GameCube, you'll want `9.6 A+` or better.
 
