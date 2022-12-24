@@ -1,6 +1,6 @@
 ---
 title: First Wave of Modern Population Reports Are Here!
-description: An analysis of GameCube population data
+description: An analysis of Nintendo GameCube graded population data
 ---
 If you're in the graded game space, you're likely well familiar with how long pop reports have taken to be released to the public. VGA's pop reports are nowhere to be seen and Wata had only previously released generations 1-5 (e.g., only vintage).
 
