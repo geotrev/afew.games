@@ -18,12 +18,12 @@ Same as in previous essays, we'll break down each console into a few metrics:
 
 * Seal grade totals
 * Box grade totals (new!)
-* Seal grade breakdown across each box grade, starting at 9.0
+* Seal grade breakdown across each box grade, starting at `9.0`
 * The top 10 submitted games
 
 ## GameCube
 
-Not surprisingly, seal grades for GameCube skew to A+, with a surprisingly low number of A++; under the likes of NES, which precedes GameCube by 20+ years.
+Not surprisingly, seal grades for GameCube skew to `A+`, with a surprisingly low number of `A++`.
 
 | Seal Grade | Total | %      |
 | ---------- | ----- | ------ |
@@ -36,7 +36,7 @@ Not surprisingly, seal grades for GameCube skew to A+, with a surprisingly low n
 | C          | 1     | 0.03%  |
 | Total      | 3749  | 100%   |
 
-With box grades, the numbers are equally revealing as they show a heavy skew in 9.6 and up. Basically, this means if you're after a grade that meets a condition minimum equal to or better than most graded copies, you'll want *at least* 9.4 A+.
+With box grades, the numbers are equally revealing as they show a heavy weight in `9.4` and higher. Basically, this means if you're after a higher-than-average grade, you'll want *at least* `9.6`.
 
 | Box Grade | Total | %      |
 | --------- | ----- | ------ |
@@ -48,7 +48,7 @@ With box grades, the numbers are equally revealing as they show a heavy skew in 
 | 10        | 0     | 0%     |
 | Total     | 3594  | 100%   |
 
-Box grades from 9.0 and up spread as you would expect across seal grades:
+Breaking down box grades from `9.0` and up, the results map predictably:
 
 | Box Grade         | A++   | A+     | A      | B+    | B     | C+    | C     | NS    |
 | ----------------- | ----- | ------ | ------ | ----- | ----- | ----- | ----- | ----- |
@@ -61,9 +61,11 @@ Box grades from 9.0 and up spread as you would expect across seal grades:
 | Seal Total        | 212   | 1688   | 1353   | 298   | 42    | 1     | 0     | 0     |
 | % of Total Graded | 5.65% | 45.03% | 36.09% | 7.95% | 1.12% | 0.03% | 0.00% | 0.00% |
 
-These might be somewhat shocking figures, but **98.87% scored 9.0 or higher** and **45% of all games submitted are at least 9.0 A+**. As mentioned earlier, to be **above the weighted average** for GameCube, you'll want 9.4 A+ or better.
+These might be somewhat shocking figures, but **96.87% scored `9.0` or higher** and **50% of all games submitted are at least `9.0 A+`**.
 
-Real quick, let's talk about seal grades. Why so few A++? One theory could be that the seals were produced with a very cheap material and therefore are susceptible to scratches and tearing. Regardless of the reason, A++ seals are clearly rare, so hold onto those!
+Combining box and seal grades, if you want **above the weighted average** for GameCube, you'll want `9.6 A+` or better.
+
+So why so few `A++`? One theory could be that the seals were produced with a very cheap material and therefore are susceptible to scratches and tearing. Regardless of the reason, `A++` seals are clearly rare!
 
 Here's the top 10 most graded games on GameCube
 
@@ -81,18 +83,20 @@ Here's the top 10 most graded games on GameCube
 | TMNT                                              | 88           | 2.35%             |
 | Total                                             | 760          | 20.27%            |
 
-Not surprisingly, the top five comprise the top selling franchises of Nintendo: Mario and Zelda. As for some intriguing figures:
+Not surprisingly, the top five comprise the top selling franchises of Nintendo: Mario and Zelda.
 
-* Wind Waker has 9 Made in Japan examples graded, one 9.8 A+, and only two 9.6 A+.
-* Wind Waker 130 Made in USA examples graded, one 9.8 A++, three 9.8 A+, one 9.6 A++, and \*\*twenty\*\* 9.6 A+ graded.
-* Super Smash Bros Melee (SSBM) has 13 Made in Japan (standard retail) examples graded. There is one 9.8 A+ and two 9.6 A+.
-* SSBM has only five Made in Japan NFR examples graded (this was part of the 2002 console pack-in). The highest graded is 9.6 A+ with two examples.
-* SSBM has 23 Made in USA examples graded. There is one of 9.8 A++ and 9.6 A++, each, and three 9.6 A+.
-* Mario Kart Double Dash (MKDD) has only 4 Made in Japan retail prints graded, three of which are 9.6 A at the highest end.
-* MKDD has a sparse two total copies of its Made In USA Bonus Disc (standard retail) variant graded (53155A part code). 
-* MKDD also has 39 examples of its NFR variant with part code 56043A, with one 9.8 A++, two 9.8 A+, and eight 9.6 A+ examples.
-* Metroid Prime has all of 10 Made in Japan examples, the highest of which is 9.6 A+ with just one example.
-* Metroid Prime's standard Made in USA retail print has 43 copies graded, with one 9.8 A++, three 9.8 A+, one 9.6 A++, and seven 9.6 A+ examples.
-* Metroid Prime has ZERO Target Exclusive variants (49830A code) graded.
+Here are some intriguing figures:
+
+* Wind Waker has nine Made in Japan examples graded, one `9.8 A`+, and only two `9.6 A+`.
+* Wind Waker 130 Made in USA examples graded, one `9.8 A++`, three `9.8 A+`, one `9.6 A++`, and \*\*twenty\*\* `9.6 A+` graded.
+* Super Smash Bros Melee (SSBM) has 13 Made in Japan (standard retail) examples graded. There is one `9.8 A+` and two `9.6 A+`.
+* SSBM has only five Made in Japan NFR examples graded (this was part of the 2002 console pack-in). The highest graded is `9.6 A+` with two examples.
+* SSBM has 23 Made in USA examples graded. There is one of `9.8 A++` and `9.6 A++`, each, and three `9.6 A+`.
+* Mario Kart Double Dash (MKDD) has only 4 Made in Japan retail prints graded, three of which are `9.6 A` at the highest end.
+* MKDD has a sparse two total copies of its Made In USA Bonus Disc (standard retail) variant graded (`53155A` part code). 
+* MKDD also has 39 examples of its NFR variant (part code `56043A`), with one `9.8 A++`, two `9.8 A+`, and eight `9.6 A+` examples.
+* Metroid Prime has all of 10 Made in Japan examples, the highest of which is `9.6 A+` with just one example.
+* Metroid Prime's standard Made in USA retail print has 43 copies graded, with one `9.8 A++`, three `9.8 A+`, one `9.6 A++`, and seven `9.6 A+` examples.
+* Metroid Prime has ZERO Target Exclusive variants (`49830A` part code) graded.
 
 See the complete GameCube population data [here.](https://www.watagames.com/populations/gamecube/index.html)
