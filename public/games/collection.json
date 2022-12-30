@@ -193,6 +193,18 @@
       "platform": "3DS",
       "games": [
         {
+          "variant": "Y-Fold, Nintendo Network badge, 83565A",
+          "grader": "VGA",
+          "grade": "95+",
+          "name": "Super Smash Bros. for 3DS"
+        },
+        {
+          "name": "Hyrule Warriors Legends",
+          "grade": "95+",
+          "variant": "Y-Fold, 103361A",
+          "grader": "VGA"
+        },
+        {
           "name": "Mario Party: Star Rush",
           "grade": "95+",
           "variant": "Y-Fold, 104174A",
@@ -235,9 +247,15 @@
           "grader": "VGA"
         },
         {
-          "name": "Pokemon Sun Version",
+          "name": "Pokemon Moon",
+          "grade": "85+",
+          "variant": "Sticker Seal, Wal-Mart Exclusive w/ Lunala Figurine, 104302A",
+          "grader": "VGA"
+        },
+        {
+          "name": "Pokemon Sun",
           "grade": "90",
-          "variant": "Sticker Seal, Walmart Exclusive, 104299A",
+          "variant": "Sticker Seal, Walmart Exclusive w/ Solgaleo Figurine, 104299A",
           "grader": "VGA"
         },
         {
@@ -245,41 +263,6 @@
           "grade": "95",
           "variant": "Y-Fold, 106570B",
           "grader": "VGA"
-        }
-      ]
-    },
-    {
-      "platform": "N64",
-      "games": [
-        {
-          "name": "The Legend of Zelda: Ocarina of Time",
-          "grade": "9.6",
-          "variant": "Made in Japan, Collector's Edition; 9.6 (box), 9.6 (cart), 9.4 (manual)",
-          "grader": "Wata"
-        },
-        {
-          "name": "Pocket Monsters' Stadium: Gold and Silver",
-          "grade": "9.8 NS",
-          "variant": "NS, Made in Japan, Unopened",
-          "grader": "Wata"
-        },
-        {
-          "name": "Hey You, Pikachu!",
-          "grade": "85+",
-          "variant": "Sticker Seal, Qualified",
-          "grader": "VGA"
-        },
-        {
-          "name": "Gauntlet Legends",
-          "variant": "V-Seam, Made in Japan/Printed in USA, T Rating (Pixelated), 78% Fiber, No Figure (USA Code)",
-          "grader": "Wata",
-          "grade": "9.8 A++"
-        },
-        {
-          "name": "Pokemon Snap",
-          "variant": "V-Seam, Made in Japan, E Rating (Pixelated), 100% Fiber (USA Code)",
-          "grader": "Wata",
-          "grade": "8.5 A"
         }
       ]
     },
@@ -327,6 +310,41 @@
           "variant": "Y-Fold, Assembled in Japan, Japanese Version",
           "grader": "Wata",
           "grade": "9.8 A+"
+        }
+      ]
+    },
+    {
+      "platform": "N64",
+      "games": [
+        {
+          "name": "The Legend of Zelda: Ocarina of Time",
+          "grade": "9.6",
+          "variant": "Made in Japan, Collector's Edition; 9.6 (box), 9.6 (cart), 9.4 (manual)",
+          "grader": "Wata"
+        },
+        {
+          "name": "Pocket Monsters' Stadium: Gold and Silver",
+          "grade": "9.8 NS",
+          "variant": "NS, Made in Japan, Unopened",
+          "grader": "Wata"
+        },
+        {
+          "name": "Hey You, Pikachu!",
+          "grade": "85+",
+          "variant": "Sticker Seal, Qualified",
+          "grader": "VGA"
+        },
+        {
+          "name": "Gauntlet Legends",
+          "variant": "V-Seam, Made in Japan/Printed in USA, T Rating (Pixelated), 78% Fiber, No Figure (USA Code)",
+          "grader": "Wata",
+          "grade": "9.8 A++"
+        },
+        {
+          "name": "Pokemon Snap",
+          "variant": "V-Seam, Made in Japan, E Rating (Pixelated), 100% Fiber (USA Code)",
+          "grader": "Wata",
+          "grade": "8.5 A"
         }
       ]
     },
