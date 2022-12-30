@@ -693,6 +693,18 @@
       "platform": "PlayStation 4",
       "games": [
         {
+          "name": "What Remains of Edith Finch",
+          "grade": "9.6 A",
+          "grader": "CGC",
+          "variant": "3-Side Seam, 8BIT112917-8A"
+        },
+        {
+          "name": "Firewatch",
+          "grade": "9.4 A+",
+          "grader": "CGC",
+          "variant": "3-Side Seam, MRLR-0032-CVR"
+        },
+        {
           "name": "Oxenfree",
           "grade": "95",
           "variant": "Y-Fold, MRLR-0037-CVR",
@@ -790,6 +802,12 @@
     {
       "platform": "Xbox 360",
       "games": [
+        {
+          "name": "Halo 4",
+          "grade": "9.4 A+",
+          "variant": "Y-Fold, No Country, M Rating, Microsoft Security Label, From Opened Factory 30-Pack",
+          "grader": "Wata"
+        },
         {
           "name": "Dishonored",
           "variant": "Y-Fold, Assembled in USA, Microsoft Security Label",
