@@ -576,6 +576,12 @@
       "platform": "PlayStation",
       "games": [
         {
+          "name": "Mega Man 8 Anniversary Edition",
+          "grade": "9.8 A+",
+          "variant": "Y-Fold, Black label, Plattsburgh Collection, Made in USA, Security Strip w/ Security Tear Strip and Plastic Hangtab",
+          "grader": "Wata"
+        },
+        {
           "name": "Mega Man 8 Anniversary Collector's Edition",
           "grade": "85",
           "variant": "Y-Fold, Black Label",
@@ -648,7 +654,7 @@
         },
         {
           "name": "Kingdom Hearts",
-          "variant": "Y-Fold, Security Strip, Black Label, Security Strip w/ Security Tear Strip and Plastic Hangtab",
+          "variant": "Y-Fold, Black Label, Security Strip w/ Security Tear Strip and Plastic Hangtab",
           "grader": "Wata",
           "grade": "9.6 A+"
         },
