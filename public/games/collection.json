@@ -199,12 +199,6 @@
           "name": "Super Smash Bros. for 3DS"
         },
         {
-          "name": "Pokemon Moon",
-          "grade": "85+",
-          "variant": "Sticker Seal, Wal-Mart Exclusive w/ Lunala Figurine, 104302A",
-          "grader": "VGA"
-        },
-        {
           "name": "Hyrule Warriors Legends",
           "grade": "95+",
           "variant": "Y-Fold, 103361A",
@@ -253,9 +247,15 @@
           "grader": "VGA"
         },
         {
-          "name": "Pokemon Sun Version",
+          "name": "Pokemon Moon",
+          "grade": "85+",
+          "variant": "Sticker Seal, Wal-Mart Exclusive w/ Lunala Figurine, 104302A",
+          "grader": "VGA"
+        },
+        {
+          "name": "Pokemon Sun",
           "grade": "90",
-          "variant": "Sticker Seal, Walmart Exclusive, 104299A",
+          "variant": "Sticker Seal, Walmart Exclusive w/ Solgaleo Figurine, 104299A",
           "grader": "VGA"
         },
         {
