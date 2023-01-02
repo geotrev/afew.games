@@ -10,7 +10,7 @@ I'll share my thoughts at the end!
 
 | Material(s) | Bonding | Blister | Tamper-Evident | Size                       | Scale                                                                                             |
 | ----------- | ------- | ------- | -------------- | -------------------------- | ------------------------------------------------------------------------------------------------- |
-| Acrylic     | Cement  | No      | No             | Form-fit (any console/game) | [CGA Grading Scale](https://cgagrading.com/grading-scales#s-c6484255-40bd-43f9-a29a-1af7d91cd070) |
+| Acrylic     | Cement  | No      | No             | Form-fit/Slim | [CGA Grading Scale](https://cgagrading.com/grading-scales#s-c6484255-40bd-43f9-a29a-1af7d91cd070) |
 
 ### VGA Holder Label
 
@@ -36,7 +36,7 @@ There's also very small grooves on each front corner. I'm guessing these are the
 
 | Material(s)     | Bonding    | Blister | Tamper-Evident | Size  | Scale                                                                |
 | --------------- | ---------- | ------- | -------------- | ----- | -------------------------------------------------------------------- |
-| Acrylic/Plastic | Interlocking Pins/Cement | No      | No             | Large | [Wata Grading Scale](https://www.watagames.com/what-we-do/wata-scale) |
+| Acrylic/Plastic | Interlocking Pins/Cement | Yes | Yes             | Large | [Wata Grading Scale](https://www.watagames.com/what-we-do/wata-scale) |
 
 ### Wata Holder Label
 
@@ -60,12 +60,10 @@ The inner blister is two pieces. There are no corner bubbles, and the blister po
 
 ## CGC
 
-* Material(s): Polycarbonate (outer holder) & Plastic (inner blister)
-* Bonding: Ultrasonic weld (no cement/agent)
-* Inner blister: Yes
-* Tamper-Evident: Yes
-* Size: Semi-bulky
-* Scale: [CGC Video Games Grading Scale](https://www.cgcvideogames.com/grading#scale)
+
+| Material(s)     | Bonding    | Blister | Tamper-Evident | Size  | Scale                                                                |
+| --------------- | ---------- | ------- | -------------- | ----- | -------------------------------------------------------------------- |
+| PETG (Polyethylene) | Ultrasonic Weld | Yes      | Yes | Medium | [CGC Video Games Grading Scale](https://www.cgcvideogames.com/grading#scale) |
 
 ### CGC Holder Label
 
