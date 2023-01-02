@@ -5,6 +5,7 @@ import Script from "next/script"
 import { useRouter } from "next/router"
 import { pageView } from "lib/analytics"
 import { SiteHeader } from "components/global"
+import { SiteFooter } from "components/global/site-footer"
 import "styles/global.scss"
 
 const BASE_TITLE = "a few games"
@@ -73,6 +74,7 @@ export default function App({ Component, pageProps }: AppProps) {
       {renderMeta()}
       <SiteHeader />
       <Component {...pageProps} />
+      <SiteFooter />
     </div>
   )
 }
