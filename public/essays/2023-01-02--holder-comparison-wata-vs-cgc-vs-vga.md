@@ -1,6 +1,6 @@
 ---
 title: "Holder Comparison: Wata vs. CGC vs. VGA"
-description: A closer look at wata
+description: A head-to-head face-off with the holders that store our precious games
 ---
 Now that I have at least one holder from each of the big graders, thought it would be cool to bring them all together (with pics) for discussion and opinions. I hope this is beneficial to some of you who are either grading or considering grading.
 
