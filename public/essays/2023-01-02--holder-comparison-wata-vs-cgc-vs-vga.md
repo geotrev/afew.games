@@ -89,24 +89,26 @@ There's five additional small clips to help keep the holder pieces together: one
 
 ## My Thoughts
 
-From my perspective, there is a lot to consider when encapsulating your game. As a utilitarian grader myself (focused mainly on preservation, with a side interest in the grade), a holder that preserves the game as well as possible for the long term will be the one everyone flocks to.
+From my perspective, there is a lot to consider when encapsulating your game. As a utilitarian grader myself (focused mainly on preservation, with a side interest in the grade), a holder that preserves the game as well as possible for the long term will be my preference.
 
-My favorite (but also least favorite) holder, today, is probably CGC. My favorite thing is the inner blister. The corner bubbles are a massive relief for folks collecting cardboard with sharp corners. If you collect and grade games, one thing you'll learn quick is not all boxed games are the exact same size. Sometimes corners poke out further than expected!
+My favorite holder today is probably CGC. My favorite thing is the inner blister. The corner bubbles are a massive relief for folks collecting cardboard with sharp corners. If you collect and grade games, one thing you'll learn quick is not all boxed games are the exact same shape in their minutiae. Sometimes corners poke out further than expected, and if the holder is too form-fit, it can round the corners accidentally.
 
 My least favorite thing about CGC's holder is its label. I've never liked their comic or card labels and I'm sad to see it adapted to video games. But given I'm not as focused on the label long-term, that's not a deal breaker at all.
 
 ## Pros & Cons: Wata & VGA
 
-Before I add my critique of Wata and VGA, I'll say this: Wata has improved *massively* since its early days and during COVID. Their turnarounds are consistently on or ahead of its estimates! Unfortunately, until I see their new holder (coming this year!), I'm less likely to grade anything.
+Before I add my critique of Wata and VGA, I'll say this: Wata has improved *massively* since its early days and during COVID. Their turnarounds are consistently on or ahead of its estimates! Unfortunately, until I see their new holder (coming this year!), I'm less likely to grade anything there. If you want to get their current holder before it's gone, then submit soon!
 
 My main issue with Wata is the corners and obfuscation of the game. The inner blister is fairly foggy from certain angles, and the corners have no bubbles and have reports of causing damamage to Game Boy games, specifically. I've experienced at least one game that has had some minor corner push-in from this, but your mileage may vary.
 
 For VGA, I actually think the size of the holder is its form-fit size. It's insanely easy to store! The crystal clear display makes it simple to evaluate condition as well.
 
-The biggest issue I have with VGA though is sometimes games have too much space in the holder. A little movement occasionally is fine, but over time could result in noticeable damage. At least, that's my fear. A second issue for me is the lack of tamper evident design. Simply gluing a few pieces of acrylic together might have been fine years ago, but not helpful for buyers when the result can be high grade, lack luster condition games.
+The biggest issue I have with VGA though is sometimes games have too much space in the holder. A little movement occasionally is fine, but over time could result in noticeable damage. At least, that's my fear. A second issue for me is the lack of tamper evident design. Simply cementing a few pieces of acrylic together might've been fine years ago, but not helpful for buyers when the result can be "high grade" swapped games. 
 
 ## Conclusion
 
-Given all factors together, I think opinions will vary widely over time, and it may still be a couple years before a dominant leader emerges. While Wata is the leader now, with its pop reports and fast turnarounds, CGC has just launched its own grading services as of October, and could quickly catch up given CGCs massive presence in the collectible preservation.
+Given all factors together, I think opinions will vary widely over time, and it may still be a couple years before a dominant leader emerges.
+
+Personally, I don't think you can go wrong using any of the above mentioned graders, especially CGC or Wata, given their up-to-date tech and reliable service. VGA, unfortunately, is still suffering slow turnarounds, so don't submit to them unless you're *really* OK with waiting 6+ months.
 
 I hope this essay is helpful in deciding your grading adventure!
