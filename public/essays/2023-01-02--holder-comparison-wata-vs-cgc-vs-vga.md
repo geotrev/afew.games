@@ -63,7 +63,7 @@ The inner blister is two pieces. There are no corner bubbles, and the blister po
 
 | Material(s)     | Bonding    | Blister | Tamper-Evident | Size  | Scale                                                                |
 | --------------- | ---------- | ------- | -------------- | ----- | -------------------------------------------------------------------- |
-|  SAN (Styrene-Acrylonitrile) | Ultrasonic Weld | Yes      | Yes | Medium | [CGC Video Games Grading Scale](https://www.cgcvideogames.com/grading#scale) |
+|  SAN (Styrene-Acrylonitrile) | Ultrasonic Weld | Yes      | Yes | Medium | [CGC VG Grading Scale](https://www.cgcvideogames.com/grading#scale) |
 
 ### CGC Holder Label
 
