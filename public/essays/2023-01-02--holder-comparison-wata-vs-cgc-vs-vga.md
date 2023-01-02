@@ -36,7 +36,7 @@ There's also very small grooves on each front corner. I'm guessing these are the
 
 | Material(s)     | Bonding    | Blister | Tamper-Evident | Size  | Scale                                                                |
 | --------------- | ---------- | ------- | -------------- | ----- | -------------------------------------------------------------------- |
-| Acrylic/Plastic | Pins/Cement | No      | No             | Large | [Wata Grading Scale](https://www.watagames.com/what-we-do/wata-scale) |
+| Acrylic/Plastic | Interlocking Pins/Cement | No      | No             | Large | [Wata Grading Scale](https://www.watagames.com/what-we-do/wata-scale) |
 
 ### Wata Holder Label
 
