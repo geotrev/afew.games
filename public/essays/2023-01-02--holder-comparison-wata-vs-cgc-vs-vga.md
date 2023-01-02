@@ -8,16 +8,9 @@ I'll share my thoughts at the end!
 
 ## VGA
 
-| Material(s) | Bonding | Blister | Tamper-Evident | Size | Scale |
-| ----------- | ------- | ------------- | -------------- | ---- | ----- |
-| Acrylic | Acrylic cement | No | No | Form-it (any console/game) | [CGA Grading Scale](https://cgagrading.com/grading-scales#s-c6484255-40bd-43f9-a29a-1af7d91cd070) |
-
-* Material(s): Acrylic
-* Bonding: Acrylic cement
-* Inner blister: No
-* Tamper-Evident: No
-* Size: Form-fit / Custom
-* Scale: [CGA Grading Scale](https://cgagrading.com/grading-scales#s-c6484255-40bd-43f9-a29a-1af7d91cd070)
+| Material(s) | Bonding | Blister | Tamper-Evident | Size                       | Scale                                                                                             |
+| ----------- | ------- | ------- | -------------- | -------------------------- | ------------------------------------------------------------------------------------------------- |
+| Acrylic     | Cement  | No      | No             | Form-it (any console/game) | [CGA Grading Scale](https://cgagrading.com/grading-scales#s-c6484255-40bd-43f9-a29a-1af7d91cd070) |
 
 ### VGA Holder Label
 
@@ -41,12 +34,9 @@ There's also very small grooves on each front corner. I'm guessing these are the
 
 ## Wata
 
-* Material(s): Acrylic (outer holder) & Plastic (inner blister)
-* Bonding: Acrylic cement & interlocking pins
-* Inner blister: Yes
-* Tamper-Evident: Yes
-* Size: Standard width/depth w/ variable height
-* Scale: Wata Grading Scale
+| Material(s)     | Bonding    | Blister | Tamper-Evident | Size  | Scale                                                                |
+| --------------- | ---------- | ------- | -------------- | ----- | -------------------------------------------------------------------- |
+| Acrylic/Plastic | Pins/Cement | No      | No             | Large | [Wata Grading Scale](https://www.watagames.com/what-we-do/wata-scale) |
 
 ### Wata Holder Label
 
