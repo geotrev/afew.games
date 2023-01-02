@@ -10,7 +10,7 @@ I'll share my thoughts at the end!
 
 | Material(s) | Bonding | Blister | Tamper-Evident | Size                       | Scale                                                                                             |
 | ----------- | ------- | ------- | -------------- | -------------------------- | ------------------------------------------------------------------------------------------------- |
-| Acrylic     | Cement  | No      | No             | Form-it (any console/game) | [CGA Grading Scale](https://cgagrading.com/grading-scales#s-c6484255-40bd-43f9-a29a-1af7d91cd070) |
+| Acrylic     | Cement  | No      | No             | Form-fit (any console/game) | [CGA Grading Scale](https://cgagrading.com/grading-scales#s-c6484255-40bd-43f9-a29a-1af7d91cd070) |
 
 ### VGA Holder Label
 
