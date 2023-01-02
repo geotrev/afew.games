@@ -96,6 +96,8 @@
     border-collapse: separate;
     background: rgba(vars.$primary-color-1, 0.15);
     font-size: 14px;
+    width: 100%;
+    max-width: 100%;
 
     th,
     td {
