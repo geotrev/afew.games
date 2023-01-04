@@ -6,6 +6,7 @@ import { useRouter } from "next/router"
 import { pageView } from "lib/analytics"
 import { SiteHeader } from "components/global"
 import "styles/global.scss"
+import { SiteFooter } from "components/global/site-footer"
 
 const BASE_TITLE = "a few games"
 const ExactPaths = ["/", "/essays", "/collection"]
@@ -73,6 +74,7 @@ export default function App({ Component, pageProps }: AppProps) {
       {renderMeta()}
       <SiteHeader />
       <Component {...pageProps} />
+      <SiteFooter />
     </div>
   )
 }
