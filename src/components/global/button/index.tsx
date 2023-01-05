@@ -9,6 +9,9 @@ const ROUND = "round"
 // sizes
 const SM = "sm"
 const MD = "md"
+// variants
+const PRIMARY = "primary"
+const SECONDARY = "secondary"
 
 export function Button(props: ButtonProps) {
   const { type, bare, size, cornerType, selected, children, ...restProps } =
@@ -33,6 +36,7 @@ export function Button(props: ButtonProps) {
 
 Button.defaultProps = {
   bare: false,
+  variant: "secondary",
   selected: false,
   type: "button",
   size: MD,
@@ -41,6 +45,7 @@ Button.defaultProps = {
 
 Button.propTypes = {
   bare: propTypes.bool,
+  variant: propTypes.oneOf([PRIMARY, SECONDARY]),
   size: propTypes.oneOf([SM, MD]),
   type: propTypes.oneOf(["button", "submit", "reset", undefined]),
   cornerType: propTypes.oneOf([SQUIRCLE, ROUND]),

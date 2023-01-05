@@ -1,6 +1,74 @@
 @use "../../../styles/vars" as vars;
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .pageFooter {
+  border: 2px solid vars.$tertiary-color-2;
   margin: 1rem 1rem 2rem 1rem;
   padding: 1rem;
+}
+
+.subscribeHeader {
+  margin-block-end: 0.5rem;
+}
+
+.spinner {
+  display: block;
+}
+
+.subscribeForm {
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &.isLoading {
+    .spinner {
+      animation: spin 1s infinite linear;
+    }
+  }
+}
+
+.subscribeLabel {
+  margin-block-end: 0.5rem;
+}
+
+.subscribeInput {
+  color: white;
+  appearance: none;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 2px solid vars.$secondary-color-2;
+  margin-block-end: 0.25rem;
+  background: none;
+  padding: 0.25rem 0.5rem;
+
+  &:focus,
+  &:hover {
+    border-color: vars.$secondary-color-1;
+  }
+
+  &.loading {
+    border-color: rgba(vars.$primary-color-2, 0.3);
+  }
+
+  &.error {
+    border-color: orangered;
+  }
+}
+
+.subscribeMessage {
+  font-size: 0.75rem;
+}
+
+.subscribeButton {
+  margin-block-end: 0.25em;
 }
