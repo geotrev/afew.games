@@ -29,6 +29,8 @@ export function SiteFooter(): ReactElement {
   const [value, setValue] = useState("")
   const [formState, setFormState] =
     useState<SubscribeFormState>(DEFAULT_FORM_STATE)
+  const isLoading = formState.status === SubscribeFormStatuses.LOADING
+  const isSuccess = formState.status === SubscribeFormStatuses.SUCCESS
 
   const handleChange = useCallback<ChangeEventHandler<HTMLInputElement>>(
     (e) => {
@@ -40,14 +42,14 @@ export function SiteFooter(): ReactElement {
   const resetFormState = useCallback<
     FocusEventHandler<HTMLInputElement>
   >(() => {
-    if (formState.status === SubscribeFormStatuses.LOADING) return
+    if (isLoading) return
     setFormState(DEFAULT_FORM_STATE)
-  }, [formState.status])
+  }, [isLoading])
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
 
-    if (formState.status === SubscribeFormStatuses.LOADING) return
+    if (isLoading) return
 
     if (!EMAIL_REGEXP.test(value)) {
       return setFormState({
@@ -83,61 +85,56 @@ export function SiteFooter(): ReactElement {
     <div className={styles.pageFooter}>
       <h2 className={styles.subscribeHeader}>Subscribe to A Few Games!</h2>
       <p className={styles.subscribeDescription}>
-        Get weekly emails with the newest essays. Unsubscribe at any time.
+        Get occasional emails about game collecting. Unsubscribe at any time.
       </p>
       <form
         onSubmit={handleSubmit}
         className={cn(styles.subscribeForm, {
-          [styles.isLoading]:
-            formState.status === SubscribeFormStatuses.LOADING,
+          [styles[formState.status || ""]]: formState.status,
         })}
       >
         <fieldset>
-          <label
-            className={cn(styles.subscribeLabel, "visually-hidden")}
-            htmlFor="subscribe-email"
-          >
-            Email:
-          </label>
-          <input
-            type="email"
-            id="subscribe-input"
-            name="subscribe-email"
-            className={cn(styles.subscribeInput, {
-              [styles[formState.status || ""]]: formState.status,
-            })}
-            readOnly={
-              formState.status === SubscribeFormStatuses.LOADING
-                ? true
-                : undefined
-            }
-            onChange={handleChange}
-            onFocus={resetFormState}
-            onInput={resetFormState}
-            value={value}
-            placeholder="john.doe@email.com"
-            required
-            aria-required="true"
-            aria-describedby={
-              formState.message ? "subscribe-message" : undefined
-            }
-          />
+          {!isSuccess && (
+            <label
+              className={cn(styles.subscribeLabel, "visually-hidden")}
+              htmlFor="subscribe-email"
+            >
+              Email:
+            </label>
+          )}
+          {!isSuccess && (
+            <input
+              type="email"
+              id="subscribe-input"
+              name="subscribe-email"
+              className={cn(styles.subscribeInput, {
+                [styles[formState.status || ""]]: formState.status,
+              })}
+              readOnly={isLoading ? true : undefined}
+              onChange={handleChange}
+              onFocus={resetFormState}
+              onInput={resetFormState}
+              value={value}
+              placeholder="john.doe@email.com"
+              required
+              aria-required="true"
+              aria-describedby={
+                formState.message ? "subscribe-message" : undefined
+              }
+            />
+          )}
           {formState.message && (
             <p id="subscribe-message" className={styles.subscribeMessage}>
               {formState.message}
             </p>
           )}
-          <Button
-            type="submit"
-            size="sm"
-            disabled={formState.status === SubscribeFormStatuses.LOADING}
-          >
-            <span className={styles.spinner}>
-              {formState.status === SubscribeFormStatuses.LOADING
-                ? "▽"
-                : "Subscribe"}
-            </span>
-          </Button>
+          {!isSuccess && (
+            <Button type="submit" size="sm" disabled={isLoading}>
+              <span className={styles.spinner}>
+                {isLoading ? "▽" : "Subscribe"}
+              </span>
+            </Button>
+          )}
         </fieldset>
       </form>
     </div>

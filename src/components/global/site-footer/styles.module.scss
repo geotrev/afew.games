@@ -13,6 +13,7 @@
   border: 2px solid vars.$tertiary-color-2;
   margin: 1rem 1rem 2rem 1rem;
   padding: 1rem;
+  text-align: center;
 }
 
 .subscribeHeader {
@@ -27,10 +28,10 @@
   fieldset {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 
-  &.isLoading {
+  &.loading {
     .spinner {
       animation: spin 1s infinite linear;
     }
@@ -42,31 +43,43 @@
 }
 
 .subscribeInput {
-  color: white;
+  color: black;
   appearance: none;
   font-size: 14px;
   border-radius: 4px;
-  border: 2px solid vars.$secondary-color-2;
+  border: 2px solid transparent;
   margin-block-end: 0.25rem;
-  background: none;
+  background: white;
   padding: 0.25rem 0.5rem;
 
   &:focus,
   &:hover {
-    border-color: vars.$secondary-color-1;
+    border-block-end-color: vars.$secondary-color-1;
+    border-block-end-width: 2px;
+    outline: 0;
   }
 
-  &.loading {
-    border-color: rgba(vars.$primary-color-2, 0.3);
+  .loading & {
+    border-block-end-color: rgba(vars.$primary-color-2, 0.3);
+    border-block-end-width: 2px;
   }
 
-  &.error {
-    border-color: orangered;
+  .error & {
+    border-block-end-color: orangered;
+    border-block-end-width: 2px;
   }
 }
 
 .subscribeMessage {
   font-size: 0.75rem;
+
+  .success & {
+    color: vars.$primary-color-1;
+  }
+
+  .error & {
+    color: orangered;
+  }
 }
 
 .subscribeButton {
