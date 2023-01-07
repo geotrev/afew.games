@@ -1,6 +1,5 @@
 import {
   ChangeEventHandler,
-  FocusEventHandler,
   FormEvent,
   ReactElement,
   useCallback,
@@ -38,13 +37,6 @@ export function SiteFooter(): ReactElement {
     },
     []
   )
-
-  const resetFormState = useCallback<
-    FocusEventHandler<HTMLInputElement>
-  >(() => {
-    if (isLoading) return
-    setFormState(DEFAULT_FORM_STATE)
-  }, [isLoading])
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -112,8 +104,6 @@ export function SiteFooter(): ReactElement {
               })}
               readOnly={isLoading ? true : undefined}
               onChange={handleChange}
-              onFocus={resetFormState}
-              onInput={resetFormState}
               value={value}
               placeholder="john.doe@email.com"
               required
