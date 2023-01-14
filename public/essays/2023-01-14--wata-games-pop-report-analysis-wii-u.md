@@ -2,17 +2,15 @@
 title: "Wata Games Pop Report Analysis: Wii U"
 description: Nintendo's least successful console has second lowest submission rate
 ---
-Nintendo Wii U, despite its success with accessibility to a huge library of older games titles, was one of Nintendo's biggest blunders. Most notably, consumers were confused by it. Many thought it was a peripheral for its predecessor, the Wii. Nintendo had to fundamentally change its marketing and messaging during its launch which likely hampered it's financial and critical success.
+Nintendo Wii U, despite giving gamers access to a huge library of older games, was one of Nintendo's biggest release blunders. Most notably, consumers were simply confused by it! Many thought it was a peripheral for its predecessor, Nintendo Wii. Nintendo had to fundamentally change its marketing between announcement and release, which likely hampered it's financial and critical success.
 
-In this article, we'll cover Wata Games' December 1, 2022 population report data for the Nintendo Wii U.
+In this article, we'll cover Wata Games' December 1st, 2022 population report for the Wii U.
 
 - - -
 
-One of the least talked about aspects to Wii U is its collectability. It has a very small library which has lended itself as a trendy master set goal.
+One of the most talked-about aspects to Wii U is its collectibility. It has a very small library, which presents well to those seeking an master set.
 
-So, what about it is so collectable? Other than its small physical library, Nintendo continued its [part code notation](https://www.afew.games/essays/decoding-modern-nintendo-print-variants) on its games in this era, in addition to have key product releases that make tracking down variants much easier.
-
-In late 2014, the same year Wii U released, amiibo™ hit store shelves, and with it many existing games' case art had major visual revisions to reflect amiibo support. This helps add a level of chronology *in addition* to those part codes.
+But why else is it so collectable? A big part for folks like myself will be Nintendo's continued use of [part code notation](https://www.afew.games/essays/decoding-modern-nintendo-print-variants) on its games, making print collecting so much easier. Another aspect is in late 2014, the same year Wii U released, amiibo™ hit store shelves, and with it many games had non-trivial case art revisions to reflect amiibo support. This helps add a level of chronology *in addition* to those part codes.
 
 Here's a quick example using *Mario Kart 8*:
 
@@ -20,15 +18,15 @@ Here's a quick example using *Mario Kart 8*:
 
 *Left: 82909A, first production. Right: 101979A, later production.*
 
-Like all things grading, however, Wii U had only a handful of popular, speculative titles, similar to Wii. Over 38% of total Wii U submissions to Wata Games have been The Legend of Zelda: Breath of the Wild, with a steep decline in other titles after.
+Like all things grading, however, Wii U had only a handful of popular, speculative titles, similar to Wii. Over 38% of total Wii U submissions to Wata, for instance, has been *The Legend of Zelda: Breath of the Wild* (*BOTW*), with the next most frequently submitted at 15% of *BOTW*'s submission count..
 
 - - -
 
-As a caveat to the below data, remember: games submitted to Wata won't and will never represent the wider collecting hobby. This is mainly due to the fact that community(ies) around graded games are still miniscule when compared to the larger collecting sphere.
+As a caveat to the below data, remember: games submitted to Wata will never represent the wider collecting hobby. This is mainly due to the fact that community(ies) around graded games are miniscule when compared to the larger collecting sphere (1000s vs 100,000s).
 
-Similarly, the motivations of grading are at least partially skewed by the highest value and/or sought-after games, too, which means populations can't represent supply, either..
+Similarly, the motivations of grading are at least partially skewed by the highest value and/or sought-after games, which means populations aren't a measure of supply either.
 
-Same as in previous essays, we'll break down each console into a few metrics:
+Same as in previous essays, we'll break down each group of figures by a few metrics:
 
 * Seal grade totals
 * Box grade totals (starting at `9.0`)
@@ -51,7 +49,7 @@ Seal grades show a strong weight on A+, similar to other consoles.
 | NS         | 0        | 0.00%    |
 | **Total**  | **1744** | **100%** |
 
-Box grades also weigh heavily to the 9.4-9.6 range. A massive 95% of games are 9.0 or higher, but the skew of case-fresh Breath of the Wild submissions likely bears much of the responsibility there.
+Box grades also weigh heavily to the `9.4`-`9.6` range. A massive 95% of all submitted games are `9.0` (very fine to near mint) or higher, but it could likely be said that case-fresh Breath of the Wild submissions vastly skew these figures.
 
 | Box Grade | Total    | %          |
 | --------- | -------- | ---------- |
@@ -63,7 +61,7 @@ Box grades also weigh heavily to the 9.4-9.6 range. A massive 95% of games are 9
 | 9.0       | 58       | 3.33%      |
 | **Total** | **1661** | **95.24%** |
 
-Breaking down those box grades across seal grades, there is a predictable pattern where the main outcomes land between 9.4-9.6 A+
+Breaking down those box grades across seal grades, there is a predictable pattern where the most common overall grades are between `9.4 A+` and `9.6 A+`.
 
 | Box Grade             | A++        | A+         | A         | B+        | B         | C+        | C         | NS        |
 | --------------------- | ---------- | ---------- | --------- | --------- | --------- | --------- | --------- | --------- |
@@ -76,9 +74,9 @@ Breaking down those box grades across seal grades, there is a predictable patter
 | Seal Total            | 342        | 1187       | 123       | 7         | 2         | 0         | 0         | 0         |
 | **% of Total Graded** | **19.61%** | **68.06%** | **7.05%** | **0.40%** | **0.11%** | **0.03%** | **0.00%** | **0.03%** |
 
-If it hasn't already been made clear, if you're someone who wants to collect for condition, then you should aim for minimum 9.6 A+, but bonus points for going higher on either box or seal (especially seal).
+If it hasn't already been made clear, if you're someone who wants to collect for condition, then you should aim for minimum `9.6 A+`, but bonus points for going higher on either box or seal (especially seal).
 
-Here's the top 10 most graded games on Wii U:
+Next up, here are the top 10 most graded games on Wii U:
 
 | Title                                     | Total Graded | % of Total Graded |
 | ----------------------------------------- | ------------ | ----------------- |
@@ -96,10 +94,10 @@ Here's the top 10 most graded games on Wii U:
 
 Some interesting figures related to the top 10 most-submitted games:
 
-* Breath of the Wild: Of the two prints, 103423A (seven controllers) and 103423B (two controllers), there are more than 2x graded of the latter, or 191 and 487 copies graded, respectively.
-* Breath of the Wild: Of the 44 examples of the "seven controllers" variant, 22 have A++ seals and the other 22 have A+ seals. An additional 21 examples in 9.6 A++ exist, as well as 59 examples in 9.6 A+.
-* Wind Waker HD: Despite the foil version (81115A first production) being the more coveted variant, there are a whopping 4x of it compared to the non-foil version (101975A, second production); 88 foil versions vs. 18 non-foil version. Likely just due to its collectability.
-* Twilight Princess HD: There is one 10 A++ example and 27 examples of 9.8 A++.
+* Breath of the Wild: Of the two prints, `103423A` (seven controllers) and `103423B` (two controllers), there are more than 2x graded of the latter, or 191 and 487 copies graded, respectively.
+* Breath of the Wild: Of the 44 examples of the "seven controllers" variant, 22 have `A++` seals and the other 22 have `A+` seals. An additional 21 examples in `9.6 A++` exist, as well as 59 examples in `9.6 A+`.
+* Wind Waker HD: Despite the foil version (`81115A`, first production) being the more coveted variant, there are a whopping 4x of it compared to the non-foil version (`101975A`, second production); 88 foil versions vs. 18 non-foil version. Likely just due to its collectibility.
+* Twilight Princess HD: There is one `10 A++` example and 27 examples of `9.8 A++`.
 * Twilight Princess HD: There is no Nintendo Selects!
 
 See the complete Wii U population data [here.](https://www.watagames.com/populations/wii_u/index.html)
