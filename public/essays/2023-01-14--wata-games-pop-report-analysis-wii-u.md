@@ -27,7 +27,7 @@ Like all things grading, however, Wii U has had only a handful of popular, specu
 
 - - -
 
-As a caveat to the below data, remember: games submitted to Wata will never represent the wider collecting hobby. This is mainly due to the fact that community(ies) around graded games are miniscule when compared to the larger collecting sphere (1000s vs 100,000s).
+As a caveat to the below data, remember: games submitted to Wata will never represent the wider collecting hobby. This is mainly due to the fact that community(ies) around graded games are minuscule when compared to the larger collecting sphere (1000s vs 100,000s).
 
 Similarly, the motivations of grading are at least partially skewed by the highest value and/or sought-after games, which means populations aren't a measure of supply either.
 
