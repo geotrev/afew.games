@@ -1,22 +1,27 @@
 ---
 title: "Wata Games Pop Report Analysis: Wii U"
-description: Nintendo's least successful console has second lowest submission rate
+description: Deep dive into Nintendo's least successful console with second
+  lowest submission rate
 ---
 Nintendo Wii U, despite giving gamers access to a huge library of older games, was one of Nintendo's biggest release blunders. Most notably, consumers were simply confused by it! Many thought it was a peripheral for its predecessor, Nintendo Wii. Nintendo had to fundamentally change its marketing between announcement and release, which likely hampered it's financial and critical success.
 
-In this article, we'll cover Wata Games' December 1st, 2022 population report for the Wii U.
+In this article, we'll cover Wata Games' December 1st, 2022 population report for the Wii U, where it won't surprise you to learn Wii U is among the least-submitted platforms.
 
-- - -
+## Is Wii U Underrated?
 
-One of the most talked-about aspects to Wii U is its collectibility. It has a very small library, which presents well to those seeking an master set.
+In terms of collecting, one of the most acknowledged aspects to Wii U is that it's approachable. It has a very small library, which presents well to those seeking an master set.
 
-But why else is it so collectable? A big part for folks like myself will be Nintendo's continued use of [part code notation](https://www.afew.games/essays/decoding-modern-nintendo-print-variants) on its games, making print collecting so much easier. Another aspect is in late 2014, the same year Wii U released, amiibo™ hit store shelves, and with it many games had non-trivial case art revisions to reflect amiibo support. This helps add a level of chronology *in addition* to those part codes.
+Why else is it so collectable? A big part for folks like myself is Nintendo's continued use of [part code notation](https://www.afew.games/essays/decoding-modern-nintendo-print-variants) on its games, making print collecting much easier. 
+
+Typically, peripheral product releases help identify prints too, which is the case for Wii U. In late 2014, the same year Wii U released, amiibo™ hit store shelves, and with it many games had non-trivial case art revisions to reflect amiibo™ support. This helps add a level of chronology *in addition* to those part codes.
 
 Here's a quick example using *Mario Kart 8*:
 
-![Image showing two Mario Kart 8 games side by side, left with Nintendo Network badge as first production, and right with amiibo badge later production.](/uploads/wii_u_print_example.png)
+![Left: Nintendo Network badge, first production. Right: amiibo™ badge, later production.](/uploads/wii_u_print_example.png)
 
-*Left: 82909A, first production. Right: 101979A, later production.*
+![Left: No amiibo™ read/write, first production. Right: amiibo™ read/write, later production.](/uploads/mk8-print-example-back-1.jpg)
+
+![Left: No amiibo™ text, first production. Right: "amiibo™ sold separately" text, later production.*](/uploads/mk8-print-example-back-2.jpg)
 
 Like all things grading, however, Wii U had only a handful of popular, speculative titles, similar to Wii. Over 38% of total Wii U submissions to Wata, for instance, has been *The Legend of Zelda: Breath of the Wild* (*BOTW*), with the next most frequently submitted at 15% of *BOTW*'s submission count..
 
