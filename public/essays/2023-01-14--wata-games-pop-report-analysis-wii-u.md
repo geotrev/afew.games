@@ -23,7 +23,7 @@ Here's a quick example using *Mario Kart 8*:
 
 ![Left: No amiibo™ text, first production. Right: "amiibo™ sold separately" text, later production.*](/uploads/mk8-print-example-back-2.jpg)
 
-Like all things grading, however, Wii U had only a handful of popular, speculative titles, similar to Wii. Over 38% of total Wii U submissions to Wata, for instance, has been *The Legend of Zelda: Breath of the Wild* (*BOTW*), with the next most frequently submitted at 15% of *BOTW*'s submission count..
+Like all things grading, however, Wii U has had only a handful of popular, speculative titles, similar to Wii. Over 38% of total Wii U submissions to Wata, for instance, have been *The Legend of Zelda: Breath of the Wild* (*BOTW*), with the next most frequently submitted at 15% of *BOTW*'s submission count, *The Legend of Zelda: Wind Waker HD*.
 
 - - -
 
@@ -40,35 +40,35 @@ Same as in previous essays, we'll break down each group of figures by a few metr
 
 - - -
 
-Seal grades show a strong weight on A+, similar to other consoles.
+Seal grades show a strong weight on A+, similar to other consoles. In fact, 90% of all submissions were A+ or better.
 
-| Seal Grade | Total    | %        |
-| ---------- | -------- | -------- |
-| A++        | 346      | 19.84%   |
-| A+         | 1216     | 69.72%   |
-| A          | 156      | 8.94%    |
-| B+         | 22       | 1.26%    |
-| B          | 4        | 0.23%    |
-| C+         | 0        | 0.00%    |
-| C          | 0        | 0.00%    |
-| NS         | 0        | 0.00%    |
-| **Total**  | **1744** | **100%** |
+| **Seal Grade** | **Total** | **%**    |
+| -------------- | --------- | -------- |
+| A++            | 346       | 19.84%   |
+| A+             | 1216      | 69.72%   |
+| A              | 156       | 8.94%    |
+| B+             | 22        | 1.26%    |
+| B              | 4         | 0.23%    |
+| C+             | 0         | 0.00%    |
+| C              | 0         | 0.00%    |
+| NS             | 0         | 0.00%    |
+| **Total**      | **1744**  | **100%** |
 
 Box grades also weigh heavily to the `9.4`-`9.6` range. A massive 95% of all submitted games are `9.0` (very fine to near mint) or higher, but it could likely be said that case-fresh Breath of the Wild submissions vastly skew these figures.
 
-| Box Grade | Total    | %          |
-| --------- | -------- | ---------- |
-| 10        | 2        | 0.11%      |
-| 9.8       | 301      | 17.26%     |
-| 9.6       | 698      | 40.02%     |
-| 9.4       | 437      | 25.06%     |
-| 9.2       | 165      | 9.46%      |
-| 9.0       | 58       | 3.33%      |
-| **Total** | **1661** | **95.24%** |
+| **Box Grade** | **Total** | **%**      |
+| ------------- | --------- | ---------- |
+| 10            | 2         | 0.11%      |
+| 9.8           | 301       | 17.26%     |
+| 9.6           | 698       | 40.02%     |
+| 9.4           | 437       | 25.06%     |
+| 9.2           | 165       | 9.46%      |
+| 9.0           | 58        | 3.33%      |
+| **Total**     | **1661**  | **95.24%** |
 
 Breaking down those box grades across seal grades, there is a predictable pattern where the most common overall grades are between `9.4 A+` and `9.6 A+`.
 
-| Box Grade             | A++        | A+         | A         | B+        | B         | C+        | C         | NS        |
+| **Box Grade**         | **A++**    | **A+**     | **A**     | **B+**    | **B**     | **C+**    | **C**     | **NS**    |
 | --------------------- | ---------- | ---------- | --------- | --------- | --------- | --------- | --------- | --------- |
 | 10                    | 2          | 0          | 0         | 0         | 0         | 0         | 0         | 0         |
 | 9.8                   | 136        | 161        | 4         | 0         | 0         | 0         | 0         | 0         |
@@ -79,34 +79,36 @@ Breaking down those box grades across seal grades, there is a predictable patter
 | **Seal Total**        | **342**    | **1187**   | **123**   | **7**     | **2**     | **0**     | **0**     | **0**     |
 | **% of Total Graded** | **19.61%** | **68.06%** | **7.05%** | **0.40%** | **0.11%** | **0.03%** | **0.00%** | **0.00%** |
 
-If it hasn't already been made clear, if you're someone who wants to collect for condition, then you should aim for minimum `9.6 A+`, but bonus points for going higher on either box or seal (especially seal).
+If it hasn't already been made clear by the data, if you're someone who wants to collect for condition, then you should aim for minimum `9.6 A+`, but bonus points for going higher on either box or seal (especially seal).
 
 Next up, here are the top 10 most graded games on Wii U:
 
-| Title                                     | Total Graded | % of Total Graded |
-| ----------------------------------------- | ------------ | ----------------- |
-| The Legend of Zelda: Breath of the Wild   | 678          | 38.88%            |
-| The Legend of Zelda: The Wind Waker HD    | 133          | 7.63%             |
-| The Legend of Zelda: Twilight Princess HD | 103          | 5.91%             |
-| Super Smash Bros. for Wii U               | 86           | 4.93%             |
-| New Super Luigi U                         | 65           | 3.73%             |
-| Super Mario 3D World                      | 65           | 3.73%             |
-| Pokkén Tournament                         | 57           | 3.27%             |
-| Devil's Third                             | 53           | 3.04%             |
-| New Super Mario Bros. U                   | 39           | 2.24%             |
-| Mario Party 10                            | 35           | 2.01%             |
-| **Total**                                 | **1189**     | **39.66%**        |
+| **Title**                                 | **Total Graded** | **% of Total Graded** |
+| ----------------------------------------- | ---------------- | --------------------- |
+| The Legend of Zelda: Breath of the Wild   | 678              | 38.88%                |
+| The Legend of Zelda: The Wind Waker HD    | 133              | 7.63%                 |
+| The Legend of Zelda: Twilight Princess HD | 103              | 5.91%                 |
+| Super Smash Bros. for Wii U               | 86               | 4.93%                 |
+| New Super Luigi U                         | 65               | 3.73%                 |
+| Super Mario 3D World                      | 65               | 3.73%                 |
+| Pokkén Tournament                         | 57               | 3.27%                 |
+| Devil's Third                             | 53               | 3.04%                 |
+| New Super Mario Bros. U                   | 39               | 2.24%                 |
+| Mario Party 10                            | 35               | 2.01%                 |
+| **Total**                                 | **1189**         | **39.66%**            |
 
 Some interesting figures related to the top 10 most-submitted games:
 
-* *Breath of the Wild*: Of the two prints, `103423A` (seven controllers) and `103423B` (two controllers), there are more than 2x graded of the latter, or 191 and 487 copies graded, respectively.
-* *Breath of the Wild*: Of the 44 examples of the "seven controllers" variant, 22 have `A++` seals and the other 22 have `A+` seals. An additional 21 examples in `9.6 A++` exist, as well as 59 examples in `9.6 A+`.
-* *Wind Waker HD*: Despite the foil version (`81115A`, first production) being the more coveted variant, there are a whopping 4x of it compared to the non-foil version (`101975A`, second production); 88 foil versions vs. 18 non-foil version. Likely just due to its collectibility.
+* *Breath of the Wild*: Of the two prints, `103423A` (seven controllers) and `103423B` (two controllers), there are 191 and 487 examples graded, respectively.
+* *Breath of the Wild*: Of the 44 examples of the "seven controllers" variant, there are 22 examples in `9.8 A++` and another 22 examples in `9.8 A+`. An additional 21 examples in `9.6 A++` exist, as well as 59 examples in `9.6 A+`.
+* *Wind Waker HD*: Despite the foil version (`81115A`, first production) being the more coveted variant, there are a whopping 88 examples, compared just 18 non-foil (`101975A`, second production) examples.
+* *Wind Waker HD*: The foil version is relatively scarce in the highest end, where there are just two examples in `9.8 A++` and one `9.8 A+`. The next grade down is the most populous, which has seven examples in `9.6 A++` and 26 in `9.6 A+`. 
 * *Twilight Princess HD*: There is one `10 A++` example and 27 examples of `9.8 A++`.
 * *Twilight Princess HD*: There is no Nintendo Selects!
 * *Super Smash Bros. for Wii U*: There are 35 first prints (`83664A`) graded, more than any other print. 
 * *Super Smash Bros. for Wii U*: Of those 35 first prints, six are `9.8 A++`, and four are `9.8 A+`. An additional five examples of `9.6 A++` and nine `9.6 A+` have also been graded.
+* *Devil's Third*: This popular title has four `9.8 A++` and three `9.8 A+` examples. There's an additional seven examples in `9.6 A++`, and 19 examples in `9.6 A+`. There's one `9.4 A++` example.
 
-See the complete Wii U population data [here.](https://www.watagames.com/populations/wii_u/index.html)
+See the complete Wii U population data [here](https://www.watagames.com/populations/wii_u/index.html) if you're interested!
 
 Do you like this article? Consider checking out my population report analyses: [Wii](https://www.afew.games/essays/nintendo-wii-pop-report-analysis), [GameCube](https://www.afew.games/essays/first-wave-of-modern-population-reports-are-here), [NES/SNES/N64](https://www.afew.games/essays/wata-games-pop-report-analysis-nes-snes-and-n64), and [Game Boy](https://www.afew.games/essays/seal-grades-are-here-for-wata-graded-games) (including Color and Advance).
