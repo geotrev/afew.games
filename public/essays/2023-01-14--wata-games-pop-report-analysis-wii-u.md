@@ -71,8 +71,8 @@ Breaking down those box grades across seal grades, there is a predictable patter
 | 9.4                   | 57         | 341        | 38        | 0         | 1         | 0         | 0         | 0         |
 | 9.2                   | 4          | 119        | 38        | 4         | 0         | 0         | 0         | 1         |
 | 9.0                   | 1          | 39         | 16        | 1         | 1         | 0         | 0         | 0         |
-| Seal Total            | 342        | 1187       | 123       | 7         | 2         | 0         | 0         | 0         |
-| **% of Total Graded** | **19.61%** | **68.06%** | **7.05%** | **0.40%** | **0.11%** | **0.03%** | **0.00%** | **0.03%** |
+| **Seal Total**        | **342**    | **1187**   | **123**   | **7**     | **2**     | **0**     | **0**     | **0**     |
+| **% of Total Graded** | **19.61%** | **68.06%** | **7.05%** | **0.40%** | **0.11%** | **0.03%** | **0.00%** | **0.00%** |
 
 If it hasn't already been made clear, if you're someone who wants to collect for condition, then you should aim for minimum `9.6 A+`, but bonus points for going higher on either box or seal (especially seal).
 
@@ -94,11 +94,11 @@ Next up, here are the top 10 most graded games on Wii U:
 
 Some interesting figures related to the top 10 most-submitted games:
 
-* Breath of the Wild: Of the two prints, `103423A` (seven controllers) and `103423B` (two controllers), there are more than 2x graded of the latter, or 191 and 487 copies graded, respectively.
-* Breath of the Wild: Of the 44 examples of the "seven controllers" variant, 22 have `A++` seals and the other 22 have `A+` seals. An additional 21 examples in `9.6 A++` exist, as well as 59 examples in `9.6 A+`.
-* Wind Waker HD: Despite the foil version (`81115A`, first production) being the more coveted variant, there are a whopping 4x of it compared to the non-foil version (`101975A`, second production); 88 foil versions vs. 18 non-foil version. Likely just due to its collectibility.
-* Twilight Princess HD: There is one `10 A++` example and 27 examples of `9.8 A++`.
-* Twilight Princess HD: There is no Nintendo Selects!
+* *Breath of the Wild*: Of the two prints, `103423A` (seven controllers) and `103423B` (two controllers), there are more than 2x graded of the latter, or 191 and 487 copies graded, respectively.
+* *Breath of the Wild*: Of the 44 examples of the "seven controllers" variant, 22 have `A++` seals and the other 22 have `A+` seals. An additional 21 examples in `9.6 A++` exist, as well as 59 examples in `9.6 A+`.
+* *Wind Waker HD*: Despite the foil version (`81115A`, first production) being the more coveted variant, there are a whopping 4x of it compared to the non-foil version (`101975A`, second production); 88 foil versions vs. 18 non-foil version. Likely just due to its collectibility.
+* *Twilight Princess HD*: There is one `10 A++` example and 27 examples of `9.8 A++`.
+* *Twilight Princess HD*: There is no Nintendo Selects!
 
 See the complete Wii U population data [here.](https://www.watagames.com/populations/wii_u/index.html)
 
