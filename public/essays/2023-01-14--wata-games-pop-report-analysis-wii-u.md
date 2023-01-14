@@ -69,7 +69,7 @@ Breaking down those box grades across seal grades, there is a predictable patter
 | 9.8                   | 136        | 161        | 4         | 0         | 0         | 0         | 0         | 0         |
 | 9.6                   | 142        | 527        | 27        | 2         | 0         | 0         | 0         | 0         |
 | 9.4                   | 57         | 341        | 38        | 0         | 1         | 0         | 0         | 0         |
-| 9.2                   | 4          | 119        | 38        | 4         | 0         | 0         | 0         | 1         |
+| 9.2                   | 4          | 119        | 38        | 4         | 0         | 0         | 0         | 0         |
 | 9.0                   | 1          | 39         | 16        | 1         | 1         | 0         | 0         | 0         |
 | **Seal Total**        | **342**    | **1187**   | **123**   | **7**     | **2**     | **0**     | **0**     | **0**     |
 | **% of Total Graded** | **19.61%** | **68.06%** | **7.05%** | **0.40%** | **0.11%** | **0.03%** | **0.00%** | **0.00%** |
@@ -99,6 +99,8 @@ Some interesting figures related to the top 10 most-submitted games:
 * *Wind Waker HD*: Despite the foil version (`81115A`, first production) being the more coveted variant, there are a whopping 4x of it compared to the non-foil version (`101975A`, second production); 88 foil versions vs. 18 non-foil version. Likely just due to its collectibility.
 * *Twilight Princess HD*: There is one `10 A++` example and 27 examples of `9.8 A++`.
 * *Twilight Princess HD*: There is no Nintendo Selects!
+* *Super Smash Bros. for Wii U*: There are 35 first prints (`83664A`) graded, more than any other print. 
+* *Super Smash Bros. for Wii U*: Of those 35 first prints, six are `9.8 A++`, and four are `9.8 A+`. An additional five examples of `9.6 A++` and nine `9.6 A+` have also been graded.
 
 See the complete Wii U population data [here.](https://www.watagames.com/populations/wii_u/index.html)
 
