@@ -54,7 +54,7 @@ Seal grades show a strong weight on A+, similar to other consoles. In fact, 90% 
 | NS             | 0         | 0.00%    |
 | **Total**      | **1744**  | **100%** |
 
-Box grades also weigh heavily to the `9.4`-`9.6` range. A massive 95% of all submitted games are `9.0` (very fine to near mint) or higher, but it could likely be said that case-fresh Breath of the Wild submissions vastly skew these figures.
+Box grades also weigh heavily to the `9.4`-`9.6` range. A massive 95% of all submitted games are `9.0` (very fine to near mint) or higher, but it could likely be said that case-fresh *BOTW* submissions vastly skew these figures.
 
 | **Box Grade** | **Total** | **%**      |
 | ------------- | --------- | ---------- |
