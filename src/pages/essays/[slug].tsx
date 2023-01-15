@@ -1,20 +1,21 @@
 import { GetServerSidePropsContext } from "next"
-import { Helmet } from "react-helmet"
+import Head from "next/head"
 import Types from "prop-types"
 import { getMatchingEssay } from "lib/get-matching-essay"
 import { Layout } from "components/global"
 import { EssayContent } from "components/essays"
 import { EssayProps } from "types/essays"
+import { BASE_TITLE } from "lib/constants"
 
 export default function Essay(props: EssayProps) {
   const { title, description, date, content } = props
 
   return (
     <Layout>
-      <Helmet>
-        <title>{title}</title>
+      <Head>
+        <title>{`${BASE_TITLE} ${title}`}</title>
         <meta name="description" content={description} />
-      </Helmet>
+      </Head>
       <EssayContent
         title={title}
         description={description}

@@ -1,14 +1,14 @@
 import { AppProps } from "next/app"
-import { Helmet } from "react-helmet"
 import { useEffect } from "react"
 import Script from "next/script"
+import Head from "next/head"
 import { useRouter } from "next/router"
 import { pageView } from "lib/analytics"
 import { SiteHeader } from "components/global"
 import "styles/global.scss"
 import { SiteFooter } from "components/global/site-footer"
+import { BASE_TITLE } from "lib/constants"
 
-const BASE_TITLE = "a few games"
 const ExactPaths = ["/", "/essays", "/collection"]
 const Titles = {
   [ExactPaths[0]]: `home`,
@@ -16,8 +16,8 @@ const Titles = {
   [ExactPaths[2]]: `collection`,
 }
 const Descriptions = {
-  [ExactPaths[0]]: "A video game collection website",
-  [ExactPaths[1]]: "Essays about video games, software, and work",
+  [ExactPaths[0]]: "A video game blog & collection website",
+  [ExactPaths[1]]: "Essays about video games, collecting, and nonsense",
   [ExactPaths[2]]: "A collection of rare Wata- and VGA-graded video games",
 }
 
@@ -37,15 +37,15 @@ export default function App({ Component, pageProps }: AppProps) {
 
   function renderMeta() {
     return (
-      <Helmet titleTemplate={`${BASE_TITLE} | %s`} defaultTitle={BASE_TITLE}>
-        {title && <title>{title}</title>}
+      <Head>
+        {title && <title>{`${BASE_TITLE} ${title}`}</title>}
         {description && <meta name="description" content={description} />}
         <link rel="canonical" href={`http://afew.games${asPath}`} />
         <meta
           name="keywords"
           content="Video Games, Games, Collectibles, Graded Games, Sealed Video Games"
         />
-      </Helmet>
+      </Head>
     )
   }
 

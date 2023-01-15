@@ -10,3 +10,5 @@ export const SubscribeFormStatuses = {
   LOADING: "loading",
   NONE: "none",
 }
+
+export const BASE_TITLE = "a few games |"
