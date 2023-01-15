@@ -1,13 +1,65 @@
 {
   "platforms": [
     {
-      "platform": "Wii",
+      "platform": "NES",
       "games": [
         {
-          "name": "Super Smash Bros. Brawl",
-          "grade": "9.6 A+",
-          "variant": "Y-fold, Made in USA, 64278A",
+          "name": "Wario's Woods",
+          "variant": "H-Seam, Rev-A, Oval SOQ R, K-A Rating, 3-Line Warranty box, 9-Digit ZIP (USA Code)",
+          "grader": "Wata",
+          "grade": "9.6 A+"
+        }
+      ]
+    },
+    {
+      "platform": "SNES",
+      "games": [
+        {
+          "name": "The Legend of Zelda: A Link to the Past",
+          "grade": "9.2",
+          "variant": "Made in Japan, Black Label; 9.0 (box), 9.6 (cart), 9.4 (manual)",
           "grader": "Wata"
+        },
+        {
+          "name": "F-Zero",
+          "variant": "V-Seam, Made in Japan, E Rating, 83% Fiber, 3 Line Warranty box, Players Choice (1997)",
+          "grader": "Wata",
+          "grade": "9.6 A++"
+        },
+        {
+          "name": "Mega Man X",
+          "variant": "H-Overlap Seam, Assembled in Mexico, No Rating, Upside-Down Code (Majesco)",
+          "grader": "Wata",
+          "grade": "9.4 A++"
+        }
+      ]
+    },
+    {
+      "platform": "Game Boy Color",
+      "games": [
+        {
+          "name": "The Legend of Zelda: Oracle of Ages",
+          "grade": "9.4 A+",
+          "variant": "H-Seam, Made in Japan, Foil, Seal applied 90 degrees rotated",
+          "grader": "Wata"
+        },
+        {
+          "name": "Pokemon Crystal",
+          "grade": "95",
+          "variant": "No Seal, Japanese Version",
+          "grader": "VGA"
+        },
+        {
+          "name": "Mega Man Xtreme",
+          "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
+          "grader": "Wata",
+          "grade": "9.8 A+"
+        },
+        {
+          "name": "Mega Man Xtreme 2",
+          "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
+          "grader": "Wata",
+          "grade": "9.6 A++"
         }
       ]
     },
@@ -161,42 +213,49 @@
       ]
     },
     {
-      "platform": "Game Boy Color",
+      "platform": "DS",
       "games": [
         {
-          "name": "The Legend of Zelda: Oracle of Ages",
-          "grade": "9.4 A+",
-          "variant": "H-Seam, Made in Japan, Foil, Seal applied 90 degrees rotated",
-          "grader": "Wata"
-        },
-        {
-          "name": "Pokemon Crystal",
-          "grade": "95",
-          "variant": "No Seal, Japanese Version",
+          "name": "Pokemon Platinum",
+          "grade": "85+",
+          "variant": "Y-Fold",
           "grader": "VGA"
         },
         {
-          "name": "Mega Man Xtreme",
-          "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
-          "grader": "Wata",
-          "grade": "9.8 A+"
+          "name": "Pokemon Pearl",
+          "grade": "90",
+          "variant": "Y-Fold",
+          "grader": "VGA"
         },
         {
-          "name": "Mega Man Xtreme 2",
-          "variant": "H-Seam, Made in Japan, E Rating, 83% Fiber (USA Code)",
-          "grader": "Wata",
-          "grade": "9.6 A++"
-        }
-      ]
-    },
-    {
-      "platform": "NES",
-      "games": [
+          "name": "Pokemon Diamond",
+          "grade": "85",
+          "variant": "Y-Fold",
+          "grader": "VGA"
+        },
         {
-          "name": "Wario's Woods",
-          "variant": "H-Seam, Rev-A, Oval SOQ R, K-A Rating, 3-Line Warranty box, 9-Digit ZIP (USA Code)",
+          "name": "Pokemon HeartGold Version",
+          "grade": "90",
+          "variant": "Canadian Ver. W/ PokeWalker Acc., 70207A",
+          "grader": "VGA"
+        },
+        {
+          "name": "Kingdom Hearts 358/2 Days",
+          "grade": "95",
+          "variant": "Y-Fold, Limited Edition Cover Art Sleeve, 580100",
+          "grader": "VGA"
+        },
+        {
+          "name": "The World Ends With You",
+          "grade": "95",
+          "variant": "Y-Fold, 350100",
+          "grader": "VGA"
+        },
+        {
+          "name": "Rockman.EXE Operate Shooting Star",
+          "variant": "Y-Fold, Assembled in Japan, Japanese Version",
           "grader": "Wata",
-          "grade": "9.6 A+"
+          "grade": "9.8 A+"
         }
       ]
     },
@@ -274,53 +333,6 @@
           "grade": "95",
           "variant": "Y-Fold, 106570B",
           "grader": "VGA"
-        }
-      ]
-    },
-    {
-      "platform": "DS",
-      "games": [
-        {
-          "name": "Pokemon Platinum",
-          "grade": "85+",
-          "variant": "Y-Fold",
-          "grader": "VGA"
-        },
-        {
-          "name": "Pokemon Pearl",
-          "grade": "90",
-          "variant": "Y-Fold",
-          "grader": "VGA"
-        },
-        {
-          "name": "Pokemon Diamond",
-          "grade": "85",
-          "variant": "Y-Fold",
-          "grader": "VGA"
-        },
-        {
-          "name": "Pokemon HeartGold Version",
-          "grade": "90",
-          "variant": "Canadian Ver. W/ PokeWalker Acc., 70207A",
-          "grader": "VGA"
-        },
-        {
-          "name": "Kingdom Hearts 358/2 Days",
-          "grade": "95",
-          "variant": "Y-Fold, Limited Edition Cover Art Sleeve, 580100",
-          "grader": "VGA"
-        },
-        {
-          "name": "The World Ends With You",
-          "grade": "95",
-          "variant": "Y-Fold, 350100",
-          "grader": "VGA"
-        },
-        {
-          "name": "Rockman.EXE Operate Shooting Star",
-          "variant": "Y-Fold, Assembled in Japan, Japanese Version",
-          "grader": "Wata",
-          "grade": "9.8 A+"
         }
       ]
     },
@@ -419,6 +431,70 @@
       ]
     },
     {
+      "platform": "Wii",
+      "games": [
+        {
+          "name": "Super Smash Bros. Brawl",
+          "grade": "9.6 A+",
+          "variant": "Y-fold, Made in USA, 64278A",
+          "grader": "Wata"
+        }
+      ]
+    },
+    {
+      "platform": "Wii U",
+      "games": [
+        {
+          "name": "Mario Kart 8 (Limited Edition)",
+          "grade": "85+",
+          "variant": "Sticker Seal, Nintendo World NY Exclusive, W/ Blue Shell Figure",
+          "grader": "VGA"
+        },
+        {
+          "name": "Super Smash Bros. For Wii U",
+          "grade": "85+",
+          "variant": "Sticker Seal, W/ Controller and Adapter",
+          "grader": "VGA"
+        },
+        {
+          "name": "Mario Kart 8",
+          "grade": "95+",
+          "variant": "Y-Fold, 82909A",
+          "grader": "VGA"
+        },
+        {
+          "name": "Super Smash Bros. For Wii U",
+          "grade": "95+",
+          "variant": "Y-Fold, 83664A",
+          "grader": "VGA"
+        },
+        {
+          "name": "Hyrule Warriors",
+          "grade": "95+",
+          "variant": "Y-Fold, 83662A",
+          "grader": "VGA"
+        },
+        {
+          "name": "The Legend of Zelda: The Wind Waker HD",
+          "grade": "85+",
+          "variant": "Y-Fold, Foil Cover, 81115A",
+          "grader": "VGA"
+        },
+        {
+          "name": "The Legend of Zelda: Breath of the Wild",
+          "variant": "Y-Fold, Made in Japan, E 10+ rating, 7 Controllers",
+          "grader": "Wata",
+          "grade": "9.6 A+"
+        },
+        {
+          "name": "Bayonetta 2",
+          "variant": "Y-Fold, Made in USA, M Rating, w/ Bayonetta Game Disc, 83663A",
+          "grader": "Wata",
+          "grade": "9.6 A++"
+        }
+      ]
+    },
+    {
       "platform": "Switch",
       "games": [
         {
@@ -484,7 +560,7 @@
         {
           "name": "Metroid Dread",
           "variant": "Y-Fold, Made in USA, 115991A",
-          "grade": "9.8 A+",
+          "grade": "9.8 A++",
           "grader": "Wata"
         },
         {
@@ -534,70 +610,6 @@
           "grade": "9.8 A++",
           "grader": "Wata",
           "variant": "Y-Fold, Made in Japan, 105278C"
-        }
-      ]
-    },
-    {
-      "platform": "Wii U",
-      "games": [
-        {
-          "name": "Mario Kart 8 (Limited Edition)",
-          "grade": "85+",
-          "variant": "Sticker Seal, Nintendo World NY Exclusive, W/ Blue Shell Figure",
-          "grader": "VGA"
-        },
-        {
-          "name": "Super Smash Bros. For Wii U",
-          "grade": "85+",
-          "variant": "Sticker Seal, W/ Controller and Adapter",
-          "grader": "VGA"
-        },
-        {
-          "name": "Mario Kart 8",
-          "grade": "95+",
-          "variant": "Y-Fold, 82909A",
-          "grader": "VGA"
-        },
-        {
-          "name": "Super Smash Bros. For Wii U",
-          "grade": "95+",
-          "variant": "Y-Fold, 83664A",
-          "grader": "VGA"
-        },
-        {
-          "name": "Hyrule Warriors",
-          "grade": "95+",
-          "variant": "Y-Fold, 83662A",
-          "grader": "VGA"
-        },
-        {
-          "name": "The Legend of Zelda: The Wind Waker HD",
-          "grade": "85+",
-          "variant": "Y-Fold, Foil Cover, 81115A",
-          "grader": "VGA"
-        },
-        {
-          "name": "The Legend of Zelda: Breath of the Wild",
-          "variant": "Y-Fold, Made in Japan, E 10+ rating, 7 Controllers",
-          "grader": "Wata",
-          "grade": "9.6 A+"
-        },
-        {
-          "name": "Bayonetta 2",
-          "variant": "Y-Fold, Made in USA, M Rating, w/ Bayonetta Game Disc, 83663A",
-          "grader": "Wata",
-          "grade": "9.6 A++"
-        }
-      ]
-    },
-    {
-      "platform": "PC",
-      "games": [
-        {
-          "name": "Axiom Verge",
-          "grade": "85+",
-          "variant": "3-Side Seam, IndieBox Limited Edition (732/3000)",
-          "grader": "VGA"
         }
       ]
     },
@@ -696,6 +708,17 @@
       ]
     },
     {
+      "platform": "PlayStation Portable",
+      "games": [
+        {
+          "name": "Kingdom Hearts: Birth By Sleep",
+          "grade": "90",
+          "variant": "Y-Fold, W/ Walmart/Target Exclusive Sleeve",
+          "grader": "VGA"
+        }
+      ]
+    },
+    {
       "platform": "PlayStation 3",
       "games": [
         {
@@ -784,40 +807,6 @@
       ]
     },
     {
-      "platform": "PlayStation Portable",
-      "games": [
-        {
-          "name": "Kingdom Hearts: Birth By Sleep",
-          "grade": "90",
-          "variant": "Y-Fold, W/ Walmart/Target Exclusive Sleeve",
-          "grader": "VGA"
-        }
-      ]
-    },
-    {
-      "platform": "SNES",
-      "games": [
-        {
-          "name": "The Legend of Zelda: A Link to the Past",
-          "grade": "9.2",
-          "variant": "Made in Japan, Black Label; 9.0 (box), 9.6 (cart), 9.4 (manual)",
-          "grader": "Wata"
-        },
-        {
-          "name": "F-Zero",
-          "variant": "V-Seam, Made in Japan, E Rating, 83% Fiber, 3 Line Warranty box, Players Choice (1997)",
-          "grader": "Wata",
-          "grade": "9.6 A++"
-        },
-        {
-          "name": "Mega Man X",
-          "variant": "H-Overlap Seam, Assembled in Mexico, No Rating, Upside-Down Code (Majesco)",
-          "grader": "Wata",
-          "grade": "9.4 A++"
-        }
-      ]
-    },
-    {
       "platform": "Xbox",
       "games": [
         {
@@ -848,6 +837,17 @@
           "variant": "Y-Fold, Assembled in USA, Microsoft Security Label",
           "grader": "Wata",
           "grade": "9.4 A+"
+        }
+      ]
+    },
+    {
+      "platform": "PC",
+      "games": [
+        {
+          "name": "Axiom Verge",
+          "grade": "85+",
+          "variant": "3-Side Seam, IndieBox Limited Edition (732/3000)",
+          "grader": "VGA"
         }
       ]
     }
