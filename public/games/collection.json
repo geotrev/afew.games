@@ -1,6 +1,17 @@
 {
   "platforms": [
     {
+      "platform": "Wii",
+      "games": [
+        {
+          "name": "Super Smash Bros. Brawl",
+          "grade": "9.6 A+",
+          "variant": "Y-fold, Made in USA, 64278A",
+          "grader": "Wata"
+        }
+      ]
+    },
+    {
       "platform": "Game Boy Advance",
       "games": [
         {
