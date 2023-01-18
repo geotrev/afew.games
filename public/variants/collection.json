@@ -203,6 +203,13 @@
           "name": "Metroid Prime",
           "variants": [
             {
+              "part_code": "50011A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P 8KP",
+              "notes": "NFR, K-Mart Exclusive, Nintendo Power Promo, Front Barcode"
+            },
+            {
               "part_code": "49689A",
               "satellite_code": "00000",
               "manufactured": "Japan",
@@ -242,7 +249,7 @@
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P GM8E",
-              "notes": "Target coupons promo"
+              "notes": "Target Exclusive, Coupons Promo"
             },
             {
               "part_code": "55107A",
