@@ -231,6 +231,13 @@
               "notes": "Player's Choice"
             },
             {
+              "part_code": "49830A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P GM8E",
+              "notes": "Target Exclusive, Coupons Promo"
+            },
+            {
               "part_code": "49692A",
               "satellite_code": "00100",
               "manufactured": "USA",
@@ -238,11 +245,11 @@
               "notes": "NFR, K-Mart Exclusive, Wavebird Promo, Front Barcode"
             },
             {
-              "part_code": "49830A",
+              "part_code": "50011A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "DOL P GM8E",
-              "notes": "Target coupons promo"
+              "mpn": "DOL P 8KP",
+              "notes": "NFR, K-Mart Exclusive, Nintendo Power Promo, Front Barcode"
             },
             {
               "part_code": "55107A",
