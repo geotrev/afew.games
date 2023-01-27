@@ -40,7 +40,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         {title && <title>{`${BASE_TITLE} ${title}`}</title>}
         {description && <meta name="description" content={description} />}
-        <link rel="canonical" href={`http://afew.games${asPath}`} />
+        <link rel="canonical" href={`https://afew.games${asPath}`} />
         <meta
           name="keywords"
           content="Video Games, Games, Collectibles, Graded Games, Sealed Video Games"

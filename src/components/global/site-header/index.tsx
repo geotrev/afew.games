@@ -19,47 +19,42 @@ export function SiteHeader(): ReactElement {
 
   return (
     <header className={styles.pageHeader}>
-      <Link passHref href={Routes.HOME_PATH}>
-        <a className={styles.logoContainer}>
-          <Logo />
-        </a>
+      <Link href={Routes.HOME_PATH} className={styles.logoContainer}>
+        <Logo />
       </Link>
       <nav>
         <ul className={styles.navList}>
           <li>
-            <Link passHref href={Routes.HOME_PATH}>
-              <a
-                className={cn(styles.navListItemLink, {
-                  [styles.isActive]: isHomePath,
-                })}
-                aria-current={isHomePath ? "true" : undefined}
-              >
-                Home
-              </a>
+            <Link
+              href={Routes.HOME_PATH}
+              className={cn(styles.navListItemLink, {
+                [styles.isActive]: isHomePath,
+              })}
+              aria-current={isHomePath ? "true" : undefined}
+            >
+              Home
             </Link>
           </li>
           <li>
-            <Link passHref href={Routes.ESSAYS_PATH}>
-              <a
-                className={cn(styles.navListItemLink, {
-                  [styles.isActive]: isEssaysPath,
-                })}
-                aria-current={isEssaysPath ? "true" : undefined}
-              >
-                Essays
-              </a>
+            <Link
+              href={Routes.ESSAYS_PATH}
+              className={cn(styles.navListItemLink, {
+                [styles.isActive]: isEssaysPath,
+              })}
+              aria-current={isEssaysPath ? "true" : undefined}
+            >
+              Essays
             </Link>
           </li>
           <li>
-            <Link passHref href={Routes.COLLECTION_PATH}>
-              <a
-                className={cn(styles.navListItemLink, {
-                  [styles.isActive]: isCollectionsPath,
-                })}
-                aria-current={isCollectionsPath ? "true" : undefined}
-              >
-                Collection
-              </a>
+            <Link
+              href={Routes.COLLECTION_PATH}
+              className={cn(styles.navListItemLink, {
+                [styles.isActive]: isCollectionsPath,
+              })}
+              aria-current={isCollectionsPath ? "true" : undefined}
+            >
+              Collection
             </Link>
           </li>
         </ul>
