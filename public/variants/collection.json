@@ -4,6 +4,210 @@
       "platform": "3DS",
       "games": [
         {
+          "name": "Pokemon Moon",
+          "variants": [
+            {
+              "part_code": "103855A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P BNEE USA"
+            },
+            {
+              "part_code": "104790A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P TNE1 USA"
+            },
+            {
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "notes": "NFR, pack-in (104133A, 104299A, CTR R TJV1 USZ)"
+            },
+            {
+              "part_code": "104302A",
+              "manufactured": "Japan",
+              "mpn": "CTR R WJV2 USZ",
+              "notes": "Lunala Figurine (box)"
+            },
+            {
+              "part_code": "103856A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P BNEE CAN",
+              "notes": "Canadian"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon AlphaSapphire",
+          "variants": [
+            {
+              "part_code": "83667A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECLE USA"
+            },
+            {
+              "part_code": "100022A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECLE USA"
+            },
+            {
+              "part_code": "100022B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECLE USA"
+            },
+            {
+              "part_code": "100023A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECLE USA",
+              "notes": "Canadian"
+            },
+            {
+              "part_code": "101524B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECLE CAN",
+              "notes": "Canadian"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon OmegaRuby",
+          "variants": [
+            {
+              "part_code": "83666A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECRE USA"
+            },
+            {
+              "part_code": "100013A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECRE USA"
+            },
+            {
+              "part_code": "100013B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECRE USA",
+              "notes": "(Unconfirmed)"
+            },
+            {
+              "part_code": "100014A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECRE CAN",
+              "notes": "Canadian"
+            },
+            {
+              "part_code": "101523A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECRE CAN",
+              "notes": "Canadian"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon X",
+          "variants": [
+            {
+              "part_code": "80773A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P EKJE USA",
+              "notes": "Black ESRB"
+            },
+            {
+              "part_code": "80773B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P EKJE USA",
+              "notes": "White ESRB"
+            },
+            {
+              "part_code": "82195A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P WKJ1 USA",
+              "notes": "Black ESRB, 06/30/2014 Garchomp download offer"
+            },
+            {
+              "part_code": "101525A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P EKJE USA",
+              "notes": "White ESRB"
+            },
+            {
+              "part_code": "80774A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P EKJE CAN",
+              "notes": "Canadian"
+            },
+            {
+              "part_code": "80774B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P EKJE CAN",
+              "notes": "Canadian"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Y",
+          "variants": [
+            {
+              "part_code": "80781A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P EK2E USA",
+              "notes": "Black ESRB"
+            },
+            {
+              "part_code": "80781B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR EK2E USA",
+              "notes": "White ESRB"
+            },
+            {
+              "part_code": "82198A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P WK21 USA",
+              "notes": "Black ESRB, 06/30/2014 Scizor download offer"
+            },
+            {
+              "part_code": "101527A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P EK2E USA",
+              "notes": "White ESRB"
+            },
+            {
+              "part_code": "80782A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P EK2E CAN",
+              "notes": "Canadian"
+            },
+            {
+              "part_code": "80782B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P EK2E CAN",
+              "notes": "Canadian"
+            }
+          ]
+        },
+        {
           "name": "Mario Kart 7",
           "variants": [
             {
@@ -108,6 +312,40 @@
               "manufactured": "Japan",
               "mpn": "CTR P AXCE CAN",
               "notes": "Canadian"
+            }
+          ]
+        },
+        {
+          "name": "Bundles",
+          "variants": [
+            {
+              "part_code": "100789A",
+              "manufactured": "Japan",
+              "mpn": "CTR P POA1 USA",
+              "notes": "Pokemon OmegaRuby & AlphaSapphire 2-pack"
+            },
+            {
+              "part_code": "104133A",
+              "manufactured": "Japan",
+              "mpn": "CTR R AJV1 USZ",
+              "notes": "Pokemon Sun & Moon 2-pack, steelbook"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "CTR R TJV1 USZ",
+              "notes": "Pokemon Sun & Moon 2-pack, starter figurines"
+            },
+            {
+              "part_code": "016864A",
+              "manufactured": "Japan",
+              "mpn": "CTR R GA21 USZ",
+              "notes": "Pokemon UltraMoon & UltraSun 2-pack, art cards & codes"
+            },
+            {
+              "part_code": "106607A",
+              "manufactured": "Japan",
+              "mpn": "CTR R SA21 USZ",
+              "notes": "Pokemon UltraSun & UltraMoon 2-pack, steelbook"
             }
           ]
         }
