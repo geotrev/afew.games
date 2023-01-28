@@ -1,6 +1,6 @@
 ---
 title: "The Big Guide to Pokemon 3DS Game Variants"
-description: The first mainline games in Pokemon with full-3D graphics included a whopping eight Pokemon games on 3DS; here's (nearly) every variant.
+description: A (nearly) complete variant list for all eight mainline 3DS entries
 ---
 
 With Nintendo 3DS online services coming to a close in the coming months (March), the popular console will almost certainly see a surge in purchase activity over the coming years. If you're like me, you played the Pokemon games to death and they're near and dear to your heart!
