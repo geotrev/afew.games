@@ -4,6 +4,74 @@
       "platform": "3DS",
       "games": [
         {
+          "name": "Mario Kart 7",
+          "variants": [
+            {
+              "part_code": "75611A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P AMKE USA",
+              "notes": "White case, Black ESRB"
+            },
+            {
+              "part_code": "75611B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P AMKE USA",
+              "notes": "White case, Black ESRB"
+            },
+            {
+              "part_code": "75611C",
+              "satellite_code": "00002",
+              "manufactured": "Japan",
+              "notes": "Red case, White ESRB",
+              "mpn": "CTR P AMKE USA"
+            },
+            {
+              "part_code": "101519A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P AMKE USA",
+              "notes": "Red case, White ESRB"
+            },
+            {
+              "part_code": "101519B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P AMKE USA",
+              "notes": "Red case, White ESRB"
+            },
+            {
+              "part_code": "75612A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P AMKE CAN",
+              "notes": "White case, Canadian"
+            },
+            {
+              "notes": "White case, Canadian",
+              "part_code": "75612B",
+              "manufactured": "Japan",
+              "satellite_code": "00001",
+              "mpn": "CTR P AMKE CAN"
+            },
+            {
+              "mpn": "CTR P AMKE CAN",
+              "part_code": "75612C",
+              "satellite_code": "00002",
+              "manufactured": "Japan",
+              "notes": "Red case, Canadian"
+            },
+            {
+              "part_code": "75612D",
+              "satellite_code": "00003",
+              "manufactured": "Japan",
+              "mpn": "CTR P AMKE CAN",
+              "notes": "Red case, Canadian"
+            }
+          ]
+        },
+        {
           "name": "Pokemon X",
           "variants": [
             {
@@ -309,74 +377,6 @@
               "manufactured": "Japan",
               "mpn": "CTR P A28E CAN",
               "notes": "Canadian"
-            }
-          ]
-        },
-        {
-          "name": "Mario Kart 7",
-          "variants": [
-            {
-              "part_code": "75611A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P AMKE USA",
-              "notes": "White case, Black ESRB"
-            },
-            {
-              "part_code": "75611B",
-              "satellite_code": "00001",
-              "manufactured": "Japan",
-              "mpn": "CTR P AMKE USA",
-              "notes": "White case, Black ESRB"
-            },
-            {
-              "part_code": "75611C",
-              "satellite_code": "00002",
-              "manufactured": "Japan",
-              "notes": "Red case, White ESRB",
-              "mpn": "CTR P AMKE USA"
-            },
-            {
-              "part_code": "101519A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P AMKE USA",
-              "notes": "Red case, White ESRB"
-            },
-            {
-              "part_code": "101519B",
-              "satellite_code": "00001",
-              "manufactured": "Japan",
-              "mpn": "CTR P AMKE USA",
-              "notes": "Red case, White ESRB"
-            },
-            {
-              "part_code": "75612A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P AMKE CAN",
-              "notes": "White case, Canadian"
-            },
-            {
-              "notes": "White case, Canadian",
-              "part_code": "75612B",
-              "manufactured": "Japan",
-              "satellite_code": "00001",
-              "mpn": "CTR P AMKE CAN"
-            },
-            {
-              "mpn": "CTR P AMKE CAN",
-              "part_code": "75612C",
-              "satellite_code": "00002",
-              "manufactured": "Japan",
-              "notes": "Red case, Canadian"
-            },
-            {
-              "part_code": "75612D",
-              "satellite_code": "00003",
-              "manufactured": "Japan",
-              "mpn": "CTR P AMKE CAN",
-              "notes": "Red case, Canadian"
             }
           ]
         },
