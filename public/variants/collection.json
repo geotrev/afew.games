@@ -4,221 +4,6 @@
       "platform": "3DS",
       "games": [
         {
-          "name": "Pokemon UltraSun",
-          "variants": [
-            {
-              "mpn": "CTR P A2AE USA",
-              "part_code": "106567A",
-              "satellite_code": "00000",
-              "manufactured": "Japan"
-            },
-            {
-              "part_code": "106567B",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P A2AE USA"
-            },
-            {
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "notes": "NFR, pack-in (016864A, 106607A, 106860A)"
-            },
-            {
-              "part_code": "106860A",
-              "manufactured": "Japan",
-              "mpn": "CTR R A2A1 USZ",
-              "notes": "Dusk Mane Necrozma keychain (box)"
-            },
-            {
-              "part_code": "106568A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P A2AE CAN",
-              "notes": "Canadian"
-            }
-          ]
-        },
-        {
-          "name": "Pokemon UltraMoon",
-          "variants": [
-            {
-              "part_code": "106570A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P A28E USA"
-            },
-            {
-              "part_code": "106570B",
-              "satellite_code": "00001",
-              "manufactured": "Japan",
-              "mpn": "CTR P A28E USA"
-            },
-            {
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "notes": "NFR, pack-in (016864A, 106607A, 106862A)"
-            },
-            {
-              "part_code": "106862A",
-              "manufactured": "Japan",
-              "mpn": "CTR R A2B1 USZ",
-              "notes": "Dawn Wings Necrozma keychain (box)"
-            },
-            {
-              "part_code": "106571A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P A28E CAN",
-              "notes": "Canadian"
-            }
-          ]
-        },
-        {
-          "name": "Pokemon Sun",
-          "variants": [
-            {
-              "part_code": "103849A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P BNDE USA"
-            },
-            {
-              "part_code": "104788A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P TND1 USA"
-            },
-            {
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "notes": "NFR, pack-in (104133A, 104302A, CTR R TJV1 USZ)"
-            },
-            {
-              "part_code": "104299A",
-              "manufactured": "Japan",
-              "mpn": "CTR R WJV1 USZ",
-              "notes": "Solgaleo Figurine (box)"
-            },
-            {
-              "part_code": "103850A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P BNDE CAN",
-              "notes": "Canadian"
-            }
-          ]
-        },
-        {
-          "name": "Pokemon Moon",
-          "variants": [
-            {
-              "part_code": "103855A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P BNEE USA"
-            },
-            {
-              "part_code": "104790A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P TNE1 USA"
-            },
-            {
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "notes": "NFR, pack-in (104133A, 104299A, CTR R TJV1 USZ)"
-            },
-            {
-              "part_code": "104302A",
-              "manufactured": "Japan",
-              "mpn": "CTR R WJV2 USZ",
-              "notes": "Lunala Figurine (box)"
-            },
-            {
-              "part_code": "103856A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P BNEE CAN",
-              "notes": "Canadian"
-            }
-          ]
-        },
-        {
-          "name": "Pokemon AlphaSapphire",
-          "variants": [
-            {
-              "part_code": "83667A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P ECLE USA"
-            },
-            {
-              "part_code": "100022A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P ECLE USA"
-            },
-            {
-              "part_code": "100022B",
-              "satellite_code": "00001",
-              "manufactured": "Japan",
-              "mpn": "CTR P ECLE USA"
-            },
-            {
-              "part_code": "100023A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P ECLE USA",
-              "notes": "Canadian"
-            },
-            {
-              "part_code": "101524B",
-              "satellite_code": "00001",
-              "manufactured": "Japan",
-              "mpn": "CTR P ECLE CAN",
-              "notes": "Canadian"
-            }
-          ]
-        },
-        {
-          "name": "Pokemon OmegaRuby",
-          "variants": [
-            {
-              "part_code": "83666A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P ECRE USA"
-            },
-            {
-              "part_code": "100013A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P ECRE USA"
-            },
-            {
-              "part_code": "100013B",
-              "satellite_code": "00001",
-              "manufactured": "Japan",
-              "mpn": "CTR P ECRE USA",
-              "notes": "(Unconfirmed)"
-            },
-            {
-              "part_code": "100014A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P ECRE CAN",
-              "notes": "Canadian"
-            },
-            {
-              "part_code": "101523A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "CTR P ECRE CAN",
-              "notes": "Canadian"
-            }
-          ]
-        },
-        {
           "name": "Pokemon X",
           "variants": [
             {
@@ -308,6 +93,221 @@
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "CTR P EK2E CAN",
+              "notes": "Canadian"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon OmegaRuby",
+          "variants": [
+            {
+              "part_code": "83666A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECRE USA"
+            },
+            {
+              "part_code": "100013A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECRE USA"
+            },
+            {
+              "part_code": "100013B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECRE USA",
+              "notes": "(Unconfirmed)"
+            },
+            {
+              "part_code": "100014A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECRE CAN",
+              "notes": "Canadian"
+            },
+            {
+              "part_code": "101523A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECRE CAN",
+              "notes": "Canadian"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon AlphaSapphire",
+          "variants": [
+            {
+              "part_code": "83667A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECLE USA"
+            },
+            {
+              "part_code": "100022A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECLE USA"
+            },
+            {
+              "part_code": "100022B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECLE USA"
+            },
+            {
+              "part_code": "100023A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECLE USA",
+              "notes": "Canadian"
+            },
+            {
+              "part_code": "101524B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P ECLE CAN",
+              "notes": "Canadian"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Sun",
+          "variants": [
+            {
+              "part_code": "103849A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P BNDE USA"
+            },
+            {
+              "part_code": "104788A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P TND1 USA"
+            },
+            {
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "notes": "NFR, pack-in (104133A, 104302A, CTR R TJV1 USZ)"
+            },
+            {
+              "part_code": "104299A",
+              "manufactured": "Japan",
+              "mpn": "CTR R WJV1 USZ",
+              "notes": "Solgaleo Figurine (box)"
+            },
+            {
+              "part_code": "103850A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P BNDE CAN",
+              "notes": "Canadian"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Moon",
+          "variants": [
+            {
+              "part_code": "103855A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P BNEE USA"
+            },
+            {
+              "part_code": "104790A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P TNE1 USA"
+            },
+            {
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "notes": "NFR, pack-in (104133A, 104299A, CTR R TJV1 USZ)"
+            },
+            {
+              "part_code": "104302A",
+              "manufactured": "Japan",
+              "mpn": "CTR R WJV2 USZ",
+              "notes": "Lunala Figurine (box)"
+            },
+            {
+              "part_code": "103856A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P BNEE CAN",
+              "notes": "Canadian"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon UltraSun",
+          "variants": [
+            {
+              "mpn": "CTR P A2AE USA",
+              "part_code": "106567A",
+              "satellite_code": "00000",
+              "manufactured": "Japan"
+            },
+            {
+              "part_code": "106567B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P A2AE USA"
+            },
+            {
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "notes": "NFR, pack-in (016864A, 106607A, 106860A)"
+            },
+            {
+              "part_code": "106860A",
+              "manufactured": "Japan",
+              "mpn": "CTR R A2A1 USZ",
+              "notes": "Dusk Mane Necrozma keychain (box)"
+            },
+            {
+              "part_code": "106568A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P A2AE CAN",
+              "notes": "Canadian"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon UltraMoon",
+          "variants": [
+            {
+              "part_code": "106570A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P A28E USA"
+            },
+            {
+              "part_code": "106570B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P A28E USA"
+            },
+            {
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "notes": "NFR, pack-in (016864A, 106607A, 106862A)"
+            },
+            {
+              "part_code": "106862A",
+              "manufactured": "Japan",
+              "mpn": "CTR R A2B1 USZ",
+              "notes": "Dawn Wings Necrozma keychain (box)"
+            },
+            {
+              "part_code": "106571A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P A28E CAN",
               "notes": "Canadian"
             }
           ]
