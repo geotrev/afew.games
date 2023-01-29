@@ -51,7 +51,7 @@ Black ESRB indicates early prints, where `80773A` is first, and `82195A` is seco
 | 80782A        | 00000              | Japan            | CTR P EK2E CAN | Canadian                    |
 | 80782B        | 00001              | Japan            | CTR P EK2E CAN | Canadian                    |
 
-Like *X*, black ESRB indicates earlier prints. `80773A` is first, `82198A` is second.
+Like *X*, black ESRB indicates earlier prints. `80781A` is first, `82198A` is second.
 
 ## Pokemon OmegaRuby
 
@@ -111,7 +111,7 @@ All of the above, except for `104790A`, are the earliest prints as they were rel
 | 106860A       |                    | Japan            | CTR R A2A1 USZ | Dusk Mane Necrozma keychain (box)        |
 | 106568A       | 00000              | Japan            | CTR P A2AE USA | Canadian                                 |
 
-All of the above, except for `106567A`, are the earliest prints as they were released simultaneously. The NFR version is the same in each bundle (see also bundles at the end of this post).
+All of the above, except for `106567B`, are the earliest prints as they were released simultaneously. The NFR version is the same in each bundle (see also bundles at the end of this post).
 
 ## Pokemon UltraMoon
 
@@ -123,7 +123,7 @@ All of the above, except for `106567A`, are the earliest prints as they were rel
 | 106862A       |                    | Japan            | CTR R A2B1 USZ | Dawn Wings Necrozma keychain (box)       |
 | 106571A       | 00000              | Japan            | CTR P A28E USA | Canadian                                 |
 
-All of the above, except for `106570A`, are the earliest prints as they were released simultaneously. The NFR version is the same in each bundle (see also bundles at the end of this post).
+All of the above, except for `106570B`, are the earliest prints as they were released simultaneously. The NFR version is the same in each bundle (see also bundles at the end of this post).
 
 ## Bundles
 
