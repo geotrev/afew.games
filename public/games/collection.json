@@ -38,6 +38,12 @@
       "platform": "Game Boy Color",
       "games": [
         {
+          "name": "Pokemon Gold",
+          "grade": "90",
+          "variant": "No Seal, Japanese Version",
+          "grader": "VGA"
+        },
+        {
           "name": "The Legend of Zelda: Oracle of Ages",
           "grade": "9.4 A+",
           "variant": "H-Seam, Made in Japan, Foil, Seal applied 90 degrees rotated",
