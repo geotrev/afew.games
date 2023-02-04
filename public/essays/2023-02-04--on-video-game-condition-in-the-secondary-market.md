@@ -61,3 +61,29 @@ Admittedly, Wata and even VGA have been accused of manipulating the market by pr
 Ultimately, no market is made in a vaccuum. Ethics will be stretched in capitalism; it's everywhere. Removing your emotions from the analysis can only help you in this scenario, because then you'll see there's might actually be something to this graded stuff once you acknowledge just how rare high grade CIB and sealed games really are.
 
 ### For Lack of a Better Option
+
+Look, I'm not saying graders are the best option we could have asked for. Far from it, in fact; clearly the financial position and interests of a for-profit institution adds a layer of concern that not even the most ingrained graded game collector can ignore.
+
+But with that said, there simply hasn't been motivation for another market participant to enter and give this imaginary hope to collectors everywhere.
+
+Instead, we have the options we have: Wata, VGA, and CGC.
+
+### Buyer Confidence & Lowest Cost Risk
+
+The biggest argument for a graded game to a collector is simply that it adds a third party opinion, with standard and consistent analysis practices, to the games encased in a holder. The result is bidders and buyers everywhere can generally know what to expect when buying, and no longer need to buy multiples to get the condition range that they want.
+
+There's always a learning curve to understanding a grade scale, though, but that's far better (and cheaper) to acquaint than spending potentially hundreds of dollars in order to get a game in the condition that suits your needs.
+
+But this third party opinion is actually very important: it removes the seller's need to inflate condition with arbitrary descriptions like "near mint." You've probably seen it and experienced it. What does near mint mean to eBay user "cool_games_69"? Probably not what it means to you!
+
+And herein lays the key: this general confidence in a grade can lead to huge boosts in prices because now there isn't guesswork involved. It either is or isn't in the range of a 90 (VGA), or 9.4 A++ (Wata/CGC), but given the operation is methodical and practiced, you can rely on your understanding of a given grade to know exactly what you're expecting, including a possible risk of over-grading.
+
+### Condition Inaccuracies
+
+Like all services and products, grading isn't perfect. Collectors should and often do know that. While I collect graded games on my own, I still want to see pictures of the dang thing just to double check.
+
+This distinction is crucial though: I wouldn't re-evaluate a game top-to-bottom like I would an ungraded game. I'm simply checking that there aren't any clear red flags that a given grade might have snuck through a bit too high for my liking.
+
+Ultimately, grades are ranges and we need to treat them as such. There isn't and likely won't ever be a simple, clear, and unambiguous way to definitely say X condition will always mean Y descriptor, accounting for all flaws. It just won't happen, and that's key for any collector to understand before they put money in a hobby like this.
+
+## Market Interest & the Future
