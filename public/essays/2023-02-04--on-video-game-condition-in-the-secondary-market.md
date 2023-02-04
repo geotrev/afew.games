@@ -58,7 +58,7 @@ But here's the reality: a game grader like Wata or VGA only has a stake in a gam
 
 Admittedly, Wata and even VGA have been accused of manipulating the market by propping their own products with auction houses and sellers, to the extent that there's been numerous youtube videos covering the subject. 
 
-Ultimately, no market is made in a vaccuum. Ethics will be stretched in capitalism; it's everywhere. Removing your emotions from the analysis can only help you in this scenario, because then you'll see there's might actually be something to this graded stuff once you acknowledge just how rare high grade CIB and sealed games really are.
+Ultimately, no market is made in a vacuum. Ethics will be stretched in capitalism; it's everywhere. Removing your emotions from the analysis can only help you in this scenario, because then you'll see there's might actually be something to this graded stuff once you acknowledge just how rare high grade CIB and sealed games really are.
 
 ### For Lack of a Better Option
 
@@ -70,7 +70,7 @@ Instead, we have the options we have: Wata, VGA, and CGC.
 
 ### Buyer Confidence & Lowest Cost Risk
 
-The biggest argument for a graded game to a collector is simply that it adds a third party opinion, with standard and consistent analysis practices, to the games encased in a holder. The result is bidders and buyers everywhere can generally know what to expect when buying, and no longer need to buy multiples to get the condition range that they want.
+The biggest argument for a graded game to a collector is simply that it adds a third party opinion, with standard and consistent analysis practices. The result is bidders and buyers everywhere can generally know what to expect when buying and no longer need to buy multiples to get the condition range that they want.
 
 There's always a learning curve to understanding a grade scale, though, but that's far better (and cheaper) to acquaint than spending potentially hundreds of dollars in order to get a game in the condition that suits your needs.
 
