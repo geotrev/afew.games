@@ -58,7 +58,7 @@ And on and on.
 
 But here's the reality: a game grader like Wata or VGA only has a stake in a game's value insofar as it enables auction houses and ebay sellers to sell more of their games and increase the grader's market share, resulting in higher demand with some organic consumer interest. That's how all business works, it's nothing new.
 
-Admittedly, Wata and even VGA have been accused of manipulating the market by propping their own products with auction houses and sellers, to the extent that there's been numerous youtube videos covering the subject. 
+Admittedly, Wata and even VGA have been accused of manipulating the market by propping their own products with auction houses and sellers, to the extent that there's been [numerous](https://www.youtube.com/watch?v=rvLFEh7V18A) [youtube](https://www.youtube.com/watch?v=mKbuNwS-gaI) [videos](https://www.youtube.com/watch?v=1Z2WQqJkISM) covering the subject. 
 
 Ultimately, no market is made in a vacuum. Ethics will be stretched in capitalism; it's everywhere. Removing your emotions from the analysis can only help you in this scenario, because then you'll see there's might actually be something to this graded stuff once you acknowledge just how rare high grade CIB and sealed games really are.
 
@@ -66,7 +66,7 @@ Ultimately, no market is made in a vacuum. Ethics will be stretched in capitalis
 
 Look, I'm not saying graders are the best option we could have asked for. Far from it, in fact; clearly the financial position and interests of a for-profit institution adds a layer of concern that not even the most ingrained graded game collector ignores.
 
-That said, there simply hasn't been motivation for another style of market participant, so this imaginary hope to a total unbiased, uncompromised third party might not be realistic.
+That said, there simply hasn't been motivation for another style of market participant, so this imaginary hope to a total unbiased, uncompromising third party might not be realistic.
 
 Instead, we have the options we have: Wata, VGA, and CGC. They do their job well and deliver a great product. You can generally trust the grades, and the knowledge in the hobby about authenticity keeps confidence relatively stable.
 
