@@ -5,6 +5,8 @@ description: Condition used to, and continues to, dominate the highest end of
 ---
 A common topic that comes up among game collectors is, "why did that game sell for so much?" Usually in response to a graded or a very nice looking complete-in-box (CIB) game. It's a topic so densely beaten into the ground that it's become odd how much it comes up - you'd think more people would understand and have access to learning this aspect of the collectibles market by now!
 
+Disclaimer: the following essay is my own opinion. I base my views on my time collecting games over the last 5-10 years.
+
 In this essay, let's break down the nuances of this market facet. We'll cover topics like:
 
 * What, why, and how games trend up with condition
@@ -23,13 +25,13 @@ So can you guess what happened? Well, people listed their toilet paper on eBay f
 
 This is just one example, but it happens all the time in all sorts of sectors. Baby formula is another one that happened over the last year. Ultimately, video games can and will suffer the same fate as toilet paper and baby formula, occasionally.
 
-### Don't touch
+### Don't Touch the Goods
 
 Let's take it back to video games, though. Often the *raw supply* of most any game will be in the thousands. Very few games simply aren't in ready supply; you could probably name a few easily.
 
 So why do some games, seemingly common and sold in the millions, sell for high prices?
 
-Often, it's simply condition.
+Often, it's simply condition. There's a reason why most near mint, CIB copies of Mega Man X sell for somewhere between $200-350, but when a single [dead mint copy](https://www.ebay.com/itm/175579956100) appears on the scene, it sells for over four times the highest end of [past sales](https://www.pricecharting.com/game/super-nintendo/mega-man-x#completed-auctions-cib).
 
 Most games have been opened, mangled, and sometimes destroyed and trashed. That makes well-preserved and even sealed games highly coveted, and as a result, valuable.
 
@@ -62,15 +64,15 @@ Ultimately, no market is made in a vacuum. Ethics will be stretched in capitalis
 
 ### For Lack of a Better Option
 
-Look, I'm not saying graders are the best option we could have asked for. Far from it, in fact; clearly the financial position and interests of a for-profit institution adds a layer of concern that not even the most ingrained graded game collector can ignore.
+Look, I'm not saying graders are the best option we could have asked for. Far from it, in fact; clearly the financial position and interests of a for-profit institution adds a layer of concern that not even the most ingrained graded game collector ignores.
 
-But with that said, there simply hasn't been motivation for another market participant to enter and give this imaginary hope to collectors everywhere.
+That said, there simply hasn't been motivation for another style of market participant, so this imaginary hope to a total unbiased, uncompromised third party might not be realistic.
 
-Instead, we have the options we have: Wata, VGA, and CGC.
+Instead, we have the options we have: Wata, VGA, and CGC. They do their job well and deliver a great product. You can generally trust the grades, and the knowledge in the hobby about authenticity keeps confidence relatively stable.
 
 ### Buyer Confidence & Lowest Cost Risk
 
-The biggest argument for a graded game to a collector is simply that it adds a third party opinion, with standard and consistent analysis practices. The result is bidders and buyers everywhere can generally know what to expect when buying and no longer need to buy multiples to get the condition range that they want.
+The biggest argument for a graded game to a collector is simply that it adds a separate, third party opinion, with standard and consistent analysis practices. The result is bidders and buyers everywhere can generally know what to expect when buying and no longer need to buy multiples to get the condition range that they want.
 
 There's always a learning curve to understanding a grade scale, though, but that's far better (and cheaper) to acquaint than spending potentially hundreds of dollars in order to get a game in the condition that suits your needs.
 
@@ -87,3 +89,19 @@ This distinction is crucial though: I wouldn't re-evaluate a game top-to-bottom 
 Ultimately, grades are ranges and we need to treat them as such. There isn't and likely won't ever be a simple, clear, and unambiguous way to definitely say X condition will always mean Y descriptor, accounting for all flaws. It just won't happen, and that's key for any collector to understand before they put money in a hobby like this.
 
 ## Market Interest & the Future
+
+Let's bring it back the discussion to condition. Given the above context on grading, collectors, and motivations of collectors, where does that leave us with the market?
+
+Truthfully, it's hard to say. Currently a significant portion of collectors still view grading and condition rarity as a major niche. In all fairness to these folks, it's absolutely true. Where I start to disagree is the downstream argument of, "it's not currently popular, so obviously it has no future."
+
+It's no coincidence this discussion includes grading. Again, it provides the third party, unbiased (from the buyer's point of view) opinion that prevents sellers from embellishing condition. In that sense, it should go without saying that condition-based collecting is likely to be more popular as grading services continue to expand.
+
+There's also the factor of community involvement. I see new collectors hopping into condition collecting (with grading or otherwise) almost daily. As niche as the market is, it's quite stable and steadily growing to encompass more diverse views and collections.
+
+So, sure, the hobby is niche and perhaps is unpopular when taken from a larger scope, but surely if Pokemon cards and comics can reach their current level of popularity, then so can video games, as they follow most of the same attributes.
+
+This is ultimately just my opinion, but signs point to continued interest, and to me that means growth.
+
+## Conclusion
+
+Much like other financial markets, antiques, and collectibles, discussions about video game collecting trends, interest, and analyzing condition-motivated interest is ultimately a topic of psychology. I find it all interesting because there *is* a clear trend at work that shows people want the nicest examples of old and even new games.
