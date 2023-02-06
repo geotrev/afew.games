@@ -3,7 +3,7 @@ title: On Video Game Condition in the Secondary Market
 description: Condition used to, and continues to, dominate the highest end of
   resold video games
 ---
-A common topic that comes up among game collectors is, "why did that game sell for so much?" Usually in response to a graded or a very nice looking complete-in-box (CIB) game. It's a topic so densely beaten into the ground that it's become odd how much it comes up - you'd think more people would understand and have access to learning this aspect of the collectibles market by now!
+A common topic that comes up among game collectors is, "why did game X sell for (high) price?" Usually in response to a graded or a very nice looking complete-in-box (CIB) game. It's a topic so densely beaten into the ground that it's become odd how much it comes up - you'd think more people would understand and have access to learning this aspect of the collectibles market by now!
 
 Disclaimer: the following essay is my own opinion. I base my views on my time collecting games over the last 5-10 years.
 
