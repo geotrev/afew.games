@@ -1,19 +1,15 @@
-import { useState, useEffect, useCallback, KeyboardEvent } from "react"
+import {
+  useState,
+  useEffect,
+  useCallback,
+  KeyboardEvent,
+  ReactElement,
+} from "react"
 import propTypes from "prop-types"
 import { Button } from "../button"
 import styles from "./styles.module.scss"
-import { PaginationClickHandler } from "./types"
-
-type PaginationProps = {
-  count: number
-  activePageIndex: number
-  onNextClick: PaginationClickHandler
-  onPreviousClick: PaginationClickHandler
-  onPageClick: PaginationClickHandler
-  onFirstPageClick: PaginationClickHandler
-  onLastPageClick: PaginationClickHandler
-  maxVisiblePageCount: number
-}
+import { PaginationProps } from "./types"
+import { PaginationListItems } from "./pagination-list-items"
 
 Pagination.propTypes = {
   count: propTypes.number.isRequired,
@@ -26,7 +22,7 @@ Pagination.propTypes = {
   onPageClick: propTypes.func.isRequired,
 }
 
-export function Pagination(props: PaginationProps) {
+export function Pagination(props: PaginationProps): ReactElement | null {
   const {
     count,
     activePageIndex,
@@ -54,23 +50,23 @@ export function Pagination(props: PaginationProps) {
     } else if (activePageIndex > count - buffer) {
       range = [count - visibleCount, lastPageIdx]
     } else {
-      let bufferStart = visiblePageCountIsEven
+      let rangeStart = visiblePageCountIsEven
         ? activePageIndex - buffer + 1
         : activePageIndex - buffer
-      let bufferEnd = activePageIndex + buffer
+      let rangeEnd = activePageIndex + buffer
 
-      if (bufferEnd > lastPageIdx) {
-        bufferStart--
-        bufferEnd = lastPageIdx
+      if (rangeEnd > lastPageIdx) {
+        rangeStart--
+        rangeEnd = lastPageIdx
       }
 
-      if (bufferStart < 0) {
-        bufferStart = 0
+      if (rangeStart < 0) {
+        rangeStart = 0
       }
 
       range = [
-        bufferStart < 0 ? 0 : bufferStart,
-        bufferEnd > lastPageIdx ? lastPageIdx : bufferEnd,
+        rangeStart < 0 ? 0 : rangeStart,
+        rangeEnd > lastPageIdx ? lastPageIdx : rangeEnd,
       ]
     }
 
@@ -113,30 +109,10 @@ export function Pagination(props: PaginationProps) {
     }
   }
 
-  function renderVisiblePageItems() {
-    return visibleIndexRange.map((idx: number) => {
-      const isActive = idx === activePageIndex
-      const label = `Page ${idx + 1}`
-      return (
-        <li key={idx} data-pagination-index={idx}>
-          <Button
-            selected={isActive}
-            tabIndex={rovingIndex === idx ? 0 : -1}
-            onClick={onPageClick}
-            aria-current={isActive ? true : undefined}
-            aria-label={isActive ? `${label}, current page` : `Goto ${label}`}
-          >
-            {idx + 1}
-          </Button>
-        </li>
-      )
-    })
-  }
-
   return (
     <div
       role="group"
-      aria-label="Use left and right arrow keys to focus available page numbers"
+      aria-label="Use left and right arrow keys to focus page numbers"
     >
       <nav aria-label="Pagination" onKeyDown={handleKeydown}>
         <ul className={styles.pagination}>
@@ -162,7 +138,12 @@ export function Pagination(props: PaginationProps) {
             </Button>
           </li>
           <li aria-hidden="true" className={styles.paginationBreak} />
-          {renderVisiblePageItems()}
+          <PaginationListItems
+            indices={visibleIndexRange}
+            activeIndex={activePageIndex}
+            handleClick={onPageClick}
+            paginationIndex={rovingIndex}
+          />
           <li aria-hidden="true" className={styles.paginationBreak} />
           <li>
             <Button

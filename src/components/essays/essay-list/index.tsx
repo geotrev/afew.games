@@ -4,12 +4,12 @@ import { EssayPageData } from "types/essays"
 import { EssayListItem } from "../essay-list-item"
 import styles from "./styles.module.scss"
 
-type EssayListBaseProps = {
+type EssayListComponentProps = {
   data: EssayPageData
 }
 
-function EssayListBase(
-  { data }: EssayListBaseProps,
+function EssayListComponent(
+  { data }: EssayListComponentProps,
   ref: Ref<HTMLUListElement>
 ): ReactElement {
   return (
@@ -25,8 +25,8 @@ function EssayListBase(
   )
 }
 
-const EssayList = forwardRef<HTMLUListElement, EssayListBaseProps>(
-  EssayListBase
+const EssayList = forwardRef<HTMLUListElement, EssayListComponentProps>(
+  EssayListComponent
 )
 
 EssayList.propTypes = {

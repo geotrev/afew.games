@@ -1,15 +1,10 @@
-import { useEffect, useCallback, useRef } from "react"
+import { useEffect, useCallback, useRef, MouseEventHandler } from "react"
 import { debounce } from "lodash-es"
 
 import { EssayPageData } from "types/essays"
 import { getEssayList } from "lib/get-essay-list"
 import { useFetchEssays } from "hooks/use-fetch-essays"
-import {
-  PageHeading,
-  Layout,
-  Pagination,
-  PaginationClickHandler,
-} from "components/global"
+import { PageHeading, Layout, Pagination } from "components/global"
 import { EssayListLoader, EssayListError, EssayList } from "components/essays"
 
 let initialLoad = true
@@ -48,12 +43,14 @@ export default function Essays({ initialData }: EssaysProps) {
     }
   }, [data.index])
 
-  const onPreviousClick = useCallback<PaginationClickHandler>(() => {
+  const onPreviousClick = useCallback<
+    MouseEventHandler<HTMLButtonElement>
+  >(() => {
     if (data.index === 0) return
     setPage(data.index - 1)
   }, [data.index, setPage])
 
-  const onPageClick = useCallback<PaginationClickHandler>(
+  const onPageClick = useCallback<MouseEventHandler<HTMLButtonElement>>(
     (event) => {
       const target = event.target as HTMLButtonElement
       const targetPageIdx: number = parseInt(target.innerText, 10) - 1
@@ -64,17 +61,21 @@ export default function Essays({ initialData }: EssaysProps) {
     [data.index, setPage]
   )
 
-  const onNextClick = useCallback<PaginationClickHandler>(() => {
+  const onNextClick = useCallback<MouseEventHandler<HTMLButtonElement>>(() => {
     if (data.index === data.totalPages - 1) return
     setPage(data.index + 1)
   }, [data.index, data.totalPages, setPage])
 
-  const onFirstPageClick = useCallback<PaginationClickHandler>(() => {
+  const onFirstPageClick = useCallback<
+    MouseEventHandler<HTMLButtonElement>
+  >(() => {
     if (data.index === 0) return
     setPage(0)
   }, [data.index, setPage])
 
-  const onLastPageClick = useCallback<PaginationClickHandler>(() => {
+  const onLastPageClick = useCallback<
+    MouseEventHandler<HTMLButtonElement>
+  >(() => {
     if (data.index === data.totalPages - 1) return
     setPage(data.totalPages - 1)
   }, [data.index, data.totalPages, setPage])
