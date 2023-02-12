@@ -1,13 +1,13 @@
 import { ReactElement } from "react"
 import { Button } from "../button"
-import { IPaginationListItemsProps } from "./types"
+import { PaginationListItemsProps } from "./types"
 
 export function PaginationListItems({
   indices,
   activeIndex,
   handleClick,
   paginationIndex,
-}: IPaginationListItemsProps): ReactElement {
+}: PaginationListItemsProps): ReactElement {
   return (
     <>
       {indices.map((idx: number) => {

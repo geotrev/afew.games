@@ -6,5 +6,5 @@ export * from "./page-heading"
 export * from "./site-header"
 
 /** types */
-export * from "./button/types.d"
-export * from "./pagination/types.d"
+export * from "./button/types"
+export * from "./pagination/types"

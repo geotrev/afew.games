@@ -8,4 +8,4 @@ interface IButtonComponentProps
   selected: boolean
 }
 
-export type IGlobalButtonProps = PropsWithChildren<IButtonComponentProps>
+export type GlobalButtonProps = PropsWithChildren<IButtonComponentProps>

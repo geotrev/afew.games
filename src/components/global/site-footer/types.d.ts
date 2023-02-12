@@ -1,4 +1,4 @@
-export type ISubscribeFormState = {
+export type SubscribeFormState = {
   status: string
   message: string
 }

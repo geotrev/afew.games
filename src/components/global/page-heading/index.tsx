@@ -1,5 +1,5 @@
 import propTypes from "prop-types"
-import { IPageHeadingProps } from "./types"
+import { PageHeadingProps } from "./types"
 
 PageHeading.defaultProps = {
   liveSubheading: false,
@@ -15,7 +15,7 @@ export function PageHeading({
   heading,
   subheading,
   liveSubheading,
-}: IPageHeadingProps) {
+}: PageHeadingProps) {
   return (
     <>
       <h1>

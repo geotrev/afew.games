@@ -1,7 +1,7 @@
 import propTypes from "prop-types"
 import cn from "classnames"
 import styles from "./styles.module.scss"
-import { IGlobalButtonProps } from "./types"
+import { GlobalButtonProps } from "./types"
 
 /**
  * constants
@@ -40,7 +40,7 @@ Button.propTypes = {
 /**
  * component
  */
-export function Button(props: IGlobalButtonProps) {
+export function Button(props: GlobalButtonProps) {
   const { type, bare, size, cornerType, selected, children, ...restProps } =
     props
   return (
