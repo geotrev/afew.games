@@ -1,12 +1,6 @@
-import { MouseEventHandler, ReactElement } from "react"
+import { ReactElement } from "react"
 import { Button } from "../button"
-
-type IPaginationListItemsProps = {
-  indices: number[]
-  activeIndex: number
-  handleClick: MouseEventHandler<HTMLButtonElement>
-  paginationIndex: number
-}
+import { IPaginationListItemsProps } from "./types"
 
 export function PaginationListItems({
   indices,

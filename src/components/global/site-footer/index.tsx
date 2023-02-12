@@ -12,14 +12,10 @@ import {
   EMAIL_REGEXP,
   SubscribeFormStatuses,
 } from "lib/constants"
+import { ISubscribeFormState } from "./types"
 import styles from "./styles.module.scss"
 
-type SubscribeFormState = {
-  status: string
-  message: string
-}
-
-const DEFAULT_FORM_STATE: SubscribeFormState = {
+const DEFAULT_FORM_STATE = {
   status: SubscribeFormStatuses.NONE,
   message: "",
 }
@@ -27,7 +23,7 @@ const DEFAULT_FORM_STATE: SubscribeFormState = {
 export function SiteFooter(): ReactElement {
   const [value, setValue] = useState("")
   const [formState, setFormState] =
-    useState<SubscribeFormState>(DEFAULT_FORM_STATE)
+    useState<ISubscribeFormState>(DEFAULT_FORM_STATE)
   const isLoading = formState.status === SubscribeFormStatuses.LOADING
   const isSuccess = formState.status === SubscribeFormStatuses.SUCCESS
 

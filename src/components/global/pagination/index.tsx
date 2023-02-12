@@ -8,7 +8,7 @@ import {
 import propTypes from "prop-types"
 import { Button } from "../button"
 import styles from "./styles.module.scss"
-import { PaginationProps } from "./types"
+import { IPaginationProps } from "./types"
 import { PaginationListItems } from "./pagination-list-items"
 
 Pagination.propTypes = {
@@ -22,7 +22,7 @@ Pagination.propTypes = {
   onPageClick: propTypes.func.isRequired,
 }
 
-export function Pagination(props: PaginationProps): ReactElement | null {
+export function Pagination(props: IPaginationProps): ReactElement | null {
   const {
     count,
     activePageIndex,

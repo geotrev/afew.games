@@ -1,6 +1,6 @@
 import { MouseEventHandler } from "react"
 
-export type PaginationProps = {
+export type IPaginationProps = {
   count: number
   activePageIndex: number
   onNextClick: MouseEventHandler<HTMLButtonElement>
@@ -9,4 +9,11 @@ export type PaginationProps = {
   onFirstPageClick: MouseEventHandler<HTMLButtonElement>
   onLastPageClick: MouseEventHandler<HTMLButtonElement>
   maxVisiblePageCount: number
+}
+
+export type IPaginationListItemsProps = {
+  indices: number[]
+  activeIndex: number
+  handleClick: MouseEventHandler<HTMLButtonElement>
+  paginationIndex: number
 }

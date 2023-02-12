@@ -1,8 +1,11 @@
 import propTypes from "prop-types"
 import cn from "classnames"
 import styles from "./styles.module.scss"
-import { ButtonProps } from "./types"
+import { IGlobalButtonProps } from "./types"
 
+/**
+ * constants
+ */
 // radius types
 const SQUIRCLE = "squircle"
 const ROUND = "round"
@@ -13,7 +16,31 @@ const MD = "md"
 const PRIMARY = "primary"
 const SECONDARY = "secondary"
 
-export function Button(props: ButtonProps) {
+/**
+ * props
+ */
+Button.defaultProps = {
+  bare: false,
+  variant: "secondary",
+  selected: false,
+  type: "button",
+  size: MD,
+  cornerType: SQUIRCLE,
+}
+
+Button.propTypes = {
+  bare: propTypes.bool,
+  variant: propTypes.oneOf([PRIMARY, SECONDARY]),
+  size: propTypes.oneOf([SM, MD]),
+  type: propTypes.oneOf(["button", "submit", "reset", undefined]),
+  cornerType: propTypes.oneOf([SQUIRCLE, ROUND]),
+  selected: propTypes.bool,
+}
+
+/**
+ * component
+ */
+export function Button(props: IGlobalButtonProps) {
   const { type, bare, size, cornerType, selected, children, ...restProps } =
     props
   return (
@@ -32,22 +59,4 @@ export function Button(props: ButtonProps) {
       {children}
     </button>
   )
-}
-
-Button.defaultProps = {
-  bare: false,
-  variant: "secondary",
-  selected: false,
-  type: "button",
-  size: MD,
-  cornerType: SQUIRCLE,
-}
-
-Button.propTypes = {
-  bare: propTypes.bool,
-  variant: propTypes.oneOf([PRIMARY, SECONDARY]),
-  size: propTypes.oneOf([SM, MD]),
-  type: propTypes.oneOf(["button", "submit", "reset", undefined]),
-  cornerType: propTypes.oneOf([SQUIRCLE, ROUND]),
-  selected: propTypes.bool,
 }

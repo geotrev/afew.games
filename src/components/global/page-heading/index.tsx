@@ -1,16 +1,21 @@
 import propTypes from "prop-types"
+import { IPageHeadingProps } from "./types"
 
-export type PageHeadingProps = {
-  heading?: string
-  subheading?: string
-  liveSubheading?: boolean
+PageHeading.defaultProps = {
+  liveSubheading: false,
+}
+
+PageHeading.propTypes = {
+  heading: propTypes.string,
+  subheading: propTypes.string,
+  liveSubheading: propTypes.bool,
 }
 
 export function PageHeading({
   heading,
   subheading,
   liveSubheading,
-}: PageHeadingProps) {
+}: IPageHeadingProps) {
   return (
     <>
       <h1>
@@ -27,14 +32,4 @@ export function PageHeading({
       )}
     </>
   )
-}
-
-PageHeading.defaultProps = {
-  liveSubheading: false,
-}
-
-PageHeading.propTypes = {
-  heading: propTypes.string,
-  subheading: propTypes.string,
-  liveSubheading: propTypes.bool,
 }
