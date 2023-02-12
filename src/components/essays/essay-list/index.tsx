@@ -1,29 +1,8 @@
 import propTypes from "prop-types"
 import { forwardRef, ReactElement, Ref } from "react"
-import { EssayPageData } from "types/essays"
 import { EssayListItem } from "../essay-list-item"
+import { EssayListComponentProps } from "./types"
 import styles from "./styles.module.scss"
-
-type EssayListComponentProps = {
-  data: EssayPageData
-}
-
-function EssayListComponent(
-  { data }: EssayListComponentProps,
-  ref: Ref<HTMLUListElement>
-): ReactElement {
-  return (
-    <ul
-      ref={ref}
-      className={styles.essayList}
-      aria-label={`Essays, page ${data.index + 1}`}
-    >
-      {data.essays.map((entry) => (
-        <EssayListItem key={entry.metadata.slug} entry={entry} />
-      ))}
-    </ul>
-  )
-}
 
 const EssayList = forwardRef<HTMLUListElement, EssayListComponentProps>(
   EssayListComponent
@@ -45,6 +24,23 @@ EssayList.propTypes = {
       }).isRequired
     ).isRequired,
   }).isRequired,
+}
+
+function EssayListComponent(
+  { data }: EssayListComponentProps,
+  ref: Ref<HTMLUListElement>
+): ReactElement {
+  return (
+    <ul
+      ref={ref}
+      className={styles.essayList}
+      aria-label={`Essays, page ${data.index + 1}`}
+    >
+      {data.essays.map((entry) => (
+        <EssayListItem key={entry.metadata.slug} entry={entry} />
+      ))}
+    </ul>
+  )
 }
 
 export { EssayList }

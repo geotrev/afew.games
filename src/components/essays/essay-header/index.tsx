@@ -1,12 +1,13 @@
-import cn from "classnames"
-import propTypes from "prop-types"
 import { ReactElement } from "react"
+import propTypes from "prop-types"
+import cn from "classnames"
+import { EssayHeaderProps } from "./types"
 import styles from "./styles.module.scss"
 
-type EssayHeaderProps = {
-  title: string
-  description: string
-  date: string
+EssayHeader.propTypes = {
+  title: propTypes.string.isRequired,
+  description: propTypes.string.isRequired,
+  date: propTypes.string.isRequired,
 }
 
 export function EssayHeader({
@@ -31,10 +32,4 @@ export function EssayHeader({
       <h2>{"By George W."}</h2>
     </>
   )
-}
-
-EssayHeader.propTypes = {
-  title: propTypes.string.isRequired,
-  description: propTypes.string.isRequired,
-  date: propTypes.string.isRequired,
 }

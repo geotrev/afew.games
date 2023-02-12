@@ -1,6 +1,6 @@
-import { ReactElement } from "react"
+import { ReactElement, memo } from "react"
 
-export function EssayListError(): ReactElement {
+function EssayListErrorComponent(): ReactElement {
   return (
     <div>
       <p>
@@ -9,3 +9,5 @@ export function EssayListError(): ReactElement {
     </div>
   )
 }
+
+export const EssayListError = memo(EssayListErrorComponent)

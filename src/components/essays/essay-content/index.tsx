@@ -1,15 +1,16 @@
+import { ReactElement } from "react"
+import propTypes from "prop-types"
 import xss from "xss"
-import styles from "./styles.module.scss"
 import { EssayFooter } from "components/essays/essay-footer"
 import { EssayHeader } from "../essay-header"
-import propTypes from "prop-types"
-import { ReactElement } from "react"
+import { EssayContentProps } from "./types"
+import styles from "./styles.module.scss"
 
-type EssayContentProps = {
-  title: string
-  description: string
-  date: string
-  content: string
+EssayContent.propTypes = {
+  title: propTypes.string.isRequired,
+  description: propTypes.string.isRequired,
+  date: propTypes.string.isRequired,
+  content: propTypes.string.isRequired,
 }
 
 export function EssayContent({
@@ -31,11 +32,4 @@ export function EssayContent({
       <EssayFooter />
     </article>
   )
-}
-
-EssayContent.propTypes = {
-  title: propTypes.string.isRequired,
-  description: propTypes.string.isRequired,
-  date: propTypes.string.isRequired,
-  content: propTypes.string.isRequired,
 }

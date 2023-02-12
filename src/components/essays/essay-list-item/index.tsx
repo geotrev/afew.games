@@ -1,13 +1,9 @@
-import cn from "classnames"
-import propTypes from "prop-types"
 import Link from "next/link"
-import styles from "./styles.module.scss"
-import { Essay } from "types/essays"
 import { ReactElement } from "react"
-
-type EssayListItemProps = {
-  entry: Essay
-}
+import propTypes from "prop-types"
+import cn from "classnames"
+import { EssayListItemProps } from "./types"
+import styles from "./styles.module.scss"
 
 EssayListItem.propTypes = {
   entry: propTypes.shape({
@@ -31,18 +27,16 @@ export function EssayListItem({ entry }: EssayListItemProps): ReactElement {
   return (
     <li className={styles.essayItem}>
       <p className={cn(styles.essayItemTimePara, "text-xs")}>
-        <time
-          className={styles.essayItemTime}
-          dateTime={date}
-          aria-describedby={id}
-        >
+        <time className={styles.essayItemTime} dateTime={date} id={id}>
           {date}
         </time>
       </p>
-      <h2 className={styles.essayItemHeading} id={id}>
-        <Link href={urlPath} legacyBehavior>{title}</Link>
+      <h2 className={styles.essayItemHeading} aria-describedby={id}>
+        <Link href={urlPath} legacyBehavior>
+          {title}
+        </Link>
       </h2>
       <p className={styles.essayItemDescription}>{description}</p>
     </li>
-  );
+  )
 }
