@@ -1,13 +1,6 @@
 import { EssayPageData } from "types/essays"
-import { useState, useEffect, Dispatch, SetStateAction } from "react"
-
-interface FetchEssaysParameters {
-  index: number
-  setData: Dispatch<SetStateAction<EssayPageData>>
-  setIsLoading: Dispatch<SetStateAction<boolean>>
-  setIsError: Dispatch<SetStateAction<boolean>>
-  isError: boolean
-}
+import { useState, useEffect } from "react"
+import { FetchEssaysArgs } from "./types"
 
 const PageMap = new Map()
 const method = "POST"
@@ -20,7 +13,7 @@ function fetchEssays({
   setIsLoading,
   setIsError,
   isError,
-}: FetchEssaysParameters) {
+}: FetchEssaysArgs) {
   if (isError) {
     setIsError(false)
   }
