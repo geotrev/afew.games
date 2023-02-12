@@ -84,6 +84,13 @@
       "refactor",
       "perf",
       "test"
+    ],
+    "scopes": [
+      "collection",
+      "essays",
+      "games",
+      "ts",
+      "site"
     ]
   }
 }

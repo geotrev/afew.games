@@ -1,10 +1,11 @@
 import propTypes from "prop-types"
-import { ChangeEventHandler, ReactElement } from "react"
+import { ReactElement } from "react"
+import { SearchProps } from "./types"
 import styles from "./styles.module.scss"
 
-type SearchProps = {
-  value: string
-  handleChange: ChangeEventHandler<HTMLInputElement>
+Search.propTypes = {
+  value: propTypes.string,
+  handleChange: propTypes.func,
 }
 
 export function Search({ value, handleChange }: SearchProps): ReactElement {
@@ -24,9 +25,4 @@ export function Search({ value, handleChange }: SearchProps): ReactElement {
       />
     </div>
   )
-}
-
-Search.propTypes = {
-  value: propTypes.string,
-  handleChange: propTypes.func,
 }

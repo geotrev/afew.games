@@ -7,14 +7,8 @@ import {
 import propTypes from "prop-types"
 import cn from "classnames"
 import { Button } from "components/global"
+import { CollectionFilterProps } from "./types"
 import styles from "./styles.module.scss"
-import { PlatformFilter } from "types/games"
-
-type CollectionFilterProps = {
-  items: PlatformFilter[]
-  handleClick: any
-  handleReset: any
-}
 
 CollectionFilter.propTypes = {
   items: propTypes.arrayOf(

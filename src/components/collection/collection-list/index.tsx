@@ -2,14 +2,8 @@ import { useState, useEffect, ReactElement } from "react"
 import propTypes from "prop-types"
 import { Button } from "components/global"
 import { CollectionItem } from "../collection-item"
+import { CollectionListProps } from "./types"
 import styles from "./styles.module.scss"
-import { Game } from "types/games"
-
-type CollectionListProps = {
-  games: Game[]
-  label: string
-  id: string
-}
 
 CollectionList.propTypes = {
   games: propTypes.arrayOf(

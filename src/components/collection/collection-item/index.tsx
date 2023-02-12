@@ -1,12 +1,17 @@
 import { omit } from "lodash-es"
 import propTypes from "prop-types"
 import { ReactElement } from "react"
-import { Game } from "types/games"
 import { CollectionItemMetadata } from "../collection-item-metadata"
+import { CollectionItemProps } from "./types"
 import styles from "./styles.module.scss"
 
-type CollectionItemProps = {
-  data: Game
+CollectionItem.propTypes = {
+  data: propTypes.shape({
+    name: propTypes.string,
+    variant: propTypes.string,
+    grade: propTypes.string,
+    grader: propTypes.oneOf(["Wata", "VGA", "CGC", "P1G"]),
+  }),
 }
 
 export function CollectionItem({ data }: CollectionItemProps): ReactElement {
@@ -24,13 +29,4 @@ export function CollectionItem({ data }: CollectionItemProps): ReactElement {
       </dl>
     </li>
   )
-}
-
-CollectionItem.propTypes = {
-  data: propTypes.shape({
-    name: propTypes.string,
-    variant: propTypes.string,
-    grade: propTypes.string,
-    grader: propTypes.oneOf(["Wata", "VGA", "CGC", "P1G"]),
-  }),
 }
