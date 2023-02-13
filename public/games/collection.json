@@ -35,6 +35,17 @@
       ]
     },
     {
+      "platform": "Game Boy",
+      "games": [
+        {
+          "name": "The Legend of Zelda: Link's Awakening",
+          "grade": "9.4",
+          "variant": "3-Line Warranty, 9.4 (box), 9.4 (manual), 9.2 (cartridge)",
+          "grader": "Wata"
+        }
+      ]
+    },
+    {
       "platform": "Game Boy Color",
       "games": [
         {
@@ -215,6 +226,18 @@
     {
       "platform": "DS",
       "games": [
+        {
+          "name": "Super Mario 64 DS ",
+          "grade": "9.6 A",
+          "variant": "Y-Fold",
+          "grader": "CGC"
+        },
+        {
+          "name": "Mega Man Battle Network: Double Team DS",
+          "grade": "9.8 A++",
+          "variant": "Y-Fold",
+          "grader": "CGC"
+        },
         {
           "name": "Pokemon Platinum",
           "grade": "85+",
@@ -708,17 +731,6 @@
       ]
     },
     {
-      "platform": "PlayStation Portable",
-      "games": [
-        {
-          "name": "Kingdom Hearts: Birth By Sleep",
-          "grade": "90",
-          "variant": "Y-Fold, W/ Walmart/Target Exclusive Sleeve",
-          "grader": "VGA"
-        }
-      ]
-    },
-    {
       "platform": "PlayStation 3",
       "games": [
         {
@@ -750,6 +762,12 @@
     {
       "platform": "PlayStation 4",
       "games": [
+        {
+          "name": "Hyper Light Drifter",
+          "grade": "9.8 A++",
+          "variant": "Y-Fold, 8BIT10033117-8A",
+          "grader": "CGC"
+        },
         {
           "name": "What Remains of Edith Finch",
           "grade": "9.6 A",
@@ -803,6 +821,17 @@
           "variant": "Y-Fold, Made in USA",
           "grade": "9.6 A+",
           "grader": "Wata"
+        }
+      ]
+    },
+    {
+      "platform": "PlayStation Portable",
+      "games": [
+        {
+          "name": "Kingdom Hearts: Birth By Sleep",
+          "grade": "90",
+          "variant": "Y-Fold, W/ Walmart/Target Exclusive Sleeve",
+          "grader": "VGA"
         }
       ]
     },
