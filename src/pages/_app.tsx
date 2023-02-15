@@ -1,13 +1,13 @@
-import { AppProps } from "next/app"
 import { useEffect } from "react"
+import { AppProps } from "next/app"
 import Script from "next/script"
 import Head from "next/head"
 import { useRouter } from "next/router"
 import { pageView } from "lib/analytics"
-import { SiteHeader } from "components/global"
-import "styles/global.scss"
-import { SiteFooter } from "components/global/site-footer"
 import { BASE_TITLE } from "lib/constants"
+import { SiteHeader } from "components/global"
+import { SiteFooter } from "components/global/site-footer"
+import "styles/global.scss"
 
 const ExactPaths = ["/", "/essays", "/collection"]
 const Titles = {
