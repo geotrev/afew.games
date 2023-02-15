@@ -2,12 +2,10 @@
 title: "Cross Post: Game Boy Advance Box Guide"
 description: An overview of box variants for Nintendo's final Game Boy iteration
 ---
-Everyone has a game system they played more than any other. For me, that's easily Game Boy Advance. While it's easily one of the simplest in terms of identifying variants, you get the benefit of straightforward, unambiguous collecting (with some exceptions, as all third party games can have).
+Everyone has a game system they played more than any other. For me, that's easily GBA (Game Boy Advance). While it's easily one of the simplest in terms of identifying variants, you get the benefit of straightforward, unambiguous collecting (with some exceptions, as all third party games can have).
 
-Today, Wata posted an article I authored going over the three box types for GBA games. I also learned a good deal while writing this up, particularly just how rare cross fold boxes are. I'd seen one or two up until learning about the 
+Today, Wata posted an article written by me discussing the three main box types for GBA games. [Give the article a read](https://blog.watagames.com/2023/02/14/game-boy-advance-box-guide/) if you have 5-10 minutes.
 
-[Check it out!](https://blog.watagames.com/2023/02/14/game-boy-advance-box-guide/)
+I learned a cool a cool thing while writing this, particularly just how rare the Wata-named cross-fold boxes are. I guess I shouldn't be surprised there are only **a whopping four unique games** they've seen, which explains why I've never personally collected or played a game that shipped in one (I'd previously only seen it for *[Spyro Orange: The Cortex Conspiracy](https://spyro.fandom.com/wiki/Spyro_Orange:_The_Cortex_Conspiracy)*).
 
-That said, GBA has a ton of great games, and knowing box variants can only help you! 
-
-I hope you find the box guide useful!
+A followup to this that I'll likely write here on A Few Games will go over some of the games that were printed across varying box types. Fun fact, I learned today from [BirdDogGaming](https://www.youtube.com/@birddoggaming) that the above *Spyro* was in print for so long it shipped with *all three* box types. Crazy times in the early-mid 2000s.
