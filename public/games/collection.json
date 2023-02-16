@@ -38,6 +38,18 @@
       "platform": "Game Boy",
       "games": [
         {
+          "name": "Pokemon Yellow Version: Special Pikachu Edition",
+          "grade": "9.4",
+          "variant": "Pixelated Rating, Rattata Screenshot, 9.4 (box), 9.0 (manual), 9.4 (cartridge); 9.6 GSI (Yellow Player's Guide Offer - DMG-APSE-USA); 9.6 GSI (Pokemon Stadium Ad - J/CGB-S-UCPS-USA)",
+          "grader": "Wata"
+        },
+        {
+          "name": "Pokemon Blue Version",
+          "grade": "9.2",
+          "variant": "Pixelated Rating, Rattata Screenshot, 9.0 (box), 9.2 (manual), 9.6 (cartridge)",
+          "grader": "Wata"
+        },
+        {
           "name": "The Legend of Zelda: Link's Awakening",
           "grade": "9.4",
           "variant": "3-Line Warranty, 9.4 (box), 9.4 (manual), 9.2 (cartridge)",
