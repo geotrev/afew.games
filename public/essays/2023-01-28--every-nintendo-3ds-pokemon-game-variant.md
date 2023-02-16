@@ -27,6 +27,8 @@ I've split these bundles into a separate list - at least the ones that are 2-pac
 
 Without further ado, here are the print variants.
 
+***Update 02/15/2023:** Corrected Canadian MPN codes to use "CAN" suffix.* 
+
 ## Pokemon X
 
 | **Part Code** | **Satellite Code** | **Manufactured** | **MPN**        | **Notes**                     |
@@ -109,7 +111,7 @@ All of the above, except for `104790A`, are the earliest prints as they were rel
 | 106567B       | 00001              | Japan            | CTR P A2AE USA |                                          |
 |               | 00000              | Japan            |                | NFR, pack-in (016864A, 106607A, 106860A) |
 | 106860A       |                    | Japan            | CTR R A2A1 USZ | Dusk Mane Necrozma keychain (box)        |
-| 106568A       | 00000              | Japan            | CTR P A2AE USA | Canadian                                 |
+| 106568A       | 00000              | Japan            | CTR P A2AE CAN | Canadian                                 |
 
 All of the above, except for `106567B`, are the earliest prints as they were released simultaneously. The NFR version is the same in each bundle (see also bundles at the end of this post).
 
@@ -121,7 +123,7 @@ All of the above, except for `106567B`, are the earliest prints as they were rel
 | 106570B       | 00001              | Japan            | CTR P A28E USA |                                          |
 |               | 00000              | Japan            |                | NFR, pack-in (016864A, 106607A, 106862A) |
 | 106862A       |                    | Japan            | CTR R A2B1 USZ | Dawn Wings Necrozma keychain (box)       |
-| 106571A       | 00000              | Japan            | CTR P A28E USA | Canadian                                 |
+| 106571A       | 00000              | Japan            | CTR P A28E CAN | Canadian                                 |
 
 All of the above, except for `106570B`, are the earliest prints as they were released simultaneously. The NFR version is the same in each bundle (see also bundles at the end of this post).
 
