@@ -28,6 +28,7 @@ export function CollectionFilter({
 }: CollectionFilterProps) {
   const [rovingIndex, setRovingIndex] = useState<number>(0)
   const [opened, setOpened] = useState<boolean>(false)
+
   const noneSelected = items.every((item) => !item.selected)
 
   const handleKeydown = useCallback<KeyboardEventHandler<HTMLButtonElement>>(

@@ -12,25 +12,13 @@ const ROUND = "round"
 // sizes
 const SM = "sm"
 const MD = "md"
-// variants
-const PRIMARY = "primary"
-const SECONDARY = "secondary"
 
 /**
  * props
  */
-Button.defaultProps = {
-  bare: false,
-  variant: "secondary",
-  selected: false,
-  type: "button",
-  size: MD,
-  cornerType: SQUIRCLE,
-}
 
 Button.propTypes = {
   bare: propTypes.bool,
-  variant: propTypes.oneOf([PRIMARY, SECONDARY]),
   size: propTypes.oneOf([SM, MD]),
   type: propTypes.oneOf(["button", "submit", "reset", undefined]),
   cornerType: propTypes.oneOf([SQUIRCLE, ROUND]),
@@ -40,9 +28,15 @@ Button.propTypes = {
 /**
  * component
  */
-export function Button(props: GlobalButtonProps) {
-  const { type, bare, size, cornerType, selected, children, ...restProps } =
-    props
+export function Button({
+  type = "button",
+  bare = false,
+  size = MD,
+  cornerType = SQUIRCLE,
+  selected = false,
+  children,
+  ...restProps
+}: GlobalButtonProps) {
   return (
     <button
       className={cn(styles.button, {

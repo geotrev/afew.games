@@ -1,10 +1,6 @@
 import propTypes from "prop-types"
 import { PageHeadingProps } from "./types"
 
-PageHeading.defaultProps = {
-  liveSubheading: false,
-}
-
 PageHeading.propTypes = {
   heading: propTypes.string,
   subheading: propTypes.string,
@@ -14,7 +10,7 @@ PageHeading.propTypes = {
 export function PageHeading({
   heading,
   subheading,
-  liveSubheading,
+  liveSubheading = false,
 }: PageHeadingProps) {
   return (
     <>
