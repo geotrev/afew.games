@@ -1,14 +1,17 @@
 import propTypes from "prop-types"
 import { ReactElement } from "react"
-import { SearchProps } from "./types"
+import { CollectionSearchProps } from "./types"
 import styles from "./styles.module.scss"
 
-Search.propTypes = {
+CollectionSearch.propTypes = {
   value: propTypes.string,
   handleChange: propTypes.func,
 }
 
-export function Search({ value, handleChange }: SearchProps): ReactElement {
+export function CollectionSearch({
+  value,
+  handleChange,
+}: CollectionSearchProps): ReactElement {
   return (
     <div className={styles.searchContainer}>
       <label htmlFor="search" className={styles.searchLabel}>
@@ -16,10 +19,10 @@ export function Search({ value, handleChange }: SearchProps): ReactElement {
       </label>
       <input
         className={styles.searchInput}
-        name="search"
+        name="collection-search"
         type="search"
         placeholder="E.g., Mega Man"
-        id="search"
+        id="collection-search"
         onChange={handleChange}
         value={value}
       />

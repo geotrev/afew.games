@@ -1,4 +1,4 @@
-import { Game } from "src/types/games"
+import { Game } from "types/games"
 
 export function sortByKey(key: string) {
   return (a: any, b: any): 0 | 1 | -1 => {

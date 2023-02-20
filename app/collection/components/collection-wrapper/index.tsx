@@ -1,3 +1,5 @@
+"use client"
+
 import {
   useState,
   useMemo,
@@ -7,35 +9,39 @@ import {
 } from "react"
 import { debounce } from "lodash-es"
 import propTypes from "prop-types"
-import gamesData from "public/games/collection.json"
 import { Game, Platform, PlatformFilter } from "types/games"
-import { flattenObjectValues, sortByKey } from "lib/helpers"
-import { PageHeading, Layout } from "components/global"
-import { CollectionList, CollectionFilter, Search } from "components/collection"
+import { CollectionList } from "../collection-list"
+import { CollectionFilter } from "../collection-filter"
+import { CollectionSearch } from "../collection-search"
 
-type CollectionProps = {
+type CollectionWrapperProps = {
   games: Platform[]
   queryData: Array<string[]>
 }
 
 type FilterCallback = () => Platform[]
 
-export function getStaticProps() {
-  const games = gamesData.platforms.sort(sortByKey("platform")).map((p) => {
-    return {
-      platform: p.platform,
-      games: p.games.sort(sortByKey("name")),
-    }
-  })
-
-  const queryData = games.map((p) => {
-    return flattenObjectValues(p.games)
-  })
-
-  return { props: { games, queryData } }
+CollectionWrapper.propTypes = {
+  games: propTypes.arrayOf(
+    propTypes.shape({
+      platform: propTypes.string,
+      games: propTypes.arrayOf(
+        propTypes.shape({
+          name: propTypes.string,
+          variant: propTypes.string,
+          grade: propTypes.string,
+          grader: propTypes.oneOf(["Wata", "VGA", "CGC", "P1G"]),
+        })
+      ),
+    })
+  ).isRequired,
+  queryData: propTypes.arrayOf(propTypes.arrayOf(propTypes.string)).isRequired,
 }
 
-export default function Collection({ games, queryData }: CollectionProps) {
+export function CollectionWrapper({
+  games,
+  queryData,
+}: CollectionWrapperProps) {
   const [searchValue, setSearchValue] = useState<string>("")
   const [filterValue, setFilterValue] = useState<string>("")
   const [filterPlatforms, setFilterPlatforms] = useState<PlatformFilter[]>(
@@ -144,53 +150,19 @@ export default function Collection({ games, queryData }: CollectionProps) {
     )
   }
 
-  function renderPlatformPills() {
-    return (
+  return (
+    <>
+      <CollectionSearch value={searchValue} handleChange={handleChange} />
       <CollectionFilter
         items={filterPlatforms}
         handleClick={handlePillClick}
         handleReset={handlePillResetClick}
       />
-    )
-  }
-
-  function renderGameLists() {
-    if (gameCount === 0) {
-      return <p>No matches found, sorry.</p>
-    }
-
-    return filteredGames.map(renderCollectionLists)
-  }
-
-  return (
-    <Layout>
-      <PageHeading
-        heading="Collection"
-        subheading={`There ${
-          gameCount === 1 ? `is 1 game` : `are ${gameCount} games`
-        } down yonder.`}
-        liveSubheading
-      />
-      <Search value={searchValue} handleChange={handleChange} />
-      {renderPlatformPills()}
-      {renderGameLists()}
-    </Layout>
+      {gameCount === 0 ? (
+        <p>No matches found, sorry.</p>
+      ) : (
+        filteredGames.map(renderCollectionLists)
+      )}
+    </>
   )
-}
-
-Collection.propTypes = {
-  games: propTypes.arrayOf(
-    propTypes.shape({
-      platform: propTypes.string,
-      games: propTypes.arrayOf(
-        propTypes.shape({
-          name: propTypes.string,
-          variant: propTypes.string,
-          grade: propTypes.string,
-          grader: propTypes.oneOf(["Wata", "VGA", "CGC", "P1G"]),
-        })
-      ),
-    })
-  ).isRequired,
-  queryData: propTypes.arrayOf(propTypes.arrayOf(propTypes.string)).isRequired,
 }
