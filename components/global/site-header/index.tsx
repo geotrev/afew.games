@@ -1,4 +1,6 @@
-import { NextRouter, useRouter } from "next/router"
+"use client"
+
+import { usePathname } from "next/navigation"
 import Link from "next/link"
 import { ReactElement } from "react"
 import cn from "classnames"
@@ -12,10 +14,10 @@ const Routes = {
 }
 
 export function SiteHeader(): ReactElement {
-  const { asPath }: NextRouter = useRouter()
-  const isEssaysPath: boolean = asPath.startsWith(Routes.ESSAYS_PATH)
-  const isCollectionsPath: boolean = asPath.startsWith(Routes.COLLECTION_PATH)
-  const isHomePath: boolean = asPath === Routes.HOME_PATH
+  const pathname = usePathname()
+  const isEssaysPath = pathname?.startsWith(Routes.ESSAYS_PATH)
+  const isCollectionsPath = pathname?.startsWith(Routes.COLLECTION_PATH)
+  const isHomePath = pathname === Routes.HOME_PATH
 
   return (
     <header className={styles.pageHeader}>

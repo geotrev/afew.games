@@ -6,11 +6,11 @@
       "public": ["public/*"],
 
       // App stuff
-      "lib/*": ["src/lib/*"],
-      "styles/*": ["src/styles/*"],
-      "components/*": ["src/components/*"],
-      "hooks/*": ["src/hooks/*"],
-      "types/*": ["src/types/*"]
+      "lib/*": ["lib/*"],
+      "styles/*": ["styles/*"],
+      "components/*": ["components/*"],
+      "hooks/*": ["hooks/*"],
+      "types/*": ["types/*"]
     }
   }
 }

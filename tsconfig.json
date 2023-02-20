@@ -18,15 +18,19 @@
     "paths": {
       // Public and lib must be in the root
       "public/*": ["public/*"],
-
       // App stuff
-      "lib/*": ["src/lib/*"],
-      "styles/*": ["src/styles/*"],
-      "components/*": ["src/components/*"],
-      "hooks/*": ["src/hooks/*"],
-      "types/*": ["src/types/*"]
-    }
+      "lib/*": ["lib/*"],
+      "styles/*": ["styles/*"],
+      "components/*": ["components/*"],
+      "hooks/*": ["hooks/*"],
+      "types/*": ["types/*"]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }
