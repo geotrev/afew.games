@@ -6,13 +6,21 @@ import { BASE_TITLE } from "app/utils/constants"
 
 const DEFAULT_PAGE = 0
 
-export const metadata = {
+export const generateMetadata = ({
+  searchParams,
+}: {
+  searchParams: { page: string }
+}) => ({
   alternates: {
-    canonical: `https://afew.games/essays`,
+    canonical: `https://afew.games/essays${
+      searchParams.page ? `?page=${searchParams.page}` : ""
+    }`,
   },
-  title: `${BASE_TITLE} essays`,
+  title: searchParams?.page
+    ? `${BASE_TITLE} essays | page ${searchParams.page}`
+    : `${BASE_TITLE} essays`,
   description: "Essays about video games, collecting, and nonsense",
-}
+})
 
 export default async function Page({
   searchParams: { page },

@@ -8,6 +8,7 @@ import { Pagination } from "app/components"
 import { EssayListLoader } from "../essay-list-loader"
 import { EssayListError } from "../essay-list-error"
 import { EssayList } from "../essay-list"
+import { BASE_TITLE } from "app/utils/constants"
 
 let initialLoad = true
 const toggleInitialLoad = debounce(() => (initialLoad = false), 50)
@@ -15,6 +16,15 @@ const VISIBLE_PAGES = 5
 
 type EssaysProps = {
   initialData: EssayPageData
+}
+
+function setPageToSearchParams(page: number): void {
+  const url = new URL(window.location.href)
+  const params = new URLSearchParams(url.search)
+  params.set("page", String(page))
+  url.search = params.toString()
+  window.history.pushState({}, "", url.toString())
+  document.title = `${BASE_TITLE} essays | page ${page}`
 }
 
 export function Essays({ initialData }: EssaysProps) {
@@ -30,6 +40,8 @@ export function Essays({ initialData }: EssaysProps) {
       toggleInitialLoad()
       return
     }
+
+    setPageToSearchParams(data.index + 1)
 
     if (listRef.current) {
       const list = listRef.current
