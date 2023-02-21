@@ -9,6 +9,7 @@ import { EssayListLoader } from "../essay-list-loader"
 import { EssayListError } from "../essay-list-error"
 import { EssayList } from "../essay-list"
 import { BASE_TITLE } from "app/utils/constants"
+import { setSearchParams } from "app/utils/helpers"
 
 let initialLoad = true
 const toggleInitialLoad = debounce(() => (initialLoad = false), 50)
@@ -18,30 +19,26 @@ type EssaysProps = {
   initialData: EssayPageData
 }
 
-function setPageToSearchParams(page: number): void {
-  const url = new URL(window.location.href)
-  const params = new URLSearchParams(url.search)
-  params.set("page", String(page))
-  url.search = params.toString()
-  window.history.pushState({}, "", url.toString())
-  document.title = `${BASE_TITLE} essays | page ${page}`
-}
-
 export function Essays({ initialData }: EssaysProps) {
   const { isLoading, isError, data, setPage } = useFetchEssays(initialData)
   const listRef = useRef<HTMLUListElement>(null)
 
-  useEffect((): (() => void) => {
-    return () => (initialLoad = true)
+  useEffect(() => {
+    return () => {
+      initialLoad = true
+    }
   }, [])
 
-  useEffect((): void => {
+  useEffect(() => {
     if (initialLoad) {
       toggleInitialLoad()
       return
     }
 
-    setPageToSearchParams(data.index + 1)
+    setSearchParams(
+      { page: data.index + 1 },
+      `${BASE_TITLE} essays | page ${data.index + 1}`
+    )
 
     if (listRef.current) {
       const list = listRef.current

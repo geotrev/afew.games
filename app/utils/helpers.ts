@@ -16,3 +16,22 @@ export function flattenObjectValues(items: Game[]) {
     )
   )
 }
+
+export function setSearchParams(
+  paramsObject: Record<string, any>,
+  title?: any
+): void {
+  if (Object.keys(paramsObject).length === 0) return
+
+  const url = new URL(window.location.href)
+  const params = new URLSearchParams(url.search)
+  for (const key in paramsObject) {
+    params.set(key, String(paramsObject[key]))
+  }
+  url.search = params.toString()
+  window.history.pushState({}, "", url.toString())
+
+  if (title) {
+    document.title = title
+  }
+}
