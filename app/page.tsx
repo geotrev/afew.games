@@ -1,7 +1,6 @@
-import { PageHeading, Layout } from "components/global"
-import { NextPage } from "next"
+import { PageHeading, Layout } from "app/components"
 
-const Home: NextPage = () => {
+export default function Page() {
   return (
     <Layout>
       <PageHeading
@@ -13,5 +12,3 @@ const Home: NextPage = () => {
     </Layout>
   )
 }
-
-export default Home

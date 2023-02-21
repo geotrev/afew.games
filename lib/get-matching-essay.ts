@@ -10,7 +10,7 @@ export function getMatchingEssay(
 ): EssayProps | boolean {
   const slug = params?.slug
 
-  // tell getServerSideProps to redirect 404
+  // Redirect to 404
   if (typeof slug !== "string") return false
 
   const fileNames: string[] = readdirSync(getEssaysPath(), "utf8")
@@ -18,20 +18,18 @@ export function getMatchingEssay(
     fileName.includes(slug)
   )
 
-  // tell getServerSideProps to redirect 404
-  if (typeof fileName !== "string") {
-    return false
-  }
+  // Redirect to 404
+  if (typeof fileName !== "string") return false
 
   const fileData: string[] = fileName.replace(".md", "").split("--")
-  const date: string = fileData[0]
+  const date = fileData[0]
 
-  const rawFile: string = readFileSync(getEssaysPath(fileName), "utf8")
+  const rawFile = readFileSync(getEssaysPath(fileName), "utf8")
   const {
     data: { title, description },
     content: markdownContent,
   }: GrayMatterFile<typeof rawFile> = matter(rawFile)
-  const content: string = marked.parse(markdownContent)
+  const content = marked.parse(markdownContent)
 
   return {
     title,

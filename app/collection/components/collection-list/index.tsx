@@ -1,6 +1,6 @@
 import { useState, useEffect, ReactElement } from "react"
 import propTypes from "prop-types"
-import { Button } from "components/global"
+import { Button } from "app/components"
 import { CollectionItem } from "../collection-item"
 import { CollectionListProps } from "./types"
 import styles from "./styles.module.scss"

@@ -6,7 +6,7 @@ import {
 } from "react"
 import propTypes from "prop-types"
 import cn from "classnames"
-import { Button } from "components/global"
+import { Button } from "app/components"
 import { CollectionFilterProps } from "./types"
 import styles from "./styles.module.scss"
 

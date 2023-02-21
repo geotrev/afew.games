@@ -1,22 +1,23 @@
+"use client"
+
 import { useEffect, useCallback, useRef, MouseEventHandler } from "react"
 import { debounce } from "lodash-es"
-
 import { EssayPageData } from "types/essays"
-import { getEssayList } from "lib/get-essay-list"
-import { useFetchEssays } from "hooks/use-fetch-essays"
-import { PageHeading, Layout, Pagination } from "components/global"
-import { EssayListLoader, EssayListError, EssayList } from "components/essays"
+import { useFetchEssays } from "../../utils/use-fetch-essays"
+import { Pagination } from "app/components"
+import { EssayListLoader } from "../essay-list-loader"
+import { EssayListError } from "../essay-list-error"
+import { EssayList } from "../essay-list"
 
 let initialLoad = true
 const toggleInitialLoad = debounce(() => (initialLoad = false), 50)
 const VISIBLE_PAGES = 5
-const DEFAULT_PAGE = 0
 
 type EssaysProps = {
   initialData: EssayPageData
 }
 
-export default function Essays({ initialData }: EssaysProps) {
+export function Essays({ initialData }: EssaysProps) {
   const { isLoading, isError, data, setPage } = useFetchEssays(initialData)
   const listRef = useRef<HTMLUListElement>(null)
 
@@ -80,33 +81,23 @@ export default function Essays({ initialData }: EssaysProps) {
     setPage(data.totalPages - 1)
   }, [data.index, data.totalPages, setPage])
 
-  return (
-    <Layout>
-      <PageHeading heading="Essays" />
-      {isLoading ? (
-        <EssayListLoader />
-      ) : isError ? (
-        <EssayListError />
-      ) : (
-        <>
-          <EssayList data={data} ref={listRef} />
-          <Pagination
-            count={data.totalPages}
-            maxVisiblePageCount={VISIBLE_PAGES}
-            activePageIndex={data.index}
-            onNextClick={onNextClick}
-            onPreviousClick={onPreviousClick}
-            onPageClick={onPageClick}
-            onFirstPageClick={onFirstPageClick}
-            onLastPageClick={onLastPageClick}
-          />
-        </>
-      )}
-    </Layout>
+  return isLoading ? (
+    <EssayListLoader />
+  ) : isError ? (
+    <EssayListError />
+  ) : (
+    <>
+      <EssayList data={data} ref={listRef} />
+      <Pagination
+        count={data.totalPages}
+        maxVisiblePageCount={VISIBLE_PAGES}
+        activePageIndex={data.index}
+        onNextClick={onNextClick}
+        onPreviousClick={onPreviousClick}
+        onPageClick={onPageClick}
+        onFirstPageClick={onFirstPageClick}
+        onLastPageClick={onLastPageClick}
+      />
+    </>
   )
-}
-
-export async function getStaticProps() {
-  const initialData: EssayPageData = getEssayList(DEFAULT_PAGE) as EssayPageData
-  return { props: { initialData } }
 }

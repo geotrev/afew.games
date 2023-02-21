@@ -21,8 +21,7 @@
       // App stuff
       "lib/*": ["lib/*"],
       "styles/*": ["styles/*"],
-      "components/*": ["components/*"],
-      "hooks/*": ["hooks/*"],
+      "components/*": ["app/components/*"],
       "types/*": ["types/*"]
     },
     "plugins": [

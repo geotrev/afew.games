@@ -1,7 +1,7 @@
 import { ReactElement } from "react"
 import propTypes from "prop-types"
 import xss from "xss"
-import { EssayFooter } from "components/essays/essay-footer"
+import { EssayFooter } from "../essay-footer"
 import { EssayHeader } from "../essay-header"
 import { EssayContentProps } from "./types"
 import styles from "./styles.module.scss"

@@ -1,9 +1,9 @@
 import Script from "next/script"
 import { PropsWithChildren } from "react"
 import { BASE_TITLE } from "lib/constants"
-import { RouteTracker } from "components/global/route-tracker"
-import { SiteHeader } from "components/global/site-header"
-import { SiteFooter } from "components/global/site-footer"
+import { RouteTracker } from "app/components/route-tracker"
+import { SiteHeader } from "app/components/site-header"
+import { SiteFooter } from "app/components/site-footer"
 import "styles/global.scss"
 
 const HOME_TITLE = "home"
