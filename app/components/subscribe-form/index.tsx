@@ -16,6 +16,9 @@ const DEFAULT_FORM_STATE = {
   message: "",
 }
 
+const method = "POST"
+const headers = { "Content-Type": "application/json" }
+
 export function SubscribeForm() {
   const [value, setValue] = useState("")
   const [formState, setFormState] =
@@ -48,11 +51,14 @@ export function SubscribeForm() {
     })
 
     try {
-      const res = await fetch("/api/subscribe", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: value }),
-      })
+      const res = await fetch(
+        `/api/subscribe?email=${encodeURIComponent(value.trim())}`,
+        {
+          method,
+          headers,
+          cache: "no-store",
+        }
+      )
 
       const nextFormState = await res.json()
       setFormState(nextFormState)

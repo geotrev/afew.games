@@ -1,29 +1,29 @@
+import { NextResponse } from "next/server"
 import { getEssayList } from "lib/get-essay-list"
-import { NextApiRequest, NextApiResponse } from "next"
 import { EssayPageData } from "types/essays"
 
-export default async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse
+export async function POST(
+  _: Request,
+  { params }: { params: { page: string } }
 ) {
   // eslint-disable-next-line no-console
-  console.log("/api/essays", { NODE_ENV: process.env.NODE_ENV })
+  console.log("/api/essay-items", { NODE_ENV: process.env.NODE_ENV })
 
-  if (req.method !== "POST") {
-    return res.status(405).end("Method Not Allowed")
+  if (!params || !params.page) {
+    return NextResponse.error()
   }
 
   try {
-    const index = req.body.index
+    const index = parseInt(params.page, 10)
     if (typeof index === "number") {
       const data: EssayPageData = getEssayList(index) as EssayPageData
-      return res.status(200).json(data)
+      return NextResponse.json(data)
     } else {
       throw new Error(
         "Invalid data type used to fetch pages. Must be type 'number'."
       )
     }
   } catch (e) {
-    return res.status(500)
+    return NextResponse.error()
   }
 }
