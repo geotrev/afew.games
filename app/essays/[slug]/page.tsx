@@ -1,10 +1,33 @@
-import Head from "next/head"
 import { notFound } from "next/navigation"
 import { getMatchingEssay } from "lib/get-matching-essay"
 import { Layout } from "app/components"
 import { EssayContent } from "../components/essay-content"
 import { BASE_TITLE } from "lib/constants"
 import { EssayProps } from "types/essays"
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string }
+}) {
+  const essayData: EssayProps | boolean = getMatchingEssay(params)
+
+  if (!essayData) {
+    return {
+      title: "Not found",
+    }
+  }
+
+  const { title, description } = essayData as EssayProps
+
+  return {
+    alternates: {
+      canonical: `https://afew.games/essays/${params.slug}`,
+    },
+    title: `${BASE_TITLE} essay: ${title}`,
+    description,
+  }
+}
 
 export default function Page({ params }: { params: { slug: string } }) {
   const essayData: EssayProps | boolean = getMatchingEssay(params)
@@ -17,14 +40,6 @@ export default function Page({ params }: { params: { slug: string } }) {
 
   return (
     <Layout>
-      <Head>
-        <title>{`${BASE_TITLE} essay: ${title}`}</title>
-        <meta name="description" content={description} />
-        <link
-          rel="canonical"
-          href={`https://afew.games/essays/${params.slug}`}
-        />
-      </Head>
       <EssayContent
         title={title}
         description={description}

@@ -48,7 +48,7 @@
     "lint-staged": "^13.1.0",
     "lodash-es": "^4.17.21",
     "marked": "^4.2.12",
-    "next": "^13.1.5",
+    "next": "^13.1.7-canary.21",
     "path": "^0.12.7",
     "prettier": "^2.8.3",
     "prop-types": "^15.8.1",

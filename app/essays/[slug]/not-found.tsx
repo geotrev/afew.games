@@ -1,8 +1,10 @@
+import { Layout } from "components/layout"
+
 export default function NotFound() {
   return (
-    <>
-      <h2>This essay doesn't exist!</h2>
-      <p>Was the input URL correct?</p>
-    </>
+    <Layout>
+      <h2>This essay doesn&apos;t exist!</h2>
+      <p>Check the URL and try again.</p>
+    </Layout>
   )
 }

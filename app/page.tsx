@@ -1,4 +1,13 @@
 import { PageHeading, Layout } from "app/components"
+import { BASE_TITLE } from "lib/constants"
+
+export const metadata = {
+  alternates: {
+    canonical: `https://afew.games`,
+  },
+  title: `${BASE_TITLE} home`,
+  description: "A video game blog & collection website",
+}
 
 export default function Page() {
   return (
