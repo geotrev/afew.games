@@ -9,7 +9,7 @@ import {
 } from "react"
 import { debounce } from "lodash-es"
 import propTypes from "prop-types"
-import { Game, Platform, PlatformFilter } from "types/games"
+import { Game, Platform, PlatformFilter } from "app/types/games"
 import { CollectionList } from "../collection-list"
 import { CollectionFilter } from "../collection-filter"
 import { CollectionSearch } from "../collection-search"

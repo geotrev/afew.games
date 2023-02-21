@@ -2,7 +2,7 @@
 
 import { useEffect } from "react"
 import { usePathname } from "next/navigation"
-import { pageView } from "lib/page-view"
+import { pageView } from "app/utils/page-view"
 
 export function RouteTracker() {
   const pathname = usePathname()

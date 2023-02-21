@@ -1,4 +1,4 @@
-import { PlatformFilter } from "types/games"
+import { PlatformFilter } from "app/types/games"
 
 export type CollectionFilterProps = {
   items: PlatformFilter[]

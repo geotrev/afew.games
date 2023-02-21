@@ -1,4 +1,4 @@
-import { EssayPageData } from "types/essays"
+import { EssayPageData } from "app/types/essays"
 import { useState, useEffect } from "react"
 import { FetchEssaysArgs } from "./types"
 
@@ -24,7 +24,7 @@ function fetchEssays({
 
   setIsLoading(true)
 
-  fetch(`/api/essay-items/${index}`, {
+  fetch(`/api/essay-items?page=${index}`, {
     method,
     headers,
     cache: "no-store",

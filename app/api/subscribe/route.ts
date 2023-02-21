@@ -8,7 +8,7 @@ import {
   EMAIL_REGEXP,
   ERROR_MESSAGE,
   SubscribeFormStatuses,
-} from "lib/constants"
+} from "app/utils/constants"
 
 export async function POST(req: Request & { nextUrl: NextURL }) {
   // eslint-disable-next-line no-console

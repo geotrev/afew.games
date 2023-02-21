@@ -1,8 +1,8 @@
-import { flattenObjectValues, sortByKey } from "lib/helpers"
+import { flattenObjectValues, sortByKey } from "app/utils/helpers"
 import { PageHeading, Layout } from "app/components"
+import { BASE_TITLE } from "app/utils/constants"
 import { CollectionWrapper } from "./components/collection-wrapper"
 import gamesData from "public/games/collection.json"
-import { BASE_TITLE } from "lib/constants"
 
 export const metadata = {
   alternates: {

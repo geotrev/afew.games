@@ -1,5 +1,5 @@
 import { PageHeading, Layout } from "app/components"
-import { BASE_TITLE } from "lib/constants"
+import { BASE_TITLE } from "app/utils/constants"
 
 export const metadata = {
   alternates: {

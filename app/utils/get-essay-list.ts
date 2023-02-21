@@ -1,7 +1,7 @@
 import { readdirSync, readFileSync } from "fs"
 import matter, { GrayMatterFile } from "gray-matter"
 import chunk from "lodash-es/chunk"
-import { Essay, EssayPageData } from "src/types/essays"
+import { Essay, EssayPageData } from "app/types/essays"
 import { getEssaysPath } from "./get-essays-path"
 
 const MAX_LIST_LENGTH = 5
@@ -23,9 +23,13 @@ export function getEssayList(index: number): EssayPageData {
       return { title, description, metadata: { urlPath, date, slug } }
     })
 
-    const chunked = chunk(essayData, MAX_LIST_LENGTH)
+    let chunked = chunk(essayData, MAX_LIST_LENGTH)
     const totalPages: number = chunked.length
-    return { index, essays: chunked[index], totalPages }
+    return {
+      index: totalPages - 1 < index ? 0 : index,
+      essays: totalPages - 1 < index ? chunked[0] : chunked[index],
+      totalPages,
+    }
   } catch (e) {
     // eslint-disable-next-line
     console.error(e)

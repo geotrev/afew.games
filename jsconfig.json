@@ -2,14 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      // Public and lib must be in the root
-      "public": ["public/*"],
-
-      // App stuff
-      "lib/*": ["lib/*"],
-      "styles/*": ["styles/*"],
-      "components/*": ["app/components/*"],
-      "types/*": ["types/*"]
+      "public": ["public/*"]
     }
   }
 }

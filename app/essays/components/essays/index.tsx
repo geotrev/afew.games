@@ -2,7 +2,7 @@
 
 import { useEffect, useCallback, useRef, MouseEventHandler } from "react"
 import { debounce } from "lodash-es"
-import { EssayPageData } from "types/essays"
+import { EssayPageData } from "app/types/essays"
 import { useFetchEssays } from "../../utils/use-fetch-essays"
 import { Pagination } from "app/components"
 import { EssayListLoader } from "../essay-list-loader"

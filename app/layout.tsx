@@ -3,7 +3,7 @@ import { PropsWithChildren } from "react"
 import { RouteTracker } from "app/components/route-tracker"
 import { SiteHeader } from "app/components/site-header"
 import { SiteFooter } from "app/components/site-footer"
-import "styles/global.scss"
+import "app/styles/global.scss"
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (

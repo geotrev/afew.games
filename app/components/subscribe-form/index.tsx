@@ -7,7 +7,7 @@ import {
   ERROR_MESSAGE,
   EMAIL_REGEXP,
   SubscribeFormStatuses,
-} from "lib/constants"
+} from "app/utils/constants"
 import { SubscribeFormState } from "../subscribe-form/types"
 import styles from "./styles.module.scss"
 

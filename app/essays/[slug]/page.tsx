@@ -1,9 +1,9 @@
 import { notFound } from "next/navigation"
-import { getMatchingEssay } from "lib/get-matching-essay"
+import { getMatchingEssay } from "app/utils/get-matching-essay"
 import { Layout } from "app/components"
 import { EssayContent } from "../components/essay-content"
-import { BASE_TITLE } from "lib/constants"
-import { EssayProps } from "types/essays"
+import { BASE_TITLE } from "app/utils/constants"
+import { EssayProps } from "app/types/essays"
 
 export async function generateMetadata({
   params,
