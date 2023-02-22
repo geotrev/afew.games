@@ -1,4 +1,4 @@
-export function pageView(path_url) {
+export function pageView(path_url: string) {
   /* @ts-ignore */
   if (window && window.gtag) {
     /* @ts-ignore */
