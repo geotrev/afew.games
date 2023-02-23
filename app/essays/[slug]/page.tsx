@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation"
 import { getMatchingEssay } from "app/utils/get-matching-essay"
 import { Layout } from "app/components"
-import { EssayContent } from "../components/essay-content"
+import { EssayContent } from "./components/essay-content"
 import { BASE_TITLE } from "app/utils/constants"
 import { EssayProps } from "app/types/essays"
 

@@ -1,7 +1,7 @@
 import { Dispatch, SetStateAction } from "react"
 import { EssayPageData } from "app/types/essays"
 
-export interface FetchEssaysArgs {
+export type FetchEssaysArgs = {
   index: number
   setData: Dispatch<SetStateAction<EssayPageData>>
   setIsLoading: Dispatch<SetStateAction<boolean>>
