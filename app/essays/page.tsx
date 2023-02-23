@@ -3,6 +3,7 @@ import { EssaysWrapper } from "./components/essays-wrapper"
 import { EssayPageData } from "app/types/essays"
 import { getEssayList } from "app/utils/get-essay-list"
 import { BASE_TITLE } from "app/utils/constants"
+import xss from "xss"
 
 const DEFAULT_PAGE = 0
 
@@ -27,7 +28,7 @@ export default async function Page({
 }: {
   searchParams: { page: string }
 }) {
-  const pageNum = typeof page === "string" ? parseInt(page) : undefined
+  const pageNum = typeof page === "string" ? parseInt(xss(page)) : undefined
   const resolvedPageNum =
     typeof pageNum === "number" ? pageNum - 1 : DEFAULT_PAGE
   const initialData = (await getEssayList(resolvedPageNum)) as EssayPageData
