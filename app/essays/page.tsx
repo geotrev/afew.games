@@ -1,5 +1,5 @@
 import { PageHeading, Layout } from "app/components"
-import { Essays } from "./components/essays"
+import { EssaysWrapper } from "./components/essays-wrapper"
 import { EssayPageData } from "app/types/essays"
 import { getEssayList } from "app/utils/get-essay-list"
 import { BASE_TITLE } from "app/utils/constants"
@@ -35,7 +35,7 @@ export default async function Page({
   return (
     <Layout>
       <PageHeading heading="Essays" />
-      <Essays initialData={initialData} />
+      <EssaysWrapper initialData={initialData} />
     </Layout>
   )
 }

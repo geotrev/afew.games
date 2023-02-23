@@ -13,6 +13,8 @@ import { Game, Platform, PlatformFilter } from "app/types/games"
 import { CollectionList } from "../collection-list"
 import { CollectionFilter } from "../collection-filter"
 import { CollectionSearch } from "../collection-search"
+import { useSearchParams } from "next/navigation"
+import xss from "xss"
 
 type CollectionWrapperProps = {
   games: Platform[]
@@ -42,11 +44,16 @@ export function CollectionWrapper({
   games,
   queryData,
 }: CollectionWrapperProps) {
-  const [searchValue, setSearchValue] = useState<string>("")
-  const [filterValue, setFilterValue] = useState<string>("")
+  const searchParams = useSearchParams()
+  const rawSearchParam = searchParams.get("search")
+  const defaultSearchValue =
+    typeof rawSearchParam === "string" ? xss(rawSearchParam) : ""
+  const [searchValue, setSearchValue] = useState<string>(defaultSearchValue)
+  const [filterValue, setFilterValue] = useState<string>(defaultSearchValue)
   const [filterPlatforms, setFilterPlatforms] = useState<PlatformFilter[]>(
     games.map((p) => ({ value: p.platform, selected: false }))
   )
+
   const debouncedFilterValue = useMemo(() => debounce(setFilterValue, 300), [])
   const allSelected: boolean = filterPlatforms.every((p) => p.selected)
   const noneSelected: boolean = filterPlatforms.every((p) => !p.selected)

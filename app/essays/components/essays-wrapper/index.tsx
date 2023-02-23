@@ -15,11 +15,11 @@ let initialLoad = true
 const toggleInitialLoad = debounce(() => (initialLoad = false), 50)
 const VISIBLE_PAGES = 5
 
-type EssaysProps = {
+type EssaysWrapperProps = {
   initialData: EssayPageData
 }
 
-export function Essays({ initialData }: EssaysProps) {
+export function EssaysWrapper({ initialData }: EssaysWrapperProps) {
   const { isLoading, isError, data, setPage } = useFetchEssays(initialData)
   const listRef = useRef<HTMLUListElement>(null)
 
