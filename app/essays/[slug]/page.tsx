@@ -14,7 +14,7 @@ export async function generateMetadata({
 
   if (!essayData) {
     return {
-      title: "Not found",
+      title: `${BASE_TITLE} no essay found`,
     }
   }
 
