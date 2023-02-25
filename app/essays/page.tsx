@@ -5,33 +5,30 @@ import { getEssayList } from "app/utils/get-essay-list"
 import { BASE_TITLE } from "app/utils/constants"
 import xss from "xss"
 
+export const dynamic = "force-dynamic"
+
 const DEFAULT_PAGE = 0
 
-export const generateMetadata = ({
-  searchParams,
-}: {
-  searchParams: { page: string }
-}) => ({
+export const metadata = {
   alternates: {
-    canonical: `https://afew.games/essays${
-      searchParams.page ? `?page=${searchParams.page}` : ""
-    }`,
+    canonical: "https://afew.games/essays",
   },
-  title: searchParams?.page
-    ? `${BASE_TITLE} essays | page ${searchParams.page}`
-    : `${BASE_TITLE} essays`,
+  title: `${BASE_TITLE} essays`,
   description: "Essays about video games, collecting, and nonsense",
-})
+}
 
 export default async function Page({
-  searchParams: { page },
+  searchParams,
 }: {
-  searchParams: { page: string }
+  searchParams?: { page: string }
 }) {
-  const pageNum = typeof page === "string" ? parseInt(xss(page)) : undefined
-  const resolvedPageNum =
-    typeof pageNum === "number" ? pageNum - 1 : DEFAULT_PAGE
-  const initialData = (await getEssayList(resolvedPageNum)) as EssayPageData
+  const rawPage = searchParams?.page ? xss(searchParams.page) : ""
+  const pageInt = parseInt(rawPage, 10)
+  const essaysPage =
+    typeof pageInt === "number" && pageInt > 0
+      ? Math.floor(pageInt) - 1
+      : DEFAULT_PAGE
+  const initialData = (await getEssayList(essaysPage)) as EssayPageData
 
   return (
     <Layout>

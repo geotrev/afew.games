@@ -8,7 +8,6 @@ import { Pagination } from "app/components"
 import { EssayListLoader } from "../essay-list-loader"
 import { EssayListError } from "../essay-list-error"
 import { EssayList } from "../essay-list"
-import { BASE_TITLE } from "app/utils/constants"
 import { setSearchParams } from "app/utils/helpers"
 
 let initialLoad = true
@@ -35,10 +34,7 @@ export function EssaysWrapper({ initialData }: EssaysWrapperProps) {
       return
     }
 
-    setSearchParams(
-      { page: data.index + 1 },
-      `${BASE_TITLE} essays | page ${data.index + 1}`
-    )
+    setSearchParams(data.index > 0 ? { page: data.index + 1 } : { page: null })
 
     if (listRef.current) {
       const list = listRef.current
