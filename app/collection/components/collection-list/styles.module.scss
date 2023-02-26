@@ -1,0 +1,46 @@
+@use "app/styles/vars" as vars;
+
+.collectionList {
+  display: grid;
+  gap: 1rem;
+  line-height: 1.5;
+  margin-block-end: 3rem;
+
+  @media (min-width: 640px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.collectionListInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 1rem;
+
+  p {
+    margin-block-end: 0;
+  }
+}
+
+.collectionMinimizeBtn {
+  height: 1.5rem;
+  padding-inline-start: 0.5rem;
+  padding-inline-end: 0.5rem;
+  appearance: none;
+  background: none;
+  border: none;
+  color: vars.$primary-color-1;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(vars.$primary-color-2, 0.1);
+  }
+}
+
+.collectionMinimizeBar {
+  border-inline-start: 0;
+  border-inline-end: 0;
+  border-block-start: 0;
+  border-block-end: 0.5rem solid rgba(vars.$tertiary-color-1, 0.25);
+  margin-block-end: 3rem;
+}
