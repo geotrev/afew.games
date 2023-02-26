@@ -1,7 +1,7 @@
 import { PageHeading, Layout } from "app/components"
 import { EssaysWrapper } from "./components/essays-wrapper"
 import { EssayPageData } from "app/types/essays"
-import { getEssayList } from "app/utils/get-essay-list"
+import { getEssayList } from "app/utils/essay-helpers"
 import { BASE_TITLE } from "app/utils/constants"
 import xss from "xss"
 

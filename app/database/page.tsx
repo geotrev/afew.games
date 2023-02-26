@@ -5,10 +5,10 @@ import database from "public/database/collection.json"
 
 export const metadata = {
   alternates: {
-    canonical: `https://afew.games/collection`,
+    canonical: `https://afew.games/database`,
   },
-  title: `${BASE_TITLE} collection`,
-  description: "A searchable collection of video games",
+  title: `${BASE_TITLE} database`,
+  description: "A database of video game variants",
 }
 
 export default function Page() {
@@ -32,7 +32,7 @@ export default function Page() {
     <Layout>
       <PageHeading
         heading="Database"
-        subheading={`This database has ${gameCount} games with documented print variants.`}
+        subheading={`This database has ${gameCount} games with documented print variants. I'm always adding games to it.`}
       />
     </Layout>
   )
