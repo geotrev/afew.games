@@ -1,4 +1,5 @@
-import { Game } from "app/types/games"
+import { Game, DatabaseGame } from "app/types/games"
+import { isPlainObject, isString, pickBy } from "lodash-es"
 
 export function sortByKey(key: string) {
   return (a: any, b: any): 0 | 1 | -1 => {
@@ -8,12 +9,26 @@ export function sortByKey(key: string) {
   }
 }
 
-export function flattenObjectValues(items: Game[]) {
-  return items.map((item: Game) =>
-    Object.values(item).reduce(
-      (acc: string, val: string) => acc.concat(val.toLowerCase()),
-      ""
-    )
+/**
+ * Recursively traverse an array of objects, returning an array strings equivalent
+ * to each objects values (only string values are counted).
+ */
+export function flattenObjectValues(items: Game[] | DatabaseGame[]): string[] {
+  return items.map((item: Game | DatabaseGame) =>
+    Object.values(item).reduce((acc: string, val: string) => {
+      if (typeof val === "string") {
+        // concat the string
+        return acc.concat(val.toLowerCase())
+      } else if (Array.isArray(val)) {
+        // iterate over and flatten each object's values, then concat
+        return acc.concat(...flattenObjectValues(val))
+      } else if (isPlainObject(val)) {
+        // only concat string values from the object
+        return acc.concat(...Object.values(pickBy(val, isString)))
+      }
+
+      return acc
+    }, "")
   )
 }
 

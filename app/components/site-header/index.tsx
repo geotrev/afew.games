@@ -8,6 +8,7 @@ import styles from "./styles.module.scss"
 import Logo from "./logo"
 
 const Routes = {
+  DATABASE_PATH: "/database",
   COLLECTION_PATH: "/collection",
   ESSAYS_PATH: "/essays",
   HOME_PATH: "/",
@@ -17,6 +18,7 @@ export function SiteHeader(): ReactElement {
   const pathname = usePathname()
   const isEssaysPath = pathname?.startsWith(Routes.ESSAYS_PATH)
   const isCollectionsPath = pathname?.startsWith(Routes.COLLECTION_PATH)
+  const isDatabasePath = pathname?.startsWith(Routes.DATABASE_PATH)
   const isHomePath = pathname === Routes.HOME_PATH
 
   return (
@@ -46,6 +48,17 @@ export function SiteHeader(): ReactElement {
               aria-current={isEssaysPath ? "true" : undefined}
             >
               Essays
+            </Link>
+          </li>
+          <li>
+            <Link
+              href={Routes.DATABASE_PATH}
+              className={cn(styles.navListItemLink, {
+                [styles.isActive]: isDatabasePath,
+              })}
+              aria-current={isDatabasePath ? "true" : undefined}
+            >
+              Database
             </Link>
           </li>
           <li>
