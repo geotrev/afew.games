@@ -1,6 +1,6 @@
-import { flattenObjectValues, sortByKey } from "app/utils/helpers"
+import { flattenObjectValues, sortByKey } from "utils/helpers"
 import { PageHeading, Layout } from "app/components"
-import { BASE_TITLE } from "app/utils/constants"
+import { BASE_TITLE } from "utils/constants"
 import database from "public/database/collection.json"
 
 export const metadata = {

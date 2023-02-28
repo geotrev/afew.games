@@ -8,7 +8,7 @@ import { Pagination } from "app/components"
 import { EssayListLoader } from "../essay-list-loader"
 import { EssayListError } from "../essay-list-error"
 import { EssayList } from "../essay-list"
-import { setSearchParams } from "app/utils/helpers"
+import { setSearchParams } from "utils/helpers"
 
 let initialLoad = true
 const toggleInitialLoad = debounce(() => (initialLoad = false), 50)

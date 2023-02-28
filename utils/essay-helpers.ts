@@ -4,7 +4,7 @@ import matter, { GrayMatterFile } from "gray-matter"
 import chunk from "lodash-es/chunk"
 import { marked } from "marked"
 import { ParsedUrlQuery } from "querystring"
-import { EssayProps, Essay, EssayPageData } from "../types/essays"
+import { EssayProps, Essay, EssayPageData } from "app/types/essays"
 
 const MAX_LIST_LENGTH = 5
 

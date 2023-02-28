@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server"
 import { NextURL } from "next/dist/server/web/next-url"
-import { getEssayList } from "app/utils/essay-helpers"
+import { getEssayList } from "utils/essay-helpers"
 import { EssayPageData } from "app/types/essays"
 
 export async function POST(req: Request & { nextUrl: NextURL }) {

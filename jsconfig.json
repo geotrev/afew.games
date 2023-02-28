@@ -2,7 +2,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "public": ["public/*"]
+      "public/*": ["public/*"],
+      "styles/*": ["styles/*"],
+      "utils/*": ["utils/*"]
     }
   }
 }
