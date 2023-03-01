@@ -5,6 +5,16 @@ export interface Game {
   grader: string
 }
 
+export interface Platform {
+  platform: string
+  games: Game[]
+}
+
+export interface PlatformFilter {
+  value: string
+  selected: boolean
+}
+
 export interface DatabaseGame {
   name: string
   variants: DatabaseVariant[]
@@ -18,12 +28,12 @@ export interface DatabaseVariant {
   notes?: string
 }
 
-export interface Platform {
+export interface DatabasePlatform {
   platform: string
-  games: Game[]
+  games: DatabaseGame[]
 }
 
-export interface PlatformFilter {
+export interface DatabasePlatformFilter {
   value: string
   selected: boolean
 }

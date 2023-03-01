@@ -1,5 +1,6 @@
 import { flattenObjectValues, sortByKey } from "utils/helpers"
 import { PageHeading, Layout } from "app/components"
+import { DatabaseWrapper } from "./components/database-wrapper"
 import { BASE_TITLE } from "utils/constants"
 import database from "public/database/collection.json"
 
@@ -25,15 +26,13 @@ export default function Page() {
     return flattenObjectValues(p.games)
   })
 
-  // eslint-disable-next-line no-console
-  console.log({ games, queryData })
-
   return (
     <Layout>
       <PageHeading
         heading="Database"
-        subheading={`This database has ${gameCount} games with documented print variants. I'm always adding games to it.`}
+        subheading={`This is a database of games I've researched over the months. It has ${gameCount} games with documented print variants. While I'll always write about future entries and interesting variants, this database will always update in real time.`}
       />
+      <DatabaseWrapper games={games} queryData={queryData} />
     </Layout>
   )
 }

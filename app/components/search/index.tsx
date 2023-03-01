@@ -1,17 +1,14 @@
 import propTypes from "prop-types"
 import { ReactElement } from "react"
-import { CollectionSearchProps } from "./types"
+import { SearchProps } from "./types"
 import styles from "./styles.module.scss"
 
-CollectionSearch.propTypes = {
+Search.propTypes = {
   value: propTypes.string,
   handleChange: propTypes.func,
 }
 
-export function CollectionSearch({
-  value,
-  handleChange,
-}: CollectionSearchProps): ReactElement {
+export function Search({ value, handleChange }: SearchProps): ReactElement {
   return (
     <div className={styles.searchContainer}>
       <label htmlFor="search" className={styles.searchLabel}>

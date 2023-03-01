@@ -1,6 +1,6 @@
 import { PlatformFilter } from "app/types/games"
 
-export type CollectionFilterProps = {
+export type FilterListProps = {
   items: PlatformFilter[]
   handleClick: any
   handleReset: any

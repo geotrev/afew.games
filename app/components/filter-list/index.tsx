@@ -7,10 +7,10 @@ import {
 import propTypes from "prop-types"
 import cn from "classnames"
 import { Button } from "app/components"
-import { CollectionFilterProps } from "./types"
+import { FilterListProps } from "./types"
 import styles from "./styles.module.scss"
 
-CollectionFilter.propTypes = {
+FilterOptions.propTypes = {
   items: propTypes.arrayOf(
     propTypes.shape({
       value: propTypes.string,
@@ -21,11 +21,11 @@ CollectionFilter.propTypes = {
   handleReset: propTypes.func,
 }
 
-export function CollectionFilter({
+export function FilterOptions({
   items,
   handleClick,
   handleReset,
-}: CollectionFilterProps) {
+}: FilterListProps) {
   const [rovingIndex, setRovingIndex] = useState<number>(0)
   const [opened, setOpened] = useState<boolean>(false)
 
@@ -97,8 +97,8 @@ export function CollectionFilter({
   }, [opened])
 
   return (
-    <div className={styles.collectionFilter}>
-      <div className={styles.collectionFilterToggle}>
+    <div className={styles.filterList}>
+      <div className={styles.filterListToggle}>
         <Button
           id="filter-toggle"
           bare
@@ -120,7 +120,7 @@ export function CollectionFilter({
           role="grid"
         >
           <div role="rowgroup">
-            <div className={styles.collectionFilterList} role="row">
+            <div className={styles.filterListItems} role="row">
               {items.map((item, idx) => {
                 return (
                   <div key={item.value} role="gridcell">
@@ -141,7 +141,7 @@ export function CollectionFilter({
             </div>
           </div>
         </div>
-        <div className={styles.collectionFilterReset}>
+        <div className={styles.filterListReset}>
           <Button
             onClick={handleReset}
             aria-disabled={noneSelected ? true : undefined}

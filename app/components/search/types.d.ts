@@ -1,6 +1,6 @@
 import { ChangeEventHandler } from "react"
 
-export type CollectionSearchProps = {
+export type SearchProps = {
   value: string
   handleChange: ChangeEventHandler<HTMLInputElement>
 }

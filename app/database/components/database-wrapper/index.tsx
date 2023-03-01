@@ -9,30 +9,36 @@ import {
 } from "react"
 import { debounce } from "lodash-es"
 import propTypes from "prop-types"
-import { Game, Platform, PlatformFilter } from "app/types/games"
-import { CollectionList } from "../collection-list"
+import { DatabaseGame, DatabasePlatform, PlatformFilter } from "app/types/games"
+// import { DatabasePlatformList } from "../database-platform-list"
 import { FilterOptions } from "app/components/filter-list"
 import { Search } from "app/components/search"
 import { useSearchParams } from "next/navigation"
 import xss from "xss"
 
-type CollectionWrapperProps = {
-  games: Platform[]
+type DatabaseWrapperProps = {
+  games: DatabasePlatform[]
   queryData: Array<string[]>
 }
 
-type FilterCallback = () => Platform[]
+type FilterCallback = () => DatabasePlatform[]
 
-CollectionWrapper.propTypes = {
+DatabaseWrapper.propTypes = {
   games: propTypes.arrayOf(
     propTypes.shape({
       platform: propTypes.string,
       games: propTypes.arrayOf(
         propTypes.shape({
           name: propTypes.string,
-          variant: propTypes.string,
-          grade: propTypes.string,
-          grader: propTypes.oneOf(["Wata", "VGA", "CGC", "P1G"]),
+          variants: propTypes.arrayOf(
+            propTypes.shape({
+              part_code: propTypes.string,
+              satellite_code: propTypes.string,
+              manufactured: propTypes.string,
+              mpn: propTypes.string,
+              notes: propTypes.string,
+            })
+          ),
         })
       ),
     })
@@ -40,10 +46,7 @@ CollectionWrapper.propTypes = {
   queryData: propTypes.arrayOf(propTypes.arrayOf(propTypes.string)).isRequired,
 }
 
-export function CollectionWrapper({
-  games,
-  queryData,
-}: CollectionWrapperProps) {
+export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
   const searchParams = useSearchParams()
   const rawSearchParam = searchParams.get("search")
   const defaultSearchValue =
@@ -108,8 +111,8 @@ export function CollectionWrapper({
     if (!filterValue && allSelected) return games
 
     return queryData.reduce((acc, queryableGames: string[], idx) => {
-      const gameList: Game[] = games[idx].games
-      const filteredEntry: Platform = { ...games[idx], games: [] }
+      const gameList: DatabaseGame[] = games[idx].games
+      const filteredEntry: DatabasePlatform = { ...games[idx], games: [] }
       let shouldQuery: boolean = true
 
       if (
@@ -133,7 +136,7 @@ export function CollectionWrapper({
 
       acc.push(filteredEntry)
       return acc
-    }, [] as Platform[])
+    }, [] as DatabasePlatform[])
   }, [
     allSelected,
     noneSelected,
@@ -146,16 +149,16 @@ export function CollectionWrapper({
   const filteredGames = filterGames()
   filteredGames.forEach((p) => (gameCount += p.games.length))
 
-  function renderCollectionLists(p: Platform) {
-    return (
-      <CollectionList
-        key={p.platform}
-        games={p.games}
-        label={p.platform}
-        id={p.platform.split(" ").join("-")}
-      />
-    )
-  }
+  // function renderCollectionLists(p: DatabasePlatform) {
+  //   return (
+  //     <DatabasePlatformList
+  //       key={p.platform}
+  //       games={p.games}
+  //       label={p.platform}
+  //       id={p.platform.split(" ").join("-")}
+  //     />
+  //   )
+  // }
 
   return (
     <>
@@ -168,7 +171,8 @@ export function CollectionWrapper({
       {gameCount === 0 ? (
         <p>No matches found, sorry.</p>
       ) : (
-        filteredGames.map(renderCollectionLists)
+        <pre>{JSON.stringify(filteredGames, null, 2)}</pre>
+        // .map(renderCollectionLists)
       )}
     </>
   )

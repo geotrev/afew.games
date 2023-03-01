@@ -1,22 +1,22 @@
 @use "styles/vars" as vars;
 
-.collectionFilter {
+.filterList {
   margin-block-end: 3rem;
 }
 
-.collectionFilterList {
+.filterListItems {
   display: flex;
   flex-flow: row wrap;
   gap: 0.25rem;
   margin-block-end: 1rem;
 }
 
-.collectionFilterReset {
+.filterListReset {
   display: flex;
   gap: 0.25rem;
 }
 
-.collectionFilterToggle {
+.filterListToggle {
   display: block;
   margin-block-end: 1rem;
 }
@@ -30,15 +30,15 @@
     display: block;
   }
 
-  .collectionFilterToggle {
+  .filterListToggle {
     display: none;
   }
 
-  .collectionFilterList {
+  .filterListItems {
     gap: 0.5rem;
   }
 
-  .collectionFilterReset {
+  .filterListReset {
     gap: 0.5rem;
   }
 }
