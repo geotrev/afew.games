@@ -1,6 +1,8 @@
 import { ChangeEventHandler } from "react"
 
 export type SearchProps = {
-  value: string
+  label: string
+  placeholder: string
+  value?: string
   handleChange: ChangeEventHandler<HTMLInputElement>
 }
