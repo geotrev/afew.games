@@ -1,4 +1,4 @@
-import { Game, DatabaseGame } from "app/types/games"
+import { Game, DatabaseGame, PlatformRecord } from "app/types/games"
 import { isPlainObject, isString, pickBy } from "lodash-es"
 
 export function sortByKey(key: string) {
@@ -46,4 +46,21 @@ export function setSearchParams(paramsObject: Record<string, any>) {
   }
   url.search = params.toString()
   window.history.pushState({}, "", url.toString())
+}
+
+export function transformGameProps(database: { platforms: PlatformRecord[] }) {
+  const games: PlatformRecord[] = database.platforms
+    .sort(sortByKey("platform"))
+    .map((p) => ({
+      platform: p.platform,
+      games: p.games.sort(sortByKey("name")),
+    }))
+
+  let count = 0
+  const queryData: string[][] = games.map((p) => {
+    count += p.games.length
+    return flattenObjectValues(p.games)
+  })
+
+  return { games, queryData, count }
 }

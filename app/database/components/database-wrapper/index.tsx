@@ -6,7 +6,7 @@ import { DatabasePlatform } from "app/types/games"
 import { FilterOptions } from "app/components/filter-list"
 import { Search } from "app/components/search"
 import { useFilter, useSearch } from "utils/search-helpers"
-// import { DatabasePlatformList } from "../database-platform-list"
+import { DatabaseList } from "../database-list"
 
 type DatabaseWrapperProps = {
   games: DatabasePlatform[]
@@ -76,16 +76,16 @@ export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
     )
   }
 
-  // function renderCollectionLists(p: DatabasePlatform) {
-  //   return (
-  //     <CollectionList
-  //       key={p.platform}
-  //       games={p.games}
-  //       label={p.platform}
-  //       id={p.platform.split(" ").join("-")}
-  //     />
-  //   )
-  // }
+  function renderCollectionLists(p: DatabasePlatform) {
+    return (
+      <DatabaseList
+        key={p.platform}
+        games={p.games}
+        label={p.platform}
+        id={p.platform.split(" ").join("-")}
+      />
+    )
+  }
 
   return (
     <>
@@ -103,8 +103,7 @@ export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
       {gameCount === 0 ? (
         <p>No matches found, sorry.</p>
       ) : (
-        <pre>{JSON.stringify(filteredGames, null, 2)}</pre>
-        // .map(renderCollectionLists)
+        filteredGames.map(renderCollectionLists)
       )}
     </>
   )
