@@ -1,6 +1,6 @@
 import { DatabaseGame } from "../types"
 
-export type CollectionListProps = {
+export type DatabaseListProps = {
   games: DatabaseGame[]
   label: string
   id: string

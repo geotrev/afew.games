@@ -2,11 +2,6 @@
 @use "html";
 @use "helpers";
 
-.app-container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
 .visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);

@@ -36,6 +36,8 @@ DatabaseWrapper.propTypes = {
 export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
   return (
     <CollectionSearch
+      label="Search variants"
+      placeholder="Mario Kart"
       listComponent={DatabaseList}
       games={games}
       queryData={queryData}

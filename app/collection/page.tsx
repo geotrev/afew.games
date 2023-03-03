@@ -1,5 +1,5 @@
 import { transformGameProps } from "utils/helpers"
-import { PageHeading, Layout } from "app/components"
+import { PageHeading } from "app/components"
 import { BASE_TITLE } from "utils/constants"
 import { CollectionWrapper } from "./components/collection-wrapper"
 import gamesData from "public/games/collection.json"
@@ -16,13 +16,13 @@ export default function Page() {
   const { games, queryData, count } = transformGameProps(gamesData)
 
   return (
-    <Layout>
+    <>
       <PageHeading
         heading="Collection"
         subheading={`There are ${count} games in this collection.`}
         liveSubheading
       />
       <CollectionWrapper games={games} queryData={queryData} />
-    </Layout>
+    </>
   )
 }

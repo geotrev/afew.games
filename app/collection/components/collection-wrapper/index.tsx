@@ -33,6 +33,8 @@ export function CollectionWrapper({
 }: CollectionWrapperProps) {
   return (
     <CollectionSearch
+      label="Search games"
+      placeholder="Wario's Woods"
       listComponent={CollectionList}
       games={games}
       queryData={queryData}

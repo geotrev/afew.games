@@ -8,6 +8,8 @@ import { useFilter, useSearch } from "./hooks"
 import { CollectionSearchProps } from "./types"
 
 export function CollectionSearch({
+  label,
+  placeholder,
   listComponent: ListComponent,
   games,
   queryData,
@@ -65,8 +67,8 @@ export function CollectionSearch({
   return (
     <>
       <Search
-        label="Search variants"
-        placeholder="Mario Kart"
+        label={label}
+        placeholder={placeholder}
         value={searchValue}
         handleChange={handleChange}
       />

@@ -1,4 +1,4 @@
-import { PageHeading, Layout } from "app/components"
+import { PageHeading } from "app/components"
 import { EssaysWrapper } from "./components/essays-wrapper"
 import { EssayPageData } from "app/types/essays"
 import { getEssayList } from "utils/essay-helpers"
@@ -31,9 +31,9 @@ export default async function Page({
   const initialData = (await getEssayList(essaysPage)) as EssayPageData
 
   return (
-    <Layout>
+    <>
       <PageHeading heading="Essays" />
       <EssaysWrapper initialData={initialData} />
-    </Layout>
+    </>
   )
 }

@@ -1,4 +1,4 @@
-import { PageHeading, Layout } from "app/components"
+import { PageHeading } from "app/components"
 import { BASE_TITLE } from "utils/constants"
 
 export const metadata = {
@@ -11,13 +11,13 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <Layout>
+    <>
       <PageHeading
         heading="Home"
         subheading="Hello and welcome. This is my personal blog and collection website. I
         like to write about, document, and track my video games. I hope you stay
         for a while!"
       />
-    </Layout>
+    </>
   )
 }

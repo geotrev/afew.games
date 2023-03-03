@@ -1,6 +1,6 @@
 import { useState, useEffect, ReactElement } from "react"
 import propTypes from "prop-types"
-import { Button } from "app/components"
+import { CollectionListToolbar } from "app/components"
 import { CollectionItem } from "../collection-item"
 import { CollectionListProps } from "./types"
 import styles from "./styles.module.scss"
@@ -31,35 +31,6 @@ export function CollectionList({
     setOpened(true)
   }, [games])
 
-  function renderMinimizeText() {
-    return (
-      <>
-        <span aria-hidden="true">{opened ? "–" : "+"}</span> Toggle List
-      </>
-    )
-  }
-
-  function renderListInfoBar() {
-    return (
-      <div className={styles.collectionListInfo}>
-        <p>
-          {length} {length === 1 ? "game" : "games"}{" "}
-          {opened ? "shown" : "hidden"}
-        </p>
-        <Button
-          aria-expanded={opened}
-          aria-controls={`list-${id}`}
-          bare
-          size="sm"
-          onClick={() => setOpened(!opened)}
-          aria-describedby={`header-${id}`}
-        >
-          {renderMinimizeText()}
-        </Button>
-      </div>
-    )
-  }
-
   function renderList() {
     if (!opened) {
       return <hr className={styles.collectionMinimizeBar} />
@@ -85,7 +56,14 @@ export function CollectionList({
   return (
     <>
       <h2 id={`header-${id}`}>{label}</h2>
-      {renderListInfoBar()}
+      <CollectionListToolbar
+        label="game"
+        pluralLabel="games"
+        itemsLength={length}
+        id={id}
+        opened={opened}
+        setOpened={setOpened}
+      />
       {renderList()}
     </>
   )

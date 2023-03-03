@@ -1,8 +1,7 @@
 import Script from "next/script"
 import { PropsWithChildren } from "react"
 import { RouteTracker } from "app/components/route-tracker"
-import { SiteHeader } from "app/components/site-header"
-import { SiteFooter } from "app/components/site-footer"
+import { App } from "./app"
 import "styles/globals.scss"
 
 export default function RootLayout({ children }: PropsWithChildren) {
@@ -14,10 +13,8 @@ export default function RootLayout({ children }: PropsWithChildren) {
           content="Video Games, Games, Collectibles, Graded Games, Sealed Video Games"
         />
       </head>
-      <body className="app-container">
-        <SiteHeader />
-        {children}
-        <SiteFooter />
+      <body>
+        <App>{children}</App>
 
         <Script
           src="https://identity.netlify.com/v1/netlify-identity-widget.js"

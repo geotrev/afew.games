@@ -4,7 +4,11 @@
   display: grid;
   gap: 1rem;
   line-height: 1.5;
-  margin-block-end: 3rem;
+  margin-block-end: 2rem;
+
+  &:last-child {
+    margin-block-end: 0;
+  }
 
   @media (min-width: 640px) {
     grid-template-columns: 1fr 1fr;

@@ -1,10 +1,10 @@
 import { useState, useEffect, ReactElement } from "react"
 import propTypes from "prop-types"
-import { Button } from "app/components"
+import { CollectionListToolbar } from "app/components"
 import { DATABASE_FIELDS } from "app/constants"
 import { COLUMN_LABELS, COLUMN_WIDTHS } from "./constants"
 import { DatabaseGame, DatabaseVariant } from "app/types/games"
-import { CollectionListProps } from "./types"
+import { DatabaseListProps } from "./types"
 import styles from "./styles.module.scss"
 
 DatabaseList.propTypes = {
@@ -17,7 +17,7 @@ export function DatabaseList({
   games,
   label,
   id,
-}: CollectionListProps): ReactElement | null {
+}: DatabaseListProps): ReactElement | null {
   const [opened, setOpened] = useState<boolean>(true)
   const length = games.length
 
@@ -25,35 +25,6 @@ export function DatabaseList({
   useEffect(() => {
     setOpened(true)
   }, [games])
-
-  function renderMinimizeText() {
-    return (
-      <>
-        <span aria-hidden="true">{opened ? "–" : "+"}</span> Toggle List
-      </>
-    )
-  }
-
-  function renderListInfoBar() {
-    return (
-      <div className={styles.collectionListInfo}>
-        <p>
-          {length} {length === 1 ? "game" : "games"}{" "}
-          {opened ? "shown" : "hidden"}
-        </p>
-        <Button
-          aria-expanded={opened}
-          aria-controls={`list-${id}`}
-          bare
-          size="sm"
-          onClick={() => setOpened(!opened)}
-          aria-describedby={`header-${id}`}
-        >
-          {renderMinimizeText()}
-        </Button>
-      </div>
-    )
-  }
 
   function renderVariantRow(variant: DatabaseVariant, idx: number) {
     return (
@@ -91,14 +62,14 @@ export function DatabaseList({
 
   function renderList() {
     if (!opened) {
-      return <hr className={styles.dbMinimizeBar} />
+      return <hr className={styles.databaseMinimizeBar} />
     }
 
     return (
       <ul
         aria-labelledby={`header-${id}`}
         id={`list-${id}`}
-        className={styles.collectionList}
+        className={styles.databaseList}
       >
         {games.map(renderVariants)}
       </ul>
@@ -112,7 +83,14 @@ export function DatabaseList({
   return (
     <>
       <h2 id={`header-${id}`}>{label}</h2>
-      {renderListInfoBar()}
+      <CollectionListToolbar
+        label="game"
+        pluralLabel="games"
+        itemsLength={length}
+        id={id}
+        opened={opened}
+        setOpened={setOpened}
+      />
       {renderList()}
     </>
   )
