@@ -7,6 +7,7 @@ export * from "./site-header"
 export * from "./site-footer"
 export * from "./route-tracker"
 export * from "./search"
+export * from "./collection-search"
 
 /** types */
 export * from "./button/types.d"

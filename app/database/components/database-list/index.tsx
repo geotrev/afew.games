@@ -4,7 +4,7 @@ import { Button } from "app/components"
 import { DATABASE_FIELDS } from "app/constants"
 import { COLUMN_LABELS, COLUMN_WIDTHS } from "./constants"
 import { DatabaseGame, DatabaseVariant } from "app/types/games"
-import { CollectionListProps } from "./types.d"
+import { CollectionListProps } from "./types"
 import styles from "./styles.module.scss"
 
 DatabaseList.propTypes = {
