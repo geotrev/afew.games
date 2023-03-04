@@ -1,6 +1,50 @@
 {
   "platforms": [
     {
+      "platform": "Game Boy Advance",
+      "games": [
+        {
+          "name": "Kingdom Hearts: Chain of Memories",
+          "variants": [
+            {
+              "manufactured": "USA",
+              "notes": "Double-ended, 3-side seam"
+            },
+            {
+              "manufactured": "USA",
+              "notes": "Double ended box, H-seam"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Battle Network 3: White Version",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Y-fold box, white cover, H-seam"
+            },
+            {
+              "manufactured": "USA",
+              "notes": "Double-ended box, gray ink error, 3-side seam"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Battle Network 3: Blue Version",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Y-fold box, H-seam"
+            },
+            {
+              "manufactured": "USA",
+              "notes": "Double-ended box, 3-side seam"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "platform": "PlayStation 2",
       "games": [
         {
