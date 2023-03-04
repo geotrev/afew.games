@@ -1,6 +1,49 @@
 {
   "platforms": [
     {
+      "platform": "PlayStation 2",
+      "games": [
+        {
+          "name": "Kingdom Hearts II",
+          "variants": [
+            {
+              "manufactured": "USA",
+              "notes": "Greatest Hits"
+            },
+            {
+              "manufactured": "USA",
+              "notes": "Silver foil"
+            },
+            {
+              "manufactured": "USA",
+              "notes": "Rainbow foil"
+            }
+          ]
+        },
+        {
+          "name": "Kingdom Hearts",
+          "variants": [
+            {
+              "notes": "Made in USA, Greatest Hits, Square-Enix USA",
+              "manufactured": "USA"
+            },
+            {
+              "manufactured": "USA",
+              "notes": "Made in USA, Greatest Hits, Square-Enix"
+            },
+            {
+              "notes": "Square-Enix, Sony security label, tear strip",
+              "manufactured": "USA"
+            },
+            {
+              "notes": "SquareSoft, Sony security label, tear strip",
+              "manufactured": "USA"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "platform": "3DS",
       "games": [
         {
