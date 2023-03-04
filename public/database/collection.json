@@ -4,6 +4,19 @@
       "platform": "Game Boy Advance",
       "games": [
         {
+          "name": "Mega Man & Bass",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Y-fold box, H-seam"
+            },
+            {
+              "manufactured": "USA",
+              "notes": "Double-ended box, 3-side seam"
+            }
+          ]
+        },
+        {
           "name": "Kingdom Hearts: Chain of Memories",
           "variants": [
             {
