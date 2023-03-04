@@ -19,7 +19,7 @@ export default function Page() {
     <>
       <PageHeading
         heading="Database"
-        subheading={`This is a database of games I've researched over the months. It has ${count} games with documented print variants. While I'll always write about future entries and interesting variants, this database will always update in real time.`}
+        subheading={`This is a database of ${count} games with documented print variants. While new and interesting variants will be written about in long form, this database will always update in real time.`}
       />
       <DatabaseWrapper games={games} queryData={queryData} />
     </>
