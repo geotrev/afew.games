@@ -1,4 +1,4 @@
-@use "app/styles/vars" as vars;
+@use "styles/vars" as vars;
 
 .logoContainer {
   display: inline-block;
@@ -8,7 +8,7 @@
 }
 
 .pageHeader {
-  padding: 1rem 1rem 3rem 1rem;
+  padding: 1rem 0 3rem 0;
 }
 
 .pageHeading {

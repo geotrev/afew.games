@@ -82,7 +82,7 @@ collections:
                       - P1G
       - label: Video Game Variants
         name: video_game_variants
-        file: public/variants/collection.json
+        file: public/database/collection.json
         fields:
           - label: Platforms
             name: platforms

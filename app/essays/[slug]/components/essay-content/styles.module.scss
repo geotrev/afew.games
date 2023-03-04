@@ -1,4 +1,4 @@
-@use "app/styles/vars" as vars;
+@use "styles/vars" as vars;
 
 .essayContent {
   line-height: 2;
@@ -88,30 +88,6 @@
     font-style: italic;
     padding-inline-start: 1.5rem;
     border-inline-start: 3px solid rgba(vars.$tertiary-color-2, 0.2);
-  }
-
-  table {
-    margin-block-end: 2rem;
-    border-spacing: 0.5rem;
-    border-collapse: separate;
-    background: rgba(vars.$primary-color-1, 0.15);
-    font-size: 14px;
-    width: 100%;
-    max-width: 100%;
-
-    th,
-    td {
-      padding: 0 0.5rem;
-    }
-
-    th {
-      font-weight: bold;
-      text-align: start;
-    }
-
-    td {
-      background-color: rgba(vars.$tertiary-color-2, 0.2);
-    }
   }
 }
 

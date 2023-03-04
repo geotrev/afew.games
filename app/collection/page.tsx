@@ -1,6 +1,6 @@
-import { flattenObjectValues, sortByKey } from "app/utils/helpers"
-import { PageHeading, Layout } from "app/components"
-import { BASE_TITLE } from "app/utils/constants"
+import { transformGameProps } from "utils/helpers"
+import { PageHeading } from "app/components"
+import { BASE_TITLE } from "utils/constants"
 import { CollectionWrapper } from "./components/collection-wrapper"
 import gamesData from "public/games/collection.json"
 
@@ -13,27 +13,16 @@ export const metadata = {
 }
 
 export default function Page() {
-  const games = gamesData.platforms.sort(sortByKey("platform")).map((p) => {
-    return {
-      platform: p.platform,
-      games: p.games.sort(sortByKey("name")),
-    }
-  })
-
-  let gameCount = 0
-  const queryData = games.map((p) => {
-    gameCount += p.games.length
-    return flattenObjectValues(p.games)
-  })
+  const { games, queryData, count } = transformGameProps(gamesData)
 
   return (
-    <Layout>
+    <>
       <PageHeading
         heading="Collection"
-        subheading={`There are ${gameCount} games in this collection.`}
+        subheading={`There are ${count} games in this collection.`}
         liveSubheading
       />
       <CollectionWrapper games={games} queryData={queryData} />
-    </Layout>
+    </>
   )
 }

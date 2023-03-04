@@ -1,8 +1,8 @@
-import { PageHeading, Layout } from "app/components"
+import { PageHeading } from "app/components"
 import { EssaysWrapper } from "./components/essays-wrapper"
 import { EssayPageData } from "app/types/essays"
-import { getEssayList } from "app/utils/get-essay-list"
-import { BASE_TITLE } from "app/utils/constants"
+import { getEssayList } from "utils/essay-helpers"
+import { BASE_TITLE } from "utils/constants"
 import xss from "xss"
 
 export const dynamic = "force-dynamic"
@@ -31,9 +31,9 @@ export default async function Page({
   const initialData = (await getEssayList(essaysPage)) as EssayPageData
 
   return (
-    <Layout>
+    <>
       <PageHeading heading="Essays" />
       <EssaysWrapper initialData={initialData} />
-    </Layout>
+    </>
   )
 }

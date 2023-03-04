@@ -1,8 +1,7 @@
 import { notFound } from "next/navigation"
-import { getMatchingEssay } from "app/utils/get-matching-essay"
-import { Layout } from "app/components"
+import { getMatchingEssay } from "utils/essay-helpers"
 import { EssayContent } from "./components/essay-content"
-import { BASE_TITLE } from "app/utils/constants"
+import { BASE_TITLE } from "utils/constants"
 import { EssayProps } from "app/types/essays"
 
 export async function generateMetadata({
@@ -39,13 +38,13 @@ export default function Page({ params }: { params: { slug: string } }) {
   const { title, description, date, content } = essayData as EssayProps
 
   return (
-    <Layout>
+    <>
       <EssayContent
         title={title}
         description={description}
         date={date}
         content={content}
       />
-    </Layout>
+    </>
   )
 }

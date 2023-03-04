@@ -60,3 +60,29 @@ h6 {
   line-height: 1.2;
   margin-block-end: 1rem;
 }
+
+// Tables
+
+table {
+  margin-block-end: 2rem;
+  border-spacing: 0.5rem;
+  border-collapse: separate;
+  background: rgba(vars.$tertiary-color-1, 0.15);
+  font-size: 14px;
+  width: 100%;
+  max-width: 100%;
+
+  th,
+  td {
+    padding: 0.25rem 0.5rem;
+  }
+
+  th {
+    font-weight: bold;
+    text-align: start;
+  }
+
+  td {
+    background-color: rgba(vars.$tertiary-color-2, 0.25);
+  }
+}
