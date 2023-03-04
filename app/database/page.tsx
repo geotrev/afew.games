@@ -3,6 +3,7 @@ import { PageHeading } from "app/components"
 import { DatabaseWrapper } from "./components/database-wrapper"
 import { BASE_TITLE } from "utils/constants"
 import database from "public/database/collection.json"
+import Link from "next/link"
 
 export const metadata = {
   alternates: {
@@ -21,6 +22,13 @@ export default function Page() {
         heading="Database"
         subheading={`This is a database of ${count} games with documented print variants. While new and interesting variants will be written about in long form, this database will always update in real time.`}
       />
+      <p>
+        Wondering how I determine print variants? I wrote a{" "}
+        <Link href="/essays/decoding-modern-nintendo-print-variants">
+          Nintendo-specific guide
+        </Link>{" "}
+        last year. Xbox and PlayStation will be coming soon.
+      </p>
       <DatabaseWrapper games={games} queryData={queryData} />
     </>
   )
