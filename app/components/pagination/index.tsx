@@ -136,7 +136,7 @@ export function Pagination(props: PaginationProps): ReactElement | null {
               onClick={onPreviousClick}
               bare
             >
-              {"Previous"}
+              {"Newer"}
             </Button>
           </li>
           <li aria-hidden="true" className={styles.paginationBreak} />
@@ -154,7 +154,7 @@ export function Pagination(props: PaginationProps): ReactElement | null {
               onClick={onNextClick}
               bare
             >
-              {"Next"}
+              {"Older"}
             </Button>
           </li>
           <li>

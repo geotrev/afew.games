@@ -32,22 +32,6 @@ export function flattenObjectValues(items: Game[] | DatabaseGame[]): string[] {
   )
 }
 
-export function setSearchParams(paramsObject: Record<string, any>) {
-  if (Object.keys(paramsObject).length === 0) return
-
-  const url = new URL(window.location.href)
-  const params = new URLSearchParams(url.search)
-  for (const key in paramsObject) {
-    if (paramsObject[key] === null) {
-      params.delete(key)
-      continue
-    }
-    params.set(key, String(paramsObject[key]))
-  }
-  url.search = params.toString()
-  window.history.pushState({}, "", url.toString())
-}
-
 export function transformGameProps(database: { platforms: PlatformRecord[] }) {
   const games: PlatformRecord[] = database.platforms
     .sort(sortByKey("platform"))

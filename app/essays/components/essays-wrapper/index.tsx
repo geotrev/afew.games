@@ -2,13 +2,13 @@
 
 import { useEffect, useCallback, useRef, MouseEventHandler } from "react"
 import { debounce } from "lodash-es"
+import { usePathname, useRouter, useSearchParams } from "next/navigation"
+import { Pagination } from "app/components"
 import { EssayPageData } from "app/types/essays"
 import { useFetchEssays } from "../../utils/use-fetch-essays"
-import { Pagination } from "app/components"
 import { EssayListLoader } from "../essay-list-loader"
 import { EssayListError } from "../essay-list-error"
 import { EssayList } from "../essay-list"
-import { setSearchParams } from "utils/helpers"
 
 let initialLoad = true
 const toggleInitialLoad = debounce(() => (initialLoad = false), 50)
@@ -21,6 +21,9 @@ type EssaysWrapperProps = {
 export function EssaysWrapper({ initialData }: EssaysWrapperProps) {
   const { isLoading, isError, data, setPage } = useFetchEssays(initialData)
   const listRef = useRef<HTMLUListElement>(null)
+  const router = useRouter()
+  const searchParams = useSearchParams()
+  const pathname = usePathname()
 
   useEffect(() => {
     return () => {
@@ -33,8 +36,6 @@ export function EssaysWrapper({ initialData }: EssaysWrapperProps) {
       toggleInitialLoad()
       return
     }
-
-    setSearchParams(data.index > 0 ? { page: data.index + 1 } : { page: null })
 
     if (listRef.current) {
       const list = listRef.current
@@ -49,12 +50,32 @@ export function EssaysWrapper({ initialData }: EssaysWrapperProps) {
     }
   }, [data.index])
 
+  const setSearchParamsPage = useCallback(
+    (value: number) => {
+      const params = new URLSearchParams(searchParams)
+
+      if (value === 0) {
+        params.delete("page")
+      } else {
+        params.set("page", String(value + 1))
+      }
+
+      const stringifiedParams = params.toString()
+
+      router.push(
+        pathname + (params.get("page") ? "?" + stringifiedParams : "")
+      )
+    },
+    [searchParams, pathname, router]
+  )
+
   const onPreviousClick = useCallback<
     MouseEventHandler<HTMLButtonElement>
   >(() => {
     if (data.index === 0) return
     setPage(data.index - 1)
-  }, [data.index, setPage])
+    setSearchParamsPage(data.index - 1)
+  }, [data.index, setPage, setSearchParamsPage])
 
   const onPageClick = useCallback<MouseEventHandler<HTMLButtonElement>>(
     (event) => {
@@ -62,29 +83,33 @@ export function EssaysWrapper({ initialData }: EssaysWrapperProps) {
       const targetPageIdx: number = parseInt(target.innerText, 10) - 1
       if (data.index !== targetPageIdx) {
         setPage(targetPageIdx)
+        setSearchParamsPage(targetPageIdx)
       }
     },
-    [data.index, setPage]
+    [data.index, setPage, setSearchParamsPage]
   )
 
   const onNextClick = useCallback<MouseEventHandler<HTMLButtonElement>>(() => {
     if (data.index === data.totalPages - 1) return
     setPage(data.index + 1)
-  }, [data.index, data.totalPages, setPage])
+    setSearchParamsPage(data.index + 1)
+  }, [data.index, data.totalPages, setPage, setSearchParamsPage])
 
   const onFirstPageClick = useCallback<
     MouseEventHandler<HTMLButtonElement>
   >(() => {
     if (data.index === 0) return
     setPage(0)
-  }, [data.index, setPage])
+    setSearchParamsPage(0)
+  }, [data.index, setPage, setSearchParamsPage])
 
   const onLastPageClick = useCallback<
     MouseEventHandler<HTMLButtonElement>
   >(() => {
     if (data.index === data.totalPages - 1) return
     setPage(data.totalPages - 1)
-  }, [data.index, data.totalPages, setPage])
+    setSearchParamsPage(data.totalPages - 1)
+  }, [data.index, data.totalPages, setPage, setSearchParamsPage])
 
   return isLoading ? (
     <EssayListLoader />
