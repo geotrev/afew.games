@@ -51,7 +51,9 @@ export function DatabaseList({
   function renderVariants(data: DatabaseGame) {
     return (
       <li key={data.name}>
-        <h3>{data.name}</h3>
+        <h3 className={styles.gameHeading}>
+          <span className={styles.gameHeadingLabel}>{data.name}</span>
+        </h3>
         <table>
           <thead>{renderVariantHeaderRow()}</thead>
           <tbody>{data.variants!.map(renderVariantRow)}</tbody>
@@ -82,7 +84,9 @@ export function DatabaseList({
 
   return (
     <>
-      <h2 id={`header-${id}`}>{label}</h2>
+      <h2 id={`header-${id}`} className={styles.platformHeading}>
+        {label}
+      </h2>
       <CollectionListToolbar
         label="game"
         pluralLabel="games"

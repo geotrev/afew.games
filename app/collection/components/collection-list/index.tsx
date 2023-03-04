@@ -55,7 +55,9 @@ export function CollectionList({
 
   return (
     <>
-      <h2 id={`header-${id}`}>{label}</h2>
+      <h2 id={`header-${id}`} className={styles.platformHeading}>
+        {label}
+      </h2>
       <CollectionListToolbar
         label="game"
         pluralLabel="games"
