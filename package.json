@@ -37,6 +37,7 @@
     "next": "^13.2.4-canary.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "styled-components": "^5.3.8",
     "xss": "^1.0.14"
   },
   "devDependencies": {
@@ -53,6 +54,7 @@
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
+    "@types/styled-components": "^5.1.26",
     "eslint": "^8.32.0",
     "eslint-config-next": "^13.1.5",
     "eslint-config-prettier": "^8.6.0",

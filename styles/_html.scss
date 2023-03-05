@@ -10,7 +10,6 @@ body {
 a {
   color: rgba(vars.$text-color, 0.7);
   font-weight: bold;
-  text-decoration: none;
 
   &:hover {
     color: vars.$text-color;
