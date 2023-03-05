@@ -9,36 +9,9 @@
   <body>
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <!-- <script src="https://unpkg.com/netlify-cms@^2/dist/netlify-cms.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/gh/geotrev/netlify-cms@hotfix/cms-perf/packages/netlify-cms/dist/netlify-cms.js"></script>
-
+    <script src="https://unpkg.com/@staticcms/app@^1.0.0/dist/static-cms-app.js"></script>
     <script>
-      if (CMS?.registerPreviewStyle) {
-        const previewStyles = `
-          html,
-          body {
-            color: #444;
-            font-size: 14px;
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-          }
-
-          body {
-            padding: 20px;
-          }
-
-          h1 {
-            margin-top: 20px;
-            color: #666;
-            font-weight: bold;
-            font-size: 32px;
-          }
-
-          img {
-            max-width: 100%;
-          }
-        `
-
-        CMS.registerPreviewStyle(previewStyles, { raw: true })
-      }
+      window.CMS.init()
     </script>
   </body>
 </html>
