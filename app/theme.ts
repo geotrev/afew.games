@@ -1,24 +1,27 @@
-const Colors = {
-  PRIMARY: "#863cdd",
-  SECONDARY: "#30b532",
-  TERTIARY: "#3096c5",
+export const ColorTriplets = {
+  PRIMARY: "134, 60, 221",
+  SECONDARY: "48, 181, 50",
+  TERTIARY: "48, 150, 197",
+  BACKGROUND_COLOR: "1, 0, 18",
+  TEXT: "161, 214, 239",
 }
 
 export const theme = {
   colors: {
-    primary: Colors.PRIMARY,
-    primaryAlt: `rgba(${Colors.PRIMARY}, 0.5)`,
-    secondary: Colors.SECONDARY,
-    secondaryAlt: `rgba(${Colors.SECONDARY}, 0.5)`,
-    tertiary: Colors.TERTIARY,
-    tertiaryAlt: `rgba(${Colors.TERTIARY}, 0.5)`,
+    primary: `rgb(${ColorTriplets.PRIMARY})`,
+    primaryAlt: `rgba(${ColorTriplets.PRIMARY}, 0.5)`,
+    secondary: `rgb(${ColorTriplets.SECONDARY})`,
+    secondaryAlt: `rgba(${ColorTriplets.SECONDARY}, 0.5)`,
+    tertiary: `rgb(${ColorTriplets.TERTIARY})`,
+    tertiaryAlt: `rgba(${ColorTriplets.TERTIARY}, 0.5)`,
 
     // Background
-    background: "#010012",
+    backgroundColor: `rgb(${ColorTriplets.BACKGROUND_COLOR})`,
 
     // Text
-    text: "#a1d6ef",
+    text: `rgb(${ColorTriplets.TEXT})`,
   },
+
   fonts: {
     sans: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
   },
