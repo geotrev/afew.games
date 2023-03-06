@@ -1,4 +1,6 @@
+import { SubscribeFormStates } from "utils/constants"
+
 export type SubscribeFormState = {
-  status: string
+  status: SubscribeFormStates
   message: string
 }

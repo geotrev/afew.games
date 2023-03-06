@@ -23,10 +23,10 @@ export const StyledNavLink = styled(Link)<{ $isActive: boolean }>`
   padding-block-end: 0.5rem;
   text-decoration: none;
   border-block-end: ${(p) =>
-    p.$isActive && `3px solid ${p.theme.colors.primary}`};
+    p.$isActive && `3px solid ${p.theme.colors.primary1}`};
 
   &:hover {
     border-block-end: ${(p) =>
-      !p.$isActive && `3px solid ${p.theme.colors.primaryAlt}`};
+      !p.$isActive && `3px solid ${p.theme.colors.primary2}`};
   }
 `

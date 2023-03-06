@@ -1,7 +1,7 @@
 "use client"
 
 import { ChangeEventHandler, FormEvent, useCallback, useState } from "react"
-import cn from "classnames"
+import { hideVisually } from "polished"
 import { Button } from "../button"
 import {
   ERROR_MESSAGE,
@@ -9,7 +9,12 @@ import {
   SubscribeFormStatuses,
 } from "utils/constants"
 import { SubscribeFormState } from "../subscribe-form/types"
-import styles from "./styles.module.scss"
+import {
+  StyledFieldset,
+  StyledInput,
+  StyledMessage,
+  StyledSpinner,
+} from "./styled"
 
 const DEFAULT_FORM_STATE = {
   status: SubscribeFormStatuses.NONE,
@@ -72,29 +77,19 @@ export function SubscribeForm() {
   }
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className={cn(styles.subscribeForm, {
-        [styles[formState.status || ""]]: formState.status,
-      })}
-    >
-      <fieldset>
+    <form onSubmit={handleSubmit}>
+      <StyledFieldset>
         {!isSuccess && (
-          <label
-            className={cn(styles.subscribeLabel, "visually-hidden")}
-            htmlFor="subscribe-email"
-          >
+          <label style={hideVisually()} htmlFor="subscribe-email">
             Email:
           </label>
         )}
         {!isSuccess && (
-          <input
+          <StyledInput
+            $status={formState.status}
             type="email"
             id="subscribe-input"
             name="subscribe-email"
-            className={cn(styles.subscribeInput, {
-              [styles[formState.status || ""]]: formState.status,
-            })}
             readOnly={isLoading ? true : undefined}
             onChange={handleChange}
             value={value}
@@ -107,18 +102,18 @@ export function SubscribeForm() {
           />
         )}
         {formState.message && (
-          <p id="subscribe-message" className={styles.subscribeMessage}>
+          <StyledMessage id="subscribe-message" $status={formState.status}>
             {formState.message}
-          </p>
+          </StyledMessage>
         )}
         {!isSuccess && (
           <Button type="submit" size="sm" disabled={isLoading}>
-            <span className={styles.spinner}>
+            <StyledSpinner $status={formState.status}>
               {isLoading ? "▽" : "Subscribe"}
-            </span>
+            </StyledSpinner>
           </Button>
         )}
-      </fieldset>
+      </StyledFieldset>
     </form>
   )
 }
