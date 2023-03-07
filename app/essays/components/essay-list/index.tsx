@@ -1,8 +1,8 @@
 import propTypes from "prop-types"
 import { forwardRef, ReactElement, Ref } from "react"
-import { EssayListItem } from "../essay-list-item"
+import { StyledEssayList } from "./styled"
 import { EssayListComponentProps } from "./types"
-import styles from "./styles.module.scss"
+import { EssayListItem } from "../essay-list-item"
 
 const EssayList = forwardRef<HTMLUListElement, EssayListComponentProps>(
   EssayListComponent
@@ -31,15 +31,11 @@ function EssayListComponent(
   ref: Ref<HTMLUListElement>
 ): ReactElement {
   return (
-    <ul
-      ref={ref}
-      className={styles.essayList}
-      aria-label={`Essays, page ${data.index + 1}`}
-    >
+    <StyledEssayList ref={ref} aria-label={`Essays, page ${data.index + 1}`}>
       {data.essays.map((entry) => (
         <EssayListItem key={entry.metadata.slug} entry={entry} />
       ))}
-    </ul>
+    </StyledEssayList>
   )
 }
 

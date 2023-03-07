@@ -1,6 +1,6 @@
-@use "styles/vars" as vars;
+import styled from "styled-components"
 
-.essayContent {
+export const StyledEssayContent = styled.div`
   line-height: 2;
   max-width: 100%;
 
@@ -32,12 +32,12 @@
 
   code {
     font-family: monospace;
-    background-color: vars.$tertiary-color-2;
+    background-color: ${(p) => p.theme.colors.tertiary2};
     border-radius: 2px;
   }
 
   pre {
-    background-color: vars.$tertiary-color-2;
+    background-color: ${(p) => p.theme.colors.tertiary2};
     padding: 1rem;
     border-radius: 2px;
     word-break: break-word;
@@ -57,7 +57,7 @@
 
   hr {
     border: none;
-    border-block-start: 1px solid vars.$primary-color-2;
+    border-block-start: 1px solid ${(p) => p.theme.colors.primary2};
     margin: 3rem 0;
   }
 
@@ -87,14 +87,15 @@
     margin-block-end: 2rem;
     font-style: italic;
     padding-inline-start: 1.5rem;
-    border-inline-start: 3px solid rgba(vars.$tertiary-color-2, 0.2);
+    border-inline-start: 3px solid
+      rgba(${(p) => p.theme.colors.triplets.tertiary}, 0.2);
   }
-}
+`
 
-.essayBody {
+export const StyledEssayBody = styled.div`
   > p:first-of-type::first-letter {
     font-family: Georgia, "Times New Roman", Times, serif;
-    color: vars.$tertiary-color-1;
+    color: ${(p) => p.theme.colors.tertiary1};
     float: left;
     font-size: 4.5rem;
     padding: 0;
@@ -102,4 +103,4 @@
     margin: 0.65rem 0.75rem 0 0;
     line-height: 0.85;
   }
-}
+`

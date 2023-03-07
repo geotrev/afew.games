@@ -1,10 +1,12 @@
+"use client"
+
 import { ReactElement } from "react"
 import propTypes from "prop-types"
 import xss from "xss"
+import { EssayContentProps } from "./types"
+import { StyledEssayBody, StyledEssayContent } from "./styled"
 import { EssayFooter } from "../essay-footer"
 import { EssayHeader } from "../essay-header"
-import { EssayContentProps } from "./types"
-import styles from "./styles.module.scss"
 
 EssayContent.propTypes = {
   title: propTypes.string.isRequired,
@@ -22,13 +24,10 @@ export function EssayContent({
   return (
     <article>
       <EssayHeader title={title} description={description} date={date} />
-      <div className={styles.essayContent}>
-        <div
-          className={styles.essayBody}
-          dangerouslySetInnerHTML={{ __html: xss(content) }}
-        />
+      <StyledEssayContent>
+        <StyledEssayBody dangerouslySetInnerHTML={{ __html: xss(content) }} />
         <hr />
-      </div>
+      </StyledEssayContent>
       <EssayFooter />
     </article>
   )
