@@ -40,7 +40,7 @@
         {
           "name": "Pokemon Yellow Version: Special Pikachu Edition",
           "grade": "9.4",
-          "variant": "Pixelated Rating, Rattata Screenshot, 9.4 (box), 9.0 (manual), 9.4 (cartridge); 9.6 GSI (Yellow Player's Guide Offer - DMG-APSE-USA); 9.6 GSI (Pokemon Stadium Ad - J/CGB-S-UCPS-USA)",
+          "variant": "Pixelated Rating, Rattata Screenshot, 9.4 (box), 9.0 (manual), 9.4 (Yellow Player's Guide Offer); 9.6 (Pokemon Stadium Ad)",
           "grader": "Wata"
         },
         {
@@ -52,7 +52,7 @@
         {
           "name": "The Legend of Zelda: Link's Awakening",
           "grade": "9.4",
-          "variant": "3-Line Warranty, 9.4 (box), 9.4 (manual), 9.2 (cartridge)",
+          "variant": "Made in Japan, 9.4 (box), 9.4 (manual), 9.2 (cartridge)",
           "grader": "Wata"
         }
       ]
@@ -60,6 +60,12 @@
     {
       "platform": "Game Boy Color",
       "games": [
+        {
+          "name": "Pocket Monsters Gin",
+          "grade": "90+",
+          "variant": "No Seal, Japanese Version",
+          "grader": "VGA"
+        },
         {
           "name": "Pocket Monsters Kin",
           "grade": "90",
@@ -239,18 +245,6 @@
       "platform": "DS",
       "games": [
         {
-          "name": "Super Mario 64 DS ",
-          "grade": "9.6 A",
-          "variant": "Y-Fold",
-          "grader": "CGC"
-        },
-        {
-          "name": "Mega Man Battle Network: Double Team DS",
-          "grade": "9.8 A++",
-          "variant": "Y-Fold",
-          "grader": "CGC"
-        },
-        {
           "name": "Pokemon Platinum",
           "grade": "85+",
           "variant": "Y-Fold",
@@ -275,6 +269,12 @@
           "grader": "VGA"
         },
         {
+          "name": "Kingdom Hearts Re:Coded",
+          "grade": "95",
+          "variant": "Y-Fold, Foil, 1120100A",
+          "grader": "VGA"
+        },
+        {
           "name": "Kingdom Hearts 358/2 Days",
           "grade": "95",
           "variant": "Y-Fold, Limited Edition Cover Art Sleeve, 580100",
@@ -287,10 +287,22 @@
           "grader": "VGA"
         },
         {
+          "name": "Mega Man Battle Network: Double Team DS",
+          "grade": "9.8 A++",
+          "variant": "Y-Fold",
+          "grader": "CGC"
+        },
+        {
           "name": "Rockman.EXE Operate Shooting Star",
           "variant": "Y-Fold, Assembled in Japan, Japanese Version",
           "grader": "Wata",
           "grade": "9.8 A+"
+        },
+        {
+          "name": "Super Mario 64 DS ",
+          "grade": "9.6 A",
+          "variant": "Y-Fold",
+          "grader": "CGC"
         }
       ]
     },
