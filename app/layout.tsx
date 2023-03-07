@@ -3,7 +3,6 @@ import { PropsWithChildren } from "react"
 import { RouteTracker } from "app/components/route-tracker"
 import { StyledComponentsRegistry } from "./components/styled-registry"
 import { App } from "./app"
-import "styles/globals.scss"
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (

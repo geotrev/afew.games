@@ -61,12 +61,12 @@ export const StyledInput = styled.input<FormStatus>`
   border-radius: 4px;
   border: 2px solid transparent;
   margin-block-end: 0.25rem;
-  background: rgba(${(p) => p.theme.colors.triplets.primary}, 0.1);
+  background: rgba(${(p) => p.theme.colors.triplets.tertiary}, 0.125);
   padding: 0.25rem 0.5rem;
 
   &:focus,
   &:hover {
-    background: rgba(${(p) => p.theme.colors.triplets.tertiary}, 0.25);
+    background: rgba(${(p) => p.theme.colors.triplets.tertiary}, 0.2);
     border-block-end-color: ${(p) => p.theme.colors.tertiary1};
     border-block-end-width: 2px;
     outline: 0;
