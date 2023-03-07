@@ -15,12 +15,6 @@
       "platform": "SNES",
       "games": [
         {
-          "name": "The Legend of Zelda: A Link to the Past",
-          "grade": "9.2",
-          "variant": "Made in Japan, Black Label; 9.0 (box), 9.6 (cart), 9.4 (manual)",
-          "grader": "Wata"
-        },
-        {
           "name": "F-Zero",
           "variant": "V-Seam, Made in Japan, E Rating, 83% Fiber, 3 Line Warranty box, Players Choice (1997)",
           "grader": "Wata",
@@ -71,12 +65,6 @@
           "grade": "90",
           "variant": "No Seal, Japanese Version",
           "grader": "VGA"
-        },
-        {
-          "name": "The Legend of Zelda: Oracle of Ages",
-          "grade": "9.4 A+",
-          "variant": "H-Seam, Made in Japan, Foil, Seal applied 90 degrees rotated",
-          "grader": "Wata"
         },
         {
           "name": "Pocket Monsters: Crystal Version",
@@ -228,12 +216,6 @@
           "grade": "9.6 A+"
         },
         {
-          "name": "Super Mario Advance 4: Super Mario Bros 3",
-          "variant": "H-Seam, W/ Two Bonus Level Cards",
-          "grader": "Wata",
-          "grade": "9.6 A++"
-        },
-        {
           "name": "Kingdom Hearts: Chain of Memories",
           "variant": "3-Side Seam, Made in Japan, E Rating, Double-Ended Box (USA Code)",
           "grader": "Wata",
@@ -331,18 +313,6 @@
           "name": "Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey",
           "grade": "95+",
           "variant": "Y-Fold, 108503A",
-          "grader": "VGA"
-        },
-        {
-          "name": "Nintendo 3DS XL: Majora's Mask Edition",
-          "grade": "85+",
-          "grader": "VGA",
-          "variant": "No Seal"
-        },
-        {
-          "name": "Nintendo 3DS XL: Hyrule Edition",
-          "grade": "85+",
-          "variant": "No Seal, GameStop Exclusive",
           "grader": "VGA"
         },
         {
@@ -466,7 +436,7 @@
         {
           "name": "Hunter: The Reckoning",
           "variant": "Y-Fold, Made in USA",
-          "grade": "9.4 A",
+          "grade": "9.6 A+",
           "grader": "Wata"
         },
         {
