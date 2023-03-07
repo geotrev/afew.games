@@ -462,15 +462,21 @@
       "platform": "Wii U",
       "games": [
         {
-          "name": "Mario Kart 8 (Limited Edition)",
-          "grade": "85+",
-          "variant": "Sticker Seal, Nintendo World NY Exclusive, W/ Blue Shell Figure",
+          "name": "Bayonetta 2",
+          "variant": "Y-Fold, Made in USA, M Rating, w/ Bayonetta Game Disc, 83663A",
+          "grader": "Wata",
+          "grade": "9.6 A++"
+        },
+        {
+          "name": "Hyrule Warriors",
+          "grade": "95+",
+          "variant": "Y-Fold, 83662A",
           "grader": "VGA"
         },
         {
-          "name": "Super Smash Bros. For Wii U",
+          "name": "Mario Kart 8 (Limited Edition)",
           "grade": "85+",
-          "variant": "Sticker Seal, W/ Controller and Adapter",
+          "variant": "Sticker Seal, Nintendo World NY Exclusive, W/ Blue Shell Figure",
           "grader": "VGA"
         },
         {
@@ -481,14 +487,14 @@
         },
         {
           "name": "Super Smash Bros. For Wii U",
-          "grade": "95+",
-          "variant": "Y-Fold, 83664A",
+          "grade": "85+",
+          "variant": "Sticker Seal, W/ Controller and Adapter",
           "grader": "VGA"
         },
         {
-          "name": "Hyrule Warriors",
+          "name": "Super Smash Bros. For Wii U",
           "grade": "95+",
-          "variant": "Y-Fold, 83662A",
+          "variant": "Y-Fold, 83664A",
           "grader": "VGA"
         },
         {
@@ -502,12 +508,6 @@
           "variant": "Y-Fold, Made in Japan, E 10+ rating, 7 Controllers",
           "grader": "Wata",
           "grade": "9.6 A+"
-        },
-        {
-          "name": "Bayonetta 2",
-          "variant": "Y-Fold, Made in USA, M Rating, w/ Bayonetta Game Disc, 83663A",
-          "grader": "Wata",
-          "grade": "9.6 A++"
         }
       ]
     },
