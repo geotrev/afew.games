@@ -5,7 +5,13 @@ import { DATABASE_FIELDS } from "app/constants"
 import { COLUMN_LABELS, COLUMN_WIDTHS } from "./constants"
 import { DatabaseGame, DatabaseVariant } from "app/types/games"
 import { DatabaseListProps } from "./types"
-import styles from "./styles.module.scss"
+import {
+  StyledDatabaseList,
+  StyledDatabaseMinimizeBar,
+  StyledGameHeading,
+  StyledGameHeadingLabel,
+  StyledPlatformHeading,
+} from "./styled"
 
 DatabaseList.propTypes = {
   games: propTypes.arrayOf(propTypes.object),
@@ -51,9 +57,9 @@ export function DatabaseList({
   function renderVariants(data: DatabaseGame) {
     return (
       <li key={data.name}>
-        <h3 className={styles.gameHeading}>
-          <span className={styles.gameHeadingLabel}>{data.name}</span>
-        </h3>
+        <StyledGameHeading>
+          <StyledGameHeadingLabel>{data.name}</StyledGameHeadingLabel>
+        </StyledGameHeading>
         <table>
           <thead>{renderVariantHeaderRow()}</thead>
           <tbody>{data.variants!.map(renderVariantRow)}</tbody>
@@ -64,17 +70,13 @@ export function DatabaseList({
 
   function renderList() {
     if (!opened) {
-      return <hr className={styles.databaseMinimizeBar} />
+      return <StyledDatabaseMinimizeBar />
     }
 
     return (
-      <ul
-        aria-labelledby={`header-${id}`}
-        id={`list-${id}`}
-        className={styles.databaseList}
-      >
+      <StyledDatabaseList aria-labelledby={`header-${id}`} id={`list-${id}`}>
         {games.map(renderVariants)}
-      </ul>
+      </StyledDatabaseList>
     )
   }
 
@@ -84,9 +86,7 @@ export function DatabaseList({
 
   return (
     <>
-      <h2 id={`header-${id}`} className={styles.platformHeading}>
-        {label}
-      </h2>
+      <StyledPlatformHeading id={`header-${id}`}>{label}</StyledPlatformHeading>
       <CollectionListToolbar
         label="game"
         pluralLabel="games"
