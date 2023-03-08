@@ -45,6 +45,7 @@ export const theme = {
     text: `rgb(${ColorTriplets.text})`,
 
     // Color triplets
+    // Used for gradients or alpha
     triplets: { ...ColorTriplets },
   },
 
