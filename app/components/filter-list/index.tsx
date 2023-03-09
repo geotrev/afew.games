@@ -1,3 +1,5 @@
+"use client"
+
 import {
   useState,
   useCallback,
@@ -5,10 +7,15 @@ import {
   MouseEventHandler,
 } from "react"
 import propTypes from "prop-types"
-import cn from "classnames"
 import { Button } from "app/components"
 import { FilterListProps } from "./types"
-import styles from "./styles.module.scss"
+import {
+  StyledFilterList,
+  StyledFilterListItems,
+  StyledFilterListReset,
+  StyledFilterListToggle,
+  StyledFilterControls,
+} from "./styled"
 
 FilterOptions.propTypes = {
   items: propTypes.arrayOf(
@@ -97,8 +104,8 @@ export function FilterOptions({
   }, [opened])
 
   return (
-    <div className={styles.filterList}>
-      <div className={styles.filterListToggle}>
+    <StyledFilterList>
+      <StyledFilterListToggle>
         <Button
           id="filter-toggle"
           bare
@@ -108,9 +115,9 @@ export function FilterOptions({
         >
           <span aria-hidden="true">{opened ? "–" : "+"}</span> Filter Options
         </Button>
-      </div>
-      <div
-        className={cn({ [styles.hidden]: !opened })}
+      </StyledFilterListToggle>
+      <StyledFilterControls
+        $hidden={!opened}
         id="filter-controls"
         role="region"
         aria-labelledby="filter-toggle"
@@ -120,7 +127,7 @@ export function FilterOptions({
           role="grid"
         >
           <div role="rowgroup">
-            <div className={styles.filterListItems} role="row">
+            <StyledFilterListItems role="row">
               {items.map((item, idx) => {
                 return (
                   <div key={item.value} role="gridcell">
@@ -138,10 +145,10 @@ export function FilterOptions({
                   </div>
                 )
               })}
-            </div>
+            </StyledFilterListItems>
           </div>
         </div>
-        <div className={styles.filterListReset}>
+        <StyledFilterListReset>
           <Button
             onClick={handleReset}
             aria-disabled={noneSelected ? true : undefined}
@@ -150,8 +157,8 @@ export function FilterOptions({
           >
             <span aria-hidden="true">𐌗&nbsp;&nbsp;</span>Reset Filter
           </Button>
-        </div>
-      </div>
-    </div>
+        </StyledFilterListReset>
+      </StyledFilterControls>
+    </StyledFilterList>
   )
 }

@@ -1,3 +1,5 @@
+"use client"
+
 import propTypes from "prop-types"
 import { ReactElement } from "react"
 import { SearchProps } from "./types"
