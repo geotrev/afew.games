@@ -1,7 +1,11 @@
 import propTypes from "prop-types"
 import { ReactElement } from "react"
 import { SearchProps } from "./types"
-import styles from "./styles.module.scss"
+import {
+  StyledSearchContainer,
+  StyledSearchLabel,
+  StyledSearchInput,
+} from "./styled"
 
 Search.propTypes = {
   value: propTypes.string,
@@ -17,12 +21,9 @@ export function Search({
   handleChange,
 }: SearchProps): ReactElement {
   return (
-    <div className={styles.searchContainer}>
-      <label htmlFor="search" className={styles.searchLabel}>
-        {label}
-      </label>
-      <input
-        className={styles.searchInput}
+    <StyledSearchContainer>
+      <StyledSearchLabel htmlFor="search">{label}</StyledSearchLabel>
+      <StyledSearchInput
         name="collection-search"
         type="search"
         placeholder={placeholder}
@@ -30,6 +31,6 @@ export function Search({
         onChange={handleChange}
         value={value || ""}
       />
-    </div>
+    </StyledSearchContainer>
   )
 }

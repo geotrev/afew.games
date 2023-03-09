@@ -8,10 +8,10 @@ import {
   ReactElement,
 } from "react"
 import propTypes from "prop-types"
-import { Button } from "../button"
-import styles from "./styles.module.scss"
 import { PaginationProps } from "./types"
 import { PaginationListItems } from "./pagination-list-items"
+import { StyledPagination, StyledPageItemBreak } from "./styled"
+import { Button } from "../button"
 
 Pagination.propTypes = {
   count: propTypes.number.isRequired,
@@ -117,7 +117,7 @@ export function Pagination(props: PaginationProps): ReactElement | null {
       aria-label="Use left and right arrow keys to focus page numbers"
     >
       <nav aria-label="Pagination" onKeyDown={handleKeydown}>
-        <ul className={styles.pagination}>
+        <StyledPagination>
           <li>
             <Button
               onKeyDown={(e) => e.stopPropagation()}
@@ -139,14 +139,14 @@ export function Pagination(props: PaginationProps): ReactElement | null {
               {"Newer"}
             </Button>
           </li>
-          <li aria-hidden="true" className={styles.paginationBreak} />
+          <StyledPageItemBreak aria-hidden="true" />
           <PaginationListItems
             indices={visibleIndexRange}
             activeIndex={activePageIndex}
             handleClick={onPageClick}
             paginationIndex={rovingIndex}
           />
-          <li aria-hidden="true" className={styles.paginationBreak} />
+          <StyledPageItemBreak aria-hidden="true" />
           <li>
             <Button
               onKeyDown={(e) => e.stopPropagation()}
@@ -168,7 +168,7 @@ export function Pagination(props: PaginationProps): ReactElement | null {
               <span aria-hidden="true">{"≫"}</span>
             </Button>
           </li>
-        </ul>
+        </StyledPagination>
       </nav>
     </div>
   )
