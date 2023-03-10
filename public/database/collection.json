@@ -4,6 +4,80 @@
       "platform": "NES",
       "games": [
         {
+          "name": "Super Mario Bros. 2",
+          "variants": [
+            {
+              "notes": "Oval SOQ R, \"USA and Canada\" text",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ R, \"USA, Canada and Mexico\" text"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ R, 3 Line Warranty Box"
+            },
+            {
+              "notes": "Oval SOQ R, 4 Line Warranty Box",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ TM, \"USA and Canada\" text"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Round SOQ"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": " Rev-A, round SOQ"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, oval SOQ TM, 1989, \"USA and Canada\" text"
+            },
+            {
+              "notes": "Rev-A, oval SOQ TM, 1989, \"USA Canada and Mexico\" text",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Rev-A, oval SOQ TM, 1987",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Rev-A, oval SOQ R",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A, NES TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A, NES R, water screenshot"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A, NES R, ladder screenshot"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Classic Series"
+            }
+          ]
+        },
+        {
           "name": "Super Mario Bros.",
           "variants": [
             {
