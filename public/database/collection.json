@@ -556,6 +556,16 @@
       "platform": "DS",
       "games": [
         {
+          "name": "The World Ends With You",
+          "variants": [
+            {
+              "part_code": "350100",
+              "manufactured": "Japan",
+              "mpn": "NTR P AWLE"
+            }
+          ]
+        },
+        {
           "name": "Kingdom Hearts 358/2 Days",
           "variants": [
             {
