@@ -1,6 +1,85 @@
 {
   "platforms": [
     {
+      "platform": "NES",
+      "games": [
+        {
+          "name": "Super Mario Bros.",
+          "variants": [
+            {
+              "notes": "Rev-A, oval SOQ TM, \"USA and Canada\" text",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, oval SOQ TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, oval SOQ R"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, round SOQ"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code, NES TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, gloss sticker"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, matte sticker"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Bros. 3",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ TM, Right \"Bros.\""
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ TM, Left \"Bros.\""
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ R, \"USA, Canada, and Mexico\" text"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ R, \"USA and Canada\" text"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "NFR (Challenge Set)"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "platform": "SNES",
       "games": [
         {
