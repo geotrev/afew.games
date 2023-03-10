@@ -556,6 +556,45 @@
       "platform": "DS",
       "games": [
         {
+          "name": "Kingdom Hearts 358/2 Days",
+          "variants": [
+            {
+              "part_code": "580100",
+              "manufactured": "Japan",
+              "mpn": "NTR P YKGE",
+              "notes": "Limited edition w/ slip cover"
+            },
+            {
+              "part_code": "580100",
+              "manufactured": "Japan",
+              "mpn": "NTR P YKGE"
+            }
+          ]
+        },
+        {
+          "name": "Kingdom Hearts Re: Coded",
+          "variants": [
+            {
+              "part_code": "1120100A",
+              "manufactured": "Japan",
+              "mpn": "NTR P BK9E",
+              "notes": "No foil"
+            },
+            {
+              "part_code": "1120100A",
+              "manufactured": "Japan",
+              "mpn": "NTR P BK9E",
+              "notes": "Light foil"
+            },
+            {
+              "notes": "Heavy foil",
+              "part_code": "1120100A",
+              "manufactured": "Japan",
+              "mpn": "NTR P BK9E"
+            }
+          ]
+        },
+        {
           "name": "Metroid Prime Hunters",
           "variants": [
             {
