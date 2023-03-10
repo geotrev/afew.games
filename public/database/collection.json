@@ -4,6 +4,65 @@
       "platform": "SNES",
       "games": [
         {
+          "name": "Super Mario World",
+          "variants": [
+            {
+              "notes": "Player's Choice",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "4 line warranty box",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "3 line warranty box",
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Donkey Kong Country",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Player's Choice"
+            },
+            {
+              "notes": "No ESRB rating above UPC",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "ESRB rating above UPC"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Kart",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "E rating"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "K-A rating"
+            },
+            {
+              "manufactured": "Mexico",
+              "notes": "Player's Choice"
+            },
+            {
+              "notes": "With \"Game Pak\" text",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "No \"Game Pak\" text",
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
           "name": "Super Star Wars",
           "variants": [
             {
