@@ -286,15 +286,15 @@
       "platform": "3DS",
       "games": [
         {
-          "variant": "Y-Fold, Nintendo Network badge, 83565A",
-          "grader": "VGA",
-          "grade": "95+",
-          "name": "Super Smash Bros. for 3DS"
-        },
-        {
           "name": "Hyrule Warriors Legends",
           "grade": "95+",
           "variant": "Y-Fold, 103361A",
+          "grader": "VGA"
+        },
+        {
+          "name": "Metroid: Samus Returns",
+          "grade": "85+",
+          "variant": "No Seal, Special Edition",
           "grader": "VGA"
         },
         {
@@ -310,15 +310,9 @@
           "grader": "VGA"
         },
         {
-          "name": "Pokemon UltraSun & UltraMoon",
-          "variant": "Sticker Seal, 2-Pack",
+          "name": "Pokemon Moon",
           "grade": "85+",
-          "grader": "VGA"
-        },
-        {
-          "name": "Metroid: Samus Returns",
-          "grade": "85+",
-          "variant": "No Seal, Special Edition",
+          "variant": "Sticker Seal, Wal-Mart Exclusive w/ Lunala Figurine, 104302A",
           "grader": "VGA"
         },
         {
@@ -328,16 +322,22 @@
           "grader": "VGA"
         },
         {
-          "name": "Pokemon Moon",
-          "grade": "85+",
-          "variant": "Sticker Seal, Wal-Mart Exclusive w/ Lunala Figurine, 104302A",
-          "grader": "VGA"
-        },
-        {
           "name": "Pokemon Sun",
           "grade": "90",
           "variant": "Sticker Seal, Walmart Exclusive w/ Solgaleo Figurine, 104299A",
           "grader": "VGA"
+        },
+        {
+          "name": "Pokemon UltraSun & UltraMoon",
+          "variant": "Sticker Seal, 2-Pack",
+          "grade": "85+",
+          "grader": "VGA"
+        },
+        {
+          "variant": "Y-Fold, Nintendo Network badge, 83565A",
+          "grader": "VGA",
+          "grade": "95+",
+          "name": "Super Smash Bros. for 3DS"
         }
       ]
     },
