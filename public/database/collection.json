@@ -4,6 +4,56 @@
       "platform": "NES",
       "games": [
         {
+          "name": "Castlevania II: Simon's Quest",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Round SOQ"
+            }
+          ]
+        },
+        {
+          "name": "Metroid",
+          "variants": [
+            {
+              "notes": "Classic Series",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ TM, 1989"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ TM, 1988"
+            },
+            {
+              "notes": "Rev-A, oval SOQ TM, 1987",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Rev-A, oval SOQ R",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, round SOQ"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab"
+            }
+          ]
+        },
+        {
           "name": "Zelda II: The Adventure of Link",
           "variants": [
             {
