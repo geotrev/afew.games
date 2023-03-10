@@ -4,6 +4,75 @@
       "platform": "SNES",
       "games": [
         {
+          "name": "Super Star Wars",
+          "variants": [
+            {
+              "manufactured": "Mexico",
+              "notes": "Player's Choice"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Player's Choice"
+            },
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Street Fighter II",
+          "variants": [
+            {
+              "notes": "Assembled in Mexico, distributed by Majesco",
+              "manufactured": "Mexico"
+            },
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: A Link to the Past",
+          "variants": [
+            {
+              "notes": "Player's Choice, E rating",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Player's Choice, K-A rating"
+            },
+            {
+              "manufactured": "Mexico",
+              "notes": "Player's Choice"
+            },
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "F-Zero",
+          "variants": [
+            {
+              "notes": "Players Choice, E rating",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Players Choice, K-A rating",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Upright recycle symbol"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Made in Japan, upside-down recycle symbol"
+            }
+          ]
+        },
+        {
           "name": "Mega man X",
           "variants": [
             {
