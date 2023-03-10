@@ -4,6 +4,34 @@
       "platform": "SNES",
       "games": [
         {
+          "name": "Super Star Wars",
+          "variants": [
+            {
+              "manufactured": "Mexico",
+              "notes": "Player's Choice"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Player's Choice"
+            },
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Street Fighter II",
+          "variants": [
+            {
+              "notes": "Assembled in Mexico, distributed by Majesco",
+              "manufactured": "Mexico"
+            },
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
           "name": "The Legend of Zelda: A Link to the Past",
           "variants": [
             {
