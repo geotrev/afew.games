@@ -4,6 +4,27 @@
       "platform": "SNES",
       "games": [
         {
+          "name": "F-Zero",
+          "variants": [
+            {
+              "notes": "Players Choice, E rating",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Players Choice, K-A rating",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Upright recycle symbol"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Made in Japan, upside-down recycle symbol"
+            }
+          ]
+        },
+        {
           "name": "Mega man X",
           "variants": [
             {
