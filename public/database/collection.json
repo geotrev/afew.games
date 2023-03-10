@@ -4,6 +4,26 @@
       "platform": "SNES",
       "games": [
         {
+          "name": "The Legend of Zelda: A Link to the Past",
+          "variants": [
+            {
+              "notes": "Player's Choice, E rating",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Player's Choice, K-A rating"
+            },
+            {
+              "manufactured": "Mexico",
+              "notes": "Player's Choice"
+            },
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
           "name": "F-Zero",
           "variants": [
             {
