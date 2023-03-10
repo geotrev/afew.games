@@ -4,6 +4,31 @@
       "platform": "NES",
       "games": [
         {
+          "name": "Zelda II: The Adventure of Link",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Classic Series"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ TM, 1989"
+            },
+            {
+              "notes": "Oval SOQ TM, 1988",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Oval SOQ R",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Round SOQ",
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
           "name": "Super Mario Bros. 2",
           "variants": [
             {
