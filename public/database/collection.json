@@ -1,6 +1,28 @@
 {
   "platforms": [
     {
+      "platform": "SNES",
+      "games": [
+        {
+          "name": "Mega man X",
+          "variants": [
+            {
+              "notes": "Assembled in Mexico, distributed by Majesco, H-overlap seam, upright SNES Code",
+              "manufactured": "Mexico"
+            },
+            {
+              "manufactured": "Mexico",
+              "notes": "Assembled in Mexico, distributed by Majesco, H-overlap seam, upside-down SNES code"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
       "platform": "Game Boy Advance",
       "games": [
         {
