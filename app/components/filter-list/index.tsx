@@ -134,7 +134,7 @@ export function FilterOptions({
                     <Button
                       tabIndex={rovingIndex === idx ? 0 : -1}
                       selected={item.selected}
-                      cornerType="round"
+                      cornerStyle="round"
                       data-item-value={item.value}
                       aria-pressed={item.selected}
                       onClick={handleItemClick}

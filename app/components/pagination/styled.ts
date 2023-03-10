@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const StyledPagination = styled.div`
+export const StyledPagination = styled.ul`
   display: flex;
   flex-flow: row wrap;
   gap: 0.5rem;
@@ -10,8 +10,7 @@ export const StyledPagination = styled.div`
     justify-content: flex-start;
   }
 `
-
-export const StyledPageItemBreak = styled.div`
+export const StyledPageItemBreak = styled.li`
   flex-basis: 100%;
 
   @media (min-width: 640px) {
