@@ -4,6 +4,34 @@
       "platform": "SNES",
       "games": [
         {
+          "name": "Super Mario RPG: Legend of the Seven Stars",
+          "variants": [
+            {
+              "manufactured": "Mexico"
+            },
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Super Metroid",
+          "variants": [
+            {
+              "notes": "Player's Choice",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Phantoon screenshot",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Torizo statue screenshot"
+            }
+          ]
+        },
+        {
           "name": "Super Mario World",
           "variants": [
             {
