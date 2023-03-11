@@ -4,6 +4,1268 @@
       "platform": "NES",
       "games": [
         {
+          "name": "Volleyball",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code, NES TM, Title TM"
+            }
+          ]
+        },
+        {
+          "name": "Slalom",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, Round SOQ"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, oval SOQ TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code, NES TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code"
+            }
+          ]
+        },
+        {
+          "name": "Pro Wrestling",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A"
+            },
+            {
+              "notes": "No Rev-A",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES Code, NES TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code"
+            }
+          ]
+        },
+        {
+          "name": "Urban Champion",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES Code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES Code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "No Rev-A",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A"
+            }
+          ]
+        },
+        {
+          "name": "Popeye",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, gloss sticker"
+            },
+            {
+              "notes": "Hangtab, gloss sticker, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES Code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES Code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A"
+            }
+          ]
+        },
+        {
+          "name": "Mario Bros.",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, gloss sticker"
+            },
+            {
+              "notes": "Hangtab, gloss sticker, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, UPC digits aligned"
+            },
+            {
+              "notes": "Rev-A, UPC digits staggered",
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Mach Rider",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "No Rev-A",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, UPC digits leveled"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, UPC digits staggered"
+            }
+          ]
+        },
+        {
+          "name": "Gumshoe",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Donkey Kong Jr. Math",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, gloss sticker, NES-GP"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Donkey Kong Jr.",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            }
+          ]
+        },
+        {
+          "name": "Donkey Kong 3",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, gloss sticker"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, gloss sticker, NES GP"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code, NES TM"
+            },
+            {
+              "notes": "No Rev-A",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Rev-A",
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Donkey Kong",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, gloss sticker"
+            },
+            {
+              "notes": "Hangtab, gloss sticker, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code, NES TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            }
+          ]
+        },
+        {
+          "name": "Wrecking Crew",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, matte sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A"
+            }
+          ]
+        },
+        {
+          "name": "Wild Gunman",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, gloss sticker"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, matte sticker"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code, NES TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A"
+            }
+          ]
+        },
+        {
+          "name": "Tennis",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, matte sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "notes": "Rev-A, round SOQ, UPC digits aligned",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Rev-A, round SOQ, UPC digits staggered",
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Soccer",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, matte sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Pinball",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, matte sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, oval SOQ TM"
+            },
+            {
+              "notes": "Rev-A, round SOQ, UPC digits aligned",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Rev-A, round SOQ, UPC digits staggered",
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Kung Fu",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, matte sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, oval SOQ R"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, oval SOQ TM"
+            },
+            {
+              "notes": "Rev-A, round SOQ, UPC digits aligned",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Rev-A, round SOQ, UPC digits staggered",
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Ice Climber",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, matte sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A"
+            }
+          ]
+        },
+        {
+          "name": "Hogan's Alley",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, matte sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, oval SOQ TM"
+            },
+            {
+              "notes": "Rev-A, round SOQ, UPC digits aligned",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Rev-A, round SOQ, UPC digits staggered",
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Gyromite",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, matte sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            }
+          ]
+        },
+        {
+          "name": "Golf",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, matte sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, oval SOQ R"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, oval SOQ TM"
+            },
+            {
+              "notes": "Rev-A, round SOQ, UPC digits aligned",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Rev-A, round SOQ, UPC digits staggered",
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Excitebike",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, matte sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, oval SOQ TM"
+            },
+            {
+              "notes": "Rev-A, round SOQ, UPC digits aligned",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Rev-A, round SOQ, UPC digits staggered",
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Duck Hunt",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, matte sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A"
+            }
+          ]
+        },
+        {
+          "name": "Clu Clu Land",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, matte sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Baseball",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, matte sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A"
+            }
+          ]
+        },
+        {
+          "name": "Balloon Fight",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A"
+            }
+          ]
+        },
+        {
+          "name": "10-Yard Fight",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, matte sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man 6",
+          "variants": [
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man 5",
+          "variants": [
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man 4",
+          "variants": [
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man 3",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Capcom offer removed"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Capcom offer"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man 2",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ R"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man",
+          "variants": [
+            {
+              "notes": "Oval SOQ R",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Round SOQ, \"Dr. Wily\" corrected"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Round SOQ, \"Dr. Wily\" corrected, Captain Commando sticker"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Round SOQ, \"Dr. Wright\" typo"
+            }
+          ]
+        },
+        {
+          "name": "Castlevania III: Dracula's Curse",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Dracula's Hometown offer"
+            },
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Castlevania II: Simon's Quest",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Round SOQ"
+            }
+          ]
+        },
+        {
+          "name": "Castlevania",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, oval SOQ TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, round SOQ"
+            },
+            {
+              "notes": "No Rev-A",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab"
+            }
+          ]
+        },
+        {
+          "name": "Tetris",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Tengen"
+            },
+            {
+              "notes": "Nintendo, oval SOQ TM, \"USA, Canada and Mexico\" text",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Nintendo, oval SOQ TM, \"USA and Canada\" text"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Nintendo, oval SOQ R, 4 line warranty"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Nintendo, oval SOQ R, 3 line warranty"
+            }
+          ]
+        },
+        {
+          "name": "Metroid",
+          "variants": [
+            {
+              "notes": "Classic Series",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ TM, 1989"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ TM, 1988"
+            },
+            {
+              "notes": "Rev-A, oval SOQ TM, 1987",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Rev-A, oval SOQ R",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, round SOQ"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab"
+            }
+          ]
+        },
+        {
+          "name": "Zelda II: The Adventure of Link",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Classic Series"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ TM, 1989"
+            },
+            {
+              "notes": "Oval SOQ TM, 1988",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Oval SOQ R",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Round SOQ",
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Bros. 2",
+          "variants": [
+            {
+              "notes": "Oval SOQ R, \"USA and Canada\" text",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ R, \"USA, Canada and Mexico\" text"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ R, 3 line warranty"
+            },
+            {
+              "notes": "Oval SOQ R, 4 line warranty",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ TM, \"USA and Canada\" text"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Round SOQ"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": " Rev-A, round SOQ"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, oval SOQ TM, 1989, \"USA and Canada\" text"
+            },
+            {
+              "notes": "Rev-A, oval SOQ TM, 1989, \"USA Canada and Mexico\" text",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Rev-A, oval SOQ TM, 1987",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Rev-A, oval SOQ R",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A, NES TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A, NES R, water screenshot"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A, NES R, ladder screenshot"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Classic Series"
+            }
+          ]
+        },
+        {
           "name": "Super Mario Bros.",
           "variants": [
             {
