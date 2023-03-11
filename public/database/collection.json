@@ -210,25 +210,196 @@
           ]
         },
         {
-          "name": "Gumshoe"
+          "name": "Gumshoe",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            }
+          ]
         },
         {
-          "name": "Donkey Kong Jr. Math"
+          "name": "Donkey Kong Jr. Math",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, gloss sticker, NES-GP"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            }
+          ]
         },
         {
-          "name": "Donkey Kong Jr."
+          "name": "Donkey Kong Jr.",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            }
+          ]
         },
         {
-          "name": "Donkey Kong 3"
+          "name": "Donkey Kong 3",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, gloss sticker"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, gloss sticker, NES GP"
+            },
+            {
+              "notes": "Hangtab, NES-GP"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM"
+            },
+            {
+              "notes": "No Rev-A",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Rev-A",
+              "manufactured": "Japan"
+            }
+          ]
         },
         {
-          "name": "Donkey Kong"
+          "name": "Donkey Kong",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, gloss sticker"
+            },
+            {
+              "notes": "Hangtab, gloss sticker, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            }
+          ]
         },
         {
-          "name": "Wrecking Crew"
+          "name": "Wrecking Crew",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, matte sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A"
+            }
+          ]
         },
         {
-          "name": "Wild Gunman"
+          "name": "Wild Gunman",
+          "variants": [
+            {}
+          ]
         },
         {
           "name": "Tennis"
