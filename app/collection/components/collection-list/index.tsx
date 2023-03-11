@@ -1,9 +1,13 @@
-import { useState, useEffect, ReactElement } from "react"
+import { useState, useEffect } from "react"
 import propTypes from "prop-types"
 import { CollectionListToolbar } from "app/components"
 import { CollectionItem } from "../collection-item"
 import { CollectionListProps } from "./types"
-import styles from "./styles.module.scss"
+import {
+  StyledCollectionList,
+  StyledCollectionMinimizeBar,
+  StyledPlatformHeading,
+} from "./styled"
 
 CollectionList.propTypes = {
   games: propTypes.arrayOf(
@@ -18,34 +22,26 @@ CollectionList.propTypes = {
   id: propTypes.string,
 }
 
-export function CollectionList({
-  games,
-  label,
-  id,
-}: CollectionListProps): ReactElement | null {
+export function CollectionList({ games, label, id }: CollectionListProps) {
   const [opened, setOpened] = useState<boolean>(true)
   const length = games.length
 
-  // Re-expand games while searching for visibility
   useEffect(() => {
+    // Re-expand games while searching for visibility
     setOpened(true)
   }, [games])
 
   function renderList() {
     if (!opened) {
-      return <hr className={styles.collectionMinimizeBar} />
+      return <StyledCollectionMinimizeBar />
     }
 
     return (
-      <ul
-        aria-labelledby={`header-${id}`}
-        id={`list-${id}`}
-        className={styles.collectionList}
-      >
+      <StyledCollectionList aria-labelledby={`header-${id}`} id={`list-${id}`}>
         {games.map((data) => (
           <CollectionItem key={`${data.name}-${data.grade}`} data={data} />
         ))}
-      </ul>
+      </StyledCollectionList>
     )
   }
 
@@ -55,9 +51,7 @@ export function CollectionList({
 
   return (
     <>
-      <h2 id={`header-${id}`} className={styles.platformHeading}>
-        {label}
-      </h2>
+      <StyledPlatformHeading id={`header-${id}`}>{label}</StyledPlatformHeading>
       <CollectionListToolbar
         label="game"
         pluralLabel="games"
