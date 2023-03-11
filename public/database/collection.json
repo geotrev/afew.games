@@ -2162,91 +2162,6 @@
       "platform": "GameCube",
       "games": [
         {
-          "name": "Metroid Prime 2: Echoes",
-          "variants": [
-            {
-              "notes": "",
-              "part_code": "56097A",
-              "satellite_code": "00100",
-              "manufactured": "USA",
-              "mpn": "DOL P G2ME"
-            },
-            {
-              "part_code": "56104A",
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "notes": "",
-              "mpn": "DOL P G2ME"
-            }
-          ]
-        },
-        {
-          "name": "Super Mario Sunshine",
-          "variants": [
-            {
-              "satellite_code": "00100",
-              "manufactured": "USA",
-              "notes": "Not For Resale (console pack-in)",
-              "mpn": "DOL P GMSE"
-            },
-            {
-              "satellite_code": "00100",
-              "manufactured": "USA",
-              "notes": "K-Mart Exclusive",
-              "mpn": "DOL P MSK"
-            },
-            {
-              "part_code": "48647B",
-              "satellite_code": "00101",
-              "manufactured": "USA",
-              "notes": "Player's Choice",
-              "mpn": "DOL P GMSE"
-            },
-            {
-              "satellite_code": "00100",
-              "manufactured": "USA",
-              "mpn": "DOL P GMSE"
-            },
-            {
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "notes": "Not For Resale (console pack-in)",
-              "mpn": "DOL P GMSE"
-            },
-            {
-              "satellite_code": "00000",
-              "manufactured": "Japan",
-              "mpn": "DOL P GMSE"
-            },
-            {
-              "part_code": "48648A",
-              "satellite_code": "00100",
-              "manufactured": "USA",
-              "mpn": "DOL P GMSE",
-              "notes": "Canadian"
-            },
-            {
-              "part_code": "48648B",
-              "satellite_code": "00101",
-              "manufactured": "USA",
-              "mpn": "DOL P GMSE",
-              "notes": "Player's Choice, Canadian"
-            }
-          ]
-        },
-        {
-          "name": "The Legend of Zelda: Ocarina of Time/Master's Quest",
-          "variants": [
-            {
-              "part_code": "50168A",
-              "satellite_code": "00100",
-              "manufactured": "USA",
-              "mpn": "DOL P D43E",
-              "notes": "Not For Resale"
-            }
-          ]
-        },
-        {
           "name": "Luigi's Mansion",
           "variants": [
             {
@@ -2341,6 +2256,32 @@
           ]
         },
         {
+          "name": "Mario Party 7",
+          "variants": [
+            {
+              "part_code": "58981A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL R GP7E",
+              "notes": "Bonus Microphone Included box"
+            },
+            {
+              "part_code": "58692B",
+              "satellite_code": "00101",
+              "manufactured": "USA",
+              "notes": "Nuance logo",
+              "mpn": "DOL P GP7E"
+            },
+            {
+              "part_code": "58692A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "notes": "ScanSoft logo",
+              "mpn": "DOL P GP7E"
+            }
+          ]
+        },
+        {
           "name": "Metroid Prime",
           "variants": [
             {
@@ -2423,6 +2364,25 @@
           ]
         },
         {
+          "name": "Metroid Prime 2: Echoes",
+          "variants": [
+            {
+              "notes": "",
+              "part_code": "56097A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P G2ME"
+            },
+            {
+              "part_code": "56104A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "notes": "",
+              "mpn": "DOL P G2ME"
+            }
+          ]
+        },
+        {
           "name": "Paper Mario",
           "variants": [
             {
@@ -2491,6 +2451,82 @@
               "satellite_code": "00101",
               "manufactured": "USA",
               "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Resident Evil 4",
+          "variants": [
+            {
+              "satellite_code": "00101",
+              "manufactured": "USA",
+              "notes": "Player's Choice, VGA GOTY badge",
+              "mpn": "DOL P G4BE"
+            },
+            {
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "notes": "GameStop Special Edition",
+              "mpn": ""
+            },
+            {
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P G4BE"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Sunshine",
+          "variants": [
+            {
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "notes": "Not For Resale (console pack-in)",
+              "mpn": "DOL P GMSE"
+            },
+            {
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "notes": "K-Mart Exclusive",
+              "mpn": "DOL P MSK"
+            },
+            {
+              "part_code": "48647B",
+              "satellite_code": "00101",
+              "manufactured": "USA",
+              "notes": "Player's Choice",
+              "mpn": "DOL P GMSE"
+            },
+            {
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P GMSE"
+            },
+            {
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "notes": "Not For Resale (console pack-in)",
+              "mpn": "DOL P GMSE"
+            },
+            {
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "DOL P GMSE"
+            },
+            {
+              "part_code": "48648A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P GMSE",
+              "notes": "Canadian"
+            },
+            {
+              "part_code": "48648B",
+              "satellite_code": "00101",
+              "manufactured": "USA",
+              "mpn": "DOL P GMSE",
+              "notes": "Player's Choice, Canadian"
             }
           ]
         },
@@ -2606,6 +2642,43 @@
               "manufactured": "USA",
               "mpn": "DOL P PZLE",
               "notes": "Not For Resale, Canadian"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: Four Swords Adventures",
+          "variants": [
+            {
+              "part_code": "54703A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL R BB4",
+              "notes": "GBA Cable Included box"
+            },
+            {
+              "notes": "Best Seller, Player's Choice",
+              "manufactured": "USA",
+              "satellite_code": "00101",
+              "part_code": "54324B",
+              "mpn": "DOL P G4SE"
+            },
+            {
+              "part_code": "54324A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P G4SE"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: Ocarina of Time/Master's Quest",
+          "variants": [
+            {
+              "part_code": "50168A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P D43E",
+              "notes": "Not For Resale"
             }
           ]
         },
