@@ -2162,6 +2162,18 @@
       "platform": "GameCube",
       "games": [
         {
+          "name": "The Legend of Zelda: Ocarina of Time/Master's Quest",
+          "variants": [
+            {
+              "part_code": "50168A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P D43E",
+              "notes": "Not For Resale"
+            }
+          ]
+        },
+        {
           "name": "Luigi's Mansion",
           "variants": [
             {
@@ -2223,7 +2235,7 @@
           ]
         },
         {
-          "name": "Mario Kart Double Dash",
+          "name": "Mario Kart: Double Dash",
           "variants": [
             {
               "part_code": "52955A",
