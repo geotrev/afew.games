@@ -2162,6 +2162,79 @@
       "platform": "GameCube",
       "games": [
         {
+          "name": "Metroid Prime 2: Echoes",
+          "variants": [
+            {
+              "notes": "",
+              "part_code": "56097A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P G2ME"
+            },
+            {
+              "part_code": "56104A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "notes": "",
+              "mpn": "DOL P G2ME"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Sunshine",
+          "variants": [
+            {
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "notes": "Not For Resale (console pack-in)",
+              "mpn": "DOL P GMSE"
+            },
+            {
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "notes": "K-Mart Exclusive",
+              "mpn": "DOL P MSK"
+            },
+            {
+              "part_code": "48647B",
+              "satellite_code": "00101",
+              "manufactured": "USA",
+              "notes": "Player's Choice",
+              "mpn": "DOL P GMSE"
+            },
+            {
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P GMSE"
+            },
+            {
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "notes": "Not For Resale (console pack-in)",
+              "mpn": "DOL P GMSE"
+            },
+            {
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "DOL P GMSE"
+            },
+            {
+              "part_code": "48648A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P GMSE",
+              "notes": "Canadian"
+            },
+            {
+              "part_code": "48648B",
+              "satellite_code": "00101",
+              "manufactured": "USA",
+              "mpn": "DOL P GMSE",
+              "notes": "Player's Choice, Canadian"
+            }
+          ]
+        },
+        {
           "name": "The Legend of Zelda: Ocarina of Time/Master's Quest",
           "variants": [
             {
