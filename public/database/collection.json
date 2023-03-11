@@ -45,6 +45,7 @@
           "name": "Pro Wrestling",
           "variants": [
             {
+              "manufactured": "Japan",
               "notes": "Rev-A"
             },
             {
@@ -308,12 +309,15 @@
               "notes": "Hangtab, gloss sticker, NES GP"
             },
             {
+              "manufactured": "Japan",
               "notes": "Hangtab, NES-GP"
             },
             {
+              "manufactured": "Japan",
               "notes": "Hangtab, NES-GP, NES code"
             },
             {
+              "manufactured": "Japan",
               "notes": "Hangtab, NES-GP, NES code, NES TM"
             },
             {
@@ -350,6 +354,7 @@
               "notes": "Hangtab, NES-GP, NES code"
             },
             {
+              "manufactured": "Japan",
               "notes": "Hangtab, NES-GP, NES code, NES TM"
             },
             {
@@ -1103,6 +1108,7 @@
           "name": "Tetris",
           "variants": [
             {
+              "manufactured": "Japan",
               "notes": "Tengen"
             },
             {
