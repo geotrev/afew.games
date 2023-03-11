@@ -2162,6 +2162,112 @@
       "platform": "GameCube",
       "games": [
         {
+          "name": "Resident Evil",
+          "variants": [
+            {
+              "part_code": "",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P GBIE",
+              "notes": ""
+            },
+            {
+              "part_code": "",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P GBIE",
+              "notes": "Player's Choice, \"icensed\" misprint"
+            },
+            {
+              "part_code": "",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P GBIE",
+              "notes": "Player's Choice, \"Licensed\" corrected"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon XD: Gale of Darkness",
+          "variants": [
+            {
+              "part_code": "58410A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P GXXE",
+              "notes": ""
+            },
+            {
+              "part_code": "58410B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "DOL P GXXE",
+              "notes": "Best Seller"
+            },
+            {
+              "part_code": "58929A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P GXXE",
+              "notes": "Not For Resale (console pack-in)"
+            },
+            {
+              "part_code": "58412B",
+              "satellite_code": "00101",
+              "manufactured": "USA",
+              "mpn": "DOL P GXXE",
+              "notes": "Best Seller"
+            }
+          ]
+        },
+        {
+          "name": "Animal Crossing",
+          "variants": [
+            {
+              "part_code": "",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "DOL P GAFE",
+              "notes": ""
+            },
+            {
+              "part_code": "48661B",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "DOL P GAFE",
+              "notes": "Player's Choice"
+            },
+            {
+              "part_code": "",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P GAFE",
+              "notes": ""
+            },
+            {
+              "part_code": "48658B",
+              "satellite_code": "00101",
+              "manufactured": "USA",
+              "mpn": "DOL P GAFE",
+              "notes": "Player's Choice"
+            },
+            {
+              "part_code": "48658C",
+              "satellite_code": "00102",
+              "manufactured": "USA",
+              "mpn": "DOL P GAFE",
+              "notes": "Player's Choice"
+            },
+            {
+              "part_code": "",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P AFK",
+              "notes": "K-Mart exclusive"
+            }
+          ]
+        },
+        {
           "name": "Luigi's Mansion",
           "variants": [
             {
@@ -2440,16 +2546,19 @@
           "variants": [
             {
               "satellite_code": "00000",
-              "manufactured": "Japan"
+              "manufactured": "Japan",
+              "mpn": "DOL P GPIE"
             },
             {
               "satellite_code": "00100",
-              "manufactured": "USA"
+              "manufactured": "USA",
+              "mpn": "DOL P GPIE"
             },
             {
               "part_code": "46556B",
               "satellite_code": "00101",
               "manufactured": "USA",
+              "mpn": "DOL P GPIE",
               "notes": "Player's Choice"
             }
           ]
@@ -2466,8 +2575,7 @@
             {
               "satellite_code": "00100",
               "manufactured": "USA",
-              "notes": "GameStop Special Edition",
-              "mpn": ""
+              "notes": "GameStop Special Edition"
             },
             {
               "satellite_code": "00100",
