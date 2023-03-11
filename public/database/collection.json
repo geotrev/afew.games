@@ -3054,28 +3054,28 @@
               "part_code": "83663A",
               "satellite_code": "00000",
               "manufactured": "USA",
-              "mpn": "USZ",
+              "mpn": "WUP P BPCE USZ",
               "notes": "Satellite code error, includes Bayonetta 1"
             },
             {
               "part_code": "83663B",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "USZ",
+              "mpn": "WUP P BPCE USZ",
               "notes": "Includes Bayonetta 1"
             },
             {
               "part_code": "100178A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "USZ",
+              "mpn": "WUP P BPCE USZ",
               "notes": "Includes Bayonetta 1"
             },
             {
               "part_code": "103567A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "USZ",
+              "mpn": "WUP P BPCE USZ",
               "notes": ""
             }
           ]
@@ -3087,35 +3087,35 @@
               "part_code": "82909A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "USZ",
+              "mpn": "WUP P AMKE USZ",
               "notes": "Nintendo Network badge"
             },
             {
               "part_code": "82909B",
               "satellite_code": "00101",
               "manufactured": "USA",
-              "mpn": "USZ",
+              "mpn": "WUP P AMKE USZ",
               "notes": "Nintendo Network badge"
             },
             {
               "part_code": "83055A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "USZ",
+              "mpn": "WUP P AMKE USZ",
               "notes": "Nintendo Network badge, NFR (2014 Wii U 32GB + Mario Kart 8 \"Deluxe Set\")"
             },
             {
               "part_code": "101514A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "mpn": "USZ",
+              "mpn": "WUP P AMKE USZ",
               "notes": "\"amiibo\" badge, \"amiibo\" no TM"
             },
             {
               "part_code": "101979A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "USZ",
+              "mpn": "WUP P AMKE USZ",
               "notes": "\"amiibo\" badge, \"amiibo\" with TM"
             }
           ]
