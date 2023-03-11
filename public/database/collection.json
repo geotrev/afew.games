@@ -2162,21 +2162,14 @@
       "platform": "GameCube",
       "games": [
         {
-          "name": "Pikmin",
+          "name": "The Legend of Zelda: Ocarina of Time/Master's Quest",
           "variants": [
             {
-              "satellite_code": "00000",
-              "manufactured": "Japan"
-            },
-            {
+              "part_code": "50168A",
               "satellite_code": "00100",
-              "manufactured": "USA"
-            },
-            {
-              "part_code": "46556B",
-              "satellite_code": "00101",
               "manufactured": "USA",
-              "notes": "Player's Choice"
+              "mpn": "DOL P D43E",
+              "notes": "Not For Resale"
             }
           ]
         },
@@ -2242,7 +2235,7 @@
           ]
         },
         {
-          "name": "Mario Kart Double Dash",
+          "name": "Mario Kart: Double Dash",
           "variants": [
             {
               "part_code": "52955A",
@@ -2357,6 +2350,78 @@
           ]
         },
         {
+          "name": "Paper Mario",
+          "variants": [
+            {
+              "part_code": "56433B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "DOL P G8ME",
+              "notes": "Best Seller"
+            },
+            {
+              "mpn": "DOL P G8ME",
+              "manufactured": "USA",
+              "satellite_code": "00102",
+              "part_code": "55850C",
+              "notes": "Best Seller, Player's Choice"
+            },
+            {
+              "notes": "Best Seller",
+              "mpn": "DOL P G8ME",
+              "manufactured": "USA",
+              "satellite_code": "00101",
+              "part_code": "55850B"
+            },
+            {
+              "part_code": "55850A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P G8ME"
+            },
+            {
+              "part_code": "56434A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "DOL P G8ME",
+              "notes": "Best Seller"
+            },
+            {
+              "part_code": "55901A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P G8ME",
+              "notes": "Best Seller, Canadian"
+            },
+            {
+              "part_code": "55901B",
+              "satellite_code": "00101",
+              "manufactured": "USA",
+              "mpn": "DOL P G8ME",
+              "notes": "Best Seller, Player's Choice, Canadian"
+            }
+          ]
+        },
+        {
+          "name": "Pikmin",
+          "variants": [
+            {
+              "satellite_code": "00000",
+              "manufactured": "Japan"
+            },
+            {
+              "satellite_code": "00100",
+              "manufactured": "USA"
+            },
+            {
+              "part_code": "46556B",
+              "satellite_code": "00101",
+              "manufactured": "USA",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
           "name": "Super Smash Bros Melee",
           "variants": [
             {
@@ -2446,6 +2511,32 @@
           ]
         },
         {
+          "name": "The Legend of Zelda: Collector's Edition",
+          "variants": [
+            {
+              "part_code": "52538A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P PZLE",
+              "notes": "Not For Resale"
+            },
+            {
+              "part_code": "53938A",
+              "satellite_code": "00000",
+              "notes": "Not For Resale",
+              "manufactured": "Japan",
+              "mpn": "DOL P PZLE"
+            },
+            {
+              "part_code": "52540A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "DOL P PZLE",
+              "notes": "Not For Resale, Canadian"
+            }
+          ]
+        },
+        {
           "name": "The Legend of Zelda: The Wind Waker",
           "variants": [
             {
@@ -2524,6 +2615,25 @@
               "manufactured": "USA",
               "mpn": "DOL P GZLE",
               "notes": "Player's Choice (French Canadian)"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: Twilight Princess",
+          "variants": [
+            {
+              "part_code": "58683A",
+              "mpn": "DOL P GZ2E CAN",
+              "manufactured": "USA",
+              "satellite_code": "00100",
+              "notes": "Canadian"
+            },
+            {
+              "manufactured": "USA",
+              "notes": "",
+              "part_code": "58684A",
+              "satellite_code": "00100",
+              "mpn": "DOL P GZ2E USA"
             }
           ]
         }
