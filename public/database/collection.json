@@ -4,6 +4,235 @@
       "platform": "NES",
       "games": [
         {
+          "name": "Volleyball",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code, NES TM, Title TM"
+            }
+          ]
+        },
+        {
+          "name": "Slalom",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, Round SOQ"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, oval SOQ TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code, NES TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code"
+            }
+          ]
+        },
+        {
+          "name": "Pro Wrestling",
+          "variants": [
+            {
+              "notes": "Rev-A"
+            },
+            {
+              "notes": "No Rev-A",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES Code, NES TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code"
+            }
+          ]
+        },
+        {
+          "name": "Urban Champion",
+          "variants": [
+            {
+              "notes": "No Rev-A",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A"
+            }
+          ]
+        },
+        {
+          "name": "Popeye"
+        },
+        {
+          "name": "Mario Bros."
+        },
+        {
+          "name": "Mach Rider"
+        },
+        {
+          "name": "Gumshoe"
+        },
+        {
+          "name": "Donkey Kong Jr. Math"
+        },
+        {
+          "name": "Donkey Kong Jr."
+        },
+        {
+          "name": "Donkey Kong 3"
+        },
+        {
+          "name": "Donkey Kong"
+        },
+        {
+          "name": "Wrecking Crew"
+        },
+        {
+          "name": "Wild Gunman"
+        },
+        {
+          "name": "Tennis"
+        },
+        {
+          "name": "Stack-Up"
+        },
+        {
+          "name": "Soccer"
+        },
+        {
+          "name": "Pinball"
+        },
+        {
+          "name": "Kung Fu"
+        },
+        {
+          "name": "Ice Climber"
+        },
+        {
+          "name": "Hogan's Alley"
+        },
+        {
+          "name": "Gyromite"
+        },
+        {
+          "name": "Golf"
+        },
+        {
+          "name": "Excitebike"
+        },
+        {
+          "name": "Duck Hunt"
+        },
+        {
+          "name": "Clu Clu Land"
+        },
+        {
+          "name": "Baseball"
+        },
+        {
+          "name": "Balloon Fight"
+        },
+        {
+          "name": "10-Yard Fight"
+        },
+        {
+          "name": "Mega Man 6",
+          "variants": [
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man 5",
+          "variants": [
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man 4",
+          "variants": [
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man 3",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Capcom offer removed"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Capcom offer"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man 2",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Oval SOQ R"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man",
+          "variants": [
+            {
+              "notes": "Oval SOQ R",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Round SOQ, \"Dr. Wily\" corrected"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Round SOQ, \"Dr. Wily\" corrected, Captain Commando sticker"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Round SOQ, \"Dr. Wright\" typo"
+            }
+          ]
+        },
+        {
+          "name": "Castlevania III: Dracula's Curse",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Dracula's Hometown offer"
+            },
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
           "name": "Castlevania II: Simon's Quest",
           "variants": [
             {
@@ -13,6 +242,51 @@
             {
               "manufactured": "Japan",
               "notes": "Round SOQ"
+            }
+          ]
+        },
+        {
+          "name": "Castlevania",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, oval SOQ TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, round SOQ"
+            },
+            {
+              "notes": "No Rev-A",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab"
+            }
+          ]
+        },
+        {
+          "name": "Tetris",
+          "variants": [
+            {
+              "notes": "Tengen"
+            },
+            {
+              "notes": "Nintendo, oval SOQ TM, \"USA, Canada and Mexico\" text",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Nintendo, oval SOQ TM, \"USA and Canada\" text"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Nintendo, oval SOQ R, 4 line warranty"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Nintendo, oval SOQ R, 3 line warranty"
             }
           ]
         },
@@ -91,10 +365,10 @@
             },
             {
               "manufactured": "Japan",
-              "notes": "Oval SOQ R, 3 Line Warranty Box"
+              "notes": "Oval SOQ R, 3 line warranty"
             },
             {
-              "notes": "Oval SOQ R, 4 Line Warranty Box",
+              "notes": "Oval SOQ R, 4 line warranty",
               "manufactured": "Japan"
             },
             {
