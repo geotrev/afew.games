@@ -398,11 +398,80 @@
         {
           "name": "Wild Gunman",
           "variants": [
-            {}
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, gloss sticker"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, matte sticker"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code, NES TM"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A"
+            }
           ]
         },
         {
-          "name": "Tennis"
+          "name": "Tennis",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, matte sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "notes": "Rev-A, round SOQ, UPC digits aligned",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Rev-A, round SOQ, UPC digits staggered",
+              "manufactured": "Japan"
+            }
+          ]
         },
         {
           "name": "Stack-Up"
