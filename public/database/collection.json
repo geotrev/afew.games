@@ -2130,28 +2130,28 @@
               "part_code": "57096B",
               "satellite_code": "00001",
               "manufactured": "Japan",
-              "mpn": "USA",
+              "mpn": "NTR P AMHE USA",
               "notes": ""
             },
             {
               "part_code": "57096C",
               "satellite_code": "00002",
               "manufactured": "Japan",
-              "mpn": "USA",
+              "mpn": "NTR P AMHE USA",
               "notes": ""
             },
             {
               "part_code": "57102A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "CAN",
+              "mpn": "NTR P AMHE CAN",
               "notes": "French Canadian"
             },
             {
               "part_code": "57102B",
               "satellite_code": "00001",
               "manufactured": "Japan",
-              "mpn": "CAN",
+              "mpn": "NTR P AMHE CAN",
               "notes": "French Canadian"
             }
           ]
@@ -2795,21 +2795,21 @@
               "part_code": "105278A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "USA",
+              "mpn": "HAC P AABPA USA",
               "notes": ""
             },
             {
               "part_code": "105278B",
               "satellite_code": "00001",
               "manufactured": "Japan",
-              "mpn": "USA",
+              "mpn": "HAC P AABPA USA",
               "notes": ""
             },
             {
               "part_code": "105278C",
               "satellite_code": "00002",
               "manufactured": "Japan",
-              "mpn": "USA",
+              "mpn": "HAC P AABPA USA",
               "notes": "English & Spanish"
             }
           ]
@@ -2821,28 +2821,28 @@
               "part_code": "105882A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "USA",
+              "mpn": "HAC P AAACA USA",
               "notes": "English & Spanish"
             },
             {
               "part_code": "105882B",
               "satellite_code": "00001",
               "manufactured": "Japan",
-              "mpn": "USA",
+              "mpn": "HAC P AAACA USA",
               "notes": "English & Spanish"
             },
             {
               "part_code": "105882C",
               "satellite_code": "00002",
               "manufactured": "Japan",
-              "mpn": "USA",
+              "mpn": "HAC P AAACA USA",
               "notes": "English & Spanish"
             },
             {
               "part_code": "108795A",
               "satellite_code": "",
               "manufactured": "Japan",
-              "mpn": "USZ",
+              "mpn": "HAC R AAAC3 USZ",
               "notes": "\"Starter Pack\" box (English & Spanish)"
             },
             {
@@ -2861,28 +2861,28 @@
               "part_code": "108491A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "USA",
+              "mpn": "HAC P AAABA USA",
               "notes": "English & Spanish"
             },
             {
               "part_code": "108491B",
               "satellite_code": "00001",
               "manufactured": "Japan",
-              "mpn": "USA",
+              "mpn": "HAC P AAABA USA",
               "notes": "English & Spanish"
             },
             {
               "part_code": "108613A",
               "satellite_code": "",
               "manufactured": "Japan",
-              "mpn": "USZ",
+              "mpn": "HAC R AAAB1 USZ",
               "notes": "\"Ultimate Edition\" bundle (English, Spanish & French)"
             },
             {
               "part_code": "108492A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "CAN",
+              "mpn": "HAC P AAABA CAN",
               "notes": "French Canadian"
             }
           ]
@@ -2915,21 +2915,21 @@
               "part_code": "105212A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "CAN",
+              "mpn": "HAC P AAAAA USA",
               "notes": "French Canadian"
             },
             {
               "part_code": "105212B",
               "satellite_code": "00001",
               "manufactured": "Japan",
-              "mpn": "CAN",
+              "mpn": "HAC P AAAAA USA",
               "notes": "French Canadian"
             },
             {
               "part_code": "108492A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "CAN",
+              "mpn": "HAC P AAAAA USA",
               "notes": "French Canadian"
             }
           ]
@@ -2946,19 +2946,29 @@
               "part_code": "75627A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "notes": "Non-Foil Cover"
+              "mpn": "RVL Q SOUE USZ",
+              "notes": "Non-foil cover"
             },
             {
               "part_code": "75631A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "notes": "Not For Resale, Gold Wiimote Bundle"
+              "mpn": "RVL Q SOUE USZ",
+              "notes": "Not For Resale, foil cover, 25th anniversary, Gold Wiimote Bundle pack-in"
+            },
+            {
+              "part_code": "75633A",
+              "satellite_code": "",
+              "manufactured": "USA",
+              "mpn": "RVL R SOUE USA",
+              "notes": "Gold Wiimote & music CD bundle box"
             },
             {
               "part_code": "75798A",
               "satellite_code": "00100",
               "manufactured": "USA",
-              "notes": "Foil Cover"
+              "mpn": "RVL Q SOUE USZ",
+              "notes": "Foil cover, includes music CD, 25th anniversary"
             }
           ]
         },
