@@ -65,6 +65,30 @@
           "name": "Urban Champion",
           "variants": [
             {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES Code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES Code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
               "notes": "No Rev-A",
               "manufactured": "Japan"
             },
@@ -75,13 +99,115 @@
           ]
         },
         {
-          "name": "Popeye"
+          "name": "Popeye",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, gloss sticker"
+            },
+            {
+              "notes": "Hangtab, gloss sticker, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES Code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES Code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A"
+            }
+          ]
         },
         {
-          "name": "Mario Bros."
+          "name": "Mario Bros.",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, gloss sticker"
+            },
+            {
+              "notes": "Hangtab, gloss sticker, NES-GP",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Hangtab, NES-GP, NES code"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "No Rev-A"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, UPC digits aligned"
+            },
+            {
+              "notes": "Rev-A, UPC digits staggered",
+              "manufactured": "Japan"
+            }
+          ]
         },
         {
-          "name": "Mach Rider"
+          "name": "Mach Rider",
+          "variants": [
+            {
+              "notes": "Hangtab",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, gloss sticker",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "Hangtab, NES-GP, NES code, NES TM",
+              "manufactured": "Japan"
+            },
+            {
+              "notes": "No Rev-A",
+              "manufactured": "Japan"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, UPC digits leveled"
+            },
+            {
+              "manufactured": "Japan",
+              "notes": "Rev-A, UPC digits staggered"
+            }
+          ]
         },
         {
           "name": "Gumshoe"
