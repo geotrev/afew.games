@@ -1527,22 +1527,22 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "mpn": "DMG-APSE-USA",
+              "mpn": "DMG APSE USA",
               "notes": "Pixelated rating"
             },
             {
               "manufactured": "Japan",
-              "mpn": "DMG-APSE-USA",
+              "mpn": "DMG APSE USA",
               "notes": "No rating"
             },
             {
               "manufactured": "Japan",
-              "mpn": "DMG-APSE-USA",
+              "mpn": "DMG APSE USA",
               "notes": "Solid rating, 100% fiber"
             },
             {
               "manufactured": "Japan",
-              "mpn": "DMG-APSE-USA",
+              "mpn": "DMG APSE USA",
               "notes": "Solid rating, 83% fiber"
             }
           ]
@@ -1552,22 +1552,22 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "mpn": "DMG-APEE-USA",
+              "mpn": "DMG APEE USA",
               "notes": "Pixelated rating, Sandshrew screenshot, 'Red' text"
             },
             {
               "manufactured": "Japan",
-              "mpn": "DMG-APEE-USA",
+              "mpn": "DMG APEE USA",
               "notes": "Pixelated rating, Sandshrew screenshot, 'Blue' text"
             },
             {
               "manufactured": "Japan",
-              "mpn": "DMG-APEE-USA",
+              "mpn": "DMG APEE USA",
               "notes": "Pixelated rating, Rattata screenshot"
             },
             {
               "manufactured": "Japan",
-              "mpn": "DMG-APEE-USA",
+              "mpn": "DMG APEE USA",
               "notes": "Solid rating"
             }
           ]
@@ -1577,17 +1577,17 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "mpn": "DMG-APAE-USA",
+              "mpn": "DMG APAE USA",
               "notes": "Pixelated rating, Sandshrew screenshot"
             },
             {
               "manufactured": "Japan",
-              "mpn": "DMG-APAE-USA",
+              "mpn": "DMG APAE USA",
               "notes": "Pixelated rating, Rattata screenshot"
             },
             {
               "manufactured": "Japan",
-              "mpn": "DMG-APAE-USA",
+              "mpn": "DMG APAE USA",
               "notes": "Solid rating"
             }
           ]
@@ -1597,73 +1597,48 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P ML",
               "notes": "3 line warranty"
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P ML",
               "notes": "4 line warranty, Game Boy R"
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P ML",
               "notes": "4 line warranty, Game Boy TM"
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P ML",
               "notes": "Green screenshots"
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P ML",
               "notes": "Green screenshots, 'USA and Canada' text"
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P ML",
               "notes": "Player's Choice"
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P ML",
               "notes": "Yellow screenshots"
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P ML",
               "notes": "Yellow screenshots, 'USA and Canada' text"
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P ML",
               "notes": "Yellow screenshots, 'USA, Canada and Mexico' text"
-            }
-          ]
-        },
-        {
-          "name": "Dr. Mario",
-          "variants": [
-            {
-              "manufactured": "Japan",
-              "mpn": "",
-              "notes": "3 line warranty"
-            },
-            {
-              "manufactured": "Japan",
-              "mpn": "",
-              "notes": "4 line warranty"
-            },
-            {
-              "manufactured": "Japan",
-              "mpn": "",
-              "notes": "Player's Choice"
-            },
-            {
-              "manufactured": "Japan",
-              "mpn": "",
-              "notes": "'USA, Canada, and Mexico' text"
             }
           ]
         },
@@ -1672,12 +1647,12 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P MQ",
               "notes": ""
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P MQ",
               "notes": "Player's Choice"
             }
           ]
@@ -1687,13 +1662,38 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P WJ",
               "notes": ""
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P WJ",
               "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Mario",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG P VU",
+              "notes": "3 line warranty"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG P VU",
+              "notes": "4 line warranty"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG P VU",
+              "notes": "Player's Choice"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG P VU",
+              "notes": "'USA, Canada, and Mexico' text"
             }
           ]
         },
@@ -1702,12 +1702,12 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P ZL",
               "notes": ""
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P ZL",
               "notes": "Player's Choice"
             }
           ]
@@ -1717,12 +1717,12 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P TR",
               "notes": ""
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P TR",
               "notes": "Player's Choice"
             }
           ]
@@ -1732,17 +1732,17 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P ME",
               "notes": "3 line warranty"
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P ME",
               "notes": "4 line warranty"
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P ME",
               "notes": "Player's Choice"
             }
           ]
@@ -1752,17 +1752,17 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P KY",
               "notes": "3 line warranty"
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P KY",
               "notes": "4 line warranty"
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P KY",
               "notes": "Player's Choice"
             }
           ]
@@ -1772,12 +1772,12 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P AKBE",
               "notes": ""
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P AKBE",
               "notes": "Player's Choice"
             }
           ]
@@ -1787,12 +1787,12 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P RW",
               "notes": ""
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P RW",
               "notes": "Player's Choice"
             }
           ]
@@ -1802,12 +1802,12 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P W2",
               "notes": "Capcom"
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P W2",
               "notes": "Nintendo"
             }
           ]
@@ -1817,7 +1817,7 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P W3",
               "notes": ""
             }
           ]
@@ -1827,7 +1827,7 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P R4",
               "notes": ""
             }
           ]
@@ -1837,7 +1837,7 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "mpn": "",
+              "mpn": "DMG P WM",
               "notes": ""
             }
           ]
