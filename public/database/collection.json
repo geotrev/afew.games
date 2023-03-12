@@ -1046,15 +1046,15 @@
             },
             {
               "manufactured": "Japan",
-              "notes": "Round SOQ, \"Dr. Wily\" corrected"
+              "notes": "Round SOQ, 'Dr. Wily' corrected"
             },
             {
               "manufactured": "Japan",
-              "notes": "Round SOQ, \"Dr. Wily\" corrected, Captain Commando sticker"
+              "notes": "Round SOQ, 'Dr. Wily' corrected, Captain Commando sticker"
             },
             {
               "manufactured": "Japan",
-              "notes": "Round SOQ, \"Dr. Wright\" typo"
+              "notes": "Round SOQ, 'Dr. Wright' typo"
             }
           ]
         },
@@ -1112,12 +1112,12 @@
               "notes": "Tengen"
             },
             {
-              "notes": "Nintendo, oval SOQ TM, \"USA, Canada and Mexico\" text",
+              "notes": "Nintendo, oval SOQ TM, 'USA, Canada and Mexico' text",
               "manufactured": "Japan"
             },
             {
               "manufactured": "Japan",
-              "notes": "Nintendo, oval SOQ TM, \"USA and Canada\" text"
+              "notes": "Nintendo, oval SOQ TM, 'USA and Canada' text"
             },
             {
               "manufactured": "Japan",
@@ -1195,12 +1195,12 @@
           "name": "Super Mario Bros. 2",
           "variants": [
             {
-              "notes": "Oval SOQ R, \"USA and Canada\" text",
+              "notes": "Oval SOQ R, 'USA and Canada' text",
               "manufactured": "Japan"
             },
             {
               "manufactured": "Japan",
-              "notes": "Oval SOQ R, \"USA, Canada and Mexico\" text"
+              "notes": "Oval SOQ R, 'USA, Canada and Mexico' text"
             },
             {
               "manufactured": "Japan",
@@ -1216,7 +1216,7 @@
             },
             {
               "manufactured": "Japan",
-              "notes": "Oval SOQ TM, \"USA and Canada\" text"
+              "notes": "Oval SOQ TM, 'USA and Canada' text"
             },
             {
               "manufactured": "Japan",
@@ -1233,10 +1233,10 @@
             },
             {
               "manufactured": "Japan",
-              "notes": "Rev-A, oval SOQ TM, 1989, \"USA and Canada\" text"
+              "notes": "Rev-A, oval SOQ TM, 1989, 'USA and Canada' text"
             },
             {
-              "notes": "Rev-A, oval SOQ TM, 1989, \"USA Canada and Mexico\" text",
+              "notes": "Rev-A, oval SOQ TM, 1989, 'USA Canada and Mexico' text",
               "manufactured": "Japan"
             },
             {
@@ -1269,7 +1269,7 @@
           "name": "Super Mario Bros.",
           "variants": [
             {
-              "notes": "Rev-A, oval SOQ TM, \"USA and Canada\" text",
+              "notes": "Rev-A, oval SOQ TM, 'USA and Canada' text",
               "manufactured": "Japan"
             },
             {
@@ -1319,19 +1319,19 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "notes": "Oval SOQ TM, Right \"Bros.\""
+              "notes": "Oval SOQ TM, Right 'Bros.'"
             },
             {
               "manufactured": "Japan",
-              "notes": "Oval SOQ TM, Left \"Bros.\""
+              "notes": "Oval SOQ TM, Left 'Bros.'"
             },
             {
               "manufactured": "Japan",
-              "notes": "Oval SOQ R, \"USA, Canada, and Mexico\" text"
+              "notes": "Oval SOQ R, 'USA, Canada, and Mexico' text"
             },
             {
               "manufactured": "Japan",
-              "notes": "Oval SOQ R, \"USA and Canada\" text"
+              "notes": "Oval SOQ R, 'USA and Canada' text"
             },
             {
               "manufactured": "Japan",
@@ -1380,11 +1380,11 @@
               "manufactured": "Japan"
             },
             {
-              "notes": "4 line warranty box",
+              "notes": "4 line warranty",
               "manufactured": "Japan"
             },
             {
-              "notes": "3 line warranty box",
+              "notes": "3 line warranty",
               "manufactured": "Japan"
             }
           ]
@@ -1422,11 +1422,11 @@
               "notes": "Player's Choice"
             },
             {
-              "notes": "With \"Game Pak\" text",
+              "notes": "With 'Game Pak' text",
               "manufactured": "Japan"
             },
             {
-              "notes": "No \"Game Pak\" text",
+              "notes": "No 'Game Pak' text",
               "manufactured": "Japan"
             }
           ]
@@ -1501,7 +1501,7 @@
           ]
         },
         {
-          "name": "Mega man X",
+          "name": "Mega Man X",
           "variants": [
             {
               "notes": "Assembled in Mexico, distributed by Majesco, H-overlap seam, upright SNES Code",
@@ -1513,6 +1513,331 @@
             },
             {
               "manufactured": "Japan",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "Game Boy Advance",
+      "games": [
+        {
+          "name": "Pokemon Yellow Version: Special Pikachu Edition",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG-APSE-USA",
+              "notes": "Pixelated rating"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG-APSE-USA",
+              "notes": "No rating"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG-APSE-USA",
+              "notes": "Solid rating, 100% fiber"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG-APSE-USA",
+              "notes": "Solid rating, 83% fiber"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Blue Version",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG-APEE-USA",
+              "notes": "Pixelated rating, Sandshrew screenshot, 'Red' text"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG-APEE-USA",
+              "notes": "Pixelated rating, Sandshrew screenshot, 'Blue' text"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG-APEE-USA",
+              "notes": "Pixelated rating, Rattata screenshot"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG-APEE-USA",
+              "notes": "Solid rating"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Red Version",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG-APAE-USA",
+              "notes": "Pixelated rating, Sandshrew screenshot"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG-APAE-USA",
+              "notes": "Pixelated rating, Rattata screenshot"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG-APAE-USA",
+              "notes": "Solid rating"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Land",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "3 line warranty"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "4 line warranty, Game Boy R"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "4 line warranty, Game Boy TM"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Green screenshots"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Green screenshots, 'USA and Canada' text"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Player's Choice"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Yellow screenshots"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Yellow screenshots, 'USA and Canada' text"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Yellow screenshots, 'USA, Canada and Mexico' text"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Mario",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "3 line warranty"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "4 line warranty"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Player's Choice"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "'USA, Canada, and Mexico' text"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Land 2: 6 Golden Coins",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": ""
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Wario Land: Super Mario Land 3",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": ""
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: Link's Awakening",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": ""
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Tetris",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": ""
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Metroid II: Return of Samus",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "3 line warranty"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "4 line warranty"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Kirby's Dream Land",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "3 line warranty"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "4 line warranty"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Kirby's Dream Land 2",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": ""
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man: Dr. Wily's Revenge",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": ""
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man II",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Capcom"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Nintendo"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man III",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Mega Man IV",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Mega Man V",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "",
               "notes": ""
             }
           ]
@@ -2003,20 +2328,20 @@
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "CTR P AXCE USA",
-              "notes": "\"Nintendo Network\" badge"
+              "notes": "'Nintendo Network' badge"
             },
             {
               "part_code": "101840A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "CTR P AXCE USA",
-              "notes": "\"amiibo\" badge"
+              "notes": "'amiibo' badge"
             },
             {
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "CTR P AXCE USA",
-              "notes": "\"amiibo\" badge",
+              "notes": "'amiibo' badge",
               "part_code": "101840B"
             },
             {
@@ -2024,7 +2349,7 @@
               "satellite_code": "00002",
               "manufactured": "Japan",
               "mpn": "CTR P AXCE USA",
-              "notes": "\"amiibo\" badge"
+              "notes": "'amiibo' badge"
             },
             {
               "part_code": "83566A",
@@ -2176,14 +2501,14 @@
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P GBIE",
-              "notes": "Player's Choice, \"icensed\" misprint"
+              "notes": "Player's Choice, 'icensed' misprint"
             },
             {
               "part_code": "",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P GBIE",
-              "notes": "Player's Choice, \"Licensed\" corrected"
+              "notes": "Player's Choice, 'Licensed' corrected"
             }
           ]
         },
@@ -2275,28 +2600,28 @@
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "DOL GLME",
-              "notes": "\"Memory Card\" Text"
+              "notes": "'Memory Card' Text"
             },
             {
               "part_code": "46300B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "DOL P GLME",
-              "notes": "\"Uses 3 Blocks\" Text"
+              "notes": "'Uses 3 Blocks' Text"
             },
             {
               "part_code": "",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL GLME",
-              "notes": "\"Memory Card\" Text"
+              "notes": "'Memory Card' Text"
             },
             {
               "part_code": "",
               "satellite_code": "00101",
               "manufactured": "USA",
               "mpn": "DOL GLME",
-              "notes": "\"Uses 3 blocks\" Text"
+              "notes": "'Uses 3 blocks' Text"
             },
             {
               "part_code": "46179C",
@@ -2310,21 +2635,21 @@
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "DOL P GLME",
-              "notes": "\"Memory Card\" Text, French Canadian"
+              "notes": "'Memory Card' Text, French Canadian"
             },
             {
               "part_code": "46363B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "DOL P GLME",
-              "notes": "\"Uses 3 Blocks\" Text, French Canadian"
+              "notes": "'Uses 3 Blocks' Text, French Canadian"
             },
             {
               "part_code": "46181B",
               "satellite_code": "00101",
               "manufactured": "USA",
               "mpn": "DOL P GLME",
-              "notes": "\"Uses 3 Blocks\" Text, French Canadian"
+              "notes": "'Uses 3 Blocks' Text, French Canadian"
             }
           ]
         },
@@ -2951,14 +3276,14 @@
               "satellite_code": "",
               "manufactured": "Japan",
               "mpn": "HAC R AAAC3 USZ",
-              "notes": "\"Starter Pack\" box (English & Spanish)"
+              "notes": "'Starter Pack' box (English & Spanish)"
             },
             {
               "part_code": "108807A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "",
-              "notes": "\"Starter Pack\" pack-in, NFR (English & Spanish)"
+              "notes": "'Starter Pack' pack-in, NFR (English & Spanish)"
             }
           ]
         },
@@ -2984,7 +3309,7 @@
               "satellite_code": "",
               "manufactured": "Japan",
               "mpn": "HAC R AAAB1 USZ",
-              "notes": "\"Ultimate Edition\" bundle (English, Spanish & French)"
+              "notes": "'Ultimate Edition' bundle (English, Spanish & French)"
             },
             {
               "part_code": "108492A",
@@ -3675,21 +4000,21 @@
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "WUP P AMKE USZ",
-              "notes": "Nintendo Network badge, NFR (2014 Wii U 32GB + Mario Kart 8 \"Deluxe Set\")"
+              "notes": "Nintendo Network badge, NFR (2014 Wii U 32GB + Mario Kart 8 'Deluxe Set')"
             },
             {
               "part_code": "101514A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "WUP P AMKE USZ",
-              "notes": "\"amiibo\" badge, \"amiibo\" no TM"
+              "notes": "'amiibo' badge, 'amiibo' no TM"
             },
             {
               "part_code": "101979A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "WUP P AMKE USZ",
-              "notes": "\"amiibo\" badge, \"amiibo\" with TM"
+              "notes": "'amiibo' badge, 'amiibo' with TM"
             }
           ]
         },
@@ -3769,28 +4094,28 @@
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "WUP P AXFE USZ",
-              "notes": "\"Read/Write\" text"
+              "notes": "'Read/Write' text"
             },
             {
               "part_code": "101986A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "WUP P AXFE USZ",
-              "notes": "\"Read/Write\" text"
+              "notes": "'Read/Write' text"
             },
             {
               "part_code": "101986B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "WUP P AXFE USZ",
-              "notes": "\"Read/Write\" text"
+              "notes": "'Read/Write' text"
             },
             {
               "part_code": "101986C",
               "satellite_code": "00002",
               "manufactured": "Japan",
               "mpn": "WUP P AXFE USZ",
-              "notes": "\"Read/Write\" text"
+              "notes": "'Read/Write' text"
             }
           ]
         },
