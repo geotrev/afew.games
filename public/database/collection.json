@@ -1361,15 +1361,18 @@
           "name": "Super Metroid",
           "variants": [
             {
-              "notes": "Player's Choice",
-              "manufactured": "Japan"
-            },
-            {
-              "notes": "Phantoon screenshot",
-              "manufactured": "Japan"
+              "manufactured": "Japan",
+              "mpn": "SNES P RI",
+              "notes": "Player's Choice"
             },
             {
               "manufactured": "Japan",
+              "mpn": "SNES P RI",
+              "notes": "Phantoon screenshot"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "SNES P RI",
               "notes": "Torizo statue screenshot"
             }
           ]
@@ -1378,16 +1381,19 @@
           "name": "Super Mario World",
           "variants": [
             {
-              "notes": "Player's Choice",
-              "manufactured": "Japan"
+              "manufactured": "Japan",
+              "mpn": "SNS P MW",
+              "notes": "Player's Choice"
             },
             {
-              "notes": "4 line warranty",
-              "manufactured": "Japan"
+              "manufactured": "Japan",
+              "mpn": "SNS P MW",
+              "notes": "4 line warranty"
             },
             {
-              "notes": "3 line warranty",
-              "manufactured": "Japan"
+              "manufactured": "Japan",
+              "mpn": "SNS P MW",
+              "notes": "3 line warranty"
             }
           ]
         },
@@ -1396,14 +1402,17 @@
           "variants": [
             {
               "manufactured": "Japan",
+              "mpn": "SNS P 8X",
               "notes": "Player's Choice"
             },
             {
-              "notes": "No ESRB rating above UPC",
-              "manufactured": "Japan"
+              "manufactured": "Japan",
+              "mpn": "SNS P 8X",
+              "notes": "No ESRB rating above UPC"
             },
             {
               "manufactured": "Japan",
+              "mpn": "SNS P 8X",
               "notes": "ESRB rating above UPC"
             }
           ]
@@ -1413,23 +1422,28 @@
           "variants": [
             {
               "manufactured": "Japan",
+              "mpn": "SNES P MK",
               "notes": "E rating"
             },
             {
               "manufactured": "Japan",
+              "mpn": "SNES P MK",
               "notes": "K-A rating"
             },
             {
               "manufactured": "Mexico",
+              "mpn": "SNES P MK",
               "notes": "Player's Choice"
             },
             {
-              "notes": "With 'Game Pak' text",
-              "manufactured": "Japan"
+              "manufactured": "Japan",
+              "mpn": "SNES P MK",
+              "notes": "With 'Game Pak' text"
             },
             {
-              "notes": "No 'Game Pak' text",
-              "manufactured": "Japan"
+              "manufactured": "Japan",
+              "mpn": "SNES P MK",
+              "notes": "No 'Game Pak' text"
             }
           ]
         },
@@ -1437,15 +1451,18 @@
           "name": "Super Star Wars",
           "variants": [
             {
+              "manufactured": "Japan",
+              "mpn": "SNES P V4"
+            },
+            {
               "manufactured": "Mexico",
+              "mpn": "SNES P V4",
               "notes": "Player's Choice"
             },
             {
               "manufactured": "Japan",
+              "mpn": "SNES P V4",
               "notes": "Player's Choice"
-            },
-            {
-              "manufactured": "Japan"
             }
           ]
         },
@@ -1453,11 +1470,13 @@
           "name": "Street Fighter II",
           "variants": [
             {
-              "notes": "Assembled in Mexico, distributed by Majesco",
-              "manufactured": "Mexico"
+              "manufactured": "Mexico",
+              "mpn": "SNES P S2",
+              "notes": "Assembled in Mexico, distributed by Majesco"
             },
             {
-              "manufactured": "Japan"
+              "manufactured": "Japan",
+              "mpn": "SNES P S2"
             }
           ]
         },
@@ -1465,19 +1484,23 @@
           "name": "The Legend of Zelda: A Link to the Past",
           "variants": [
             {
-              "notes": "Player's Choice, E rating",
-              "manufactured": "Japan"
+              "manufactured": "Japan",
+              "mpn": "SNES P ZL",
+              "notes": "Player's Choice, E rating"
             },
             {
               "manufactured": "Japan",
+              "mpn": "SNES P ZL",
               "notes": "Player's Choice, K-A rating"
             },
             {
               "manufactured": "Mexico",
+              "mpn": "SNES P ZL",
               "notes": "Player's Choice"
             },
             {
-              "manufactured": "Japan"
+              "manufactured": "Japan",
+              "mpn": "SNES P ZL"
             }
           ]
         },
@@ -1486,18 +1509,22 @@
           "variants": [
             {
               "notes": "Players Choice, E rating",
+              "mpn": "SNS P FZ",
               "manufactured": "Japan"
             },
             {
               "notes": "Players Choice, K-A rating",
+              "mpn": "SNS P FZ",
               "manufactured": "Japan"
             },
             {
               "manufactured": "Japan",
+              "mpn": "SNS P FZ",
               "notes": "Upright recycle symbol"
             },
             {
               "manufactured": "Japan",
+              "mpn": "SNS P FZ",
               "notes": "Made in Japan, upside-down recycle symbol"
             }
           ]
@@ -1506,15 +1533,33 @@
           "name": "Mega Man X",
           "variants": [
             {
-              "notes": "Assembled in Mexico, distributed by Majesco, H-overlap seam, upright SNES Code",
-              "manufactured": "Mexico"
+              "manufactured": "Mexico",
+              "mpn": "SNS P RX",
+              "notes": "Assembled in Mexico, distributed by Majesco, H-overlap seam, upright SNES Code"
             },
             {
               "manufactured": "Mexico",
+              "mpn": "SNS RX USA",
               "notes": "Assembled in Mexico, distributed by Majesco, H-overlap seam, upside-down SNES code"
             },
             {
               "manufactured": "Japan",
+              "mpn": "SNS RX USA",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Aladdin",
+          "variants": [
+            {
+              "manufactured": "Mexico",
+              "mpn": "SNS P RJ",
+              "notes": "Assembled in Mexico, distributed by Majesco"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "SNS P RJ",
               "notes": ""
             }
           ]
