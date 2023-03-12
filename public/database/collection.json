@@ -1899,6 +1899,7 @@
           "variants": [
             {
               "manufactured": "USA",
+              "mpn": "AGB P B8CE",
               "notes": "Double-ended box, 3-side seam"
             }
           ]
@@ -1908,11 +1909,33 @@
           "variants": [
             {
               "manufactured": "Japan",
+              "mpn": "AGB P A6ME",
               "notes": "Y-fold box, H-seam"
             },
             {
-              "manufactured": "USA",
+              "manufactured": "Japan",
+              "mpn": "AGB P A6ME",
               "notes": "Double-ended box, 3-side seam"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Battle Network",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AREE",
+              "notes": "Y-fold box, H-seam"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Battle Network 2",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AE2E",
+              "notes": "Y-fold box, H-seam"
             }
           ]
         },
@@ -1921,10 +1944,12 @@
           "variants": [
             {
               "manufactured": "Japan",
+              "mpn": "AGB P A6BE",
               "notes": "Y-fold box, white cover, H-seam"
             },
             {
-              "manufactured": "USA",
+              "manufactured": "Japan",
+              "mpn": "AGB P A6BE",
               "notes": "Double-ended box, gray ink error, 3-side seam"
             }
           ]
@@ -1934,10 +1959,52 @@
           "variants": [
             {
               "manufactured": "Japan",
+              "mpn": "AGB P A3XE",
               "notes": "Y-fold box, H-seam"
             },
             {
-              "manufactured": "USA",
+              "manufactured": "Japan",
+              "mpn": "AGB P A3XE",
+              "notes": "Double-ended box, 3-side seam"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Battle Network 4: Red Sun",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P B4WE",
+              "notes": "Y-fold box, H-seam"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Battle Network 4: Blue Moon",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P B4BE",
+              "notes": "Y-fold box, H-seam"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Battle Network 6: Cybeast Falzar",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P BR6E",
+              "notes": "Double-ended box, 3-side seam"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Battle Network 6: Cybeast Gregar",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P BR5E",
               "notes": "Double-ended box, 3-side seam"
             }
           ]
