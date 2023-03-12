@@ -2116,10 +2116,10 @@
               "notes": "Light foil"
             },
             {
-              "notes": "Heavy foil",
               "part_code": "1120100A",
               "manufactured": "Japan",
-              "mpn": "NTR P BK9E"
+              "mpn": "NTR P BK9E",
+              "notes": "Heavy foil"
             }
           ]
         },
@@ -3320,7 +3320,7 @@
               "part_code": "102062A",
               "satellite_code": "00100",
               "manufactured": "Japan",
-              "mpn": "RVL P RMGE USZ",
+              "mpn": "RVL P RMG1 USZ",
               "notes": "Nintendo Selects"
             },
             {
@@ -3347,14 +3347,14 @@
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "RVL Q SOUE USZ",
-              "notes": "Non-foil cover"
+              "notes": "Non-foil"
             },
             {
               "part_code": "75631A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "RVL Q SOUE USZ",
-              "notes": "NFR, foil cover, 25th anniversary, Gold Wiimote Bundle pack-in"
+              "notes": "NFR, foil, 25th anniversary, Gold Wiimote Bundle pack-in"
             },
             {
               "part_code": "75633A",
@@ -3368,7 +3368,7 @@
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "RVL Q SOUE USZ",
-              "notes": "Foil cover, includes music CD, 25th anniversary"
+              "notes": "Foil, includes music CD, 25th anniversary"
             }
           ]
         },
@@ -3457,6 +3457,169 @@
     {
       "platform": "Wii U",
       "games": [
+        {
+          "name": "The Legend of Zelda: Twilight Princess HD",
+          "variants": [
+            {
+              "part_code": "102472A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "WUP P AZAE USZ",
+              "notes": "NFR (amiibo bundle pack-in)"
+            },
+            {
+              "part_code": "103456A",
+              "satellite_code": "",
+              "manufactured": "Japan",
+              "mpn": "WUP R AZAE USZ",
+              "notes": "amiibo bundle box"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: The Wind Waker HD",
+          "variants": [
+            {
+              "part_code": "81115A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "WUP P BCZE USZ",
+              "notes": "Foil"
+            },
+            {
+              "part_code": "101975A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "WUP P BCZE USZ",
+              "notes": "Non-foil"
+            },
+            {
+              "part_code": "104186A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "WUP P BCZ3 USZ",
+              "notes": "Nintendo Selects"
+            }
+          ]
+        },
+        {
+          "name": "Devil's Third",
+          "variants": [
+            {
+              "part_code": "102699A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "WUP P ADNE USZ",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Hyrule Warriors",
+          "variants": [
+            {
+              "part_code": "101984A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "WUP P BWPE USZ",
+              "notes": ""
+            },
+            {
+              "part_code": "100184A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "WUP P BWPE USZ",
+              "notes": ""
+            },
+            {
+              "part_code": "83662A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "WUP P BWPE USZ",
+              "notes": ""
+            },
+            {
+              "part_code": "83662B",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "WUP P BWPE USZ",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "New Super Mario Bros. U",
+          "variants": [
+            {
+              "part_code": "78939A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "WUP P ARPE USZ",
+              "notes": "Black ESRB"
+            },
+            {
+              "part_code": "78748A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "WUP P ARPE USZ",
+              "notes": "Black ESRB"
+            },
+            {
+              "part_code": "78748B",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "WUP P ARPE USZ",
+              "notes": ""
+            },
+            {
+              "part_code": "81647A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "WUP P ATWE USZ",
+              "notes": "NFR (console pack-in), blue case, black ESRB, New Super Luigi U bonus"
+            },
+            {
+              "part_code": "81647A",
+              "satellite_code": "",
+              "manufactured": "USA",
+              "mpn": "WUP P ATWE USZ",
+              "notes": "NFR (console pack-in), blue case, QR code UPC, black ESRB, New Super Luigi U bonus"
+            },
+            {
+              "part_code": "102287A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "WUP P ATWE USZ",
+              "notes": "Red case, white ESRB, New Super Luigi U bonus"
+            },
+            {
+              "part_code": "101562A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "",
+              "notes": "Nintendo refurbished, blue case, white ESRB, New Super Luigi U bonus"
+            }
+          ]
+        },
+        {
+          "name": "New Super Luigi U",
+          "variants": [
+            {
+              "part_code": "102676A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "WUP P ARSE USZ",
+              "notes": "White ESRB"
+            },
+            {
+              "part_code": "80890A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "WUP P ARSE USZ",
+              "notes": "Black ESRB"
+            }
+          ]
+        },
         {
           "name": "Bayonetta 2",
           "variants": [
