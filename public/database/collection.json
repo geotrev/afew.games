@@ -1626,20 +1626,20 @@
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "CTR P AMKE USA",
-              "notes": "White case, Black ESRB"
+              "notes": "White case, black ESRB"
             },
             {
               "part_code": "75611B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "CTR P AMKE USA",
-              "notes": "White case, Black ESRB"
+              "notes": "White case, black ESRB"
             },
             {
               "part_code": "75611C",
               "satellite_code": "00002",
               "manufactured": "Japan",
-              "notes": "Red case, White ESRB",
+              "notes": "Red case, white ESRB",
               "mpn": "CTR P AMKE USA"
             },
             {
@@ -1647,14 +1647,14 @@
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "CTR P AMKE USA",
-              "notes": "Red case, White ESRB"
+              "notes": "Red case, white ESRB"
             },
             {
               "part_code": "101519B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "CTR P AMKE USA",
-              "notes": "Red case, White ESRB"
+              "notes": "Red case, white ESRB"
             },
             {
               "part_code": "75612A",
@@ -2209,7 +2209,7 @@
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P GXXE",
-              "notes": "Not For Resale (console pack-in)"
+              "notes": "NFR (console pack-in)"
             },
             {
               "part_code": "58412B",
@@ -2357,7 +2357,7 @@
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "",
-              "notes": "Not For Resale"
+              "notes": "NFR"
             }
           ]
         },
@@ -2590,7 +2590,7 @@
             {
               "satellite_code": "00100",
               "manufactured": "USA",
-              "notes": "Not For Resale (console pack-in)",
+              "notes": "NFR (console pack-in)",
               "mpn": "DOL P GMSE"
             },
             {
@@ -2614,7 +2614,7 @@
             {
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "notes": "Not For Resale (console pack-in)",
+              "notes": "NFR (console pack-in)",
               "mpn": "DOL P GMSE"
             },
             {
@@ -2735,12 +2735,12 @@
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P PZLE",
-              "notes": "Not For Resale"
+              "notes": "NFR"
             },
             {
               "part_code": "53938A",
               "satellite_code": "00000",
-              "notes": "Not For Resale",
+              "notes": "NFR",
               "manufactured": "Japan",
               "mpn": "DOL P PZLE"
             },
@@ -2749,7 +2749,7 @@
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P PZLE",
-              "notes": "Not For Resale, Canadian"
+              "notes": "NFR, Canadian"
             }
           ]
         },
@@ -2786,7 +2786,7 @@
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P D43E",
-              "notes": "Not For Resale"
+              "notes": "NFR"
             }
           ]
         },
@@ -3048,6 +3048,298 @@
       "platform": "Wii",
       "games": [
         {
+          "name": "Pokemon Battle Revolution",
+          "variants": [
+            {
+              "part_code": "63351A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "RVL P RPBE USZ",
+              "notes": ""
+            },
+            {
+              "part_code": "63351B",
+              "satellite_code": "00101",
+              "manufactured": "USA",
+              "mpn": "RVL P RPBE USZ",
+              "notes": ""
+            },
+            {
+              "part_code": "63352C",
+              "satellite_code": "00002",
+              "manufactured": "Japan",
+              "mpn": "RVL P RPBE USZ",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Metroid Prime 3: Corruption",
+          "variants": [
+            {
+              "part_code": "61614A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "RVL P RM3E USZ",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Metroid: Other M",
+          "variants": [
+            {
+              "part_code": "71214A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "RVL P R30E USZ",
+              "notes": ""
+            },
+            {
+              "part_code": "71214A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "RVL P R30E USZ",
+              "notes": "Nintendo refurbished sticker"
+            }
+          ]
+        },
+        {
+          "name": "New Super Mario Bros. Wii",
+          "variants": [
+            {
+              "part_code": "73076A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "RVL P SMNE USZ",
+              "notes": "Foil"
+            },
+            {
+              "part_code": "73076B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "RVL P SMNE USZ",
+              "notes": "Non-foil"
+            },
+            {
+              "part_code": "74583A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Nintendo refurbished"
+            },
+            {
+              "part_code": "69150A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "RVL P SMNE USZ",
+              "notes": "Red case, foil"
+            },
+            {
+              "part_code": "69150A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "RVL P SMNE USZ",
+              "notes": "White case, foil"
+            },
+            {
+              "part_code": "",
+              "satellite_code": "",
+              "manufactured": "",
+              "mpn": "",
+              "notes": "No country, NFR (red 25th anniversary console pack-in)"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: Twilight Princess",
+          "variants": [
+            {
+              "part_code": "62483A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "RVL P RZDE USA",
+              "notes": ""
+            },
+            {
+              "part_code": "61602A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "RVL P RZDE USA",
+              "notes": ""
+            },
+            {
+              "part_code": "61602B",
+              "satellite_code": "00101",
+              "manufactured": "USA",
+              "mpn": "RVL P RZDE USA",
+              "notes": ""
+            },
+            {
+              "part_code": "61602C",
+              "satellite_code": "00102",
+              "manufactured": "USA",
+              "mpn": "RVL P RZDE USA",
+              "notes": ""
+            },
+            {
+              "part_code": "74472A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "RVL P RZD1 USA",
+              "notes": "Nintendo Selects"
+            }
+          ]
+        },
+        {
+          "name": "Mario Kart Wii",
+          "variants": [
+            {
+              "part_code": "",
+              "satellite_code": "",
+              "manufactured": "USA",
+              "mpn": "RVL R RMCE USZ",
+              "notes": "Wii Wheel box"
+            },
+            {
+              "part_code": "65687A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "RVL P RMCE USZ",
+              "notes": ""
+            },
+            {
+              "part_code": "65759B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "RVL-RMCE-USZ(J)-1",
+              "notes": "NFR (console pack-in)"
+            },
+            {
+              "part_code": "74373A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "TBA-RVL-RMCE-USZ-C0",
+              "notes": "NFR (console pack-in)"
+            },
+            {
+              "part_code": "82432C",
+              "satellite_code": "00002",
+              "manufactured": "Japan",
+              "mpn": "RVL P RMCE USZ",
+              "notes": "Refurbished"
+            },
+            {
+              "part_code": "65683A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "RVL P RMCE USZ",
+              "notes": ""
+            },
+            {
+              "part_code": "65683C",
+              "satellite_code": "00102",
+              "manufactured": "USA",
+              "mpn": "RVL P RMCE USZ",
+              "notes": ""
+            },
+            {
+              "part_code": "65758A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "RVL P RMCE USZ",
+              "notes": ""
+            },
+            {
+              "part_code": "74373A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "RVL P RMCE USZ",
+              "notes": ""
+            },
+            {
+              "part_code": "",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "RVL P RMCE USZ",
+              "notes": "Part code omitted"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Galaxy 2",
+          "variants": [
+            {
+              "part_code": "71174A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "RVL P SB4E USZ",
+              "notes": ""
+            },
+            {
+              "part_code": "103116B",
+              "satellite_code": "00101",
+              "manufactured": "USA",
+              "mpn": "",
+              "notes": "Nintendo refurbished"
+            },
+            {
+              "part_code": "73079A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "RVL P SB4E USZ",
+              "notes": ""
+            },
+            {
+              "part_code": "103619A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "RVL P SB42 USZ",
+              "notes": "Nintendo Selects"
+            },
+            {
+              "part_code": "103619B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "RVL P SB42 USZ",
+              "notes": "Nintendo Selects"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Galaxy",
+          "variants": [
+            {
+              "part_code": "64297A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "RVL P RMGE USZ",
+              "notes": ""
+            },
+            {
+              "part_code": "102062A",
+              "satellite_code": "00100",
+              "manufactured": "Japan",
+              "mpn": "RVL P RMGE USZ",
+              "notes": "Nintendo Selects"
+            },
+            {
+              "part_code": "75194A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "RVL P RMG1 USZ",
+              "notes": "Nintendo Selects"
+            },
+            {
+              "part_code": "75194B",
+              "satellite_code": "00101",
+              "manufactured": "USA",
+              "mpn": "RVL P RMG1 USZ",
+              "notes": "Nintendo Selects"
+            }
+          ]
+        },
+        {
           "name": "The Legend of Zelda: Skyward Sword",
           "variants": [
             {
@@ -3062,7 +3354,7 @@
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "RVL Q SOUE USZ",
-              "notes": "Not For Resale, foil cover, 25th anniversary, Gold Wiimote Bundle pack-in"
+              "notes": "NFR, foil cover, 25th anniversary, Gold Wiimote Bundle pack-in"
             },
             {
               "part_code": "75633A",
@@ -3100,7 +3392,7 @@
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "RVL P RSBE USA",
-              "notes": "No Wi-Fi logo, White ESRB"
+              "notes": "No Wi-Fi logo, white ESRB"
             },
             {
               "part_code": "64278A",
@@ -3128,7 +3420,7 @@
               "satellite_code": "00103",
               "manufactured": "USA",
               "mpn": "RVL P RSBE USA",
-              "notes": "No Wi-Fi logo, White ESRB"
+              "notes": "No Wi-Fi logo, white ESRB"
             },
             {
               "part_code": "77615A",
@@ -3142,7 +3434,7 @@
               "satellite_code": "00101",
               "manufactured": "USA",
               "mpn": "RVL P GSB USA",
-              "notes": "No Wi-Fi logo, White ESRB"
+              "notes": "No Wi-Fi logo, white ESRB"
             },
             {
               "part_code": "65591A",
@@ -3253,21 +3545,21 @@
               "satellite_code": "00102",
               "manufactured": "USA",
               "mpn": "WUP P ARDE USZ",
-              "notes": "Red Case, Family Game of the Year Badge"
+              "notes": "Red case, Family Game of the Year Badge"
             },
             {
               "part_code": "101973A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "WUP P ARDE USZ",
-              "notes": "Red Case"
+              "notes": "Red case"
             },
             {
               "part_code": "100420A",
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "WUP P ARDE USZ",
-              "notes": "Red Case, NFR"
+              "notes": "Red case, NFR"
             },
             {
               "part_code": "103634A",
