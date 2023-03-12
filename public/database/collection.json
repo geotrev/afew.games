@@ -1348,10 +1348,12 @@
           "name": "Super Mario RPG: Legend of the Seven Stars",
           "variants": [
             {
-              "manufactured": "Mexico"
+              "manufactured": "Mexico",
+              "mpn": "SNS P ARWE"
             },
             {
-              "manufactured": "Japan"
+              "manufactured": "Japan",
+              "mpn": "SNS P ARWE"
             }
           ]
         },
@@ -1520,7 +1522,7 @@
       ]
     },
     {
-      "platform": "Game Boy Advance",
+      "platform": "Game Boy",
       "games": [
         {
           "name": "Pokemon Yellow Version: Special Pikachu Edition",
