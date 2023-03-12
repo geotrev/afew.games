@@ -2058,6 +2058,32 @@
       "platform": "3DS",
       "games": [
         {
+          "name": "New Super Mario Bros. 2",
+          "variants": [
+            {
+              "part_code": "77334A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P ABEE USA",
+              "notes": "White case, black ESRB"
+            },
+            {
+              "part_code": "101520A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P ABEE USA",
+              "notes": "Red case, white ESRB"
+            },
+            {
+              "part_code": "101520B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P ABEE USA",
+              "notes": "Red case, white ESRB"
+            }
+          ]
+        },
+        {
           "name": "Mario Kart 7",
           "variants": [
             {
@@ -2513,6 +2539,32 @@
     {
       "platform": "DS",
       "games": [
+        {
+          "name": "New Super Mario Bros.",
+          "variants": [
+            {
+              "part_code": "60457A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P A2DE USA",
+              "notes": "Red Nintendo logo"
+            },
+            {
+              "part_code": "60457B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "NTR P A2DE USA",
+              "notes": "White Nintendo logo"
+            },
+            {
+              "part_code": "60457B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "NTR P A2DE USA",
+              "notes": "Red case, white Nintendo logo"
+            }
+          ]
+        },
         {
           "name": "The World Ends With You",
           "variants": [
