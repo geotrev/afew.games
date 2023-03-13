@@ -1534,7 +1534,7 @@
           "variants": [
             {
               "manufactured": "Mexico",
-              "mpn": "SNS P RX",
+              "mpn": "SNS RX USA",
               "notes": "Assembled in Mexico, distributed by Majesco, H-overlap seam, upright SNES Code"
             },
             {
@@ -1544,7 +1544,7 @@
             },
             {
               "manufactured": "Japan",
-              "mpn": "SNS RX USA",
+              "mpn": "SNS P RX",
               "notes": ""
             }
           ]
