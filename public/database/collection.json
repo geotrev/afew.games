@@ -2058,6 +2058,17 @@
       "platform": "3DS",
       "games": [
         {
+          "name": "Hyrule Warriors Legends",
+          "variants": [
+            {
+              "part_code": "103361A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P EHZE USZ"
+            }
+          ]
+        },
+        {
           "name": "New Super Mario Bros. 2",
           "variants": [
             {
