@@ -2064,14 +2064,14 @@
               "part_code": "103362A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "CTR P BZHE",
+              "mpn": "CTR P BZHE CAN",
               "notes": "Canadian"
             },
             {
               "part_code": "103361A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "CTR P BHZE USZ"
+              "mpn": "CTR P BZHE USZ"
             }
           ]
         },
