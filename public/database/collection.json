@@ -2061,10 +2061,17 @@
           "name": "Hyrule Warriors Legends",
           "variants": [
             {
+              "part_code": "103362A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P BZHE",
+              "notes": "Canadian"
+            },
+            {
               "part_code": "103361A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "CTR P EHZE USZ"
+              "mpn": "CTR P BHZE USZ"
             }
           ]
         },
