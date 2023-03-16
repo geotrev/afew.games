@@ -2,6 +2,7 @@ import Script from "next/script"
 import { PropsWithChildren } from "react"
 import { RouteTracker } from "app/components/route-tracker"
 import { StyledComponentsRegistry } from "./components/styled-registry"
+import "minireset.css"
 import { App } from "./app"
 
 export default function RootLayout({ children }: PropsWithChildren) {

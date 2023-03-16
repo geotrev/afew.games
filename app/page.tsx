@@ -6,7 +6,7 @@ export const metadata = {
     canonical: `https://afew.games`,
   },
   title: `${BASE_TITLE} home`,
-  description: "A video game blog & collection website",
+  description: "A video game blog, database, and collection website",
 }
 
 export default function Page() {
@@ -14,7 +14,7 @@ export default function Page() {
     <>
       <PageHeading
         heading="Home"
-        subheading="Hello and welcome. This is my personal blog and collection website. I
+        subheading="Hello and welcome. This is my personal blog, database, and collection website. I
         like to write about, document, and track my video games. I hope you stay
         for a while!"
       />

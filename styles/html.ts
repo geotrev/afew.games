@@ -1,6 +1,30 @@
 import { css } from "styled-components"
 
 export const html = css`
+  /* mini reset css shims */
+
+  *,
+  *::before,
+  *::after {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font: inherit;
+  }
+
+  fieldset {
+    border-style: none;
+  }
+
+  /* end mini reset css shims */
+
   html,
   body {
     font-family: ${(p) => p.theme.fonts.sans};

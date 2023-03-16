@@ -52,7 +52,7 @@ function getSelectedStyles(props: StyledButtonTransientProps) {
   return (
     props.$selected &&
     css`
-      color: ${(p) => p.theme.colors.text}};
+      color: ${(p) => p.theme.colors.text};
       background: ${(p) => p.theme.colors.primary2};
       border-color: transparent;
 
@@ -78,7 +78,8 @@ function getSizeStyles(props: StyledButtonTransientProps) {
 
       @media (min-width: 640px) {
         font-size: 16px;
-        padding: 0.5rem;
+        padding-block-start: 0.5rem;
+        padding-block-end: 0.5rem;
       }
     `
   }
@@ -107,6 +108,7 @@ export const StyledButton = styled.button<StyledButtonTransientProps>`
   display: inline-block;
   font-family: ${(p) => p.theme.fonts.sans};
   font-size: 14px;
+  font-weight: normal
   appearance: none;
   background: transparent;
   border: none;
