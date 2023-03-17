@@ -22,11 +22,12 @@ export const StyledNavLink = styled(Link)<{ $isActive: boolean }>`
   font-weight: normal;
   padding-block-end: 0.5rem;
   text-decoration: none;
-  border-block-end: ${(p) =>
-    p.$isActive && `3px solid ${p.theme.colors.secondary1}`};
+  border-block-end-style: solid;
+  border-block-end-width: 3px;
+  border-block-end-color: ${(p) =>
+    p.$isActive ? p.theme.colors.secondary1 : "transparent"};
 
   &:hover {
-    border-block-end: ${(p) =>
-      !p.$isActive && `3px solid ${p.theme.colors.secondary2}`};
+    border-block-end-color: ${(p) => !p.$isActive && p.theme.colors.secondary2};
   }
 `
