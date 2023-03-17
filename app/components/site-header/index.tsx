@@ -2,12 +2,17 @@
 
 import { usePathname } from "next/navigation"
 import { ReactElement } from "react"
-import { StyledHeader, StyledLogoLink, StyledUL, StyledNavLink } from "./styled"
+import {
+  StyledHeader,
+  StyledLogoLink,
+  StyledHeaderList,
+  StyledNavLink,
+} from "./styled"
 import Logo from "./logo"
 
 const Routes = {
   DATABASE_PATH: "/database",
-  COLLECTION_PATH: "/collection",
+  // COLLECTION_PATH: "/collection",
   ESSAYS_PATH: "/essays",
   HOME_PATH: "/",
 }
@@ -28,11 +33,11 @@ const NavigationItems = [
     isActive: (pathname: string) => pathname.startsWith(Routes.DATABASE_PATH),
     label: "Database",
   },
-  {
-    route: Routes.COLLECTION_PATH,
-    isActive: (pathname: string) => pathname.startsWith(Routes.COLLECTION_PATH),
-    label: "Collection",
-  },
+  // {
+  //   route: Routes.COLLECTION_PATH,
+  //   isActive: (pathname: string) => pathname.startsWith(Routes.COLLECTION_PATH),
+  //   label: "Collection",
+  // },
 ]
 
 export function SiteHeader(): ReactElement {
@@ -44,7 +49,7 @@ export function SiteHeader(): ReactElement {
         <Logo />
       </StyledLogoLink>
       <nav>
-        <StyledUL>
+        <StyledHeaderList>
           {NavigationItems.map((item) => {
             const isActive = item.isActive(pathname)
 
@@ -60,7 +65,7 @@ export function SiteHeader(): ReactElement {
               </li>
             )
           })}
-        </StyledUL>
+        </StyledHeaderList>
       </nav>
     </StyledHeader>
   )

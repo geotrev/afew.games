@@ -41,8 +41,6 @@ function getMessageStatusStyles(props: StyledCallbackArgs) {
 
 export const StyledFieldset = styled.fieldset`
   display: flex;
-  flex-direction: column;
-  align-items: center;
 `
 
 export const StyledSpinner = styled.span<FormStatus>`
@@ -60,14 +58,14 @@ export const StyledInput = styled.input<FormStatus>`
   font-size: 14px;
   border-radius: 4px;
   border: 2px solid transparent;
-  margin-block-end: 0.25rem;
-  background: rgba(${(p) => p.theme.colors.triplets.tertiary}, 0.125);
+  margin-inline-end: 0.5rem;
+  background: rgba(${(p) => p.theme.colors.triplets.tertiary}, 0.2);
   padding: 0.25rem 0.5rem;
 
   &:focus,
   &:hover {
     background: rgba(${(p) => p.theme.colors.triplets.tertiary}, 0.2);
-    border-block-end-color: ${(p) => p.theme.colors.tertiary1};
+    border-block-end-color: ${(p) => p.theme.colors.secondary1};
     border-block-end-width: 2px;
     outline: 0;
   }

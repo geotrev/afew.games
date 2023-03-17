@@ -52,7 +52,6 @@ const CssAnimatedBg = css`
     rgba(${(p) => p.theme.colors.triplets.tertiary}, 0.15) 40%
   );
   background-size: 800px 104px;
-  height: 30px;
   position: relative;
 `
 
@@ -75,6 +74,7 @@ export const StyledMetadataAnim = styled.div`
 
 export const StyledTitleAnim = styled.div`
   animation-name: ${shimmerTitle};
+  height: 30px;
 
   ${CssAnimatedBg}
 `

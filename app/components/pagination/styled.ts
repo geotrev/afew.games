@@ -10,6 +10,11 @@ export const StyledPagination = styled.ul`
     justify-content: flex-start;
   }
 `
+
+export const StyledPaginationItem = styled.li`
+  display: flex;
+`
+
 export const StyledPageItemBreak = styled.li`
   flex-basis: 100%;
 

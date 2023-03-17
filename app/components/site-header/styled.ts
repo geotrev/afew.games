@@ -12,7 +12,7 @@ export const StyledLogoLink = styled(Link)`
   margin: 1rem 0 2rem 0;
 `
 
-export const StyledUL = styled.ul`
+export const StyledHeaderList = styled.ul`
   display: flex;
   gap: 1rem;
 `

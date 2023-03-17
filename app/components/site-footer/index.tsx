@@ -7,7 +7,6 @@ const StyledFooter = styled.footer`
   border: 2px solid ${(p) => p.theme.colors.tertiary2};
   margin: 1rem 0 2rem 0;
   padding: 1rem;
-  text-align: center;
 `
 
 const StyledHeader = styled.h2`

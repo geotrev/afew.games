@@ -11,7 +11,7 @@ type StyledButtonTransientProps = {
 function getVariantStyles(props: StyledButtonTransientProps) {
   if (props.$bare) {
     return css`
-      background: rgba(${(p) => p.theme.colors.triplets.primary}, 0.15);
+      background: rgba(${(p) => p.theme.colors.triplets.primary}, 0.25);
 
       &[aria-disabled] {
         cursor: not-allowed;
@@ -20,11 +20,11 @@ function getVariantStyles(props: StyledButtonTransientProps) {
       }
 
       &:hover:not([aria-disabled]) {
-        background: rgba(${(p) => p.theme.colors.triplets.primary}, 0.2);
+        background: rgba(${(p) => p.theme.colors.triplets.primary}, 0.35);
       }
 
       &:active:not([aria-disabled]) {
-        background: rgba(${(p) => p.theme.colors.triplets.primary}, 0.1);
+        background: rgba(${(p) => p.theme.colors.triplets.primary}, 0.25);
       }
     `
   }
@@ -35,15 +35,15 @@ function getVariantStyles(props: StyledButtonTransientProps) {
     &[aria-disabled] {
       cursor: not-allowed;
       color: ${(p) => p.theme.colors.tertiary2};
-      border-color: rgba(${(p) => p.theme.colors.triplets.primary}, 0.35);
+      border-color: rgba(${(p) => p.theme.colors.triplets.primary}, 0.5);
     }
 
     &:hover:not([aria-disabled]) {
-      background: rgba(${(p) => p.theme.colors.triplets.primary}, 0.25);
+      background: rgba(${(p) => p.theme.colors.triplets.primary}, 0.35);
     }
 
     &:active:not([aria-disabled]) {
-      background: rgba(${(p) => p.theme.colors.triplets.primary}, 0.15);
+      background: rgba(${(p) => p.theme.colors.triplets.primary}, 0.25);
     }
   `
 }
@@ -100,7 +100,6 @@ function getShapeStyles(props: StyledButtonTransientProps) {
 }
 
 export const StyledButton = styled.button<StyledButtonTransientProps>`
-  height: 100%;
   min-width: 2.15rem;
   display: flex;
   align-items: center;
