@@ -11,39 +11,49 @@ type StyledButtonTransientProps = {
 function getVariantStyles(props: StyledButtonTransientProps) {
   if (props.$bare) {
     return css`
-      background: rgba(${(p) => p.theme.colors.triplets.primary}, 0.25);
-
       &[aria-disabled] {
         cursor: not-allowed;
         color: ${(p) => p.theme.colors.tertiary2};
-        background: none;
+        background-color: none;
       }
 
-      &:hover:not([aria-disabled]) {
-        background: rgba(${(p) => p.theme.colors.triplets.primary}, 0.35);
-      }
+      &:not([aria-disabled]) {
+        background-color: rgba(${(p) => p.theme.colors.triplets.primary}, 0.25);
 
-      &:active:not([aria-disabled]) {
-        background: rgba(${(p) => p.theme.colors.triplets.primary}, 0.25);
+        &:hover {
+          background-color: rgba(
+            ${(p) => p.theme.colors.triplets.primary},
+            0.35
+          );
+        }
+
+        &:active {
+          background-color: rgba(
+            ${(p) => p.theme.colors.triplets.primary},
+            0.25
+          );
+        }
       }
     `
   }
 
   return css`
-    border: 2px solid ${(p) => p.theme.colors.primary2};
-
     &[aria-disabled] {
       cursor: not-allowed;
       color: ${(p) => p.theme.colors.tertiary2};
       border-color: rgba(${(p) => p.theme.colors.triplets.primary}, 0.5);
     }
 
-    &:hover:not([aria-disabled]) {
-      background: rgba(${(p) => p.theme.colors.triplets.primary}, 0.35);
-    }
+    &:not([aria-disabled]) {
+      border: 2px solid rgba(${(p) => p.theme.colors.triplets.primary}, 0.8);
 
-    &:active:not([aria-disabled]) {
-      background: rgba(${(p) => p.theme.colors.triplets.primary}, 0.25);
+      &:hover {
+        background-color: rgba(${(p) => p.theme.colors.triplets.primary}, 0.35);
+      }
+
+      &:active {
+        background-color: rgba(${(p) => p.theme.colors.triplets.primary}, 0.25);
+      }
     }
   `
 }
@@ -52,16 +62,26 @@ function getSelectedStyles(props: StyledButtonTransientProps) {
   return (
     props.$selected &&
     css`
-      color: ${(p) => p.theme.colors.text};
-      background: ${(p) => p.theme.colors.primary2};
-      border-color: transparent;
+      &:not([aria-disabled]) {
+        color: ${(p) => p.theme.colors.text};
+        background-color: rgba(${(p) => p.theme.colors.triplets.primary}, 0.8);
+        border-color: transparent;
 
-      &:hover {
-        background: rgba(${(p) => p.theme.colors.triplets.primary}, 0.8);
-      }
+        &:hover {
+          background-color: rgba(
+            ${(p) => p.theme.colors.triplets.primary},
+            0.9
+          );
+          border-color: transparent;
+        }
 
-      &:active {
-        background: rgba(${(p) => p.theme.colors.triplets.primary}, 0.6);
+        &:active {
+          background-color: rgba(
+            ${(p) => p.theme.colors.triplets.primary},
+            0.7
+          );
+          border-color: transparent;
+        }
       }
     `
   )
@@ -109,7 +129,7 @@ export const StyledButton = styled.button<StyledButtonTransientProps>`
   font-size: 14px;
   font-weight: normal
   appearance: none;
-  background: transparent;
+  background-color: transparent;
   border: none;
   cursor: pointer;
   line-height: 1;

@@ -33,7 +33,7 @@ export const html = css`
   }
 
   a {
-    color: rgba(${(p) => p.theme.colors.triplets.text}, 0.7);
+    color: rgba(${(p) => p.theme.colors.triplets.text}, 0.8);
     font-weight: bold;
 
     &:hover {
