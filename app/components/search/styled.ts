@@ -1,23 +1,23 @@
-@use "styles/vars" as vars;
+import styled from "styled-components"
 
-.searchContainer {
+export const StyledSearchContainer = styled.div`
   display: flex;
   flex-flow: column nowrap;
   padding: 1rem 0 1rem 0;
-}
+`
 
-.searchLabel {
+export const StyledSearchLabel = styled.label`
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
   margin-block-end: 1rem;
-}
+`
 
-.searchInput {
+export const StyledSearchInput = styled.input`
   outline: none;
   appearance: none;
   font-size: 14px;
-  border: 2px solid vars.$secondary-color-2;
+  border: 2px solid ${(p) => p.theme.colors.secondary2};
   background-color: transparent;
   color: #ddd;
   padding: 0.5rem 0.75rem;
@@ -25,7 +25,7 @@
 
   &:focus,
   &:hover {
-    border-color: vars.$secondary-color-1;
+    border-color: ${(p) => p.theme.colors.secondary1};
   }
 
   &::-webkit-search-cancel-button {
@@ -37,4 +37,4 @@
     font-size: 18px;
     padding: 0.75rem 1rem;
   }
-}
+`

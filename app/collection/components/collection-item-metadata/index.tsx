@@ -1,8 +1,7 @@
-import cn from "classnames"
 import propTypes from "prop-types"
 import { ReactElement } from "react"
 import { CollectionItemMetadataProps } from "./types"
-import styles from "./styles.module.scss"
+import { StyledCollectionTitle, StyledCollectionDescriptor } from "./styled"
 
 CollectionItemMetadata.propTypes = {
   name: propTypes.string,
@@ -15,16 +14,10 @@ export function CollectionItemMetadata({
 }: CollectionItemMetadataProps): ReactElement {
   return (
     <>
-      <dt
-        className={cn(
-          styles.collectionItemTitle,
-          styles.collectionItemData,
-          "text-sm"
-        )}
-      >
-        {name}
-      </dt>
-      <dd className={cn(styles.collectionItemData, "text-sm")}>{value}</dd>
+      <StyledCollectionTitle className="text-sm">{name}</StyledCollectionTitle>
+      <StyledCollectionDescriptor className="text-sm">
+        {value}
+      </StyledCollectionDescriptor>
     </>
   )
 }

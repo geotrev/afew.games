@@ -8,6 +8,7 @@ export * from "./route-tracker"
 export * from "./search"
 export * from "./collection-search"
 export * from "./collection-list-toolbar"
+export * from "./styled-registry"
 
 /** types */
 export * from "./button/types.d"

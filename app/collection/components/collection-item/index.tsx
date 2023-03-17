@@ -3,7 +3,7 @@ import propTypes from "prop-types"
 import { ReactElement } from "react"
 import { CollectionItemMetadata } from "../collection-item-metadata"
 import { CollectionItemProps } from "./types"
-import styles from "./styles.module.scss"
+import { StyledCollectionItem, StyledCollectionItemDataList } from "./styled"
 
 CollectionItem.propTypes = {
   data: propTypes.shape({
@@ -17,16 +17,13 @@ CollectionItem.propTypes = {
 export function CollectionItem({ data }: CollectionItemProps): ReactElement {
   const metadata = Object.entries(omit(data, ["name"]))
   return (
-    <li className={styles.collectionItem}>
+    <StyledCollectionItem>
       <h3 id={data.name}>{data.name}</h3>
-      <dl
-        className={styles.collectionItemDataList}
-        aria-describedby={data.name}
-      >
+      <StyledCollectionItemDataList aria-describedby={data.name}>
         {metadata.map(([name, value]) => (
           <CollectionItemMetadata key={name} name={name} value={value} />
         ))}
-      </dl>
-    </li>
+      </StyledCollectionItemDataList>
+    </StyledCollectionItem>
   )
 }

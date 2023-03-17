@@ -23,11 +23,11 @@ export default function Page() {
         subheading={`This is a database of ${count} games with documented print variants. While new and interesting variants will be written about in long form, this database will always update in real time.`}
       />
       <p>
-        Wondering how I determine print variants? I wrote a{" "}
+        Wondering how variants are determined? Here is a{" "}
         <Link href="/essays/decoding-modern-nintendo-print-variants">
           Nintendo-specific guide
         </Link>{" "}
-        last year. Xbox and PlayStation will be coming soon.
+        from last year. Xbox and PlayStation guides coming soon.
       </p>
       <DatabaseWrapper games={games} queryData={queryData} />
     </>

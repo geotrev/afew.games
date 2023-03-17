@@ -1,6 +1,8 @@
+"use client"
+
 import { Button } from "../button"
 import { CollectionListToolbarProps } from "./types"
-import styles from "./styles.module.scss"
+import { StyledToolbarInfo } from "./styled"
 
 export function CollectionListToolbar({
   itemsLength,
@@ -19,21 +21,21 @@ export function CollectionListToolbar({
   }
 
   return (
-    <div className={styles.toolbarInfo}>
+    <StyledToolbarInfo>
       <p>
         {itemsLength} {itemsLength === 1 ? label : pluralLabel}{" "}
         {opened ? "shown" : "hidden"}
       </p>
       <Button
-        aria-expanded={opened}
-        aria-controls={`list-${id}`}
         bare
         size="sm"
         onClick={() => setOpened(!opened)}
+        aria-expanded={opened}
         aria-describedby={`header-${id}`}
+        aria-controls={`list-${id}`}
       >
         {renderMinimizeText()}
       </Button>
-    </div>
+    </StyledToolbarInfo>
   )
 }

@@ -1,14 +1,26 @@
+"use client"
+
+import styled from "styled-components"
 import { SubscribeForm } from "../subscribe-form"
-import styles from "./styles.module.scss"
+
+const StyledFooter = styled.footer`
+  border: 2px solid ${(p) => p.theme.colors.tertiary2};
+  margin: 1rem 0 2rem 0;
+  padding: 1rem;
+`
+
+const StyledHeader = styled.h2`
+  margin-block-end: 0.5rem;
+`
 
 export function SiteFooter() {
   return (
-    <footer className={styles.pageFooter}>
-      <h2 className={styles.subscribeHeader}>Subscribe to A Few Games!</h2>
+    <StyledFooter>
+      <StyledHeader>Subscribe to A Few Games!</StyledHeader>
       <p>
         Get occasional emails about game collecting. Unsubscribe at any time.
       </p>
       <SubscribeForm />
-    </footer>
+    </StyledFooter>
   )
 }

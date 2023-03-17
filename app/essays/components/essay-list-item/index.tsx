@@ -1,9 +1,13 @@
 import Link from "next/link"
 import { ReactElement } from "react"
 import propTypes from "prop-types"
-import cn from "classnames"
+import {
+  StyledEssayItem,
+  StyledEssayItemHeading,
+  StyledEssayItemTime,
+  StyledEssayItemTimePara,
+} from "./styled"
 import { EssayListItemProps } from "./types"
-import styles from "./styles.module.scss"
 
 EssayListItem.propTypes = {
   entry: propTypes.shape({
@@ -25,18 +29,18 @@ export function EssayListItem({ entry }: EssayListItemProps): ReactElement {
   const id = `${title.split(" ").join("-").slice(0, 16)}`
 
   return (
-    <li className={styles.essayItem}>
-      <p className={cn(styles.essayItemTimePara, "text-xs")}>
-        <time className={styles.essayItemTime} dateTime={date} id={id}>
+    <StyledEssayItem>
+      <StyledEssayItemTimePara className="text-xs">
+        <StyledEssayItemTime dateTime={date} id={id}>
           {date}
-        </time>
-      </p>
-      <h2 className={styles.essayItemHeading} aria-describedby={id}>
+        </StyledEssayItemTime>
+      </StyledEssayItemTimePara>
+      <StyledEssayItemHeading aria-describedby={id}>
         <Link href={urlPath} legacyBehavior>
           {title}
         </Link>
-      </h2>
-      <p className={styles.essayItemDescription}>{description}</p>
-    </li>
+      </StyledEssayItemHeading>
+      <p>{description}</p>
+    </StyledEssayItem>
   )
 }

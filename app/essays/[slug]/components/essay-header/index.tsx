@@ -1,8 +1,13 @@
+"use client"
+
 import { ReactElement } from "react"
 import propTypes from "prop-types"
-import cn from "classnames"
 import { EssayHeaderProps } from "./types"
-import styles from "./styles.module.scss"
+import {
+  StyledEssayTitle,
+  StyledEssayDescription,
+  StyledEssayItemTimePara,
+} from "./styled"
 
 EssayHeader.propTypes = {
   title: propTypes.string.isRequired,
@@ -17,17 +22,17 @@ export function EssayHeader({
 }: EssayHeaderProps): ReactElement {
   return (
     <>
-      <p className={styles.essayItemTimePara}>
+      <StyledEssayItemTimePara>
         Published{" "}
         <time aria-labelledby="essay-heading" dateTime={date}>
           {date}
         </time>
-      </p>
-      <h1 id="essay-heading" className={styles.essayTitle}>
-        {title}
-      </h1>
+      </StyledEssayItemTimePara>
+      <StyledEssayTitle id="essay-heading">{title}</StyledEssayTitle>
       {description && (
-        <p className={cn(styles.essayDescription, "text-lg")}>{description}</p>
+        <StyledEssayDescription className="text-lg">
+          {description}
+        </StyledEssayDescription>
       )}
       <h2>{"By George W."}</h2>
     </>

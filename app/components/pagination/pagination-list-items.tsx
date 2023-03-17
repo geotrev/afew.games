@@ -1,6 +1,7 @@
 import { ReactElement } from "react"
-import { Button } from "../button"
+import { StyledPaginationItem } from "./styled"
 import { PaginationListItemsProps } from "./types"
+import { Button } from "../button"
 
 export function PaginationListItems({
   indices,
@@ -15,7 +16,7 @@ export function PaginationListItems({
         const label = `Page ${idx + 1}`
 
         return (
-          <li key={idx} data-pagination-index={idx}>
+          <StyledPaginationItem key={idx} data-pagination-index={idx}>
             <Button
               key={label}
               selected={isActive}
@@ -26,7 +27,7 @@ export function PaginationListItems({
             >
               {idx + 1}
             </Button>
-          </li>
+          </StyledPaginationItem>
         )
       })}
     </>

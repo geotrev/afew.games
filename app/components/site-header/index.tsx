@@ -1,79 +1,72 @@
 "use client"
 
 import { usePathname } from "next/navigation"
-import Link from "next/link"
 import { ReactElement } from "react"
-import cn from "classnames"
-import styles from "./styles.module.scss"
+import {
+  StyledHeader,
+  StyledLogoLink,
+  StyledHeaderList,
+  StyledNavLink,
+} from "./styled"
 import Logo from "./logo"
 
 const Routes = {
   DATABASE_PATH: "/database",
-  COLLECTION_PATH: "/collection",
+  // COLLECTION_PATH: "/collection",
   ESSAYS_PATH: "/essays",
   HOME_PATH: "/",
 }
 
+const NavigationItems = [
+  {
+    route: Routes.HOME_PATH,
+    isActive: (pathname: string) => pathname === Routes.HOME_PATH,
+    label: "Home",
+  },
+  {
+    route: Routes.ESSAYS_PATH,
+    isActive: (pathname: string) => pathname.startsWith(Routes.ESSAYS_PATH),
+    label: "Essays",
+  },
+  {
+    route: Routes.DATABASE_PATH,
+    isActive: (pathname: string) => pathname.startsWith(Routes.DATABASE_PATH),
+    label: "Database",
+  },
+  // {
+  //   route: Routes.COLLECTION_PATH,
+  //   isActive: (pathname: string) => pathname.startsWith(Routes.COLLECTION_PATH),
+  //   label: "Collection",
+  // },
+]
+
 export function SiteHeader(): ReactElement {
   const pathname = usePathname()
-  const isEssaysPath = pathname?.startsWith(Routes.ESSAYS_PATH)
-  const isCollectionsPath = pathname?.startsWith(Routes.COLLECTION_PATH)
-  const isDatabasePath = pathname?.startsWith(Routes.DATABASE_PATH)
-  const isHomePath = pathname === Routes.HOME_PATH
 
   return (
-    <header className={styles.pageHeader}>
-      <Link href={Routes.HOME_PATH} className={styles.logoContainer}>
+    <StyledHeader>
+      <StyledLogoLink href={Routes.HOME_PATH}>
         <Logo />
-      </Link>
+      </StyledLogoLink>
       <nav>
-        <ul className={styles.navList}>
-          <li>
-            <Link
-              href={Routes.HOME_PATH}
-              className={cn(styles.navListItemLink, {
-                [styles.isActive]: isHomePath,
-              })}
-              aria-current={isHomePath ? "true" : undefined}
-            >
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              href={Routes.ESSAYS_PATH}
-              className={cn(styles.navListItemLink, {
-                [styles.isActive]: isEssaysPath,
-              })}
-              aria-current={isEssaysPath ? "true" : undefined}
-            >
-              Essays
-            </Link>
-          </li>
-          <li>
-            <Link
-              href={Routes.DATABASE_PATH}
-              className={cn(styles.navListItemLink, {
-                [styles.isActive]: isDatabasePath,
-              })}
-              aria-current={isDatabasePath ? "true" : undefined}
-            >
-              Database
-            </Link>
-          </li>
-          <li>
-            <Link
-              href={Routes.COLLECTION_PATH}
-              className={cn(styles.navListItemLink, {
-                [styles.isActive]: isCollectionsPath,
-              })}
-              aria-current={isCollectionsPath ? "true" : undefined}
-            >
-              Collection
-            </Link>
-          </li>
-        </ul>
+        <StyledHeaderList>
+          {NavigationItems.map((item) => {
+            const isActive = item.isActive(pathname)
+
+            return (
+              <li key={item.label}>
+                <StyledNavLink
+                  href={item.route}
+                  aria-current={isActive ? "true" : undefined}
+                  $isActive={isActive}
+                >
+                  {item.label}
+                </StyledNavLink>
+              </li>
+            )
+          })}
+        </StyledHeaderList>
       </nav>
-    </header>
+    </StyledHeader>
   )
 }

@@ -1,8 +1,9 @@
 import Script from "next/script"
 import { PropsWithChildren } from "react"
 import { RouteTracker } from "app/components/route-tracker"
+import { StyledComponentsRegistry } from "./components/styled-registry"
+import "minireset.css"
 import { App } from "./app"
-import "styles/globals.scss"
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
@@ -14,7 +15,9 @@ export default function RootLayout({ children }: PropsWithChildren) {
         />
       </head>
       <body>
-        <App>{children}</App>
+        <StyledComponentsRegistry>
+          <App>{children}</App>
+        </StyledComponentsRegistry>
 
         <Script
           src="https://identity.netlify.com/v1/netlify-identity-widget.js"

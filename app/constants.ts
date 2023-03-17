@@ -8,6 +8,7 @@ export const DatabaseFields = {
 
 /**
  * The database collection should probably be updated to set even empty fields as nullish.
+ * The order here is important.
  */
 export const DATABASE_FIELDS: string[] = [
   DatabaseFields.PART_CODE,
