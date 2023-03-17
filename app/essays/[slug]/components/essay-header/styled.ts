@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const StyledEssayTitle = styled.h1`
-  color: white;
+  color: ${(p) => p.theme.colors.text};
   margin-block-end: 1rem;
   line-height: 1.2;
 `

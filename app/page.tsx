@@ -14,9 +14,7 @@ export default function Page() {
     <>
       <PageHeading
         heading="Home"
-        subheading="Hello and welcome. This is my personal blog, database, and collection website. I
-        like to write about, document, and track my video games. I hope you stay
-        for a while!"
+        subheading="Welcome. This is a video game blog and database. Within you'll find ramblings about what makes game collecting interesting and complex. There is also a searchable print variant database for many retro and modern games."
       />
     </>
   )

@@ -5,7 +5,7 @@ export const ColorTriplets = {
   secondary: "48, 181, 50",
   tertiary: "48, 150, 197",
   backgroundColor: "1, 0, 18",
-  text: "217, 243, 255",
+  text: "255, 255, 255",
   gray50: "247, 247, 247",
   gray100: "239, 239, 239",
   gray200: "223, 223, 223",

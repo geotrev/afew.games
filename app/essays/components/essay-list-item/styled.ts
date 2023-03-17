@@ -9,12 +9,7 @@ export const StyledEssayItemHeading = styled.h2`
   margin-block-end: 0.8rem;
 
   > a {
-    color: ${(p) => p.theme.colors.text};
     text-decoration: none;
-
-    &:hover {
-      color: white;
-    }
   }
 
   @media (min-width: 640px) {

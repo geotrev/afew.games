@@ -107,7 +107,7 @@ export const html = css`
     }
 
     td {
-      background-color: rgba(${(p) => p.theme.colors.triplets.tertiary}, 0.25);
+      background-color: rgba(${(p) => p.theme.colors.triplets.tertiary}, 0.15);
     }
   }
 `
