@@ -1567,6 +1567,191 @@
       ]
     },
     {
+      "platform": "Game Boy Color",
+      "games": [
+        {
+          "name": "The Legend of Zelda: Link's Awakening DX",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG P AZLE",
+              "notes": "100% Fiber, foil"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG P AZLE",
+              "notes": "83% Fiber, foil"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG P AZLE",
+              "notes": "No foil"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Gold Version",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG P AAUE"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Silver Version",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG P AAXE"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Crystal Version",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "CGB P BYTE",
+              "notes": "Double-ended box, 'series' corrected"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "CGB P BYTE",
+              "notes": "Y-fold box, 'series' corrected"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "CGB P BYTE",
+              "notes": "'Series' misprint"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: Oracle of Ages",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "CGB P AZ8E",
+              "notes": "Double-ended box, foil"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "CGB P AZ8E",
+              "notes": "Y-fold box, no foil"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: Oracle of Seasons",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "CGB P AZ7E",
+              "notes": "Double-ended box, foil"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "CGB P AZ7E",
+              "notes": "Y-fold box, no foil"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Trading Card Game",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG P AXQE"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Pinball",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG P VPHE",
+              "notes": "100% Fiber, foil"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG P VPHE",
+              "notes": "83% Fiber, foil"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG P VPHP",
+              "notes": "No foil"
+            }
+          ]
+        },
+        {
+          "name": "Yu-Gi-Oh!: Dark Duel Stories",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "CGB P BY3E",
+              "notes": "Limited edition cards (Blue Eyes White Dragon)"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "CGB P BY3E",
+              "notes": "Limited edition cards (Seiyaryu)"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Bros. Deluxe",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "CGB P AHYE",
+              "notes": "100% Fiber, foil"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "CGB P AHYE",
+              "notes": "83% Fiber, foil"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "CGB P AHYE",
+              "notes": "No foil"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Xtreme",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "DMG P BM6E"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Xtreme 2",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "CGB P B2XE"
+            }
+          ]
+        },
+        {
+          "name": "Shantae",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "CGB P B3AE",
+              "notes": "Capcom"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "platform": "Game Boy",
       "games": [
         {
@@ -4014,7 +4199,7 @@
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "RVL P SMNE USZ",
-              "notes": "Non-foil"
+              "notes": "No foil"
             },
             {
               "part_code": "74583A",
@@ -4242,7 +4427,7 @@
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "RVL Q SOUE USZ",
-              "notes": "Non-foil"
+              "notes": "No foil"
             },
             {
               "part_code": "75631A",
@@ -4386,7 +4571,7 @@
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "WUP P BCZE USZ",
-              "notes": "Non-foil"
+              "notes": "No foil"
             },
             {
               "part_code": "104186A",
