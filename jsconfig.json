@@ -4,7 +4,8 @@
     "paths": {
       "public/*": ["public/*"],
       "styles/*": ["styles/*"],
-      "utils/*": ["utils/*"]
+      "utils/*": ["utils/*"],
+      "app/*": ["app/*"]
     }
   }
 }

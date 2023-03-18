@@ -33,11 +33,6 @@ const NavigationItems = [
     isActive: (pathname: string) => pathname.startsWith(Routes.DATABASE_PATH),
     label: "Database",
   },
-  // {
-  //   route: Routes.COLLECTION_PATH,
-  //   isActive: (pathname: string) => pathname.startsWith(Routes.COLLECTION_PATH),
-  //   label: "Collection",
-  // },
 ]
 
 export function SiteHeader(): ReactElement {
