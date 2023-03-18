@@ -1575,12 +1575,12 @@
             {
               "manufactured": "Japan",
               "mpn": "DMG P AZLE",
-              "notes": "100% Fiber, foil"
+              "notes": "100% fiber, foil"
             },
             {
               "manufactured": "Japan",
               "mpn": "DMG P AZLE",
-              "notes": "83% Fiber, foil"
+              "notes": "83% fiber, foil"
             },
             {
               "manufactured": "Japan",
@@ -1623,7 +1623,7 @@
             {
               "manufactured": "Japan",
               "mpn": "CGB P BYTE",
-              "notes": "'Series' misprint"
+              "notes": "'Series' typo"
             }
           ]
         },
@@ -1672,12 +1672,12 @@
             {
               "manufactured": "Japan",
               "mpn": "DMG P VPHE",
-              "notes": "100% Fiber, foil"
+              "notes": "100% fiber, foil"
             },
             {
               "manufactured": "Japan",
               "mpn": "DMG P VPHE",
-              "notes": "83% Fiber, foil"
+              "notes": "83% fiber, foil"
             },
             {
               "manufactured": "Japan",
@@ -1707,12 +1707,12 @@
             {
               "manufactured": "Japan",
               "mpn": "CGB P AHYE",
-              "notes": "100% Fiber, foil"
+              "notes": "100% fiber, foil"
             },
             {
               "manufactured": "Japan",
               "mpn": "CGB P AHYE",
-              "notes": "83% Fiber, foil"
+              "notes": "83% fiber, foil"
             },
             {
               "manufactured": "Japan",
@@ -2080,6 +2080,371 @@
       "platform": "Game Boy Advance",
       "games": [
         {
+          "name": "Pokemon Sapphire Version",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AXPE",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Ruby Version",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AXVE",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Emerald Version",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P BPEE",
+              "notes": ""
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P BPEE",
+              "notes": "'Plays on DS' logo"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P WOO4",
+              "notes": "Carrying case bundle"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon LeafGreen Version",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P BPGE USA",
+              "notes": "Player's Choice"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P BPGE USA",
+              "notes": "'Plays on DS' logo, Player's Choice"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB-BPGE-USA(A)",
+              "notes": "Wireless adapter not included"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P BPGE",
+              "notes": "Wireless adapter not included"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB R BPGE",
+              "notes": "Printed in Philippines, Wireless adapter, 'Adapater' typo"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB R BPGE",
+              "notes": "Printed in Philippines, Wireless adapter, 'Adapter' corrected"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB R BPGE",
+              "notes": "Printed in Philippines (sticker), Wireless adapter, 'Adapter' corrected"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon FireRed Version",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P BPRE USA",
+              "notes": "Player's Choice"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P BPRE USA",
+              "notes": "'Plays on DS' logo, Player's Choice"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB-BPRE-USA(A)",
+              "notes": "(unconfirmed) Wireless adapter not included"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P BPRE",
+              "notes": "Wireless adapter not included"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB R BPRE",
+              "notes": "Printed in Philippines, Wireless adapter, 'Adapater' typo"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB R BPRE",
+              "notes": "Printed in Philippines, Wireless adapter, 'Adapter' corrected"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB R BPRE",
+              "notes": "Printed in Philippines (sticker), Wireless adapter, 'Adapter' corrected"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Advance",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AMAE",
+              "notes": ""
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AMAE USA",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario World: Super Mario Advance 2",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AA2E",
+              "notes": ""
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AA2E USA",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Yoshi's Island: Super Mario Advance 3",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P A3AE",
+              "notes": ""
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P A3AE USA",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Advance 4: Super Mario Bros. 3",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AX4E",
+              "notes": ""
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AX4E",
+              "notes": "'Plays on DS' logo"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P W003",
+              "notes": "Seven bonus level e-reader cards"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AX4E",
+              "notes": "Two bonus level e-reader cards"
+            }
+          ]
+        },
+        {
+          "name": "Metroid Fusion",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AMTE",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Metroid: Zero Mission",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P BMXE",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: The Minish Cap",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P BZME",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: A Link to the Past and Four Swords",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AZLE",
+              "notes": "100% fiber"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AZLE",
+              "notes": "83% fiber"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AZLE USA",
+              "notes": "Player's Choice, 100% fiber"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AZLE USA",
+              "notes": "Player's Choice, 83% fiber"
+            }
+          ]
+        },
+        {
+          "name": "Mario & Luigi: Superstar Saga",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P A88E",
+              "notes": "100% fiber"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P A88E",
+              "notes": "83% fiber"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P A88E USA",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Castlevania: Circle of the Moon",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AAME",
+              "notes": ""
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AAME",
+              "notes": "Distributed by Majesco"
+            }
+          ]
+        },
+        {
+          "name": "Castlevania: Aria of Sorrow",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P A2CE",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Castlevania: Harmony of Dissonance",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P ACHE",
+              "notes": ""
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P ACHE",
+              "notes": "'A GBA masterpiece' Pocket Games quote"
+            }
+          ]
+        },
+        {
+          "name": "Golden Sun",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AGSE",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Golden Sun: The Lost Age",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AGFE",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Zero",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P AZCE",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Zero 2",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P A62E",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Zero 3",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P BZ3E",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Zero 4",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "AGB P B4ZE",
+              "notes": ""
+            }
+          ]
+        },
+        {
           "name": "Kingdom Hearts: Chain of Memories",
           "variants": [
             {
@@ -2130,12 +2495,12 @@
             {
               "manufactured": "Japan",
               "mpn": "AGB P A6BE",
-              "notes": "Y-fold box, white cover, H-seam"
+              "notes": "Y-fold box, missing art error, H-seam"
             },
             {
               "manufactured": "Japan",
               "mpn": "AGB P A6BE",
-              "notes": "Double-ended box, gray ink error, 3-side seam"
+              "notes": "Double-ended box, art corrected, 3-side seam"
             }
           ]
         },
@@ -2971,12 +3336,12 @@
             {
               "manufactured": "Japan",
               "mpn": "NUS P NPFE",
-              "notes": "100% Fiber"
+              "notes": "100% fiber"
             },
             {
               "manufactured": "Japan",
               "mpn": "NUS P NPFE",
-              "notes": "78% Fiber"
+              "notes": "78% fiber"
             }
           ]
         },
@@ -3093,12 +3458,12 @@
             {
               "manufactured": "Japan",
               "mpn": "NUS P NYSE",
-              "notes": "100% Fiber"
+              "notes": "100% fiber"
             },
             {
               "manufactured": "Japan",
               "mpn": "NUS P NYSE",
-              "notes": "78% Fiber"
+              "notes": "78% fiber"
             },
             {
               "manufactured": "Japan",
@@ -3113,12 +3478,12 @@
             {
               "manufactured": "Japan",
               "mpn": "NUS R NPOE",
-              "notes": "42% Fiber, 18% Post-Consumer Content, Game Pak #NUS-006 (USA), Transfer Pak #NUS-019"
+              "notes": "42% fiber, 18% Post-Consumer Content, Game Pak #NUS-006 (USA), Transfer Pak #NUS-019"
             },
             {
               "manufactured": "Japan",
               "mpn": "NUS R NPOE",
-              "notes": "79% Fiber, 74% Post-Consumer Content, Game Pak #NUS-006 (USA), Transfer Pak #NUS-019"
+              "notes": "79% fiber, 74% Post-Consumer Content, Game Pak #NUS-006 (USA), Transfer Pak #NUS-019"
             }
           ]
         },
@@ -3256,7 +3621,7 @@
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P GBIE",
-              "notes": "Player's Choice, 'icensed' misprint"
+              "notes": "Player's Choice, 'icensed' typo"
             },
             {
               "part_code": "",
