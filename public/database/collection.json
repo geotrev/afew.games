@@ -3101,6 +3101,314 @@
               "notes": "Pokemon UltraSun & UltraMoon 2-pack, steelbook"
             }
           ]
+        },
+        {
+          "name": "The Legend of Zelda: Ocarina of Time 3D",
+          "variants": [
+            {
+              "part_code": "75885A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "NFR, black ESRB"
+            },
+            {
+              "part_code": "74524A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P AQEE USA",
+              "notes": "Black ESRB"
+            },
+            {
+              "part_code": "74524B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P AQEE USA",
+              "notes": "Black ESRB"
+            },
+            {
+              "part_code": "103587A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P AQE2 USA",
+              "notes": "Nintendo Selects, white ESRB"
+            },
+            {
+              "part_code": "74525B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P AQEE CAN",
+              "notes": "Canadian"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: Majora's Mask 3D",
+          "variants": [
+            {
+              "part_code": "",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "NFR (amiibo bundle pack-in"
+            },
+            {
+              "part_code": "83319A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P AJRE USA",
+              "notes": ""
+            },
+            {
+              "part_code": "100952A",
+              "satellite_code": "",
+              "manufactured": "Japan",
+              "mpn": "CTR R AJR1 USZ",
+              "notes": "amiibo bundle box"
+            },
+            {
+              "part_code": "110011A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P AJR6 USA",
+              "notes": "Nintendo Selects"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: A Link Between Worlds",
+          "variants": [
+            {
+              "part_code": "81561A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P BZLE USA",
+              "notes": "Foil"
+            },
+            {
+              "part_code": "81561B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P BZLE USA",
+              "notes": "Foil, Handheld Game of the Year"
+            },
+            {
+              "part_code": "107555A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P BZL5 USA",
+              "notes": "Nintendo Selects"
+            },
+            {
+              "part_code": "107555B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P BZL5 USA",
+              "notes": "Nintendo Selects"
+            },
+            {
+              "part_code": "81562A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P BZLE CAN",
+              "notes": "Canadian"
+            },
+            {
+              "part_code": "81562B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P BZLE CAN",
+              "notes": "Canadian, Handheld Game of the Year"
+            },
+            {
+              "part_code": "107556A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P BZL5 CAN",
+              "notes": "Canadian"
+            }
+          ]
+        },
+        {
+          "name": "Yoshi's New Island",
+          "variants": [
+            {
+              "part_code": "82591A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P ATAE USA",
+              "notes": ""
+            },
+            {
+              "part_code": "103602A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P ATA2 USA",
+              "notes": "Nintendo Selects"
+            },
+            {
+              "part_code": "103602B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P ATA2 USA",
+              "notes": "Nintendo Selects"
+            },
+            {
+              "part_code": "103603A",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P ATA2 CAN",
+              "notes": "Canadian"
+            }
+          ]
+        },
+        {
+          "name": "Kid Icarus: Uprising",
+          "variants": [
+            {
+              "part_code": "76429A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "TBA-CTR-AKDE-USA",
+              "notes": "NFR, pack-in"
+            },
+            {
+              "part_code": "",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR R AKDE USA",
+              "notes": "Outer box"
+            },
+            {
+              "part_code": "76430A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "TBA-CTR-AKDE-CAN",
+              "notes": "Canadian, NFR, pack-in"
+            }
+          ]
+        },
+        {
+          "name": "Kingdom Hearts 3D: Dream Drop Distance",
+          "variants": [
+            {
+              "part_code": "1420100",
+              "satellite_code": "",
+              "manufactured": "Japan",
+              "mpn": "CTR P AKHE USA",
+              "notes": ""
+            },
+            {
+              "part_code": "1420102",
+              "satellite_code": "",
+              "manufactured": "Japan",
+              "mpn": "CTR P AKHE USA",
+              "notes": "Mark of Mastery Edition box"
+            },
+            {
+              "part_code": "1420104",
+              "satellite_code": "",
+              "manufactured": "Japan",
+              "mpn": "CTR P AKHE USA",
+              "notes": ""
+            },
+            {
+              "part_code": "1420105",
+              "satellite_code": "",
+              "manufactured": "Japan",
+              "mpn": "CTR P AKHE USA",
+              "notes": "French and English, USA model number"
+            },
+            {
+              "part_code": "1420106",
+              "satellite_code": "",
+              "manufactured": "Japan",
+              "mpn": "CTR P AKHE USA",
+              "notes": "French and English, USA model number"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario 3D Land",
+          "variants": [
+            {
+              "part_code": "75604A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P AREE USA",
+              "notes": "White case, black ESRB"
+            },
+            {
+              "part_code": "75604A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P AREE USA",
+              "notes": "Red case, black ESRB"
+            },
+            {
+              "part_code": "75604B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P AREE USA",
+              "notes": "Red case, white ESRB"
+            },
+            {
+              "part_code": "75899A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "NFR, white case, black ESRB"
+            },
+            {
+              "part_code": "101529A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P AREE USA",
+              "notes": "Red case, white ESRB"
+            },
+            {
+              "part_code": "107545A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P ARE5 USA",
+              "notes": "Nintendo Selects, white case, white ESRB"
+            },
+            {
+              "part_code": "107545B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P ARE5 USA",
+              "notes": "Nintendo Selects, white case, white ESRB"
+            },
+            {
+              "part_code": "",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Nintendo refurbished, white case, white ESRB"
+            },
+            {
+              "part_code": "75605A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P AREE CAN",
+              "notes": "Canadian, white case, black ESRB"
+            },
+            {
+              "part_code": "75605B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P AREE CAN",
+              "notes": "Canadian, white case, black ESRB"
+            },
+            {
+              "part_code": "75605C",
+              "satellite_code": "00002",
+              "manufactured": "Japan",
+              "mpn": "CTR P AREE CAN",
+              "notes": "Canadian, red case, white ESRB"
+            }
+          ]
         }
       ]
     },
@@ -3204,21 +3512,21 @@
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "NTR P AMHE CAN",
-              "notes": "French Canadian"
+              "notes": "Canadian"
             },
             {
               "part_code": "57102B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "NTR P AMHE CAN",
-              "notes": "French Canadian"
+              "notes": "Canadian"
             }
           ]
         }
       ]
     },
     {
-      "platform": "Nintendo 64",
+      "platform": "N64",
       "games": [
         {
           "name": "The Legend of Zelda: Ocarina of Time",
@@ -3755,21 +4063,21 @@
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "DOL P GLME",
-              "notes": "'Memory Card' Text, French Canadian"
+              "notes": "'Memory Card' Text, Canadian"
             },
             {
               "part_code": "46363B",
               "satellite_code": "00001",
               "manufactured": "Japan",
               "mpn": "DOL P GLME",
-              "notes": "'Uses 3 Blocks' Text, French Canadian"
+              "notes": "'Uses 3 Blocks' Text, Canadian"
             },
             {
               "part_code": "46181B",
               "satellite_code": "00101",
               "manufactured": "USA",
               "mpn": "DOL P GLME",
-              "notes": "'Uses 3 Blocks' Text, French Canadian"
+              "notes": "'Uses 3 Blocks' Text, Canadian"
             }
           ]
         },
@@ -3903,14 +4211,14 @@
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P GM8E",
-              "notes": "Best of Show E3 2002, French Canadian"
+              "notes": "Best of Show E3 2002, Canadian"
             },
             {
               "part_code": "49690B",
               "satellite_code": "00101",
               "manufactured": "USA",
               "mpn": "DOL P GM8E",
-              "notes": "Player's Choice, Video Game of the Year, French Canadian"
+              "notes": "Player's Choice, Video Game of the Year, Canadian"
             }
           ]
         },
@@ -4147,28 +4455,28 @@
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P GALE",
-              "notes": "NFR (back), French Canadian"
+              "notes": "NFR (back), Canadian"
             },
             {
               "part_code": "",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "DOL P GALE",
-              "notes": "French Canadian"
+              "notes": "Canadian"
             },
             {
               "part_code": "46554B",
               "satellite_code": "00101",
               "manufactured": "USA",
               "mpn": "DOL P GALE",
-              "notes": "Player's Choice, French Canadian"
+              "notes": "Player's Choice, Canadian"
             },
             {
               "part_code": "46554C",
               "satellite_code": "00102",
               "manufactured": "USA",
               "mpn": "DOL P GALE",
-              "notes": "Best Seller, French Canadian"
+              "notes": "Best Seller, Canadian"
             }
           ]
         },
@@ -4313,7 +4621,7 @@
               "satellite_code": "00100",
               "manufactured": "USA",
               "mpn": "DOL P GZLE",
-              "notes": "Player's Choice (French Canadian)"
+              "notes": "Player's Choice (Canadian)"
             }
           ]
         },
@@ -4436,7 +4744,7 @@
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "HAC P AAABA CAN",
-              "notes": "French Canadian"
+              "notes": "Canadian"
             }
           ]
         },
@@ -4468,22 +4776,22 @@
               "part_code": "105212A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "HAC P AAAAA USA",
-              "notes": "French Canadian"
+              "mpn": "HAC P AAAAA CAN",
+              "notes": "Canadian"
             },
             {
               "part_code": "105212B",
               "satellite_code": "00001",
               "manufactured": "Japan",
-              "mpn": "HAC P AAAAA USA",
-              "notes": "French Canadian"
+              "mpn": "HAC P AAAAA CAN",
+              "notes": "Canadian"
             },
             {
               "part_code": "108492A",
               "satellite_code": "00000",
               "manufactured": "Japan",
-              "mpn": "HAC P AAAAA USA",
-              "notes": "French Canadian"
+              "mpn": "HAC P AAAAA CAN",
+              "notes": "Canadian"
             }
           ]
         }
