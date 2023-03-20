@@ -4,8 +4,11 @@ import styled from "styled-components"
 import { SubscribeForm } from "../subscribe-form"
 
 const StyledFooter = styled.footer`
-  border: 2px solid ${(p) => p.theme.colors.tertiary2};
   margin: 1rem 0 2rem 0;
+`
+
+const StyledSubscribe = styled.div`
+  border: 2px solid ${(p) => p.theme.colors.tertiary2};
   padding: 1rem;
 `
 
@@ -16,11 +19,14 @@ const StyledHeader = styled.h2`
 export function SiteFooter() {
   return (
     <StyledFooter>
-      <StyledHeader>Subscribe to A Few Games!</StyledHeader>
-      <p>
-        Get occasional emails about game collecting. Unsubscribe at any time.
-      </p>
-      <SubscribeForm />
+      <StyledSubscribe>
+        <StyledHeader>Subscribe to A Few Games!</StyledHeader>
+        <p>
+          Get occasional emails about game collecting. Unsubscribe at any time.
+        </p>
+        <SubscribeForm />
+      </StyledSubscribe>
+      <p className="text-sm">Copyright &trade; A Few Games</p>
     </StyledFooter>
   )
 }
