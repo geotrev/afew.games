@@ -3416,6 +3416,228 @@
       "platform": "DS",
       "games": [
         {
+          "name": "Pokemon White",
+          "variants": [
+            {
+              "part_code": "73329A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "TWL P IRAO USA",
+              "notes": ""
+            },
+            {
+              "part_code": "73330A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "TWL P IRAO CAN",
+              "notes": "Canadian"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Black",
+          "variants": [
+            {
+              "part_code": "73319A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "TWL P IRBO USA",
+              "notes": ""
+            },
+            {
+              "part_code": "73320A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "TWL P IRBO CAN",
+              "notes": "Canadian"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon White 2",
+          "variants": [
+            {
+              "part_code": "77250A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "TWL P IRDO USA",
+              "notes": ""
+            },
+            {
+              "part_code": "79400A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "TWL P WPW2 USA",
+              "notes": "Wal-Mart exclusive, download offer sticker"
+            },
+            {
+              "part_code": "77251A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "TWL P IRDO CAN",
+              "notes": "Canadian"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Black 2",
+          "variants": [
+            {
+              "part_code": "77244A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "TWL P IRDO USA",
+              "notes": ""
+            },
+            {
+              "part_code": "",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "TWL P WPB2 USA",
+              "notes": "(unconfirmed) Wal-Mart exclusive, download offer sticker"
+            },
+            {
+              "part_code": "77245A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "TWL P IREO CAN",
+              "notes": "Canadian"
+            }
+          ]
+        },
+        {
+          "name": "Mario Kart DS",
+          "variants": [
+            {
+              "part_code": "58695A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P AMCE USA",
+              "notes": "Wi-Fi logo bottom"
+            },
+            {
+              "part_code": "58695B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "NTR P AMCE USA",
+              "notes": "Wi-Fi logo top"
+            },
+            {
+              "part_code": "58695B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "NTR P AMCE USA",
+              "notes": "Red case, Wi-Fi logo top"
+            },
+            {
+              "part_code": "72516A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P AMCE USA",
+              "notes": "NFR, Wi-Fi logo top"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Diamond",
+          "variants": [
+            {
+              "part_code": "63055A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P ADAE USA",
+              "notes": ""
+            },
+            {
+              "part_code": "63056A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P ADAE CAN",
+              "notes": "Canadian"
+            },
+            {
+              "part_code": "",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P ADAE USA",
+              "notes": "NFR (carrying case bundle pack-in)"
+            },
+            {
+              "part_code": "",
+              "satellite_code": "",
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "NFR (carrying case bundle box)"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Pearl",
+          "variants": [
+            {
+              "part_code": "63058A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P APAE USA",
+              "notes": ""
+            },
+            {
+              "part_code": "63059A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P APAE CAN",
+              "notes": "Canadian"
+            },
+            {
+              "part_code": "",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P APAE USA",
+              "notes": "NFR (carrying case bundle pack-in)"
+            },
+            {
+              "part_code": "",
+              "satellite_code": "",
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "NFR (carrying case bundle box)"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Platinum",
+          "variants": [
+            {
+              "part_code": "67708A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P CPUE USA",
+              "notes": ""
+            },
+            {
+              "part_code": "67709A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P CPUE CAN",
+              "notes": "Canadian"
+            },
+            {
+              "part_code": "67873A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P CPUE USA",
+              "notes": "NFR (carrying case and figurine bundle pack-in)"
+            },
+            {
+              "part_code": "67941A",
+              "satellite_code": "",
+              "manufactured": "Japan",
+              "mpn": "NTR P PUW1 USA",
+              "notes": "NFR (carrying case and figurine bundle box)"
+            }
+          ]
+        },
+        {
           "name": "New Super Mario Bros.",
           "variants": [
             {
