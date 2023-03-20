@@ -17,6 +17,10 @@ const StyledHeader = styled.h2`
   margin-block-end: 0.5rem;
 `
 
+const StyledCopyrightNotice = styled.p`
+  color: rgba(${(p) => p.theme.colors.triplets.text}, 0.7);
+`
+
 export function SiteFooter() {
   return (
     <StyledFooter>
@@ -27,7 +31,7 @@ export function SiteFooter() {
         </p>
         <SubscribeForm />
       </StyledSubscribe>
-      <p className="text-sm">Copyright &copy; A Few Games</p>
+      <StyledCopyrightNotice className="text-xs">Copyright &copy; A Few Games</StyledCopyrightNotice>
     </StyledFooter>
   )
 }
