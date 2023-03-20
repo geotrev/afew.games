@@ -10,6 +10,7 @@ const StyledFooter = styled.footer`
 const StyledSubscribe = styled.div`
   border: 2px solid ${(p) => p.theme.colors.tertiary2};
   padding: 1rem;
+  margin-block-end: 1rem;
 `
 
 const StyledHeader = styled.h2`
@@ -26,7 +27,7 @@ export function SiteFooter() {
         </p>
         <SubscribeForm />
       </StyledSubscribe>
-      <p className="text-sm">Copyright &trade; A Few Games</p>
+      <p className="text-sm">Copyright &copy; A Few Games</p>
     </StyledFooter>
   )
 }
