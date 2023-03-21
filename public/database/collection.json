@@ -3744,6 +3744,138 @@
               "notes": "Canadian"
             }
           ]
+        },
+        {
+          "name": "Pokemon HeartGold",
+          "variants": [
+            {
+              "part_code": "70777A",
+              "satellite_code": "",
+              "manufactured": "Japan",
+              "mpn": "NTR R PKW1 USA",
+              "notes": "Figurine/jacket large box, Wal-Mart exclusive"
+            },
+            {
+              "part_code": "70206A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR R IPKE USA",
+              "notes": "Pokewalker small box"
+            },
+            {
+              "part_code": "",
+              "satellite_code": "",
+              "manufactured": "Japan",
+              "mpn": "(LCPK)NTR-IPKE-USA",
+              "notes": "NFR, Pokewalker pack-in"
+            },
+            {
+              "part_code": "70207A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR R IPKE CAN",
+              "notes": "Canadian, Pokewalker small box"
+            },
+            {
+              "part_code": "",
+              "satellite_code": "",
+              "manufactured": "Japan",
+              "mpn": "(LCPK)NTR-IPKE-CAN",
+              "notes": "Canadian, NFR, Pokewalker pack-in"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon SoulSilver",
+          "variants": [
+            {
+              "part_code": "70779A",
+              "satellite_code": "",
+              "manufactured": "Japan",
+              "mpn": "NTR R PGW1 USA",
+              "notes": "Figurine/jacket large box, Wal-Mart exclusive"
+            },
+            {
+              "part_code": "70208A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR R IPGE USA",
+              "notes": "Pokewalker small box"
+            },
+            {
+              "part_code": "",
+              "satellite_code": "",
+              "manufactured": "Japan",
+              "mpn": "(LCPK)NTR-IPGE-USA",
+              "notes": "NFR, Pokewalker pack-in"
+            },
+            {
+              "part_code": "70209A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR R IPGE CAN",
+              "notes": "Canadian, Pokewalker small box"
+            },
+            {
+              "part_code": "",
+              "satellite_code": "",
+              "manufactured": "Japan",
+              "mpn": "(LCPK)NTR-IPGE-CAN",
+              "notes": "Canadian, NFR, Pokewalker pack-in"
+            }
+          ]
+        },
+        {
+          "name": "Animal Crossing: Wild World",
+          "variants": [
+            {
+              "part_code": "58699A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P ADME USA",
+              "notes": ""
+            },
+            {
+              "part_code": "58700A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P ADME CAN",
+              "notes": "Canadian"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario 64 DS",
+          "variants": [
+            {
+              "part_code": "56270A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P ASME",
+              "notes": "Red Nintendo logo"
+            },
+            {
+              "part_code": "56270B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "NTR P ASME",
+              "notes": "Red case, white Nintendo logo"
+            },
+            {
+              "part_code": "56270C",
+              "satellite_code": "00002",
+              "manufactured": "Japan",
+              "mpn": "NTR P ASME",
+              "notes": "Red case, white Nintendo logo"
+            },
+            {
+              "part_code": "56271A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P ASME",
+              "notes": "Canadian, Red Nintendo logo"
+            }
+          ]
         }
       ]
     },
