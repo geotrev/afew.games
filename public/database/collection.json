@@ -3416,6 +3416,14 @@
       "platform": "DS",
       "games": [
         {
+          "name": "Mega Man Battle Network 5: Double Team DS",
+          "variants": [
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
           "name": "Mega Man Star Force 3 Red Joker",
           "variants": [
             {
