@@ -3869,11 +3869,84 @@
               "notes": "Red case, white Nintendo logo"
             },
             {
+              "part_code": "56270C",
+              "satellite_code": "00002",
+              "manufactured": "Japan",
+              "mpn": "NTR P ASME",
+              "notes": "Standard case, white Nintendo logo"
+            },
+            {
               "part_code": "56271A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "NTR P ASME",
               "notes": "Canadian, Red Nintendo logo"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: Phantom Hourglass",
+          "variants": [
+            {
+              "part_code": "61332A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P AZEE USA",
+              "notes": ""
+            },
+            {
+              "part_code": "64567A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P AZEE USA",
+              "notes": "NFR, console pack-in"
+            },
+            {
+              "part_code": "61324A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P AZEE CAN",
+              "notes": "Canadian"
+            },
+            {
+              "part_code": "64568A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P AZEE CAN",
+              "notes": "Canadian, NFR, console pack-in"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: Spirit Tracks",
+          "variants": [
+            {
+              "part_code": "69175A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P BKIE USA",
+              "notes": ""
+            },
+            {
+              "part_code": "69176A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "NTR P BKIE CAN",
+              "notes": "Canadian"
+            },
+            {
+              "part_code": "69176B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "NTR P BKIE CAN",
+              "notes": "Canadian"
+            },
+            {
+              "part_code": "69176C",
+              "satellite_code": "00002",
+              "manufactured": "Japan",
+              "mpn": "NTR P BKIE CAN",
+              "notes": "Canadian"
             }
           ]
         }
