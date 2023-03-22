@@ -3416,6 +3416,71 @@
       "platform": "DS",
       "games": [
         {
+          "name": "Mega Man Battle Network 5: Double Team DS",
+          "variants": [
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Star Force 3 Red Joker",
+          "variants": [
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Star Force 3 Black Ace",
+          "variants": [
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Star Force 2 Zerker X Saurian",
+          "variants": [
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Star Force 2 Zerker X Ninja",
+          "variants": [
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Star Force Dragon",
+          "variants": [
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Star Force Pegasus",
+          "variants": [
+            {
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Star Force Leo",
+          "variants": [
+            {
+              "satellite_code": "",
+              "manufactured": "Japan"
+            }
+          ]
+        },
+        {
           "name": "Pokemon White",
           "variants": [
             {
