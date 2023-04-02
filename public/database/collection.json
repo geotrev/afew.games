@@ -5462,10 +5462,10 @@
             },
             {
               "part_code": "74373A",
-              "satellite_code": "00000",
+              "satellite_code": "",
               "manufactured": "Japan",
               "mpn": "TBA-RVL-RMCE-USZ-C0",
-              "notes": "NFR (console pack-in)"
+              "notes": "NFR (console pack-in), Wi-Fi logo, no Wii Wheel, black ESRB, updated Dolby logo"
             },
             {
               "part_code": "82432C",
@@ -5486,7 +5486,7 @@
               "satellite_code": "00102",
               "manufactured": "USA",
               "mpn": "RVL P RMCE USZ",
-              "notes": "No Wii Wheel, Dolby logo"
+              "notes": "No Wi-Fi logo, No Wii Wheel, white ESRB, updated Dolby logo"
             },
             {
               "part_code": "65758A",
