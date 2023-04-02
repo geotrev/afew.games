@@ -3419,7 +3419,14 @@
           "name": "Mega Man Battle Network 5: Double Team DS",
           "variants": [
             {
-              "manufactured": "Japan"
+              "manufactured": "Japan",
+              "mpn": "NTR P A5TE",
+              "notes": "Sunnyvale address"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "NTR P A5TE",
+              "notes": "San Mateo address"
             }
           ]
         },
@@ -3427,7 +3434,8 @@
           "name": "Mega Man Star Force 3 Red Joker",
           "variants": [
             {
-              "manufactured": "Japan"
+              "manufactured": "Japan",
+              "mpn": "NTR P CRRE"
             }
           ]
         },
@@ -3435,7 +3443,8 @@
           "name": "Mega Man Star Force 3 Black Ace",
           "variants": [
             {
-              "manufactured": "Japan"
+              "manufactured": "Japan",
+              "mpn": "NTR P CRBE"
             }
           ]
         },
@@ -3443,7 +3452,8 @@
           "name": "Mega Man Star Force 2 Zerker X Saurian",
           "variants": [
             {
-              "manufactured": "Japan"
+              "manufactured": "Japan",
+              "mpn": "NTR-P-YRWE"
             }
           ]
         },
@@ -3451,15 +3461,8 @@
           "name": "Mega Man Star Force 2 Zerker X Ninja",
           "variants": [
             {
-              "manufactured": "Japan"
-            }
-          ]
-        },
-        {
-          "name": "Mega Man Star Force Dragon",
-          "variants": [
-            {
-              "manufactured": "Japan"
+              "manufactured": "Japan",
+              "mpn": "NTR-P-YRVE"
             }
           ]
         },
@@ -3467,7 +3470,8 @@
           "name": "Mega Man Star Force Pegasus",
           "variants": [
             {
-              "manufactured": "Japan"
+              "manufactured": "Japan",
+              "mpn": "NTR P A6AE"
             }
           ]
         },
@@ -3476,7 +3480,17 @@
           "variants": [
             {
               "satellite_code": "",
-              "manufactured": "Japan"
+              "manufactured": "Japan",
+              "mpn": "NTR P A6BE"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Star Force Dragon",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "NTR P A6CE"
             }
           ]
         },
