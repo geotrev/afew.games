@@ -2817,10 +2817,21 @@
           "name": "Pokemon OmegaRuby",
           "variants": [
             {
+              "notes": "Bonus game codes",
+              "satellite_code": "00000",
+              "manufactured": "Japan"
+            },
+            {
               "part_code": "83666A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "CTR P ECRE USA"
+            },
+            {
+              "part_code": "83687A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "notes": "NFR, pack-in (100789A)"
             },
             {
               "part_code": "100013A",
@@ -2855,10 +2866,23 @@
           "name": "Pokemon AlphaSapphire",
           "variants": [
             {
+              "part_code": "83689A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P WCLI USA",
+              "notes": "Bonus game codes"
+            },
+            {
               "part_code": "83667A",
               "satellite_code": "00000",
               "manufactured": "Japan",
               "mpn": "CTR P ECLE USA"
+            },
+            {
+              "notes": "NFR, pack-in (100789A)",
+              "manufactured": "Japan",
+              "satellite_code": "00000",
+              "part_code": "83686A"
             },
             {
               "part_code": "100022A",
