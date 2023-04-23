@@ -5,7 +5,7 @@ import { EssayPageData } from "app/types/essays"
 
 export async function POST(req: Request & { nextUrl: NextURL }) {
   // eslint-disable-next-line no-console
-  console.log("/api/essay-items", { NODE_ENV: process.env.NODE_ENV })
+  console.log("/api/essays", { NODE_ENV: process.env.NODE_ENV })
 
   let page = req?.nextUrl?.searchParams.get("page")
 

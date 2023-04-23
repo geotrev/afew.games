@@ -24,7 +24,7 @@ function fetchEssays({
 
   setIsLoading(true)
 
-  fetch(`/api/essay-items?page=${index}`, {
+  fetch(`/api/essays?page=${index}`, {
     method,
     headers,
     cache: "no-store",
