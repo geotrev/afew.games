@@ -28,7 +28,7 @@ One thing I've noticed is sometimes the rails are slightly too far from the game
 
 There's also very small grooves on each front corner. I'm guessing these are there to make it easier to pry open the top or bottom for re-slabbing.
 
-***UPDATE (4/23/2023):** I've recently learned the small grooves might be a form of tamper evident design. The most direct way to tamper with the case is cut off the bottom acrylic pieces, but doing so is likely to inset the grooves too far. If you collect VGA, be on the lookout for this detail!*
+> **UPDATE (4/23/2023):** I've recently learned the small grooves might be a form of tamper evident design. The most direct way to tamper with the case is cut off the bottom acrylic pieces, but doing so is likely to inset the grooves too far. If you collect VGA, be on the lookout for this detail!
 
 ![VGA graded Oxenfree for PS4, space at corner/edge](/uploads/img_1115.jpeg)
 
