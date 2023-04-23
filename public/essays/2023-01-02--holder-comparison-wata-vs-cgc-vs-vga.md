@@ -8,9 +8,9 @@ I'll share my thoughts at the end!
 
 ## VGA
 
-| Material(s) | Bonding | Blister | Tamper-Evident | Size                       | Scale                                                                                             |
-| ----------- | ------- | ------- | -------------- | -------------------------- | ------------------------------------------------------------------------------------------------- |
-| Acrylic     | Cement  | No      | No             | Form-fit/Slim | [CGA Grading Scale](https://cgagrading.com/grading-scales#s-c6484255-40bd-43f9-a29a-1af7d91cd070) |
+| Material(s) | Bonding | Blister | Tamper-Evident | Size          | Scale                                                                                             |
+| ----------- | ------- | ------- | -------------- | ------------- | ------------------------------------------------------------------------------------------------- |
+| Acrylic     | Cement  | No      | Maybe?         | Form-fit/Slim | [CGA Grading Scale](https://cgagrading.com/grading-scales#s-c6484255-40bd-43f9-a29a-1af7d91cd070) |
 
 ### VGA Holder Label
 
@@ -28,15 +28,17 @@ One thing I've noticed is sometimes the rails are slightly too far from the game
 
 There's also very small grooves on each front corner. I'm guessing these are there to make it easier to pry open the top or bottom for re-slabbing.
 
+> **UPDATE (4/23/2023):** I've recently learned the small grooves might be a form of tamper evident design. The most direct way to tamper with the case is cut off the bottom acrylic pieces, but doing so is likely to inset the grooves too far. If you collect VGA, be on the lookout for this detail!
+
 ![VGA graded Oxenfree for PS4, space at corner/edge](/uploads/img_1115.jpeg)
 
 - - -
 
 ## Wata
 
-| Material(s)     | Bonding    | Blister | Tamper-Evident | Size  | Scale                                                                |
-| --------------- | ---------- | ------- | -------------- | ----- | -------------------------------------------------------------------- |
-| Acrylic/Plastic | Interlocking Pins/Cement | Yes | Yes             | Large | [Wata Grading Scale](https://www.watagames.com/what-we-do/wata-scale) |
+| Material(s)     | Bonding                  | Blister | Tamper-Evident | Size  | Scale                                                                 |
+| --------------- | ------------------------ | ------- | -------------- | ----- | --------------------------------------------------------------------- |
+| Acrylic/Plastic | Interlocking Pins/Cement | Yes     | Yes            | Large | [Wata Grading Scale](https://www.watagames.com/what-we-do/wata-scale) |
 
 ### Wata Holder Label
 
@@ -60,10 +62,9 @@ The inner blister is two pieces. There are no corner bubbles, and the blister po
 
 ## CGC
 
-
-| Material(s)     | Bonding    | Blister | Tamper-Evident | Size  | Scale                                                                |
-| --------------- | ---------- | ------- | -------------- | ----- | -------------------------------------------------------------------- |
-|  Acrylic/Plastic | Ultrasonic Weld | Yes      | Yes | Medium | [CGC VG Grading Scale](https://www.cgcvideogames.com/grading#scale) |
+| Material(s)     | Bonding         | Blister | Tamper-Evident | Size   | Scale                                                               |
+| --------------- | --------------- | ------- | -------------- | ------ | ------------------------------------------------------------------- |
+| Acrylic/Plastic | Ultrasonic Weld | Yes     | Yes            | Medium | [CGC VG Grading Scale](https://www.cgcvideogames.com/grading#scale) |
 
 ### CGC Holder Label
 
