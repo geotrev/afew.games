@@ -3,18 +3,19 @@ import MailChimpAPI from "@mailchimp/mailchimp_marketing"
 // @ts-ignore-next-line
 import crypto from "crypto-js"
 import { NextResponse } from "next/server"
-import { NextURL } from "next/dist/server/web/next-url"
+
 import {
   EMAIL_REGEXP,
   ERROR_MESSAGE,
   SubscribeFormStatuses,
 } from "utils/constants"
 
-export async function POST(req: Request & { nextUrl: NextURL }) {
+export async function POST(req: Request) {
   // eslint-disable-next-line no-console
   console.log("/api/subscribe", { NODE_ENV: process.env.NODE_ENV })
 
-  let email = req?.nextUrl?.searchParams.get("email")
+  const { searchParams } = new URL(req.url)
+  let email = searchParams.get("email")
 
   if (email) {
     email = String(decodeURIComponent(email as string))

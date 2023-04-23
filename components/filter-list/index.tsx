@@ -7,7 +7,9 @@ import {
   MouseEventHandler,
 } from "react"
 import propTypes from "prop-types"
-import { Button } from "app/components"
+
+import { Button } from "components"
+
 import { FilterListProps } from "./types"
 import {
   StyledFilterList,

@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction } from "react"
-import { EssayPageData } from "app/types/essays"
+import { EssayPageData } from "types/essays"
 
 export type FetchEssaysArgs = {
   index: number

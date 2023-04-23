@@ -1,9 +1,9 @@
 "use client"
 
 import propTypes from "prop-types"
-import { DatabasePlatform } from "app/types/games"
+import { DatabasePlatform } from "types/games"
+import { CollectionSearch } from "components"
 import { DatabaseList } from "../database-list"
-import { CollectionSearch } from "app/components"
 
 type DatabaseWrapperProps = {
   games: DatabasePlatform[]

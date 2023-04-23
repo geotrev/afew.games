@@ -1,5 +1,5 @@
-import { EssayPageData } from "app/types/essays"
 import { useState, useEffect } from "react"
+import { EssayPageData } from "types/essays"
 import { FetchEssaysArgs } from "./types"
 
 const PageMap = new Map()

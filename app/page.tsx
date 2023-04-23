@@ -1,4 +1,4 @@
-import { PageHeading } from "app/components"
+import { PageHeading } from "components"
 import { BASE_TITLE } from "utils/constants"
 
 export const metadata = {

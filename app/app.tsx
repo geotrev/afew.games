@@ -2,8 +2,8 @@
 
 import { PropsWithChildren } from "react"
 import styled, { ThemeProvider } from "styled-components"
-import { SiteHeader } from "app/components/site-header"
-import { SiteFooter } from "app/components/site-footer"
+import { SiteHeader } from "components/site-header"
+import { SiteFooter } from "components/site-footer"
 import { GlobalStyle } from "styles/globals"
 import { theme } from "styles/theme"
 

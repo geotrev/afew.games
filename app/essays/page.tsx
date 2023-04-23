@@ -1,13 +1,11 @@
-import { PageHeading } from "app/components"
-import { EssaysWrapper } from "./components/essays-wrapper"
-import { EssayPageData } from "app/types/essays"
+import xss from "xss"
+import { PageHeading } from "components"
+import { EssayPageData } from "types/essays"
 import { getEssayList } from "utils/essay-helpers"
 import { BASE_TITLE } from "utils/constants"
-import xss from "xss"
+import { EssaysWrapper } from "./components/essays-wrapper"
 
 export const dynamic = "force-dynamic"
-
-const DEFAULT_PAGE = 0
 
 export const metadata = {
   alternates: {
@@ -25,9 +23,7 @@ export default async function Page({
   const rawPage = searchParams?.page ? xss(searchParams.page) : ""
   const pageInt = parseInt(rawPage, 10)
   const essaysPage =
-    typeof pageInt === "number" && pageInt > 0
-      ? Math.floor(pageInt) - 1
-      : DEFAULT_PAGE
+    typeof pageInt === "number" && pageInt > 0 ? Math.floor(pageInt) - 1 : 0
   const initialData = (await getEssayList(essaysPage)) as EssayPageData
 
   return (

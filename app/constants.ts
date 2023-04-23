@@ -10,7 +10,7 @@ export const DatabaseFields = {
  * The database collection should probably be updated to set even empty fields as nullish.
  * The order here is important.
  */
-export const DATABASE_FIELDS: string[] = [
+export const DB_FIELDS_SORTED: string[] = [
   DatabaseFields.PART_CODE,
   DatabaseFields.SATELLITE_CODE,
   DatabaseFields.MANUFACTURED,

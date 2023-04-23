@@ -1,10 +1,11 @@
 import { useState, useEffect, ReactElement } from "react"
 import propTypes from "prop-types"
-import { CollectionListToolbar } from "app/components"
-import { DATABASE_FIELDS } from "app/constants"
-import { COLUMN_LABELS, COLUMN_WIDTHS } from "./constants"
-import { DatabaseGame, DatabaseVariant } from "app/types/games"
-import { DatabaseListProps } from "./types"
+
+import { CollectionListToolbar } from "components"
+import { DatabaseGame, DatabaseVariant } from "types/games"
+
+import { DB_FIELDS_SORTED } from "app/constants"
+
 import {
   StyledDatabaseList,
   StyledDatabaseMinimizeBar,
@@ -12,6 +13,8 @@ import {
   StyledGameHeadingLabel,
   StyledPlatformHeading,
 } from "./styled"
+import { COLUMN_LABELS, COLUMN_WIDTHS } from "./constants"
+import { DatabaseListProps } from "./types"
 
 DatabaseList.propTypes = {
   games: propTypes.arrayOf(propTypes.object),
@@ -35,7 +38,7 @@ export function DatabaseList({
   function renderVariantRow(variant: DatabaseVariant, idx: number) {
     return (
       <tr key={`row-${idx}`}>
-        {DATABASE_FIELDS.map((field) => (
+        {DB_FIELDS_SORTED.map((field) => (
           <td key={field} width={COLUMN_WIDTHS[field]}>
             {(variant as any)[field]}
           </td>
@@ -47,7 +50,7 @@ export function DatabaseList({
   function renderVariantHeaderRow() {
     return (
       <tr>
-        {DATABASE_FIELDS.map((field) => (
+        {DB_FIELDS_SORTED.map((field) => (
           <th key={field}>{COLUMN_LABELS[field]}</th>
         ))}
       </tr>

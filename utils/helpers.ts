@@ -1,4 +1,4 @@
-import { Game, DatabaseGame, PlatformRecord } from "app/types/games"
+import { Game, DatabaseGame, PlatformRecord } from "types/games"
 import { isPlainObject, isString, pickBy } from "lodash-es"
 
 export function sortByKey(key: string) {

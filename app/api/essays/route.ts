@@ -1,13 +1,14 @@
 import { NextResponse } from "next/server"
-import { NextURL } from "next/dist/server/web/next-url"
-import { getEssayList } from "utils/essay-helpers"
-import { EssayPageData } from "app/types/essays"
 
-export async function POST(req: Request & { nextUrl: NextURL }) {
+import { getEssayList } from "utils/essay-helpers"
+import { EssayPageData } from "types/essays"
+
+export async function POST(req: Request) {
   // eslint-disable-next-line no-console
   console.log("/api/essays", { NODE_ENV: process.env.NODE_ENV })
 
-  let page = req?.nextUrl?.searchParams.get("page")
+  const { searchParams } = new URL(req.url)
+  let page = searchParams.get("page")
 
   if (page) {
     page = String(decodeURIComponent(page as string))

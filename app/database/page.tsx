@@ -1,9 +1,9 @@
+import Link from "next/link"
 import { transformGameProps } from "utils/helpers"
-import { PageHeading } from "app/components"
-import { DatabaseWrapper } from "./components/database-wrapper"
+import { PageHeading } from "components"
 import { BASE_TITLE } from "utils/constants"
 import database from "public/database/collection.json"
-import Link from "next/link"
+import { DatabaseWrapper } from "./components/database-wrapper"
 
 export const metadata = {
   alternates: {

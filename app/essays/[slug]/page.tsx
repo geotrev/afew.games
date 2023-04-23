@@ -1,8 +1,10 @@
 import { notFound } from "next/navigation"
+
 import { getMatchingEssay } from "utils/essay-helpers"
-import { EssayContent } from "./components/essay-content"
 import { BASE_TITLE } from "utils/constants"
-import { EssayProps } from "app/types/essays"
+import { EssayProps } from "types/essays"
+
+import { EssayContent } from "./components/essay-content"
 
 export async function generateMetadata({
   params,

@@ -1,4 +1,4 @@
-import { EssayPageData } from "app/types/essays"
+import { EssayPageData } from "types/essays"
 
 export type EssayListComponentProps = {
   data: EssayPageData

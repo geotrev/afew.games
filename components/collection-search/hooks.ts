@@ -1,9 +1,15 @@
-import { PlatformRecord } from "types/games"
-import { DatabasePlatform, GameRecord, Platform, FilterItem } from "types/games"
-import { debounce } from "lodash-es"
-import { useSearchParams } from "next/navigation"
 import { useCallback, useMemo, useState } from "react"
+import { useSearchParams } from "next/navigation"
+import { debounce } from "lodash-es"
 import xss from "xss"
+
+import {
+  PlatformRecord,
+  DatabasePlatform,
+  GameRecord,
+  Platform,
+  FilterItem,
+} from "types/games"
 
 type FilterCallback = () => (Platform | DatabasePlatform)[]
 

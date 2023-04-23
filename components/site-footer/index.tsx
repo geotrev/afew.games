@@ -31,7 +31,9 @@ export function SiteFooter() {
         </p>
         <SubscribeForm />
       </StyledSubscribe>
-      <StyledCopyrightNotice className="text-xs">Copyright &copy; A Few Games</StyledCopyrightNotice>
+      <StyledCopyrightNotice className="text-xs">
+        &copy; 2022-{new Date().getFullYear()} A Few Games
+      </StyledCopyrightNotice>
     </StyledFooter>
   )
 }
