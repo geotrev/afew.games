@@ -52,7 +52,7 @@ export function EssaysWrapper({ initialData }: EssaysWrapperProps) {
 
   const setSearchParamsPage = useCallback(
     (value: number) => {
-      const params = new URLSearchParams(searchParams)
+      const params = new URLSearchParams(searchParams.toString())
 
       if (value === 0) {
         params.delete("page")
