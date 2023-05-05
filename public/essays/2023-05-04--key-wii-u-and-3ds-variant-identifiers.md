@@ -10,12 +10,9 @@ description: Trying to collect physical 3DS games? Here's your starting point
 
 Box variants matter for a number of reasons. One of the key reasons being that some variants will contain different game content, because they may have been produced very early (or very late) in the lifespan of the title.
 
-Ultimately, you will probably care about variants for one of these reasons:
+While I won't speculate on someone's psychology regarding collecting one print vs. another, I've noticed there is generally a pattern. 
 
-* **Speculation.** You might be looking to make some cash, and collectors love to collect variants of their favorite games. Typically early prints or rare variants will command a premium on the market. 
-* **Preservation.** Knowing the variant helps with archiving. Specifically, a the game ROM dump may contain content not on other titles, or special offers that signify important moments in the publisher's history.
-* **Set Collection.** Much like a completionist will collect every achievement in the games they play, a set collector might want every single variant of a game.
-* **Preference.** Whether you are speculating or archiving, you might simply have an affinity for a specific edition of a game. For example, special edition releases with extra physical media like books or music.
+Speculators and hardcore collectors are more likely to go for early print copies as they often have the shortest print run. This is opposed to some collectors who would prefer a later print, such as a *Nintendo Selects* edition, as they contain numerous bug fixes and sometimes additional content or DLC.
 
 ## Key Variant Indicators
 
