@@ -15,6 +15,7 @@ import {
   StyledMessage,
   StyledSpinner,
 } from "./styled"
+import xss from "xss"
 
 const DEFAULT_FORM_STATE = {
   status: SubscribeFormStatuses.NONE,
@@ -56,14 +57,12 @@ export function SubscribeForm() {
     })
 
     try {
-      const res = await fetch(
-        `/api/subscribe?email=${encodeURIComponent(value.trim())}`,
-        {
-          method,
-          headers,
-          cache: "no-store",
-        }
-      )
+      const res = await fetch("/api/subscribe", {
+        method,
+        headers,
+        cache: "no-store",
+        body: JSON.stringify({ email: xss(value.trim()) }),
+      })
 
       const nextFormState = await res.json()
       setFormState(nextFormState)
@@ -101,17 +100,17 @@ export function SubscribeForm() {
             }
           />
         )}
-        {formState.message && (
-          <StyledMessage id="subscribe-message" $status={formState.status}>
-            {formState.message}
-          </StyledMessage>
-        )}
         {!isSuccess && (
           <Button type="submit" size="sm" disabled={isLoading}>
             <StyledSpinner $status={formState.status}>
               {isLoading ? "▽" : "Subscribe"}
             </StyledSpinner>
           </Button>
+        )}
+        {formState.message && (
+          <StyledMessage id="subscribe-message" $status={formState.status}>
+            {formState.message}
+          </StyledMessage>
         )}
       </StyledFieldset>
     </form>

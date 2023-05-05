@@ -7,19 +7,18 @@ export async function POST(req: Request) {
   // eslint-disable-next-line no-console
   console.log("/api/essays", { NODE_ENV: process.env.NODE_ENV })
 
-  const { searchParams } = new URL(req.url)
-  let page = searchParams.get("page")
+  const res = await req.json()
 
-  if (page) {
-    page = String(decodeURIComponent(page as string))
-  } else {
+  if (typeof res?.page !== "number") {
     return NextResponse.error()
   }
 
   try {
-    const index = parseInt(page, 10)
+    const index = parseInt(res.page, 10)
+
     if (typeof index === "number") {
-      const data: EssayPageData = getEssayList(index) as EssayPageData
+      const data: EssayPageData = await getEssayList(index)
+
       return NextResponse.json(data)
     } else {
       return NextResponse.error()

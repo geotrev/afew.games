@@ -1,7 +1,7 @@
 import styled, { css, keyframes } from "styled-components"
 import { SubscribeFormStatuses, SubscribeFormStates } from "utils/constants"
 
-const { ERROR, LOADING } = SubscribeFormStatuses
+const { ERROR, LOADING, SUCCESS } = SubscribeFormStatuses
 
 type FormStatus = { $status: SubscribeFormStates }
 type StyledCallbackArgs = FormStatus & { theme: any }
@@ -30,7 +30,7 @@ function getInputStatusStyles(props: StyledCallbackArgs) {
 function getMessageStatusStyles(props: StyledCallbackArgs) {
   if (props.$status === LOADING) {
     return {
-      color: props.theme.colors.primary1,
+      color: props.theme.colors.text,
     }
   } else if (props.$status === ERROR) {
     return {
@@ -41,6 +41,7 @@ function getMessageStatusStyles(props: StyledCallbackArgs) {
 
 export const StyledFieldset = styled.fieldset`
   display: flex;
+  align-items: stretch;
 `
 
 export const StyledSpinner = styled.span<FormStatus>`
@@ -74,6 +75,9 @@ export const StyledInput = styled.input<FormStatus>`
 `
 
 export const StyledMessage = styled.p<FormStatus>`
+  align-self: center;
+  margin: 0;
+  padding-inline-start: ${(p) => p.$status !== SUCCESS && "16px"};
   font-size: 0.75rem;
 
   ${getMessageStatusStyles}

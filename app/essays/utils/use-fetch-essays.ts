@@ -24,10 +24,11 @@ function fetchEssays({
 
   setIsLoading(true)
 
-  fetch(`/api/essays?page=${index}`, {
+  fetch("/api/essays", {
     method,
     headers,
     cache: "no-store",
+    body: JSON.stringify({ page: index }),
   })
     .then((res) => res.json())
     .then((payload: EssayPageData) => {
