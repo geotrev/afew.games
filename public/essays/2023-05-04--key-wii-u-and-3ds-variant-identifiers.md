@@ -12,7 +12,7 @@ If you are going to collect for these two consoles, equip yourself with the know
 
 ## Terminology
 
-Here is a quick glossary on terms or acronyms in this essay:
+Here is a quick glossary on common terms/acronyms:
 
 * **Part Code:** A five or six digit code on the back of most modern Nintendo games.
 * **Print:** Refers to the numeric portion of a game's *part code*. For instance, a game with part code `12345B` will be the `12345` print.
