@@ -66,7 +66,7 @@ At the start of both the Wii U and 3DS life, ESRB ratings had a slightly differe
 
 *Left: Previous ESRB rating design; Right: Current ESRB rating design*
 
-### Nintendo Network vs. amiibo
+### Nintendo Network vs. amiibo Logo
 
 Around the end of 2014, Nintendo launched amiibo for added hardware features in select games. Games such as *Mario Kart 8* and *Animal Crossing New Leaf*, received slightly modified art after amiibo's launch. Let's use the former as an example:
 
