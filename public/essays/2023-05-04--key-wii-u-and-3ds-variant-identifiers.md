@@ -25,4 +25,7 @@ The Nintendo Wii U and 3DS platforms covered approximately 2011-2017. Nintendo h
 
   ![Left: Rating design up through 2013; Right: Rating design from 2013 onward.](/uploads/ratings.png "ESRB rating designs")
 
-  *Left: Rating design up through 2013; Right: Rating design from 2013 onward.*
+  *Left: Rating design up through 2013; Right: Rating design from 2013 onward.*\
+  \
+  The rating on the back of a game will also reflect this design difference.
+*
