@@ -1,4 +1,5 @@
 ---
+date: 2022-12-10
 title: Switch, Wii, and Wii U Variants
 description: A hodgepodge of video game variants across modern Nintendo consoles
 ---

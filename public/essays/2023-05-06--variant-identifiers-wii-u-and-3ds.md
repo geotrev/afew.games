@@ -1,4 +1,5 @@
 ---
+date: 2023-05-06
 title: "Variant Identifiers: Wii U and 3DS"
 description: Learn the ins and outs of what distinguishes these popular modern titles
 ---

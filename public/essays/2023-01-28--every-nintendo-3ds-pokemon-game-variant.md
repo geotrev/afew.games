@@ -1,4 +1,5 @@
 ---
+date: 2023-01-28
 title: The Big Guide to Pokemon 3DS Game Variants
 description: A (nearly) complete variant list for all eight mainline 3DS entries
 ---

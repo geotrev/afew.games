@@ -1,4 +1,5 @@
 ---
+date: 2022-07-10
 title: A Random NTSC-U/C Modern Nintendo Game Variant List
 description: I've accumulated a small list of games I've been interested in over
   the last few months - consider the list yours to use!

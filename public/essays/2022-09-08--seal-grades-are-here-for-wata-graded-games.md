@@ -1,4 +1,5 @@
 ---
+date: 2022-09-08
 title: "Wata Games Pop Report Analysis: Game Boy"
 description: Are the grades what we expected? Let's take a look at the Game Boy lineup!
 ---
