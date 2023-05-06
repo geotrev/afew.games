@@ -8,7 +8,7 @@ Simlarly, Wii U has become the trendy among set collectors for its extremely ver
 
 If you are going to collect for these two consoles, equip yourself with the knowledge in this article to enhance your collecting journey!
 
-> This is the start of a new series of articles diving into console-specific game variants. Rather than focus on a specific game, these articles will cover common differentiators that can help you determine whether you're collecting an early, mid or late production copy.
+> "Key Variant Identifiers" is the start of a new series of articles diving into console-specific game variants. Rather than focus on a specific game, these articles will cover common differentiators that can help you determine whether you're collecting an early, mid or late production copy.
 
 ## Terminology
 
