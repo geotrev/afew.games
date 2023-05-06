@@ -2,7 +2,11 @@
 title: Key Wii U and 3DS Variant Identifiers
 description: Trying to collect physical 3DS games? Here's your starting point
 ---
-3DS games have been hot the last six months. What's more, it's starting to become speculative as collectors and resellers begin looking for key titles to hold onto for the future. Make no mistake, 3DS is fun system to collect for if you're on a bit of a budget. Most of the titles are relatively cheap, and box variants are still relatively unknown. Equip yourself with the knowledge in this article to make your collecting journey worthwhile!
+3DS games have been on fire in the secondary market over the last six months. What's more, these games have entered into speculation, as collectors and resellers begin looking for key titles to hold onto for the future. Currently, many of its titles are relatively cheap, and box variants are still relatively unknown despite its age (12 years!).
+
+Simlarly, Wii U has become the trendy collectible platform among set collectors for its very small library (only 205 physical games). Despite its poor performance among gamers, it has some iconic games that have since been re-released on Switch to explosive success.
+
+If you are going to collect for these two consoles, equip yourself with the knowledge in this article to enhance your collecting journey!
 
 > This is the start of a new series of articles diving into console-specific game variants. Rather than focus on a specific game, these articles will cover common differentiators that can help you determine whether you're collecting an early, mid or late production copy.
 
