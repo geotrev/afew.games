@@ -20,7 +20,7 @@ Here is a quick glossary on common terms/acronyms:
 * **Variant (or Revision):** Refers to the alpha-numeric portion of a game's part code. Typically it's a letter and the last character. For instance, a game with part code `12345B` has the revision `B`.
 * **ESRB:** The Entertainment Software Ratings Board. They provide ratings for games similar to how movies are rated.
 
-## Why Do Variants Matter?
+## Why Do Prints and Variants Matter?
 
 Box variants matter for a number of reasons. One of the key reasons being that some variants will contain different game content, because they may have been produced very early (or very late) in the lifespan of the title.
 
