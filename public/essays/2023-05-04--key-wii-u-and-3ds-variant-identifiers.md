@@ -49,7 +49,7 @@ All of these and more can help identify with good confidence if a specific varia
 
 As covered in my [modern Nintendo variants essay](https://www.afew.games/essays/decoding-modern-nintendo-print-variants), part codes are the major indicator of a print. They're only excluded on occasion for pack-ins, e.g. console or controller bundle offerings. They're fairly predictable.
 
-The code is always on the back near the UPC. In the below example, the part code is `83663A`.
+The code is always on the back near the UPC. In the below example, the part code is `83664A`.
 
 ![Wii U game UPC, highlighting the part code](/uploads/super-smash-wii-u.jpg)
 
