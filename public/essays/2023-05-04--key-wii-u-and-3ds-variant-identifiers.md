@@ -12,7 +12,9 @@ Box variants matter for a number of reasons. One of the key reasons being that s
 
 While I won't speculate on someone's psychology regarding collecting one print vs. another, I've noticed there is generally a pattern. 
 
-Speculators and hardcore collectors are more likely to go for early print copies as they often have the shortest print run. This is opposed to some collectors who would prefer a later print, such as a *Nintendo Selects* edition, as they contain numerous bug fixes and sometimes additional content or DLC.
+Speculators and hardcore collectors are more likely to go for early print copies as they often have the shortest print run. This is opposed to some collectors who would prefer a later print, such as a *Nintendo Selects* edition, as they contain numerous bug fixes and sometimes additional content or DLC. Then there's some collectors who want every single known print (yes, they exist).
+
+Regardless, there's something there for everyone.
 
 ## Key Variant Indicators
 
