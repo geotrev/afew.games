@@ -1,8 +1,9 @@
 ---
-date: 2023-05-06
+publish_date: 2023-05-06
 title: "Variant Identifiers: Wii U and 3DS"
 description: Learn the ins and outs of what distinguishes these popular modern titles
 ---
+
 Modern Nintendo games are some of the easiest to understand from a collecting perspective; they give you helpful data, right on the game, that is predictable and constant (for 1st and 2nd party titles, at least).
 
 What's more, consider this article a deeper exploration into some of the most common changing attributes on ALL games over the span of a console's life (not just Nintendo).

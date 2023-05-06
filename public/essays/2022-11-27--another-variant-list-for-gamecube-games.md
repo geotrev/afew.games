@@ -1,5 +1,5 @@
 ---
-date: 2022-11-27
+publish_date: 2022-11-27
 title: Another Variant List for GameCube Games
 description: Do you like variants? Because there are a lot for some of these
   games and it's getting out of control

@@ -1,5 +1,5 @@
 ---
-date: 2022-07-02
+publish_date: 2022-07-02
 title: Decoding Modern Nintendo Print Variants
 description: Gone are the days of memorizing every dot on a box; in are the days
   of standardized print data!

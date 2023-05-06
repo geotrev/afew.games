@@ -11,9 +11,10 @@ function toSlug(str) {
     .replace(/[^\w-]+/g, "")
 }
 
-function getContent(i) {
+function getContent(date, i) {
   const title = faker.lorem.sentence()
   const content = `---
+publish_date: ${date}
 title: ${title}
 description: ${faker.lorem.sentences(2)}
 ---
@@ -23,12 +24,10 @@ ${faker.lorem.paragraphs()}
   return { title, content }
 }
 
-function getFileName(title, i) {
-  const date = faker.date.past()
-  if (i > 0) date.setDate(date.getDate() + i)
+function getFileName(date, title, i) {
   const slug = toSlug(title)
 
-  return `${date.toISOString().slice(0, 10)}--${slug}.md`
+  return `${date}--${slug}.md`
 }
 
 async function seed() {
@@ -42,8 +41,12 @@ async function seed() {
   const promises = []
 
   for (let i = 0; i < SEED_COUNT; i++) {
-    const { title, content } = getContent(i)
-    const fileName = getFileName(title, i)
+    const date = faker.date.past()
+    if (i > 0) date.setDate(date.getDate() + i)
+    const isoDate = date.toLocaleDateString().split("/").join("-")
+
+    const { title, content } = getContent(isoDate, i)
+    const fileName = getFileName(isoDate, title, i)
     const fileTarget = path.resolve(seedPath, fileName)
     promises.push(async () =>
       fs.writeFile(fileTarget, content, { encoding: "utf8" })
