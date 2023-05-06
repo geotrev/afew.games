@@ -22,19 +22,39 @@ Before jumping into specifics, lets cover some basics.
 
 The Nintendo Wii U and 3DS platforms covered approximately 2011-2017. Nintendo had several big changes to its offerings in this time, including amiibo and a changing retail catalogue via the eShop. There were also general branding changes that can help identify very generally if a specific print is early, mid or late in the life span. 
 
-* **Part Codes.** As covered in my [modern Nintendo variants essay](https://www.afew.games/essays/decoding-modern-nintendo-print-variants), part codes are the major indicator of a print. They're only excluded on occasion for pack-ins, e.g. console or controller bundle offerings. They often are predictable and safe to bet on. The major thing to remember is that five digit codes (i.e., `12345A`) should represent earlier prints. Codes with six digits (i.e., `123456A`) will often signify later prints. The last character (e.g., `A`) is the revision, so if the code has `B`, `C`, or `D`, for instance, then the print will always be later regardless of the numeric portion.
-* **ESRB Rating.** At the start of both the Wii U and 3DS life, the ESRB had a slightly different design. They officially [changed branding in 2013](https://logos.fandom.com/wiki/Entertainment_Software_Rating_Board/Ratings#2003%E2%80%932013), although some games still used the original design as they were already in production or had finished production prior and were about to release. The rating on the back of a given game generally reflects the correct design. For obvious reasons, games produced after 2013-2014 are likely to have only the new design.
+### Part Codes
 
-  ![Left: Pre-2013 ESRB rating design; Right: Current (2013 to present) ESRB rating design.](/uploads/acnl-print-example-esrb.jpg)
+As covered in my [modern Nintendo variants essay](https://www.afew.games/essays/decoding-modern-nintendo-print-variants), part codes are the major indicator of a print. They're only excluded on occasion for pack-ins, e.g. console or controller bundle offerings. They often are predictable and safe to bet on.
 
-  *Left: Previous ESRB rating design; Right: Current ESRB rating design*
-* **Nintendo Network vs. amiibo.** Around the end of 2014, Nintendo launched amiibo for added hardware features in select games. Games such as *Mario Kart 8* and *Animal Crossing New Leaf*, received slightly modified art after amiibo's launch. Let's use the former as an example:
+There are two major things to remember.
 
-  ![Left: Mario Kart 8 with Nintendo Network logo; Right: Mario Kart 8 with amiibo supported logo](/uploads/wii_u_print_example.png)
+First is the last character (always alpha-numeric) of the part code. If it ends with the letter `A`, then the print you're holding is the original variant of the given print. If it's not the letter `A`, the letter always descends alphabetically for each time the game had to be revised for production, for instance for fixing mistakes or adding feature text (e.g., amiibo support).
 
-  I have a more in depth example for *Mario Kart 8* in my [Wii U population report analysis](https://deploy-preview-209--afewgames.netlify.app/essays/wata-games-pop-report-analysis-wii-u).
-* **Nintendo Selects**. Starting with the *Wii*, Nintendo Selects replaced Player's Choice for games that sold more than 1 million units at retail. Here is a [full list of games](https://nintenfan.com/other/complete-list-nintendo-selects-wii-u-3ds-wii.html) for Wii U, 3DS, and Wii.
-* **Not For Resale (NFR).** This designation is mainly for games packaged in bundles, like *Super Smash Bros for Wii U*, which received a [controller bundle treatment](https://www.vg247.com/super-smash-bros-wii-u-gamecube-controller). Another highly sought after example is *The Legend of Zelda: Ocarina of Time 3D*, which had a very early [system bundle edition](https://www.zeldadungeon.net/ocarina-of-time-3ds-bundle-official-press-release/) with a physical copy of the game. It's not only very rare today, but a confirmed early print of the game.
+Second is five vs six digit codes. For five digits (i.e., `12345A`) that will represent an earlier print, or a variant of an early print (if the code doesn't end in `A`). Codes with six digits (i.e., `123456A`) will often signify later prints, regardless of revision.
+
+### ESRB Rating
+
+At the start of both the Wii U and 3DS life, the ESRB had a slightly different design. They officially [changed branding in 2013](https://logos.fandom.com/wiki/Entertainment_Software_Rating_Board/Ratings#2003%E2%80%932013), although some games still used the original design as they were already in production or had finished production prior and were about to release. The rating on the back of a given game generally reflects the correct design. For obvious reasons, games produced after 2013-2014 are likely to have only the new design.
+
+![Left: Pre-2013 ESRB rating design; Right: Current (2013 to present) ESRB rating design.](/uploads/acnl-print-example-esrb.jpg)
+
+*Left: Previous ESRB rating design; Right: Current ESRB rating design*
+
+### Nintendo Network vs. amiibo
+
+Around the end of 2014, Nintendo launched amiibo for added hardware features in select games. Games such as *Mario Kart 8* and *Animal Crossing New Leaf*, received slightly modified art after amiibo's launch. Let's use the former as an example:
+
+![Left: Mario Kart 8 with Nintendo Network logo; Right: Mario Kart 8 with amiibo supported logo](/uploads/wii_u_print_example.png)
+
+I have a more in depth example for *Mario Kart 8* in my [Wii U population report analysis](https://deploy-preview-209--afewgames.netlify.app/essays/wata-games-pop-report-analysis-wii-u).
+
+### Nintendo Selects
+
+Starting with the *Wii*, Nintendo Selects replaced Player's Choice for games that sold more than 1 million units at retail. Here is a [full list of games](https://nintenfan.com/other/complete-list-nintendo-selects-wii-u-3ds-wii.html) for Wii U, 3DS, and Wii.
+
+### Not For Resale (NFR)
+
+This designation is mainly for games packaged in bundles, like *Super Smash Bros for Wii U*, which received a [controller bundle treatment](https://www.vg247.com/super-smash-bros-wii-u-gamecube-controller). Another highly sought after example is *The Legend of Zelda: Ocarina of Time 3D*, which had a very early [system bundle edition](https://www.zeldadungeon.net/ocarina-of-time-3ds-bundle-official-press-release/) with a physical copy of the game. It's not only very rare today, but a confirmed early print of the game.
 
 ## Conclusion
 
