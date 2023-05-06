@@ -21,8 +21,19 @@ Before jumping into specifics, lets cover some basics.
 The Nintendo Wii U and 3DS platforms covered approximately 2011-2017. Nintendo had several big changes to its offerings in this time, including *amiibo* and a changing retail catalogue via the *eShop*. There were also general branding changes that can help identify very generally if a specific print is early, mid or late in the life span. 
 
 * **Part Codes.** As covered my [previous](https://www.afew.games/essays/decoding-modern-nintendo-print-variants) essay, part codes are the major indicator of a print. They're only excluded for things like pack-in titles for consoles or combo offerings. While a part code doesn't represent the clearest indicator of production time, they often are predictable and safe to bet on. The major thing to remember is that five digit codes (i.e., \`12345A\`) will generally represent earlier prints. Codes with six digits (i.e., \`123456A\`) will then signify late-life prints. The last character (\`A\` in this case) is the revision, so if it's a \`B\`, \`C\`, or \`D\`, for instance, then the print will always be later regardless of the digits.
-* **ESRB Rating.** At the start of both the Wii U and 3DS life, the ESRB had a slightly different design (black background and white rating). This was later changed to a white background. The ESRB officially changed branding in 2013, although some games still used the original design. The rating on the back of a game reflects this design difference.
+* **ESRB Rating.** At the start of both the Wii U and 3DS life, the ESRB had a slightly different design (black background and white rating). This was later changed to a white background. The ESRB officially [changed branding in 2013](https://logos.fandom.com/wiki/Entertainment_Software_Rating_Board/Ratings#2003%E2%80%932013), although some games still used the original design. The rating on the back of a game reflects this design difference.
 
   ![Left: Rating design up through 2013; Right: Rating design from 2013 onward.](/uploads/ratings.png "ESRB rating designs, 2003 to 2013 and 2013 to present")
 
   *Left: Rating design up through 2013; Right: Rating design from 2013 onward.*
+* **Nintendo Network vs. amiibo.** Around the end of 2014, Nintendo launched *amiibo* for added hardware features in select games. Games such as *Mario Kart 8* and *Animal Crossing New Leaf*, received slightly modified art after *amiibo*'s launch. Let's use the latter as an example:
+* **Nintendo Selects**. Starting with the *Wii*, Nintendo Selects replaced Player's Choice for games that sold more than 1 million units at retail. Here is a [full list of games](https://nintenfan.com/other/complete-list-nintendo-selects-wii-u-3ds-wii.html) for Wii U, 3DS, and Wii.
+* **Not For Resale (NFR).** This designation is mainly for games packaged in bundles, like *Super Smash Bros for Wii U*, which received a [controller bundle treatment](https://www.vg247.com/super-smash-bros-wii-u-gamecube-controller). Another highly sought after example is *The Legend of Zelda: Ocarina of Time 3D*, which had a very early [system bundle edition](https://www.zeldadungeon.net/ocarina-of-time-3ds-bundle-official-press-release/) with a physical copy of the game. It's not only very rare today, but a confirmed early print of the game.
+
+## Conclusion
+
+In short, you can use the above details to better discern when a game you're holding was produced for your own purposes.
+
+If there's one key take away I give you though, it's to not rely on *just one* detail to determine the chronology of a variant. You will almost certainly need to leverage part codes and box art in addition to comparing with other known variants to accurately determine the print you have and/or want.
+
+Thanks for reading!
