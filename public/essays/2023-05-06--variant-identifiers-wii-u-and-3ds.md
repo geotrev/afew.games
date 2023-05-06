@@ -58,6 +58,8 @@ There are two major things to remember:
 1. The last character (always alpha-numeric). If it ends with the letter `A`, then the print you're holding is the original variant of the that print. This letter will descend alphabetically for each time the game had to be revised for production, for instance for fixing mistakes (patches), adding feature text (e.g., amiibo support), and the like.
 2. Second is five vs six digit codes. For five digits (i.e., `12345A`) that will represent an earlier print, or a variant of an early print (if the code doesn't end in `A`). Codes with six digits (i.e., `123456A`) will often signify later prints, regardless of revision.
 
+Finally, a notable detail about part codes is there can be *a lot* of them. [Mario Kart 7 for instance has nine total variants.](https://www.afew.games/database?search=mario+kart+7)
+
 ### ESRB Rating
 
 At the start of both the Wii U and 3DS life, ESRB ratings had a slightly different design. They officially [changed branding in 2013](https://logos.fandom.com/wiki/Entertainment_Software_Rating_Board/Ratings#2003%E2%80%932013), although some games still used the original design as they were already in production, or had finished production prior, and were about to release. The rating on the back of a given game will also reflect the correct design, but it will be in the larger format including disclosures. For obvious reasons, games produced after 2013-2014 are likely to have only the new design.
