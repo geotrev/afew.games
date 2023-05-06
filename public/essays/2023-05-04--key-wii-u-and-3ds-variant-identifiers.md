@@ -23,7 +23,7 @@ The Nintendo Wii U and 3DS platforms covered approximately 2011-2017. Nintendo h
 * **Part Codes.** As covered my [previous](https://www.afew.games/essays/decoding-modern-nintendo-print-variants) essay, part codes are the major indicator of a print. They're only excluded for things like pack-in titles for consoles or combo offerings. While a part code doesn't represent the clearest indicator of production time, they often are predictable and safe to bet on. The major thing to remember is that five digit codes (i.e., \`12345A\`) will generally represent earlier prints. Codes with six digits (i.e., \`123456A\`) will then signify late-life prints. The last character (\`A\` in this case) is the revision, so if it's a \`B\`, \`C\`, or \`D\`, for instance, then the print will always be later regardless of the digits.
 * **ESRB Rating.** At the start of both the Wii U and 3DS life, the ESRB had a slightly different design (black background and white rating). This was later changed to a white background. The ESRB officially changed branding in 2013, although some games still used the original design.
 
-  ![Left: Rating design up through 2013; Right: Rating design from 2013 onward.](/uploads/ratings.png "ESRB rating designs")
+  ![Left: Rating design up through 2013; Right: Rating design from 2013 onward.](/uploads/ratings.png "ESRB rating designs, 2003 to 2013 and 2013 to present")
 
   *Left: Rating design up through 2013; Right: Rating design from 2013 onward.*\
   \
