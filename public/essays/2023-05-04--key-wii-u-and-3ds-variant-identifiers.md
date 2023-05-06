@@ -14,10 +14,10 @@ If you are going to collect for these two consoles, equip yourself with the know
 
 Here is a quick glossary on common terms/acronyms:
 
-* **Part Code:** A five or six digit code on the back of most modern Nintendo games.
-* **Print:** Refers to the numeric portion of a game's *part code*. For instance, a game with part code `12345B` will be the `12345` print.
-* **Variant (or Revision):** Refers to the alpha-numeric portion of a game's part code. For instance, a game with part code `12345B` has the revision `B`.
 * **UPC:** Universal Product Code. This is the bar code on the back of most games that is used for categorizing games at retail.
+* **Part Code:** A five or six digit code near the UPC. It's common on most modern 1st- and 2nd-party Nintendo games.
+* **Print:** Refers to the numeric portion of a game's part code. For instance, a game with part code `12345B` will be the `12345` print.
+* **Variant (or Revision):** Refers to the alpha-numeric portion of a game's part code. For instance, a game with part code `12345B` has the revision `B`.
 * **ESRB:** The Entertainment Software Ratings Board. They provide ratings to games in a similar way movies are rated.
 
 ## Why Do Variants Matter?
