@@ -3,6 +3,7 @@ import MailChimpAPI from "@mailchimp/mailchimp_marketing"
 // @ts-ignore-next-line
 import crypto from "crypto-js"
 import { NextResponse } from "next/server"
+import xss from "xss"
 
 import {
   EMAIL_REGEXP,
@@ -10,21 +11,26 @@ import {
   SubscribeFormStatuses,
 } from "utils/constants"
 
+function invalidError() {
+  return NextResponse.json({
+    message: "The value provided wasn't a valid email.",
+  })
+}
+
 export async function POST(req: Request) {
   // eslint-disable-next-line no-console
   console.log("/api/subscribe", { NODE_ENV: process.env.NODE_ENV })
 
-  const { searchParams } = new URL(req.url)
-  let email = searchParams.get("email")
+  const res = await req.json()
 
-  if (email) {
-    email = String(decodeURIComponent(email as string))
+  if (!res?.email) {
+    return invalidError()
   }
 
-  if (!email || !EMAIL_REGEXP.test(email)) {
-    return NextResponse.json({
-      message: "The value provided wasn't a valid email.",
-    })
+  const email = xss(res.email)
+
+  if (!EMAIL_REGEXP.test(res.email)) {
+    return invalidError()
   }
 
   try {
