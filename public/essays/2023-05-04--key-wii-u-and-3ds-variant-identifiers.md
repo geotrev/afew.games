@@ -37,11 +37,17 @@ Regardless, there's something here for everyone!
 
 ## Key Variant Indicators
 
-The Nintendo Wii U and 3DS platforms covered approximately 2011-2017. Nintendo had several big changes to its offerings in this time, including amiibo and a changing retail catalogue via the eShop. There were also general branding changes that can help identify very generally if a specific print is early, mid or late in the life span. 
+The Nintendo Wii U and 3DS platforms were primarily active between 2011 and 2017, but have received report up through 2022 and early 2023.
+
+Nintendo had several big changes to its offerings in this time, including amiibo, and a changing retail catalogue via the eShop.
+
+In addition, there were also general branding changes.
+
+All of these and more can help identify with good confidence if a specific variant is early, late, or somewhere in the middle of the system's life span. 
 
 ### Part Codes
 
-As covered in my [modern Nintendo variants essay](https://www.afew.games/essays/decoding-modern-nintendo-print-variants), part codes are the major indicator of a print. They're only excluded on occasion for pack-ins, e.g. console or controller bundle offerings. They often are predictable and safe to bet on.
+As covered in my [modern Nintendo variants essay](https://www.afew.games/essays/decoding-modern-nintendo-print-variants), part codes are the major indicator of a print. They're only excluded on occasion for pack-ins, e.g. console or controller bundle offerings. They're fairly predictable.
 
 The code is always on the back near the UPC. In the below example, the part code is `83663A`.
 
