@@ -1,6 +1,6 @@
 ---
-title: Key Wii U and 3DS Variant Identifiers
-description: Trying to collect physical 3DS games? Here's your starting point
+title: "Key Variant Identifiers: Wii U and 3DS"
+description: Learn the ins and outs of what distinguishes print runs of these modern games
 ---
 Nintendo 3DS games have been on fire in the secondary market over the last six months. What's more, these games have entered into speculation, as collectors and resellers begin looking for key titles to hold onto for the future. Currently, many of its titles are relatively cheap, and box variants are still relatively unknown despite its age (12 years!).
 
