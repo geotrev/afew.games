@@ -60,7 +60,7 @@ There are two major things to remember:
 
 ### ESRB Rating
 
-At the start of both the Wii U and 3DS life, the ESRB had a slightly different design. They officially [changed branding in 2013](https://logos.fandom.com/wiki/Entertainment_Software_Rating_Board/Ratings#2003%E2%80%932013), although some games still used the original design as they were already in production or had finished production prior and were about to release. The rating on the back of a given game generally reflects the correct design. For obvious reasons, games produced after 2013-2014 are likely to have only the new design.
+At the start of both the Wii U and 3DS life, ESRB ratings had a slightly different design. They officially [changed branding in 2013](https://logos.fandom.com/wiki/Entertainment_Software_Rating_Board/Ratings#2003%E2%80%932013), although some games still used the original design as they were already in production, or had finished production prior, and were about to release. The rating on the back of a given game will also reflect the correct design, but it will be in the larger format including disclosures. For obvious reasons, games produced after 2013-2014 are likely to have only the new design.
 
 ![Left: Pre-2013 ESRB rating design; Right: Current (2013 to present) ESRB rating design.](/uploads/acnl-print-example-esrb.jpg)
 
