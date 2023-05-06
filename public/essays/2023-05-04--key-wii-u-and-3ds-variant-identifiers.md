@@ -68,19 +68,25 @@ At the start of both the Wii U and 3DS life, ESRB ratings had a slightly differe
 
 ### Nintendo Network vs. amiibo Logo
 
-Around the end of 2014, Nintendo launched amiibo for added hardware features in select games. Games such as *Mario Kart 8* and *Animal Crossing New Leaf*, received slightly modified art after amiibo's launch. Let's use the former as an example:
+Initially, Nintendo included an orange logo signifying internet capabilities, then around the end of 2014 Nintendo launched amiibo for added hardware features in select games. For instance games like *Mario Kart 8* and *Animal Crossing New Leaf* had their Nintendo Network logos replaced with the amiibo supported logo. In the case of the former, for example:
 
 ![Left: Mario Kart 8 with Nintendo Network logo; Right: Mario Kart 8 with amiibo supported logo](/uploads/wii_u_print_example.png)
 
-I have a more in depth example for *Mario Kart 8* in my [Wii U population report analysis](https://deploy-preview-209--afewgames.netlify.app/essays/wata-games-pop-report-analysis-wii-u).
+I included a more in depth analysis for *Mario Kart 8*'s art differences in my [Wii U population report](https://deploy-preview-209--afewgames.netlify.app/essays/wata-games-pop-report-analysis-wii-u) breakdown.
 
 ### Nintendo Selects
 
-Starting with the *Wii*, Nintendo Selects replaced Player's Choice for games that sold more than 1 million units at retail. Here is a [full list of games](https://nintenfan.com/other/complete-list-nintendo-selects-wii-u-3ds-wii.html) for Wii U, 3DS, and Wii.
+Starting with the Wii, *Nintendo Selects* replaced *Player's Choice* for games that sold more than 1 million units at retail. Here is a [full list of games](https://nintenfan.com/other/complete-list-nintendo-selects-wii-u-3ds-wii.html) for Wii U, 3DS, and Wii that fell into this program.
+
+There can also be discrete differences within a *Nintendo Selects* set of prints, too.
 
 ### Not For Resale (NFR)
 
-This designation is mainly for games packaged in bundles, like *Super Smash Bros for Wii U*, which received a [controller bundle treatment](https://www.vg247.com/super-smash-bros-wii-u-gamecube-controller). Another highly sought after example is *The Legend of Zelda: Ocarina of Time 3D*, which had a very early [system bundle edition](https://www.zeldadungeon.net/ocarina-of-time-3ds-bundle-official-press-release/) with a physical copy of the game. It's not only very rare today, but a confirmed early print of the game.
+This designation is mainly for games packaged in bundles, like *Super Smash Bros for Wii U*, which received a [controller bundle treatment](https://www.vg247.com/super-smash-bros-wii-u-gamecube-controller) and the NFR pack-in game. Another highly sought-after example is *The Legend of Zelda: Ocarina of Time 3D*, which had a very early [system bundle edition](https://www.zeldadungeon.net/ocarina-of-time-3ds-bundle-official-press-release/) with a physical copy of the game. It's not only very rare today, but a confirmed early print of the game.
+
+You can identify an NFR print by looking for "Not For Resale" text somewhere on the case art. On Wii U, the disclosure is typically near the UPC and ESRB rating:
+
+![Not for resale text on the back of Wii U game](/uploads/smash-bros-wii-u-nfr.jpg)
 
 ## Conclusion
 
