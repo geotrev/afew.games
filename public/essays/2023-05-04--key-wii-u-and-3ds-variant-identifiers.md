@@ -55,7 +55,7 @@ The code is always on the back near the UPC. In the below example, the part code
 
 There are two major things to remember:
 
-1. The last character (always alpha-numeric). If it ends with the letter `A`, then the print you're holding is the original variant of the given print. If it's not the letter `A`, the letter always descends alphabetically for each time the game had to be revised for production, for instance for fixing mistakes or adding feature text (e.g., amiibo support).
+1. The last character (always alpha-numeric). If it ends with the letter `A`, then the print you're holding is the original variant of the that print. This letter will descend alphabetically for each time the game had to be revised for production, for instance for fixing mistakes (patches), adding feature text (e.g., amiibo support), and the like.
 2. Second is five vs six digit codes. For five digits (i.e., `12345A`) that will represent an earlier print, or a variant of an early print (if the code doesn't end in `A`). Codes with six digits (i.e., `123456A`) will often signify later prints, regardless of revision.
 
 ### ESRB Rating
