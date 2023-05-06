@@ -26,7 +26,9 @@ The Nintendo Wii U and 3DS platforms covered approximately 2011-2017. Nintendo h
   ![Left: Rating design up through 2013; Right: Rating design from 2013 onward.](/uploads/ratings.png "ESRB rating designs, 2003 to 2013 and 2013 to present")
 
   *Left: Rating design up through 2013; Right: Rating design from 2013 onward.*
-* **Nintendo Network vs. amiibo.** Around the end of 2014, Nintendo launched *amiibo* for added hardware features in select games. Games such as *Mario Kart 8* and *Animal Crossing New Leaf*, received slightly modified art after *amiibo*'s launch. Let's use the latter as an example:
+* **Nintendo Network vs. amiibo.** Around the end of 2014, Nintendo launched *amiibo* for added hardware features in select games. Games such as *Mario Kart 8* and *Animal Crossing New Leaf*, received slightly modified art after *amiibo*'s launch. Let's use the former as an example:
+
+  ![Left: Mario Kart 8 with Nintendo Network logo; Right: Mario Kart 8 with amiibo supported logo](/uploads/wii_u_print_example.png "Mario Kart 8 with Nintendo Network vs. amiibo supported logos.")
 * **Nintendo Selects**. Starting with the *Wii*, Nintendo Selects replaced Player's Choice for games that sold more than 1 million units at retail. Here is a [full list of games](https://nintenfan.com/other/complete-list-nintendo-selects-wii-u-3ds-wii.html) for Wii U, 3DS, and Wii.
 * **Not For Resale (NFR).** This designation is mainly for games packaged in bundles, like *Super Smash Bros for Wii U*, which received a [controller bundle treatment](https://www.vg247.com/super-smash-bros-wii-u-gamecube-controller). Another highly sought after example is *The Legend of Zelda: Ocarina of Time 3D*, which had a very early [system bundle edition](https://www.zeldadungeon.net/ocarina-of-time-3ds-bundle-official-press-release/) with a physical copy of the game. It's not only very rare today, but a confirmed early print of the game.
 
