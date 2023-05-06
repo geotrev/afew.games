@@ -17,18 +17,23 @@ Here is a quick glossary on common terms/acronyms:
 * **UPC:** Universal Product Code. This is the bar code on the back of most games that is used for categorizing games at retail.
 * **Part Code:** A five or six digit code near the UPC. It's common on most modern 1st- and 2nd-party Nintendo games.
 * **Print:** Refers to the numeric portion of a game's part code. For instance, a game with part code `12345B` will have the print `12345`.
-* **Variant (or Revision):** Refers to the alpha-numeric portion of a game's part code. Typically it's a letter and the last character. For instance, a game with part code `12345B` has the revision `B`.
+* **Revision:** Refers to the alpha-numeric portion of a game's part code. Typically it's a letter and the last character. For instance, a game with part code `12345B` has the revision `B`.
+* **Variant:** Refers to a specific print and revision combination of a game.
 * **ESRB:** The Entertainment Software Ratings Board. They provide ratings for games similar to how movies are rated.
 
-## Why Do Prints and Variants Matter?
+## Why Do Variants Matter?
 
-Box variants matter for a number of reasons. One of the key reasons being that some variants will contain different game content, because they may have been produced very early (or very late) in the lifespan of the title.
+One of the key reasons to be keen on variants is they indicate different game content. For instance, a very early variant of a game may be missing DLC content that is later included on a *Nintendo Selects* release. These later prints can also include game-breaking bug patches.
 
-While I won't speculate on someone's psychology regarding collecting one print vs. another, I've noticed there is generally a pattern. 
+While I won't speculate on someone's psychology regarding collecting one variant vs. another, I've noticed there is generally a pattern. 
 
-Speculators and hardcore collectors are more likely to go for early print copies as they often have the shortest print run. This is opposed to some collectors who would prefer a later print, such as a *Nintendo Selects* edition, as they contain numerous bug fixes and sometimes additional content or DLC. Then there's some collectors who want every single known print (yes, they exist).
+Speculators and hardcore collectors are more likely to go for early print copies as they often have the shortest print run.
 
-Regardless, there's something there for everyone.
+This is opposed to some collectors who would prefer a later print, such as a *Nintendo Selects* releases, as they contain the aforementioned additional content.
+
+Then there's some collectors who want every single known print (yes, they exist).
+
+Regardless, there's something here for everyone!
 
 ## Key Variant Indicators
 
