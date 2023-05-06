@@ -15,7 +15,7 @@ If you are going to collect for these Nintendo 3DS and Wii U, equip yourself wit
 Here is a quick glossary on common terms/acronyms:
 
 * **UPC:** Universal Product Code. This is the bar code on the back of most games that is used for categorizing games at retail.
-* **Part Code:** A five or six digit code near the UPC. It's common on most modern 1st- and 2nd-party Nintendo games.
+* **Part Code:** A five or six digit code near the UPC. It's common on most modern 1st and 2nd party Nintendo games.
 * **Print:** Refers to the numeric portion of a game's part code. For instance, a game with part code `12345B` will have the print `12345`.
 * **Revision:** Refers to the alpha-numeric portion of a game's part code. Typically it's a letter and the last character. For instance, a game with part code `12345B` has the revision `B`.
 * **Variant:** Refers to a specific print and revision combination of a game.
@@ -37,7 +37,7 @@ Regardless, there's something here for everyone!
 
 ## Key Variant Indicators
 
-The Nintendo Wii U and 3DS platforms were primarily active between 2011 and 2017, but have received report up through 2022 and early 2023.
+The Nintendo Wii U and 3DS platforms were primarily active between 2011 and 2017, but have received support up through 2022 and early 2023.
 
 Nintendo had several big changes to its offerings in this time, including amiibo, and a changing retail catalogue via the eShop.
 
@@ -57,6 +57,8 @@ There are two major things to remember:
 
 1. The last character (always alpha-numeric). If it ends with the letter `A`, then the print you're holding is the original variant of the that print. This letter will descend alphabetically for each time the game had to be revised for production, for instance for fixing mistakes (patches), adding feature text (e.g., amiibo support), and the like.
 2. Second is five vs six digit codes. For five digits (i.e., `12345A`) that will represent an earlier print, or a variant of an early print (if the code doesn't end in `A`). Codes with six digits (i.e., `123456A`) will often signify later prints, regardless of revision.
+
+Finally, a notable detail about part codes is there can be *a lot* of them. [Mario Kart 7 for instance has nine total variants.](https://www.afew.games/database?search=mario+kart+7)
 
 ### ESRB Rating
 
