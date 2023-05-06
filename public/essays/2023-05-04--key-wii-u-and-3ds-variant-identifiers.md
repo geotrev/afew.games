@@ -6,6 +6,16 @@ description: Trying to collect physical 3DS games? Here's your starting point
 
 > This is the start of a new series of articles diving into console-specific game variants. Rather than focus on a specific game, these articles will cover common differentiators that can help you determine whether you're collecting an early, mid or late production copy.
 
+## Terminology
+
+Here is a quick glossary on terms or acronyms in this essay:
+
+* **Part Code:** A five or six digit code on the back of most modern Nintendo games.
+* **Print:** Refers to the numeric portion of a game's *part code*. For instance, a game with part code `12345B` will be the `12345` print.
+* **Variant (or Revision):** Refers to the alpha-numeric portion of a game's part code. For instance, a game with part code `12345B` has the revision `B`.
+* **UPC:** Universal Product Code. This is the bar code on the back of most games that is used for categorizing games at retail.
+* **ESRB:** The Entertainment Software Ratings Board. They provide ratings to games in a similar way movies are rated.
+
 ## Why Do Variants Matter?
 
 Box variants matter for a number of reasons. One of the key reasons being that some variants will contain different game content, because they may have been produced very early (or very late) in the lifespan of the title.
@@ -18,19 +28,20 @@ Regardless, there's something there for everyone.
 
 ## Key Variant Indicators
 
-Before jumping into specifics, lets cover some basics.
-
 The Nintendo Wii U and 3DS platforms covered approximately 2011-2017. Nintendo had several big changes to its offerings in this time, including amiibo and a changing retail catalogue via the eShop. There were also general branding changes that can help identify very generally if a specific print is early, mid or late in the life span. 
 
 ### Part Codes
 
 As covered in my [modern Nintendo variants essay](https://www.afew.games/essays/decoding-modern-nintendo-print-variants), part codes are the major indicator of a print. They're only excluded on occasion for pack-ins, e.g. console or controller bundle offerings. They often are predictable and safe to bet on.
 
-There are two major things to remember.
+The code is always on the back near the UPC. In the below example, the part code is `83663A`.
 
-First is the last character (always alpha-numeric) of the part code. If it ends with the letter `A`, then the print you're holding is the original variant of the given print. If it's not the letter `A`, the letter always descends alphabetically for each time the game had to be revised for production, for instance for fixing mistakes or adding feature text (e.g., amiibo support).
+![Wii U game UPC, highlighting the part code](/uploads/super-smash-wii-u.jpg)
 
-Second is five vs six digit codes. For five digits (i.e., `12345A`) that will represent an earlier print, or a variant of an early print (if the code doesn't end in `A`). Codes with six digits (i.e., `123456A`) will often signify later prints, regardless of revision.
+There are two major things to remember:
+
+1. The last character (always alpha-numeric). If it ends with the letter `A`, then the print you're holding is the original variant of the given print. If it's not the letter `A`, the letter always descends alphabetically for each time the game had to be revised for production, for instance for fixing mistakes or adding feature text (e.g., amiibo support).
+2. Second is five vs six digit codes. For five digits (i.e., `12345A`) that will represent an earlier print, or a variant of an early print (if the code doesn't end in `A`). Codes with six digits (i.e., `123456A`) will often signify later prints, regardless of revision.
 
 ### ESRB Rating
 
