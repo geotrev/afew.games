@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ReactElement } from "react"
 import propTypes from "prop-types"
 import {
   StyledEssayItem,
@@ -7,40 +6,24 @@ import {
   StyledEssayItemTime,
   StyledEssayItemTimePara,
 } from "./styled"
-import { EssayListItemProps } from "./types"
+import { Essay } from "types/essays"
+
+export const EssayListItem = ({ title, description, urlPath, date }: Essay) => (
+  <StyledEssayItem>
+    <StyledEssayItemTimePara className="text-xs">
+      <StyledEssayItemTime dateTime={date}>{date}</StyledEssayItemTime>
+    </StyledEssayItemTimePara>
+    <StyledEssayItemHeading>
+      <Link href={urlPath}>{title}</Link>
+    </StyledEssayItemHeading>
+    <p>{description}</p>
+  </StyledEssayItem>
+)
 
 EssayListItem.propTypes = {
-  entry: propTypes.shape({
-    title: propTypes.string,
-    description: propTypes.string,
-    metadata: propTypes.shape({
-      urlPath: propTypes.string,
-      date: propTypes.string,
-    }),
-  }).isRequired,
-}
-
-export function EssayListItem({ entry }: EssayListItemProps): ReactElement {
-  const {
-    title,
-    description,
-    metadata: { urlPath, date },
-  } = entry
-  const id = `${title.split(" ").join("-").slice(0, 16)}`
-
-  return (
-    <StyledEssayItem>
-      <StyledEssayItemTimePara className="text-xs">
-        <StyledEssayItemTime dateTime={date} id={id}>
-          {date}
-        </StyledEssayItemTime>
-      </StyledEssayItemTimePara>
-      <StyledEssayItemHeading aria-describedby={id}>
-        <Link href={urlPath} legacyBehavior>
-          {title}
-        </Link>
-      </StyledEssayItemHeading>
-      <p>{description}</p>
-    </StyledEssayItem>
-  )
+  date: propTypes.string,
+  title: propTypes.string,
+  description: propTypes.string,
+  slug: propTypes.string,
+  urlPath: propTypes.string,
 }

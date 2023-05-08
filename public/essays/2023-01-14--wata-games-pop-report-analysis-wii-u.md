@@ -1,8 +1,10 @@
 ---
+publish_date: 2023-01-14
 title: "Wata Games Pop Report Analysis: Wii U"
 description: Deep dive into Nintendo's least successful console with second
   lowest submission rate
 ---
+
 Nintendo Wii U, despite giving gamers access to a huge library of older games, was one of Nintendo's biggest release blunders. Most notably, consumers were simply confused by it! Many thought it was a peripheral for its predecessor, Nintendo Wii. Nintendo had to fundamentally change its marketing between announcement and release, which likely hampered it's financial and critical success.
 
 In this article, we'll cover Wata Games' December 1st, 2022 population report for the Wii U, where it won't surprise you to learn Wii U is among the least-submitted platforms.

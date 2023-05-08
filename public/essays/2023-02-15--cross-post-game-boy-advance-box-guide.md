@@ -1,4 +1,5 @@
 ---
+publish_date: 2023-02-15
 title: "Cross Post: Game Boy Advance Box Guide"
 description: An overview of box variants for Nintendo's final Game Boy iteration
 ---

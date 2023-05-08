@@ -21,6 +21,11 @@ collections:
     publish: true
     create: true
     fields:
+      - label: Publish date
+        name: publish_date
+        format: YYYY-MM-DD
+        required: true
+        widget: date
       - label: Title
         name: title
         required: true

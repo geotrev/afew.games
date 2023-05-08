@@ -1,7 +1,9 @@
 ---
+publish_date: 2022-12-10
 title: Switch, Wii, and Wii U Variants
 description: A hodgepodge of video game variants across modern Nintendo consoles
 ---
+
 Here I'm sharing a some variants that have been leftover from the past months. They're popular games, however, and I think the variants are worth noting!
 
 If you haven't already, do check out my [variant guide](https://www.afew.games/essays/decoding-modern-nintendo-print-variants) to learn what each portion of the below data means and why it matters.

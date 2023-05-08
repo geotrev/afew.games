@@ -1,4 +1,5 @@
 ---
+publish_date: 2022-12-24
 title: First Wave of Modern Population Reports Are Here!
 description: An analysis of Nintendo GameCube graded population data
 ---

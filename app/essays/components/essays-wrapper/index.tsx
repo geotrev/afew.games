@@ -117,7 +117,7 @@ export function EssaysWrapper({ initialData }: EssaysWrapperProps) {
     <EssayListError />
   ) : (
     <>
-      <EssayList data={data} ref={listRef} />
+      <EssayList {...data} ref={listRef} />
       <Pagination
         count={data.totalPages}
         maxVisiblePageCount={VISIBLE_PAGES}

@@ -1,4 +1,5 @@
 ---
+publish_date: 2022-07-04
 title: "All NTSC-U Mega Man Games on Game Boy Advance/Color: Variant Breakdown"
 description: Every variant for the 14 games on GBA and GBC, and what to look for
   in both sealed and complete-in-box copies

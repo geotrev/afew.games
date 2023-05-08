@@ -1,4 +1,5 @@
 ---
+publish_date: 2022-09-07
 title: Variant Database Incoming and Other Updates!
 description: The Notion app is only useful for so long, and I'm pretty sure the
   collection page is too long

@@ -1,8 +1,10 @@
 ---
+publish_date: 2022-07-31
 title: The (Unfortunate) State of Graded Games
 description: As fun and lucrative as graded games might seem, the hobby (and
   corporate industry) has a long way to go
 ---
+
 I want to preface this by saying, I love to collect games. Grading games is largely a fun and enjoyable experience if you can find good deals and know what you're doing.
 
 That said, I have some complaints. Some personal, some not-so personal.
