@@ -15,6 +15,12 @@ function getEssaysPath(target: string = ""): string {
     : path.resolve(process.cwd(), "public/essays", target)
 }
 
+function toDateString(date: Date | string): string {
+  return date instanceof Date
+    ? date.toLocaleDateString().split("/").join("-")
+    : date
+}
+
 export function getEssayList(index: number): EssayPageData {
   const fileNames: string[] = readdirSync(getEssaysPath(), "utf8")
     .sort()
@@ -29,8 +35,10 @@ export function getEssayList(index: number): EssayPageData {
       const rawName = fileName.split("--")[1]
       const slug = rawName.replace(".md", "")
       const urlPath = `/essays/${slug}`
+      const date = toDateString(publish_date)
+
       return {
-        date: publish_date.toLocaleDateString().split("/").join("-"),
+        date,
         title,
         description,
         urlPath,
@@ -77,9 +85,10 @@ export function getMatchingEssay(
     content: markdownContent,
   }: GrayMatterFile<typeof rawFile> = matter(rawFile)
   const content = marked.parse(markdownContent)
+  const date = toDateString(publish_date)
 
   return {
-    date: publish_date.toLocaleDateString().split("/").join("-"),
+    date,
     title,
     description,
     content,
