@@ -11,8 +11,8 @@ const MAX_LIST_LENGTH = 5
 
 function getEssaysPath(target: string = ""): string {
   return process.env.NODE_ENV === "development"
-    ? path.resolve(process.cwd(), ".seed", "essays", target)
-    : path.resolve(process.cwd(), "public", "essays", target)
+    ? path.resolve(process.cwd(), ".seed/essays", target)
+    : path.resolve(process.cwd(), "public/essays", target)
 }
 
 export function getEssayList(index: number): EssayPageData {
@@ -24,12 +24,18 @@ export function getEssayList(index: number): EssayPageData {
     const essayData: Essay[] = fileNames.map((fileName: string) => {
       const raw = readFileSync(getEssaysPath(fileName), "utf8")
       const {
-        data: { title, description },
+        data: { title, description, publish_date },
       }: GrayMatterFile<typeof raw> = matter(raw)
-      const [date, rawName] = fileName.split("--")
-      const slug = rawName.slice(0, -3)
+      const rawName = fileName.split("--")[1]
+      const slug = rawName.replace(".md", "")
       const urlPath = `/essays/${slug}`
-      return { title, description, metadata: { urlPath, date, slug } }
+      return {
+        date: publish_date.toLocaleDateString().split("/").join("-"),
+        title,
+        description,
+        urlPath,
+        slug,
+      }
     })
 
     let chunked = chunk(essayData, MAX_LIST_LENGTH)
@@ -55,27 +61,27 @@ export function getMatchingEssay(
   if (typeof slug !== "string") return false
 
   const fileNames: string[] = readdirSync(getEssaysPath(), "utf8")
-  const fileName: string | undefined = fileNames.find((fileName) =>
-    fileName.includes(slug)
-  )
+  const fileName: string | undefined = fileNames.find((fileName) => {
+    const rawName = fileName.split("--")[1]
+    const fileSlug = rawName.replace(".md", "")
+
+    return slug === fileSlug
+  })
 
   // Redirect to 404
-  if (typeof fileName !== "string") return false
-
-  const fileData: string[] = fileName.replace(".md", "").split("--")
-  const date = fileData[0]
+  if (!fileName) return false
 
   const rawFile = readFileSync(getEssaysPath(fileName), "utf8")
   const {
-    data: { title, description },
+    data: { title, description, publish_date },
     content: markdownContent,
   }: GrayMatterFile<typeof rawFile> = matter(rawFile)
   const content = marked.parse(markdownContent)
 
   return {
+    date: publish_date.toLocaleDateString().split("/").join("-"),
     title,
     description,
-    date,
     content,
   }
 }

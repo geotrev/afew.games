@@ -37,16 +37,5 @@ export default function Page({ params }: { params: { slug: string } }) {
     return notFound()
   }
 
-  const { title, description, date, content } = essayData as EssayProps
-
-  return (
-    <>
-      <EssayContent
-        title={title}
-        description={description}
-        date={date}
-        content={content}
-      />
-    </>
-  )
+  return <EssayContent {...(essayData as EssayProps)} />
 }

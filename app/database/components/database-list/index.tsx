@@ -2,7 +2,7 @@ import { useState, useEffect, ReactElement } from "react"
 import propTypes from "prop-types"
 
 import { CollectionListToolbar } from "components"
-import { DatabaseGame, DatabaseVariant } from "types/games"
+import { DatabaseVariant } from "types/games"
 
 import { DB_FIELDS_SORTED } from "app/constants"
 
@@ -35,50 +35,38 @@ export function DatabaseList({
     setOpened(true)
   }, [games])
 
-  function renderVariantRow(variant: DatabaseVariant, idx: number) {
-    return (
-      <tr key={`row-${idx}`}>
-        {DB_FIELDS_SORTED.map((field) => (
-          <td key={field} width={COLUMN_WIDTHS[field]}>
-            {(variant as any)[field]}
-          </td>
-        ))}
-      </tr>
-    )
-  }
-
-  function renderVariantHeaderRow() {
-    return (
-      <tr>
-        {DB_FIELDS_SORTED.map((field) => (
-          <th key={field}>{COLUMN_LABELS[field]}</th>
-        ))}
-      </tr>
-    )
-  }
-
-  function renderVariants(data: DatabaseGame) {
-    return (
-      <li key={data.name}>
-        <StyledGameHeading>
-          <StyledGameHeadingLabel>{data.name}</StyledGameHeadingLabel>
-        </StyledGameHeading>
-        <table>
-          <thead>{renderVariantHeaderRow()}</thead>
-          <tbody>{data.variants!.map(renderVariantRow)}</tbody>
-        </table>
-      </li>
-    )
-  }
-
   function renderList() {
-    if (!opened) {
-      return <StyledDatabaseMinimizeBar />
-    }
+    if (!opened) return <StyledDatabaseMinimizeBar />
 
     return (
       <StyledDatabaseList aria-labelledby={`header-${id}`} id={`list-${id}`}>
-        {games.map(renderVariants)}
+        {games.map((data) => (
+          <li key={data.name}>
+            <StyledGameHeading>
+              <StyledGameHeadingLabel>{data.name}</StyledGameHeadingLabel>
+            </StyledGameHeading>
+            <table>
+              <thead>
+                <tr>
+                  {DB_FIELDS_SORTED.map((field) => (
+                    <th key={field}>{COLUMN_LABELS[field]}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {data.variants!.map((variant: DatabaseVariant, idx: number) => (
+                  <tr key={`row-${idx}`}>
+                    {DB_FIELDS_SORTED.map((field) => (
+                      <td key={field} width={COLUMN_WIDTHS[field]}>
+                        {(variant as any)[field]}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </li>
+        ))}
       </StyledDatabaseList>
     )
   }

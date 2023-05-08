@@ -1,11 +1,9 @@
 export type Essay = {
+  date: string
   title: string
   description: string
-  metadata: {
-    urlPath: string
-    date: string
-    slug: string
-  }
+  urlPath: string
+  slug: string
 }
 
 export type EssayPageData = {
@@ -15,8 +13,8 @@ export type EssayPageData = {
 }
 
 export type EssayProps = {
+  date: string
   title: string
   description: string
-  date: string
   content: string
 }
