@@ -18,7 +18,7 @@ publish_date: ${date}
 title: ${title}
 description: ${faker.lorem.sentences(2)}
 ---
-${faker.lorem.paragraphs()}
+${faker.lorem.paragraphs(5)}
 `
 
   return { title, content }
