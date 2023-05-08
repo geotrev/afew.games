@@ -1,17 +1,17 @@
 "use client"
 
-import { Button } from "../button"
-import { CollectionListToolbarProps } from "./types"
+import { Button } from "../../../../components/button"
+import { ListToolbarProps } from "./types"
 import { StyledToolbarInfo } from "./styled"
 
-export function CollectionListToolbar({
+export function ListToolbar({
   itemsLength,
   id,
   opened,
   setOpened,
   label,
   pluralLabel,
-}: CollectionListToolbarProps) {
+}: ListToolbarProps) {
   function renderMinimizeText() {
     return (
       <>

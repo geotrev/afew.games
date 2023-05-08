@@ -1,6 +1,6 @@
 import { Dispatch, SetStateAction } from "react"
 
-export type CollectionListToolbarProps = {
+export type ListToolbarProps = {
   label: string
   pluralLabel: string
   itemsLength: number

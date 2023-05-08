@@ -1,10 +1,12 @@
+"use client"
+
 import { useState, useEffect, ReactElement } from "react"
 import propTypes from "prop-types"
 
-import { CollectionListToolbar } from "components"
-import { DatabaseVariant } from "types/games"
-
 import { DB_FIELDS_SORTED } from "app/constants"
+
+import { ListToolbar } from "../list-toolbar"
+import { DatabaseVariant } from "types/games"
 
 import {
   StyledDatabaseList,
@@ -78,7 +80,7 @@ export function DatabaseList({
   return (
     <>
       <StyledPlatformHeading id={`header-${id}`}>{label}</StyledPlatformHeading>
-      <CollectionListToolbar
+      <ListToolbar
         label="game"
         pluralLabel="games"
         itemsLength={length}
