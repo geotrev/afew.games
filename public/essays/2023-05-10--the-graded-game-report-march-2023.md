@@ -1,9 +1,11 @@
 ---
 publish_date: 2023-05-10
-title: "The Graded Game Report: March 2023"
-description: Summary of changes, from population reports to community
+title: "The Graded Games Report: Spring 2023"
+description: A quick summary of population and collecting community updates
 ---
-I'm a little late on this one, but I think you'll enjoy the results. Wata Games has been publishing updates to their population reports about once every 3-4 months consistently, and it's probably good form at this point to start sharing exactly how the numbers and trends are shifting. We'll also dover some other happenings near the end.
+I'm a little late on this one, but I think you'll enjoy it. Wata Games has been publishing updates to their population reports about once every 3-4 months consistently, and we finally have enough data to see how trends are shifting.
+
+There's also some great community and auction updates, so read to the end!
 
 - - -
 
