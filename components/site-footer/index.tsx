@@ -4,7 +4,7 @@ import styled from "styled-components"
 import { SubscribeForm } from "../subscribe-form"
 
 const StyledFooter = styled.footer`
-  margin: 1rem 0 2rem 0;
+  margin: 3rem 0 2rem 0;
 `
 
 const StyledSubscribe = styled.div`
