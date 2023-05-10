@@ -23,7 +23,7 @@ export default async function Page({
   const rawPage = searchParams?.page ? xss(searchParams.page) : ""
   const pageInt = parseInt(rawPage, 10)
   const essaysPage =
-    typeof pageInt === "number" && pageInt > 0 ? Math.floor(pageInt) - 1 : 0
+    !isNaN(pageInt) && pageInt > 0 ? Math.floor(pageInt) - 1 : 0
   const initialData: EssayPageData = await getEssayList(essaysPage)
 
   return (
