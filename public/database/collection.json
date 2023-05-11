@@ -2618,6 +2618,13 @@
               "mpn": "CTR P EGDE USA"
             },
             {
+              "part_code": "101516A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P EGDE USA",
+              "notes": "White ESRB"
+            },
+            {
               "part_code": "104478B",
               "satellite_code": "00001",
               "manufactured": "Japan",
