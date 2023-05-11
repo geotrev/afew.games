@@ -2608,6 +2608,17 @@
       "platform": "3DS",
       "games": [
         {
+          "name": "The Legend of Zelda Tri Force Heroes",
+          "variants": [
+            {
+              "part_code": "102479A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P EA3E USA"
+            }
+          ]
+        },
+        {
           "name": "Hyrule Warriors Legends",
           "variants": [
             {
