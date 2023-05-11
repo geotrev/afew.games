@@ -2608,6 +2608,32 @@
       "platform": "3DS",
       "games": [
         {
+          "name": "Animal Crossing New Leaf",
+          "variants": [
+            {
+              "notes": "Black ESRB",
+              "part_code": "79822A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P EGDE USA"
+            },
+            {
+              "part_code": "104478B",
+              "satellite_code": "00001",
+              "manufactured": "Japan",
+              "mpn": "CTR P EAAE USA",
+              "notes": "Nintendo Selects, \"Welcome amiibo\""
+            },
+            {
+              "notes": "Nintendo Selects, \"Welcome amiibo\"",
+              "part_code": "104478A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "CTR P EAAE USA"
+            }
+          ]
+        },
+        {
           "name": "The Legend of Zelda Tri Force Heroes",
           "variants": [
             {
