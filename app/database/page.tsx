@@ -18,17 +18,22 @@ export default function Page() {
 
   return (
     <>
-      <PageHeading
-        heading="Database"
-        subheading={`This is a database of ${count} games with documented print variants. While new and interesting variants will be written about in long form, this database will always update in real time.`}
-      />
-      <p>
-        Wondering how variants are determined? Here is a{" "}
-        <Link href="/essays/decoding-modern-nintendo-print-variants">
-          Nintendo-specific guide
-        </Link>{" "}
-        from last year. Xbox and PlayStation guides coming soon.
-      </p>
+      <div className="prose max-w-full">
+        <PageHeading>Database</PageHeading>
+        <p>
+          This is a database of {count} games with documented print variants.
+          While new and interesting variants will be written about in long form,
+          this database will always update in real time.
+        </p>
+        <p>
+          Wondering how variants are determined? Here is a{" "}
+          <Link href="/essays/decoding-modern-nintendo-print-variants">
+            Nintendo-specific guide
+          </Link>{" "}
+          from last year. Xbox and PlayStation guides coming soon.
+        </p>
+      </div>
+      <div className="divider" role="separator" />
       <DatabaseWrapper games={games} queryData={queryData} />
     </>
   )

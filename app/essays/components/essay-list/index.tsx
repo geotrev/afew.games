@@ -1,19 +1,18 @@
 import propTypes from "prop-types"
 import { forwardRef, Ref } from "react"
-import { EssayListItem } from "../essay-list-item"
-import { StyledEssayList } from "./styled"
 import { EssayPageData } from "types/essays"
+import { EssayListItem } from "../essay-list-item"
 
 const EssayListComponent = (
   { index, essays }: EssayPageData,
   ref: Ref<HTMLUListElement>
 ) => {
   return (
-    <StyledEssayList ref={ref} aria-label={`Essays, page ${index + 1}`}>
+    <ul ref={ref} aria-label={`Essays, page ${index + 1}`}>
       {essays.map((essay) => (
         <EssayListItem key={essay.slug} {...essay} />
       ))}
-    </StyledEssayList>
+    </ul>
   )
 }
 

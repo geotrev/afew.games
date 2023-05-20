@@ -1,13 +1,5 @@
-"use client"
-
-import { ReactElement } from "react"
 import propTypes from "prop-types"
 import { EssayHeaderProps } from "./types"
-import {
-  StyledEssayTitle,
-  StyledEssayDescription,
-  StyledEssayItemTimePara,
-} from "./styled"
 
 EssayHeader.propTypes = {
   title: propTypes.string.isRequired,
@@ -15,26 +7,27 @@ EssayHeader.propTypes = {
   date: propTypes.string.isRequired,
 }
 
-export function EssayHeader({
-  title,
-  description,
-  date,
-}: EssayHeaderProps): ReactElement {
+export function EssayHeader({ title, description, date }: EssayHeaderProps) {
   return (
-    <>
-      <StyledEssayItemTimePara>
-        Published{" "}
+    <div className="mb-6">
+      <p className="badge-accent badge-outline badge mb-4 font-semibold">
+        Published&nbsp;
         <time aria-labelledby="essay-heading" dateTime={date}>
           {date}
         </time>
-      </StyledEssayItemTimePara>
-      <StyledEssayTitle id="essay-heading">{title}</StyledEssayTitle>
+      </p>
+      <h1
+        id="essay-heading"
+        className="mb-4 text-2xl font-extrabold text-white sm:text-4xl sm:leading-normal"
+      >
+        {title}
+      </h1>
       {description && (
-        <StyledEssayDescription className="text-lg">
+        <p className="mb-6 text-lg font-light text-neutral-content sm:text-2xl sm:leading-relaxed">
           {description}
-        </StyledEssayDescription>
+        </p>
       )}
-      <h2>{"By George W."}</h2>
-    </>
+      <p className="font-semibold">{"By George W."}</p>
+    </div>
   )
 }

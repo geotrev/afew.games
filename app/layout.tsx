@@ -1,9 +1,10 @@
 import Script from "next/script"
 import { PropsWithChildren } from "react"
+
 import { RouteTracker } from "components/route-tracker"
-import { StyledComponentsRegistry } from "components/styled-registry"
-import "minireset.css"
 import { App } from "./app"
+
+import "styles/globals.css"
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
@@ -15,14 +16,8 @@ export default function RootLayout({ children }: PropsWithChildren) {
         />
       </head>
       <body>
-        <StyledComponentsRegistry>
-          <App>{children}</App>
-        </StyledComponentsRegistry>
+        <App>{children}</App>
 
-        <Script
-          src="https://identity.netlify.com/v1/netlify-identity-widget.js"
-          strategy="afterInteractive"
-        />
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`}
           strategy="afterInteractive"

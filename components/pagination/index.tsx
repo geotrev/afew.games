@@ -10,12 +10,6 @@ import {
 import propTypes from "prop-types"
 import { PaginationProps } from "./types"
 import { PaginationListItems } from "./pagination-list-items"
-import {
-  StyledPagination,
-  StyledPageItemBreak,
-  StyledPaginationItem,
-} from "./styled"
-import { Button } from "../button"
 
 Pagination.propTypes = {
   count: propTypes.number.isRequired,
@@ -102,16 +96,13 @@ export function Pagination(props: PaginationProps): ReactElement | null {
   }
 
   function handleKeydown(event: KeyboardEvent<HTMLButtonElement>) {
-    const parentNode = (event.target as HTMLButtonElement)
-      .parentNode as HTMLDivElement
+    const sourceNode = event.target as HTMLButtonElement
     if (event.key === "ArrowLeft" && rovingIndex > visibleIndexRange[0]) {
-      const target = parentNode?.previousElementSibling
-        ?.firstElementChild as HTMLButtonElement
-      setRovingTarget(target, -1)
+      const target = sourceNode.previousElementSibling as HTMLButtonElement
+      if (target) setRovingTarget(target, -1)
     } else if (event.key === "ArrowRight" && rovingIndex < lastVisibleIndex) {
-      const target = parentNode?.nextElementSibling
-        ?.firstElementChild as HTMLButtonElement
-      setRovingTarget(target, 1)
+      const target = sourceNode.nextElementSibling as HTMLButtonElement
+      if (target) setRovingTarget(target, 1)
     }
   }
 
@@ -121,58 +112,48 @@ export function Pagination(props: PaginationProps): ReactElement | null {
       aria-label="Use left and right arrow keys to focus page numbers"
     >
       <nav aria-label="Pagination" onKeyDown={handleKeydown}>
-        <StyledPagination>
-          <StyledPaginationItem>
-            <Button
-              onKeyDown={(e) => e.stopPropagation()}
-              aria-disabled={activePageIndex === 0 ? true : undefined}
-              onClick={onFirstPageClick}
-              aria-label={"Goto First Page"}
-              bare
-            >
-              <span aria-hidden="true">{"≪"}</span>
-            </Button>
-          </StyledPaginationItem>
-          <StyledPaginationItem>
-            <Button
-              onKeyDown={(e) => e.stopPropagation()}
-              aria-disabled={activePageIndex === 0 ? true : undefined}
-              onClick={onPreviousClick}
-              bare
-            >
-              Newer
-            </Button>
-          </StyledPaginationItem>
-          <StyledPageItemBreak aria-hidden="true" />
+        <ul className="btn-group gap-1 sm:gap-2">
+          <button
+            className="btn-ghost btn-xs btn !h-auto !min-h-0 py-3 md:btn-md"
+            onKeyDown={(e) => e.stopPropagation()}
+            aria-disabled={activePageIndex === 0 ? true : undefined}
+            onClick={onFirstPageClick}
+            aria-label="Goto First Page"
+          >
+            <span>{"≪"}</span>
+          </button>
+          <button
+            className="btn-ghost btn-xs btn !h-auto !min-h-0 py-3 md:btn-md"
+            onKeyDown={(e) => e.stopPropagation()}
+            aria-disabled={activePageIndex === 0 ? true : undefined}
+            onClick={onPreviousClick}
+          >
+            Newer
+          </button>
           <PaginationListItems
             indices={visibleIndexRange}
             activeIndex={activePageIndex}
             handleClick={onPageClick}
             paginationIndex={rovingIndex}
           />
-          <StyledPageItemBreak aria-hidden="true" />
-          <StyledPaginationItem>
-            <Button
-              onKeyDown={(e) => e.stopPropagation()}
-              aria-disabled={lastPageIdx === activePageIndex ? true : undefined}
-              onClick={onNextClick}
-              bare
-            >
-              Older
-            </Button>
-          </StyledPaginationItem>
-          <StyledPaginationItem>
-            <Button
-              onKeyDown={(e) => e.stopPropagation()}
-              aria-disabled={activePageIndex === count - 1 ? true : undefined}
-              onClick={onLastPageClick}
-              aria-label={"Goto Last Page"}
-              bare
-            >
-              <span aria-hidden="true">{"≫"}</span>
-            </Button>
-          </StyledPaginationItem>
-        </StyledPagination>
+          <button
+            className="btn-ghost btn-xs btn !h-auto !min-h-0 py-3 md:btn-md"
+            onKeyDown={(e) => e.stopPropagation()}
+            aria-disabled={lastPageIdx === activePageIndex ? true : undefined}
+            onClick={onNextClick}
+          >
+            Older
+          </button>
+          <button
+            className="btn-ghost btn-xs btn !h-auto !min-h-0 py-3 md:btn-md"
+            onKeyDown={(e) => e.stopPropagation()}
+            aria-disabled={activePageIndex === count - 1 ? true : undefined}
+            onClick={onLastPageClick}
+            aria-label="Goto Last Page"
+          >
+            <span>{"≫"}</span>
+          </button>
+        </ul>
       </nav>
     </div>
   )

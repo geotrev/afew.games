@@ -6,18 +6,9 @@ import {
   KeyboardEventHandler,
   MouseEventHandler,
 } from "react"
+import cn from "classnames"
 import propTypes from "prop-types"
-
-import { Button } from "components"
-
 import { FilterListProps } from "./types"
-import {
-  StyledFilterList,
-  StyledFilterListItems,
-  StyledFilterListReset,
-  StyledFilterListToggle,
-  StyledFilterControls,
-} from "./styled"
 
 FilterOptions.propTypes = {
   items: propTypes.arrayOf(
@@ -106,61 +97,70 @@ export function FilterOptions({
   }, [opened])
 
   return (
-    <StyledFilterList>
-      <StyledFilterListToggle>
-        <Button
+    <div className="mb-12 rounded-b bg-base-300 p-4">
+      <div className={cn("sm:hidden", { "mb-4": opened })}>
+        <button
+          className="btn-outline btn-xs btn rounded normal-case"
           id="filter-toggle"
-          bare
           aria-controls="filter-controls"
           aria-expanded={opened}
           onClick={handleToggleClick}
         >
-          <span aria-hidden="true">{opened ? "–" : "+"}</span> Filter Options
-        </Button>
-      </StyledFilterListToggle>
-      <StyledFilterControls
-        $hidden={!opened}
+          <span aria-hidden="true">{opened ? "–" : "+"}</span>&nbsp;
+          {opened ? "Hide" : "Show"} Options
+        </button>
+      </div>
+      <div
+        className={cn("sm:!block", { hidden: !opened })}
         id="filter-controls"
         role="region"
         aria-labelledby="filter-toggle"
       >
+        <p id="filter-by" className="mb-2 text-sm font-semibold">
+          Filter by platform
+        </p>
         <div
+          aria-describedby="filter-by"
           aria-label="Select an item to filter games by platform"
           role="grid"
         >
           <div role="rowgroup">
-            <StyledFilterListItems role="row">
+            <div
+              className="mb-4 flex flex-row flex-wrap gap-1 sm:gap-2"
+              role="row"
+            >
               {items.map((item, idx) => {
                 return (
                   <div key={item.value} role="gridcell">
-                    <Button
+                    <button
                       tabIndex={rovingIndex === idx ? 0 : -1}
-                      selected={item.selected}
-                      cornerStyle="round"
+                      className={cn("btn-sm btn rounded-full normal-case", {
+                        "btn-accent btn-active": item.selected,
+                      })}
                       data-item-value={item.value}
                       aria-pressed={item.selected}
                       onClick={handleItemClick}
                       onKeyDown={handleKeydown}
                     >
                       {item.value}
-                    </Button>
+                    </button>
                   </div>
                 )
               })}
-            </StyledFilterListItems>
+            </div>
           </div>
         </div>
-        <StyledFilterListReset>
-          <Button
+        <div className="flex">
+          <button
+            className="btn-outline btn-xs btn rounded normal-case"
             onClick={handleReset}
             aria-disabled={noneSelected ? true : undefined}
-            bare
-            size="sm"
+            disabled={noneSelected}
           >
             <span aria-hidden="true">𐌗&nbsp;&nbsp;</span>Reset Filter
-          </Button>
-        </StyledFilterListReset>
-      </StyledFilterControls>
-    </StyledFilterList>
+          </button>
+        </div>
+      </div>
+    </div>
   )
 }

@@ -2,19 +2,13 @@
 
 import { ChangeEventHandler, FormEvent, useCallback, useState } from "react"
 import { hideVisually } from "polished"
-import { Button } from "../button"
+import cn from "classnames"
 import {
   ERROR_MESSAGE,
   EMAIL_REGEXP,
   SubscribeFormStatuses,
 } from "utils/constants"
 import { SubscribeFormState } from "../subscribe-form/types"
-import {
-  StyledFieldset,
-  StyledInput,
-  StyledMessage,
-  StyledSpinner,
-} from "./styled"
 import xss from "xss"
 
 const DEFAULT_FORM_STATE = {
@@ -34,9 +28,12 @@ export function SubscribeForm() {
 
   const handleChange = useCallback<ChangeEventHandler<HTMLInputElement>>(
     (e) => {
+      if (formState.status === SubscribeFormStatuses.ERROR) {
+        setFormState(DEFAULT_FORM_STATE)
+      }
       setValue(e.target.value)
     },
-    []
+    [formState.status]
   )
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
@@ -77,15 +74,21 @@ export function SubscribeForm() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <StyledFieldset>
+      <fieldset className="flex items-stretch">
         {!isSuccess && (
           <label style={hideVisually()} htmlFor="subscribe-email">
             Email:
           </label>
         )}
         {!isSuccess && (
-          <StyledInput
-            $status={formState.status}
+          <input
+            className={cn(
+              "input-bordered input-secondary input input-xs mr-2 rounded-md sm:input-sm",
+              {
+                "input-error": formState.status === SubscribeFormStatuses.ERROR,
+              }
+            )}
+            disabled={isLoading}
             type="email"
             id="subscribe-input"
             name="subscribe-email"
@@ -101,18 +104,30 @@ export function SubscribeForm() {
           />
         )}
         {!isSuccess && (
-          <Button type="submit" size="sm" disabled={isLoading}>
-            <StyledSpinner $status={formState.status}>
-              {isLoading ? "▽" : "Subscribe"}
-            </StyledSpinner>
-          </Button>
+          <button
+            type="submit"
+            className={cn("btn-secondary btn-xs btn rounded-md sm:btn-sm", {
+              loading: isLoading,
+            })}
+            disabled={isLoading}
+          >
+            {isLoading ? "" : "Subscribe"}
+          </button>
         )}
         {formState.message && (
-          <StyledMessage id="subscribe-message" $status={formState.status}>
+          <p
+            id="subscribe-message"
+            className={cn("m-0 flex items-center text-xs", {
+              "ps-4": formState.status !== SubscribeFormStatuses.SUCCESS,
+              "text-success":
+                formState.status === SubscribeFormStatuses.SUCCESS,
+              "text-error": formState.status === SubscribeFormStatuses.ERROR,
+            })}
+          >
             {formState.message}
-          </StyledMessage>
+          </p>
         )}
-      </StyledFieldset>
+      </fieldset>
     </form>
   )
 }

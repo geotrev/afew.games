@@ -2,11 +2,6 @@
 
 import propTypes from "prop-types"
 import { SearchProps } from "./types"
-import {
-  StyledSearchContainer,
-  StyledSearchLabel,
-  StyledSearchInput,
-} from "./styled"
 
 export const Search = ({
   label,
@@ -14,17 +9,20 @@ export const Search = ({
   value,
   handleChange,
 }: SearchProps) => (
-  <StyledSearchContainer>
-    <StyledSearchLabel htmlFor="search">{label}</StyledSearchLabel>
-    <StyledSearchInput
+  <div className="form-control">
+    <label htmlFor="search" className="label font-semibold uppercase">
+      <span className="label-text">{label}</span>
+    </label>
+    <input
+      type="text"
+      className="input-bordered input-accent input rounded-b-none"
       name="collection-search"
-      type="search"
       placeholder={placeholder}
       id="collection-search"
       onChange={handleChange}
       value={value || ""}
     />
-  </StyledSearchContainer>
+  </div>
 )
 
 Search.propTypes = {

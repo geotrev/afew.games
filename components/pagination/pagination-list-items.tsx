@@ -1,14 +1,12 @@
-import { ReactElement } from "react"
-import { StyledPaginationItem } from "./styled"
+import cn from "classnames"
 import { PaginationListItemsProps } from "./types"
-import { Button } from "../button"
 
 export function PaginationListItems({
   indices,
   activeIndex,
   handleClick,
   paginationIndex,
-}: PaginationListItemsProps): ReactElement {
+}: PaginationListItemsProps) {
   return (
     <>
       {indices.map((idx: number) => {
@@ -16,18 +14,20 @@ export function PaginationListItems({
         const label = `Page ${idx + 1}`
 
         return (
-          <StyledPaginationItem key={idx} data-pagination-index={idx}>
-            <Button
-              key={label}
-              selected={isActive}
-              tabIndex={paginationIndex === idx ? 0 : -1}
-              onClick={handleClick}
-              aria-current={isActive ? true : undefined}
-              aria-label={isActive ? `${label}, current page` : `Goto ${label}`}
-            >
-              {idx + 1}
-            </Button>
-          </StyledPaginationItem>
+          <button
+            className={cn("btn-xs btn !h-auto !min-h-0 py-3 md:btn-md", {
+              "btn-active": isActive,
+              "btn-ghost": !isActive,
+            })}
+            key={label}
+            data-pagination-index={idx}
+            tabIndex={paginationIndex === idx ? 0 : -1}
+            onClick={handleClick}
+            aria-current={isActive ? true : undefined}
+            aria-label={isActive ? `${label}, current page` : `Goto ${label}`}
+          >
+            {idx + 1}
+          </button>
         )
       })}
     </>

@@ -11,11 +11,14 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <>
-      <PageHeading
-        heading="Home"
-        subheading="Welcome. This is a video game blog and database. Within you'll find ramblings about what makes game collecting interesting and complex. There is also a searchable print variant database for many retro and modern games."
-      />
-    </>
+    <div className="prose max-w-full">
+      <PageHeading>Home</PageHeading>
+      <p>
+        Welcome. This is a video game collecting blog and database. Within
+        you&apos;ll find ramblings about what makes game collecting interesting
+        and complex. There is also a searchable print variant database for many
+        retro and modern games.
+      </p>
+    </div>
   )
 }

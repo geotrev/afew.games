@@ -13,21 +13,3 @@ export const COLUMN_WIDTHS: Record<string, string> = DB_FIELDS_SORTED.reduce(
   },
   {}
 )
-
-export const COLUMN_LABELS: Record<string, string> = DB_FIELDS_SORTED.reduce(
-  (acc, field) => {
-    switch (field) {
-      case DatabaseFields.MPN:
-        return { ...acc, [field]: DatabaseFields.MPN.toUpperCase() }
-      default:
-        return {
-          ...acc,
-          [field]: field
-            .split("_")
-            .map((part) => part.slice(0, 1).toUpperCase() + part.slice(1))
-            .join(" "),
-        }
-    }
-  },
-  {}
-)

@@ -1,21 +1,14 @@
 "use client"
 
-import { useState, useEffect, ReactElement } from "react"
+import { useState, useEffect, ReactElement, memo } from "react"
+import cn from "classnames"
 import propTypes from "prop-types"
 
-import { DB_FIELDS_SORTED } from "app/constants"
-
-import { ListToolbar } from "../list-toolbar"
+import { DB_FIELDS_SORTED, DatabaseFields } from "app/constants"
 import { DatabaseVariant } from "types/games"
 
-import {
-  StyledDatabaseList,
-  StyledDatabaseMinimizeBar,
-  StyledGameHeading,
-  StyledGameHeadingLabel,
-  StyledPlatformHeading,
-} from "./styled"
-import { COLUMN_LABELS, COLUMN_WIDTHS } from "./constants"
+import { ListToolbar } from "../list-toolbar"
+import { COLUMN_WIDTHS } from "./constants"
 import { DatabaseListProps } from "./types"
 
 DatabaseList.propTypes = {
@@ -23,6 +16,17 @@ DatabaseList.propTypes = {
   label: propTypes.string,
   id: propTypes.string,
 }
+
+const TableHeader = memo(() => (
+  <thead>
+    <tr>
+      {DB_FIELDS_SORTED.map((field) => (
+        <th key={field}>{field.replaceAll("_", " ")}</th>
+      ))}
+    </tr>
+  </thead>
+))
+TableHeader.displayName = "TableHeader"
 
 export function DatabaseList({
   games,
@@ -38,38 +42,53 @@ export function DatabaseList({
   }, [games])
 
   function renderList() {
-    if (!opened) return <StyledDatabaseMinimizeBar />
+    if (!opened)
+      return (
+        <div
+          className="block h-2 w-full bg-secondary opacity-20"
+          role="separator"
+        />
+      )
 
     return (
-      <StyledDatabaseList aria-labelledby={`header-${id}`} id={`list-${id}`}>
+      <ul
+        className="grid gap-16"
+        aria-labelledby={`header-${id}`}
+        id={`list-${id}`}
+      >
         {games.map((data) => (
           <li key={data.name}>
-            <StyledGameHeading>
-              <StyledGameHeadingLabel>{data.name}</StyledGameHeadingLabel>
-            </StyledGameHeading>
-            <table>
-              <thead>
-                <tr>
-                  {DB_FIELDS_SORTED.map((field) => (
-                    <th key={field}>{COLUMN_LABELS[field]}</th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {data.variants!.map((variant: DatabaseVariant, idx: number) => (
-                  <tr key={`row-${idx}`}>
-                    {DB_FIELDS_SORTED.map((field) => (
-                      <td key={field} width={COLUMN_WIDTHS[field]}>
-                        {(variant as any)[field]}
-                      </td>
-                    ))}
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+            <h3 className="mb-1 flex justify-center bg-base-300 px-2 py-1 text-white">
+              {data.name}
+            </h3>
+            <div className="overflow-x-auto">
+              <table className="table-zebra table-compact table w-full">
+                <TableHeader />
+                <tbody>
+                  {data.variants!.map(
+                    (variant: DatabaseVariant, idx: number) => (
+                      <tr key={`row-${idx}`}>
+                        {DB_FIELDS_SORTED.map((field) => (
+                          <td
+                            key={field}
+                            width={COLUMN_WIDTHS[field]}
+                            className={cn({
+                              "whitespace-normal":
+                                field === DatabaseFields.NOTES,
+                            })}
+                          >
+                            {(variant as any)[field]}
+                          </td>
+                        ))}
+                      </tr>
+                    )
+                  )}
+                </tbody>
+              </table>
+            </div>
           </li>
         ))}
-      </StyledDatabaseList>
+      </ul>
     )
   }
 
@@ -78,8 +97,13 @@ export function DatabaseList({
   }
 
   return (
-    <>
-      <StyledPlatformHeading id={`header-${id}`}>{label}</StyledPlatformHeading>
+    <div className="my-16">
+      <h2
+        className="mb-2 text-xl font-extrabold text-white"
+        id={`header-${id}`}
+      >
+        {label}
+      </h2>
       <ListToolbar
         label="game"
         pluralLabel="games"
@@ -89,6 +113,6 @@ export function DatabaseList({
         setOpened={setOpened}
       />
       {renderList()}
-    </>
+    </div>
   )
 }

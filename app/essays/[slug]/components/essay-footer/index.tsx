@@ -1,25 +1,29 @@
-"use client"
+import Image from "next/image"
 
-import { ReactElement } from "react"
-import { StyledEssayFooter } from "./styled"
-
-export function EssayFooter(): ReactElement {
+export function EssayFooter() {
   return (
-    <>
-      <StyledEssayFooter>
-        <em>
-          Have questions or want to fact check me? Feel free to email me at{" "}
-          <a href="mailto:contact@afew.games">contact@afew.games</a>.
-        </em>
-      </StyledEssayFooter>
-      <StyledEssayFooter>
-        <em>
-          <strong>{"George W."}</strong>{" "}
-          {
-            "is a web developer by day and avid game collector by night. He considers himself an amateur blogger and isn't sure why he's writing in the third person."
-          }
-        </em>
-      </StyledEssayFooter>
-    </>
+    <footer>
+      <p className="mb-4 italic leading-relaxed">
+        <strong>{"George W."}</strong>{" "}
+        {
+          "is a web developer by day and avid game collector by night. He considers himself an amateur blogger and isn't sure why he's writing in the third person."
+        }
+      </p>
+      <div className="chat chat-start">
+        <div className="chat-image avatar">
+          <div className="w-10 rounded-full">
+            <Image src="/uploads/pikachu-trophy.png" alt="profile picture" />
+          </div>
+        </div>
+        <div className="chat-bubble">
+          Thanks for reading! Have questions or want to fact check me? Feel free
+          to email me at{" "}
+          <a className="underline" href="mailto:contact@afew.games">
+            contact@afew.games
+          </a>
+          . I check messages dailly.
+        </div>
+      </div>
+    </footer>
   )
 }

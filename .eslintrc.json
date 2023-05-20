@@ -3,9 +3,15 @@
     "browser": true,
     "node": true,
     "commonjs": true,
-    "es6": true
+    "es2021": true
   },
-  "extends": ["next/core-web-vitals", "eslint:recommended", "prettier"],
+  "plugins": ["tailwindcss"],
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "prettier",
+    "plugin:tailwindcss/recommended"
+  ],
   "rules": {
     "no-console": 2
   }

@@ -1,8 +1,6 @@
 "use client"
 
-import { Button } from "../../../../components/button"
 import { ListToolbarProps } from "./types"
-import { StyledToolbarInfo } from "./styled"
 
 export function ListToolbar({
   itemsLength,
@@ -15,27 +13,27 @@ export function ListToolbar({
   function renderMinimizeText() {
     return (
       <>
-        <span aria-hidden="true">{opened ? "–" : "+"}</span> Toggle List
+        <span aria-hidden="true">{opened ? "–" : "+"}</span>&nbsp;
+        {opened ? "Hide" : "Show"} List
       </>
     )
   }
 
   return (
-    <StyledToolbarInfo>
-      <p>
+    <div className="mb-4 flex items-center justify-between">
+      <p className="text-sm">
         {itemsLength} {itemsLength === 1 ? label : pluralLabel}{" "}
         {opened ? "shown" : "hidden"}
       </p>
-      <Button
-        bare
-        size="sm"
+      <button
+        className="btn-xs btn normal-case"
         onClick={() => setOpened(!opened)}
         aria-expanded={opened}
         aria-describedby={`header-${id}`}
         aria-controls={`list-${id}`}
       >
         {renderMinimizeText()}
-      </Button>
-    </StyledToolbarInfo>
+      </button>
+    </div>
   )
 }
