@@ -12,7 +12,12 @@ export function EssayFooter() {
       <div className="chat chat-start">
         <div className="chat-image avatar">
           <div className="w-10 rounded-full">
-            <Image src="/uploads/pikachu-trophy.png" alt="profile picture" />
+            <Image
+              width={40}
+              height={40}
+              src="/uploads/pikachu-trophy.png"
+              alt="profile picture"
+            />
           </div>
         </div>
         <div className="chat-bubble">
