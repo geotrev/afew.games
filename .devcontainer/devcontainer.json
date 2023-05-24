@@ -16,9 +16,18 @@
     }
   },
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "npm install"
-  // Configure tool-specific properties.
-  // "customizations": {},
+  "postCreateCommand": "npm install",
+
+  // Preinstall extensions
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
   // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
   // "remoteUser": "root"
 }
