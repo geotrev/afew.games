@@ -3,9 +3,14 @@ import { readdirSync, readFileSync } from "fs"
 import matter, { GrayMatterFile } from "gray-matter"
 import chunk from "lodash-es/chunk"
 import { marked } from "marked"
+// @ts-ignore
+import { mangle } from "marked-mangle"
+import { gfmHeadingId } from "marked-gfm-heading-id"
 import { ParsedUrlQuery } from "querystring"
-
 import { EssayProps, Essay, EssayPageData } from "types/essays"
+
+marked.use(mangle())
+marked.use(gfmHeadingId())
 
 const MAX_LIST_LENGTH = 5
 
