@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { useEffect, useState } from "react"
-import { isEqual, isWithinInterval, parse, subMonths } from "date-fns"
+import { isEqual, isWithinInterval, parse, subDays, subMonths } from "date-fns"
 import propTypes from "prop-types"
 import { Essay } from "types/essays"
 
@@ -12,7 +12,7 @@ export const EssayListItem = ({ title, description, urlPath, date }: Essay) => {
   useEffect(() => {
     try {
       const currentDate = new Date()
-      const recentOldestDate = subMonths(currentDate, 1)
+      const recentOldestDate = subDays(subMonths(currentDate, 1), 10)
       const publishDate = parse(date, "MM-dd-yyyy", new Date())
 
       // eslint-disable-next-line no-console
