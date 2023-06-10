@@ -15,10 +15,13 @@ export function PaginationListItems({
 
         return (
           <button
-            className={cn("btn-xs btn !h-auto !min-h-0 py-3 md:btn-md", {
-              "btn-active": isActive,
-              "btn-ghost": !isActive,
-            })}
+            className={cn(
+              "rounded-md btn-xs btn !h-auto !min-h-0 py-3 md:btn-md",
+              {
+                "btn-primary": isActive,
+                "btn-ghost": !isActive,
+              }
+            )}
             key={label}
             data-pagination-index={idx}
             tabIndex={paginationIndex === idx ? 0 : -1}

@@ -22,6 +22,9 @@ Pagination.propTypes = {
   onPageClick: propTypes.func.isRequired,
 }
 
+const BUTTON_CLASSNAMES =
+  "btn-ghost btn-xs btn rounded-md !h-auto !min-h-0 py-3 md:btn-md"
+
 export function Pagination(props: PaginationProps): ReactElement | null {
   const {
     count,
@@ -112,9 +115,9 @@ export function Pagination(props: PaginationProps): ReactElement | null {
       aria-label="Use left and right arrow keys to focus page numbers"
     >
       <nav aria-label="Pagination" onKeyDown={handleKeydown}>
-        <ul className="btn-group gap-1 sm:gap-2">
+        <ul className="flex gap-1 sm:gap-2">
           <button
-            className="btn-ghost btn-xs btn !h-auto !min-h-0 py-3 md:btn-md"
+            className={BUTTON_CLASSNAMES}
             onKeyDown={(e) => e.stopPropagation()}
             aria-disabled={activePageIndex === 0 ? true : undefined}
             onClick={onFirstPageClick}
@@ -123,7 +126,7 @@ export function Pagination(props: PaginationProps): ReactElement | null {
             <span>{"≪"}</span>
           </button>
           <button
-            className="btn-ghost btn-xs btn !h-auto !min-h-0 py-3 md:btn-md"
+            className={BUTTON_CLASSNAMES}
             onKeyDown={(e) => e.stopPropagation()}
             aria-disabled={activePageIndex === 0 ? true : undefined}
             onClick={onPreviousClick}
@@ -137,7 +140,7 @@ export function Pagination(props: PaginationProps): ReactElement | null {
             paginationIndex={rovingIndex}
           />
           <button
-            className="btn-ghost btn-xs btn !h-auto !min-h-0 py-3 md:btn-md"
+            className={BUTTON_CLASSNAMES}
             onKeyDown={(e) => e.stopPropagation()}
             aria-disabled={lastPageIdx === activePageIndex ? true : undefined}
             onClick={onNextClick}
@@ -145,7 +148,7 @@ export function Pagination(props: PaginationProps): ReactElement | null {
             Older
           </button>
           <button
-            className="btn-ghost btn-xs btn !h-auto !min-h-0 py-3 md:btn-md"
+            className={BUTTON_CLASSNAMES}
             onKeyDown={(e) => e.stopPropagation()}
             aria-disabled={activePageIndex === count - 1 ? true : undefined}
             onClick={onLastPageClick}
