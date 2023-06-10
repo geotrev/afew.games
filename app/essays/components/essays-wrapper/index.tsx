@@ -50,9 +50,9 @@ export function EssaysWrapper({ initialData }: EssaysWrapperProps) {
     }
   }, [data.index])
 
-  const setSearchParamsPage = useCallback(
+  const setPageQueryString = useCallback(
     (value: number) => {
-      const params = new URLSearchParams(searchParams)
+      const params = new URLSearchParams(searchParams.toString())
 
       if (value === 0) {
         params.delete("page")
@@ -74,8 +74,8 @@ export function EssaysWrapper({ initialData }: EssaysWrapperProps) {
   >(() => {
     if (data.index === 0) return
     setPage(data.index - 1)
-    setSearchParamsPage(data.index - 1)
-  }, [data.index, setPage, setSearchParamsPage])
+    setPageQueryString(data.index - 1)
+  }, [data.index, setPage, setPageQueryString])
 
   const onPageClick = useCallback<MouseEventHandler<HTMLButtonElement>>(
     (event) => {
@@ -83,33 +83,33 @@ export function EssaysWrapper({ initialData }: EssaysWrapperProps) {
       const targetPageIdx: number = parseInt(target.innerText, 10) - 1
       if (data.index !== targetPageIdx) {
         setPage(targetPageIdx)
-        setSearchParamsPage(targetPageIdx)
+        setPageQueryString(targetPageIdx)
       }
     },
-    [data.index, setPage, setSearchParamsPage]
+    [data.index, setPage, setPageQueryString]
   )
 
   const onNextClick = useCallback<MouseEventHandler<HTMLButtonElement>>(() => {
     if (data.index === data.totalPages - 1) return
     setPage(data.index + 1)
-    setSearchParamsPage(data.index + 1)
-  }, [data.index, data.totalPages, setPage, setSearchParamsPage])
+    setPageQueryString(data.index + 1)
+  }, [data.index, data.totalPages, setPage, setPageQueryString])
 
   const onFirstPageClick = useCallback<
     MouseEventHandler<HTMLButtonElement>
   >(() => {
     if (data.index === 0) return
     setPage(0)
-    setSearchParamsPage(0)
-  }, [data.index, setPage, setSearchParamsPage])
+    setPageQueryString(0)
+  }, [data.index, setPage, setPageQueryString])
 
   const onLastPageClick = useCallback<
     MouseEventHandler<HTMLButtonElement>
   >(() => {
     if (data.index === data.totalPages - 1) return
     setPage(data.totalPages - 1)
-    setSearchParamsPage(data.totalPages - 1)
-  }, [data.index, data.totalPages, setPage, setSearchParamsPage])
+    setPageQueryString(data.totalPages - 1)
+  }, [data.index, data.totalPages, setPage, setPageQueryString])
 
   return isLoading ? (
     <EssayListLoader />

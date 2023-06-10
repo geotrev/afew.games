@@ -24,7 +24,7 @@ export default async function Page({
   const pageInt = parseInt(rawPage, 10)
   const essaysPage =
     !isNaN(pageInt) && pageInt > 0 ? Math.floor(pageInt) - 1 : 0
-  const initialData: EssayPageData = await getEssayList(essaysPage)
+  const initialData: EssayPageData = getEssayList(essaysPage)
 
   return (
     <>
