@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "preinstall": "rm -rf .seed",
-    "postinstall": "npm run seed",
-    "seed": "node ./.bin/seed-essays.js",
+    "seed": "rm -rf ./.seed && npm run seed:essays",
+    "seed:essays": "node ./.bin/seed-essays.js",
     "dev": "next",
     "build": "next build",
     "start": "next start",

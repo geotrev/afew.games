@@ -39,12 +39,14 @@ async function seed() {
   }
 
   const promises = []
+  const dates = faker.date.betweens(
+    new Date("2020-01-01"),
+    new Date(),
+    SEED_COUNT
+  )
 
   for (let i = 0; i < SEED_COUNT; i++) {
-    const date = faker.date.past()
-    if (i > 0) date.setDate(date.getDate() + i)
-    const isoDate = date.toLocaleDateString().split("/").join("-")
-
+    const isoDate = dates[i].toISOString().slice(0, 10)
     const { title, content } = getContent(isoDate, i)
     const fileName = getFileName(isoDate, title, i)
     const fileTarget = path.resolve(seedPath, fileName)
