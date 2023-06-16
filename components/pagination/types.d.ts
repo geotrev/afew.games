@@ -15,5 +15,4 @@ export type PaginationListItemsProps = {
   indices: number[]
   activeIndex: number
   handleClick: MouseEventHandler<HTMLButtonElement>
-  paginationIndex: number
 }

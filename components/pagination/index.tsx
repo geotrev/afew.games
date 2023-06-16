@@ -1,10 +1,7 @@
 "use client"
 
 import {
-  useState,
-  useEffect,
   useCallback,
-  KeyboardEvent,
   ReactElement,
 } from "react"
 import propTypes from "prop-types"
@@ -36,7 +33,6 @@ export function Pagination(props: PaginationProps): ReactElement | null {
     onLastPageClick,
     maxVisiblePageCount,
   } = props
-  const [rovingIndex, setRovingIndex] = useState<number>(0)
   const lastPageIdx = count - 1
 
   const getVisiblePageIdxRange = useCallback<() => number[]>(() => {
@@ -82,31 +78,9 @@ export function Pagination(props: PaginationProps): ReactElement | null {
   }, [activePageIndex, count, lastPageIdx, maxVisiblePageCount])
 
   const visibleIndexRange = getVisiblePageIdxRange()
-  const visibleRangeLength = visibleIndexRange.length
-  const lastVisibleIndex = visibleIndexRange[visibleRangeLength - 1]
-
-  useEffect(() => {
-    setRovingIndex(activePageIndex)
-  }, [activePageIndex])
 
   if (count < 1) {
     return null
-  }
-
-  function setRovingTarget(target: HTMLButtonElement, delta: number) {
-    target.focus()
-    setRovingIndex(rovingIndex + delta)
-  }
-
-  function handleKeydown(event: KeyboardEvent<HTMLButtonElement>) {
-    const sourceNode = event.target as HTMLButtonElement
-    if (event.key === "ArrowLeft" && rovingIndex > visibleIndexRange[0]) {
-      const target = sourceNode.previousElementSibling as HTMLButtonElement
-      if (target) setRovingTarget(target, -1)
-    } else if (event.key === "ArrowRight" && rovingIndex < lastVisibleIndex) {
-      const target = sourceNode.nextElementSibling as HTMLButtonElement
-      if (target) setRovingTarget(target, 1)
-    }
   }
 
   return (
@@ -114,7 +88,7 @@ export function Pagination(props: PaginationProps): ReactElement | null {
       role="group"
       aria-label="Use left and right arrow keys to focus page numbers"
     >
-      <nav aria-label="Pagination" onKeyDown={handleKeydown}>
+      <nav aria-label="Pagination">
         <ul className="flex gap-1 sm:gap-2">
           <button
             className={BUTTON_CLASSNAMES}
@@ -137,7 +111,6 @@ export function Pagination(props: PaginationProps): ReactElement | null {
             indices={visibleIndexRange}
             activeIndex={activePageIndex}
             handleClick={onPageClick}
-            paginationIndex={rovingIndex}
           />
           <button
             className={BUTTON_CLASSNAMES}

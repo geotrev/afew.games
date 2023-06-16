@@ -5,7 +5,6 @@ export function PaginationListItems({
   indices,
   activeIndex,
   handleClick,
-  paginationIndex,
 }: PaginationListItemsProps) {
   return (
     <>
@@ -16,7 +15,7 @@ export function PaginationListItems({
         return (
           <button
             className={cn(
-              "rounded-md btn-xs btn !h-auto !min-h-0 py-3 md:btn-md",
+              "btn-xs btn !h-auto !min-h-0 rounded-md py-3 md:btn-md",
               {
                 "btn-primary": isActive,
                 "btn-ghost": !isActive,
@@ -24,7 +23,6 @@ export function PaginationListItems({
             )}
             key={label}
             data-pagination-index={idx}
-            tabIndex={paginationIndex === idx ? 0 : -1}
             onClick={handleClick}
             aria-current={isActive ? true : undefined}
             aria-label={isActive ? `${label}, current page` : `Goto ${label}`}
