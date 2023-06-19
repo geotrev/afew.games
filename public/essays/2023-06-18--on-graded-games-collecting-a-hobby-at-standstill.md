@@ -56,7 +56,7 @@ I know the pains of today are temporary. There are opportunities for change in a
 
 Here are some recent changes that give me hope:
 
-* VGA has shown major signs of improvement, for instance, having recently reopened serial lookup, online ordering, and announcing a cleared backlog. A cheaper submission tier feels imminent, even if the turnaround is the slowest in the hobby.
+* VGA has shown major signs of improvement, for instance, having recently reopened serial lookup, online ordering, and announcing a cleared backlog. A cheaper submission tier feels imminent, even if the turnaround is the slowest in the hobby. To boot, they're updating estimated turnarounds to be much faster than the past few years (~30 working days for Archival), with room to improve with the cleared backlog.
 * Wata's research department shows no signs of slowing down. Dan is doing fantastic work, as is Andrew, the head grader. They also released their long-awaited holder redesign this year which fixes many of the bulk issues of the legacy design. Long term, I think they'll see great things.
 * Despite CGCs lack of reception to early feedback on their holder, they've made subtle changes to indicate they're listening. For example, a brand new plastic liner to prevent edge damage, and small label changes in response to concerns the seal grade isn't easy to see/read. 
 
