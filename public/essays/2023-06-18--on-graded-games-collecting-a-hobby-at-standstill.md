@@ -38,8 +38,10 @@ Hopefully this clarifies, at least from my perspective, the difficulties in part
 
 ## What needs to change?
 
-I think at least one thing must happen in the second half of 2023 for more confidence to rise in graded game collecting. Any of these would be a massive win, in my mind:
+At least one thing must happen in the second half of 2023 for more confidence to rise in graded game collecting. Any of these would be a massive win, in my mind:
 
 * Wata adopts corner protection for the inner plastic liner.
 * Wata does away with their lowest tier and makes Speedrun the entry level at $50.
 * VGA opens its economy tier (somewhere around $50/game).
+
+Again, to reiterate from where we are today, we just need more service overlap between these graders, and I think more people would see fewer issues and be more willing
