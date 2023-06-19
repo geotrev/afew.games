@@ -20,7 +20,7 @@ The main graders today, CGC, Wata, and VGA, have many pros and cons to each othe
 
 Here's my short & sweet overview of the options:
 
-* **Wata**: Medium experience, slow turnarounds at lower tiers (2+ months), low prices, acceptable holder
+* **Wata**: Medium grading experience, slow turnarounds at lower tiers (2+ months), low prices, acceptable holder
 * **VGA**: More experience, slow turnarounds, high prices, best holder
 * **CGC**: Much less experience, lightning fast turnarounds, low prices, acceptable holder
 
