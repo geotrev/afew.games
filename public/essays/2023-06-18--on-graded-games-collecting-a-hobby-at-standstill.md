@@ -4,21 +4,21 @@ title: "On Graded Games & Collecting: A Hobby At Standstill"
 description: While there are profits to be made through grading, collectors are
   left in the dust
 ---
-You'll need to bear with me in this write-up. It's going to be a little dramatic. I promise it's for good reason, though. I'm writing today mainly out of gradual frustration at what appears to be a side of game collecting that lacks much of the collector-centrism it claims to offer.
+You'll need to bear with me in this write-up. It's going to be a little dramatic. I promise it's for good reason, though. I'm writing today mainly out of gradual frustration at what appears to be a side of graded game collecting that lacks much of the collector-centrism it claims to offer.
 
-**TL;DR:** Grading in 2023 is a a sellers hobby. If the hobby hopes to grow, it needs important changes to encourage competition and access.
+This is all just my opinion. You may disagree and I welcome commentary/responses if anything I'm saying is far beyond reality.
 
-Also note, this is all just my opinion. You may disagree and I welcome commentary/responses if anything I'm saying is far beyond reality.
+**TL;DR:** Grading in 2023 is a a sellers hobby. If the hobby hopes to grow, it needs important changes to encourage competition and access to everyone, not just sellers and dealers.
 
 ## Where are we, today?
 
-Graded collecting has always been niche but fruitful. For many years, Collectible Grading Authority (parent company of Video Game Authority/VGA) offered affordable grading, a strong product offering, and speedy service. Sadly, in 2019 and later 2020 when the pandemic started, grading was flooded with new participants for various reasons (mainly speculators and collectors cashing out on a hyped market).
+Graded collecting has always been niche but fruitful. For many years, Collectible Grading Authority (parent company of Video Game Authority/VGA) offered affordable grading, a strong product offering, and relatively fair service speed. Sadly, in 2019 and later 2020 when the pandemic started, grading was flooded with new participants (mainly speculators and collectors cashing out on a hyped market).
 
-Today, we see the fall out of this has been more grading companies (well, mainly one more) to aid in competition to keep the other players honest.
+Today the fall out a hyped market has been more grading companies (mainly just CGC) but lack-luster options for casual collectors. More graders has helped to aid in competition to keep the other players honest, at least.
 
-The main graders today, CGC, Wata, and VGA, have many pros and cons to each other. Unfortunately, the biggest con is that there is seemingly no overlap in quality. This means if you have a preference on a specific grader, you're unlikely to see key benefits from the other two to help offset whatever shortcomings you're experiencing.
+The main graders today, CGC, Wata, and VGA, have many pros and cons to each other, and sadly the pros don't overlap. Ironically this is the biggest con, in my view. If you have a preference on a specific grader, you're unlikely to see any benefits from the other two to help offset whatever shortcomings you're experiencing.
 
-The best way to articulate this incompatibility in services & product offering is to see it laid out as so:
+Here's my short & sweet overview of the options:
 
 * **Wata**: Medium experience, slow turnarounds at lower tiers (2+ months), low prices, acceptable holder
 * **VGA**: More experience, slow turnarounds, high prices, best holder
@@ -34,7 +34,11 @@ Let's break down in detail how preferring one grader makes it very difficult to 
 * **VGA**: The primary benefits here are the high quality, minimal holder and most experienced grading of the three big players (15+ years). Sadly, you can't get any of this from the other two,and although Wata has proven itself to be a leader in authentication in many ways, VGA simply has the best holder as there is no risk of an inner liner compressing your games to the point of damage. VGA also has the most understandable scale (combined, single score). Neither Wata nor CGC can substitute. 
 * **CGC**: Simply put, they have the fastest turnaround (~2 weeks, some cases 1 week!) and competitive low price point. That said, they are the least experienced and use plastic inserts like Wata. If time is of the essence, there's simply no better option.
 
-Hopefully this clarifies, at least from my perspective, the difficulties in participating in the hobby today.
+## Why is it a sellers hobby?
+
+There isn't much detail that needs to be added here. The easiest answer is that, despite the higher cost of the higher tiers at Wata and VGA, the result is games are returned quicker and can more easily hit the market. 
+
+For many games, they sell well beyond the combined cost of a raw game plus grading fees and shipping so long as the grade is high and the game is desirable. It's a no brainer for sellers.
 
 ## What needs to change?
 
@@ -44,4 +48,16 @@ At least one thing must happen in the second half of 2023 for more confidence to
 * Wata does away with their lowest tier and makes Speedrun the entry level at $50.
 * VGA opens its economy tier (somewhere around $50/game).
 
-Again, to reiterate from where we are today, we just need more service overlap between these graders, and I think more people would see fewer issues and be more willing
+Again, to reiterate from where we are today, we just need more service overlap between these graders. As it is today, the cons of each are so deep and far from one another that it shutters both entrants and long-time collectors out.
+
+## Room for growth
+
+Regardless of where we are today, I know it's only temporary and there are opportunities for change.
+
+Here are some recent changes that give me hope:
+
+* VGA has shown major signs of improvement, for instance, having recently reopened serial lookup, online ordering, and announcing a cleared backlog. A cheaper submission tier feels imminent, even if the turnaround is the slowest in the hobby.
+* Wata's research department shows no signs of slowing down. Dan is doing fantastic work, as is Andrew, the head grader. They also released their long-awaited holder redesign this year which fixes many of the bulk issues of the legacy design. Long term, I think they'll see great things.
+* Despite CGCs lack of reception to early feedback on their holder, they've made subtle changes to indicate they're listening. For example, a brand new plastic liner to prevent edge damage, and small label changes in response to concerns the seal grade isn't easy to see/read. 
+
+Thanks for reading!
