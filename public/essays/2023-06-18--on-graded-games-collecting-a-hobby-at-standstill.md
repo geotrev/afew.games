@@ -10,7 +10,7 @@ You'll need to bear with me in this write-up. It's going to be a little dramatic
 
 Also note, this is all just my opinion. You may disagree and I welcome commentary/responses if anything I'm saying is far beyond reality.
 
-- - -
+## Where are we, today?
 
 Graded collecting has always been niche but fruitful. For many years, Collectible Grading Authority (parent company of Video Game Authority/VGA) offered affordable grading, a strong product offering, and speedy service. Sadly, in 2019 and later 2020 when the pandemic started, grading was flooded with new participants for various reasons (mainly speculators and collectors cashing out on a hyped market).
 
@@ -28,7 +28,7 @@ The best way to articulate this incompatibility in services & product offering i
 
 - - -
 
-Let's break down in more detail how preferring one grader makes it very difficult to transition to another from the perspective of each grader.
+Let's break down in detail how preferring one grader makes it very difficult to transition to another from the perspective of each grader.
 
 * **Wata**: The biggest bottle neck on collector accessibility appears to be that in order to get your games back in any timely fashion, you need to pay nearly 2x the lowest tier ($85 Speedrun vs $50 Turbo) to get the advertised one month turnaround (20 working days). Otherwise, you are waiting two months or more. I've anecdotally heard that for a brief period, Wata was shipping the lowest tier very quickly, but has decided recently to artificially slow down that tier to be less of a cheaper Warp Zone (fastest tier). I can neither confirm nor deny the validity of this, however I did experience lightning fast Turbo for a brief period early this year and last year, and prices are slowly picking up again from their 2022 lows, so it could very well be submission congestion.
 * **VGA**: The primary benefits here are the high quality, minimal holder and most experienced grading of the three big players (15+ years). Sadly, you can't get any of this from the other two,and although Wata has proven itself to be a leader in authentication in many ways, VGA simply has the best holder as there is no risk of an inner liner compressing your games to the point of damage. VGA also has the most understandable scale (combined, single score). Neither Wata nor CGC can substitute. 
@@ -36,12 +36,10 @@ Let's break down in more detail how preferring one grader makes it very difficul
 
 Hopefully this clarifies, at least from my perspective, the difficulties in participating in the hobby today.
 
-- - -
-
-So what needs to change, you ask?
+## What needs to change?
 
 I think at least one thing must happen in the second half of 2023 for more confidence to rise in graded game collecting. Any of these would be a massive win, in my mind:
 
-\- Wata adopts corner protection for the inner plastic liner.
-
-\- Wata does away with their lowest tier and makes Speedrun the entry level at $50.
+* Wata adopts corner protection for the inner plastic liner.
+* Wata does away with their lowest tier and makes Speedrun the entry level at $50.
+* VGA opens its economy tier (somewhere around $50/game).
