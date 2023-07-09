@@ -19,7 +19,7 @@ From my view, the best part about the new design is the wider array of prefabric
 
 ![Six reholdered games from the side, showing slimmer profile for storage](/uploads/img_3254.jpeg)
 
-***From left:** N64, DS, Game Boy (Advance), PS1, Switch, DVD (GameCube)*
+**\*From left:** N64, DS, Game Boy (Advance), PS1, Switch, DVD (GameCube)*
 
 ![Up close side view for N64, Game Boy, and PS1 holders](/uploads/img_3256.jpeg)
 
@@ -31,7 +31,7 @@ In particular the more streamlined Jewel case & 3DS holder is much appreciated. 
 
 ![Up close side view showing the same holder size used for PS1 and 3DS, and separately, a shared size for DS and Game Boy.](/uploads/img_3262.jpeg)
 
-***From left:** PlayStation 1, 3DS, Nintendo DS, Game Boy (Advance)*
+**\*From left:** PlayStation 1, 3DS, Nintendo DS, Game Boy (Advance)*
 
 As mentioned, the two outliers in the current equation (that I can physically show) are DS and Switch. Both appear to reuse a holder similar or identical in size, that better fit other games.
 
@@ -39,9 +39,11 @@ For instance, the DS holder appears to use the same size holder that fits Game B
 
 ![Another up close look at DS and Game Boy side view.](/uploads/img_3259.jpeg)
 
-See that extra space? It's a bit unfortunate. You would think there woudl be one holder size to fit DS, 3DS, and Jewel case together since DS is only slightly deeper than 3DS! Oh well.
+See that extra space? It's a bit unfortunate. You would think there would be one holder size to fit DS, 3DS, and Jewel case together since DS is only slightly deeper than 3DS.
 
-And for Switch, it appears to use a holder that is slightly shorter, but somehow slightly deeper, compared to the DVD holder (it's hard to notice, though). Switch in particular feels like it needs a size of its own.
+And for Switch, it appears to use a holder that is slightly shorter, but somehow as deep as the DVD holder (it's hard to notice, but it's very slightly deeper). Switch in particular feels like it needs a size of its own.
+
+Switch is even shallower than 3DS, to put it in perspective.
 
 ![Another up close look at Switch and DVD-size side view, which seemingly use a similar sized holder.](/uploads/img_3260.jpeg)
 
