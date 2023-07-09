@@ -5,7 +5,7 @@ description: After two long months, here's a detailed breakdown of the new featu
 ---
 As soon as April 24th hit, I submitted six games to Wata in a reholder order. At the time, I felt quite starry eyed, as the new holder seems to address many of the form factor & design concerns that plagued the legacy holder.
 
-For context, I also published [a short explainer](/essays/review-new-wata-games-holder-design) on those new holders and what to expect.
+For context, I had published [a short explainer](/essays/review-new-wata-games-holder-design) on the new holders and what to expect.
 
 Here are the games I submitted in a range of sizes:
 
