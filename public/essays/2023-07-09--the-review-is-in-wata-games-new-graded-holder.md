@@ -19,7 +19,7 @@ From my view, the best part about the new design is the wider array of prefabric
 
 ![Six reholdered games from the side, showing slimmer profile for storage](/uploads/img_3254.jpeg)
 
-**\*From left:** N64, DS, Game Boy (Advance), PS1, Switch, DVD (GameCube)* 
+***From left:** N64, DS, Game Boy (Advance), PS1, Switch, DVD (GameCube)*
 
 ![Up close side view for N64, Game Boy, and PS1 holders](/uploads/img_3256.jpeg)
 
@@ -31,7 +31,7 @@ In particular the more streamlined Jewel case & 3DS holder is much appreciated. 
 
 ![Up close side view showing the same holder size used for PS1 and 3DS, and separately, a shared size for DS and Game Boy.](/uploads/img_3262.jpeg)
 
-**\*From left:** PlayStation 1, 3DS, Nintendo DS, Game Boy (Advance)*
+***From left:** PlayStation 1, 3DS, Nintendo DS, Game Boy (Advance)*
 
 As mentioned, the two outliers in the current equation (that I can physically show) are DS and Switch. Both appear to reuse a holder similar or identical in size, that better fit other games.
 
