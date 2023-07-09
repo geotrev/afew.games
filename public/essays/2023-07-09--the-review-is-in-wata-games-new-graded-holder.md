@@ -1,7 +1,7 @@
 ---
 publish_date: 2023-07-09
-title: "The Review Is In: Wata Games' New Graded Holder"
-description: In depth analysis and reports so far
+title: "The Review Is In: Does Wata's New Graded Holder Live Up To Expectations?"
+description: After two long months, here's a detailed breakdown of the new features
 ---
 As soon as April 24th hit, I submitted six games to Wata in a reholder order. At the time, I felt quite starry eyed, as the new holder seems to address many of the form factor & design concerns that plagued the legacy holder.
 
@@ -35,7 +35,7 @@ From my view, the best part about the new design is the wider array of prefabric
 
 ![Six reholdered games from the side, showing slimmer profile for storage](/uploads/img_3254.jpeg)
 
-***From left:** N64, DS, Game Boy (Advance), PS1, Switch, DVD (GameCube)* 
+**\*From left:** N64, DS, Game Boy (Advance), PS1, Switch, DVD (GameCube)* 
 
 ![Up close side view for N64, Game Boy, and PS1 holders](/uploads/img_3256.jpeg)
 
@@ -47,7 +47,7 @@ In particular the more streamlined Jewel case & 3DS holder is much appreciated. 
 
 ![Up close side view showing the same holder size used for PS1 and 3DS, and separately, a shared size for DS and Game Boy.](/uploads/img_3262.jpeg)
 
-***From left:** PlayStation 1, 3DS, Nintendo DS, Game Boy (Advance)*
+**\*From left:** PlayStation 1, 3DS, Nintendo DS, Game Boy (Advance)*
 
 As mentioned, the two outliers in the current equation (that I can physically show) are DS and Switch. Both appear to reuse a holder similar or identical in size, that better fit other games.
 
@@ -64,6 +64,10 @@ And for Switch, it appears to use a holder that is slightly shorter, but somehow
 From the top, it's nothing special. There's nothing there.
 
 ![Top-down view of all six games.](/uploads/img_3258.jpeg)
+
+## New, sleeker label
+
+
 
 ## Inside the holder
 
