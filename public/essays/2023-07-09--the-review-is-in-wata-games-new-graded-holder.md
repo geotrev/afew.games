@@ -69,7 +69,7 @@ Unfortunately, the label doesn't extend to the sides anymore, and a simple debos
 
 You might not be surprised to learn that the blister from the legacy holder is retained. I've already stated in previous writings that I dislike this feature, particularly the corners. Similarly, I mentioned there are new issues plaguing recent orders to Wata involving damaged games. Most of those issues are the result of these blisters seemingly getting warped inside the holder.
 
-Here's one from Video Game Sage that illustrates what I mean:
+Here's one from [Video Game Sage](https://www.videogamesage.com/forums/topic/350-graded-games-show-them-off/?do=findComment&comment=361154) that illustrates what I mean:
 
 ![External example of a new holder with collapsed inner blister, from bottom](/uploads/image.jpeg.bd90bd940877cd68f65e2db852c71436.jpeg)
 
