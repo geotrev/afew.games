@@ -75,7 +75,7 @@ Here's one from [Video Game Sage](https://www.videogamesage.com/forums/topic/350
 
 *Notice the bottom is missing? The game should "float" inside.*
 
-Upon further investigation, I found an eBay listing that might be from this same forum member, with more pictures of the damage. It looks like something caused the bottom to collapse. Could have been from shipping, although I can't be positive.
+Upon further investigation, I found an eBay listing that might be from this same forum member, with more pictures of the damage. It looks like something caused the bottom to collapse. Could have been from shipping, but I have no clear answer.
 
 ![Close up of the collapsed blister](/uploads/screenshot_20230707_233926_ebay.jpg)
 
