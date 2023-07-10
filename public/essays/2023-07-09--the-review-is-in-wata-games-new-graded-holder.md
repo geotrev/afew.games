@@ -19,7 +19,7 @@ From my view, the best part about the new design is the wider array of prefabric
 
 ![Six reholdered games from the side, showing slimmer profile for storage](/uploads/img_3254.jpeg)
 
-**\*From left:** N64, DS, Game Boy (Advance), PS1, Switch, DVD (GameCube)*
+***From left:** N64, DS, Game Boy (Advance), PS1, Switch, DVD (GameCube)*
 
 ![Up close side view for N64, Game Boy, and PS1 holders](/uploads/img_3256.jpeg)
 
@@ -31,7 +31,7 @@ In particular the more streamlined Jewel case & 3DS holder is much appreciated. 
 
 ![Up close side view showing the same holder size used for PS1 and 3DS, and separately, a shared size for DS and Game Boy.](/uploads/img_3262.jpeg)
 
-**\*From left:** PlayStation 1, 3DS, Nintendo DS, Game Boy (Advance)*
+***From left:** PlayStation 1, 3DS, Nintendo DS, Game Boy (Advance)*
 
 As mentioned, the two outliers in the current equation (that I can physically show) are DS and Switch. Both appear to reuse a holder similar or identical in size, that better fit other games.
 
@@ -75,9 +75,9 @@ Here's one from [Video Game Sage](https://www.videogamesage.com/forums/topic/350
 
 ![External example of a new holder with collapsed inner blister, from bottom](/uploads/image.jpeg.bd90bd940877cd68f65e2db852c71436.jpeg)
 
-*Notice the bottom is missing? The game should "float" inside.*
+Notice the lack of space on the bottom; the game should "float" inside (compare to the DS game photos previously in this essay).
 
-Upon further investigation, I found an eBay listing that might be from this same forum member, with more pictures of the damage. It looks like something caused the bottom to collapse. Could have been from shipping, but I have no clear answer.
+Upon further investigation, I found the eBay listing from the same forum member, with a picture of the back. It looks like something caused the bottom to collapse. Could have been from shipping, but I can't be sure.
 
 ![Close up of the collapsed blister](/uploads/screenshot_20230707_233926_ebay.jpg)
 
