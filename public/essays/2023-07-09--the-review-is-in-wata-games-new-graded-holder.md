@@ -19,7 +19,7 @@ From my view, the best part about the new design is the wider array of prefabric
 
 ![Six reholdered games from the side, showing slimmer profile for storage](/uploads/img_3254.jpeg)
 
-***From left:** N64, DS, Game Boy (Advance), PS1, Switch, DVD (GameCube)*
+**\*From left:** N64, DS, Game Boy (Advance), PS1, Switch, DVD (GameCube)*
 
 ![Up close side view for N64, Game Boy, and PS1 holders](/uploads/img_3256.jpeg)
 
@@ -31,7 +31,7 @@ In particular the more streamlined Jewel case & 3DS holder is much appreciated. 
 
 ![Up close side view showing the same holder size used for PS1 and 3DS, and separately, a shared size for DS and Game Boy.](/uploads/img_3262.jpeg)
 
-***From left:** PlayStation 1, 3DS, Nintendo DS, Game Boy (Advance)*
+**\*From left:** PlayStation 1, 3DS, Nintendo DS, Game Boy (Advance)*
 
 As mentioned, the two outliers in the current equation (that I can physically show) are DS and Switch. Both appear to reuse a holder similar or identical in size, that better fit other games.
 
@@ -65,7 +65,7 @@ On the back, not much has changed, although the old scan block has been replaced
 
 ![Debossed Wata logo on the side of the holder.](/uploads/img_3327.jpeg)
 
-Unfortunately, the label doesn't extend to the sides anymore, and a simple debossed wata logo sits in its place. Not th end of the world. Additionally, the certification date is no longer displayed on the back, which could be seen as a "con" for folks who are concerned with who was grading at the time (pre- or post-collectors, for instance). This is somewhat compounded by the fact that reholdered games retain their old certification number, skewing the timeline.
+Unfortunately, the label doesn't extend to the sides anymore, and a simple debossed logo sits in its place. Not the end of the world. Additionally, the certification date is no longer displayed on the back, which could be seen as a "con" for folks who are concerned with who was grading at the time (pre- or post-Collectors acquisition, for instance). This is somewhat compounded by the fact that reholdered games retain their old certification number, skewing the provenance of the games.
 
 ## Inside the holder
 
