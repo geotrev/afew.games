@@ -43,7 +43,7 @@ See that extra space? It's a bit unfortunate. You would think there would be one
 
 And for Switch, it appears to use a holder that is slightly shorter, but somehow as deep as the DVD holder (it's hard to notice, but it's very slightly deeper). Switch in particular feels like it needs a size of its own.
 
-Switch is even shallower than 3DS, to put it in perspective.
+Switch is even shallower than 3DS, to put it in perspective. Overall, Switch feels like an after-thought.
 
 ![Another up close look at Switch and DVD-size side view, which seemingly use a similar sized holder.](/uploads/img_3260.jpeg)
 
@@ -57,15 +57,15 @@ The label is massively overhauled.
 
 ![New label design, Front](/uploads/img_3324.jpeg)
 
-![New label design, back](/uploads/img_3325.jpeg)
+The front shows a simpler label and a refined grade area on the right. The certification number is conveniently located right below the game metadata. This is definitely among the highlights for me, especially if a game lookup becomes available [a la VGA](https://apps.cgagrading.com/submissions/serial-number-search).
 
-You'll notice right away that the front now shows the wata label and a refined grade area ont he right. Also, the certification number is conveniently located right below the game metadata. This is definitely among the highlights for me.
+![New label design, back](/uploads/img_3325.jpeg)
 
 On the back, not much has changed, although the old scan block has been replaced with a newer UPC-style scan bar off to the right.
 
-Unfortunately, the label doesn't extend to the sides anymore, and a simple debossed wata logo sits in its place. Not th end of the world. Additionally, the certification date is no longer displayed on the back.
-
 ![Debossed Wata logo on the side of the holder.](/uploads/img_3327.jpeg)
+
+Unfortunately, the label doesn't extend to the sides anymore, and a simple debossed wata logo sits in its place. Not th end of the world. Additionally, the certification date is no longer displayed on the back, which could be seen as a "con" for folks who are concerned with who was grading at the time (pre- or post-collectors, for instance). This is somewhat compounded by the fact that reholdered games retain their old certification number, skewing the timeline.
 
 ## Inside the holder
 
