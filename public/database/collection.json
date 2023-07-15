@@ -5226,6 +5226,17 @@
       "platform": "Switch",
       "games": [
         {
+          "name": "Splatoon 2",
+          "variants": [
+            {
+              "part_code": "108790A",
+              "manufactured": "Japan",
+              "mpn": "HAC R AAB62 USA",
+              "notes": "w/ Strategy Guide (box)"
+            }
+          ]
+        },
+        {
           "name": "Mario Kart 8 Deluxe",
           "variants": [
             {
