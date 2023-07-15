@@ -5328,6 +5328,18 @@
           "name": "The Legend of Zelda Breath of the Wild",
           "variants": [
             {
+              "part_code": "106350A",
+              "manufactured": "Japan",
+              "mpn": "HAC W AAAA1 USA",
+              "notes": "w/ Bonus Explorer's Guide & Map (box)"
+            },
+            {
+              "part_code": "108785A",
+              "manufactured": "Japan",
+              "mpn": "HAC R AAAA2 USA",
+              "notes": "w/ Bonus Explorer's Guide (box)"
+            },
+            {
               "part_code": "105211A",
               "satellite_code": "00000",
               "manufactured": "Japan",
