@@ -3362,6 +3362,12 @@
           "name": "Kingdom Hearts 3D: Dream Drop Distance",
           "variants": [
             {
+              "part_code": "1420104",
+              "manufactured": "Japan",
+              "mpn": "CTR P AKHE USA",
+              "notes": "w/ Limited Edition AR Cards (1420103)"
+            },
+            {
               "part_code": "1420100",
               "satellite_code": "",
               "manufactured": "Japan",
