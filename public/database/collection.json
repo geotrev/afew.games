@@ -3574,6 +3574,13 @@
           "name": "Pokemon White",
           "variants": [
             {
+              "part_code": "73647A",
+              "satellite_code": "00100",
+              "manufactured": "Japan",
+              "mpn": "TWL P IRAO USA",
+              "notes": "Target exclusive, Lucario download promo"
+            },
+            {
               "part_code": "73329A",
               "satellite_code": "00000",
               "manufactured": "Japan",
@@ -3592,6 +3599,13 @@
         {
           "name": "Pokemon Black",
           "variants": [
+            {
+              "part_code": "73646A",
+              "satellite_code": "00100",
+              "manufactured": "USA",
+              "mpn": "TWL P IRBO USA",
+              "notes": "Target exclusive, Lucario download promo"
+            },
             {
               "part_code": "73319A",
               "satellite_code": "00000",
