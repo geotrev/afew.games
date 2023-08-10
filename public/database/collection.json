@@ -6069,6 +6069,12 @@
           "name": "Super Mario 3D World",
           "variants": [
             {
+              "part_code": "102263A",
+              "satellite_code": "00000",
+              "manufactured": "Japan",
+              "mpn": "WUP P AMAE USZ"
+            },
+            {
               "part_code": "81224A",
               "satellite_code": "00100",
               "manufactured": "USA",
