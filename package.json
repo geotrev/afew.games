@@ -55,7 +55,7 @@
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
     "@faker-js/faker": "^8.0.2",
-    "@netlify/plugin-nextjs": "^4.37.4",
+    "@netlify/plugin-nextjs": "^4.40.1",
     "@types/lodash-es": "^4.17.7",
     "@types/marked": "^5.0.0",
     "@types/node": "20.3.1",
