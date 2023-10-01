@@ -32,7 +32,7 @@
     "@tailwindcss/typography": "^0.5.9",
     "classnames": "^2.3.2",
     "crypto-js": "^4.1.1",
-    "daisyui": "^2.52.0",
+    "daisyui": "^3.0.0",
     "date-fns": "^2.30.0",
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.3",
