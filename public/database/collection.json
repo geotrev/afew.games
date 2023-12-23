@@ -1825,6 +1825,66 @@
           ]
         },
         {
+          "name": "Pocket Monsters: Blue",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Japanese version, no UPC, mail order"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Japanese version, with UPC"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Japanese version, Toyota Auto promotion"
+            }
+          ]
+        },
+        {
+          "name": "Pocket Monsters: Red",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Japanese version, Super Game Boy insert"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Japanese version, Game Boy Pocket insert (1996)"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Japanese version, Game Boy Color insert (1998)"
+            }
+          ]
+        },
+        {
+          "name": "Pocket Monsters: Green",
+          "variants": [
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Japanese version, Super Game Boy insert"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Japanese version, Game Boy Pocket insert (1996)"
+            },
+            {
+              "manufactured": "Japan",
+              "mpn": "",
+              "notes": "Japanese version, Game Boy Color insert (1998)"
+            }
+          ]
+        },
+        {
           "name": "Super Mario Land",
           "variants": [
             {
