@@ -1829,18 +1829,18 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "mpn": "",
-              "notes": "Japanese version, no UPC, mail order"
+              "mpn": "DMG-P-APEJ(JPN)",
+              "notes": "No UPC, mail order"
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
-              "notes": "Japanese version, with UPC"
+              "mpn": "DMG-P-APEJ(JPN)",
+              "notes": "With UPC"
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
-              "notes": "Japanese version, Toyota Auto promotion"
+              "mpn": "DMG-P-APEJ(JPN)",
+              "notes": "Toyota Auto promotion"
             }
           ]
         },
@@ -1849,18 +1849,18 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "mpn": "",
-              "notes": "Japanese version, Super Game Boy insert"
+              "mpn": "DMG-P-APAJ(JPN)",
+              "notes": "Super Game Boy insert (1995)"
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
-              "notes": "Japanese version, Game Boy Pocket insert (1996)"
+              "mpn": "DMG-P-APAJ(JPN)",
+              "notes": "Game Boy Pocket insert (1996)"
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
-              "notes": "Japanese version, Game Boy Color insert (1998)"
+              "mpn": "DMG-P-APAJ(JPN)",
+              "notes": "Game Boy Color insert (1998)"
             }
           ]
         },
@@ -1869,18 +1869,18 @@
           "variants": [
             {
               "manufactured": "Japan",
-              "mpn": "",
-              "notes": "Japanese version, Super Game Boy insert"
+              "mpn": "DMG-P-APBJ(JPN)",
+              "notes": "Super Game Boy insert (1995)"
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
-              "notes": "Japanese version, Game Boy Pocket insert (1996)"
+              "mpn": "DMG-P-APBJ(JPN)",
+              "notes": "Game Boy Pocket insert (1996)"
             },
             {
               "manufactured": "Japan",
-              "mpn": "",
-              "notes": "Japanese version, Game Boy Color insert (1998)"
+              "mpn": "DMG-P-APBJ(JPN)",
+              "notes": "Game Boy Color insert (1998)"
             }
           ]
         },
