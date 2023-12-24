@@ -25,7 +25,7 @@ DatabaseWrapper.propTypes = {
             propTypes.shape({
               part_code: propTypes.string,
               satellite_code: propTypes.string,
-              manufactured: propTypes.string,
+              country: propTypes.string,
               mpn: propTypes.string,
               notes: propTypes.string,
             })

@@ -24,7 +24,7 @@ Let's explain these details a bit:
 - **Part (variant) code:** This is a unique identifier for the specific iteration of a game. For first and second party Nintendo games, this is a numerical value (five to six digits) representing the form of the game (e.g., retail standalone, limited edition, etc), followed by a single letter suffix, indicating the production revision. The revision suffix will always be in order, starting at `A` (first print), then to `B`, and so on.
 - **Satellite code**: A simple five-digit code denoting the region of production (third digit) and iteration of the game (0, 1, 2, etc). You'll often see the revision suffix in the part code correlate to this value, but not always.
 - **Model Part # (MPN)**: Similar to the part code, this is a custom code used to track the game on the open market. What's useful for our purposes is that it also denotes the intended region of distribution, e.g., `USA` (USA specific), `USZ` (USA and Canada/Mexico), or `CAN` (Canada), to name a few.
-- **Region of manufacture**: The physical location the game was manufactured in. For many games, that's Japan. This should match the middle digit of the satellite code (`0` is USA, `1` is Japan), although there are exceptions (we'll cover that in a few moments).
+- **Country of manufacture**: The physical country/region the game was manufactured in. For most games, Japan or USA. This should match the middle digit of the satellite code (`0` is USA, `1` is Japan), although there are exceptions (we'll cover that in a few moments).
 
 ## Examples
 

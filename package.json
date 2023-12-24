@@ -7,7 +7,7 @@
     "prepare": "husky install",
     "seed": "rm -rf ./.seed && npm run seed:essays",
     "seed:essays": "node ./.bin/seed-essays.js",
-    "dev": "next",
+    "dev": "npm run seed && next",
     "build": "next build",
     "start": "next start",
     "export": "npm run build && next export",

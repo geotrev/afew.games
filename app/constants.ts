@@ -1,7 +1,7 @@
 export const DatabaseFields = {
   PART_CODE: "part_code",
   SATELLITE_CODE: "satellite_code",
-  MANUFACTURED: "manufactured",
+  COUNTRY: "country",
   MPN: "mpn",
   NOTES: "notes",
 }
@@ -13,7 +13,7 @@ export const DatabaseFields = {
 export const DB_FIELDS_SORTED: string[] = [
   DatabaseFields.PART_CODE,
   DatabaseFields.SATELLITE_CODE,
-  DatabaseFields.MANUFACTURED,
+  DatabaseFields.COUNTRY,
   DatabaseFields.MPN,
   DatabaseFields.NOTES,
 ]

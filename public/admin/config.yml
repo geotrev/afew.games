@@ -86,8 +86,8 @@ collections:
                         name: satellite_code
                         required: false
                         widget: string
-                      - label: Manufactured
-                        name: manufactured
+                      - label: Country
+                        name: country
                         widget: select
                         required: false
                         options:
