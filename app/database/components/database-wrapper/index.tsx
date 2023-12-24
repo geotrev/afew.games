@@ -3,11 +3,11 @@
 import propTypes from "prop-types"
 
 import { FilterOptions } from "../filter-options"
-import { DatabaseList } from "../database-list"
 import { Search } from "../search"
 import { useFilter, useSearch } from "../../utils/hooks"
-import { DatabasePlatform, PlatformRecord } from "types/games"
-import { ChangeEventHandler, MouseEventHandler } from "react"
+import { DatabasePlatform } from "types/games"
+import { ChangeEventHandler, MouseEventHandler, useState } from "react"
+import { GameList } from "./GameList"
 
 type DatabaseWrapperProps = {
   games: DatabasePlatform[]
@@ -51,6 +51,8 @@ export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
     games,
     queryData,
   })
+  const [count, setCount] = useState<number | null>(10)
+  const [selectedCount, setSelectedCount] = useState<string>(String(count))
 
   const handleChange: ChangeEventHandler<HTMLInputElement> = (event) => {
     setSearchValue(event.target.value)
@@ -77,15 +79,18 @@ export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
     )
   }
 
-  function renderCollectionLists(p: PlatformRecord) {
-    return (
-      <DatabaseList
-        key={p.platform}
-        games={p.games}
-        label={p.platform}
-        id={p.platform.split(" ").join("-")}
-      />
-    )
+  const handleSelectChange: ChangeEventHandler<HTMLSelectElement> = ({
+    target: { value },
+  }) => {
+    setSelectedCount(value)
+
+    const rawValue = parseInt(value, 10)
+
+    if (value === "all") {
+      setCount(null)
+    } else {
+      setCount(rawValue)
+    }
   }
 
   return (
@@ -101,11 +106,42 @@ export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
         handleClick={handlePillClick}
         handleReset={handlePillResetClick}
       />
+
+      <div className="flex justify-end">
+        <label className="label pe-4">Games shown</label>
+        <select
+          value={selectedCount}
+          name="quantity"
+          onChange={handleSelectChange}
+          className="select-bordered select"
+        >
+          <option value="10">10</option>
+          <option value="25">25</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+          <option value="all">All</option>
+        </select>
+      </div>
+
       {gameCount === 0 ? (
         <p>No matches found, sorry.</p>
       ) : (
-        filteredGames.map(renderCollectionLists)
+        <GameList count={count} games={filteredGames} />
       )}
+
+      {typeof count === "number" &&
+        selectedCount !== "all" &&
+        count < gameCount && (
+          <div className="flex justify-center">
+            <button
+              type="button"
+              className="btn-outline btn-accent btn-xs btn !h-auto !min-h-0 rounded-md py-3 md:btn-md"
+              onClick={() => setCount(count + parseInt(selectedCount, 10))}
+            >
+              Load more
+            </button>
+          </div>
+        )}
     </>
   )
 }

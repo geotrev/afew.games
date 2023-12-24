@@ -3,15 +3,9 @@ import { useSearchParams } from "next/navigation"
 import { debounce } from "lodash-es"
 import xss from "xss"
 
-import {
-  PlatformRecord,
-  DatabasePlatform,
-  GameRecord,
-  Platform,
-  FilterItem,
-} from "types/games"
+import { DatabasePlatform, DatabaseGame, FilterItem } from "types/games"
 
-type FilterCallback = () => (Platform | DatabasePlatform)[]
+type FilterCallback = () => DatabasePlatform[]
 
 export function useSearch() {
   const searchParams = useSearchParams()
@@ -28,7 +22,7 @@ export function useFilter({
   queryData,
   defaultSearchValue,
 }: {
-  games: Platform[]
+  games: DatabasePlatform[]
   queryData: Array<string[]>
   defaultSearchValue: string
 }) {
@@ -62,8 +56,8 @@ export function useFilter({
     if (!filterValue && allSelected) return games
 
     return queryData.reduce((acc, queryableGames: string[], idx) => {
-      const gameList: GameRecord[] = games[idx].games
-      const filteredEntry: PlatformRecord = {
+      const gameList: DatabaseGame[] = games[idx].games
+      const filteredEntry: DatabasePlatform = {
         ...games[idx],
         games: [],
       }
@@ -90,7 +84,7 @@ export function useFilter({
 
       acc.push(filteredEntry)
       return acc
-    }, [] as PlatformRecord[])
+    }, [] as DatabasePlatform[])
   }, [
     allSelected,
     noneSelected,

@@ -1,4 +1,4 @@
-import { Game, DatabaseGame, PlatformRecord } from "types/games"
+import { DatabaseGame, DatabasePlatform } from "types/games"
 import { isPlainObject, isString, pickBy } from "lodash-es"
 
 export function sortByKey(key: string) {
@@ -13,8 +13,8 @@ export function sortByKey(key: string) {
  * Recursively traverse an array of objects, returning an array strings equivalent
  * to each objects values (only string values are counted).
  */
-export function flattenObjectValues(items: Game[] | DatabaseGame[]): string[] {
-  return items.map((item: Game | DatabaseGame) =>
+export function flattenObjectValues(items: DatabaseGame[]): string[] {
+  return items.map((item: DatabaseGame) =>
     Object.values(item).reduce((acc: string, val: string) => {
       if (typeof val === "string") {
         // concat the string
@@ -32,8 +32,10 @@ export function flattenObjectValues(items: Game[] | DatabaseGame[]): string[] {
   )
 }
 
-export function transformGameProps(database: { platforms: PlatformRecord[] }) {
-  const games: PlatformRecord[] = database.platforms
+export function transformGameProps(database: {
+  platforms: DatabasePlatform[]
+}) {
+  const games: DatabasePlatform[] = database.platforms
     .sort(sortByKey("platform"))
     .map((p) => ({
       platform: p.platform,
