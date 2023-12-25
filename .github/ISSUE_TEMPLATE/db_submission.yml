@@ -1,62 +1,72 @@
 name: Database Submission
-description: Contribute an entry to AFG video game database
-title: "[Submission]: "
+description: Contribute to the AFG video game database
+title: "[Submission]: <game title>"
 labels: ["contribution"]
 projects: ["geotrev/1"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thank you for your contribution!
+
+        Please review this checklist before submitting:
+
+        * Proof read your submission for inaccuracies, such as typos
+        * Links to official sources (e.g., press releases, publisher documentation) are encouraged
+        * Links to eBay listings are encouraged
+        * If the game has so little documentation and so few listings that it can't be easily referenced, say so in the notes
+
   - type: input
-    id: contact
+    id: title
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Title
+      description: Official title of the game, including subtitle(s).
+      placeholder: E.g., Super Mario World
     validations:
       required: true
-  - type: dropdown
-    id: version
+
+  - type: input
+    id: platform
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
+      label: Platform
+      description: Specify which console the game released on.
+      placeholder: E.g., SNES
     validations:
       required: true
-  - type: dropdown
-    id: browsers
+
+  - type: input
+    id: mpn
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      label: MPN (Manufacturer's Part Number)
+      description: A code used to identify a product at retail. Each publisher has a different format. If you're not sure about this, leave this blank. Typically found on the back of a game near the UPC.
+      placeholder: E.g., ABC-DEFG-USA
+
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      description: The country of manufacture. Most games say 'Made in Japan,' 'Made in USA,' etc. If there's no country indicated, leave this blank. The MPN might specify the country, ending in 'USA,' 'CAN' (Canada), etc.
+      placeholder: E.g., Japan
+
+  - type: input
+    id: part-code
+    attributes:
+      label: Part Code
+      description: The unique identifier given to the game during manufacturing. Also called a 'product code.' Typically found on the spine or back of a game, near the UPC.
+      placeholder: E.g., 12345B
+
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: Additional Information
+      description: Provide links to resources, additional context, or anything else useful to cross-verify this game.
       render: shell
+
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      description: By submitting to the AFG database, you agree to follow our [Code of Conduct](https://github.com/geotrev/afew.games/blob/main/CODE_OF_CONDUCT.md)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
