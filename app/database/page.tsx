@@ -23,14 +23,14 @@ export default function Page() {
         <p>
           This is a database of {count} games with documented print variants.
           While new and interesting variants will be written about in long form,
-          this database will always update in real time.
+          this database updates in real time.
         </p>
-        <p>
-          Do you have data we don&apos;t?{" "}
-          <Link href="/database/contribute">
-            Contribute games & variants to A Few Games&apos; database!
-          </Link>{" "}
-          Attribution will be listed near the footer of this page.
+        <p className="mb-0">
+          <Link href="/database#0">Contribute to the database ↗</Link>
+        </p>
+        <p className="mt-2 text-sm italic">
+          To contribute, a (free) GitHub account is required. Credits are listed
+          near the footer of this page.
         </p>
       </div>
       <div className="divider" role="separator" />
