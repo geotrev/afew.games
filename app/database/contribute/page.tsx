@@ -27,7 +27,7 @@ const FIELD_DATA = [
     input: { required: true, id: "platform" },
   },
   {
-    label: { text: "MPN (Model Product Number)", id: "mpn" },
+    label: { text: "MPN (Manufacturer's Part Number)", id: "mpn" },
     hint: {
       text: "A code used to identify a product at retail. Each publisher has a different format. If you're not sure about this, leave this blank. Typically found on the back of a game near the UPC.",
       id: "mpn-hint",
@@ -50,7 +50,36 @@ const FIELD_DATA = [
     },
     input: { id: "part-code" },
   },
+  {
+    label: { text: "Additional information", id: "notes" },
+    hint: {
+      text: "Provide links to resources, additional context, or anything else useful to cross-verify this game.",
+      id: "notes-hint",
+    },
+    input: { id: "notes", is: "textarea" },
+  },
 ]
+
+{
+  /* <div className="form-control">
+  <label
+    className="label px-0 pb-1 text-sm font-bold uppercase text-white"
+    htmlFor="notes"
+  >
+    Additional information
+  </label>
+  <p id="notes-hint" className="mb-4 text-sm italic opacity-75">
+    Provide links to resources, additional context, or anything else
+    useful to cross-verify this game.
+  </p>
+  <textarea
+    className="textarea-bordered textarea textarea-md mb-3 w-full max-w-full"
+    id="notes"
+    name="notes"
+    aria-describedby="notes-hint"
+  />
+</div> */
+}
 
 const CONSENT_DATA = [
   {
@@ -104,46 +133,34 @@ export default function Page() {
             (*) indicates a required field
           </p>
 
-          {FIELD_DATA.map((field) => (
-            <div className="form-control" key={field.label.id}>
-              <label
-                className="label px-0 pb-1 pt-0 text-sm font-bold uppercase text-white"
-                htmlFor={field.label.id}
-              >
-                {field.label.text}
-              </label>
-              <p id={field.hint.id} className="mb-4 text-sm italic opacity-75">
-                {field.hint.text}
-              </p>
-              <input
-                required={field.input.required}
-                className="input-bordered input input-md mb-3 w-full max-w-full"
-                aria-describedby={field.hint.id}
-                type="text"
-                id={field.input.id}
-                name={field.input.id}
-              />
-            </div>
-          ))}
+          {FIELD_DATA.map((field) => {
+            const Tag = field.input.is || "input"
 
-          <div className="form-control">
-            <label
-              className="label px-0 pb-1 text-sm font-bold uppercase text-white"
-              htmlFor="notes"
-            >
-              Additional information
-            </label>
-            <p id="notes-hint" className="mb-4 text-sm italic opacity-75">
-              Provide links to resources, additional context, or anything else
-              useful to cross-verify this game.
-            </p>
-            <textarea
-              className="textarea-bordered textarea textarea-md mb-3 w-full max-w-full"
-              id="notes"
-              name="notes"
-              aria-describedby="notes-hint"
-            />
-          </div>
+            return (
+              <div className="form-control" key={field.label.id}>
+                <label
+                  className="label px-0 pb-1 pt-0 text-sm font-bold uppercase text-white"
+                  htmlFor={field.label.id}
+                >
+                  {field.label.text}
+                </label>
+                <p
+                  id={field.hint.id}
+                  className="mb-4 text-sm italic opacity-75"
+                >
+                  {field.hint.text}
+                </p>
+                <Tag
+                  required={field.input.required}
+                  className="input-bordered input input-md mb-3 w-full max-w-full"
+                  aria-describedby={field.hint.id}
+                  type="text"
+                  id={field.input.id}
+                  name={field.input.id}
+                />
+              </div>
+            )
+          })}
 
           <div className="divider" role="separator" />
 
