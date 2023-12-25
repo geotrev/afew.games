@@ -1,10 +1,8 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+name: Database Submission
+description: Contribute an entry to AFG video game database
+title: "[Submission]: "
+labels: ["contribution"]
+projects: ["geotrev/1"]
 body:
   - type: markdown
     attributes:
