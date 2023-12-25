@@ -52,6 +52,21 @@ const FIELD_DATA = [
   },
 ]
 
+const CONSENT_DATA = [
+  {
+    id: "release-box",
+    text: "By submitting this form, I agree to release the provided information, without consequence or condition, to A Few Games for the sole purpose of publishing to its video game database.",
+  },
+  {
+    id: "terms-box",
+    text: "I understand that A Few Games may choose to not list all or some of the submitted information if it is deemed inappropriate, incomplete, or inaccurate.",
+  },
+  {
+    id: "consent-box",
+    text: "I understand that submitting this form will create a public-facing GitHub ticket with the provided information, to remain publicly visible for contributor & collector interest. I understand that I may request deletion of any unintentionally submitted personal information by emailing the owner at contact@afew.games or leaving a comment on the created GitHub issue, in order to specify the scope of deletion.",
+  },
+]
+
 export default function Page() {
   return (
     <>
@@ -132,70 +147,22 @@ export default function Page() {
 
           <div className="divider" role="separator" />
 
-          <p className="form-control">
-            <label
-              className="label flex cursor-pointer items-start"
-              htmlFor="release-box"
-            >
-              <input
-                className="checkbox-primary checkbox checkbox-sm me-3"
-                type="checkbox"
-                id="release-box"
-                name="release-box"
-              />
-              <span className="label-text">
-                By submitting this form, I agree to release the provided
-                information, without consequence or condition, to A Few Games
-                for the sole purpose of publishing to its video game database.
-              </span>
-            </label>
-          </p>
-          <p className="form-control">
-            <label
-              className="label flex cursor-pointer items-start"
-              htmlFor="terms-box"
-            >
-              <input
-                className="checkbox-primary checkbox checkbox-sm me-3"
-                type="checkbox"
-                id="terms-box"
-                name="terms-box"
-              />
-              <span className="label-text">
-                I understand that A Few Games may choose to not list all or some
-                of the submitted information if it is deemed inappropriate,
-                incomplete, or inaccurate.
-              </span>
-            </label>
-          </p>
-          <p className="form-control mb-8">
-            <label
-              className="label flex cursor-pointer items-start"
-              htmlFor="consent-box"
-            >
-              <input
-                className="checkbox-primary checkbox checkbox-sm me-3"
-                type="checkbox"
-                id="consent-box"
-                name="consent-box"
-              />
-              <span className="label-text">
-                I understand that submitting this form will create a
-                public-facing GitHub ticket with the provided information, to
-                remain publicly visible for contributor & collector interest. I
-                understand that I may request deletion of any unintentionally
-                submitted personal information by emailing the owner at{" "}
-                <a
-                  className="link text-primary"
-                  href="mailto:contact@afew.games"
-                >
-                  contact@afew.games
-                </a>
-                , or leaving a comment on the created GitHub issue, in order to
-                specify the scope of deletion.
-              </span>
-            </label>
-          </p>
+          {CONSENT_DATA.map((consent) => (
+            <p className="form-control mb-8" key={consent.id}>
+              <label
+                className="label flex cursor-pointer items-start"
+                htmlFor={consent.id}
+              >
+                <input
+                  className="checkbox-primary checkbox checkbox-sm me-3"
+                  type="checkbox"
+                  id={consent.id}
+                  name={consent.id}
+                />
+                <span className="label-text">{consent.text}</span>
+              </label>
+            </p>
+          ))}
 
           <button className="btn-accent btn-lg btn !h-auto !min-h-0 w-full rounded-md py-3 md:btn-md">
             Submit
