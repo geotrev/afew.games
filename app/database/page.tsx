@@ -26,11 +26,11 @@ export default function Page() {
           this database will always update in real time.
         </p>
         <p>
-          Wondering how variants are determined? Here is a{" "}
-          <Link href="/essays/decoding-modern-nintendo-print-variants">
-            Nintendo-specific guide
+          Do you have data we don&apos;t?{" "}
+          <Link href="/database/contribute">
+            Contribute games & variants to A Few Games&apos; database!
           </Link>{" "}
-          from last year. Xbox and PlayStation guides coming soon.
+          Attribution will be listed near the footer of this page.
         </p>
       </div>
       <div className="divider" role="separator" />
