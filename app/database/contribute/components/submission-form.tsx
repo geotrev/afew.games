@@ -105,7 +105,7 @@ export function SubmissionForm() {
         </p>
         <p>
           <button
-            className="btn-secondary btn-sm btn mb-4 text-base-100"
+            className="btn-secondary btn-sm btn text-base-100"
             onClick={handleRefreshClick}
           >
             Submit Another Game ↻
@@ -148,12 +148,12 @@ export function SubmissionForm() {
 
         {FIELD_DATA.map((field) => {
           return (
-            <div className="form-control" key={field.label.htmlFor}>
+            <div className="form-control" key={field.input.id}>
               <label
                 className="label flex justify-start px-0 pb-1 pt-0 text-sm font-bold uppercase text-white"
-                htmlFor={field.label.htmlFor}
+                htmlFor={field.input.id}
               >
-                {field.label.text}
+                {field.label}
                 {field.input.required && (
                   <span>
                     <span aria-hidden="true">&nbsp;*</span>
@@ -161,7 +161,12 @@ export function SubmissionForm() {
                   </span>
                 )}
               </label>
-              <p {...field.hint} className="mb-4 text-sm italic opacity-75" />
+              <p
+                id={`${field.input.id}-hint`}
+                className="mb-4 text-sm italic opacity-75"
+              >
+                {field.hint}
+              </p>
               <Field
                 isTextarea={field.input.is === "textarea"}
                 required={field.input.required}
@@ -173,7 +178,7 @@ export function SubmissionForm() {
                 })}
                 value={fieldValues[field.input.id]}
                 onChange={handleFieldChange}
-                aria-describedby={field.hint.id}
+                aria-describedby={`${field.input.id}-hint`}
                 type="text"
                 id={field.input.id}
                 name={field.input.id}
