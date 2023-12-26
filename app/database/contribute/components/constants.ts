@@ -59,18 +59,12 @@ export const FIELD_DATA = [
 
 export const CONSENT_DATA = [
   {
-    id: "release-box",
-    label:
-      "By submitting this form, I agree to release the provided information, without consequence or condition, to A Few Games for the sole purpose of publishing to its video game database.",
-  },
-  {
     id: "terms-box",
-    label:
-      "I understand that A Few Games may choose to not list all or some of the submitted information if it is deemed inappropriate, incomplete, or inaccurate.",
+    label: "I understand that by submitting this form, I agree to A Few Games'",
   },
   {
     id: "consent-box",
     label:
-      "I understand that submitting this form will create a public-facing GitHub ticket with the provided information, to remain publicly visible for contributor & collector interest. I understand that I may request deletion of any unintentionally submitted personal information by emailing the owner at contact@afew.games or leaving a comment on the created GitHub issue, in order to specify the scope of deletion.",
+      "I understand that submitting this form will create a GitHub ticket with the provided information, to remain publicly visible for contributor & collector interest",
   },
 ]

@@ -26,7 +26,11 @@ export default function Page() {
           this database updates in real time.
         </p>
         <p className="mb-0">
-          <Link href="https://github.com/geotrev/afew.games/issues/new?assignees=&labels=contribution&projects=geotrev%2F1&template=db_submission.yml&title=%5BSubmission%5D%3A+%3Cgame+title%3E">
+          <Link
+            href="https://github.com/geotrev/afew.games/issues/new?assignees=&labels=contribution&projects=geotrev%2F1&template=db_submission.yml&title=%5BSubmission%5D%3A+%3Cgame+title%3E"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Contribute to the database ↗
           </Link>
         </p>

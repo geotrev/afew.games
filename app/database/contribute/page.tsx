@@ -21,7 +21,7 @@ export default function Page() {
 
       <SubmissionForm />
 
-      <Script defer async src="https://www.google.com/recaptcha/api.js" />
+      <Script src="https://www.google.com/recaptcha/api.js" />
     </>
   )
 }

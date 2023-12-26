@@ -135,11 +135,13 @@ export function SubmissionForm() {
 
         {CONSENT_DATA.map((consent, index) => (
           <p
-            className={cn("form-control", { "mb-8": index === 2 })}
+            className={cn("form-control", {
+              "mb-8": index === CONSENT_DATA.length - 1,
+            })}
             key={consent.id}
           >
             <label
-              className="label flex cursor-pointer items-start"
+              className="label flex cursor-pointer items-start justify-start"
               htmlFor={consent.id}
             >
               <input
@@ -157,7 +159,19 @@ export function SubmissionForm() {
                   })
                 }}
               />
-              <span className="label-text">{consent.label}</span>
+              <span className="label-text">
+                {consent.label}{" "}
+                {consent.id === "terms-box" && (
+                  <a
+                    className="link"
+                    href="https://github.com/geotrev/afew.games/blob/main/CODE_OF_CONDUCT.md"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Code of Conduct ↗
+                  </a>
+                )}
+              </span>
             </label>
           </p>
         ))}
@@ -170,6 +184,7 @@ export function SubmissionForm() {
         >
           {isSubmitting ? "Submitting..." : "Submit"}
         </button>
+
         <ReCAPTCHA
           badge="inline"
           theme="dark"
