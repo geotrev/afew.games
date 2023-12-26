@@ -17,6 +17,17 @@ export default function Page() {
       <div className="prose max-w-full">
         <PageHeading>Contribute</PageHeading>
         <p>Use this form to submit a new game, new game variant, or both!</p>
+        <p>Looking for the status on a submission?</p>
+        <p>
+          <a
+            className="btn-secondary btn-sm btn mb-4 text-base-100"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/geotrev/afew.games/issues"
+          >
+            View All Submissions ↗
+          </a>
+        </p>
       </div>
 
       <SubmissionForm />

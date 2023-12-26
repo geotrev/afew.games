@@ -1,6 +1,6 @@
 "use client"
 
-import ReCAPTCHA from "react-google-recaptcha"
+// import ReCAPTCHA from "react-google-recaptcha"
 import {
   ChangeEventHandler,
   FormEventHandler,
@@ -10,7 +10,6 @@ import {
 } from "react"
 import { CONSENT_DATA, FIELD_DATA } from "./constants"
 import cn from "classnames"
-import { json } from "stream/consumers"
 
 const method = "POST"
 const headers = { "Content-Type": "application/json" }
@@ -28,8 +27,11 @@ const Field = ({
   )
 
 export function SubmissionForm() {
-  const [errorMessage, setErrorMessage] = useState<string | null>(null)
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false)
+  const [serverErrorMessage, setServerErrorMessage] = useState<string | null>(
+    null
+  )
+  const [isSuccess, setIsSuccess] = useState<boolean>(false)
   const [consentChecked, setConsentChecked] = useState<Record<string, boolean>>(
     CONSENT_DATA.reduce<Record<string, boolean>>(
       (acc, box) => ({ ...acc, [box.id]: false }),
@@ -58,30 +60,60 @@ export function SubmissionForm() {
 
       if (isSubmitting) return false
 
-      setErrorMessage(null)
+      setServerErrorMessage(null)
       setIsSubmitting(true)
 
-      const formData = FIELD_DATA.reduce((acc, field) => {
-        acc[field.input.id] = event.target[field.input.id].value
-        return acc
-      }, {})
+      const formData = new FormData(event.target as HTMLFormElement)
+      const body = JSON.stringify(Object.fromEntries(formData.entries()))
 
-      console.log({ formData })
+      fetch("/api/database/contribute", {
+        method,
+        headers,
+        cache: "no-store",
+        body,
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          setIsSubmitting(false)
 
-      // fetch("/api/essays", {
-      //   method,
-      //   headers,
-      //   cache: "no-store",
-      //   body: JSON.stringify(formData),
-      // })
-      //   .then((res) => res.json())
-      //   .then((payload) => {})
-      //   .catch((e) => {
-      //     setErrorMessage(e.message)
-      //   })
+          if (data.status === "success") {
+            setIsSuccess(true)
+          } else {
+            setServerErrorMessage(data.message)
+          }
+        })
+        .catch((e) => {
+          setServerErrorMessage(e.message)
+        })
     },
     [isSubmitting]
   )
+
+  const handleRefreshClick = useCallback(() => {
+    window.location.reload()
+  }, [])
+
+  if (isSuccess) {
+    return (
+      <div className="my-12 rounded-md border-2 border-solid border-slate-800 p-5">
+        <p className="mb-2 text-success">
+          Submitted successfully – thanks for contributing to the database!
+        </p>
+        <p className="mb-4">
+          You can track your submission on A Few Games&apos; GitHub issue
+          tracker, linked above.
+        </p>
+        <p>
+          <button
+            className="btn-secondary btn-sm btn mb-4 text-base-100"
+            onClick={handleRefreshClick}
+          >
+            Submit Another Game ↻
+          </button>
+        </p>
+      </div>
+    )
+  }
 
   return (
     <form className="my-12" onSubmit={handleSubmit}>
@@ -181,23 +213,26 @@ export function SubmissionForm() {
                 }}
               />
               <span className="label-text">
-                {consent.label}{" "}
+                {consent.label}
                 {consent.id === "terms" && (
-                  <a
-                    className="link"
-                    href="https://github.com/geotrev/afew.games/blob/main/CODE_OF_CONDUCT.md"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Code of Conduct ↗
-                  </a>
+                  <>
+                    {" "}
+                    <a
+                      className="link"
+                      href="https://github.com/geotrev/afew.games/blob/main/CODE_OF_CONDUCT.md"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Code of Conduct ↗
+                    </a>
+                  </>
                 )}
               </span>
             </label>
           </p>
         ))}
 
-        <div className={cn({ "mb-4": errorMessage })}>
+        <div className={cn({ "mb-4": serverErrorMessage })}>
           <button
             className={cn(
               "btn-accent btn-lg btn !h-auto !min-h-0 w-full rounded-md py-3 md:btn-md",
@@ -208,9 +243,13 @@ export function SubmissionForm() {
           </button>
         </div>
 
-        {errorMessage && (
+        {serverErrorMessage && (
           <p className="text-error">
-            Uh-oh... something went wrong. {errorMessage}
+            Uh-oh... {serverErrorMessage}. Try again or message{" "}
+            <a className="link" href="mailto:contact@afew.games">
+              contact@afew.games
+            </a>{" "}
+            if the error persists.
           </p>
         )}
 
