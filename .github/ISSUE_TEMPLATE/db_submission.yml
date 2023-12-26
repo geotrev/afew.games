@@ -56,11 +56,10 @@ body:
       placeholder: E.g., 12345B
 
   - type: textarea
-    id: logs
+    id: notes
     attributes:
       label: Additional Information
       description: Provide links to resources, additional context, or anything else useful to cross-verify this game.
-      render: shell
 
   - type: checkboxes
     id: terms
