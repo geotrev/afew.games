@@ -22,6 +22,10 @@ export default function Page() {
         <PageHeading>Database</PageHeading>
         <p>
           This is a database of {count} games with documented print variants.
+          <strong>This tool exclusively tracks box and seal variants</strong>,
+          but game contents are occasionally noted when appropriate.
+        </p>
+        <p>
           While new and interesting variants will be written about in long form,
           this database updates in real time.
         </p>
