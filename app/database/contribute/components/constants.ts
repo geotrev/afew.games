@@ -38,13 +38,13 @@ export const FIELD_DATA = [
     input: { id: "country", "aria-describedby": "country-hint" },
   },
   {
-    label: { text: "Part Code", htmlFor: "part-code" },
+    label: { text: "Part Code", htmlFor: "part" },
     hint: {
       children:
         "The unique identifier given to the game during manufacturing. Sometimes called a 'product code.' Typically found on the spine, or the back of a game near the UPC.",
-      id: "part-code-hint",
+      id: "part-hint",
     },
-    input: { id: "part-code", "aria-describedby": "part-code-hint" },
+    input: { id: "part", "aria-describedby": "part-hint" },
   },
   {
     label: { text: "Additional information", htmlFor: "notes" },
@@ -59,12 +59,12 @@ export const FIELD_DATA = [
 
 export const CONSENT_DATA = [
   {
-    id: "terms-box",
-    label: "I understand that by submitting this form, I agree to A Few Games'",
+    id: "terms",
+    label: "I agree to A Few Games'",
   },
   {
-    id: "consent-box",
+    id: "consent",
     label:
-      "I understand that submitting this form will create a GitHub ticket with the provided information, to remain publicly visible for contributor & collector interest",
+      "I understand this form will create a GitHub ticket with the provided information, to remain publicly visible for contributor & collector interest",
   },
 ]

@@ -10,6 +10,10 @@ import {
 } from "react"
 import { CONSENT_DATA, FIELD_DATA } from "./constants"
 import cn from "classnames"
+import { json } from "stream/consumers"
+
+const method = "POST"
+const headers = { "Content-Type": "application/json" }
 
 const Field = ({
   isTextarea,
@@ -24,6 +28,7 @@ const Field = ({
   )
 
 export function SubmissionForm() {
+  const [errorMessage, setErrorMessage] = useState<string | null>(null)
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false)
   const [consentChecked, setConsentChecked] = useState<Record<string, boolean>>(
     CONSENT_DATA.reduce<Record<string, boolean>>(
@@ -51,15 +56,29 @@ export function SubmissionForm() {
     async (event) => {
       event.preventDefault()
 
-      if (isSubmitting) return
+      if (isSubmitting) return false
 
+      setErrorMessage(null)
       setIsSubmitting(true)
 
-      // validate fields
+      const formData = FIELD_DATA.reduce((acc, field) => {
+        acc[field.input.id] = event.target[field.input.id].value
+        return acc
+      }, {})
 
-      // validate consent
+      console.log({ formData })
 
-      // validate captcha
+      // fetch("/api/essays", {
+      //   method,
+      //   headers,
+      //   cache: "no-store",
+      //   body: JSON.stringify(formData),
+      // })
+      //   .then((res) => res.json())
+      //   .then((payload) => {})
+      //   .catch((e) => {
+      //     setErrorMessage(e.message)
+      //   })
     },
     [isSubmitting]
   )
@@ -133,6 +152,8 @@ export function SubmissionForm() {
 
         <div className="divider" role="separator" />
 
+        <p className="mb-2 text-sm font-bold">By submitting this form...</p>
+
         {CONSENT_DATA.map((consent, index) => (
           <p
             className={cn("form-control", {
@@ -161,7 +182,7 @@ export function SubmissionForm() {
               />
               <span className="label-text">
                 {consent.label}{" "}
-                {consent.id === "terms-box" && (
+                {consent.id === "terms" && (
                   <a
                     className="link"
                     href="https://github.com/geotrev/afew.games/blob/main/CODE_OF_CONDUCT.md"
@@ -176,20 +197,28 @@ export function SubmissionForm() {
           </p>
         ))}
 
-        <button
-          className={cn(
-            "btn-accent btn-lg btn !h-auto !min-h-0 w-full rounded-md py-3 md:btn-md",
-            { "loading btn-ghost": isSubmitting }
-          )}
-        >
-          {isSubmitting ? "Submitting..." : "Submit"}
-        </button>
+        <div className={cn({ "mb-4": errorMessage })}>
+          <button
+            className={cn(
+              "btn-accent btn-lg btn !h-auto !min-h-0 w-full rounded-md py-3 md:btn-md",
+              { "loading btn-ghost": isSubmitting }
+            )}
+          >
+            {isSubmitting ? "Submitting..." : "Submit"}
+          </button>
+        </div>
 
-        <ReCAPTCHA
+        {errorMessage && (
+          <p className="text-error">
+            Uh-oh... something went wrong. {errorMessage}
+          </p>
+        )}
+
+        {/* <ReCAPTCHA
           badge="inline"
           theme="dark"
           sitekey={`${process.env.NEXT_PUBLIC_CAPTCHA_SITE_ID}`}
-        />
+        /> */}
       </div>
     </form>
   )

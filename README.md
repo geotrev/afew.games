@@ -2,6 +2,10 @@
 
 A video game blog and database.
 
+## Roadmap
+
+This project is relatively new and could go in many directions. That said, I have no plans at current except to scale the project as the activity/data grow.
+
 ## Contribution
 
 Thanks for your interest in contributing to A Few Games! Community involvement helps make the resource useful & appealing for everyone.
