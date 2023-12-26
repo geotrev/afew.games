@@ -1,0 +1,196 @@
+"use client"
+
+import ReCAPTCHA from "react-google-recaptcha"
+import {
+  ChangeEventHandler,
+  FormEventHandler,
+  HTMLProps,
+  useCallback,
+  useState,
+} from "react"
+import { CONSENT_DATA, FIELD_DATA } from "./constants"
+import cn from "classnames"
+
+const Field = ({
+  isTextarea,
+  ...fieldProps
+}: HTMLProps<HTMLInputElement | HTMLTextAreaElement> & {
+  isTextarea?: boolean
+}) =>
+  isTextarea ? (
+    <textarea {...(fieldProps as HTMLProps<HTMLTextAreaElement>)} />
+  ) : (
+    <input {...(fieldProps as HTMLProps<HTMLInputElement>)} />
+  )
+
+export function SubmissionForm() {
+  const [isSubmitting, setIsSubmitting] = useState<boolean>(false)
+  const [consentChecked, setConsentChecked] = useState<Record<string, boolean>>(
+    CONSENT_DATA.reduce<Record<string, boolean>>(
+      (acc, box) => ({ ...acc, [box.id]: false }),
+      {}
+    )
+  )
+  const [fieldValues, setFieldValues] = useState<Record<string, string>>(
+    FIELD_DATA.reduce<Record<string, string>>(
+      (acc, field) => ({ ...acc, [field.input.id]: "" }),
+      {}
+    )
+  )
+
+  const handleFieldChange = useCallback<
+    ChangeEventHandler<HTMLInputElement | HTMLTextAreaElement>
+  >((event) => {
+    setFieldValues((values) => ({
+      ...values,
+      [event.target.name]: event.target.value,
+    }))
+  }, [])
+
+  const handleSubmit = useCallback<FormEventHandler<HTMLFormElement>>(
+    async (event) => {
+      event.preventDefault()
+
+      if (isSubmitting) return
+
+      setIsSubmitting(true)
+
+      // validate fields
+
+      // validate consent
+
+      // validate captcha
+    },
+    [isSubmitting]
+  )
+
+  return (
+    <form className="my-12" onSubmit={handleSubmit}>
+      <div className="rounded-md border-2 border-solid border-slate-800 p-5">
+        <h2 className="mb-4 text-2xl font-bold">Database Submission Form</h2>
+
+        <p className="mb-2">First of all, thank you for your contribution!</p>
+
+        <p className="mb-2">
+          The data you submit will need to be cross-referenced. Please review
+          this checklist before submitting:
+        </p>
+        <ul className="list-disc ps-4">
+          <li>Proof read your submission for inaccuracies, such as typos</li>
+          <li>
+            Links to official sources (e.g., press releases, publisher
+            documentation) are encouraged
+          </li>
+          <li>Links to eBay listings are encouraged</li>
+          <li>
+            If the game has so little documentation and so few listings that it
+            can&apos;t be easily referenced, say so in the notes
+          </li>
+        </ul>
+
+        <div className="divider" role="separator" />
+
+        <p className="mb-4">
+          <span className="text-white">*</span>{" "}
+          <span className="italic opacity-75">indicates a required field</span>
+        </p>
+
+        {FIELD_DATA.map((field) => {
+          return (
+            <div className="form-control" key={field.label.htmlFor}>
+              <label
+                className="label flex justify-start px-0 pb-1 pt-0 text-sm font-bold uppercase text-white"
+                htmlFor={field.label.htmlFor}
+              >
+                {field.label.text}
+                {field.input.required && (
+                  <span>
+                    <span aria-hidden="true">&nbsp;*</span>
+                    <span className="sr-only">&nbsp;required</span>
+                  </span>
+                )}
+              </label>
+              <p {...field.hint} className="mb-4 text-sm italic opacity-75" />
+              <Field
+                isTextarea={field.input.is === "textarea"}
+                required={field.input.required}
+                className={cn({
+                  "textarea-bordered textarea textarea-md mb-3 w-full max-w-full":
+                    field.input.is,
+                  "input-bordered input input-md mb-3 w-full max-w-full":
+                    !field.input.is,
+                })}
+                value={fieldValues[field.input.id]}
+                onChange={handleFieldChange}
+                aria-describedby={field.hint.id}
+                type="text"
+                id={field.input.id}
+                name={field.input.id}
+              />
+            </div>
+          )
+        })}
+
+        <div className="divider" role="separator" />
+
+        {CONSENT_DATA.map((consent, index) => (
+          <p
+            className={cn("form-control", {
+              "mb-8": index === CONSENT_DATA.length - 1,
+            })}
+            key={consent.id}
+          >
+            <label
+              className="label flex cursor-pointer items-start justify-start"
+              htmlFor={consent.id}
+            >
+              <input
+                required
+                className="checkbox-primary checkbox checkbox-sm me-3"
+                type="checkbox"
+                id={consent.id}
+                name={consent.id}
+                aria-invalid={!consentChecked[consent.id]}
+                checked={consentChecked[consent.id]}
+                onChange={(event) => {
+                  setConsentChecked({
+                    ...consentChecked,
+                    [consent.id]: event.target.checked,
+                  })
+                }}
+              />
+              <span className="label-text">
+                {consent.label}{" "}
+                {consent.id === "terms-box" && (
+                  <a
+                    className="link"
+                    href="https://github.com/geotrev/afew.games/blob/main/CODE_OF_CONDUCT.md"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Code of Conduct ↗
+                  </a>
+                )}
+              </span>
+            </label>
+          </p>
+        ))}
+
+        <button
+          className={cn(
+            "btn-accent btn-lg btn !h-auto !min-h-0 w-full rounded-md py-3 md:btn-md",
+            { "loading btn-ghost": isSubmitting }
+          )}
+        >
+          {isSubmitting ? "Submitting..." : "Submit"}
+        </button>
+
+        <ReCAPTCHA
+          badge="inline"
+          theme="dark"
+          sitekey={`${process.env.NEXT_PUBLIC_CAPTCHA_SITE_ID}`}
+        />
+      </div>
+    </form>
+  )
+}

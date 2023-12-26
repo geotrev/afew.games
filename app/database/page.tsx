@@ -23,14 +23,20 @@ export default function Page() {
         <p>
           This is a database of {count} games with documented print variants.
           While new and interesting variants will be written about in long form,
-          this database will always update in real time.
+          this database updates in real time.
         </p>
-        <p>
-          Wondering how variants are determined? Here is a{" "}
-          <Link href="/essays/decoding-modern-nintendo-print-variants">
-            Nintendo-specific guide
-          </Link>{" "}
-          from last year. Xbox and PlayStation guides coming soon.
+        <p className="mb-0">
+          <Link
+            href="https://github.com/geotrev/afew.games/issues/new?assignees=&labels=contribution&projects=geotrev%2F1&template=db_submission.yml&title=%5BSubmission%5D%3A+%3Cgame+title%3E"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Contribute to the database ↗
+          </Link>
+        </p>
+        <p className="mt-2 text-sm italic">
+          To contribute, a (free) GitHub account is required. Credits are listed
+          near the footer of this page.
         </p>
       </div>
       <div className="divider" role="separator" />
