@@ -27,11 +27,11 @@ export default function Page() {
         </p>
         <p className="mb-0">
           <Link
-            href="https://github.com/geotrev/afew.games/issues/new?assignees=&labels=contribution&projects=geotrev%2F1&template=db_submission.yml&title=%5BSubmission%5D%3A+%3Cgame+title%3E"
+            href="/database/contribute"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Contribute to the database ↗
+            Contribute ↗
           </Link>
         </p>
         <p className="mt-2 text-sm italic">
