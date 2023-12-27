@@ -1,6 +1,7 @@
 "use client"
 
-// import ReCAPTCHA from "react-google-recaptcha"
+import cn from "classnames"
+import { useGoogleReCaptcha } from "react-google-recaptcha-v3"
 import {
   ChangeEventHandler,
   FormEventHandler,
@@ -9,7 +10,6 @@ import {
   useState,
 } from "react"
 import { CONSENT_DATA, FIELD_DATA } from "./constants"
-import cn from "classnames"
 
 const method = "POST"
 const headers = { "Content-Type": "application/json" }
@@ -27,6 +27,7 @@ const Field = ({
   )
 
 export function SubmissionForm() {
+  const { executeRecaptcha } = useGoogleReCaptcha()
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false)
   const [serverErrorMessage, setServerErrorMessage] = useState<string | null>(
     null
@@ -54,6 +55,14 @@ export function SubmissionForm() {
     }))
   }, [])
 
+  const verifyRecaptcha = useCallback(async () => {
+    if (!executeRecaptcha) return false
+
+    const token = await executeRecaptcha("afg_db_submit")
+
+    return token
+  }, [executeRecaptcha])
+
   const handleSubmit = useCallback<FormEventHandler<HTMLFormElement>>(
     async (event) => {
       event.preventDefault()
@@ -63,8 +72,13 @@ export function SubmissionForm() {
       setServerErrorMessage(null)
       setIsSubmitting(true)
 
+      const gRecaptchaToken = await verifyRecaptcha()
+
       const formData = new FormData(event.target as HTMLFormElement)
-      const body = JSON.stringify(Object.fromEntries(formData.entries()))
+      const body = JSON.stringify({
+        gRecaptchaToken,
+        ...Object.fromEntries(formData.entries()),
+      })
 
       fetch("/api/database/contribute", {
         method,
@@ -86,7 +100,7 @@ export function SubmissionForm() {
           setServerErrorMessage(e.message)
         })
     },
-    [isSubmitting]
+    [isSubmitting, verifyRecaptcha]
   )
 
   const handleRefreshClick = useCallback(() => {
@@ -237,7 +251,7 @@ export function SubmissionForm() {
           </p>
         ))}
 
-        <div className={cn({ "mb-4": serverErrorMessage })}>
+        <div className={cn({ "mb-4": serverErrorMessage || isSubmitting })}>
           <button
             className={cn(
               "btn-accent btn-lg btn !h-auto !min-h-0 w-full rounded-md py-3 md:btn-md",
@@ -248,6 +262,12 @@ export function SubmissionForm() {
           </button>
         </div>
 
+        {isSubmitting && (
+          <p className="text-center">
+            ✋ Hold tight, this will take a second...
+          </p>
+        )}
+
         {serverErrorMessage && (
           <p className="text-error">
             Uh-oh... {serverErrorMessage}. Try again or message{" "}
@@ -257,12 +277,6 @@ export function SubmissionForm() {
             if the error persists.
           </p>
         )}
-
-        {/* <ReCAPTCHA
-          badge="inline"
-          theme="dark"
-          sitekey={`${process.env.NEXT_PUBLIC_CAPTCHA_SITE_ID}`}
-        /> */}
       </div>
     </form>
   )

@@ -1,7 +1,7 @@
 import { PageHeading } from "components"
 import { BASE_TITLE } from "utils/constants"
 import { SubmissionForm } from "./components/submission-form"
-import Script from "next/script"
+import { RecaptchaVerifyWrapper } from "./components/recaptcha-verify-wrapper"
 
 export const metadata = {
   alternates: {
@@ -15,8 +15,11 @@ export default function Page() {
   return (
     <>
       <div className="prose max-w-full">
-        <PageHeading>Contribute</PageHeading>
-        <p>Use this form to submit a new game, new game variant, or both!</p>
+        <PageHeading>Database/Contribute</PageHeading>
+        <p>
+          Use this form to submit a new game, new game variant, or both, to be
+          added to the variant database.
+        </p>
         <p>Looking for the status on a submission?</p>
         <p>
           <a
@@ -30,9 +33,9 @@ export default function Page() {
         </p>
       </div>
 
-      <SubmissionForm />
-
-      <Script src="https://www.google.com/recaptcha/api.js" />
+      <RecaptchaVerifyWrapper>
+        <SubmissionForm />
+      </RecaptchaVerifyWrapper>
     </>
   )
 }
