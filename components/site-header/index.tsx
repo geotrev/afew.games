@@ -6,7 +6,6 @@ import cn from "classnames"
 import Logo from "./logo"
 
 const Routes = {
-  DATABASE_PATH: "/database",
   ESSAYS_PATH: "/essays",
   HOME_PATH: "/",
 }
@@ -21,11 +20,6 @@ const NavigationItems = [
     route: Routes.ESSAYS_PATH,
     isActive: (pathname: string) => pathname.startsWith(Routes.ESSAYS_PATH),
     label: "Essays",
-  },
-  {
-    route: Routes.DATABASE_PATH,
-    isActive: (pathname: string) => pathname.startsWith(Routes.DATABASE_PATH),
-    label: "Database",
   },
 ]
 

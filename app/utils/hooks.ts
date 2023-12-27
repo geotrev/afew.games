@@ -37,7 +37,7 @@ export function useFilter({
   )
   const allSelected: boolean = filteredPlatforms.every((p) => p.selected)
   const noneSelected: boolean = filteredPlatforms.every((p) => !p.selected)
-  const selectedPlatforms: string[] = filteredPlatforms.reduce(
+  const selectedPlatforms: string[] = filteredPlatforms.reduce<string[]>(
     (acc, p: FilterItem) => {
       if (p.selected) {
         acc.push(p.value)
@@ -45,7 +45,7 @@ export function useFilter({
       }
       return acc
     },
-    [] as string[]
+    []
   )
 
   // Reduce the games in the list based on:
@@ -55,36 +55,39 @@ export function useFilter({
     const query = filterValue.toLowerCase()
     if (!filterValue && allSelected) return games
 
-    return queryData.reduce((acc, queryableGames: string[], idx) => {
-      const gameList: DatabaseGame[] = games[idx].games
-      const filteredEntry: DatabasePlatform = {
-        ...games[idx],
-        games: [],
-      }
-      let shouldQuery: boolean = true
-
-      if (
-        !noneSelected &&
-        !allSelected &&
-        selectedPlatforms.indexOf(games[idx].platform) === -1
-      ) {
-        shouldQuery = false
-      }
-
-      if (shouldQuery) {
-        if (query) {
-          queryableGames.forEach((q, gameIdx) => {
-            if (!q.includes(query)) return
-            filteredEntry.games.push(gameList[gameIdx])
-          })
-        } else {
-          filteredEntry.games.push(...gameList)
+    return queryData.reduce<DatabasePlatform[]>(
+      (acc, queryableGames: string[], idx) => {
+        const gameList: DatabaseGame[] = games[idx].games
+        const filteredEntry: DatabasePlatform = {
+          ...games[idx],
+          games: [],
         }
-      }
+        let shouldQuery: boolean = true
 
-      acc.push(filteredEntry)
-      return acc
-    }, [] as DatabasePlatform[])
+        if (
+          !noneSelected &&
+          !allSelected &&
+          selectedPlatforms.indexOf(games[idx].platform) === -1
+        ) {
+          shouldQuery = false
+        }
+
+        if (shouldQuery) {
+          if (query) {
+            queryableGames.forEach((q, gameIdx) => {
+              if (!q.includes(query)) return
+              filteredEntry.games.push(gameList[gameIdx])
+            })
+          } else {
+            filteredEntry.games.push(...gameList)
+          }
+        }
+
+        acc.push(filteredEntry)
+        return acc
+      },
+      []
+    )
   }, [
     allSelected,
     noneSelected,

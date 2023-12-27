@@ -80,7 +80,7 @@ export function SubmissionForm() {
         ...Object.fromEntries(formData.entries()),
       })
 
-      fetch("/api/database/contribute", {
+      fetch("/api/contribute", {
         method,
         headers,
         cache: "no-store",

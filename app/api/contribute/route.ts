@@ -27,7 +27,7 @@ function getIssueBody(res: Record<string, string>) {
 
 export async function POST(req: Request) {
   // eslint-disable-next-line no-console
-  console.log("/api/database/contribute", { NODE_ENV: process.env.NODE_ENV })
+  console.log("/api/contribute", { NODE_ENV: process.env.NODE_ENV })
 
   const res = await req.json()
 
