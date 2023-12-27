@@ -5,3 +5,13 @@
 
 [functions]
   included_files = ["public/essays/*.md"]
+
+[[redirects]]
+  from = "/database"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/database/contribute"
+  to = "/contribute"
+  status = 301

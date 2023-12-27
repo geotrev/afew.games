@@ -5,9 +5,9 @@ import { RecaptchaVerifyWrapper } from "./components/recaptcha-verify-wrapper"
 
 export const metadata = {
   alternates: {
-    canonical: `https://afew.games/database/contribute`,
+    canonical: `https://afew.games/contribute`,
   },
-  title: `${BASE_TITLE} database | contribute`,
+  title: `${BASE_TITLE} | contribute`,
   description: "Contribute to A Few Games' video game database",
 }
 
@@ -15,7 +15,7 @@ export default function Page() {
   return (
     <>
       <div className="prose max-w-full">
-        <PageHeading>Database/Contribute</PageHeading>
+        <PageHeading>Contribute</PageHeading>
         <p>
           Use this form to submit a new game, new game variant, or both, to be
           added to the variant database.
