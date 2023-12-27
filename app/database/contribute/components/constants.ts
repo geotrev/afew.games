@@ -33,7 +33,7 @@ export const FIELD_DATA = [
     input: { id: "notes", is: "textarea" },
   },
   {
-    label: "Optional Credit",
+    label: "Submitter Credit",
     hint: "Who should A Few Games credit for this submission? An online handle is OK. Leave blank if no credit desired.",
     input: { id: "credit" },
   },

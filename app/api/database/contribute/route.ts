@@ -3,6 +3,7 @@ import { NextResponse } from "next/server"
 
 function getIssueBody(res: Record<string, string>) {
   return (
+    `_Submitted via https://afew.games._\n\n` +
     `### Title\n\n` +
     `${res.title}\n\n` +
     `### Platform\n\n` +
@@ -15,10 +16,12 @@ function getIssueBody(res: Record<string, string>) {
     `${res.part || "No response"}\n\n` +
     `### Additional Information\n\n` +
     `${res.notes || "No response"}\n\n` +
-    `### Credit\n\n` +
+    `### Submitted By\n\n` +
     `${res.credit || "No response"}\n\n` +
     `### Code of Conduct\n\n` +
-    `- [X] I agree to follow this project's Code of Conduct`
+    `- [X] I agree to follow this project's Code of Conduct\n\n` +
+    `### Terms of Use\n\n` +
+    `- [X] I understand this form will create a GitHub ticket with the provided information, to remain publicly visible for contributor & collector interest`
   )
 }
 

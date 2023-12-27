@@ -119,7 +119,7 @@ export function SubmissionForm() {
         </p>
         <p>
           <button
-            className="btn-secondary btn-sm btn text-base-100"
+            className="btn-outline btn-sm btn"
             onClick={handleRefreshClick}
           >
             Submit Another Game ↻
