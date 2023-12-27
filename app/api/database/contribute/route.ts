@@ -8,15 +8,15 @@ function getIssueBody(res: Record<string, string>) {
     `### Platform\n\n` +
     `${res.platform}\n\n` +
     `### MPN (Manufacturer's Part Number)\n\n` +
-    `${res.mpn}\n\n` +
+    `${res.mpn || "No response"}\n\n` +
     `### Country\n\n` +
-    `${res.country}\n\n` +
+    `${res.country || "No response"}\n\n` +
     `### Part Code\n\n` +
-    `${res.part}\n\n` +
+    `${res.part || "No response"}\n\n` +
     `### Additional Information\n\n` +
-    `${res.notes}\n\n` +
+    `${res.notes || "No response"}\n\n` +
     `### Credit\n\n` +
-    `${res.credit}\n\n` +
+    `${res.credit || "No response"}\n\n` +
     `### Code of Conduct\n\n` +
     `- [X] I agree to follow this project's Code of Conduct`
   )
