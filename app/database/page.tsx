@@ -21,7 +21,7 @@ export default function Page() {
       <div className="prose max-w-full">
         <PageHeading>Database</PageHeading>
         <p>
-          This is a database of {count} games with documented print variants.
+          This is a database of {count} games with documented print variants.{" "}
           <strong>This tool exclusively tracks box and seal variants</strong>,
           but game contents are occasionally noted when appropriate.
         </p>
@@ -31,11 +31,12 @@ export default function Page() {
         </p>
         <p className="mb-0">
           <Link
-            href="https://github.com/geotrev/afew.games/issues/new/choose"
+            className="btn-secondary btn-sm btn text-base-100"
+            href="/database/contribute"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Contribute to the database ↗
+            Contribute ↗
           </Link>
         </p>
         <p className="mt-2 text-sm italic">

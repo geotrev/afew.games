@@ -1,6 +1,7 @@
 "use client"
 
-import ReCAPTCHA from "react-google-recaptcha"
+import cn from "classnames"
+import { useGoogleReCaptcha } from "react-google-recaptcha-v3"
 import {
   ChangeEventHandler,
   FormEventHandler,
@@ -9,7 +10,9 @@ import {
   useState,
 } from "react"
 import { CONSENT_DATA, FIELD_DATA } from "./constants"
-import cn from "classnames"
+
+const method = "POST"
+const headers = { "Content-Type": "application/json" }
 
 const Field = ({
   isTextarea,
@@ -24,7 +27,12 @@ const Field = ({
   )
 
 export function SubmissionForm() {
+  const { executeRecaptcha } = useGoogleReCaptcha()
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false)
+  const [serverErrorMessage, setServerErrorMessage] = useState<string | null>(
+    null
+  )
+  const [isSuccess, setIsSuccess] = useState<boolean>(false)
   const [consentChecked, setConsentChecked] = useState<Record<string, boolean>>(
     CONSENT_DATA.reduce<Record<string, boolean>>(
       (acc, box) => ({ ...acc, [box.id]: false }),
@@ -47,22 +55,79 @@ export function SubmissionForm() {
     }))
   }, [])
 
+  const verifyRecaptcha = useCallback(async () => {
+    if (!executeRecaptcha) return false
+
+    const token = await executeRecaptcha("afg_db_submit")
+
+    return token
+  }, [executeRecaptcha])
+
   const handleSubmit = useCallback<FormEventHandler<HTMLFormElement>>(
     async (event) => {
       event.preventDefault()
 
-      if (isSubmitting) return
+      if (isSubmitting) return false
 
+      setServerErrorMessage(null)
       setIsSubmitting(true)
 
-      // validate fields
+      const gRecaptchaToken = await verifyRecaptcha()
 
-      // validate consent
+      const formData = new FormData(event.target as HTMLFormElement)
+      const body = JSON.stringify({
+        gRecaptchaToken,
+        ...Object.fromEntries(formData.entries()),
+      })
 
-      // validate captcha
+      fetch("/api/database/contribute", {
+        method,
+        headers,
+        cache: "no-store",
+        body,
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          setIsSubmitting(false)
+
+          if (data.status === "success") {
+            setIsSuccess(true)
+          } else {
+            setServerErrorMessage(data.message)
+          }
+        })
+        .catch((e) => {
+          setServerErrorMessage(e.message)
+        })
     },
-    [isSubmitting]
+    [isSubmitting, verifyRecaptcha]
   )
+
+  const handleRefreshClick = useCallback(() => {
+    window.location.reload()
+  }, [])
+
+  if (isSuccess) {
+    return (
+      <div className="my-12 rounded-md border-2 border-solid border-slate-800 p-5">
+        <p className="mb-2 text-success">
+          Submitted successfully – thanks for contributing to the database!
+        </p>
+        <p className="mb-4">
+          You can track your submission on A Few Games&apos; GitHub issue
+          tracker, linked above.
+        </p>
+        <p>
+          <button
+            className="btn-outline btn-sm btn"
+            onClick={handleRefreshClick}
+          >
+            Submit Another Game ↻
+          </button>
+        </p>
+      </div>
+    )
+  }
 
   return (
     <form className="my-12" onSubmit={handleSubmit}>
@@ -97,12 +162,12 @@ export function SubmissionForm() {
 
         {FIELD_DATA.map((field) => {
           return (
-            <div className="form-control" key={field.label.htmlFor}>
+            <div className="form-control" key={field.input.id}>
               <label
                 className="label flex justify-start px-0 pb-1 pt-0 text-sm font-bold uppercase text-white"
-                htmlFor={field.label.htmlFor}
+                htmlFor={field.input.id}
               >
-                {field.label.text}
+                {field.label}
                 {field.input.required && (
                   <span>
                     <span aria-hidden="true">&nbsp;*</span>
@@ -110,7 +175,12 @@ export function SubmissionForm() {
                   </span>
                 )}
               </label>
-              <p {...field.hint} className="mb-4 text-sm italic opacity-75" />
+              <p
+                id={`${field.input.id}-hint`}
+                className="mb-4 text-sm italic opacity-75"
+              >
+                {field.hint}
+              </p>
               <Field
                 isTextarea={field.input.is === "textarea"}
                 required={field.input.required}
@@ -122,7 +192,7 @@ export function SubmissionForm() {
                 })}
                 value={fieldValues[field.input.id]}
                 onChange={handleFieldChange}
-                aria-describedby={field.hint.id}
+                aria-describedby={`${field.input.id}-hint`}
                 type="text"
                 id={field.input.id}
                 name={field.input.id}
@@ -132,6 +202,8 @@ export function SubmissionForm() {
         })}
 
         <div className="divider" role="separator" />
+
+        <p className="mb-2 text-sm font-bold">By submitting this form...</p>
 
         {CONSENT_DATA.map((consent, index) => (
           <p
@@ -160,36 +232,51 @@ export function SubmissionForm() {
                 }}
               />
               <span className="label-text">
-                {consent.label}{" "}
-                {consent.id === "terms-box" && (
-                  <a
-                    className="link"
-                    href="https://github.com/geotrev/afew.games/blob/main/CODE_OF_CONDUCT.md"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Code of Conduct ↗
-                  </a>
+                {consent.label}
+                {consent.id === "terms" && (
+                  <>
+                    {" "}
+                    <a
+                      className="link"
+                      href="https://github.com/geotrev/afew.games/blob/main/CODE_OF_CONDUCT.md"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Code of Conduct ↗
+                    </a>
+                  </>
                 )}
               </span>
             </label>
           </p>
         ))}
 
-        <button
-          className={cn(
-            "btn-accent btn-lg btn !h-auto !min-h-0 w-full rounded-md py-3 md:btn-md",
-            { "loading btn-ghost": isSubmitting }
-          )}
-        >
-          {isSubmitting ? "Submitting..." : "Submit"}
-        </button>
+        <div className={cn({ "mb-4": serverErrorMessage || isSubmitting })}>
+          <button
+            className={cn(
+              "btn-accent btn-lg btn !h-auto !min-h-0 w-full rounded-md py-3 md:btn-md",
+              { "loading btn-ghost": isSubmitting }
+            )}
+          >
+            {isSubmitting ? "Submitting..." : "Submit"}
+          </button>
+        </div>
 
-        <ReCAPTCHA
-          badge="inline"
-          theme="dark"
-          sitekey={`${process.env.NEXT_PUBLIC_CAPTCHA_SITE_ID}`}
-        />
+        {isSubmitting && (
+          <p className="text-center">
+            ✋ Hold tight, this will take a second...
+          </p>
+        )}
+
+        {serverErrorMessage && (
+          <p className="text-error">
+            Uh-oh... {serverErrorMessage}. Try again or message{" "}
+            <a className="link" href="mailto:contact@afew.games">
+              contact@afew.games
+            </a>{" "}
+            if the error persists.
+          </p>
+        )}
       </div>
     </form>
   )
