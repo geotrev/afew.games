@@ -7,7 +7,7 @@ export const metadata = {
   alternates: {
     canonical: `https://afew.games/contribute`,
   },
-  title: `${BASE_TITLE} | contribute`,
+  title: `${BASE_TITLE} contribute`,
   description: "Contribute to A Few Games' video game database",
 }
 
