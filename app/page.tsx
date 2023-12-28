@@ -45,6 +45,11 @@ export default function Page() {
       </div>
       <div className="divider" role="separator" />
       <DatabaseWrapper games={games} queryData={queryData} />
+      <div className="divider" role="separator" />
+      <div className="prose max-w-full">
+        <p className="font-bold">♥ Database Contributors</p>
+        <p>Bird Dog Gaming</p>
+      </div>
     </>
   )
 }
