@@ -5328,6 +5328,17 @@
       "platform": "Switch",
       "games": [
         {
+          "name": "Metroid Prime Remastered",
+          "variants": [
+            {
+              "mpn": "114551",
+              "country": "Japan",
+              "part_code": "118912A",
+              "satellite_code": "00000"
+            }
+          ]
+        },
+        {
           "name": "The Legend of Zelda: Link’s Awakening",
           "variants": [
             {
