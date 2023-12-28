@@ -5328,6 +5328,17 @@
       "platform": "Switch",
       "games": [
         {
+          "name": "Super Mario Wonder",
+          "variants": [
+            {
+              "part_code": "120234A",
+              "satellite_code": "00000",
+              "country": "Japan",
+              "mpn": "118640"
+            }
+          ]
+        },
+        {
           "name": "Splatoon 2",
           "variants": [
             {
