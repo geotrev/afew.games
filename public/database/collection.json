@@ -1,6 +1,28 @@
 {
   "platforms": [
     {
+      "platform": "PlayStation",
+      "games": [
+        {
+          "name": "Pipe Dreams 3D",
+          "variants": [
+            {
+              "notes": "UPC digits bottom-aligned",
+              "part_code": "SLUS-01409",
+              "country": "USA"
+            },
+            {
+              "country": "USA",
+              "mpn": "",
+              "satellite_code": "",
+              "part_code": "SLUS-01409",
+              "notes": "UPC digits top-aligned"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "platform": "NES",
       "games": [
         {
