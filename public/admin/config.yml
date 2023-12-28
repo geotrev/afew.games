@@ -37,14 +37,30 @@ collections:
       - label: Body
         name: body
         widget: markdown
-  - name: databases
-    label: Databases
+  - name: collections
+    label: Collections
     editor:
       preview: false
     files:
-      - label: Video Game Variants
-        name: video_game_variants
-        file: public/database/collection.json
+      - label: Database Contributors
+        name: database_contributors
+        file: public/collections/contributors.json
+        fields:
+          - label: Contributors
+            name: contributors
+            widget: list
+            label_singular: Contributor
+            allow_add: true
+            add_to_top: true
+            collapsed: true
+            summary: "{{fields.name}}"
+            fields:
+              - label: Name
+                name: name
+                widget: string
+      - label: Video Game Database
+        name: video_game_database
+        file: public/collections/video-game-database.json
         fields:
           - label: Platforms
             name: platforms
