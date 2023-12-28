@@ -5328,6 +5328,18 @@
       "platform": "Switch",
       "games": [
         {
+          "name": "The Legend of Zelda: Link’s Awakening",
+          "variants": [
+            {
+              "notes": "Dreamer Edition",
+              "part_code": "110576A",
+              "satellite_code": "00100",
+              "country": "USA",
+              "mpn": "HAC R AR3N1 USZ"
+            }
+          ]
+        },
+        {
           "name": "Super Mario Wonder",
           "variants": [
             {
