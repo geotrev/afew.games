@@ -3,7 +3,8 @@ import { transformGameProps } from "utils/helpers"
 import { PageHeading } from "components"
 import { BASE_TITLE } from "utils/constants"
 import { DatabaseWrapper } from "./components/database-wrapper"
-import database from "public/database/collection.json"
+import database from "public/collections/video-game-database.json"
+import contributorData from "public/collections/contributors.json"
 
 export const metadata = {
   alternates: {
@@ -48,7 +49,11 @@ export default function Page() {
       <div className="divider" role="separator" />
       <div className="prose max-w-full">
         <p className="font-bold">♥ Database Contributors</p>
-        <p>Bird Dog Gaming</p>
+        <p>
+          {contributorData.contributors
+            .map((contributor) => contributor.name)
+            .join(", ")}
+        </p>
       </div>
     </>
   )
