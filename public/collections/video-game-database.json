@@ -1,6 +1,52 @@
 {
   "platforms": [
     {
+      "platform": "PlayStation 4 ",
+      "games": [
+        {
+          "name": "Red Dead Redemption 2",
+          "variants": [
+            {
+              "notes": "Canadian release",
+              "mpn": "57128-4",
+              "part_code": "2104387",
+              "country": "USA"
+            },
+            {
+              "part_code": "2104386",
+              "country": "USA",
+              "mpn": "57043-4",
+              "notes": ""
+            },
+            {
+              "notes": "\"Ultimate Edition\", Canadian release",
+              "part_code": "2104391",
+              "mpn": "57130-4",
+              "country": "USA"
+            },
+            {
+              "notes": "Ultimate Edition",
+              "part_code": "2104390",
+              "mpn": "57045-4",
+              "country": "USA"
+            },
+            {
+              "country": "USA",
+              "mpn": "47892-3",
+              "part_code": "2104354",
+              "notes": "Canadian release"
+            },
+            {
+              "mpn": "47890-3",
+              "part_code": "2103590",
+              "country": "USA",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
       "platform": "PlayStation",
       "games": [
         {
