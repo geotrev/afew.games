@@ -44,7 +44,7 @@ collections:
     files:
       - label: Database Contributors
         name: database_contributors
-        file: public/collections/contributors.json
+        file: collections/contributors.json
         fields:
           - label: Contributors
             name: contributors
@@ -60,7 +60,7 @@ collections:
                 widget: string
       - label: Video Game Database
         name: video_game_database
-        file: public/collections/video-game-database.json
+        file: collections/video-game-database.json
         fields:
           - label: Platforms
             name: platforms
