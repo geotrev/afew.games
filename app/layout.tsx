@@ -1,7 +1,7 @@
 import Script from "next/script"
 import { PropsWithChildren } from "react"
 
-import { RouteTracker } from "components/route-tracker"
+import { RouteTracker } from "./components/route-tracker"
 import { App } from "./app"
 
 import "styles/globals.css"

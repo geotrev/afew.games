@@ -1,5 +1,5 @@
 import xss from "xss"
-import { PageHeading } from "components"
+import { PageHeading } from "../components/page-heading"
 import { EssayPageData } from "types/essays"
 import { getEssayList } from "utils/essay-helpers"
 import { BASE_TITLE } from "utils/constants"

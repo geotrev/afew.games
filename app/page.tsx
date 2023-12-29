@@ -1,8 +1,8 @@
 import Link from "next/link"
-import { transformGameProps } from "utils/helpers"
-import { PageHeading } from "components"
-import { BASE_TITLE } from "utils/constants"
+import { PageHeading } from "./components/page-heading"
 import { DatabaseWrapper } from "./components/database-wrapper"
+import { transformGameProps } from "utils/helpers"
+import { BASE_TITLE } from "utils/constants"
 import database from "public/collections/video-game-database.json"
 import contributorData from "public/collections/contributors.json"
 

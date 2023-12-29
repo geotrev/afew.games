@@ -8,7 +8,7 @@ import {
   EMAIL_REGEXP,
   SubscribeFormStatuses,
 } from "utils/constants"
-import { SubscribeFormState } from "../subscribe-form/types"
+import { SubscribeFormState } from "./types"
 import xss from "xss"
 
 const DEFAULT_FORM_STATE = {

@@ -1,5 +1,6 @@
 import { PropsWithChildren } from "react"
-import { SiteHeader, SiteFooter } from "components"
+import { SiteHeader } from "./components/site-header"
+import { SiteFooter } from "./components/site-footer"
 
 export function App({ children }: PropsWithChildren) {
   return (

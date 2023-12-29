@@ -3,7 +3,7 @@
 import { useEffect, useCallback, useRef, MouseEventHandler } from "react"
 import { debounce } from "lodash-es"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
-import { Pagination } from "components"
+import { Pagination } from "../pagination"
 import { EssayPageData } from "types/essays"
 import { useFetchEssays } from "../../utils/use-fetch-essays"
 import { EssayListLoader } from "../essay-list-loader"

@@ -1,4 +1,4 @@
-import { PageHeading } from "components"
+import { PageHeading } from "../components/page-heading"
 import { BASE_TITLE } from "utils/constants"
 import { SubmissionForm } from "./components/submission-form"
 import { RecaptchaVerifyWrapper } from "./components/recaptcha-verify-wrapper"
