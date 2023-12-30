@@ -52,40 +52,36 @@ export function DatabaseList({
 
     return (
       <ul
-        className="grid gap-16"
+        className="grid gap-16 overflow-x-auto"
         aria-labelledby={`header-${id}`}
         id={`list-${id}`}
       >
         {games.map((data) => (
           <li key={data.name}>
-            <h3 className="mb-1 flex justify-center bg-base-300 px-2 py-1 text-white">
+            <h3 className="sticky left-0 mb-1 flex max-w-fit bg-base-300 px-2 py-1 font-bold text-white">
               {data.name}
             </h3>
-            <div className="overflow-x-auto">
-              <table className="table-zebra table-compact table w-full">
-                <TableHeader />
-                <tbody>
-                  {data.variants!.map(
-                    (variant: DatabaseVariant, idx: number) => (
-                      <tr key={`row-${idx}`}>
-                        {DB_FIELDS_SORTED.map((field) => (
-                          <td
-                            key={field}
-                            width={COLUMN_WIDTHS[field]}
-                            className={cn({
-                              "whitespace-normal":
-                                field === DatabaseFields.NOTES,
-                            })}
-                          >
-                            {(variant as any)[field]}
-                          </td>
-                        ))}
-                      </tr>
-                    )
-                  )}
-                </tbody>
-              </table>
-            </div>
+            <table className="table-zebra table-compact table w-full">
+              <TableHeader />
+              <tbody>
+                {data.variants!.map((variant: DatabaseVariant, idx: number) => (
+                  <tr key={`row-${idx}`}>
+                    {DB_FIELDS_SORTED.map((field, fieldIndex) => (
+                      <td
+                        key={field}
+                        width={COLUMN_WIDTHS[field]}
+                        className={cn({
+                          "whitespace-normal": field === DatabaseFields.NOTES,
+                          "sticky left-0 z-10": fieldIndex === 0,
+                        })}
+                      >
+                        {(variant as any)[field]}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </li>
         ))}
       </ul>
