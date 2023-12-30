@@ -5,7 +5,4 @@ module.exports = {
     cfg.experiments.topLevelAwait = true
     return cfg
   },
-  experimental: {
-    appDir: true,
-  },
 }
