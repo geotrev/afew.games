@@ -3,8 +3,6 @@
 import { usePathname } from "next/navigation"
 import cn from "classnames"
 import Logo from "./logo"
-import Image from "next/image"
-import BMCLogo from "./bmc-full-logo.svg"
 
 const Routes = {
   ESSAYS_PATH: "/essays",
@@ -46,13 +44,22 @@ export function SiteHeader() {
             rel="noopener noreferrer"
             aria-label="Buy a coffee for George, the maintainer of A Few Games"
           >
-            <Image
-              height={24}
-              className="inline-block"
-              src={BMCLogo}
-              alt=""
-              role="presentation"
-            />
+            <picture>
+              <source
+                type="image/svg+xml"
+                media="(max-width: 600px)"
+                width="18px"
+                srcSet="/bmc-logo-small.svg 18w"
+              />
+              <source type="image/svg+xml" srcSet="/bmc-full-logo.svg" />
+              <img
+                src="/bmc-full-logo.svg"
+                alt=""
+                role="presentation"
+                height="18px"
+                width="110px"
+              />
+            </picture>
           </a>
         </span>
         <div className="tabs tabs-boxed gap-2">
