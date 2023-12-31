@@ -3,6 +3,7 @@
 import { usePathname } from "next/navigation"
 import cn from "classnames"
 import Logo from "./logo"
+import { SocialLinks } from "../social-links"
 
 const Routes = {
   ESSAYS_PATH: "/essays",
@@ -26,7 +27,7 @@ export function SiteHeader() {
   const pathname = usePathname()
 
   return (
-    <header className="navbar bg-transparent px-0 pb-8 pt-0">
+    <header className="navbar items-start bg-transparent px-0 pb-8 pt-0 sm:items-center">
       <div className="flex-1" itemScope itemType="https://schema.org/Blog">
         <a
           href={Routes.HOME_PATH}
@@ -35,33 +36,7 @@ export function SiteHeader() {
           <Logo />
         </a>
       </div>
-      <nav className="flex flex-none">
-        <span className="flex pe-4">
-          <a
-            className="btn-accent btn-sm btn block py-0.5"
-            href="https://buymeacoffee.com/afew.games"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Buy a coffee for George, the maintainer of A Few Games"
-          >
-            <picture>
-              <source
-                type="image/svg+xml"
-                media="(max-width: 600px)"
-                width="18px"
-                srcSet="/bmc-logo-small.svg 18w"
-              />
-              <source type="image/svg+xml" srcSet="/bmc-full-logo.svg" />
-              <img
-                src="/bmc-full-logo.svg"
-                alt=""
-                role="presentation"
-                height="18px"
-                width="110px"
-              />
-            </picture>
-          </a>
-        </span>
+      <nav className="flex flex-col items-end gap-2 sm:flex-row-reverse sm:items-center">
         <div className="tabs tabs-boxed gap-2">
           {NavigationItems.map(({ label, isActive, route }) => {
             const active = isActive(pathname)
@@ -81,6 +56,7 @@ export function SiteHeader() {
             )
           })}
         </div>
+        <SocialLinks />
       </nav>
     </header>
   )

@@ -1,3 +1,4 @@
+import { SocialLinks } from "../social-links"
 import { SubscribeForm } from "../subscribe-form"
 
 export function SiteFooter() {
@@ -15,9 +16,12 @@ export function SiteFooter() {
           <SubscribeForm />
         </div>
       </div>
-      <p className="text-xs">
-        <span>&copy; 2022-{new Date().getFullYear()} A Few Games</span>
-      </p>
+      <div className="flex justify-between">
+        <p className="text-xs">
+          <span>&copy; 2022-{new Date().getFullYear()} A Few Games</span>
+        </p>
+        <SocialLinks />
+      </div>
     </footer>
   )
 }
