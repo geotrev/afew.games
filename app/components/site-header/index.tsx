@@ -36,7 +36,7 @@ export function SiteHeader() {
         </a>
       </div>
       <nav className="flex flex-none">
-        <span className="flex pe-4">
+        <span className="flex gap-4 pe-4">
           <a
             className="btn-accent btn-sm btn block py-0.5"
             href="https://buymeacoffee.com/afew.games"
@@ -60,6 +60,21 @@ export function SiteHeader() {
                 width="110px"
               />
             </picture>
+          </a>
+          <a
+            className="btn-ghost btn-sm btn block py-0.5"
+            href="https://github.com/geotrev/afew.games"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View the code repository of A Few Games"
+          >
+            <img
+              src="/github-mark-white.svg"
+              alt=""
+              role="presentation"
+              height="18px"
+              width="18px"
+            />
           </a>
         </span>
         <div className="tabs tabs-boxed gap-2">
