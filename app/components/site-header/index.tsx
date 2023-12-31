@@ -36,7 +36,7 @@ export function SiteHeader() {
         </a>
       </div>
       <nav className="flex flex-none">
-        <span className="flex gap-4 pe-4">
+        <span className="flex gap-2 pe-2">
           <a
             className="btn-accent btn-sm btn block py-0.5"
             href="https://buymeacoffee.com/afew.games"
@@ -72,8 +72,8 @@ export function SiteHeader() {
               src="/github-mark-white.svg"
               alt=""
               role="presentation"
-              height="18px"
-              width="18px"
+              height="22px"
+              width="22px"
             />
           </a>
         </span>
