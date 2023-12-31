@@ -62,7 +62,7 @@ export function SiteHeader() {
             </picture>
           </a>
           <a
-            className="btn-ghost btn-sm btn block py-0.5"
+            className="btn-ghost btn-sm btn flex items-center py-0.5"
             href="https://github.com/geotrev/afew.games"
             target="_blank"
             rel="noopener noreferrer"
