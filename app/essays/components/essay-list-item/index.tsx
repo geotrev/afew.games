@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { useEffect, useState } from "react"
-import { isEqual, isWithinInterval, parse, subDays, subMonths } from "date-fns"
+import { isEqual, isWithinInterval, parse, subMonths } from "date-fns"
 import propTypes from "prop-types"
 import { Essay } from "types/essays"
 
@@ -12,11 +12,8 @@ export const EssayListItem = ({ title, description, urlPath, date }: Essay) => {
   useEffect(() => {
     try {
       const currentDate = new Date()
-      const recentOldestDate = subDays(subMonths(currentDate, 1), 10)
+      const recentOldestDate = subMonths(currentDate, 1)
       const publishDate = parse(date, "MM-dd-yyyy", new Date())
-
-      // eslint-disable-next-line no-console
-      console.log({ currentDate, recentOldestDate, publishDate })
 
       if (
         isWithinInterval(publishDate, {
@@ -41,7 +38,7 @@ export const EssayListItem = ({ title, description, urlPath, date }: Essay) => {
           Published&nbsp;
           <time dateTime={date}>{date}</time>
         </p>
-        {isRecent && <p className="badge-accent badge text-xs">New</p>}
+        {isRecent && <p className="badge-primary badge text-xs">New</p>}
       </div>
       <h2 className="mb-1 text-xl font-bold text-white">
         <Link className="hover:underline" href={urlPath}>

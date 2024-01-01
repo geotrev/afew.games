@@ -34,7 +34,7 @@
     "classnames": "^2.5.1",
     "crypto-js": "^4.2.0",
     "daisyui": "^2.52.0",
-    "date-fns": "^2.30.0",
+    "date-fns": "^3.0.0",
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.3",
     "lodash-es": "^4.17.21",
