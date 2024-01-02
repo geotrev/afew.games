@@ -119,7 +119,7 @@ export function SubmissionForm() {
         </p>
         <p>
           <button
-            className="btn-outline btn-sm btn"
+            className="btn btn-outline btn-sm"
             onClick={handleRefreshClick}
           >
             Submit Another Game ↻
@@ -218,7 +218,7 @@ export function SubmissionForm() {
             >
               <input
                 required
-                className="checkbox-primary checkbox checkbox-sm me-3"
+                className="checkbox checkbox-primary checkbox-sm me-3"
                 type="checkbox"
                 id={consent.id}
                 name={consent.id}

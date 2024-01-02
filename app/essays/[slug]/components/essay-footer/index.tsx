@@ -10,7 +10,7 @@ export function EssayFooter() {
         }
       </p>
       <div className="chat chat-start">
-        <div className="chat-image avatar">
+        <div className="avatar chat-image">
           <div className="w-10 rounded-full">
             <Image
               width={40}

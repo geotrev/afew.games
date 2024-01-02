@@ -34,11 +34,11 @@ export const EssayListItem = ({ title, description, urlPath, date }: Essay) => {
   return (
     <li className="mb-12 flex flex-col">
       <div className="mb-1 flex gap-2 font-semibold">
-        <p className="badge-secondary badge-outline badge text-xs">
+        <p className="badge badge-secondary badge-outline text-xs">
           Published&nbsp;
           <time dateTime={date}>{date}</time>
         </p>
-        {isRecent && <p className="badge-primary badge text-xs">New</p>}
+        {isRecent && <p className="badge badge-accent text-xs">New</p>}
       </div>
       <h2 className="mb-1 text-xl font-bold text-white">
         <Link className="hover:underline" href={urlPath}>

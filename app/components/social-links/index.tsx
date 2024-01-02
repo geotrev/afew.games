@@ -4,7 +4,7 @@ export function SocialLinks() {
   return (
     <span className="flex gap-2 pe-2">
       <a
-        className="btn-accent btn-sm btn block py-0.5"
+        className="btn btn-accent btn-sm block py-0.5"
         href="https://buymeacoffee.com/afew.games"
         target="_blank"
         rel="noopener noreferrer"
@@ -28,7 +28,7 @@ export function SocialLinks() {
         </picture>
       </a>
       <a
-        className="btn-ghost btn-sm btn flex items-center py-0.5"
+        className="btn btn-ghost btn-sm flex items-center py-0.5"
         href="https://github.com/geotrev/afew.games"
         target="_blank"
         rel="noopener noreferrer"

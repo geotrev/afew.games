@@ -26,7 +26,7 @@ export function ListToolbar({
         {opened ? "shown" : "hidden"}
       </p>
       <button
-        className="btn-xs btn normal-case"
+        className="btn btn-xs normal-case"
         onClick={() => setOpened(!opened)}
         aria-expanded={opened}
         aria-describedby={`header-${id}`}
