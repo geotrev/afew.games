@@ -158,7 +158,7 @@ export function FilterOptions({
             aria-disabled={noneSelected ? true : undefined}
             disabled={noneSelected}
           >
-            <span aria-hidden="true">𐌗 </span>Reset Filter
+            <span aria-hidden="true">𐌗 </span>Clear Selection
           </button>
         </div>
       </div>
