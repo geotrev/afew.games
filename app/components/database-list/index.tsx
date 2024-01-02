@@ -21,7 +21,15 @@ const TableHeader = memo(() => (
   <thead>
     <tr>
       {DB_FIELDS_SORTED.map((field) => (
-        <th key={field}>{field.replaceAll("_", " ")}</th>
+        <th
+          key={field}
+          className={cn({
+            capitalize: field !== "mpn",
+            uppercase: field === "mpn",
+          })}
+        >
+          {field.replaceAll("_", " ")}
+        </th>
       ))}
     </tr>
   </thead>
@@ -58,10 +66,10 @@ export function DatabaseList({
       >
         {games.map((data) => (
           <li key={data.name}>
-            <h3 className="sticky left-0 mb-1 flex max-w-fit bg-base-300 px-2 py-1 font-bold text-white">
+            <h3 className="sticky left-0 mb-1 flex max-w-fit bg-base-300 px-4 py-1 font-bold text-white">
               {data.name}
             </h3>
-            <table className="table table-zebra table-compact w-full">
+            <table className="table-compact table table-zebra w-full">
               <TableHeader />
               <tbody>
                 {data.variants!.map((variant: DatabaseVariant, idx: number) => (
