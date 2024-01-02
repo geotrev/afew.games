@@ -134,7 +134,8 @@ export function FilterOptions({
                   <div key={item.value} role="gridcell">
                     <button
                       tabIndex={rovingIndex === idx ? 0 : -1}
-                      className={cn("btn-sm btn rounded-full normal-case", {
+                      className={cn("btn btn-sm rounded-full normal-case", {
+                        "btn-ghost": !item.selected,
                         "btn-accent btn-active": item.selected,
                       })}
                       data-item-value={item.value}
@@ -157,7 +158,7 @@ export function FilterOptions({
             aria-disabled={noneSelected ? true : undefined}
             disabled={noneSelected}
           >
-            <span aria-hidden="true">𐌗&nbsp;&nbsp;</span>Reset Filter
+            <span aria-hidden="true">𐌗 </span>Reset Filter
           </button>
         </div>
       </div>

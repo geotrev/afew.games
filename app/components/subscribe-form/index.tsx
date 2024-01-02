@@ -83,7 +83,7 @@ export function SubscribeForm() {
         {!isSuccess && (
           <input
             className={cn(
-              "input-bordered input-secondary input input-md me-2 rounded-md",
+              "input input-bordered input-secondary input-md me-2 rounded-md",
               {
                 "input-error": formState.status === SubscribeFormStatuses.ERROR,
               }
@@ -106,7 +106,7 @@ export function SubscribeForm() {
         {!isSuccess && (
           <button
             type="submit"
-            className={cn("btn-primary btn-md btn rounded-md", {
+            className={cn("btn btn-secondary btn-md rounded-md", {
               loading: isLoading,
             })}
             disabled={isLoading}

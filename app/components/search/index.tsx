@@ -15,7 +15,7 @@ export const Search = ({
     </label>
     <input
       type="text"
-      className="input input-bordered input-accent rounded-b-none"
+      className="input input-bordered input-primary rounded-b-none"
       name="collection-search"
       placeholder={placeholder}
       id="collection-search"

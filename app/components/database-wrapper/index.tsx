@@ -135,7 +135,7 @@ export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
           <div className="flex justify-center">
             <button
               type="button"
-              className="btn btn-outline btn-accent btn-xs !h-auto !min-h-0 rounded-md py-3 md:btn-md"
+              className="btn btn-outline btn-secondary btn-xs !h-auto !min-h-0 rounded-md py-3 md:btn-md"
               onClick={() => setCount(count + parseInt(selectedCount, 10))}
             >
               Load more

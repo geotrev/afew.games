@@ -185,9 +185,9 @@ export function SubmissionForm() {
                 isTextarea={field.input.is === "textarea"}
                 required={field.input.required}
                 className={cn({
-                  "textarea-bordered textarea textarea-md mb-3 w-full max-w-full":
+                  "textarea textarea-bordered textarea-md mb-3 w-full max-w-full":
                     field.input.is,
-                  "input-bordered input input-md mb-3 w-full max-w-full":
+                  "input input-bordered input-md mb-3 w-full max-w-full":
                     !field.input.is,
                 })}
                 value={fieldValues[field.input.id]}
@@ -218,7 +218,7 @@ export function SubmissionForm() {
             >
               <input
                 required
-                className="checkbox checkbox-primary checkbox-sm me-3"
+                className="checkbox-primary checkbox checkbox-sm me-3"
                 type="checkbox"
                 id={consent.id}
                 name={consent.id}
@@ -232,19 +232,16 @@ export function SubmissionForm() {
                 }}
               />
               <span className="label-text">
-                {consent.label}
+                {consent.label}{" "}
                 {consent.id === "terms" && (
-                  <>
-                    {" "}
-                    <a
-                      className="link"
-                      href="https://github.com/geotrev/afew.games/blob/main/CODE_OF_CONDUCT.md"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Code of Conduct ↗
-                    </a>
-                  </>
+                  <a
+                    className="link"
+                    href="https://github.com/geotrev/afew.games/blob/main/CODE_OF_CONDUCT.md"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Code of Conduct ↗
+                  </a>
                 )}
               </span>
             </label>
@@ -254,8 +251,8 @@ export function SubmissionForm() {
         <div className={cn({ "mb-4": serverErrorMessage || isSubmitting })}>
           <button
             className={cn(
-              "btn-accent btn-lg btn !h-auto !min-h-0 w-full rounded-md py-3 md:btn-md",
-              { "loading btn-ghost": isSubmitting }
+              "btn btn-accent btn-lg !h-auto !min-h-0 w-full rounded-md py-3 md:btn-md",
+              { "btn-ghost loading": isSubmitting }
             )}
           >
             {isSubmitting ? "Submitting..." : "Submit"}
