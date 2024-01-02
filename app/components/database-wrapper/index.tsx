@@ -113,7 +113,7 @@ export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
           value={selectedCount}
           name="quantity"
           onChange={handleSelectChange}
-          className="select-bordered select"
+          className="select select-bordered"
         >
           <option value="10">10</option>
           <option value="25">25</option>
@@ -135,7 +135,7 @@ export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
           <div className="flex justify-center">
             <button
               type="button"
-              className="btn-outline btn-accent btn-xs btn !h-auto !min-h-0 rounded-md py-3 md:btn-md"
+              className="btn btn-outline btn-accent btn-xs !h-auto !min-h-0 rounded-md py-3 md:btn-md"
               onClick={() => setCount(count + parseInt(selectedCount, 10))}
             >
               Load more

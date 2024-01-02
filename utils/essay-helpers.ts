@@ -89,7 +89,7 @@ export function getMatchingEssay(
     data: { title, description, publish_date },
     content: markdownContent,
   }: GrayMatterFile<typeof rawFile> = matter(rawFile)
-  const content = marked.parse(markdownContent)
+  const content = marked.parse(markdownContent) as string
   const date = toDateString(publish_date)
 
   return {

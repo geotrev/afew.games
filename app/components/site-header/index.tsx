@@ -31,7 +31,7 @@ export function SiteHeader() {
       <div className="flex-1" itemScope itemType="https://schema.org/Blog">
         <a
           href={Routes.HOME_PATH}
-          className="btn-ghost btn h-auto w-16 p-0 hover:bg-transparent md:w-24"
+          className="btn btn-ghost h-auto w-16 p-0 hover:bg-transparent md:w-24"
         >
           <Logo />
         </a>

@@ -61,7 +61,7 @@ export function DatabaseList({
             <h3 className="sticky left-0 mb-1 flex max-w-fit bg-base-300 px-2 py-1 font-bold text-white">
               {data.name}
             </h3>
-            <table className="table-zebra table-compact table w-full">
+            <table className="table table-zebra table-compact w-full">
               <TableHeader />
               <tbody>
                 {data.variants!.map((variant: DatabaseVariant, idx: number) => (

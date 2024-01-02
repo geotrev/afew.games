@@ -32,7 +32,7 @@ export default function Page() {
         </p>
         <p className="mb-0">
           <Link
-            className="btn-secondary btn-sm btn text-base-100"
+            className="btn btn-secondary btn-sm text-base-100"
             href="/contribute"
             target="_blank"
             rel="noopener noreferrer"

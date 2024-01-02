@@ -10,7 +10,7 @@ EssayHeader.propTypes = {
 export function EssayHeader({ title, description, date }: EssayHeaderProps) {
   return (
     <div className="mb-6">
-      <p className="badge-accent badge-outline badge mb-4 font-semibold">
+      <p className="badge badge-accent badge-outline mb-4 font-semibold">
         Published&nbsp;
         <time aria-labelledby="essay-heading" dateTime={date}>
           {date}

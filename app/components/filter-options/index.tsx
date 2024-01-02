@@ -100,7 +100,7 @@ export function FilterOptions({
     <div className="mb-4 rounded-b bg-base-300 p-4">
       <div className={cn("sm:hidden", { "mb-4": opened })}>
         <button
-          className="btn-outline btn-xs btn rounded normal-case"
+          className="btn btn-outline btn-xs rounded normal-case"
           id="filter-toggle"
           aria-controls="filter-controls"
           aria-expanded={opened}
@@ -152,7 +152,7 @@ export function FilterOptions({
         </div>
         <div className="flex">
           <button
-            className="btn-outline btn-xs btn rounded normal-case"
+            className="btn btn-outline btn-xs rounded normal-case"
             onClick={handleReset}
             aria-disabled={noneSelected ? true : undefined}
             disabled={noneSelected}
