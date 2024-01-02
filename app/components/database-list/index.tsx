@@ -69,18 +69,17 @@ export function DatabaseList({
             <h3 className="sticky left-0 mb-1 flex max-w-fit bg-base-300 px-4 py-1 font-bold text-white">
               {data.name}
             </h3>
-            <table className="table-compact table table-zebra w-full">
+            <table className="table table-zebra table-pin-cols w-full">
               <TableHeader />
               <tbody>
                 {data.variants!.map((variant: DatabaseVariant, idx: number) => (
                   <tr key={`row-${idx}`}>
-                    {DB_FIELDS_SORTED.map((field, fieldIndex) => (
+                    {DB_FIELDS_SORTED.map((field) => (
                       <td
                         key={field}
                         width={COLUMN_WIDTHS[field]}
                         className={cn({
                           "whitespace-normal": field === DatabaseFields.NOTES,
-                          "sticky left-0 z-10": fieldIndex === 0,
                         })}
                       >
                         {(variant as any)[field]}
