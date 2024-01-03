@@ -18,12 +18,12 @@ export function SocialLinks() {
             srcSet="/bmc-logo-small.svg 18w"
           />
           <source type="image/svg+xml" srcSet="/bmc-full-logo.svg" />
-          <img
+          <Image
             src="/bmc-full-logo.svg"
             alt=""
             role="presentation"
-            height="20px"
-            width="120px"
+            height={26}
+            width={120}
           />
         </picture>
       </a>
