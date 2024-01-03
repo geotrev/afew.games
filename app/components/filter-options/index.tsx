@@ -97,7 +97,7 @@ export function FilterOptions({
   }, [opened])
 
   return (
-    <div className="mb-4 rounded-b bg-base-300 p-4">
+    <div className="mb-4 rounded-b-lg bg-base-300 p-4">
       <div className={cn("sm:hidden", { "mb-4": opened })}>
         <button
           className="btn btn-outline btn-xs rounded normal-case"

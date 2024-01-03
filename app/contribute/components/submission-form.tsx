@@ -218,7 +218,7 @@ export function SubmissionForm() {
             >
               <input
                 required
-                className="checkbox checkbox-primary checkbox-sm me-3"
+                className="checkbox-primary checkbox checkbox-sm me-3"
                 type="checkbox"
                 id={consent.id}
                 name={consent.id}
