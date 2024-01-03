@@ -251,8 +251,8 @@ export function SubmissionForm() {
         <div className={cn({ "mb-4": serverErrorMessage || isSubmitting })}>
           <button
             className={cn(
-              "btn btn-accent btn-lg !h-auto !min-h-0 w-full rounded-md py-3 md:btn-md",
-              { "btn-ghost loading": isSubmitting }
+              "btn btn-primary btn-lg !min-h-0 w-full rounded-md py-3 md:btn-md",
+              { "loading btn-ghost": isSubmitting }
             )}
           >
             {isSubmitting ? "Submitting..." : "Submit"}
