@@ -13,6 +13,7 @@
     "plugin:tailwindcss/recommended"
   ],
   "rules": {
+    "tailwindcss/no-custom-classname": "off",
     "no-console": 2
   }
 }

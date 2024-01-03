@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect, ReactElement, memo } from "react"
+import { useState, useEffect, ReactElement, memo, useCallback } from "react"
 import cn from "classnames"
 import propTypes from "prop-types"
 
@@ -23,9 +23,8 @@ const TableHeader = memo(() => (
       {DB_FIELDS_SORTED.map((field) => (
         <th
           key={field}
-          className={cn({
-            capitalize: field !== "mpn",
-            uppercase: field === "mpn",
+          className={cn("bg-base-200 text-xs uppercase", {
+            "sticky left-0 z-50": field === DatabaseFields.PART_CODE,
           })}
         >
           {field.replaceAll("_", " ")}
@@ -49,6 +48,8 @@ export function DatabaseList({
     setOpened(true)
   }, [games])
 
+  const isEven = useCallback((index: number) => index % 2 === 0, [])
+
   function renderList() {
     if (!opened)
       return (
@@ -60,7 +61,7 @@ export function DatabaseList({
 
     return (
       <ul
-        className="grid gap-16 overflow-x-auto"
+        className="grid gap-12 overflow-x-auto"
         aria-labelledby={`header-${id}`}
         id={`list-${id}`}
       >
@@ -69,25 +70,29 @@ export function DatabaseList({
             <h3 className="sticky left-0 mb-1 flex max-w-fit bg-base-300 px-4 py-1 font-bold text-white">
               {data.name}
             </h3>
-            <table className="table table-zebra w-full">
+            <table className="table-sm table table-zebra w-full">
               <TableHeader />
               <tbody>
-                {data.variants!.map((variant: DatabaseVariant, idx: number) => (
-                  <tr key={`row-${idx}`}>
-                    {DB_FIELDS_SORTED.map((field, fieldIndex) => (
-                      <td
-                        key={field}
-                        width={COLUMN_WIDTHS[field]}
-                        className={cn("z-0", {
-                          "whitespace-normal": field === DatabaseFields.NOTES,
-                          "sticky left-0 z-10": fieldIndex === 0,
-                        })}
-                      >
-                        {(variant as any)[field]}
-                      </td>
-                    ))}
-                  </tr>
-                ))}
+                {data.variants!.map(
+                  (variant: DatabaseVariant, rowIndex: number) => (
+                    <tr key={`row-${rowIndex}`}>
+                      {DB_FIELDS_SORTED.map((field, fieldIndex) => (
+                        <td
+                          key={field}
+                          width={COLUMN_WIDTHS[field]}
+                          className={cn({
+                            "bg-base-100": !isEven(rowIndex),
+                            "bg-base-300": isEven(rowIndex),
+                            "whitespace-normal": field === DatabaseFields.NOTES,
+                            "sticky left-0 z-50": fieldIndex === 0,
+                          })}
+                        >
+                          {(variant as any)[field]}
+                        </td>
+                      ))}
+                    </tr>
+                  )
+                )}
               </tbody>
             </table>
           </li>
