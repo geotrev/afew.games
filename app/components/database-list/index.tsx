@@ -106,7 +106,7 @@ export function DatabaseList({
   }
 
   return (
-    <div className="my-16">
+    <div className="mb-16 mt-12">
       <h2
         className="mb-2 text-xl font-extrabold text-white"
         id={`header-${id}`}
