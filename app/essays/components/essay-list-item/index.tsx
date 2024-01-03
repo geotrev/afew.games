@@ -34,7 +34,7 @@ export const EssayListItem = ({ title, description, urlPath, date }: Essay) => {
   return (
     <li className="mb-12 flex flex-col">
       <div className="mb-1 flex gap-2 font-semibold">
-        <p className="badge badge-secondary badge-outline text-xs">
+        <p className="badge badge-accent badge-outline text-xs">
           Published&nbsp;
           <time dateTime={date}>{date}</time>
         </p>

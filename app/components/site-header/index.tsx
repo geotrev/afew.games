@@ -37,7 +37,7 @@ export function SiteHeader() {
         </a>
       </div>
       <nav className="flex flex-col items-end gap-2 sm:flex-row-reverse sm:items-center">
-        <div className="tabs-boxed tabs gap-2">
+        <div className="tabs tabs-boxed gap-2">
           {NavigationItems.map(({ label, isActive, route }) => {
             const active = isActive(pathname)
 
