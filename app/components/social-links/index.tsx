@@ -22,8 +22,8 @@ export function SocialLinks() {
             src="/bmc-full-logo.svg"
             alt=""
             role="presentation"
-            height="18px"
-            width="110px"
+            height="20px"
+            width="120px"
           />
         </picture>
       </a>
