@@ -3,17 +3,5 @@
 @tailwind utilities;
 
 @layer base {
-  *:focus-visible {
-    /* Remove outlines */
-    @apply !outline-none;
-
-    /* Base ring style */
-    @apply ring-2 ring-neutral-content;
-
-    /* Offset for contrast */
-    @apply ring-offset-2 ring-offset-base-300;
-
-    /* ensure transition for consistency*/
-    @apply transition;
-  }
+  /* overrides */
 }
