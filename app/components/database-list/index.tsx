@@ -67,7 +67,7 @@ export function DatabaseList({
       >
         {games.map((data) => (
           <li key={data.name}>
-            <h3 className="sticky left-0 mb-1 flex max-w-fit bg-base-300 px-4 py-1 font-bold text-white">
+            <h3 className="sticky left-0 mb-1 flex max-w-fit bg-base-300 px-3 py-1 font-bold text-white">
               {data.name}
             </h3>
             <table className="table-sm table table-zebra w-full">
