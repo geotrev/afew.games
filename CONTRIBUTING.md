@@ -6,13 +6,13 @@ Please note that this project has a [code of conduct](CODE_OF_CONDUCT.md) that i
 
 As mentioned in the [README](README.md), filing an issue is a great start if you just want to put something in front of maintainers or ask questions before starting a pull request (PR).
 
-- Overview
-- Development Workflow
-- Pull Request Workflow
-- Application
-  - Blog Posts
-  - Blog Index
-  - Databases
+- [Overview](#overview)
+- [Development Workflow](#development-workflow)
+- [Pull Request Workflow](#pull-request-workflow)
+- [Application](#application)
+  - [Blog Posts](#blog-posts)
+  - [Blog Index](#blog-index)
+  - [Databases](#databases)
 
 ## Overview
 
@@ -51,7 +51,7 @@ Finally, all commits run through `husky` and `lint-staged` for formatting. Error
 
 ## Application
 
-### Blog posts (`essays/[slug]`)
+### Blog posts
 
 All blog posts are managed via Netlify CMS. They can be written in the CMS, or locally via markdown. Using the CMS provides an automated pull request & review cycle that's proved useful, historically.
 
@@ -62,7 +62,7 @@ Posts are processed by the application via two packages:
 
 Posts are processed on the server by Next JS at request time before serving to the client. The data is so small that often caching isn't critical to a speedy load time
 
-### Blog Index (`/essays`)
+### Blog Index
 
 Blogs can be browsed by title, description, and publish data on this page.
 
@@ -70,7 +70,7 @@ The index page uses basic pagination with URL search parameters. The initial pag
 
 Recent posts are flagged with a "new" badge if they were published in the last 30 days.
 
-### Databases (`/`)
+### Databases
 
 While the database is similar to the blog, it is powered via the CMS [Collection](https://decapcms.org/docs/collection-types/#file-collections) composed of JSON, using the repository commit history for versioning.
 
