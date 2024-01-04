@@ -6,9 +6,9 @@ A video game blog and database.
 
 This project is relatively new and could go in many directions. That said, I have no plans at current except to scale the project as the activity/data grow.
 
-For specific roadmap tasks, see the [project backlog](https://github.com/users/geotrev/projects/2)
+For specific upcoming tasks, see the [project backlog](https://github.com/users/geotrev/projects/2)
 
-## Contribution
+## Contributing
 
 Thanks for your interest in contributing to A Few Games! Community involvement helps make the resource useful & appealing for everyone.
 
