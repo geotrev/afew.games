@@ -70,7 +70,7 @@ The index page uses basic pagination with URL search parameters. The initial pag
 
 Recent posts are flagged with a "new" badge if they were published in the last 30 days.
 
-### Databases
+### Databases (`/`)
 
 While the database is similar to the blog, it is powered via the CMS [Collection](https://decapcms.org/docs/collection-types/#file-collections) composed of JSON, using the repository commit history for versioning.
 
