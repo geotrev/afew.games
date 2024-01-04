@@ -23,13 +23,13 @@ export const DB_FIELDS_SORTED: string[] = [
  */
 export const DB_FIELD_DESCRIPTIONS: Record<string, string> = {
   [DatabaseFields.PART_CODE]:
-    "A code used to identify the unique print run of a product.",
+    "The publisher's code to identify the unique print run of the game.",
   [DatabaseFields.SATELLITE_CODE]:
-    "A secondary UPC code, often right next to the primary UPC, with fewer numerical digits.",
+    "A secondary UPC code, often right next to the primary UPC, but with fewer numerical digits.",
   [DatabaseFields.COUNTRY]:
     "The country of manufacture (not the printed language).",
   [DatabaseFields.MPN]:
-    "A special code used to identify a retail product. Typically found on the back of a game near the UPC.",
+    "The manufacturers part number. Typically found on the back of a game near the UPC.",
   [DatabaseFields.NOTES]:
-    "Extra discerning factors, such as art differences, print errors, or the like.",
+    "Extra discerning details such as packaging differences, errors, language, or the like.",
 }

@@ -23,8 +23,11 @@ export default function Page() {
         <PageHeading>Database</PageHeading>
         <p>
           This is a database of {count} games with documented print variants.{" "}
-          <strong>This tool exclusively tracks box and seal variants</strong>,
-          but game contents are occasionally noted when appropriate.
+          <strong>
+            This tool exclusively tracks box and seal variants for NTSC-U games
+          </strong>
+          , but inner contents are noted when appropriate. International regions
+          will be specified in the &quot;notes&quot; column.
         </p>
         <p>
           While new and interesting variants will be written about in long form,
