@@ -185,9 +185,9 @@ export function SubmissionForm() {
                 isTextarea={field.input.is === "textarea"}
                 required={field.input.required}
                 className={cn({
-                  "textarea textarea-bordered textarea-md mb-3 w-full max-w-full":
+                  "textarea textarea-bordered textarea-info textarea-md mb-8 w-full max-w-full":
                     field.input.is,
-                  "input input-bordered input-md mb-3 w-full max-w-full":
+                  "input input-bordered input-info input-md mb-8 w-full max-w-full":
                     !field.input.is,
                 })}
                 value={fieldValues[field.input.id]}
@@ -218,7 +218,7 @@ export function SubmissionForm() {
             >
               <input
                 required
-                className="checkbox-primary checkbox checkbox-sm me-3"
+                className="checkbox-info checkbox checkbox-sm me-3"
                 type="checkbox"
                 id={consent.id}
                 name={consent.id}
@@ -252,7 +252,7 @@ export function SubmissionForm() {
           <button
             className={cn(
               "btn btn-primary btn-lg !min-h-0 w-full rounded-md py-3 md:btn-md",
-              { "loading btn-ghost": isSubmitting }
+              { "btn-ghost loading": isSubmitting }
             )}
           >
             {isSubmitting ? "Submitting..." : "Submit"}
