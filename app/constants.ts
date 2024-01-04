@@ -17,3 +17,19 @@ export const DB_FIELDS_SORTED: string[] = [
   DatabaseFields.MPN,
   DatabaseFields.NOTES,
 ]
+
+/**
+ * Database field descriptions. Used in tooltips & contribution form.
+ */
+export const DB_FIELD_DESCRIPTIONS: Record<string, string> = {
+  [DatabaseFields.PART_CODE]:
+    "A code used to identify the unique print run of a product.",
+  [DatabaseFields.SATELLITE_CODE]:
+    "A secondary UPC code, often right next to the primary UPC, with fewer numerical digits.",
+  [DatabaseFields.COUNTRY]:
+    "The country of manufacture (not the printed language).",
+  [DatabaseFields.MPN]:
+    "A special code used to identify a retail product. Typically found on the back of a game near the UPC.",
+  [DatabaseFields.NOTES]:
+    "Extra discerning factors, such as art differences, print errors, or the like.",
+}
