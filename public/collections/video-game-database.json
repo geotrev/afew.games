@@ -2230,6 +2230,16 @@
       "platform": "Game Boy Advance",
       "games": [
         {
+          "name": "Spyro the Dragon: Attack of the Rhynocs",
+          "variants": [
+            {
+              "mpn": "AGB P AOWE",
+              "notes": "Spyro \"Game Boy Advance\" SP game skin inside (C7203620)",
+              "country": "Japan"
+            }
+          ]
+        },
+        {
           "name": "Pokemon Sapphire Version",
           "variants": [
             {
