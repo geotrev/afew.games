@@ -48,7 +48,7 @@ const TableHeader = memo(() => (
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                className="h-4 w-4 shrink-0 stroke-slate-500"
+                className="h-4 w-4 shrink-0 stroke-gray-500"
               >
                 <path
                   strokeLinecap="round"
