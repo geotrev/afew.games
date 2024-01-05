@@ -93,6 +93,7 @@ collections:
                     allow_add: true
                     add_to_top: true
                     collapsed: true
+                    summary: "{{fields.mpn}}"
                     fields:
                       - label: Part Code
                         name: part_code
