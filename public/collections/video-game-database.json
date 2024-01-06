@@ -1660,6 +1660,15 @@
       "platform": "Game Boy Color",
       "games": [
         {
+          "name": "Pocket Monsters: Crystal",
+          "variants": [
+            {
+              "mpn": "CGB-P-BXTJ(JPN)",
+              "country": "Japan"
+            }
+          ]
+        },
+        {
           "name": "Pocket Monsters: Gold",
           "variants": [
             {
