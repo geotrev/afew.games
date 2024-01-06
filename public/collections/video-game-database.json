@@ -1958,6 +1958,11 @@
           "name": "Pocket Monsters: Yellow",
           "variants": [
             {
+              "country": "Japan",
+              "mpn": "DMG-P-APSJ(JPN)",
+              "notes": "Japanese version, Pre-Order w/ Postcards (cartridge codes: 00, 12, 20, 22)"
+            },
+            {
               "mpn": "DMG-P-APSJ(JPN)",
               "country": "Japan",
               "notes": "Japanese version"
@@ -1970,12 +1975,12 @@
             {
               "country": "Japan",
               "mpn": "DMG-P-APEJ(JPN)",
-              "notes": "Japanese version, no UPC (mail order)"
+              "notes": "Japanese version, Sealed Bag Mail Order, No UPC on Box"
             },
             {
               "country": "Japan",
               "mpn": "DMG-P-APEJ(JPN)",
-              "notes": "Japanese version, with UPC"
+              "notes": "Japanese version"
             },
             {
               "country": "Japan",
@@ -1988,9 +1993,14 @@
           "name": "Pocket Monsters: Red",
           "variants": [
             {
+              "notes": "Japanese version, Super Game Boy insert + Feedback Survey (1995) (cartridge codes: 00, 20, 22, or no code)",
+              "mpn": "DMG-P-APAJ(JPN)",
+              "country": "Japan"
+            },
+            {
               "country": "Japan",
               "mpn": "DMG-P-APAJ(JPN)",
-              "notes": "Japanese version, Super Game Boy insert (1995)"
+              "notes": "Japanese version, Super Game Boy insert (1995) (cartridge codes: 00, 20, 22)"
             },
             {
               "country": "Japan",
@@ -2008,9 +2018,14 @@
           "name": "Pocket Monsters: Green",
           "variants": [
             {
+              "notes": "Japanese version, Large UPC, Super Game Boy insert + Feedback Survey (1995) (cartridge codes: 00, 20, or no code)",
+              "country": "Japan",
+              "mpn": "DMG-P-APBJ(JPN)"
+            },
+            {
               "country": "Japan",
               "mpn": "DMG-P-APBJ(JPN)",
-              "notes": "Japanese version, Super Game Boy insert (1995)"
+              "notes": "Japanese version, Super Game Boy insert (1995) (cartridge codes: 00, 20)"
             },
             {
               "country": "Japan",
