@@ -2280,6 +2280,26 @@
       "platform": "Game Boy Advance",
       "games": [
         {
+          "name": "Pocket Monsters: Sapphire",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB-P-AXPJ(JPN)",
+              "notes": "Japanese version"
+            }
+          ]
+        },
+        {
+          "name": "Pocket Monsters: Ruby",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB-P-AXVJ(JPN)",
+              "notes": "Japanese version"
+            }
+          ]
+        },
+        {
           "name": "Spyro: Attack of the Rhynocs",
           "variants": [
             {
