@@ -1664,6 +1664,7 @@
           "variants": [
             {
               "mpn": "CGB-P-BXTJ(JPN)",
+              "notes": "Japanese version",
               "country": "Japan"
             }
           ]
@@ -1673,12 +1674,12 @@
           "variants": [
             {
               "mpn": "DMG-P-AAUJ(JPN)",
-              "notes": "With right-side text",
+              "notes": "Japanese version, right-side text",
               "country": "Japan"
             },
             {
               "mpn": "DMG-P-AAUJ(JPN)",
-              "notes": "No right-side text",
+              "notes": "Japanese version, no right-side text",
               "country": "Japan"
             }
           ]
@@ -1688,12 +1689,12 @@
           "variants": [
             {
               "mpn": "DMG-P-AAXJ(JPN)",
-              "notes": "With right-side text ",
+              "notes": "Japanese version, right-side text ",
               "country": "Japan"
             },
             {
               "country": "Japan",
-              "notes": "No right-side text",
+              "notes": "Japanese version, no right-side text",
               "mpn": "DMG-P-AAXJ(JPN)"
             }
           ]
@@ -1959,7 +1960,7 @@
             {
               "mpn": "DMG-P-APSJ(JPN)",
               "country": "Japan",
-              "notes": ""
+              "notes": "Japanese version"
             }
           ]
         },
@@ -1969,17 +1970,17 @@
             {
               "country": "Japan",
               "mpn": "DMG-P-APEJ(JPN)",
-              "notes": "No UPC, mail order"
+              "notes": "Japanese version, no UPC (mail order)"
             },
             {
               "country": "Japan",
               "mpn": "DMG-P-APEJ(JPN)",
-              "notes": "With UPC"
+              "notes": "Japanese version, with UPC"
             },
             {
               "country": "Japan",
               "mpn": "DMG-P-APEJ(JPN)",
-              "notes": "Toyota Auto promotion"
+              "notes": "Japanese version, Toyota Auto promotion"
             }
           ]
         },
@@ -1989,17 +1990,17 @@
             {
               "country": "Japan",
               "mpn": "DMG-P-APAJ(JPN)",
-              "notes": "Super Game Boy insert (1995)"
+              "notes": "Japanese version, Super Game Boy insert (1995)"
             },
             {
               "country": "Japan",
               "mpn": "DMG-P-APAJ(JPN)",
-              "notes": "Game Boy Pocket insert (1996)"
+              "notes": "Japanese version, Game Boy Pocket insert (1996)"
             },
             {
               "country": "Japan",
               "mpn": "DMG-P-APAJ(JPN)",
-              "notes": "Game Boy Color insert (1998)"
+              "notes": "Japanese version, Game Boy Color insert (1998)"
             }
           ]
         },
@@ -2009,17 +2010,17 @@
             {
               "country": "Japan",
               "mpn": "DMG-P-APBJ(JPN)",
-              "notes": "Super Game Boy insert (1995)"
+              "notes": "Japanese version, Super Game Boy insert (1995)"
             },
             {
               "country": "Japan",
               "mpn": "DMG-P-APBJ(JPN)",
-              "notes": "Game Boy Pocket insert (1996)"
+              "notes": "Japanese version, Game Boy Pocket insert (1996)"
             },
             {
               "country": "Japan",
               "mpn": "DMG-P-APBJ(JPN)",
-              "notes": "Game Boy Color insert (1998)"
+              "notes": "Japanese version, Game Boy Color insert (1998)"
             }
           ]
         },
