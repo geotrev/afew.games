@@ -1660,6 +1660,36 @@
       "platform": "Game Boy Color",
       "games": [
         {
+          "name": "Pocket Monsters: Gold",
+          "variants": [
+            {
+              "mpn": "DMG-P-AAUJ(JPN)",
+              "notes": "With right-side text",
+              "country": "Japan"
+            },
+            {
+              "mpn": "DMG-P-AAUJ(JPN)",
+              "notes": "No right-side text",
+              "country": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Pocket Monsters: Silver",
+          "variants": [
+            {
+              "mpn": "DMG-P-AAXJ(JPN)",
+              "notes": "With right-side text ",
+              "country": "Japan"
+            },
+            {
+              "country": "Japan",
+              "notes": "No right-side text",
+              "mpn": "DMG-P-AAXJ(JPN)"
+            }
+          ]
+        },
+        {
           "name": "The Legend of Zelda: Link's Awakening DX",
           "variants": [
             {
