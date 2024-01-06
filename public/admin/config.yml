@@ -93,7 +93,7 @@ collections:
                     allow_add: true
                     add_to_top: true
                     collapsed: true
-                    summary: "{{fields.mpn}}"
+                    summary: "{{fields.country}} | {{fields.part_code}} | {{fields.notes}}"
                     fields:
                       - label: Part Code
                         name: part_code
