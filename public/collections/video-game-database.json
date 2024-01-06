@@ -1945,6 +1945,16 @@
           ]
         },
         {
+          "name": "Pocket Monsters: Yellow",
+          "variants": [
+            {
+              "mpn": "DMG-P-APSJ(JPN)",
+              "country": "Japan",
+              "notes": ""
+            }
+          ]
+        },
+        {
           "name": "Pocket Monsters: Blue",
           "variants": [
             {
