@@ -29,10 +29,6 @@ export default function Page() {
           , but inner contents are noted when appropriate. International regions
           will be specified in the &quot;notes&quot; column.
         </p>
-        <p>
-          While new and interesting variants will be written about in long form,
-          this database updates in real time.
-        </p>
         <p className="mb-0">
           <Link
             className="btn btn-secondary btn-sm text-base-100"
