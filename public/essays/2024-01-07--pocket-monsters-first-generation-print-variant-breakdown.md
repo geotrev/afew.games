@@ -36,7 +36,7 @@ Compared to subsequent printings:
 
 ![Second print box with smaller barcode](/uploads/screenshot-2024-01-07-at-11.54.26-am.png)
 
-Unfortunately, not enough evidence exists to suggest Red version also had a large barcode for its first printing, but it's certainly possible.
+Unfortunately, not enough evidence exists to suggest *Red* version also had a large barcode for its first printing, but it's certainly possible.
 
 #### Contents
 
@@ -68,28 +68,28 @@ The initial release survey was included for the very first round of the games at
 
 It translates to roughly the following:
 
-> Kyoto City Higashiyama Post Office P.O. Box No. 15
+> *Kyoto City Higashiyama Post Office P.O. Box No. 15*
 >
-> Thank you for purchasing Pocket Monsters. Sorry to trouble you, we request your opinion as valuable reference for future software in this questionnaire.
+> *Thank you for purchasing Pocket Monsters. Sorry to trouble you, we request your opinion as valuable reference for future software in this questionnaire.*
 >
-> A lottery will be run for those who participate. Winners may receive:
+> *A lottery will be run for those who participate. Winners may receive:*
 >
-> * 100 Winners: Pocket Monsters Guidebook
-> * 500 Winners: Special Playing Cards
+> * *100 Winners: Pocket Monsters Guidebook*
+> * *500 Winners: Special Playing Cards*
 >
-> In addition, the announcement of the winner will receive a free copy. This is valid until the end of March 1996.
+> *In addition, the announcement of the winner will receive a free copy. This is valid until the end of March 1996.*
 
 The game released in February of that year, so the 1-month deadline was for the earliest copies only.
 
 The bottom box featuring Bulbasaur in the survey (roughly) reads:
 
-> It's all about Pocket Monsters!
+> *It's all about Pocket Monsters!*
 >
-> "Pocket Monsters Guidebook"
+> *"Pocket Monsters Guidebook"*
 >
-> –List price undecided–
+> *– List price undecided –*
 >
-> Scheduled to be released early March, 1996.
+> *Scheduled to be released early March, 1996.*
 
 ## Pocket Monsters: Blue
 
