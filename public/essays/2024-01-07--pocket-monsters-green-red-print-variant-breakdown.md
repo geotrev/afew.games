@@ -34,7 +34,7 @@ Compared to subsequent printings:
 
 ![Second print box with smaller barcode](/uploads/screenshot-2024-01-07-at-11.54.26-am.png)
 
-Unfortunately, not enough evidence exists to suggest Red version also had a large barcode for its first printing.
+Unfortunately, not enough evidence exists to suggest Red version also had a large barcode for its first printing, but it's certainly possible.
 
 ## Contents
 
