@@ -79,10 +79,12 @@ The bottom box featuring Bulbasaur in the survey (roughly) reads:
 
 > It's all about Pocket Monsters!
 >
-> Pocket Monsters Guidebook
+> "Pocket Monsters Guidebook"
 >
-> List price undecided, scheduled to be released early March, 1996.
+> –List price undecided–
+>
+> Scheduled to be released early March, 1996.
 
 ##  Later Printings
 
-Once Red & Green had been out for some time, only a few minor changes occurred to the physical product. Mainly, the inclusion of a Game Boy Camera and Game Boy Color ads to showcase the newest Nintendo had to offer to players.
+Once Red & Green had been out for some time, only a few minor changes occurred to the physical product. Mainly, the inclusion of Game Boy Pocket, Game Boy Camera, and Game Boy Color ads to showcase the newest Nintendo had to offer for players.
