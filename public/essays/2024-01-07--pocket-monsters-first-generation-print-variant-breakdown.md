@@ -4,13 +4,13 @@ title: "Pocket Monsters: First Generation Print Variant Breakdown"
 description: A visual guide to the print variants of Pocket Monsters Red, Green,
   Blue, and Yellow
 ---
-When you received your first copy of Pokemon for Nintendo Game Boy, where were you? Some folks got it as a present or at the store, in its physical sealed box. Some folks received just a cartridge. I received my first Pokemon game, Blue version, as a hand-me-down from my sister. I later would receive Yellow version as a Christmas present. Still one of my favorite Christmas's of all time!
+When you received your first copy of Pokemon for Nintendo Game Boy, where were you? Some folks got it as a present or at the store, in its physical sealed box. Some folks received just a cartridge. I received my first Pokemon game, *Blue* version, as a hand-me-down from my sister. I later would receive *Yellow* version as a Christmas present. Still one of my favorite Christmas's of all time!
 
 What makes these experiences unique isn't only the momentary snapshot in our personal lives when we first experienced the games, but also the actual printed version of the game we received. Believe it or not, 
 
 This shouldn't be new to anyone, but it's worth clarifying: video games, even in their static physical form, are frequently updated in new printed batches during the lifetime of its production. The idea of a game being updated directly by the developer is a relatively new evolution – only the last 15-20 years or so have we had that capability, out of the 50 years of home gaming.
 
-What this post aims to do is shed light on the known print variations of Pocket Monsters: *Green*, *Red*, Blue, & Yellow, starting from their initial release, up through final printings.
+What this post aims to do is shed light on the known print variations of Pocket Monsters: *Green*, *Red*, *Blue*, & *Yellow*, starting from their initial release, up through final printings.
 
 *The information below comes from the ever-wise [Mikaifu Collection](https://www.instagram.com/mikaifucollection/).*
 
@@ -119,15 +119,13 @@ It's also unclear *when* that promotion occurred.
 
 <front and back of Yellow>
 
-Just as *Blue* was substantially simpler in its printings than *Red* and *Green* before it as the designs settled, Yellow proves even simpler with two distinct printings.
-
-The box design, however, never changed from its original printed version.
+Just as *Blue* version was substantially simpler in its printings than *Red* and *Green* before it as the designs settled, *Yellow* version proves even simpler with two distinct printings.
 
 To start, its 24-hour pre-release version came in a sealed bag with post cards, the cards being the first time such an addition was included.
 
 ![](/uploads/46276c27-3572-46cb-9c11-29c43bd56f03.jpeg)
 
-The game box and contents have no differences from this version apart from the sealed bag with post cards. Given the date on this flyer advertising one day before release (9/11), it's enough to note the distinct variant.
+The game box and contents have no differences from its standard retail counterpart, apart from the sealed bag with post cards. Given the date on this flyer advertising one day before release (9/11), it's enough to note the distinct variant.
 
 ![](/uploads/878278c8-95bc-4a0c-b73d-d5e536166372.jpeg)
 
@@ -139,7 +137,7 @@ There is one documented copy of this pre-release *Yellow* version that was grade
 
 Once *Red*, *Green*, and *Blue* had all been released by August 1996, only a few minor changes occurred to the packaging. Mainly, the inclusion of new cartridge stamp codes (see above) and ads for Game Boy Pocket, Game Boy Camera, Game Boy Color, and N64 to showcase the newest Nintendo had to offer for players.
 
-These ad inserts would also become present in both Blue and Yellow versions, as the new game & hardware release schedules allowed for revisions.
+These ad inserts would also become present in both *Blue* and *Yellow* versions, as the new game & hardware release schedules allowed for revisions.
 
 > **\*Note:** This is not intended to showcase print order, rather just some of the other inserts as the games aged while reprints occurred through the late 1990s. A more thorough examination of these inserts is needed to know when they appeared and with revision history.*
 
