@@ -89,7 +89,15 @@ The bottom box featuring Bulbasaur in the survey (roughly) reads:
 
 *Blue* version is unique for a few reasons. First, it started the first of a "sealed bag" traditional that would continue through *Crystal* version. It also was the first and only game to have a mail order launch, before finally hitting retail proper.
 
+Initial release included the plastic bag with a barcode.
 
+![Pocket Monsters Blue version, front](/uploads/0974ad5b-68c4-41ee-abdb-89a2d7bdba19.jpeg)
+
+The box itself had no barcode.
+
+![Pocket Monsters Blue version, back](/uploads/screenshot-2024-01-07-at-3.17.19-pm.png)
+
+Retail versions would follow with barcode, similar to *Red* and *Green*.
 
 ## Pocket Monsters: Yellow
 
@@ -113,8 +121,8 @@ These ad inserts would also become present in both Blue and Yellow versions, as 
 
 **Shown** (front):
 
-* Left: GB Pocket *ad (code: `T-DMG-MGB001-JPN-3`)*
-* Right: GB Camera ad *(code: `T-DMG-MGB006-JPN`)*
+* *Left: GB Pocket ad (code: `T-DMG-MGB001-JPN-3`)*
+* *Right: GB Camera ad (code: `T-DMG-MGB006-JPN`)*
 
 ![Game Boy Pocket & Camera ads, back](/uploads/screenshot-2024-01-07-at-1.42.34-pm.png)
 
@@ -122,12 +130,12 @@ These ad inserts would also become present in both Blue and Yellow versions, as 
 
 ![Anti-tampering notice, Pocket Monsters Stadium ad + Rumble Pack, and Game Boy Color ads](/uploads/screenshot-2024-01-07-at-1.42.56-pm.png)
 
-**Shown** (front)**:**
+***Shown** (front)**:***
 
-* Top: Anti-tampering notice *(code: `G508989`)*
-* Bottom Left: Pocket Monsters Stadium + Rumble Pack ad *(code: `T-DMG-APSJ-JPN`)*
-* Bottom Right: Game Boy Color ad *(code: `T-DMG-CGB001-JPN`)*
+* *Top: Anti-tampering notice (code: `G508989`)*
+* *Bottom Left: Pocket Monsters Stadium + Rumble Pack ad (code: `T-DMG-APSJ-JPN`)*
+* *Bottom Right: Game Boy Color ad (code: `T-DMG-CGB001-JPN`)*
 
 ![Anti-tampering notice, Pocket Monsters Stadium + Rumble Pack, and Game Boy Color ads](/uploads/screenshot-2024-01-07-at-1.43.02-pm.png)
 
-Same positions, but showing the back: Anti-tampering notice, Pocket Monsters Stadium + Rumble Pack ad, and Game Boy Color ads
+*Same positions, but showing the back: Anti-tampering notice, Pocket Monsters Stadium + Rumble Pack ad, and Game Boy Color ads*
