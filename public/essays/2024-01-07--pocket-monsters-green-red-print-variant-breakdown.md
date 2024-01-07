@@ -18,6 +18,8 @@ What this post aims to do is shed light on the known print variations of Pocket 
 
 The initial release of Green and Red version had some unique differences, both on the box and the inserts. For the purposes of this post, green version will be the primary reference as the same information applies to both, however exceptions or missing information will be noted as appropriate.
 
+To start, here is an initial reference of the final (and most common) box prints of the games:
+
 <front and back of red and green>
 
 ### Box
@@ -91,6 +93,8 @@ The bottom box featuring Bulbasaur in the survey (roughly) reads:
 
 *Blue* version is unique for a few reasons. First, it started the first of a "sealed bag" traditional that would continue through *Crystal* version. It also was the first and only game to have a mail order launch, before finally hitting retail proper.
 
+<front and back of blue>
+
 Initial release included the plastic bag with a barcode.
 
 ![Pocket Monsters Blue version, front](/uploads/0974ad5b-68c4-41ee-abdb-89a2d7bdba19.jpeg)
@@ -112,6 +116,10 @@ It's also unclear *when* that promotion occurred.
 ## Pocket Monsters: Yellow
 
 Just as Blue was substantially simpler in its printings than Red and Green before it, Yellow proves even simpler with two distinct printings.
+
+The box design, however, never changed from its original printed version.
+
+<front and back of Yellow>
 
 To start, its 24-hour pre-order version came in a sealed bag with post cards, the cards being the first time such an addition was included.
 
