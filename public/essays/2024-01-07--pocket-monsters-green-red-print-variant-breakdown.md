@@ -113,6 +113,12 @@ Just as Blue was substantially simpler in its printings than Red and Green befor
 
 To start, its 24-hour pre-order version came in a sealed bag with post cards, the cards being the first time such an addition was included.
 
+![](/uploads/46276c27-3572-46cb-9c11-29c43bd56f03.jpeg)
+
+The game box and contents have no differences from this version apart from the sealed bag with post cards. Given the date on this flyer advertising one day before release (9/11), it's enough to note the distinct variant.
+
+![](/uploads/878278c8-95bc-4a0c-b73d-d5e536166372.jpeg)
+
 ## Hardware ads
 
 Once *Red*, *Green*, and *Blue* had all been released by August 1996, only a few minor changes occurred to the packaging. Mainly, the inclusion of new cartridge stamp codes (see above) and ads for Game Boy Pocket, Game Boy Camera, Game Boy Color, and N64 to showcase the newest Nintendo had to offer for players.
