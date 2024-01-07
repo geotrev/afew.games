@@ -166,7 +166,7 @@ These ad inserts would also become present in both *Blue* and *Yellow* versions,
 
 ![Anti-tampering notice, Pocket Monsters Stadium ad + Rumble Pack, and Game Boy Color ads](/uploads/screenshot-2024-01-07-at-1.42.56-pm.png)
 
-**\*Shown** (front)**:***
+***Shown** (front)**:***
 
 * *Top: Anti-tampering notice (code: `G508989`)*
 * *Bottom Left: Pocket Monsters Stadium + Rumble Pack ad (code: `T-DMG-APSJ-JPN`)*
