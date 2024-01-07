@@ -69,11 +69,19 @@ It translates to roughly the following:
 >
 > Thank you for purchasing Pocket Monsters. Sorry to trouble you, we request your opinion as valuable reference for future software in this questionnaire.
 >
-> A lottery will be run for those who participate to receive:
+> A lottery will be run for those who participate, to receive:
 >
-> * Pokemon Guidebook (issued to 100 people)
+> * Pocket Monsters Guidebook (issued to 100 people)
 > * We will present Special Playing Cards (issued to 500 people)
 >
 > In addition, the announcement of the winner will receive a free copy. This is valid until the end of March 1996.
 
-Given the game released in February of that year,
+The game released in February of that year, so the 1-month deadline was for the earliest copies only.
+
+The bottom box featuring Bulbasaur in the survey reads (roughly):
+
+> I know it's all about Pocket Monsters!
+>
+> Pocket Monsters Guidebook
+>
+> List price undecided, scheduled to be released early March, 1996.
