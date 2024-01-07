@@ -2193,6 +2193,11 @@
               "notes": "Japanese version, Sealed Bag 12/6~12/17 Pre-Order"
             },
             {
+              "mpn": "CGB-P-BXTJ(JPN)",
+              "notes": "Japanese version",
+              "country": "Japan"
+            },
+            {
               "country": "Japan",
               "mpn": "CGB-P-BXTJ(JPN)",
               "notes": "Japanese version, Sealed Bag 12/18~12/15 Pre-Order"
@@ -2201,11 +2206,6 @@
               "mpn": "CGB-P-BXTJ(JPN)",
               "country": "Japan",
               "notes": "Japanese version, Sealed Bag 12/26~1/8 Pre-Order"
-            },
-            {
-              "mpn": "CGB-P-BXTJ(JPN)",
-              "notes": "Japanese version",
-              "country": "Japan"
             }
           ]
         },
