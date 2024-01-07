@@ -85,12 +85,24 @@ The bottom box featuring Bulbasaur in the survey (roughly) reads:
 >
 > Scheduled to be released early March, 1996.
 
-##  Later Printings
+## Later Printings
 
-Once Red & Green had been out for some time, only a few minor changes occurred to the physical product. Mainly, the inclusion of Game Boy Pocket, Game Boy Camera, and Game Boy Color ads to showcase the newest Nintendo had to offer for players. The ads themselves would also change over time.
+Once Red & Green had been out for some time, only a few minor changes occurred to the physical product. Mainly, the inclusion of new cartridge stamp codes (see above) and ads for Game Boy Pocket, Game Boy Camera, Game Boy Color, and N64 to showcase the newest Nintendo had to offer for players.
 
-### Game Boy Pocket ad
+These ad inserts would also become present in both Blue and Yellow versions, as the new game & hardware release schedules allowed for revisions. 
 
-![]()
+Note that this is not intended to showcase print order, rather just some of the chronology of inserts as the games aged while reprints occurred through the late 1990s.
 
-![]()
+### Hardware ads
+
+![Game Boy Pocket ad, revised](/uploads/screenshot-2024-01-07-at-12.39.33-pm.png)
+
+*GB Pocket ad (1 code) – front*
+
+![](/uploads/screenshot-2024-01-07-at-1.42.39-pm.png)
+
+*Camera ad (no code) and GB Pocket (3 code) – front*
+
+![](/uploads/screenshot-2024-01-07-at-1.42.34-pm.png)
+
+*Camera ad (no code) and GB Pocket (3 code) – back*
