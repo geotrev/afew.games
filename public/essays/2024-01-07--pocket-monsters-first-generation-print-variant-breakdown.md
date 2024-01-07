@@ -3,6 +3,7 @@ publish_date: 2024-01-07
 title: "Pocket Monsters: First Generation Print Variant Breakdown"
 description: A visual guide to Pocket Monsters Red, Green, Blue, and Yellow
 ---
+
 When you received your first copy of Pokemon for Nintendo Game Boy, where were you? Some folks got it as a Christmas present or at the store, in its physical sealed box. Some folks received just a cartridge.
 
 What makes these experiences unique isn't only the momentary snapshot in our personal lives when we first experienced the games, but also the actual printed version of the game we received.
@@ -11,7 +12,7 @@ This shouldn't be new to anyone, but it's worth clarifying: video games, even in
 
 What this post aims to do is shed light on the known print variations of Pocket Monsters: Green, Red, Blue, & Yellow, starting from their initial release, up through final printings.
 
-*The information below comes from the ever-wise [Mikaifu Collection](https://www.instagram.com/mikaifucollection/).*
+_The information below comes from the ever-wise [Mikaifu Collection](https://www.instagram.com/mikaifucollection/)._
 
 ## Early Release: Pocket Monsters Green & Red
 
@@ -51,7 +52,7 @@ Here's a translated reference on which codes are likely to be found on the earli
 
 ![Early vs later stamp codes for Red & Green version cartridges](/uploads/cart-code-table.png)
 
-*Source: [pokemon1gb2rgbp.wiki.fc2.com/](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84)*
+_Source: [pokemon1gb2rgbp.wiki.fc2.com/](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84)_
 
 ## Inserts
 
@@ -71,8 +72,8 @@ It translates to roughly the following:
 >
 > A lottery will be run for those who participate. Winners may receive:
 >
-> * 100 Winners: Pocket Monsters Guidebook
-> * 500 Winners: Special Playing Cards
+> - 100 Winners: Pocket Monsters Guidebook
+> - 500 Winners: Special Playing Cards
 >
 > In addition, the announcement of the winner will receive a free copy. This is valid until the end of March 1996.
 
@@ -90,7 +91,7 @@ The bottom box featuring Bulbasaur in the survey (roughly) reads:
 
 ## Pocket Monsters: Blue
 
-*Blue* version is unique for a few reasons. First, it started the first of a "sealed bag" traditional that would continue through *Crystal* version. It also was the first and only game to have a mail order launch, before finally hitting retail proper.
+_Blue_ version is unique for a few reasons. First, it started the first of a "sealed bag" traditional that would continue through _Crystal_ version. It also was the first and only game to have a mail order launch, before finally hitting retail proper.
 
 <front and back of blue>
 
@@ -102,15 +103,15 @@ The box itself had no barcode.
 
 ![Pocket Monsters Blue version, back](/uploads/screenshot-2024-01-07-at-3.17.19-pm.png)
 
-Retail versions would follow with barcode, similar to *Red* and *Green*.
+Retail versions would follow with barcode, similar to _Red_ and _Green_.
 
 ![Blue verison with barcode added](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
 
-*Blue* version also ended up having a Toyota AUTO promotion that featured a unique box printing, along with a tin box that is still unclear in its purpose with the game itself. Probably contains accessories, but hard to say without more direct evidence.
+_Blue_ version also ended up having a Toyota AUTO promotion that featured a unique box printing, along with a tin box that is still unclear in its purpose with the game itself. Probably contains accessories, but hard to say without more direct evidence.
 
 ![Blue version with TOYOTA AUTO promotion](/uploads/screenshot-2024-01-07-at-3.34.43-pm.png)
 
-It's also unclear *when* that promotion occurred.
+It's also unclear _when_ that promotion occurred.
 
 ## Pocket Monsters: Yellow
 
@@ -128,43 +129,43 @@ The game box and contents have no differences from this version apart from the s
 
 ![](/uploads/878278c8-95bc-4a0c-b73d-d5e536166372.jpeg)
 
-There is one documented copy of this pre-release *Yellow* version that was graded by VGA, as well. It came sealed in the bag, so VGA denoted it as "uncirculated."
+There is one documented copy of this pre-release _Yellow_ version that was graded by VGA, as well. It came sealed in the bag, so VGA denoted it as "uncirculated."
 
 ![](/uploads/img_2187.jpeg)
 
 ## Hardware ads
 
-Once *Red*, *Green*, and *Blue* had all been released by August 1996, only a few minor changes occurred to the packaging. Mainly, the inclusion of new cartridge stamp codes (see above) and ads for Game Boy Pocket, Game Boy Camera, Game Boy Color, and N64 to showcase the newest Nintendo had to offer for players.
+Once _Red_, _Green_, and _Blue_ had all been released by August 1996, only a few minor changes occurred to the packaging. Mainly, the inclusion of new cartridge stamp codes (see above) and ads for Game Boy Pocket, Game Boy Camera, Game Boy Color, and N64 to showcase the newest Nintendo had to offer for players.
 
-These ad inserts would also become present in both Blue and Yellow versions, as the new game & hardware release schedules allowed for revisions. 
+These ad inserts would also become present in both Blue and Yellow versions, as the new game & hardware release schedules allowed for revisions.
 
-> ***Note:** This is not intended to showcase print order, rather just some of the other inserts as the games aged while reprints occurred through the late 1990s. A more thorough examination of these inserts is needed to know when they appeared and with revision history.*
+> **\*Note:** This is not intended to showcase print order, rather just some of the other inserts as the games aged while reprints occurred through the late 1990s. A more thorough examination of these inserts is needed to know when they appeared and with revision history.\*
 
 ### Hardware ads
 
 ![Game Boy Pocket ad](/uploads/screenshot-2024-01-07-at-12.39.33-pm.png)
 
-*GB Pocket ad (`T-DMG-MGB001-JPN-1`) – front*
+_GB Pocket ad (`T-DMG-MGB001-JPN-1`) – front_
 
 ![Game Boy Pocket & Camera ads, front](/uploads/screenshot-2024-01-07-at-1.42.39-pm.png)
 
 **Shown** (front):
 
-* *Left: GB Pocket ad (code: `T-DMG-MGB001-JPN-3`)*
-* *Right: GB Camera ad (code: `T-DMG-MGB006-JPN`)*
+- _Left: GB Pocket ad (code: `T-DMG-MGB001-JPN-3`)_
+- _Right: GB Camera ad (code: `T-DMG-MGB006-JPN`)_
 
 ![Game Boy Pocket & Camera ads, back](/uploads/screenshot-2024-01-07-at-1.42.34-pm.png)
 
-*GB Pocket ad (left) and GB Camera ad (right) – back*
+_GB Pocket ad (left) and GB Camera ad (right) – back_
 
 ![Anti-tampering notice, Pocket Monsters Stadium ad + Rumble Pack, and Game Boy Color ads](/uploads/screenshot-2024-01-07-at-1.42.56-pm.png)
 
-***Shown** (front)**:***
+**\*Shown** (front)**:\***
 
-* *Top: Anti-tampering notice (code: `G508989`)*
-* *Bottom Left: Pocket Monsters Stadium + Rumble Pack ad (code: `T-DMG-APSJ-JPN`)*
-* *Bottom Right: Game Boy Color ad (code: `T-DMG-CGB001-JPN`)*
+- _Top: Anti-tampering notice (code: `G508989`)_
+- _Bottom Left: Pocket Monsters Stadium + Rumble Pack ad (code: `T-DMG-APSJ-JPN`)_
+- _Bottom Right: Game Boy Color ad (code: `T-DMG-CGB001-JPN`)_
 
 ![Anti-tampering notice, Pocket Monsters Stadium + Rumble Pack, and Game Boy Color ads](/uploads/screenshot-2024-01-07-at-1.43.02-pm.png)
 
-*Same positions, but showing the back: Anti-tampering notice, Pocket Monsters Stadium + Rumble Pack ad, and Game Boy Color ads*
+_Same positions, but showing the back: Anti-tampering notice, Pocket Monsters Stadium + Rumble Pack ad, and Game Boy Color ads_
