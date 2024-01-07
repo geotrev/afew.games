@@ -4,19 +4,17 @@ title: "Pocket Monsters: First Generation Print Variant Breakdown"
 description: A visual guide to the print variants of Pocket Monsters Red, Green,
   Blue, and Yellow
 ---
-When you received your first copy of Pokemon for Nintendo Game Boy, where were you? Some folks got it as a present or at the store, in its physical sealed box. Some folks received just a cartridge. I received my first Pokemon game, *Blue* version, as a hand-me-down from my sister. I later would receive *Yellow* version as a Christmas present. Still one of my favorite Christmas's of all time!
+This shouldn't be new to anyone, but it's worth stating off the bat: video games, even today in their physical forms, are updated in minute ways during the lifetime of their production. The idea of a game being updated *digitally* by the developer is a relatively new evolution – only the last 15-20 years of the 50 year history for home gaming.
 
-What makes these experiences unique isn't only the momentary snapshot in our personal lives when we first experienced the games, but also the actual printed version of the game we received. Believe it or not, 
-
-This shouldn't be new to anyone, but it's worth clarifying: video games, even in their static physical form, are frequently updated in new printed batches during the lifetime of its production. The idea of a game being updated directly by the developer is a relatively new evolution – only the last 15-20 years or so have we had that capability, out of the 50 years of home gaming.
-
-What this post aims to do is shed light on the known print variations of Pocket Monsters: *Green*, *Red*, *Blue*, & *Yellow*, starting from their initial release, up through final printings.
+So, perhaps a new question for you, then: Which copy of Pokemon (or any game) do you receive when you buy it?
 
 *The information below comes from the ever-wise [Mikaifu Collection](https://www.instagram.com/mikaifucollection/).*
 
 ## Pocket Monsters Green & Red
 
 <front and back of red and green>
+
+To start, you can view *A Few Games'* variant run down for *Red* and *Green* each, [here](https://www.afew.games/?search=pocket+monsters%3A+red) and [here](https://www.afew.games/?search=pocket+monsters%3A+green), respectively.
 
 *Green* and *Red* have some of the most complex variations as they were the first, starting in February 1996. The games themselves were prone to bugs, and multiple print changes happened before the design settled near the end of 1996 in time for *Blue*, and later, *Yellow*.
 
