@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { PageHeading } from "./components/page-heading"
 import { DatabaseWrapper } from "./components/database-wrapper"
-import { transformGameProps } from "utils/helpers"
+import { transformGameProps, sortByKey } from "utils/helpers"
 import { BASE_TITLE } from "utils/constants"
 import database from "public/collections/video-game-database.json"
 import contributorData from "public/collections/contributors.json"
@@ -50,6 +50,7 @@ export default function Page() {
         <p className="font-bold">♥ Database Contributors</p>
         <p>
           {contributorData.contributors
+            .sort(sortByKey("name"))
             .map((contributor) => contributor.name)
             .join(", ")}
         </p>

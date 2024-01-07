@@ -8,6 +8,8 @@ import { useFilter, useSearch } from "../../utils/hooks"
 import { DatabasePlatform } from "types/games"
 import { ChangeEventHandler, MouseEventHandler, useState } from "react"
 import { GameList } from "./GameList"
+import { useSearchParams } from "next/navigation"
+import xss from "xss"
 
 type DatabaseWrapperProps = {
   games: DatabasePlatform[]
@@ -38,7 +40,18 @@ DatabaseWrapper.propTypes = {
 }
 
 export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
-  const { defaultSearchValue, searchValue, setSearchValue } = useSearch()
+  const searchParams = useSearchParams()
+
+  const searchQuery = xss(searchParams.get("search") || "")
+  const platformParam = searchParams.getAll("platform")
+  const platformQuery = Array.isArray(platformParam)
+    ? platformParam.map((p) => xss(p).toLowerCase())
+    : platformParam
+      ? [xss(platformParam).toLowerCase()]
+      : []
+
+  const { defaultSearchValue, searchValue, setSearchValue } =
+    useSearch(searchQuery)
   const {
     setDebouncedFilterValue,
     setFilteredPlatforms,
@@ -48,6 +61,7 @@ export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
     gameCount,
   } = useFilter({
     defaultSearchValue,
+    platformQuery,
     games,
     queryData,
   })
@@ -102,6 +116,8 @@ export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
         handleChange={handleChange}
       />
       <FilterOptions
+        searchValue={searchValue}
+        filteredPlatforms={filteredPlatforms}
         items={filteredPlatforms}
         handleClick={handlePillClick}
         handleReset={handlePillResetClick}

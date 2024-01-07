@@ -5,6 +5,7 @@ import {
   useCallback,
   KeyboardEventHandler,
   MouseEventHandler,
+  useEffect,
 } from "react"
 import cn from "classnames"
 import propTypes from "prop-types"
@@ -23,13 +24,26 @@ FilterOptions.propTypes = {
 
 export function FilterOptions({
   items,
+  searchValue,
+  filteredPlatforms,
   handleClick,
   handleReset,
 }: FilterListProps) {
+  const [copied, setCopied] = useState<boolean>(false)
   const [rovingIndex, setRovingIndex] = useState<number>(0)
   const [opened, setOpened] = useState<boolean>(false)
 
   const noneSelected = items.every((item) => !item.selected)
+
+  useEffect(() => {
+    if (copied) {
+      const timerId = setTimeout(() => {
+        setCopied(false)
+      }, 3000)
+
+      return () => clearTimeout(timerId)
+    }
+  }, [copied])
 
   const handleKeydown = useCallback<KeyboardEventHandler<HTMLButtonElement>>(
     (event) => {
@@ -96,18 +110,40 @@ export function FilterOptions({
     setOpened(!opened)
   }, [opened])
 
+  const handleShareClick = useCallback<
+    MouseEventHandler<HTMLButtonElement>
+  >(() => {
+    const platformValues = filteredPlatforms
+      .filter((item) => item.selected)
+      .map((item) => item.value)
+
+    const url = new URL(window.location.origin)
+
+    if (searchValue) {
+      url.searchParams.set("search", searchValue)
+    }
+
+    if (platformValues.length > 0) {
+      platformValues.forEach((p) => url.searchParams.append("platform", p))
+    }
+
+    navigator.clipboard.writeText(url.toString())
+
+    setCopied(true)
+  }, [filteredPlatforms, searchValue])
+
   return (
     <div className="mb-4 rounded-b-lg bg-base-300 p-4">
       <div className={cn("sm:hidden", { "mb-4": opened })}>
         <button
-          className="btn btn-outline btn-xs rounded normal-case"
+          className="btn btn-ghost btn-sm w-full rounded normal-case"
           id="filter-toggle"
           aria-controls="filter-controls"
           aria-expanded={opened}
           onClick={handleToggleClick}
         >
           <span aria-hidden="true">{opened ? "–" : "+"}</span>&nbsp;
-          {opened ? "Hide" : "Show"} Options
+          {opened ? "Hide" : "Show"} Search Options
         </button>
       </div>
       <div
@@ -116,7 +152,7 @@ export function FilterOptions({
         role="region"
         aria-labelledby="filter-toggle"
       >
-        <p id="filter-by" className="mb-2 text-sm font-semibold">
+        <p id="filter-by" className="mb-4 text-xs font-semibold uppercase">
           Filter by platform
         </p>
         <div
@@ -125,10 +161,7 @@ export function FilterOptions({
           role="grid"
         >
           <div role="rowgroup">
-            <div
-              className="mb-4 flex flex-row flex-wrap gap-1 sm:gap-2"
-              role="row"
-            >
+            <div className="flex flex-row flex-wrap gap-1 sm:gap-2" role="row">
               {items.map((item, idx) => {
                 return (
                   <div key={item.value} role="gridcell">
@@ -151,14 +184,28 @@ export function FilterOptions({
             </div>
           </div>
         </div>
-        <div className="flex">
+        <div className="divider my-2" role="separator" />
+        <div className="flex justify-between">
           <button
-            className="btn btn-outline btn-xs rounded normal-case"
+            className="btn btn-ghost btn-sm rounded normal-case"
             onClick={handleReset}
             aria-disabled={noneSelected ? true : undefined}
             disabled={noneSelected}
+            type="button"
           >
-            <span aria-hidden="true">𐌗&nbsp;</span>Clear Selection
+            <span aria-hidden="true">❌</span> Clear Selection
+          </button>
+          <button
+            className={cn("btn btn-sm rounded normal-case", {
+              "btn-ghost": !copied,
+            })}
+            onClick={handleShareClick}
+            type="button"
+            disabled={
+              !searchValue && !filteredPlatforms.some((p) => p.selected)
+            }
+          >
+            {copied ? "Copied ✔" : "Share URL 🔗"}
           </button>
         </div>
       </div>
