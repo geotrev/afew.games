@@ -1,6 +1,6 @@
 ---
 publish_date: 2024-01-07
-title: "Pocket Monsters: Generation 1 Print Variant Breakdown"
+title: "Pocket Monsters: First Generation Print Variant Breakdown"
 description: A visual guide to Pocket Monsters Red, Green, Blue, and Yellow
 ---
 When you received your first copy of Pokemon for Nintendo Game Boy, where were you? Some folks got it as a Christmas present or at the store, in its physical sealed box. Some folks received just a cartridge.
