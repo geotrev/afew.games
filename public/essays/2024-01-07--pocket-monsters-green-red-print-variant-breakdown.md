@@ -65,6 +65,8 @@ The initial release survey was included for the very first round of the games at
 
 It translates to roughly the following:
 
+> Kyoto City Higashiyama Post Office P.O. Box No. 15
+>
 > Thank you for purchasing Pocket Monsters. Sorry to trouble you, we request your opinion as valuable reference for future software in this questionnaire.
 >
 > A lottery will be run for those who participate to receive:
