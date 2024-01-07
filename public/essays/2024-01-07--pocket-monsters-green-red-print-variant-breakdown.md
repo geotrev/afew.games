@@ -121,13 +121,17 @@ The box design, however, never changed from its original printed version.
 
 <front and back of Yellow>
 
-To start, its 24-hour pre-order version came in a sealed bag with post cards, the cards being the first time such an addition was included.
+To start, its 24-hour pre-release version came in a sealed bag with post cards, the cards being the first time such an addition was included.
 
 ![](/uploads/46276c27-3572-46cb-9c11-29c43bd56f03.jpeg)
 
 The game box and contents have no differences from this version apart from the sealed bag with post cards. Given the date on this flyer advertising one day before release (9/11), it's enough to note the distinct variant.
 
 ![](/uploads/878278c8-95bc-4a0c-b73d-d5e536166372.jpeg)
+
+There is one documented copy of this pre-release *Yellow* version that was graded by VGA, as well. It came sealed in the bag, so VGA denoted it as "uncirculated."
+
+![](/uploads/img_2187.jpeg)
 
 ## Hardware ads
 
