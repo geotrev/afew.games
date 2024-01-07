@@ -1,10 +1,10 @@
 ---
 publish_date: 2024-01-07
-title: "Pocket Monsters: Green & Red Print Variant Breakdown"
-description: A visual guide to the first phyhsical games in the most popular
+title: "Pocket Monsters: Generation 1 Print Variant Breakdown"
+description: A visual guide to the first generation of games for the biggest
   franchise on the planet
 ---
-When you received your first copy of Pokemon, where were you? Some folks got it as a Christmas present or at the store, in its physical sealed box. Some folks received just a cartridge.
+When you received your first copy of Pokemon for Nintendo Game Boy, where were you? Some folks got it as a Christmas present or at the store, in its physical sealed box. Some folks received just a cartridge.
 
 What makes these experiences unique isn't only the momentary snapshot in our personal lives when we first experienced the games, but also the actual version of the game we received.
 
@@ -14,7 +14,7 @@ What this post aims to do is shed light on the known print variations of Pocket 
 
 *The information below comes from the ever-wise [Mikaifu Collection](https://www.instagram.com/mikaifucollection/).*
 
-## Early Release
+## Early Release: Pocket Monsters Green & Red
 
 The initial release of Green and Red version had some unique differences, both on the box and the inserts. For the purposes of this post, green version will be the primary reference as the same information applies to both, however exceptions or missing information will be noted as appropriate.
 
@@ -52,10 +52,7 @@ Here's a translated reference on which codes are likely to be found on the earli
 
 ## Inserts
 
-The next important indicator is the earliest printings have the following:
-
-* Initial release survey insert
-* Super Game Boy ad
+The next important indicator is the earliest printings have an initial release survey insert. All other early printings also contain a Super Game Boy ad, but that isn't specific to the very first printings.
 
 ### Survey
 
@@ -71,8 +68,8 @@ It translates to roughly the following:
 >
 > A lottery will be run for those who participate, to receive:
 >
-> * Pocket Monsters Guidebook (issued to 100 people)
-> * We will present Special Playing Cards (issued to 500 people)
+> * 100 Winners: Pocket Monsters Guidebook
+> * 500 Winners: Special Playing Cards
 >
 > In addition, the announcement of the winner will receive a free copy. This is valid until the end of March 1996.
 
@@ -85,3 +82,7 @@ The bottom box featuring Bulbasaur in the survey reads (roughly):
 > Pocket Monsters Guidebook
 >
 > List price undecided, scheduled to be released early March, 1996.
+
+##  Later Printings
+
+Once Red & Green had been out for some time, only a few minor changes occurred to the physical product. Mainly, the inclusion of a Game Boy Camera and Game Boy Color ads to showcase the newest Nintendo had to offer to players.
