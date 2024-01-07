@@ -18,13 +18,15 @@ export const metadata = {
 export default function Page({
   searchParams,
 }: {
-  searchParams?: { search: string; platforms: string }
+  searchParams?: { search: string; platform: string }
 }) {
   const { games, queryData, count } = transformGameProps(database)
   const searchQuery = searchParams?.search ? xss(searchParams.search) : ""
-  const platformQuery = searchParams?.platforms
-    ? xss(searchParams.platforms).split(",")
-    : []
+  const platformQuery = Array.isArray(searchParams?.platform)
+    ? searchParams.platform.map((p) => xss(p).toLowerCase())
+    : searchParams?.platform
+      ? [xss(searchParams?.platform).toLowerCase()]
+      : []
 
   return (
     <>

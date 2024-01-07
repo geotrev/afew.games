@@ -1,7 +1,5 @@
 import { useCallback, useMemo, useState } from "react"
-import { useSearchParams } from "next/navigation"
 import { debounce } from "lodash-es"
-import xss from "xss"
 
 import { DatabasePlatform, DatabaseGame, FilterItem } from "types/games"
 

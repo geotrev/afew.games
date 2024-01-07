@@ -111,6 +111,8 @@ export function DatabaseWrapper({
         handleChange={handleChange}
       />
       <FilterOptions
+        searchValue={searchValue}
+        filteredPlatforms={filteredPlatforms}
         items={filteredPlatforms}
         handleClick={handlePillClick}
         handleReset={handlePillResetClick}
