@@ -46,7 +46,7 @@ A Red or Green cartridge from the true first (or early) printings of the game wi
 
 Here's a translated reference on which codes are likely to be found on the earliest copies of Red, Green, Blue, and Yellow versions:
 
-![Early vs later print codes for Red & Green version cartridges](/uploads/cart-code-table.png)
+![Early vs later stamp codes for Red & Green version cartridges](/uploads/cart-code-table.png)
 
 *Source: [pokemon1gb2rgbp.wiki.fc2.com/](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84)*
 
