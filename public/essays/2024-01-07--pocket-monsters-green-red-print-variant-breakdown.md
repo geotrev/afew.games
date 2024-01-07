@@ -66,7 +66,7 @@ It translates to roughly the following:
 >
 > Thank you for purchasing Pocket Monsters. Sorry to trouble you, we request your opinion as valuable reference for future software in this questionnaire.
 >
-> A lottery will be run for those who participate, to receive:
+> A lottery will be run for those who participate. Winners may receive:
 >
 > * 100 Winners: Pocket Monsters Guidebook
 > * 500 Winners: Special Playing Cards
