@@ -10,7 +10,7 @@ What makes these experiences unique isn't only the momentary snapshot in our per
 
 This shouldn't be new to anyone, but it's worth clarifying: if you are familiar with software, you know that it needs to occasionally be updated for new features and bug fixes. Video games, even in their static physical form, are no different. Given physical games can't really be updated by consumers, the next step is for a game developer to push out a new *physical version* of the game in the form of a print run.
 
-What this post aims to do is shed light on the known print variations of Pocket Monsters: Green & Red, starting from their initial release, up through final printings.
+What this post aims to do is shed light on the known print variations of Pocket Monsters: Green, Red, Blue, & Yellow, starting from their initial release, up through final printings.
 
 *The information below comes from the ever-wise [Mikaifu Collection](https://www.instagram.com/mikaifucollection/).*
 
@@ -85,15 +85,23 @@ The bottom box featuring Bulbasaur in the survey (roughly) reads:
 >
 > Scheduled to be released early March, 1996.
 
+## Pocket Monsters: Blue
+
+*Blue* version is unique for a few reasons. First, it started the first of a "sealed bag" traditional that would continue through *Crystal* version. It also was the first and only game to have a mail order launch, before finally hitting retail proper.
 
 
-## Later Printings
+
+## Pocket Monsters: Yellow
+
+
+
+## Hardware ads
 
 Once *Red*, *Green*, and *Blue* had all been released by August 1996, only a few minor changes occurred to the packaging. Mainly, the inclusion of new cartridge stamp codes (see above) and ads for Game Boy Pocket, Game Boy Camera, Game Boy Color, and N64 to showcase the newest Nintendo had to offer for players.
 
 These ad inserts would also become present in both Blue and Yellow versions, as the new game & hardware release schedules allowed for revisions. 
 
-> ***Note:** This is not intended to showcase print order, rather just some of the chronology of inserts as the games aged while reprints occurred through the late 1990s. A more thorough examination of these inserts is needed to know when they first appeared with revision history.*
+> ***Note:** This is not intended to showcase print order, rather just some of the other inserts as the games aged while reprints occurred through the late 1990s. A more thorough examination of these inserts is needed to know when they appeared and with revision history.*
 
 ### Hardware ads
 
@@ -105,17 +113,21 @@ These ad inserts would also become present in both Blue and Yellow versions, as 
 
 **Shown** (front):
 
-* Left: GB Pocket *(code: `T-DMG-MGB001-JPN-3`)*
+* Left: GB Pocket *ad (code: `T-DMG-MGB001-JPN-3`)*
 * Right: GB Camera ad *(code: `T-DMG-MGB006-JPN`)*
 
 ![Game Boy Pocket & Camera ads, back](/uploads/screenshot-2024-01-07-at-1.42.34-pm.png)
 
 *GB Pocket ad (left) and GB Camera ad (right) – back*
 
-![Caution, Pocket Monsters Stadium + Rumble Pack, and Game Boy Color ads](/uploads/screenshot-2024-01-07-at-1.42.56-pm.png)
+![Anti-tampering notice, Pocket Monsters Stadium ad + Rumble Pack, and Game Boy Color ads](/uploads/screenshot-2024-01-07-at-1.42.56-pm.png)
 
 **Shown** (front)**:**
 
-* Caution notice *(code: `G508989`)*
-* Pocket Monsters Stadium + Rumble Pack ad *(code: `T-DMG-APSJ-JPN`)*
-*  Game Boy Color ad *(code: `T-DMG-CGB001-JPN`)*
+* Top: Anti-tampering notice *(code: `G508989`)*
+* Bottom Left: Pocket Monsters Stadium + Rumble Pack ad *(code: `T-DMG-APSJ-JPN`)*
+* Bottom Right: Game Boy Color ad *(code: `T-DMG-CGB001-JPN`)*
+
+![Anti-tampering notice, Pocket Monsters Stadium + Rumble Pack, and Game Boy Color ads](/uploads/screenshot-2024-01-07-at-1.43.02-pm.png)
+
+Same positions, but showing the back: Anti-tampering notice, Pocket Monsters Stadium + Rumble Pack ad, and Game Boy Color ads
