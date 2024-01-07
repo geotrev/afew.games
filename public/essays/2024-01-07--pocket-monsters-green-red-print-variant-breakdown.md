@@ -75,9 +75,9 @@ It translates to roughly the following:
 
 The game released in February of that year, so the 1-month deadline was for the earliest copies only.
 
-The bottom box featuring Bulbasaur in the survey reads (roughly):
+The bottom box featuring Bulbasaur in the survey (roughly) reads:
 
-> I know it's all about Pocket Monsters!
+> It's all about Pocket Monsters!
 >
 > Pocket Monsters Guidebook
 >
