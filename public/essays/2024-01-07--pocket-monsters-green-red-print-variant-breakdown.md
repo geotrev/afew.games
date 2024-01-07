@@ -101,8 +101,8 @@ Note that this is not intended to showcase print order, rather just some of the 
 
 ![](/uploads/screenshot-2024-01-07-at-1.42.39-pm.png)
 
-*Camera ad (no code) and GB Pocket (3 code) – front*
+*Camera ad (no code) (right) and GB Pocket (3 code) (left) – front*
 
 ![](/uploads/screenshot-2024-01-07-at-1.42.34-pm.png)
 
-*Camera ad (no code) and GB Pocket (3 code) – back*
+*Camera ad (no code) (right) and GB Pocket (3 code) (left) – back*
