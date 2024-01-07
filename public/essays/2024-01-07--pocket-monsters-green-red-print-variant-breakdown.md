@@ -85,24 +85,37 @@ The bottom box featuring Bulbasaur in the survey (roughly) reads:
 >
 > Scheduled to be released early March, 1996.
 
+
+
 ## Later Printings
 
-Once Red & Green had been out for some time, only a few minor changes occurred to the physical product. Mainly, the inclusion of new cartridge stamp codes (see above) and ads for Game Boy Pocket, Game Boy Camera, Game Boy Color, and N64 to showcase the newest Nintendo had to offer for players.
+Once *Red*, *Green*, and *Blue* had all been released by August 1996, only a few minor changes occurred to the packaging. Mainly, the inclusion of new cartridge stamp codes (see above) and ads for Game Boy Pocket, Game Boy Camera, Game Boy Color, and N64 to showcase the newest Nintendo had to offer for players.
 
 These ad inserts would also become present in both Blue and Yellow versions, as the new game & hardware release schedules allowed for revisions. 
 
-Note that this is not intended to showcase print order, rather just some of the chronology of inserts as the games aged while reprints occurred through the late 1990s.
+> ***Note:** This is not intended to showcase print order, rather just some of the chronology of inserts as the games aged while reprints occurred through the late 1990s. A more thorough examination of these inserts is needed to know when they first appeared with revision history.*
 
 ### Hardware ads
 
-![Game Boy Pocket ad, revised](/uploads/screenshot-2024-01-07-at-12.39.33-pm.png)
+![Game Boy Pocket ad](/uploads/screenshot-2024-01-07-at-12.39.33-pm.png)
 
-*GB Pocket ad (1 code) – front*
+*GB Pocket ad (`T-DMG-MGB001-JPN-1`) – front*
 
-![](/uploads/screenshot-2024-01-07-at-1.42.39-pm.png)
+![Game Boy Pocket & Camera ads, front](/uploads/screenshot-2024-01-07-at-1.42.39-pm.png)
 
-*Camera ad (no code) (right) and GB Pocket (3 code) (left) – front*
+**Shown** (front):
 
-![](/uploads/screenshot-2024-01-07-at-1.42.34-pm.png)
+* Left: GB Pocket *(code: `T-DMG-MGB001-JPN-3`)*
+* Right: GB Camera ad *(code: `T-DMG-MGB006-JPN`)*
 
-*Camera ad (no code) (right) and GB Pocket (3 code) (left) – back*
+![Game Boy Pocket & Camera ads, back](/uploads/screenshot-2024-01-07-at-1.42.34-pm.png)
+
+*GB Pocket ad (left) and GB Camera ad (right) – back*
+
+![Caution, Pocket Monsters Stadium + Rumble Pack, and Game Boy Color ads](/uploads/screenshot-2024-01-07-at-1.42.56-pm.png)
+
+**Shown** (front)**:**
+
+* Caution notice *(code: `G508989`)*
+* Pocket Monsters Stadium + Rumble Pack ad *(code: `T-DMG-APSJ-JPN`)*
+*  Game Boy Color ad *(code: `T-DMG-CGB001-JPN`)*
