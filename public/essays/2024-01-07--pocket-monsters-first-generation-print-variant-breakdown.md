@@ -145,7 +145,7 @@ Once *Red*, *Green*, and *Blue* had all been released by August 1996, only a few
 
 These ad inserts would also become present in both *Blue* and *Yellow* versions, as the new game & hardware release schedules allowed for revisions.
 
-> ***Note:** This is not intended to showcase print order, rather just some of the other inserts as the games aged while reprints occurred through the late 1990s. A more thorough examination of these inserts is needed to know when they appeared and with revision history.*
+> **\*Note:** This is not intended to showcase print order, rather just some of the other inserts as the games aged while reprints occurred through the late 1990s. A more thorough examination of these inserts is needed to know when they appeared and with revision history.*
 
 ### Hardware ads
 
@@ -166,7 +166,7 @@ These ad inserts would also become present in both *Blue* and *Yellow* versions,
 
 ![Anti-tampering notice, Pocket Monsters Stadium ad + Rumble Pack, and Game Boy Color ads](/uploads/screenshot-2024-01-07-at-1.42.56-pm.png)
 
-***Shown** (front)**:***
+*Shown (front):*
 
 * *Top: Anti-tampering notice (code: `G508989`)*
 * *Bottom Left: Pocket Monsters Stadium + Rumble Pack ad (code: `T-DMG-APSJ-JPN`)*
