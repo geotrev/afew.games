@@ -6,9 +6,9 @@ description: A visual guide to the first generation of games for the biggest
 ---
 When you received your first copy of Pokemon for Nintendo Game Boy, where were you? Some folks got it as a Christmas present or at the store, in its physical sealed box. Some folks received just a cartridge.
 
-What makes these experiences unique isn't only the momentary snapshot in our personal lives when we first experienced the games, but also the actual version of the game we received.
+What makes these experiences unique isn't only the momentary snapshot in our personal lives when we first experienced the games, but also the actual printed version of the game we received.
 
-This shouldn't be new to anyone, but it's worth clarifying: if you are familiar with software, you know that it needs to occasionally be updated for new features and bug fixes. Video games, even in their static physical form, are no different. Given physical games can't really be updated by consumers, the next step is for a game developer to push out a new *physical version* of the game in the form of a print run.
+This shouldn't be new to anyone, but it's worth clarifying: video games, even in their static physical form, are frequently updated in new printed batches during the lifetime of its production. The idea of a game being updated directly by the developer is a relatively new evolution – only the last 15-20 years or so have we had that capability, out of the 50 years of home gaming.
 
 What this post aims to do is shed light on the known print variations of Pocket Monsters: Green, Red, Blue, & Yellow, starting from their initial release, up through final printings.
 
@@ -17,6 +17,8 @@ What this post aims to do is shed light on the known print variations of Pocket 
 ## Early Release: Pocket Monsters Green & Red
 
 The initial release of Green and Red version had some unique differences, both on the box and the inserts. For the purposes of this post, green version will be the primary reference as the same information applies to both, however exceptions or missing information will be noted as appropriate.
+
+<front and back of red and green>
 
 ### Box
 
