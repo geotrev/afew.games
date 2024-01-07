@@ -99,9 +99,19 @@ The box itself had no barcode.
 
 Retail versions would follow with barcode, similar to *Red* and *Green*.
 
+![Blue verison with barcode added](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
+
+*Blue* version also ended up having a Toyota AUTO promotion that featured a unique box printing, along with a tin box that is still unclear in its purpose with the game itself. Probably contains accessories, but hard to say without more direct evidence.
+
+![Blue version with TOYOTA AUTO promotion](/uploads/screenshot-2024-01-07-at-3.34.43-pm.png)
+
+It's also unclear *when* that promotion occurred.
+
 ## Pocket Monsters: Yellow
 
+Just as Blue was substantially simpler in its printings than Red and Green before it, Yellow proves even simpler with two distinct printings.
 
+To start, its 24-hour pre-order version came in a sealed bag with post cards, the cards being the first time such an addition was included.
 
 ## Hardware ads
 
