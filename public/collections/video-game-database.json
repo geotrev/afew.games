@@ -2184,6 +2184,26 @@
           "variants": [
             {
               "mpn": "CGB-P-BXTJ(JPN)",
+              "country": "Japan",
+              "notes": "Japanese version, Sealed Bag 11/1~12/5 Pre-Order"
+            },
+            {
+              "country": "Japan",
+              "mpn": "CGB-P-BXTJ(JPN)",
+              "notes": "Japanese version, Sealed Bag 12/6~12/17 Pre-Order"
+            },
+            {
+              "country": "Japan",
+              "mpn": "CGB-P-BXTJ(JPN)",
+              "notes": "Japanese version, Sealed Bag 12/18~12/15 Pre-Order"
+            },
+            {
+              "mpn": "CGB-P-BXTJ(JPN)",
+              "country": "Japan",
+              "notes": "Japanese version, Sealed Bag 12/26~1/8 Pre-Order"
+            },
+            {
+              "mpn": "CGB-P-BXTJ(JPN)",
               "notes": "Japanese version",
               "country": "Japan"
             }
@@ -2218,13 +2238,23 @@
           "name": "Pocket Monsters: Silver",
           "variants": [
             {
+              "notes": "Japanese version, Sealed Bag Lawson Pre-Order (1st round), Nov. 1st, 1999",
               "mpn": "DMG-P-AAXJ(JPN)",
-              "notes": "Japanese version, right-side text ",
+              "country": "Japan"
+            },
+            {
+              "mpn": "DMG-P-AAXJ(JPN)",
+              "country": "Japan",
+              "notes": "Japanese version, No N64 Disclaimer"
+            },
+            {
+              "mpn": "DMG-P-AAXJ(JPN)",
+              "notes": "Japanese version, Sealed Bag Lawson Pre-Order (2nd round), Nov. 28th, 1999",
               "country": "Japan"
             },
             {
               "country": "Japan",
-              "notes": "Japanese version, no right-side text",
+              "notes": "Japanese version, N64 Disclaimer",
               "mpn": "DMG-P-AAXJ(JPN)"
             }
           ]
@@ -2490,7 +2520,7 @@
             {
               "country": "Japan",
               "mpn": "DMG-P-APSJ(JPN)",
-              "notes": "Japanese version, Pre-Order w/ Postcards (cartridge codes: 00, 12, 20, 22)"
+              "notes": "Japanese version, Sealed Bag w/ Postcards 24-Hour Pre-Order (cartridge codes: 00, 12, 20, 22)"
             },
             {
               "mpn": "DMG-P-APSJ(JPN)",
