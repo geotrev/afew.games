@@ -121,6 +121,8 @@ It's also unclear *when* that promotion occurred.
 
 Just as *Blue* version was substantially simpler in its printings than *Red* and *Green* before it as the designs settled, *Yellow* version proves even simpler with two distinct printings.
 
+### Seal & Box
+
 To start, its 24-hour pre-release version came in a sealed bag with post cards, the cards being the first time such an addition was included.
 
 ![](/uploads/46276c27-3572-46cb-9c11-29c43bd56f03.jpeg)
@@ -133,13 +135,17 @@ There is one documented copy of this pre-release *Yellow* version that was grade
 
 ![](/uploads/img_2187.jpeg)
 
+### Cartridge
+
+Like *Red* and *Green*, *Yellow* has
+
 ## Hardware ads
 
 Once *Red*, *Green*, and *Blue* had all been released by August 1996, only a few minor changes occurred to the packaging. Mainly, the inclusion of new cartridge stamp codes (see above) and ads for Game Boy Pocket, Game Boy Camera, Game Boy Color, and N64 to showcase the newest Nintendo had to offer for players.
 
 These ad inserts would also become present in both *Blue* and *Yellow* versions, as the new game & hardware release schedules allowed for revisions.
 
-> **\*Note:** This is not intended to showcase print order, rather just some of the other inserts as the games aged while reprints occurred through the late 1990s. A more thorough examination of these inserts is needed to know when they appeared and with revision history.*
+> ***Note:** This is not intended to showcase print order, rather just some of the other inserts as the games aged while reprints occurred through the late 1990s. A more thorough examination of these inserts is needed to know when they appeared and with revision history.*
 
 ### Hardware ads
 
