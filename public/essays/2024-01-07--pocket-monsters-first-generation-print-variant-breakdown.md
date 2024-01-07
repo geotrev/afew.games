@@ -1,7 +1,8 @@
 ---
 publish_date: 2024-01-07
 title: "Pocket Monsters: First Generation Print Variant Breakdown"
-description: A visual guide to Pocket Monsters Red, Green, Blue, and Yellow
+description: A visual guide to the print variants of Pocket Monsters Red, Green,
+  Blue, and Yellow
 ---
 When you received your first copy of Pokemon for Nintendo Game Boy, where were you? Some folks got it as a present or at the store, in its physical sealed box. Some folks received just a cartridge. I received my first Pokemon game, Blue version, as a hand-me-down from my sister. I later would receive Yellow version as a Christmas present. Still one of my favorite Christmas's of all time!
 
@@ -9,7 +10,7 @@ What makes these experiences unique isn't only the momentary snapshot in our per
 
 This shouldn't be new to anyone, but it's worth clarifying: video games, even in their static physical form, are frequently updated in new printed batches during the lifetime of its production. The idea of a game being updated directly by the developer is a relatively new evolution – only the last 15-20 years or so have we had that capability, out of the 50 years of home gaming.
 
-What this post aims to do is shed light on the known print variations of Pocket Monsters: Green, Red, Blue, & Yellow, starting from their initial release, up through final printings.
+What this post aims to do is shed light on the known print variations of Pocket Monsters: *Green*, *Red*, Blue, & Yellow, starting from their initial release, up through final printings.
 
 *The information below comes from the ever-wise [Mikaifu Collection](https://www.instagram.com/mikaifucollection/).*
 
@@ -21,13 +22,13 @@ What this post aims to do is shed light on the known print variations of Pocket 
 
 ### Initial Release
 
-The initial release of Green and Red version had some unique differences, both on the box and the inserts. For the purposes of this post, green version will be the primary reference as the same information applies to both, however exceptions or missing information will be noted as appropriate.
+The initial release of *Green* and *Red* version had some unique differences, both on the box and the inserts. For the purposes of this post, *Green* version will be the primary reference as the same information applies to both, however exceptions or missing information will be noted as appropriate.
 
 #### Box
 
-The main point to draw attention to is the barcode on the back. Early versions of at least Green version had a larger barcode.
+The main point to draw attention to is the barcode on the back. Early versions of at least *Green* version had a larger barcode.
 
-For comparison, a first print Green:
+For comparison, a first print box:
 
 ![First print box with large barcode](/uploads/screenshot-2024-01-07-at-11.54.22-am.png)
 
@@ -45,11 +46,11 @@ Next, let's draw attention to the inside of the box. Almost every piece is impor
 
 #### Cartridge
 
-A Red or Green cartridge from the true first (or early) printings of the game will have either no code at all, or a strictly numerical code stamped onto the cartridge sticker. Here is an example of a mid- to late-production cartridge with the code `20A`:
+A *Red* or *Green* cartridge from the true first (or early) printings of the game will have either no code at all, or a strictly numerical code stamped onto the cartridge sticker. Here is an example of a mid- to late-production cartridge with the code `20A`:
 
 ![Pocket Monsters: Green with sticker code 20A](/uploads/2b19157b-8cc9-4173-a8f1-c803291829fc.jpeg)
 
-Here's a translated reference on which codes are likely to be found on the earliest copies of Red, Green, Blue, and Yellow versions:
+Here's a translated reference on which codes are likely to be found on the earliest copies of *Red*, *Green*, *Blue*, and *Yellow* versions:
 
 ![Early vs later stamp codes for Red & Green version cartridges](/uploads/cart-code-table.png)
 
@@ -118,7 +119,7 @@ It's also unclear *when* that promotion occurred.
 
 <front and back of Yellow>
 
-Just as Blue was substantially simpler in its printings than Red and Green before it, Yellow proves even simpler with two distinct printings.
+Just as *Blue* was substantially simpler in its printings than *Red* and *Green* before it as the designs settled, Yellow proves even simpler with two distinct printings.
 
 The box design, however, never changed from its original printed version.
 
