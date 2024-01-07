@@ -145,7 +145,7 @@ Once *Red*, *Green*, and *Blue* had all been released by August 1996, only a few
 
 These ad inserts would also become present in both *Blue* and *Yellow* versions, as the new game & hardware release schedules allowed for revisions.
 
-> **\*Note:** This is not intended to showcase print order, rather just some of the other inserts as the games aged while reprints occurred through the late 1990s. A more thorough examination of these inserts is needed to know when they appeared and with revision history.*
+> **Note:** This is not intended to showcase print order, rather just some of the other inserts as the games aged while reprints occurred through the late 1990s. A more thorough examination of these inserts is needed to know when they appeared and with revision history.
 
 ### Hardware ads
 
