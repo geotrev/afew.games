@@ -7,24 +7,22 @@ import { DatabasePlatform, DatabaseGame, FilterItem } from "types/games"
 
 type FilterCallback = () => DatabasePlatform[]
 
-export function useSearch() {
-  const searchParams = useSearchParams()
-  const rawSearchParam = searchParams.get("search")
-  const defaultSearchValue =
-    typeof rawSearchParam === "string" ? xss(rawSearchParam) : ""
-  const [searchValue, setSearchValue] = useState<string>(defaultSearchValue)
+export function useSearch(searchQuery: string) {
+  const [searchValue, setSearchValue] = useState<string>(searchQuery)
 
-  return { defaultSearchValue, searchValue, setSearchValue }
+  return { defaultSearchValue: searchQuery, searchValue, setSearchValue }
 }
 
 export function useFilter({
+  defaultSearchValue,
+  platformQuery,
   games,
   queryData,
-  defaultSearchValue,
 }: {
+  defaultSearchValue: string
+  platformQuery: string[]
   games: DatabasePlatform[]
   queryData: Array<string[]>
-  defaultSearchValue: string
 }) {
   const [filterValue, setFilterValue] = useState<string>(defaultSearchValue)
   const setDebouncedFilterValue = useMemo(
@@ -33,7 +31,10 @@ export function useFilter({
   )
 
   const [filteredPlatforms, setFilteredPlatforms] = useState<FilterItem[]>(
-    games.map((p) => ({ value: p.platform, selected: false }))
+    games.map((p) => ({
+      value: p.platform,
+      selected: platformQuery.indexOf(p.platform.toLowerCase()) > -1,
+    }))
   )
   const allSelected: boolean = filteredPlatforms.every((p) => p.selected)
   const noneSelected: boolean = filteredPlatforms.every((p) => !p.selected)

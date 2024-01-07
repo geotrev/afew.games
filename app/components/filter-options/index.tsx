@@ -151,7 +151,7 @@ export function FilterOptions({
             </div>
           </div>
         </div>
-        <div className="flex">
+        <div className="flex justify-between">
           <button
             className="btn btn-outline btn-xs rounded normal-case"
             onClick={handleReset}
@@ -159,6 +159,16 @@ export function FilterOptions({
             disabled={noneSelected}
           >
             <span aria-hidden="true">𐌗&nbsp;</span>Clear Selection
+          </button>
+          <button
+            className="btn btn-outline btn-xs rounded normal-case"
+            onClick={() => {
+              // convert search filter to query string
+              // create url with query string
+              // copy url to clipboard
+            }}
+          >
+            Share Search
           </button>
         </div>
       </div>

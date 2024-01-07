@@ -10,6 +10,8 @@ import { ChangeEventHandler, MouseEventHandler, useState } from "react"
 import { GameList } from "./GameList"
 
 type DatabaseWrapperProps = {
+  searchQuery: string
+  platformQuery: string[]
   games: DatabasePlatform[]
   queryData: Array<string[]>
 }
@@ -37,8 +39,14 @@ DatabaseWrapper.propTypes = {
   queryData: propTypes.arrayOf(propTypes.arrayOf(propTypes.string)).isRequired,
 }
 
-export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
-  const { defaultSearchValue, searchValue, setSearchValue } = useSearch()
+export function DatabaseWrapper({
+  games,
+  queryData,
+  searchQuery,
+  platformQuery,
+}: DatabaseWrapperProps) {
+  const { defaultSearchValue, searchValue, setSearchValue } =
+    useSearch(searchQuery)
   const {
     setDebouncedFilterValue,
     setFilteredPlatforms,
@@ -48,6 +56,7 @@ export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
     gameCount,
   } = useFilter({
     defaultSearchValue,
+    platformQuery,
     games,
     queryData,
   })

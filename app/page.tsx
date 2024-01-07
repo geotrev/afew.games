@@ -1,7 +1,8 @@
 import Link from "next/link"
+import xss from "xss"
 import { PageHeading } from "./components/page-heading"
 import { DatabaseWrapper } from "./components/database-wrapper"
-import { transformGameProps } from "utils/helpers"
+import { transformGameProps, sortByKey } from "utils/helpers"
 import { BASE_TITLE } from "utils/constants"
 import database from "public/collections/video-game-database.json"
 import contributorData from "public/collections/contributors.json"
@@ -14,8 +15,16 @@ export const metadata = {
   description: "A video game database and blog website",
 }
 
-export default function Page() {
+export default function Page({
+  searchParams,
+}: {
+  searchParams?: { search: string; platforms: string }
+}) {
   const { games, queryData, count } = transformGameProps(database)
+  const searchQuery = searchParams?.search ? xss(searchParams.search) : ""
+  const platformQuery = searchParams?.platforms
+    ? xss(searchParams.platforms).split(",")
+    : []
 
   return (
     <>
@@ -44,12 +53,18 @@ export default function Page() {
         </p>
       </div>
       <div className="divider" role="separator" />
-      <DatabaseWrapper games={games} queryData={queryData} />
+      <DatabaseWrapper
+        games={games}
+        queryData={queryData}
+        searchQuery={searchQuery}
+        platformQuery={platformQuery}
+      />
       <div className="divider" role="separator" />
       <div className="prose max-w-full">
         <p className="font-bold">♥ Database Contributors</p>
         <p>
           {contributorData.contributors
+            .sort(sortByKey("name"))
             .map((contributor) => contributor.name)
             .join(", ")}
         </p>
