@@ -54,13 +54,16 @@ Here's a translated reference on which codes are likely to be found on the earli
 
 *Source: [pokemon1gb2rgbp.wiki.fc2.com/](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84)*
 
-Of particular note, *Red* has an additional `22` code, where *Green* doesn't.
+While the earliest stamp codes listed are shared among all early prints, the earliest possible codes as determined from inserts and ROM files:
+
+* *Green*: `00`
+* *Red*: `22`
+
+According to sources in this post, Red eventually did receive a `00` stamp code, but this was shortly after release (late April into May 1996), around the time of the `1.1` software revision.
 
 ##### **Survey**
 
-The next important indicator is the earliest printings have an initial release survey insert.
-
-The initial release survey was included for the very first round of the games at retail.
+The next important indicator is the earliest printings have an initial release survey insert, only available during the first 30 days of release, and had to be returned by the end of March 1996. 
 
 ![Initial release survey request](/uploads/screenshot-2024-01-07-at-11.51.46-am.png)
 
@@ -89,6 +92,8 @@ The bottom box featuring Bulbasaur in the survey (roughly) reads:
 >
 > *Scheduled to be released early March, 1996.*
 
+Of additional note, there is no known Survey containing a *Green* production code. That's to say, sources indicate all surveys have a production code of `DMG-APAJ-JPN`.
+
 ## Pocket Monsters: Blue
 
 ![Pocket Monsters: Blue version, front and back](/uploads/blue-hero.jpg)
@@ -97,7 +102,7 @@ The bottom box featuring Bulbasaur in the survey (roughly) reads:
 
 ### Initial Release
 
-Initial release included the plastic bag with a barcode.
+Announced in October of 1996, then featured in CoroCoro Comic where readers could purchase the game to receive by mail, this initial release included a plastic bag with barcode: 
 
 ![Pocket Monsters Blue version, front](/uploads/0974ad5b-68c4-41ee-abdb-89a2d7bdba19.jpeg)
 
@@ -107,7 +112,7 @@ The mail order box variant had no barcode. Retail versions would later add the b
 
 ![Blue verison with barcode added](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
 
----
+- - -
 
 Separately, *Blue* version ended up having an exclusive *Toyota AUTO* promotion that featured a unique box printing, along with a tin box whose purpose is still unclear. Probably contained some kind of accessory from *Toyota*.
 
@@ -117,11 +122,11 @@ It's also unclear *when* that promotion occurred.
 
 #### Cartridge
 
-Unlike *Red*, *Green*, or *Yellow*, *Blue* had only the same four cartridge stamp codes: `00`, `12`, `20`, and `22`.
+Unlike *Red*, *Green*, or *Yellow*, *Blue* always has the same four cartridge stamp codes: `00`, `12`, `20`, and `22`. T
 
-#### Inserts
+#### Contents
 
-Given *Blue* version's relatively close release to *Red* and *Green*, it ends up having the same inserts, starting with the Super Game Boy ad. It was unlikely to receive any additional inserts between the mail order and retail releases, but this needs to be confirmed.
+Apart from having updated ad inserts in the years following its initial print run, *Blue* received a single manual revision, likely sometime on or shortly after its retail release. The code on the initial run is printed as `DMG-APEJ-JPN`, and the revision is `DMG-APEJ-JPN-1`.
 
 ## Pocket Monsters: Yellow
 
