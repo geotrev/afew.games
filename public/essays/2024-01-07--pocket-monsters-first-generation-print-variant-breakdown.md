@@ -147,11 +147,11 @@ The two notes in the top corner translate (roughly) to:
 >
 > 2. Get exclusive postcards only available through pre-order
 
-Similarly, down in the bottom right corner, youc an see the preorder window as 8/10 through 9/6. Doing so got you the game a whole day earlier!
+Similarly, down in the bottom right corner, the preorder window is stated as `8/10 ~ 9/6`, and a pickup date of `9/11`. You could get the game a whole day earlier!
 
 Any copy acquired this way would definitively be the earliest possible print.
 
-There is one documented copy of this pre-release *Yellow* version that was graded by VGA, as well. It came sealed in the bag, so VGA denoted it as "uncirculated."
+There is one documented copy of this pre-release *Yellow* version that was graded by VGA, as well. It came sealed in the bag, so VGA denoted it as "uncirculated" before encapsulating it. The owner kept the baggie returned from VGA.
 
 ![](/uploads/img_2187.jpeg)
 
