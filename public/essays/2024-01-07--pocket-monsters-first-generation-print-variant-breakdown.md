@@ -8,7 +8,7 @@ This shouldn't be new to anyone, but it's worth stating off the bat: video games
 
 So, perhaps a new question for you, then: Which copy of Pokemon (or any game) did you first receive?
 
-*The information below comes from the ever-wise [Mikaifu Collection](https://www.instagram.com/mikaifucollection/). To see a full list of first generation Pokemon video game variants in the database, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy).*
+*The information below comes from the ever-wise [Mikaifu Collection](https://www.instagram.com/mikaifucollection/) and Thaane (on GetTheGregGames' Discord server). To see a full list of first generation Pokemon video game variants in the database, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy).*
 
 ## Pocket Monsters: Green & Red
 
@@ -44,17 +44,15 @@ The primary note on paperwork to take away is that, over the years, new ad inser
 
 ##### **Cartridge**
 
-A *Red* or *Green* cartridge from the true first printings of the game will have either no code at all, or a strictly numerical code stamped onto the cartridge sticker. Here is an example of the code. This is a mid- to late-production cartridge due to the `A` in the code.
+A *Red* or *Green* cartridge from the true first printings of the game will have either no production code at all, or a strictly numerical code stamped onto the cartridge sticker. Here is an example of a mid- to late-production cartridge, for reference, which contains an `A` in the code:
 
 ![Pocket Monsters: Green with sticker code 20A](/uploads/2b19157b-8cc9-4173-a8f1-c803291829fc.jpeg)
 
-Here's a translated reference on which codes are likely to be found on the earliest copies of *Red*, *Green*, *Blue*, and *Yellow* versions:
+Here's a translated [reference](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84) on which production codes can be found on the earliest copies of *Red*, *Green*, *Blue*, and *Yellow* versions (Blue never had "late" codes):
 
 ![Early vs later stamp codes for Red & Green version cartridges](/uploads/cart-code-table.png)
 
-*Source: [pokemon1gb2rgbp.wiki.fc2.com/](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84)*
-
-While the earliest stamp codes listed are shared among all early prints, the earliest possible codes as determined from inserts and cartridge chip codes dating a few weeks before the games' official launch:
+While the earliest codes listed are shared among all early prints, the earliest possible codes (as determined from inserts and PCB codes) date just a few weeks before their February launch:
 
 * *Green*: `00`
 * *Red*: `22`
