@@ -108,7 +108,7 @@ There is no known Survey containing a *Green* production code. That's to say, so
 
 ### Contents
 
-*Blue* has notably fewer variations to document.
+*Blue* has notably fewer internal variations to document.
 
 #### Box
 
