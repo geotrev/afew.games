@@ -8,51 +8,49 @@ This shouldn't be new to anyone, but it's worth stating off the bat: video games
 
 So, perhaps a new question for you, then: Which copy of Pokemon (or any game) did you first receive?
 
-*The information below comes from the ever-wise [Mikaifu Collection](https://www.instagram.com/mikaifucollection/) and Thaane (on GetTheGregGames' Discord server). To see a full list of first generation Pokemon video game variants in the database, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy).*
+*The information below is largely sourced from [Mikaifu Collection](https://www.instagram.com/mikaifucollection/) and Thaane (on GetTheGregGames' Discord server). To see a full list of first generation Pocket Monsters video game variants in the database, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy).*
 
 ## Pocket Monsters: Green & Red
 
 ![Pocket Monsters: Green and Red versions, front and back](/uploads/red-green-hero.jpg)
 
-*Green* and *Red* have some of the most complex variations as they were the first, starting in February 1996. The games themselves were prone to bugs, and multiple prints happened before the design settled near the end of 1996 in time for *Blue* version, and later in 1998, *Yellow* version.
+Given they were the first games to release for the franchise in February 1996, *Green* and *Red* they have some complex data behind them. The games themselves were prone to bugs, and multiple prints happened before the design settled near the end of 1996 in time for *Blue* version, and later in 1998, *Yellow* version.
+
+With the help of packaging, interviews, and production data, here are the early days of *Pocket Monsters: Red & Green*.
 
 ### Initial Release
 
-The initial release of *Green* and *Red* version had some unique differences, both on the box and the inserts. For the purposes of this post, *Green* version will be the primary reference as the same information applies to both, however exceptions or missing information will be noted as appropriate.
+For the purposes of this section, *Green* version will be the primary reference as most of the information applies to both, however exceptions or missing information will be noted as appropriate.
 
 #### Box
 
-The main point to draw attention to is the barcode on the back. Early versions of at least *Green* version had a larger barcode.
-
-For comparison, a first print box:
+The main point to draw attention to is the barcode on the back. Early versions of at both *Red* and *Green* version were larger than later prints.
 
 ![First print box with large barcode](/uploads/screenshot-2024-01-07-at-11.54.22-am.png)
 
-Compared to subsequent printings:
-
 ![Second print box with smaller barcode](/uploads/screenshot-2024-01-07-at-11.54.26-am.png)
-
-Unfortunately, not enough evidence exists to suggest *Red* version also had a large barcode for its first printing, but it's certainly possible.
 
 #### Contents
 
-Next, let's draw attention to the inside of the box. Almost every piece is important to determine a proper first production copy.
+A few key components are important when identifying a first production example, particularly the cartridge and the initial survey insert to field feedback from early customers.
 
 ![Full contents of a first or early print of Green version ](/uploads/4fa07721-40c5-4449-9303-7871e19aa5be.jpeg)
 
-The primary note on paperwork to take away is that, over the years, new ad inserts were added to showcase new Nintendo hardware (*Game Boy Color*, *Nintendo 64*, etc).
+The only generic inserts included were the *Super Game Boy* and link cable ads.
 
 ##### **Cartridge**
 
-A *Red* or *Green* cartridge from the true first printings of the game will have either no production code at all, or a strictly numerical code stamped onto the cartridge sticker. Here is an example of a mid- to late-production cartridge, for reference, which contains an `A` in the code:
+All Game Boy cartridges have a code stamped onto the sticker. Here is an example of a mid- to late-production cartridge, for reference, which contains an `A` in the code:
 
 ![Pocket Monsters: Green with sticker code 20A](/uploads/2b19157b-8cc9-4173-a8f1-c803291829fc.jpeg)
+
+A *Red* or *Green* cartridge from the true first print runs will have either no production code at all, or a **strictly numerical** code stamped onto the cartridge sticker. 
 
 Here's a translated [reference](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84) on which production codes can be found on the earliest copies of *Red*, *Green*, *Blue*, and *Yellow* versions (Blue never had "late" codes):
 
 ![Early vs later stamp codes for Red & Green version cartridges](/uploads/cart-code-table.png)
 
-While the earliest codes listed are shared among all early prints, the earliest possible codes (as determined from inserts and PCB codes) date just a few weeks before their February launch:
+While the earliest codes listed are shared among all early prints, the first run codes (as determined from inserts and PCB codes) date just a few weeks before their February launch:
 
 * *Green*: `00`
 * *Red*: `22`
