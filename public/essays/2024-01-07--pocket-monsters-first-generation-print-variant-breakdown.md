@@ -106,6 +106,10 @@ There is no known Survey containing a *Green* production code. That's to say, so
 
 ![Pocket Monsters Blue version, front](/uploads/0974ad5b-68c4-41ee-abdb-89a2d7bdba19.jpeg)
 
+### Contents
+
+Blue has notably fewer variants.
+
 #### Box
 
 The mail order box variant had no barcode. Retail versions would include a barcode on the box.
@@ -124,9 +128,11 @@ It's also unclear *when* that promotion occurred.
 
 Unlike *Red*, *Green*, or *Yellow*, *Blue* always has the same four cartridge stamp codes: `00`, `12`, `20`, and `22`, with known launch copies using `20`. There could be parallel launch codes, but that's still unclear.
 
-#### Contents
+#### Manual
 
-Apart from having updated ad inserts in the years following its initial print run, *Blue* received a single manual revision, likely sometime shortly after its retail release. The production code on the initial run is `DMG-APEJ-JPN`, and the revision is `DMG-APEJ-JPN-1`.
+Apart from having updated ad inserts in the years following its initial print run, *Blue* received a single manual revision, likely sometime shortly after its retail release.
+
+The production code on the initial run is `DMG-APEJ-JPN`, and the revision is `DMG-APEJ-JPN-1`.
 
 ## Pocket Monsters: Yellow
 
