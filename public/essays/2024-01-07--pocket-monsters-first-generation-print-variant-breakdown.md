@@ -91,7 +91,7 @@ The bottom box featuring Bulbasaur in the survey (roughly) reads:
 
 ## Pocket Monsters: Blue
 
-<front and back of blue>
+![Pocket Monsters: Blue version, front and back](/uploads/blue-hero.jpg)
 
 *Blue* version is unique for a few reasons. First, it started the first of a "sealed bag" treatment that would continue through *Crystal* version. It also was the first and only game to have a mail order launch, before finally hitting retail proper.
 
@@ -103,15 +103,13 @@ Initial release included the plastic bag with a barcode.
 
 #### Box
 
-The physical box had no barcode.
-
-![Pocket Monsters Blue version, back](/uploads/screenshot-2024-01-07-at-3.17.19-pm.png)
-
-Retail versions would later add the barcode, although it's wider, just like the first print of *Green*, for unknown reasons.
+The mail order box variant had no barcode. Retail versions would later add the barcode, although it's wide just like the first print of *Green*, for unknown reasons.
 
 ![Blue verison with barcode added](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
 
-*Blue* version ended up having an exclusive *Toyota AUTO* promotion that featured a unique box printing, along with a tin box whose purpose is still unclear. Probably contained some kind of accessory from *Toyota*.
+---
+
+Separately, *Blue* version ended up having an exclusive *Toyota AUTO* promotion that featured a unique box printing, along with a tin box whose purpose is still unclear. Probably contained some kind of accessory from *Toyota*.
 
 ![Blue version with TOYOTA AUTO promotion](/uploads/screenshot-2024-01-07-at-3.34.43-pm.png)
 
@@ -127,7 +125,7 @@ Given *Blue* version's relatively close release to *Red* and *Green*, it ends up
 
 ## Pocket Monsters: Yellow
 
-<front and back of Yellow>
+![Pocket Monsters: Blue version, front and back](/uploads/yellow-hero.jpg)
 
 Just as *Blue* version was substantially simpler in its variants compared *Red* and *Green* before it, *Yellow* version proves even simpler with two distinct printings.
 
