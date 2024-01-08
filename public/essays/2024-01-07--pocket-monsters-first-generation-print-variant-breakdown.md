@@ -40,9 +40,11 @@ Next, let's draw attention to the inside of the box. Almost every piece is impor
 
 ![Full contents of a first or early print of Green version ](/uploads/4fa07721-40c5-4449-9303-7871e19aa5be.jpeg)
 
-#### Cartridge
+The primary note on paperwork to take away is that, over the years, new ad inserts were added to showcase new Nintendo hardware (*Game Boy Color*, *Nintendo 64*, etc).
 
-A *Red* or *Green* cartridge from the true first (or early) printings of the game will have either no code at all, or a strictly numerical code stamped onto the cartridge sticker. Here is an example of a mid- to late-production cartridge with the code `20A`:
+##### Cartridge
+
+A *Red* or *Green* cartridge from the true first printings of the game will have either no code at all, or a strictly numerical code stamped onto the cartridge sticker. Here is an example of the code. This is a mid- to late-production cartridge due to the `A` in the code.
 
 ![Pocket Monsters: Green with sticker code 20A](/uploads/2b19157b-8cc9-4173-a8f1-c803291829fc.jpeg)
 
@@ -52,11 +54,9 @@ Here's a translated reference on which codes are likely to be found on the earli
 
 *Source: [pokemon1gb2rgbp.wiki.fc2.com/](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84)*
 
-#### Inserts
-
-The next important indicator is the earliest printings have an initial release survey insert. All other early printings also contain a Super Game Boy ad, but that isn't specific to the very first printings.
-
 ##### Survey
+
+The next important indicator is the earliest printings have an initial release survey insert.
 
 The initial release survey was included for the very first round of the games at retail.
 
@@ -91,7 +91,7 @@ The bottom box featuring Bulbasaur in the survey (roughly) reads:
 
 <front and back of blue>
 
-*Blue* version is unique for a few reasons. First, it started the first of a "sealed bag" traditional that would continue through *Crystal* version. It also was the first and only game to have a mail order launch, before finally hitting retail proper.
+*Blue* version is unique for a few reasons. First, it started the first of a "sealed bag" treatment that would continue through *Crystal* version. It also was the first and only game to have a mail order launch, before finally hitting retail proper.
 
 Initial release included the plastic bag with a barcode.
 
