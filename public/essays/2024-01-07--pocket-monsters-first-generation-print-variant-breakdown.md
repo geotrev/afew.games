@@ -124,7 +124,7 @@ Unlike *Red*, *Green*, or *Yellow*, *Blue* always has the same four cartridge st
 
 #### Contents
 
-Apart from having updated ad inserts in the years following its initial print run, *Blue* received a single manual revision, likely sometime on or shortly after its retail release. The code on the initial run is printed as `DMG-APEJ-JPN`, and the revision is `DMG-APEJ-JPN-1`.
+Apart from having updated ad inserts in the years following its initial print run, *Blue* received a single manual revision, likely sometime shortly after its retail release. The production code on the initial run is `DMG-APEJ-JPN`, and the revision is `DMG-APEJ-JPN-1`.
 
 ## Pocket Monsters: Yellow
 
