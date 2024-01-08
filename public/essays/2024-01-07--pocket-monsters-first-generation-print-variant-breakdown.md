@@ -54,6 +54,8 @@ Here's a translated reference on which codes are likely to be found on the earli
 
 *Source: [pokemon1gb2rgbp.wiki.fc2.com/](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84)*
 
+Of particular note, *Red* has an additional `22` code, where *Green* doesn't.
+
 ##### Survey
 
 The next important indicator is the earliest printings have an initial release survey insert.
@@ -93,29 +95,41 @@ The bottom box featuring Bulbasaur in the survey (roughly) reads:
 
 *Blue* version is unique for a few reasons. First, it started the first of a "sealed bag" treatment that would continue through *Crystal* version. It also was the first and only game to have a mail order launch, before finally hitting retail proper.
 
+### Initial Release
+
 Initial release included the plastic bag with a barcode.
 
 ![Pocket Monsters Blue version, front](/uploads/0974ad5b-68c4-41ee-abdb-89a2d7bdba19.jpeg)
 
-The box itself had no barcode.
+#### Box
+
+The physical box had no barcode.
 
 ![Pocket Monsters Blue version, back](/uploads/screenshot-2024-01-07-at-3.17.19-pm.png)
 
-Retail versions would follow with barcode, similar to *Red* and *Green*.
+Retail versions would later add the barcode, although it's wider, just like the first print of *Green*, for unknown reasons.
 
 ![Blue verison with barcode added](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
 
-*Blue* version also ended up having a Toyota AUTO promotion that featured a unique box printing, along with a tin box that is still unclear in its purpose with the game itself. Probably contains accessories, but hard to say without more direct evidence.
+*Blue* version also ended up having a Toyota AUTO promotion that featured a unique box printing, along with a tin box whose purpose is still unclear. Probably contained some kind of accessory from *Toyota*.
 
 ![Blue version with TOYOTA AUTO promotion](/uploads/screenshot-2024-01-07-at-3.34.43-pm.png)
 
 It's also unclear *when* that promotion occurred.
 
+#### Cartridge
+
+Unlike *Red*, *Green*, or *Yellow*, *Blue* had only the same four cartridge stamp codes: `00`, `12`, `20`, and `22`.
+
+#### Inserts
+
+Given *Blue* version's relatively close release to *Red* and *Green*, it ends up having the same inserts, starting with the Super Game Boy ad. It was unlikely to receive any additional inserts between the mail order and retail releases, but this needs to be confirmed.
+
 ## Pocket Monsters: Yellow
 
 <front and back of Yellow>
 
-Just as *Blue* version was substantially simpler in its printings than *Red* and *Green* before it as the designs settled, *Yellow* version proves even simpler with two distinct printings.
+Just as *Blue* version was substantially simpler in its variants compared *Red* and *Green* before it as the designs settled, *Yellow* version proves even simpler with two distinct printings.
 
 ### Seal & Box
 
