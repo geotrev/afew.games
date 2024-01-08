@@ -1,6 +1,416 @@
 {
   "platforms": [
     {
+      "platform": "Game Boy",
+      "games": [
+        {
+          "name": "Pokemon Yellow Version: Special Pikachu Edition",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG APSE USA",
+              "notes": "Pixelated rating"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG APSE USA",
+              "notes": "No rating"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG APSE USA",
+              "notes": "Solid rating, 100% fiber"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG APSE USA",
+              "notes": "Solid rating, 83% fiber"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Blue Version",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG APEE USA",
+              "notes": "Pixelated rating, Sandshrew screenshot, 'Red' text"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG APEE USA",
+              "notes": "Pixelated rating, Sandshrew screenshot, 'Blue' text"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG APEE USA",
+              "notes": "Pixelated rating, Rattata screenshot"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG APEE USA",
+              "notes": "Solid rating"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Red Version",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG APAE USA",
+              "notes": "Pixelated rating, Sandshrew screenshot"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG APAE USA",
+              "notes": "Pixelated rating, Rattata screenshot"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG APAE USA",
+              "notes": "Solid rating"
+            }
+          ]
+        },
+        {
+          "name": "Pocket Monsters: Yellow",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG-P-APSJ(JPN)",
+              "notes": "Japanese version, Sealed Bag w/ Postcards 24-Hour Pre-Order (cartridge codes: 00, 12, 20, 22)"
+            },
+            {
+              "mpn": "DMG-P-APSJ(JPN)",
+              "country": "Japan",
+              "notes": "Japanese version"
+            }
+          ]
+        },
+        {
+          "name": "Pocket Monsters: Blue",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG-P-APEJ(JPN)",
+              "notes": "Japanese version, Sealed Bag Mail Order, No UPC on Box"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG-P-APEJ(JPN)",
+              "notes": "Japanese version"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG-P-APEJ(JPN)",
+              "notes": "Japanese version, Toyota Auto promotion"
+            }
+          ]
+        },
+        {
+          "name": "Pocket Monsters: Red",
+          "variants": [
+            {
+              "notes": "Japanese version, Super Game Boy insert + Feedback Survey (codes: 00, 20, 22)",
+              "mpn": "DMG-P-APAJ(JPN)",
+              "country": "Japan"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG-P-APAJ(JPN)",
+              "notes": "Japanese version, Super Game Boy insert (codes: 00, 20, 22)"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG-P-APAJ(JPN)",
+              "notes": "Japanese version, Game Boy Pocket insert (1 code)"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG-P-APAJ(JPN)",
+              "notes": "Japanese version, Game Boy Color insert"
+            }
+          ]
+        },
+        {
+          "name": "Pocket Monsters: Green",
+          "variants": [
+            {
+              "notes": "Japanese version, Large UPC, Super Game Boy insert + Feedback Survey (codes: 00, 20)",
+              "country": "Japan",
+              "mpn": "DMG-P-APBJ(JPN)"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG-P-APBJ(JPN)",
+              "notes": "Japanese version, Super Game Boy insert (codes: 00, 20)"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG-P-APBJ(JPN)",
+              "notes": "Japanese version, Game Boy Pocket insert (1 code)"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG-P-APBJ(JPN)",
+              "notes": "Japanese version, Game Boy Color insert"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Land",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P ML",
+              "notes": "3 line warranty"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P ML",
+              "notes": "4 line warranty, Game Boy R"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P ML",
+              "notes": "4 line warranty, Game Boy TM"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P ML",
+              "notes": "Green screenshots"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P ML",
+              "notes": "Green screenshots, 'USA and Canada' text"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P ML",
+              "notes": "Player's Choice"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P ML",
+              "notes": "Yellow screenshots"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P ML",
+              "notes": "Yellow screenshots, 'USA and Canada' text"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P ML",
+              "notes": "Yellow screenshots, 'USA, Canada and Mexico' text"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Land 2: 6 Golden Coins",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P MQ",
+              "notes": ""
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P MQ",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Wario Land: Super Mario Land 3",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P WJ",
+              "notes": ""
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P WJ",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Dr. Mario",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P VU",
+              "notes": "3 line warranty"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P VU",
+              "notes": "4 line warranty"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P VU",
+              "notes": "Player's Choice"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P VU",
+              "notes": "'USA, Canada, and Mexico' text"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: Link's Awakening",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P ZL",
+              "notes": ""
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P ZL",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Tetris",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P TR",
+              "notes": ""
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P TR",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Metroid II: Return of Samus",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P ME",
+              "notes": "3 line warranty"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P ME",
+              "notes": "4 line warranty"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P ME",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Kirby's Dream Land",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P KY",
+              "notes": "3 line warranty"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P KY",
+              "notes": "4 line warranty"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P KY",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Kirby's Dream Land 2",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P AKBE",
+              "notes": ""
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P AKBE",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man: Dr. Wily's Revenge",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P RW",
+              "notes": ""
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P RW",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man II",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P W2",
+              "notes": "Capcom"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P W2",
+              "notes": "Nintendo"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man III",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P W3",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Mega Man IV",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P R4",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Mega Man V",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P WM",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
       "platform": "Xbox One",
       "games": [
         {
@@ -2436,416 +2846,6 @@
               "country": "Japan",
               "mpn": "CGB P B3AE",
               "notes": "Capcom"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "platform": "Game Boy",
-      "games": [
-        {
-          "name": "Pokemon Yellow Version: Special Pikachu Edition",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG APSE USA",
-              "notes": "Pixelated rating"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG APSE USA",
-              "notes": "No rating"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG APSE USA",
-              "notes": "Solid rating, 100% fiber"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG APSE USA",
-              "notes": "Solid rating, 83% fiber"
-            }
-          ]
-        },
-        {
-          "name": "Pokemon Blue Version",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG APEE USA",
-              "notes": "Pixelated rating, Sandshrew screenshot, 'Red' text"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG APEE USA",
-              "notes": "Pixelated rating, Sandshrew screenshot, 'Blue' text"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG APEE USA",
-              "notes": "Pixelated rating, Rattata screenshot"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG APEE USA",
-              "notes": "Solid rating"
-            }
-          ]
-        },
-        {
-          "name": "Pokemon Red Version",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG APAE USA",
-              "notes": "Pixelated rating, Sandshrew screenshot"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG APAE USA",
-              "notes": "Pixelated rating, Rattata screenshot"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG APAE USA",
-              "notes": "Solid rating"
-            }
-          ]
-        },
-        {
-          "name": "Pocket Monsters: Yellow",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG-P-APSJ(JPN)",
-              "notes": "Japanese version, Sealed Bag w/ Postcards 24-Hour Pre-Order (cartridge codes: 00, 12, 20, 22)"
-            },
-            {
-              "mpn": "DMG-P-APSJ(JPN)",
-              "country": "Japan",
-              "notes": "Japanese version"
-            }
-          ]
-        },
-        {
-          "name": "Pocket Monsters: Blue",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG-P-APEJ(JPN)",
-              "notes": "Japanese version, Sealed Bag Mail Order, No UPC on Box"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG-P-APEJ(JPN)",
-              "notes": "Japanese version"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG-P-APEJ(JPN)",
-              "notes": "Japanese version, Toyota Auto promotion"
-            }
-          ]
-        },
-        {
-          "name": "Pocket Monsters: Red",
-          "variants": [
-            {
-              "notes": "Japanese version, Super Game Boy insert + Feedback Survey (cartridge codes: 00, 20, 22, or no code)",
-              "mpn": "DMG-P-APAJ(JPN)",
-              "country": "Japan"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG-P-APAJ(JPN)",
-              "notes": "Japanese version, Super Game Boy insert (cartridge codes: 00, 20, 22)"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG-P-APAJ(JPN)",
-              "notes": "Japanese version, Game Boy Pocket insert"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG-P-APAJ(JPN)",
-              "notes": "Japanese version, Game Boy Color insert"
-            }
-          ]
-        },
-        {
-          "name": "Pocket Monsters: Green",
-          "variants": [
-            {
-              "notes": "Japanese version, Large UPC, Super Game Boy insert + Feedback Survey (cartridge codes: 00, 20, or no code)",
-              "country": "Japan",
-              "mpn": "DMG-P-APBJ(JPN)"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG-P-APBJ(JPN)",
-              "notes": "Japanese version, Super Game Boy insert (cartridge codes: 00, 20)"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG-P-APBJ(JPN)",
-              "notes": "Japanese version, Game Boy Pocket insert"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG-P-APBJ(JPN)",
-              "notes": "Japanese version, Game Boy Color insert"
-            }
-          ]
-        },
-        {
-          "name": "Super Mario Land",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P ML",
-              "notes": "3 line warranty"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P ML",
-              "notes": "4 line warranty, Game Boy R"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P ML",
-              "notes": "4 line warranty, Game Boy TM"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P ML",
-              "notes": "Green screenshots"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P ML",
-              "notes": "Green screenshots, 'USA and Canada' text"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P ML",
-              "notes": "Player's Choice"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P ML",
-              "notes": "Yellow screenshots"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P ML",
-              "notes": "Yellow screenshots, 'USA and Canada' text"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P ML",
-              "notes": "Yellow screenshots, 'USA, Canada and Mexico' text"
-            }
-          ]
-        },
-        {
-          "name": "Super Mario Land 2: 6 Golden Coins",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P MQ",
-              "notes": ""
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P MQ",
-              "notes": "Player's Choice"
-            }
-          ]
-        },
-        {
-          "name": "Wario Land: Super Mario Land 3",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P WJ",
-              "notes": ""
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P WJ",
-              "notes": "Player's Choice"
-            }
-          ]
-        },
-        {
-          "name": "Dr. Mario",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P VU",
-              "notes": "3 line warranty"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P VU",
-              "notes": "4 line warranty"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P VU",
-              "notes": "Player's Choice"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P VU",
-              "notes": "'USA, Canada, and Mexico' text"
-            }
-          ]
-        },
-        {
-          "name": "The Legend of Zelda: Link's Awakening",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P ZL",
-              "notes": ""
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P ZL",
-              "notes": "Player's Choice"
-            }
-          ]
-        },
-        {
-          "name": "Tetris",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P TR",
-              "notes": ""
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P TR",
-              "notes": "Player's Choice"
-            }
-          ]
-        },
-        {
-          "name": "Metroid II: Return of Samus",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P ME",
-              "notes": "3 line warranty"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P ME",
-              "notes": "4 line warranty"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P ME",
-              "notes": "Player's Choice"
-            }
-          ]
-        },
-        {
-          "name": "Kirby's Dream Land",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P KY",
-              "notes": "3 line warranty"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P KY",
-              "notes": "4 line warranty"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P KY",
-              "notes": "Player's Choice"
-            }
-          ]
-        },
-        {
-          "name": "Kirby's Dream Land 2",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P AKBE",
-              "notes": ""
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P AKBE",
-              "notes": "Player's Choice"
-            }
-          ]
-        },
-        {
-          "name": "Mega Man: Dr. Wily's Revenge",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P RW",
-              "notes": ""
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P RW",
-              "notes": "Player's Choice"
-            }
-          ]
-        },
-        {
-          "name": "Mega Man II",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P W2",
-              "notes": "Capcom"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P W2",
-              "notes": "Nintendo"
-            }
-          ]
-        },
-        {
-          "name": "Mega Man III",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P W3",
-              "notes": ""
-            }
-          ]
-        },
-        {
-          "name": "Mega Man IV",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P R4",
-              "notes": ""
-            }
-          ]
-        },
-        {
-          "name": "Mega Man V",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P WM",
-              "notes": ""
             }
           ]
         }
