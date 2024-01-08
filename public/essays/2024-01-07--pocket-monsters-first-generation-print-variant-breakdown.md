@@ -54,7 +54,7 @@ Here's a translated reference on which codes are likely to be found on the earli
 
 *Source: [pokemon1gb2rgbp.wiki.fc2.com/](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84)*
 
-While the earliest stamp codes listed are shared among all early prints, the earliest possible codes as determined from inserts and ROM files:
+While the earliest stamp codes listed are shared among all early prints, the earliest possible codes as determined from inserts and cartridge chip codes dating a few weeks before the games' official launch:
 
 * *Green*: `00`
 * *Red*: `22`
@@ -64,6 +64,8 @@ According to sources in this post, Red eventually did receive a `00` stamp code,
 ##### **Survey**
 
 The next important indicator is the earliest printings have an initial release survey insert, only available during the first 30 days of release, and had to be returned by the end of March 1996. 
+
+Ishihara-san, now President of *Game Freak,* [indicated](https://iwataasks.nintendo.com/interviews/ds/pokemon/0/0/) that initial sales were lower than expected during this launch period, which explains why these surveys are relatively scarce.
 
 ![Initial release survey request](/uploads/screenshot-2024-01-07-at-11.51.46-am.png)
 
@@ -82,7 +84,7 @@ It translates to roughly the following:
 
 The game released in February of that year, so the 1-month deadline was for the earliest copies only.
 
-The bottom box featuring Bulbasaur in the survey (roughly) reads:
+The bottom box featuring *Bulbasaur* in the survey (roughly) reads:
 
 > *It's all about Pocket Monsters!*
 >
@@ -102,7 +104,7 @@ Of additional note, there is no known Survey containing a *Green* production cod
 
 ### Mail Order Release
 
-*Blue* versionwas [announced in October of 1996](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Blue_Version_(Japanese)), then featured in CoroCoro Comic where readers were informed they could purchase the game to receive by mail. This initial release included a plastic bag. The application period was October 15th through December 27th of that year.
+*Blue* versionwas [announced in October of 1996](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Blue_Version_(Japanese)), then [featured in CoroCoro Comic](https://lavacutcontent.com/corocoro-comic-pokemon-blue/) where readers were informed they could purchase the game to receive by mail. This initial release included a plastic bag. The application period was October 15th through December 27th of that year.
 
 ![Pocket Monsters Blue version, front](/uploads/0974ad5b-68c4-41ee-abdb-89a2d7bdba19.jpeg)
 
