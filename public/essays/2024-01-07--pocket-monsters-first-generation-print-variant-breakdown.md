@@ -1,5 +1,5 @@
 ---
-publish_date: 2024-01-07
+publish_date: 2024-01-08
 title: "Pocket Monsters: First Generation Print Variant Breakdown"
 description: A visual guide to the print variants of Pocket Monsters Red, Green,
   Blue, and Yellow
