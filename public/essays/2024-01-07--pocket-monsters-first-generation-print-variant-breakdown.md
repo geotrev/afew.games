@@ -157,11 +157,11 @@ There is one documented copy of this pre-release *Yellow* version that was grade
 
 ### Cartridge
 
-Like *Red* and *Green*, *Yellow* has multiple codes, some exclusive to the very earliest print run. They include 
+Like *Red* and *Green*, *Yellow* has multiple codes, some exclusive to the very earliest print run. They include `00`, `12`, `20`, and `22`.
 
 ### Contents
 
-Contents likely have no differences between print variants, including the additional inserts, given the game's release so late in the Game Boy's fast-ending life.
+Other than the cartridge, contents are likely to have no differences between print variants, including ad inserts, given the game's release so late in the *Game Boy*'s lifespan.
 
 ## Additional inserts (shared between games)
 
