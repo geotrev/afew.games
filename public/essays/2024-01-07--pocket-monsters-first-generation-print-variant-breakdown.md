@@ -129,17 +129,29 @@ Given *Blue* version's relatively close release to *Red* and *Green*, it ends up
 
 <front and back of Yellow>
 
-Just as *Blue* version was substantially simpler in its variants compared *Red* and *Green* before it as the designs settled, *Yellow* version proves even simpler with two distinct printings.
+Just as *Blue* version was substantially simpler in its variants compared *Red* and *Green* before it, *Yellow* version proves even simpler with two distinct printings.
 
 ### Seal & Box
 
-To start, its 24-hour pre-release version came in a sealed bag with post cards, the cards being the first time such an addition was included.
+To start, its 24-hour pre-release version came in a sealed bag with post cards, the cards being the first instance such an addition was included.
 
 ![](/uploads/46276c27-3572-46cb-9c11-29c43bd56f03.jpeg)
 
-The game box and contents have no differences from its standard retail counterpart, apart from the sealed bag with post cards. Given the date on this flyer advertising one day before release (9/11), it's enough to note the distinct variant.
+Other than the bag, the box has no difference from post-release variants.
 
 ![](/uploads/878278c8-95bc-4a0c-b73d-d5e536166372.jpeg)
+
+The two notes in the top corner translate (roughly) to:
+
+> Get the game 1 day earlier than actual release
+
+and...
+
+> Get exclusive postcards only available through pre-order
+
+Similarly, down in the bottom right corner, youc an see the preorder window as 8/10 through 9/6. Doing so got you the game a whole day earlier!
+
+Any copy acquired this way would definitively be the earliest possible print.
 
 There is one documented copy of this pre-release *Yellow* version that was graded by VGA, as well. It came sealed in the bag, so VGA denoted it as "uncirculated."
 
@@ -147,36 +159,40 @@ There is one documented copy of this pre-release *Yellow* version that was grade
 
 ### Cartridge
 
-Like *Red* and *Green*, *Yellow* has
+Like *Red* and *Green*, *Yellow* has multiple codes, some exclusive to the very earliest print run. They include 
 
-## Hardware ads
+### Contents
 
-Once *Red*, *Green*, and *Blue* had all been released by August 1996, only a few minor changes occurred to the packaging. Mainly, the inclusion of new cartridge stamp codes (see above) and ads for Game Boy Pocket, Game Boy Camera, Game Boy Color, and N64 to showcase the newest Nintendo had to offer for players.
+Contents likely have no differences between print variants, including the additional inserts, given the game's release so late in the Game Boy's fast-ending life.
 
-These ad inserts would also become present in both *Blue* and *Yellow* versions, as the new game & hardware release schedules allowed for revisions.
+## Additional inserts (shared between games)
 
-> **Note:** This is not intended to showcase print order, rather just some of the other inserts as the games aged while reprints occurred through the late 1990s. A more thorough examination of these inserts is needed to know when they appeared and with revision history.
+Between the releases of *Blue* and *Y*ellow*,* very few changes occurred to the packaging. Mainly, the inclusion of new cartridge stamp codes (see above) and ads for *Game Boy Pocket*, *Game Boy Camera*, *Game Boy Color*, and *Nintendo 64* were added to showcase the newest Nintendo had to offer.
+
+These newer ad inserts became present in all versions over time.
+
+> **Note:** This is not intended to showcase print order, rather just some of the other inserts as the games aged while reprints occurred through the late 1990s. A more thorough examination of these inserts is needed to know when they first appeared and when revisions occurred
 
 ### Hardware ads
 
 ![Game Boy Pocket ad](/uploads/screenshot-2024-01-07-at-12.39.33-pm.png)
 
-*GB Pocket ad (`T-DMG-MGB001-JPN-1`) – front*
+*Front: GB Pocket ad (`T-DMG-MGB001-JPN-1`)*
 
 ![Game Boy Pocket & Camera ads, front](/uploads/screenshot-2024-01-07-at-1.42.39-pm.png)
 
-**Shown** (front):
+*Showing front:*
 
 * *Left: GB Pocket ad (code: `T-DMG-MGB001-JPN-3`)*
 * *Right: GB Camera ad (code: `T-DMG-MGB006-JPN`)*
 
 ![Game Boy Pocket & Camera ads, back](/uploads/screenshot-2024-01-07-at-1.42.34-pm.png)
 
-*GB Pocket ad (left) and GB Camera ad (right) – back*
+*Back: Same as prior inserts*
 
 ![Anti-tampering notice, Pocket Monsters Stadium ad + Rumble Pack, and Game Boy Color ads](/uploads/screenshot-2024-01-07-at-1.42.56-pm.png)
 
-*Shown (front):*
+*Showing front:*
 
 * *Top: Anti-tampering notice (code: `G508989`)*
 * *Bottom Left: Pocket Monsters Stadium + Rumble Pack ad (code: `T-DMG-APSJ-JPN`)*
@@ -184,4 +200,8 @@ These ad inserts would also become present in both *Blue* and *Yellow* versions,
 
 ![Anti-tampering notice, Pocket Monsters Stadium + Rumble Pack, and Game Boy Color ads](/uploads/screenshot-2024-01-07-at-1.43.02-pm.png)
 
-*Same positions, but showing the back: Anti-tampering notice, Pocket Monsters Stadium + Rumble Pack ad, and Game Boy Color ads*
+*Back: Same as prior inserts*
+
+---
+
+I hope this dive down history lane was helpful! It makes for a fun collecting hunt when you can find the most obscure, early prints of these extremely common games. Best of luck in your search!
