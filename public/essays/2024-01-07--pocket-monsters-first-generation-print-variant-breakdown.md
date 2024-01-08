@@ -138,11 +138,11 @@ The production code on the initial run is `DMG-APEJ-JPN`, and the revision is `D
 
 ![Pocket Monsters: Blue version, front and back](/uploads/yellow-hero.jpg)
 
-Just as *Blue* version was substantially simpler in its variants compared *Red* and *Green* before it, *Yellow* version proves even simpler with two distinct printings.
+*Yellow* version proves simple in its box variants with two distinct printings, however its cartridge is more complex .
 
 ### Seal & Box
 
-To start, its 24-hour pre-release version came in a sealed bag with post cards, the cards being the first instance such an addition was included.
+To start, the 24-hour pre-release version came in a sealed bag with post cards, the cards being the first instance such an addition was included.
 
 ![](/uploads/46276c27-3572-46cb-9c11-29c43bd56f03.jpeg)
 
