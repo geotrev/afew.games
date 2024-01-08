@@ -12,9 +12,9 @@ So, perhaps a new question for you, then: Which copy of Pokemon (or any game) di
 
 ## Pocket Monsters: Green & Red
 
-<front and back of red and green>
+![Pocket Monsters: Green and Red versions, front and back](/uploads/red-green-hero.jpg)
 
-*Green* and *Red* have some of the most complex variations as they were the first, starting in February 1996. The games themselves were prone to bugs, and multiple print changes happened before the design settled near the end of 1996 in time for *Blue*, and later, *Yellow*.
+*Green* and *Red* have some of the most complex variations as they were the first, starting in February 1996. The games themselves were prone to bugs, and multiple prints happened before the design settled near the end of 1996 in time for *Blue* version, and later in 1998, *Yellow* version.
 
 ### Initial Release
 
@@ -144,7 +144,6 @@ Other than the bag, the box has no difference from post-release variants.
 The two notes in the top corner translate (roughly) to:
 
 > 1. Get the game 1 day earlier than actual release
->
 > 2. Get exclusive postcards only available through pre-order
 
 Similarly, down in the bottom right corner, the preorder window is stated as `8/10 ~ 9/6`, and a pickup date of `9/11`. You could get the game a whole day earlier!
