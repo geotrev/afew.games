@@ -112,13 +112,13 @@ There is no known Survey containing a *Green* production code. That's to say, so
 
 #### Box
 
-The mail order box variant had no barcode. Retail versions would include a barcode on the box.
+The mail order box variant had no barcode, however the retail version did include one.
 
 ![Blue verison with barcode added](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
 
 - - -
 
-Separately, *Blue* version ended up having an exclusive *TOYOTA AUTO* promotion that featured a unique box printing, along with a tin box whose purpose is still unclear. Might have contained an accessory.
+Separately, *Blue* version ended up having an exclusive *TOYOTA AUTO* promotion that featured a unique box printing, along with a tin box whose purpose is still unclear. It might have contained an accessory!
 
 ![Blue version with TOYOTA AUTO promotion](/uploads/screenshot-2024-01-07-at-3.34.43-pm.png)
 
