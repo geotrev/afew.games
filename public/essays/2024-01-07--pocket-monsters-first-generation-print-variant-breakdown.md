@@ -6,15 +6,13 @@ description: A visual guide to the print variants of Pocket Monsters Red, Green,
 ---
 This shouldn't be new to anyone, but it's worth stating off the bat: video games, even today in their physical forms, are updated in minute ways during the lifetime of their production. The idea of a game being updated *digitally* by the developer is a relatively new evolution – only the last 15-20 years of the 50 year history for home gaming.
 
-So, perhaps a new question for you, then: Which copy of Pokemon (or any game) do you receive when you buy it?
+So, perhaps a new question for you, then: Which copy of Pokemon (or any game) did you first receive?
 
-*The information below comes from the ever-wise [Mikaifu Collection](https://www.instagram.com/mikaifucollection/).*
+*The information below comes from the ever-wise [Mikaifu Collection](https://www.instagram.com/mikaifucollection/). To see a full list of first generation Pokemon video game variants in the database, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy).*
 
 ## Pocket Monsters Green & Red
 
 <front and back of red and green>
-
-To start, you can view *A Few Games'* variant run down for *Red* and *Green* each, [here](https://www.afew.games/?search=pocket+monsters%3A+red) and [here](https://www.afew.games/?search=pocket+monsters%3A+green), respectively.
 
 *Green* and *Red* have some of the most complex variations as they were the first, starting in February 1996. The games themselves were prone to bugs, and multiple print changes happened before the design settled near the end of 1996 in time for *Blue*, and later, *Yellow*.
 
