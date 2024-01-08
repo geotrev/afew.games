@@ -42,7 +42,7 @@ Next, let's draw attention to the inside of the box. Almost every piece is impor
 
 The primary note on paperwork to take away is that, over the years, new ad inserts were added to showcase new Nintendo hardware (*Game Boy Color*, *Nintendo 64*, etc).
 
-##### Cartridge
+##### **Cartridge**
 
 A *Red* or *Green* cartridge from the true first printings of the game will have either no code at all, or a strictly numerical code stamped onto the cartridge sticker. Here is an example of the code. This is a mid- to late-production cartridge due to the `A` in the code.
 
@@ -56,7 +56,7 @@ Here's a translated reference on which codes are likely to be found on the earli
 
 Of particular note, *Red* has an additional `22` code, where *Green* doesn't.
 
-##### Survey
+##### **Survey**
 
 The next important indicator is the earliest printings have an initial release survey insert.
 
@@ -111,7 +111,7 @@ Retail versions would later add the barcode, although it's wider, just like the 
 
 ![Blue verison with barcode added](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
 
-*Blue* version also ended up having a Toyota AUTO promotion that featured a unique box printing, along with a tin box whose purpose is still unclear. Probably contained some kind of accessory from *Toyota*.
+*Blue* version ended up having an exclusive *Toyota AUTO* promotion that featured a unique box printing, along with a tin box whose purpose is still unclear. Probably contained some kind of accessory from *Toyota*.
 
 ![Blue version with TOYOTA AUTO promotion](/uploads/screenshot-2024-01-07-at-3.34.43-pm.png)
 
@@ -202,6 +202,6 @@ These newer ad inserts became present in all versions over time.
 
 *Back: Same as prior inserts*
 
----
+- - -
 
 I hope this dive down history lane was helpful! It makes for a fun collecting hunt when you can find the most obscure, early prints of these extremely common games. Best of luck in your search!
