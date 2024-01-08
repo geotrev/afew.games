@@ -106,13 +106,13 @@ There is no known Survey containing a *Green* production code. That's to say, so
 
 #### Box
 
-The mail order box variant had no barcode. Retail versions would later add the barcode, although it's wide just like the first print of *Green*, for unknown reasons.
+The mail order box variant had no barcode. Retail versions would include a barcode on the box.
 
 ![Blue verison with barcode added](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
 
 - - -
 
-Separately, *Blue* version ended up having an exclusive *Toyota AUTO* promotion that featured a unique box printing, along with a tin box whose purpose is still unclear. Probably contained some kind of accessory from *Toyota*.
+Separately, *Blue* version ended up having an exclusive *TOYOTA AUTO* promotion that featured a unique box printing, along with a tin box whose purpose is still unclear. Might have contained an accessory.
 
 ![Blue version with TOYOTA AUTO promotion](/uploads/screenshot-2024-01-07-at-3.34.43-pm.png)
 
@@ -120,7 +120,7 @@ It's also unclear *when* that promotion occurred.
 
 #### Cartridge
 
-Unlike *Red*, *Green*, or *Yellow*, *Blue* always has the same four cartridge stamp codes: `00`, `12`, `20`, and `22`. T
+Unlike *Red*, *Green*, or *Yellow*, *Blue* always has the same four cartridge stamp codes: `00`, `12`, `20`, and `22`, with known launch copies using `20`. There could be parallel launch codes, but that's still unclear.
 
 #### Contents
 
