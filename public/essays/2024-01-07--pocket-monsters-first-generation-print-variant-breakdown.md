@@ -55,11 +55,13 @@ While the earliest codes listed are shared among all early prints, the first run
 * *Green*: `00`
 * *Red*: `22`
 
-According to sources for this post, Red eventually received a `00` stamp code, but this well after release (late April into May 1996), around the time of a `1.1` software revision.
+According to sources for this post, Red eventually received a `00` stamp code, but this well after release (late April into May 1996), around the time of a `1.1` software revision. Same for *Green*, but with the `20` code.
+
+Ultimately, both would switch over to `00A` (*Green*) and `22A` (*Red*) revisions, which appear to be the most commonly circulated cartridge variants.
 
 ##### **Survey**
 
-The next important indicator is the earliest printings have an initial release survey insert, only available during the first 30 days of release, and had to be returned by the end of March 1996. 
+The next important indicator is the earliest printings have an initial release survey insert, only available during the first 30 days of release, and had to be returned by the end of March 1996.
 
 Ishihara-san, now President of *Game Freak,* [indicated](https://iwataasks.nintendo.com/interviews/ds/pokemon/0/0/) that initial sales were lower than expected during the first 30 days, which explains why these surveys are relatively scarce.
 
