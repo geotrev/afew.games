@@ -169,9 +169,9 @@ There is one documented copy of this pre-release *Yellow* version that was grade
 
 Like *Red* and *Green*, *Yellow* has multiple codes, some exclusive to the very earliest print run. They include `00`, `12`, `20`, and `22`.
 
-### Contents
+Later print runs were quite complicated, however. Each letter in the production code indicates a full revision. Given there are codes ending in `D`, that means Yellow had at least **four** additional revisions produced.
 
-Other than the cartridge, contents are likely to have no differences between print variants, including ad inserts, given the game's release so late in the *Game Boy*'s lifespan.
+Other than the cartridge, other contents aren't likely to have any differences despite the cartridge being updated so often. Especially considering the game's release is so late in the *Game Boy*'s lifespan.
 
 ## Additional inserts (shared between games)
 
