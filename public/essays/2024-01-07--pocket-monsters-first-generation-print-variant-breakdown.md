@@ -143,11 +143,9 @@ Other than the bag, the box has no difference from post-release variants.
 
 The two notes in the top corner translate (roughly) to:
 
-> Get the game 1 day earlier than actual release
-
-and...
-
-> Get exclusive postcards only available through pre-order
+> 1. Get the game 1 day earlier than actual release
+>
+> 2. Get exclusive postcards only available through pre-order
 
 Similarly, down in the bottom right corner, youc an see the preorder window as 8/10 through 9/6. Doing so got you the game a whole day earlier!
 
