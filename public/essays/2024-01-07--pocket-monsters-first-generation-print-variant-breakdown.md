@@ -98,11 +98,11 @@ Of additional note, there is no known Survey containing a *Green* production cod
 
 ![Pocket Monsters: Blue version, front and back](/uploads/blue-hero.jpg)
 
-*Blue* version is unique for a few reasons. First, it started the first of a "sealed bag" treatment that would continue through *Crystal* version. It also was the first and only game to have a mail order launch, before finally hitting retail proper.
+*Blue* version is unique for a few reasons. First, it started the first of a "sealed bag" treatment that would continue through *Crystal* version. It also was the first and only game to have a mail order launch before hitting retail proper.
 
-### Initial Release
+### Mail Order Release
 
-Announced in October of 1996, then featured in CoroCoro Comic where readers could purchase the game to receive by mail, this initial release included a plastic bag with barcode: 
+*Blue* versionwas [announced in October of 1996](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Blue_Version_(Japanese)), then featured in CoroCoro Comic where readers were informed they could purchase the game to receive by mail. This initial release included a plastic bag. The application period was October 15th through December 27th of that year.
 
 ![Pocket Monsters Blue version, front](/uploads/0974ad5b-68c4-41ee-abdb-89a2d7bdba19.jpeg)
 
