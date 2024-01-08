@@ -10,7 +10,7 @@ So, perhaps a new question for you, then: Which copy of Pokemon (or any game) di
 
 *The information below comes from the ever-wise [Mikaifu Collection](https://www.instagram.com/mikaifucollection/). To see a full list of first generation Pokemon video game variants in the database, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy).*
 
-## Pocket Monsters Green & Red
+## Pocket Monsters: Green & Red
 
 <front and back of red and green>
 
