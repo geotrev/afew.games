@@ -155,7 +155,7 @@ The two notes in the top corner translate (roughly) to:
 > 1. Get the game 1 day earlier than actual release
 > 2. Get exclusive postcards only available through pre-order
 
-Similarly, down in the bottom right corner, the preorder window is stated as `8/10 ~ 9/6`, and a pickup date of `9/11`. You could get the game a whole day earlier!
+Similarly, down in the bottom right corner, the preorder window is stated as `8/10 ~ 9/6`, and a pickup date of `9/11`. 
 
 Any copy acquired this way would definitively be the earliest possible print.
 
