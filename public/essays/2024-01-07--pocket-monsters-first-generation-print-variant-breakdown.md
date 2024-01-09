@@ -107,8 +107,6 @@ This initial version included a plastic bag. The application period was October 
 
 ![Pocket Monsters Blue version, front](/uploads/0974ad5b-68c4-41ee-abdb-89a2d7bdba19.jpeg)
 
-*Source: The Mikaifu Collection*
-
 ### Contents
 
 *Blue* has notably fewer internal variations to document.
@@ -118,8 +116,6 @@ This initial version included a plastic bag. The application period was October 
 The mail order variant had no barcode on the actual box (see above photos), however the retail version did include one:
 
 ![Blue verison with barcode added](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
-
-*Source: Yahoo Auctions Japan*
 
 [According to @RB1989421GB](https://twitter.com/RB1989421GB/status/1440053195808526337), The retail version was supposedly only made available after *Yellow* version released, on October 10, 1999.
 
