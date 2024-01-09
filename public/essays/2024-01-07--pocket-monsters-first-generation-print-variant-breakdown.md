@@ -33,7 +33,7 @@ The main point to draw attention to is the barcode on the back. Early versions o
 
 A few key components are important when identifying a first production example, particularly the cartridge and the initial survey insert to field feedback from early customers.
 
-![Full contents of a first or early print of Green version ](/uploads/4fa07721-40c5-4449-9303-7871e19aa5be.jpeg)
+![Full contents of a first-print of Green version ](/uploads/4fa07721-40c5-4449-9303-7871e19aa5be.jpeg)
 
 The only generic inserts included were the *Super Game Boy* and link cable ads.
 
