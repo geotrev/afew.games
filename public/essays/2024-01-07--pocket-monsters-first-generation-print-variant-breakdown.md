@@ -7,7 +7,7 @@ description: A visual guide to Pocket Monsters Red, Green, Blue, and Yellow prin
 
 This shouldn't be new to anyone, but it's worth stating off the bat: video games, even today in their physical forms, are updated in minuscule ways during the lifetime of their production. 
 
-*Pocket Monsters* is no different. Game Freak, despite its presence for the franchise, is still somewhat scrappy compared to the other AAA studios. Hopefully this information helps illuminate that Game Freak has always been this way – especially in the beginning.
+*Pocket Monsters* is no different. *Game Freak*, despite its presence for the biggest franchise in the world, is still somewhat scrappy compared to the other AAA studios. Hopefully this information helps illuminate that *Game Freak* has always been this way – especially in the beginning.
 
 ## Pocket Monsters: Green & Red
 
