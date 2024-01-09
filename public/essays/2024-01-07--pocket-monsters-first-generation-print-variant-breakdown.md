@@ -107,23 +107,29 @@ This initial version included a plastic bag. The application period was October 
 
 ![Pocket Monsters Blue version, front](/uploads/0974ad5b-68c4-41ee-abdb-89a2d7bdba19.jpeg)
 
+*Source: The Mikaifu Collection*
+
 ### Contents
 
 *Blue* has notably fewer internal variations to document.
 
 #### Box
 
-The mail order box variant had no barcode, however the retail version did include one.
+The mail order variant had no barcode on the actual box (see above photos), however the retail version did include one:
 
 ![Blue verison with barcode added](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
 
-- - -
+*Source: Yahoo Auctions Japan*
 
-Separately, *Blue* version ended up having an exclusive *TOYOTA AUTO* promotion that featured a unique box printing, along with a tin box whose purpose is still unclear. It might have contained an accessory!
+[According to @RB1989421GB](https://twitter.com/RB1989421GB/status/1440053195808526337), The retail version was supposedly only made available after *Yellow* version released, on October 10, 1999.
+
+Before the retail release, however, *Blue* version ended up having an exclusive *TOYOTA AUTO* promotion that featured a unique box printing, along with a tin box whose purpose is still unclear. It may have contained an accessory from *Toyota*.
 
 ![Blue version with TOYOTA AUTO promotion](/uploads/screenshot-2024-01-07-at-3.34.43-pm.png)
 
-It's also unclear *when* that promotion occurred.
+According to the same source as above:
+
+> The Toyota version was distributed as a commemorative gift to those who signed a contract during the Toyota campaign period in 1997, as a set of Toyota limited model *Game Boy Pocket Skeleton & Pokemon Blue Version*. There is a Toyota Auto **sticker** on the box.
 
 #### Cartridge
 
@@ -131,7 +137,7 @@ Unlike *Red*, *Green*, or *Yellow*, *Blue* always has the same four cartridge st
 
 #### Manual
 
-Apart from having updated ad inserts in the years following its initial print run, *Blue* received a single manual revision, likely sometime shortly after its retail release.
+Apart from having updated ad inserts in the years following its initial and *Toyota* print run, *Blue* received a single manual revision sometime after the *Toyota* limited promotion.
 
 The production code on the initial run is `DMG-APEJ-JPN`, and the revision is `DMG-APEJ-JPN-1`.
 
