@@ -49,7 +49,7 @@ Here's a translated [reference](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88
 
 ![Early vs later stamp codes for Red & Green version cartridges](/uploads/cart-code-table.png)
 
-While the earliest codes listed are shared among all early prints, the first run codes (as determined from inserts and PCB codes) date just a few weeks before their February launch:
+While the earliest codes listed are shared among all early prints, here are strong contenders for first run codes (as determined from inserts and PCB codes). These cartridges have PCB components with date codes just a few weeks before their February launch:
 
 * *Green*: `00`
 * *Red*: `22`
