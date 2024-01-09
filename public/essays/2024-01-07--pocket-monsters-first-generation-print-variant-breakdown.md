@@ -3,7 +3,7 @@ publish_date: 2024-01-08
 title: "Pocket Monsters: First Generation Print Variant Breakdown"
 description: A visual guide to Pocket Monsters Red, Green, Blue, and Yellow print runs
 ---
-*The information below is largely sourced from **[Mikaifu Collection](https://www.instagram.com/mikaifucollection/)** and **Thaane** (*GetTheGregGames*' Discord server). To see a list of first generation* Pocket Monsters *video game variants as they exist in AFG's database, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy). This post is therefore supplemental information.*
+*This post is supplemental information. To see a list of first generation* Pocket Monsters *print variants as they exist in AFG's database, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy). This information is largely sourced from **[Mikaifu Collection](https://www.instagram.com/mikaifucollection/)** and **Thaane** (both members of* [GetTheGregGames](https://www.youtube.com/c/GetTheGregGames)*' Discord server). A full list of sources can be found at the end of this post.*
 
 This shouldn't be new to anyone, but it's worth stating off the bat: video games, even today in their physical forms, are updated in minuscule ways during the lifetime of their production. 
 
@@ -141,6 +141,12 @@ Apart from having updated ad inserts in the years following its initial and *Toy
 
 The production code on the initial run is `DMG-APEJ-JPN`, and the revision is `DMG-APEJ-JPN-1`.
 
+#### Matching Contents
+
+![](/uploads/e_wwxh8vqaqcx7p.jpg)
+
+While unconfirmed, if the source on Twitter is reliable, the mail order version seems to include a *Nintendo 64* ad, and at least one retail print variant included a *Game Boy Color* ad *(code: `T-DMG-CGB001-JPN`).*
+
 ## Pocket Monsters: Yellow
 
 ![Pocket Monsters: Blue version, front and back](/uploads/yellow-hero.jpg)
@@ -220,3 +226,11 @@ These newer ad inserts became present in all versions over time.
 - - -
 
 I hope this dive down history lane was helpful! It makes for a fun collecting hunt when you can find the most obscure, early prints of these extremely common games. Best of luck in your search!
+
+## Sources
+
+* [The Mikaifu Collection](https://www.instagram.com/mikaifucollection/) - General timeline information
+* Thaane (via SACK Discord server) – PCB & production code data
+* [RB1989421GB](https://twitter.com/RB1989421GB) - Blue version variants & dates
+* pokemon1gb2rgbp.wiki.fc2.com/ [[1](https://pokemon1gb2rgbp.wiki.fc2.com/)] [[2](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/初期版・後期版の違い)]
+* nintendo.co.jp [[1](https://www.nintendo.co.jp/n02/dmg/apajapbj/index.html)] [[2](https://www.nintendo.co.jp/n02/dmg/apej/index.html)] [[3](https://www.nintendo.co.jp/n02/dmg/apsj/index.html)]
