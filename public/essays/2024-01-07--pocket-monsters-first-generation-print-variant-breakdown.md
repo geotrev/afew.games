@@ -54,9 +54,9 @@ While the earliest codes listed are shared among all early prints, here are stro
 * *Green*: `00`
 * *Red*: `22`
 
-According to sources for this post, Red eventually received a `00` stamp code, but this well after release (late April into May 1996).
+According to sources, Red eventually received a `00` stamp code, but this was well after the initial release period (late April into May 1996).
 
-Sometime before November, `00A` (*Green*) and `22A` (*Red*) revisions were printed for a `1.1` software version, which would also be the sole revision for *Blue* version by the end of the same year.
+Sometime before November of 1996, the revisions `00A` (*Green*) and `22A` (*Red*) were printed for the `1.1` software version, which would also be the sole revision used on *Blue* version (released at the end of the same year).
 
 ##### **Survey**
 
