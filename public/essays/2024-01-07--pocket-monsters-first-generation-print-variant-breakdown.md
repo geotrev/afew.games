@@ -186,7 +186,7 @@ Later print runs were quite complicated, however. Each letter in the production 
 
 Other than the cartridge, other contents aren't likely to have any differences despite the cartridge being updated so often. Especially considering the game's release is so late in the *Game Boy*'s lifespan.
 
-## Additional inserts (shared between games)
+## Shared ad inserts
 
 Between the releases of *Blue* and *Y*ellow*,* very few changes occurred to the packaging. Mainly, the inclusion of new cartridge stamp codes (see above) and ads for *Game Boy Pocket*, *Game Boy Camera*, *Game Boy Color*, and *Nintendo 64* were added to showcase the newest Nintendo had to offer.
 
@@ -231,6 +231,6 @@ I hope this dive down history lane was helpful! It makes for a fun collecting hu
 
 * [The Mikaifu Collection](https://www.instagram.com/mikaifucollection/) - General timeline information
 * Thaane (via SACK Discord server) – PCB & production code data
-* [RB1989421GB](https://twitter.com/RB1989421GB) - Blue version variants & dates
+* [RB1989421GB](https://twitter.com/RB1989421GB) - *Blue* version variants & history
 * pokemon1gb2rgbp.wiki.fc2.com/ [[1](https://pokemon1gb2rgbp.wiki.fc2.com/)] [[2](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/初期版・後期版の違い)]
 * nintendo.co.jp [[1](https://www.nintendo.co.jp/n02/dmg/apajapbj/index.html)] [[2](https://www.nintendo.co.jp/n02/dmg/apej/index.html)] [[3](https://www.nintendo.co.jp/n02/dmg/apsj/index.html)]
