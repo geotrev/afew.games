@@ -1,10 +1,9 @@
 ---
 publish_date: 2024-01-08
 title: "Pocket Monsters: First Generation Print Variant Breakdown"
-description: A visual guide to the print variants of Pocket Monsters Red, Green,
-  Blue, and Yellow
+description: A visual guide to Pocket Monsters Red, Green, Blue, and Yellow print runs
 ---
-This shouldn't be new to anyone, but it's worth stating off the bat: video games, even today in their physical forms, are updated in minute ways during the lifetime of their production. The idea of a game being updated *digitally* by the developer is a relatively new evolution – only the last 15-20 years of the 50 year history for home gaming.
+This shouldn't be new to anyone, but it's worth stating off the bat: video games, even today in their physical forms, are updated in minuscule ways during the lifetime of their production. The idea of a game being updated *digitally*, directly by the developer is a relatively new evolution – only the last 15-20 years of the 50 year history for home gaming.
 
 So, perhaps a new question for you, then: Which copy of Pokemon (or any game) did you first receive?
 
