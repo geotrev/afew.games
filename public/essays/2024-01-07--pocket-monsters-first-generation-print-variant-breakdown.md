@@ -3,11 +3,11 @@ publish_date: 2024-01-08
 title: "Pocket Monsters: First Generation Print Variant Breakdown"
 description: A visual guide to Pocket Monsters Red, Green, Blue, and Yellow print runs
 ---
-This shouldn't be new to anyone, but it's worth stating off the bat: video games, even today in their physical forms, are updated in minuscule ways during the lifetime of their production. The idea of a game being updated *digitally*, directly by the developer is a relatively new evolution – only the last 15-20 years of the 50 year history for home gaming.
+*The information below is largely sourced from [Mikaifu Collection](https://www.instagram.com/mikaifucollection/) and Thaane (GetTheGregGames' Discord server). To see a full list of first generation Pocket Monsters video game variants in the database, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy).*
 
-So, perhaps a new question for you, then: Which copy of Pokemon (or any game) did you first receive?
+This shouldn't be new to anyone, but it's worth stating off the bat: video games, even today in their physical forms, are updated in minuscule ways during the lifetime of their production. The idea of a game being updated *digitally*, directly by the developer is a relatively new evolution – only the last 15-20 years of the 50 year history for home gaming!
 
-*The information below is largely sourced from [Mikaifu Collection](https://www.instagram.com/mikaifucollection/) and Thaane (on GetTheGregGames' Discord server). To see a full list of first generation Pocket Monsters video game variants in the database, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy).*
+Pocket Monsters is no different. Game Freak, despite its presence for the franchise, is still somewhat scrappy compared to the other AAA studios. Hopefully this information helps illuminate that Game Freak has always, to a degree, 
 
 ## Pocket Monsters: Green & Red
 
