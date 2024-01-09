@@ -3,7 +3,7 @@ publish_date: 2024-01-08
 title: "Pocket Monsters: First Generation Print Variant Breakdown"
 description: A visual guide to Pocket Monsters Red, Green, Blue, and Yellow print runs
 ---
-*This post is supplemental information. To see a list of first generation* Pocket Monsters *print variants as they exist in AFG's database, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy). This information is largely sourced from **[Mikaifu Collection](https://www.instagram.com/mikaifucollection/)** and **Thaane** (both members of* [GetTheGregGames](https://www.youtube.com/c/GetTheGregGames)*' Discord server). A full list of sources can be found at the end of this post.*
+*This post is supplemental to the database. To see a list of first generation* Pocket Monsters *print variants as they exist on A Few Games, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy). A full list of sources can be found at the end of this post.*
 
 This shouldn't be new to anyone, but it's worth stating off the bat: video games, even today in their physical forms, are updated in minuscule ways during the lifetime of their production. 
 
@@ -119,11 +119,11 @@ The mail order variant had no barcode on the actual box (see above photos), howe
 
 [According to @RB1989421GB](https://twitter.com/RB1989421GB/status/1440053195808526337), The retail version was supposedly only made available after *Yellow* version released, on October 10, 1999.
 
-Before the retail release, however, *Blue* version ended up having an exclusive *TOYOTA AUTO* promotion that featured a unique box printing, along with a tin box whose purpose is still unclear. It may have contained an accessory from *Toyota*.
+Uniquely, *Blue* version had an exclusive *TOYOTA AUTO* promotion that features a Toyota Auto sticker. The box doesn't appear to have any different characteristics compared to the mail order variant.
 
-![Blue version with TOYOTA AUTO promotion](/uploads/screenshot-2024-01-07-at-3.34.43-pm.png)
+![Blue version with TOYOTA AUTO promotion](/uploads/screenshot-2024-01-08-at-8.58.26-pm.png)
 
-According to the same source as above:
+According to @RB1989421GB on *Twitter*:
 
 > The Toyota version was distributed as a commemorative gift to those who signed a contract during the Toyota campaign period in 1997, as a set of Toyota limited model *Game Boy Pocket Skeleton & Pokemon Blue Version*. There is a Toyota Auto **sticker** on the box.
 
