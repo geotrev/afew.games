@@ -52,7 +52,7 @@ A *Red* or *Green* cartridge from the true first print runs will have a **strict
 
 According to sources, Red would receive a `00` stamp code, but this was well after the initial release period (late April into May 1996). Sometime before November 1996, the revisions `00A` (*Green*) and `22A` (*Red*) were printed for the `1.1` software version, which would also be the sole revision used on *Blue* version (released at the end of the same year).
 
-Here's a translated [reference](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84) on which production codes can be found on the earliest copies of *Red*, *Green*, *Blue*, and *Yellow* versions (Blue never had "late" codes), as gathered by folks in the Japanese collecting/gaming communities:
+Here's a translated reference on which production codes can be found on various copies of *Red*, *Green*, *Blue*, and *Yellow* versions, as gathered by folks in the Japanese collecting/gaming communities:
 
 ![Early vs later stamp codes for Red & Green version cartridges](/uploads/cart-code-table.png)
 
