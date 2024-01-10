@@ -39,11 +39,11 @@ The only generic inserts included were the *Super Game Boy* and link cable ads. 
 
 ##### **Cartridge**
 
-All Game Boy cartridges have a code stamped onto the sticker. Here is an example of a mid- to late-production cartridge, for reference, which contains an `A` in the code:
+All Game Boy cartridges have a code stamped onto the sticker. Here is an example of an early, if not first production copy of *Green* version:
 
 ![Pocket Monsters: Green with sticker code 20A](/uploads/screenshot-2024-01-09-at-8.56.16-pm.png)
 
-A *Red* or *Green* cartridge from the true first print runs will have a **strictly numerical** code stamped onto the cartridge sticker. There are unconfirmed reports of no code cartridges, but historically these have been an indication of a reproduction cartridge; this post will be updated if that can be confirmed.
+A *Red* or *Green* cartridge from the true first print runs will have a **strictly numerical** code stamped onto the cartridge sticker. There are unconfirmed reports of no code cartridges, but historically these have been an indication of a reproduction cartridge. Should evidence emerge to validate those reports, this post will be updated to reflect it.
 
 Here's a translated [reference](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84) on which production codes can be found on the earliest copies of *Red*, *Green*, *Blue*, and *Yellow* versions (Blue never had "late" codes), as gathered by folks in the Japanese collecting/gaming communities:
 
