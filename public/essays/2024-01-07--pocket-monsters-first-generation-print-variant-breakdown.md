@@ -45,11 +45,7 @@ All Game Boy cartridges have a code stamped onto the sticker. Here is an example
 
 A *Red* or *Green* cartridge from the true first print runs will have a **strictly numerical** code stamped onto the cartridge sticker. There are unconfirmed reports of no code cartridges, but historically these have been an indication of a reproduction cartridge. Should evidence emerge to validate those reports, this post will be updated to reflect it.
 
-Here's a translated [reference](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84) on which production codes can be found on the earliest copies of *Red*, *Green*, *Blue*, and *Yellow* versions (Blue never had "late" codes), as gathered by folks in the Japanese collecting/gaming communities:
-
-![Early vs later stamp codes for Red & Green version cartridges](/uploads/cart-code-table.png)
-
-While the earliest codes listed are shared among all early prints, here are strong contenders for first run codes (as determined from inserts and PCB codes). These cartridges have PCB components with date codes just a few weeks before their February launch:
+[Mask ROM](https://handwiki.org/wiki/Mask_ROM) date codes for the following production codes on Green and Red suggest they were among the very first manufactured, and should be in the earliest productions of the game:
 
 * *Green*: `00`
 * *Red*: `22`
@@ -57,6 +53,10 @@ While the earliest codes listed are shared among all early prints, here are stro
 According to sources, Red eventually received a `00` stamp code, but this was well after the initial release period (late April into May 1996).
 
 Sometime before November of 1996, the revisions `00A` (*Green*) and `22A` (*Red*) were printed for the `1.1` software version, which would also be the sole revision used on *Blue* version (released at the end of the same year).
+
+Here's a translated [reference](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84) on which production codes can be found on the earliest copies of *Red*, *Green*, *Blue*, and *Yellow* versions (Blue never had "late" codes), as gathered by folks in the Japanese collecting/gaming communities:
+
+![Early vs later stamp codes for Red & Green version cartridges](/uploads/cart-code-table.png)
 
 ##### **Survey**
 
