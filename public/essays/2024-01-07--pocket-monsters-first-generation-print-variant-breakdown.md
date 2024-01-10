@@ -31,17 +31,17 @@ The main point to draw attention to is the barcode on the back. Early versions o
 
 #### Contents
 
-A few key components are important when identifying a first production example, particularly the cartridge and the initial survey insert to field feedback from early customers.
+A few key components are important when identifying a first production example, particularly the cartridge and a survey postcard.
 
 ![Full contents of a first-print of Green version ](/uploads/4fa07721-40c5-4449-9303-7871e19aa5be.jpeg)
 
-The only generic inserts included were the *Super Game Boy* and link cable ads.
+The only generic inserts included were the *Super Game Boy* and link cable ads. The map was included with every print of the game.
 
 ##### **Cartridge**
 
 All Game Boy cartridges have a code stamped onto the sticker. Here is an example of a mid- to late-production cartridge, for reference, which contains an `A` in the code:
 
-![Pocket Monsters: Green with sticker code 20A](/uploads/2b19157b-8cc9-4173-a8f1-c803291829fc.jpeg)
+![Pocket Monsters: Green with sticker code 20A](/uploads/screenshot-2024-01-09-at-8.56.16-pm.png)
 
 A *Red* or *Green* cartridge from the true first print runs will have a **strictly numerical** code stamped onto the cartridge sticker. There are unconfirmed reports of no code cartridges, but historically these have been an indication of a reproduction cartridge; this post will be updated if that can be confirmed.
 
