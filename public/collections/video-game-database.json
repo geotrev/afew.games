@@ -2070,6 +2070,26 @@
       "platform": "Game Boy Advance",
       "games": [
         {
+          "name": "Konami Collector's Series: Arcade Advanced",
+          "variants": [
+            {
+              "notes": "Blue Box, New Konami Logo",
+              "mpn": "AGB P AKCE",
+              "country": "Japan"
+            },
+            {
+              "mpn": "AGB P AKCE",
+              "country": "Japan",
+              "notes": "Blue box, Old Konami Logo"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P AKCE",
+              "notes": "Orange box, Old Konami Logo"
+            }
+          ]
+        },
+        {
           "name": "Pocket Monsters: Sapphire",
           "variants": [
             {
