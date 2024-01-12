@@ -1,33 +1,10 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export function SocialLinks() {
   return (
-    <span className="flex gap-2 pe-2">
-      <a
-        className="btn btn-success btn-sm block py-0.5"
-        href="https://buymeacoffee.com/afew.games"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Buy a coffee for George, the maintainer of A Few Games"
-      >
-        <picture>
-          <source
-            type="image/svg+xml"
-            media="(max-width: 600px)"
-            width="18px"
-            srcSet="/bmc-logo-small.svg 18w"
-          />
-          <source type="image/svg+xml" srcSet="/bmc-full-logo.svg" />
-          <Image
-            src="/bmc-full-logo.svg"
-            alt=""
-            role="presentation"
-            height={26}
-            width={120}
-          />
-        </picture>
-      </a>
-      <a
+    <span className="flex gap-2">
+      <Link
         className="btn btn-ghost btn-sm flex items-center py-0.5"
         href="https://github.com/geotrev/afew.games"
         target="_blank"
@@ -41,7 +18,22 @@ export function SocialLinks() {
           height={22}
           width={22}
         />
-      </a>
+      </Link>
+      <Link
+        className="btn btn-success btn-sm block py-0.5"
+        href="https://buymeacoffee.com/afew.games"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Buy a coffee for George, the maintainer of A Few Games"
+      >
+        <Image
+          src="/bmc-full-logo.svg"
+          alt=""
+          role="presentation"
+          height={26}
+          width={120}
+        />
+      </Link>
     </span>
   )
 }

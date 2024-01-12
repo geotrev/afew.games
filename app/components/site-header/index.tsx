@@ -6,8 +6,9 @@ import Logo from "./logo"
 import { SocialLinks } from "../social-links"
 
 const Routes = {
-  ESSAYS_PATH: "/essays",
   HOME_PATH: "/",
+  ESSAYS_PATH: "/essays",
+  ABOUT_PATH: "/about",
 }
 
 const NavigationItems = [
@@ -21,13 +22,18 @@ const NavigationItems = [
     isActive: (pathname: string) => pathname.startsWith(Routes.ESSAYS_PATH),
     label: "Essays",
   },
+  {
+    route: Routes.ABOUT_PATH,
+    isActive: (pathname: string) => pathname.startsWith(Routes.ABOUT_PATH),
+    label: "About",
+  },
 ]
 
 export function SiteHeader() {
   const pathname = usePathname()
 
   return (
-    <header className="navbar items-start bg-transparent px-0 pb-8 pt-0 sm:items-center">
+    <header className="navbar items-start bg-transparent px-0 pb-8 pt-0">
       <div className="flex-1" itemScope itemType="https://schema.org/Blog">
         <a
           href={Routes.HOME_PATH}
@@ -36,7 +42,7 @@ export function SiteHeader() {
           <Logo />
         </a>
       </div>
-      <nav className="flex flex-col items-end gap-2 sm:flex-row-reverse sm:items-center">
+      <nav className="flex flex-col items-end gap-2">
         <div className="tabs-boxed tabs gap-2">
           {NavigationItems.map(({ label, isActive, route }) => {
             const active = isActive(pathname)
