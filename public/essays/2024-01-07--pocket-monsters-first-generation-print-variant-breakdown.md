@@ -1,6 +1,6 @@
 ---
 publish_date: 2024-01-15
-title: "Pocket Monsters: First Generation Print Variant Breakdown"
+title: "Pocket Monsters: Red & Green Print Variant Breakdown"
 description: A visual guide to Pocket Monsters Red, Green, Blue, and Yellow print runs
 ---
 *This post is supplemental to the database. To see a list of first generation* Pocket Monsters *print variants as they exist on A Few Games, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy). A full list of sources can be found at the end of this post.*
@@ -72,7 +72,7 @@ The most obvious indicator in the earliest printings is a survey insert only ava
 
 Ishihara-san, President & CEO of *Game Freak,* [indicated](https://iwataasks.nintendo.com/interviews/ds/pokemon/0/0/) in an interview that initial sales were lower than expected during the first 30 days, which explains why these surveys are relatively scarce today.
 
-![Initial release survey request](/uploads/screenshot-2024-01-07-at-11.51.46-am.png)
+![Feedback survey, front](/uploads/survey-front.png)
 
 It translates to roughly the following:
 
@@ -99,133 +99,11 @@ The bottom box (featuring *Bulbasaur)* in the survey (roughly) reads:
 
 This text lines up perfectly for the late February release of the games.
 
+And of course, here is the information side customers fill out:
+
+![Feedback survey, back](/uploads/survey-back.png)
+
 Fun fact: Sources tell me that the surveys always have a *Red* production code. That's to say, they have a production code of `DMG-APAJ-JPN`, where APAJ is the *Red* version code.
-
-## Pocket Monsters: Blue
-
-![Pocket Monsters: Blue version, front and back](/uploads/blue-hero.jpg)
-
-*Blue* version is unique for a few reasons. First, it started the first of a "sealed bag" treatment that would continue through *Crystal* version. It also was the first and only game to have a mail order launch before hitting retail proper.
-
-### Mail Order Release
-
-*Blue* version was [announced on October 15th, 1996](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Blue_Version_(Japanese)), then [featured in CoroCoro Comic](https://lavacutcontent.com/corocoro-comic-pokemon-blue/) where readers were informed they could purchase & receive the game by mail.
-
-This initial version included a plastic bag. The application period was October 15th through December 27th, 1996, to celebrate one million sales for *Red* and *Green*.
-
-![Pocket Monsters Blue version, front](/uploads/0974ad5b-68c4-41ee-abdb-89a2d7bdba19.jpeg)
-
-### Contents
-
-*Blue* has notably fewer internal variations to document.
-
-#### Box
-
-The mail order variant had no barcode on the actual box (see above photos), however the retail version did include one:
-
-![Blue verison with barcode added](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
-
-[According to @RB1989421GB](https://twitter.com/RB1989421GB/status/1440053195808526337), The retail version was supposedly only made available after *Yellow* version released, on October 10, 1999.
-
-Uniquely, *Blue* version had an exclusive *TOYOTA AUTO* promotion that features a Toyota Auto sticker. The box doesn't appear to have any different characteristics compared to the mail order variant.
-
-![Blue version with TOYOTA AUTO promotion](/uploads/screenshot-2024-01-08-at-8.58.26-pm.png)
-
-According to @RB1989421GB on *Twitter*:
-
-> The Toyota version was distributed as a commemorative gift to those who signed a contract during the Toyota campaign period in 1997, as a set of Toyota limited model *Game Boy Pocket Skeleton & Pokemon Blue Version*. There is a Toyota Auto **sticker** on the box.
-
-#### Cartridge
-
-Unlike *Red*, *Green*, or *Yellow*, *Blue* always has the same four cartridge stamp codes: `00`, `12`, `20`, and `22`, with known launch copies using `20`. There could be parallel launch codes, but that's still unclear.
-
-#### Manual
-
-Apart from having updated ad inserts in the years following its initial and *Toyota* print run, *Blue* received a single manual revision sometime after the *Toyota* limited promotion.
-
-The production code on the initial run is `DMG-APEJ-JPN`, and the revision is `DMG-APEJ-JPN-1`.
-
-#### Matching Contents
-
-![](/uploads/e_wwxh8vqaqcx7p.jpg)
-
-While unconfirmed, if the source on Twitter is reliable, the mail order version seems to include a *Nintendo 64* ad, and at least one retail print variant included a *Game Boy Color* ad *(code: `T-DMG-CGB001-JPN`).*
-
-## Pocket Monsters: Yellow
-
-![Pocket Monsters: Blue version, front and back](/uploads/yellow-hero.jpg)
-
-*Yellow* version proves simple in its box variants with two distinct printings, however its cartridge is more complex .
-
-### Seal & Box
-
-To start, the 24-hour pre-release version came in a sealed bag with post cards, the cards being the first instance such an addition was included.
-
-![](/uploads/46276c27-3572-46cb-9c11-29c43bd56f03.jpeg)
-
-Other than the bag, the box has no difference from post-release variants.
-
-![](/uploads/878278c8-95bc-4a0c-b73d-d5e536166372.jpeg)
-
-The two notes in the top corner translate (roughly) to:
-
-> 1. Get the game 1 day earlier than actual release
-> 2. Get exclusive postcards only available through pre-order
-
-Similarly, down in the bottom right corner, the preorder window is stated as `8/10 ~ 9/6`, and a pickup date of `9/11`. 
-
-Any copy acquired this way would definitively be the earliest possible print.
-
-- - -
-
-There is one documented copy of this pre-release *Yellow* version that was graded by VGA as well. It came sealed in the bag, so VGA denoted it as "uncirculated" before encapsulating it. VGA returned the baggie to the owner as shown in the photo below.
-
-![](/uploads/img_2187.jpeg)
-
-### Cartridge
-
-Like *Red* and *Green*, *Yellow* has multiple codes, some exclusive to the very earliest print run. They include `00`, `12`, `20`, and `22`.
-
-Later print runs were quite complicated, however. Each letter in the production code indicates a full revision. Given there are codes ending in `D`, that means Yellow had at least **four** additional revisions produced.
-
-Other than the cartridge, other contents aren't likely to have any differences despite the cartridge being updated so often. Especially considering the game's release is so late in the *Game Boy*'s lifespan.
-
-## Shared ad inserts
-
-Between the releases of *Blue* and *Y*ellow*,* very few changes occurred to the packaging. Mainly, the inclusion of new cartridge stamp codes (see above) and ads for *Game Boy Pocket*, *Game Boy Camera*, *Game Boy Color*, and *Nintendo 64* were added to showcase the newest Nintendo had to offer.
-
-These newer ad inserts became present in all versions over time.
-
-> **Note:** This is not intended to showcase print order, rather just some of the other inserts as the games aged while reprints occurred through the late 1990s. A more thorough examination of these inserts is needed to know when they first appeared and when revisions occurred
-
-### Hardware ads
-
-![Game Boy Pocket ad](/uploads/screenshot-2024-01-07-at-12.39.33-pm.png)
-
-*Front: GB Pocket ad (`T-DMG-MGB001-JPN-1`)*
-
-![Game Boy Pocket & Camera ads, front](/uploads/screenshot-2024-01-07-at-1.42.39-pm.png)
-
-*Showing front:*
-
-* *Left: GB Pocket ad (code: `T-DMG-MGB001-JPN-3`)*
-* *Right: GB Camera ad (code: `T-DMG-MGB006-JPN`)*
-
-![Game Boy Pocket & Camera ads, back](/uploads/screenshot-2024-01-07-at-1.42.34-pm.png)
-
-*Back: Same as prior inserts*
-
-![Anti-tampering notice, Pocket Monsters Stadium ad + Rumble Pack, and Game Boy Color ads](/uploads/screenshot-2024-01-07-at-1.42.56-pm.png)
-
-*Showing front:*
-
-* *Top: Anti-tampering notice (code: `G508989`)*
-* *Bottom Left: Pocket Monsters Stadium + Rumble Pack ad (code: `T-DMG-APSJ-JPN`)*
-* *Bottom Right: Game Boy Color ad (code: `T-DMG-CGB001-JPN`)*
-
-![Anti-tampering notice, Pocket Monsters Stadium + Rumble Pack, and Game Boy Color ads](/uploads/screenshot-2024-01-07-at-1.43.02-pm.png)
-
-*Back: Same as prior inserts*
 
 - - -
 
