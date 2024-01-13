@@ -1,5 +1,5 @@
 ---
-publish_date: 2024-01-08
+publish_date: 2024-01-15
 title: "Pocket Monsters: First Generation Print Variant Breakdown"
 description: A visual guide to Pocket Monsters Red, Green, Blue, and Yellow print runs
 ---
@@ -11,15 +11,13 @@ This shouldn't be new to anyone, but it's worth stating off the bat: video games
 
 ## Pocket Monsters: Green & Red
 
-![Pocket Monsters: Green and Red versions, front and back](/uploads/red-green-hero.jpg)
-
 Given they were the first games to release for the franchise in February 1996, *Green* and *Red* they have some complex data behind them. The games themselves were prone to bugs, and multiple prints happened before the design settled near the end of 1996 in time for *Blue* version, and later in 1998, *Yellow* version.
 
 With the help of packaging, interviews, and production data, here are the early days of *Pocket Monsters: Red & Green*.
 
 ### Initial Release
 
-For the purposes of this section, *Green* version will be the primary reference as most of the information applies to both, however exceptions or missing information will be noted as appropriate.
+Red and Green had identical contents for the duration of their lifespan.
 
 #### Box
 
