@@ -26,13 +26,22 @@ export function SocialLinks() {
         rel="noopener noreferrer"
         aria-label="Buy a coffee for George, the maintainer of A Few Games"
       >
-        <Image
-          src="/bmc-full-logo.svg"
-          alt=""
-          role="presentation"
-          height={26}
-          width={120}
-        />
+        <picture>
+          <source
+            type="image/svg+xml"
+            media="(max-width: 600px)"
+            width="18px"
+            srcSet="/bmc-logo-small.svg 18w"
+          />
+          <source type="image/svg+xml" srcSet="/bmc-full-logo.svg" />
+          <Image
+            src="/bmc-full-logo.svg"
+            alt=""
+            role="presentation"
+            height={26}
+            width={120}
+          />
+        </picture>
       </Link>
     </span>
   )

@@ -42,8 +42,8 @@ export function SiteHeader() {
           <Logo />
         </a>
       </div>
-      <nav className="flex flex-col items-end gap-2">
-        <div className="tabs-boxed tabs gap-2">
+      <nav className="flex flex-col items-end gap-4 sm:gap-2">
+        <div className="tabs-boxed tabs tabs-xs gap-2 sm:tabs-md">
           {NavigationItems.map(({ label, isActive, route }) => {
             const active = isActive(pathname)
 
