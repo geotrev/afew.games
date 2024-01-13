@@ -25,17 +25,29 @@ For the purposes of this section, *Green* version will be the primary reference 
 
 The main point to draw attention to is the barcode on the back. Early versions of at both *Red* and *Green* version were larger than later prints.
 
-![First print box with large barcode](/uploads/screenshot-2024-01-07-at-11.54.22-am.png)
+![Green version: early print (left) and later print (right)](/uploads/green-box-early-and-late.png)
 
-![Second print box with smaller barcode](/uploads/screenshot-2024-01-07-at-11.54.26-am.png)
+![Red version: early print (left) and later print (right)](/uploads/red-box-early-and-late.png)
 
 #### Contents
 
 A few key components are important when identifying a first production example, particularly the cartridge and a survey postcard.
 
-![Full contents of a first-print of Green version ](/uploads/4fa07721-40c5-4449-9303-7871e19aa5be.jpeg)
-
 The only generic inserts included were the *Super Game Boy* and link cable ads. The map was included with every print of the game.
+
+F﻿or up front reference, here are the two versions in question.
+
+##### **G﻿reen Version**
+
+![Green version contents, front](/uploads/green-contents.png)
+
+![Green version contents, back](/uploads/green-contents-back.png)
+
+##### **R﻿ed Version**
+
+![Red version contents, front](/uploads/red-contents.png)
+
+![Red version contents, back](/uploads/red-contents-back.png)
 
 ##### **Cartridge**
 
