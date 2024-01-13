@@ -6,9 +6,7 @@ description: A visual guide to the complete contents and early print history of
 ---
 *This post is supplemental to the database. To see a list of first generation* Pocket Monsters *print variants as they exist on A Few Games, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy). A full list of sources can be found at the end of this post.*
 
-This shouldn't be new to anyone, but it's worth stating off the bat: video games, even today in their physical forms, are updated in minuscule ways during the lifetime of their production. 
-
-*Pocket Monsters* is no different. *Game Freak*, despite its presence for the biggest franchise in the world, is still somewhat scrappy compared to the other AAA studios. Hopefully this information helps illuminate that *Game Freak* has always been this way – especially in the beginning.
+This is a follow-up to the previous blog post about Pocket Monsters print variants. Previously, we discussed *Green* and *Red* versions. As the title suggests, we're moving onto the next two games in the first generation!
 
 ## Pocket Monsters: Blue
 
@@ -51,6 +49,8 @@ Unlike *Red*, *Green*, or *Yellow*, *Blue* always has the same four cartridge st
 ![Blue version cartridge label with production code 20](/uploads/blue-20-cart.png)
 
 ![Blue version printed circuit board](/uploads/blue-20.jpeg)
+
+The printed circuit board date code (`9646K7024`) is a few weeks before the December release date.
 
 Here is the reference to those catridge production codes again:
 
@@ -106,43 +106,6 @@ Like *Red* and *Green*, *Yellow* has multiple codes, some exclusive to the very 
 Later print runs were quite complicated, however. Each letter in the production code indicates a full revision. Given there are codes ending in `D`, that means Yellow had at least **four** additional revisions produced.
 
 Other than the cartridge, other contents aren't likely to have any differences despite the cartridge being updated so often. Especially considering the game's release is so late in the *Game Boy*'s lifespan.
-
-## Shared ad inserts
-
-Between the releases of *Blue* and *Y*ellow*,* very few changes occurred to the packaging. Mainly, the inclusion of new cartridge stamp codes (see above) and ads for *Game Boy Pocket*, *Game Boy Camera*, *Game Boy Color*, and *Nintendo 64* were added to showcase the newest Nintendo had to offer.
-
-These newer ad inserts became present in all versions over time.
-
-> **Note:** This is not intended to showcase print order, rather just some of the other inserts as the games aged while reprints occurred through the late 1990s. A more thorough examination of these inserts is needed to know when they first appeared and when revisions occurred
-
-### Hardware ads
-
-![Game Boy Pocket ad](/uploads/screenshot-2024-01-07-at-12.39.33-pm.png)
-
-*Front: GB Pocket ad (`T-DMG-MGB001-JPN-1`)*
-
-![Game Boy Pocket & Camera ads, front](/uploads/screenshot-2024-01-07-at-1.42.39-pm.png)
-
-*Showing front:*
-
-* *Left: GB Pocket ad (code: `T-DMG-MGB001-JPN-3`)*
-* *Right: GB Camera ad (code: `T-DMG-MGB006-JPN`)*
-
-![Game Boy Pocket & Camera ads, back](/uploads/screenshot-2024-01-07-at-1.42.34-pm.png)
-
-*Back: Same as prior inserts*
-
-![Anti-tampering notice, Pocket Monsters Stadium ad + Rumble Pack, and Game Boy Color ads](/uploads/screenshot-2024-01-07-at-1.42.56-pm.png)
-
-*Showing front:*
-
-* *Top: Anti-tampering notice (code: `G508989`)*
-* *Bottom Left: Pocket Monsters Stadium + Rumble Pack ad (code: `T-DMG-APSJ-JPN`)*
-* *Bottom Right: Game Boy Color ad (code: `T-DMG-CGB001-JPN`)*
-
-![Anti-tampering notice, Pocket Monsters Stadium + Rumble Pack, and Game Boy Color ads](/uploads/screenshot-2024-01-07-at-1.43.02-pm.png)
-
-*Back: Same as prior inserts*
 
 - - -
 
