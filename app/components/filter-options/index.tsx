@@ -9,6 +9,7 @@ import {
 } from "react"
 import cn from "classnames"
 import propTypes from "prop-types"
+import { getNextUrlState } from "../../utils/set-params"
 import { FilterListProps } from "./types"
 
 FilterOptions.propTypes = {
@@ -113,19 +114,7 @@ export function FilterOptions({
   const handleShareClick = useCallback<
     MouseEventHandler<HTMLButtonElement>
   >(() => {
-    const platformValues = filteredPlatforms
-      .filter((item) => item.selected)
-      .map((item) => item.value)
-
-    const url = new URL(window.location.origin)
-
-    if (searchValue) {
-      url.searchParams.set("search", searchValue)
-    }
-
-    if (platformValues.length > 0) {
-      platformValues.forEach((p) => url.searchParams.append("platform", p))
-    }
+    const url = getNextUrlState({ searchValue, filteredPlatforms })
 
     navigator.clipboard.writeText(url.toString())
 

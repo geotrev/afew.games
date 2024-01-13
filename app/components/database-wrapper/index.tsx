@@ -5,11 +5,19 @@ import propTypes from "prop-types"
 import { FilterOptions } from "../filter-options"
 import { Search } from "../search"
 import { useFilter, useSearch } from "../../utils/hooks"
+import { getNextUrlState } from "../../utils/set-params"
 import { DatabasePlatform } from "types/games"
-import { ChangeEventHandler, MouseEventHandler, useState } from "react"
+import {
+  ChangeEventHandler,
+  MouseEventHandler,
+  useEffect,
+  useMemo,
+  useState,
+} from "react"
 import { GameList } from "./GameList"
 import { useSearchParams } from "next/navigation"
 import xss from "xss"
+import { debounce } from "lodash-es"
 
 type DatabaseWrapperProps = {
   games: DatabasePlatform[]
@@ -67,6 +75,17 @@ export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
   })
   const [count, setCount] = useState<number | null>(10)
   const [selectedCount, setSelectedCount] = useState<string>(String(count))
+
+  const setDebouncedURLState = useMemo(
+    () => debounce((url) => window.history.pushState({}, "", url), 300),
+    []
+  )
+
+  useEffect(() => {
+    const url = getNextUrlState({ filteredPlatforms, searchValue })
+
+    setDebouncedURLState(url)
+  }, [filteredPlatforms, searchValue, setDebouncedURLState])
 
   const handleChange: ChangeEventHandler<HTMLInputElement> = (event) => {
     setSearchValue(event.target.value)
