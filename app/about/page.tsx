@@ -23,13 +23,12 @@ export default function Page() {
       <p>
         Fast forward to today, the site has switched to a public & open source
         database, but with a secondary blog component. My passion is still to
-        share interesting & fun history of physical video game history.
+        share the interesting & enjoyable history of physical video games.
       </p>
       <p>
         In other words, I want to answer questions like: What is the distinct
-        chronology of a physical game&apos;s printing? What is a given physical
-        game&apos;s revision history? How scarce are these different print
-        variants?
+        chronology of a physical game&apos;s printing? What signifiers do publishers
+        exercise when revising games? How scarce are these different print variants?
       </p>
       <p>
         Finally, where do you, the reader/contributor, fit into this? As
@@ -43,8 +42,8 @@ export default function Page() {
         >
           GitHub repository
         </Link>
-        . I aim to facilitate an environment where folks can help build a free &
-        accessible resource like this, together.
+        . I aim to facilitate an environment where folks can help build a free,
+        accessible, and transparent resource, together.
       </p>
       <p>Thanks for reading and I hope to see you around!</p>
       <div className="divider" role="separator" />
@@ -59,7 +58,7 @@ export default function Page() {
         </Link>{" "}
         for that! I&apos;d love to see your games too. Thanks if you decide to
         give a follow. On a related note, sign up for occasional emails with
-        updates about new blog posts and database additions. I promise not to
+        updates on new blog posts and database additions. I promise not to
         spam you. ;)
       </p>
     </div>
