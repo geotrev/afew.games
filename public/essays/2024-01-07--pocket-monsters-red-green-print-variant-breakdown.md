@@ -59,9 +59,9 @@ All Game Boy cartridges have a code stamped onto the label.
 
 Here is a confirmed example of a first-production copy of *Green* version.
 
-![Pocket Monsters: Green with sticker code '00'](/uploads/screenshot-2024-01-09-at-8.56.16-pm.png)
+![Pocket Monsters: Green with sticker code '00'](/uploads/green-cart-label.png)
 
-A *Red* or *Green* cartridge from the true first print runs will have a **strictly numerical** code stamped onto the cartridge sticker.
+A *Red* or *Green* cartridge from the true first print runs will have a **strictly numerical** code stamped on the label.
 
 > *NOTE: There are unconfirmed reports of no code cartridges, but historically these have been an indication of a reproduction cartridge. Should evidence emerge to validate those reports, this post will be updated to reflect it*
 
