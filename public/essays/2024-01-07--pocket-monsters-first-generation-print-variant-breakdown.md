@@ -5,13 +5,13 @@ description: A visual guide to Pocket Monsters Red, Green, Blue, and Yellow prin
 ---
 *This post is supplemental to the database. To see a list of first generation* Pocket Monsters *print variants as they exist on A Few Games, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy). A full list of sources can be found at the end of this post.*
 
-This shouldn't be new to anyone, but it's worth stating off the bat: video games, even today in their physical forms, are updated in minuscule ways during the lifetime of their production. 
-
-*Pocket Monsters* is no different. *Game Freak*, despite its presence for the biggest franchise in the world, is still somewhat scrappy compared to the other AAA studios. Hopefully this information helps illuminate that *Game Freak* has always been this way – especially in the beginning.
+This shouldn't be new to anyone, but it's worth stating off the bat: video games, even today in their physical forms, are updated in minuscule ways during the lifetime of their production. *Pocket Monsters* is no different. *Game Freak*, despite developing the biggest franchise in the world, is still somewhat scrappy compared to other AAA studios. Hopefully this information helps illuminate that *Game Freak* has always been this way – especially in the beginning.
 
 ## Pocket Monsters: Green & Red
 
-Given they were the first games to release for the franchise in February 1996, *Green* and *Red* they have some complex data behind them. The games themselves were prone to bugs, and multiple prints happened before the design settled near the end of 1996 in time for *Blue* version, and later in 1998, *Yellow* version.
+![Pocket Monsters: Red & Green, front and back](/uploads/red-green-hero.jpg)
+
+Given they were the first games to release for the franchise in February 1996, *Green* and *Red* have some complex data behind them. The games themselves were prone to bugs, and multiple prints happened before the design settled near the end of 1996 in time for *Blue* version, and later in 1998, *Yellow* version.
 
 With the help of packaging, interviews, and production data, here are the early days of *Pocket Monsters: Red & Green*.
 
