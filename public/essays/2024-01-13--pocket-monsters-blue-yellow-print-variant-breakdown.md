@@ -46,7 +46,15 @@ According to @RB1989421GB on *Twitter*:
 
 #### Cartridge
 
-Unlike *Red*, *Green*, or *Yellow*, *Blue* always has the same four cartridge stamp codes: `00`, `12`, `20`, and `22`, with known launch copies using `20`. There could be parallel launch codes, but that's still unclear.
+Unlike *Red*, *Green*, or *Yellow*, *Blue* always has the same four cartridge stamp codes: `00`, `12`, `20`, and `22`, with known launch copies using `20`. There are likely parallel codes used at launch, but that's still unclear.
+
+![Blue version cartridge label with production code 20](/uploads/blue-20-cart.png)
+
+![Blue version printed circuit board](/uploads/blue-20.jpeg)
+
+Here is the reference to those catridge production codes again:
+
+![](/uploads/cart-code-table.png)
 
 #### Manual
 
