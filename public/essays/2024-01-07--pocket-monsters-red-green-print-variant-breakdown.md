@@ -17,13 +17,11 @@ This post is the first part in a multi-essay series dedicated to Pocket Monsters
 
 Given they were the first games to release for the franchise in February 1996, *Green* and *Red* have some complex data behind them. The games themselves were prone to bugs, and multiple prints happened before the design settled near the end of 1996 in time for *Blue* version, then later in 1998 for *Yellow* version.
 
-With the help of packaging, interviews, and production data, here are the early days of *Pocket Monsters: Red & Green*.
-
-### Initial Release
+With the help of packaging references, official *Nintendo* interviews, and production data, here is a breakdown of the very early days of *Pocket Monsters: Red & Green* as a physical game.
 
 Red and Green had identical contents for the duration of their lifespan.
 
-#### Box
+### Box
 
 The main point to draw attention to is the barcode on the back. Early versions of at both *Red* and *Green* version were larger than later prints.
 
@@ -31,7 +29,7 @@ The main point to draw attention to is the barcode on the back. Early versions o
 
 ![Red version: early print (left) and later print (right)](/uploads/red-box-early-and-late.png)
 
-#### Contents
+### Contents
 
 A few key components are important when identifying a first production example, particularly the cartridge and a survey postcard.
 
@@ -39,19 +37,19 @@ The only generic inserts included were the *Super Game Boy* and link cable ads. 
 
 F﻿or up front reference, here are the two versions in question.
 
-##### **G﻿reen Version**
+#### **G﻿reen Version**
 
 ![Green version contents, front](/uploads/green-contents.png)
 
 ![Green version contents, back](/uploads/green-contents-back.png)
 
-##### **R﻿ed Version**
+#### **R﻿ed Version**
 
 ![Red version contents, front](/uploads/red-contents.png)
 
 ![Red version contents, back](/uploads/red-contents-back.png)
 
-##### **Cartridge**
+### **Cartridge**
 
 All Game Boy cartridges have a code stamped onto the sticker. Here is an example of an early, if not first production copy of *Green* version:
 
@@ -70,7 +68,7 @@ Here's a translated reference on which production codes can be found on various 
 
 ![Early vs later stamp codes for Red & Green version cartridges](/uploads/cart-code-table.png)
 
-##### **Survey**
+#### **Survey**
 
 The most obvious indicator in the earliest printings is a survey insert only available during the first 30 days after release, and had to be postmarked by the end of March.
 
@@ -107,7 +105,7 @@ And of course, here is the information side customers fill out:
 
 ![Feedback survey, back](/uploads/survey-back.png)
 
-Fun fact: Sources tell me that the surveys always have a *Red* production code. That's to say, they have a production code of `DMG-APAJ-JPN`, where APAJ is the *Red* version code.
+Fun fact: Sources tell me that the surveys always have a *Red* production code. That's to say, they have a production code of `DMG-APAJ-JPN`, where APAJ is the *Red* model code.
 
 - - -
 
