@@ -37,38 +37,40 @@ The only generic inserts included were the *Super Game Boy* and link cable ads. 
 
 F﻿or up front reference, here are the two versions in question.
 
-#### **G﻿reen Version**
+#### G﻿reen Version
 
 ![Green version contents, front](/uploads/green-contents.png)
 
 ![Green version contents, back](/uploads/green-contents-back.png)
 
-#### **R﻿ed Version**
+#### R﻿ed Version
 
 ![Red version contents, front](/uploads/red-contents.png)
 
 ![Red version contents, back](/uploads/red-contents-back.png)
 
-### **Cartridge**
+### Cartridge
 
-All Game Boy cartridges have a code stamped onto the sticker. Here is an example of an early, if not first production copy of *Green* version:
+All Game Boy cartridges have a code stamped onto the sticker. Here is a confirmed example of a first-production copy of *Green* version:
 
 ![Pocket Monsters: Green with sticker code 20A](/uploads/screenshot-2024-01-09-at-8.56.16-pm.png)
 
-A *Red* or *Green* cartridge from the true first print runs will have a **strictly numerical** code stamped onto the cartridge sticker. There are unconfirmed reports of no code cartridges, but historically these have been an indication of a reproduction cartridge. Should evidence emerge to validate those reports, this post will be updated to reflect it.
+A *Red* or *Green* cartridge from the true first print runs will have a **strictly numerical** code stamped onto the cartridge sticker.
 
-[Mask ROM](https://handwiki.org/wiki/Mask_ROM) date codes for the following production codes on Green and Red suggest they were among the very first manufactured, and should be in the earliest productions of the game:
+> *NOTE: There are unconfirmed reports of no code cartridges, but historically these have been an indication of a reproduction cartridge. Should evidence emerge to validate those reports, this post will be updated to reflect it*
+
+[Mask ROM](https://handwiki.org/wiki/Mask_ROM) date codes for the following label codes on Green and Red suggest they were among the very first manufactured, and should be in the earliest productions of the game:
 
 * *Green*: `00`
 * *Red*: `22`
 
 According to sources, Red would receive a `00` stamp code, but this was well after the initial release period (late April into May 1996). Sometime before November 1996, the revisions `00A` (*Green*) and `22A` (*Red*) were printed for the `1.1` software version, which would also be the sole revision used on *Blue* version (released at the end of the same year).
 
-Here's a translated reference on which production codes can be found on various copies of *Red*, *Green*, *Blue*, and *Yellow* versions, as gathered by folks in the Japanese collecting/gaming communities:
+Here's a translated reference on which label codes can be found on various copies of *Red*, *Green*, *Blue*, and *Yellow* versions, as gathered by folks in the Japanese collecting/gaming communities:
 
 ![Early vs later stamp codes for Red & Green version cartridges](/uploads/cart-code-table.png)
 
-#### **Survey**
+#### Survey
 
 The most obvious indicator in the earliest printings is a survey insert only available during the first 30 days after release, and had to be postmarked by the end of March.
 
@@ -105,16 +107,16 @@ And of course, here is the information side customers fill out:
 
 ![Feedback survey, back](/uploads/survey-back.png)
 
-Fun fact: Sources tell me that the surveys always have a *Red* production code. That's to say, they have a production code of `DMG-APAJ-JPN`, where APAJ is the *Red* model code.
+> *Fun fact: Sources tell me that the surveys always have a* Red *model part number. That's to say, they will include this code: `DMG-APAJ-JPN` (where `APAJ` is the* Red *designation).*
 
 - - -
 
-I hope this dive down history lane was helpful! It makes for a fun collecting hunt when you can find the most obscure, early prints of these extremely common games. Best of luck in your search!
+I hope this dive down history lane was fun! It makes for an interesting hunt when you can find the most obscure, early prints of these otherwise abundant games.
 
 ## Sources
 
 * [The Mikaifu Collection](https://www.instagram.com/mikaifucollection/) - General timeline information
-* Thaane (via SACK Discord server) – PCB & production code data
+* Thaane (via SACK Discord server) – Photos & production code data
 * [RB1989421GB](https://twitter.com/RB1989421GB) - *Blue* version variants & history
 * pokemon1gb2rgbp.wiki.fc2.com/ [[1](https://pokemon1gb2rgbp.wiki.fc2.com/)] [[2](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/初期版・後期版の違い)]
 * nintendo.co.jp [[1](https://www.nintendo.co.jp/n02/dmg/apajapbj/index.html)] [[2](https://www.nintendo.co.jp/n02/dmg/apej/index.html)] [[3](https://www.nintendo.co.jp/n02/dmg/apsj/index.html)]
