@@ -59,38 +59,44 @@ All Game Boy cartridges have a code stamped onto the label.
 
 Here is a confirmed example of a first-production copy of *Green* version.
 
-![Pocket Monsters: Green with sticker code 20A](/uploads/screenshot-2024-01-09-at-8.56.16-pm.png)
+![Pocket Monsters: Green with sticker code '00'](/uploads/screenshot-2024-01-09-at-8.56.16-pm.png)
 
 A *Red* or *Green* cartridge from the true first print runs will have a **strictly numerical** code stamped onto the cartridge sticker.
 
 > *NOTE: There are unconfirmed reports of no code cartridges, but historically these have been an indication of a reproduction cartridge. Should evidence emerge to validate those reports, this post will be updated to reflect it*
 
-[Mask ROM](https://handwiki.org/wiki/Mask_ROM) date codes for the following label codes on Green and Red suggest they were among the very first manufactured, and should be in the earliest productions of the game:
+[Mask ROM](https://handwiki.org/wiki/Mask_ROM) date codes coinciding with the below label codes suggest they were among the very first manufactured:
 
-* *Green*: `00`
-* *Red*: `22`
+* *Green* label code: `00`
+* *Red* label code: `22`
 
-A look at the PCBs of Green and Red indicate the physical circuit boards were produced a few months before the launch of the game (in the below example, that's in November 1995). The soldered chips were produced a little bit later in this case in the fifth week of 1996 (code: `9605`, where `96` is the year, and `05` is the week).
+A look at the circuit boards of *Green* and *Red* indicate they were produced a few months before the launch of the game (in the below example, that's in November, 1995). The soldered chips were produced a little bit later in this case in the fourth or fifth week of 1996 (component date codes: `9605` and `9604`; `96` is the year and `05`/`04` is the week).
 
-![](/uploads/green-00-cart.jpeg)
+![Green version circuit board, front and back](/uploads/green-00-cart.jpeg)
 
-![]()
+Green *version circuit board*
 
-According to sources, Red would receive a `00` stamp code, but this was well after the initial release period (late April into May 1996). Sometime before November 1996, the revisions `00A` (*Green*) and `22A` (*Red*) were printed for the `1.1` software version, which would also be the sole revision used on *Blue* version (released at the end of the same year).
+![Red version circuit board, front and back](/uploads/red-22-cart.jpeg)
 
-Here's a translated reference on which label codes can be found on various copies of *Red*, *Green*, *Blue*, and *Yellow* versions, as gathered by folks in the Japanese collecting/gaming communities:
+Red *version circuit board*
+
+According to sources, *Red* would receive a `00` stamp code as well, but this was well after the initial release period (late April into May 1996).
+
+Sometime before November 1996, the revisions `00A` (*Green*) and `22A` (*Red*) were printed for the `1.1` software version, which would also be the sole revision used on *Blue* version (released in December of the same year).
+
+Here's a translated reference on which label codes can be found on *Red*, *Green*, *Blue*, and *Yellow* versions, as gathered by folks in the Japanese collecting/gaming communities (source linked at the end of this post):
 
 ![Early vs later stamp codes for Red & Green version cartridges](/uploads/cart-code-table.png)
 
 #### Survey
 
-The most obvious indicator in the earliest printings is a survey insert only available during the first 30 days after release, and had to be postmarked by the end of March.
+Another document included in the earliest printings is a feedback survey postcard, only available during the first 30 days after release, and had to be postmarked by the end of March. Customers would be entered into a free raffle for the official guidebook or special playing cards, as well as an additional copy of either *Red* or *Green* version.
 
-Ishihara-san, President & CEO of *Game Freak,* [indicated](https://iwataasks.nintendo.com/interviews/ds/pokemon/0/0/) in an interview that initial sales were lower than expected during the first 30 days, which explains why these surveys are relatively scarce today.
+An interesting fact to consider is that Ishihara-san, President & CEO of *Game Freak,* [indicated](https://iwataasks.nintendo.com/interviews/ds/pokemon/0/0/) in an interview that initial sales were lower than expected during the first 30 days, which explains why these surveys are relatively scarce today.
 
 ![Feedback survey, front](/uploads/survey-front.png)
 
-It translates to roughly the following:
+The front of the postcard translates to roughly the following:
 
 > *Kyoto City Higashiyama Post Office P.O. Box No. 15*
 >
@@ -115,11 +121,11 @@ The bottom box (featuring *Bulbasaur)* in the survey (roughly) reads:
 
 This text lines up perfectly for the late February release of the games.
 
-And of course, here is the information side customers fill out:
+Sources also also tell me that the surveys uniformly use the *Red* model part number for its code. That's to say, they will include this code at the bottom: `DMG-APAJ-JPN` (where `APAJ` is the Red designation). A *Green* version code has yet to be uncovered for the postcard.
+
+And of course, here is the other (informational) side customers would fill out:
 
 ![Feedback survey, back](/uploads/survey-back.png)
-
-> *Fun fact: Sources tell me that the surveys always have a* Red *model part number. That's to say, they will include this code: `DMG-APAJ-JPN` (where `APAJ` is the* Red *designation).*
 
 - - -
 
