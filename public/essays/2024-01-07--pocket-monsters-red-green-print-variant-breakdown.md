@@ -19,23 +19,25 @@ Given they were the first games to release for the franchise in February 1996, *
 
 With the help of packaging references, official *Nintendo* interviews, and production data, here is a breakdown of the very early days of *Pocket Monsters: Red & Green* as a physical game.
 
-Red and Green had identical contents for the duration of their lifespan.
+To start, it's worth noting *Red* and *Green* had identical contents for the duration of their lifespan.
 
 ### Box
 
-The main point to draw attention to is the barcode on the back. Early versions of at both *Red* and *Green* version were larger than later prints.
+Early versions of at both *Red* and *Green* version had larger UPC barcodes compared to later prints.
 
 ![Green version: early print (left) and later print (right)](/uploads/green-box-early-and-late.png)
 
+Green *version: early print (left) and later print (right)*
+
 ![Red version: early print (left) and later print (right)](/uploads/red-box-early-and-late.png)
+
+Red *version: early print (left) and later print (right)*
 
 ### Contents
 
-A few key components are important when identifying a first production example, particularly the cartridge and a survey postcard.
+A few key components are important when identifying first production examples, particularly on the cartridge and the inclusion of a feedback survey postcard.
 
-The only generic inserts included were the *Super Game Boy* and link cable ads. The map was included with every print of the game.
-
-F﻿or up front reference, here are the two versions in question.
+The only generic inserts included were the *Super Game Boy* ad and a yellow link cable explainer. The map was included with every print of the game. All copies would additional include a fold-out map of the Kanto region and the manual.
 
 #### G﻿reen Version
 
@@ -51,7 +53,11 @@ F﻿or up front reference, here are the two versions in question.
 
 ### Cartridge
 
-All Game Boy cartridges have a code stamped onto the sticker. Here is a confirmed example of a first-production copy of *Green* version:
+All Game Boy cartridges have a code stamped onto the label.
+
+> *NOTE: Other label codes may have been manufactured in parallel, but that's unclear at this time.*
+
+Here is a confirmed example of a first-production copy of *Green* version.
 
 ![Pocket Monsters: Green with sticker code 20A](/uploads/screenshot-2024-01-09-at-8.56.16-pm.png)
 
@@ -63,6 +69,12 @@ A *Red* or *Green* cartridge from the true first print runs will have a **strict
 
 * *Green*: `00`
 * *Red*: `22`
+
+A look at the PCBs of Green and Red indicate the physical circuit boards were produced a few months before the launch of the game (in the below example, that's in November 1995). The soldered chips were produced a little bit later in this case in the fifth week of 1996 (code: `9605`, where `96` is the year, and `05` is the week).
+
+![](/uploads/green-00-cart.jpeg)
+
+![]()
 
 According to sources, Red would receive a `00` stamp code, but this was well after the initial release period (late April into May 1996). Sometime before November 1996, the revisions `00A` (*Green*) and `22A` (*Red*) were printed for the `1.1` software version, which would also be the sole revision used on *Blue* version (released at the end of the same year).
 
