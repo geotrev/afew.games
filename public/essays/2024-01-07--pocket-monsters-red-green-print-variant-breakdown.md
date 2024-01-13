@@ -3,13 +3,13 @@ publish_date: 2024-01-15
 title: "Pocket Monsters: Red & Green Print Variant Breakdown"
 description: A visual guide to Pocket Monsters Red, Green, Blue, and Yellow print runs
 ---
-> *This post is supplemental to the database. To see a list of first generation* Pocket Monsters *print variants as they exist on A Few Games, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy). A full list of sources can be found at the end of this post.*
-
 Video games, even today in their physical forms, are updated in minuscule ways during the lifetime of their production. *Pocket Monsters* is no different.
 
 The early days of the franchise required some discrete changes that set apart these games from later prints.
 
 This post is the first part in a multi-essay series dedicated to Pocket Monsters. In this first entry, we'll cover the games to start it all: *Red* and *Green* versions!
+
+> *NOTE: This post is supplemental to the database. To see a list of first generation* Pocket Monsters *print variants as they exist on A Few Games, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy). A full list of sources can be found at the end of this post.*
 
 ## Pocket Monsters: Green & Red
 
