@@ -93,10 +93,10 @@ collections:
                     allow_add: true
                     add_to_top: true
                     collapsed: true
-                    summary: "{{fields.country}} | {{fields.part_code}} | {{fields.notes}}"
+                    summary: "{{fields.country}} | {{fields.product_code}} | {{fields.notes}}"
                     fields:
-                      - label: Part Code
-                        name: part_code
+                      - label: Product Code
+                        name: product_code
                         required: false
                         widget: string
                       - label: Satellite Code

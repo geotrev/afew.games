@@ -29,7 +29,7 @@ const TableHeader = memo(() => (
         <th
           key={field}
           className={cn("bg-base-200 text-xs", {
-            "sticky left-0 z-10": field === DatabaseFields.PART_CODE,
+            "sticky left-0 z-10": field === DatabaseFields.PRODUCT_CODE,
           })}
         >
           <span className="flex items-center">

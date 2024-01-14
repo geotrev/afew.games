@@ -33,7 +33,7 @@ DatabaseWrapper.propTypes = {
           name: propTypes.string,
           variants: propTypes.arrayOf(
             propTypes.shape({
-              part_code: propTypes.string,
+              product_code: propTypes.string,
               satellite_code: propTypes.string,
               country: propTypes.string,
               mpn: propTypes.string,

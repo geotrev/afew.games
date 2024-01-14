@@ -46,10 +46,10 @@ body:
       placeholder: E.g., Japan
 
   - type: input
-    id: part-code
+    id: product-code
     attributes:
-      label: Part Code
-      description: The unique identifier given to the game during manufacturing. Also called a 'product code.' Typically found on the spine or back of a game, near the UPC.
+      label: Product Code
+      description: The unique identifier given by the publisher/developer. Typically found on the spine or back of a game near the UPC.
       placeholder: E.g., 12345B
 
   - type: textarea

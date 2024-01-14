@@ -12,7 +12,7 @@ function getIssueBody(res: Record<string, string>) {
     `${res.mpn || "No response"}\n\n` +
     `### Country\n\n` +
     `${res.country || "No response"}\n\n` +
-    `### Part Code\n\n` +
+    `### Product Code\n\n` +
     `${res.part || "No response"}\n\n` +
     `### Additional Information\n\n` +
     `${res.notes || "No response"}\n\n` +
