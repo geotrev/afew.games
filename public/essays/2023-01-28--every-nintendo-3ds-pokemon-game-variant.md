@@ -33,111 +33,111 @@ Without further ado, here are the print variants.
 
 ## Pokemon X
 
-| **Part Code** | **Satellite Code** | **Country** | **MPN**        | **Notes**                     |
-| ------------- | ------------------ | ----------- | -------------- | ----------------------------- |
-| 80773A        | 00000              | Japan       | CTR P EKJE USA | Black ESRB                    |
-| 80773B        | 00001              | Japan       | CTR P EKJE USA | White ESRB                    |
-| 82195A        | 00000              | Japan       | CTR P WKJ1 USA | Black ESRB, Garchomp download |
-| 101525A       | 00000              | Japan       | CTR P EKJE USA | White ESRB                    |
-| 80774A        | 00000              | Japan       | CTR P EKJE CAN | Canadian                      |
-| 80774B        | 00001              | Japan       | CTR P EKJE CAN | Canadian                      |
+| **Product Code** | **Satellite Code** | **Country** | **MPN**        | **Notes**                     |
+| ---------------- | ------------------ | ----------- | -------------- | ----------------------------- |
+| 80773A           | 00000              | Japan       | CTR P EKJE USA | Black ESRB                    |
+| 80773B           | 00001              | Japan       | CTR P EKJE USA | White ESRB                    |
+| 82195A           | 00000              | Japan       | CTR P WKJ1 USA | Black ESRB, Garchomp download |
+| 101525A          | 00000              | Japan       | CTR P EKJE USA | White ESRB                    |
+| 80774A           | 00000              | Japan       | CTR P EKJE CAN | Canadian                      |
+| 80774B           | 00001              | Japan       | CTR P EKJE CAN | Canadian                      |
 
 Black ESRB indicates early prints, where `80773A` is first, and `82195A` is second.
 
 ## Pokemon Y
 
-| **Part Code** | **Satellite Code** | **Country** | **MPN**        | **Notes**                   |
-| ------------- | ------------------ | ----------- | -------------- | --------------------------- |
-| 80781A        | 00000              | Japan       | CTR P EK2E USA | Black ESRB                  |
-| 80781B        | 00001              | Japan       | CTR P EK2E USA | White ESRB                  |
-| 82198A        | 00000              | Japan       | CTR P WK21 USA | Black ESRB, Scizor download |
-| 101527A       | 00000              | Japan       | CTR P EK2E USA | White ESRB                  |
-| 80782A        | 00000              | Japan       | CTR P EK2E CAN | Canadian                    |
-| 80782B        | 00001              | Japan       | CTR P EK2E CAN | Canadian                    |
+| **Product Code** | **Satellite Code** | **Country** | **MPN**        | **Notes**                   |
+| ---------------- | ------------------ | ----------- | -------------- | --------------------------- |
+| 80781A           | 00000              | Japan       | CTR P EK2E USA | Black ESRB                  |
+| 80781B           | 00001              | Japan       | CTR P EK2E USA | White ESRB                  |
+| 82198A           | 00000              | Japan       | CTR P WK21 USA | Black ESRB, Scizor download |
+| 101527A          | 00000              | Japan       | CTR P EK2E USA | White ESRB                  |
+| 80782A           | 00000              | Japan       | CTR P EK2E CAN | Canadian                    |
+| 80782B           | 00001              | Japan       | CTR P EK2E CAN | Canadian                    |
 
 Like _X_, black ESRB indicates earlier prints. `80781A` is first, `82198A` is second.
 
 ## Pokemon OmegaRuby
 
-| **Part Code** | **Satellite Code** | **Country** | **MPN**        | **Notes**       |
-| ------------- | ------------------ | ----------- | -------------- | --------------- |
-| 83666A        | 00000              | Japan       | CTR P ECRE USA |                 |
-| 100013A       | 00000              | Japan       | CTR P ECRE USA |                 |
-| 100013B       | 00001              | Japan       | CTR P ECRE USA | _(unconfirmed)_ |
-| 100014A       | 00000              | Japan       | CTR P ECRE CAN | Canadian        |
-| 101523A       | 00000              | Japan       | CTR P ECRE CAN | Canadian        |
+| **Product Code** | **Satellite Code** | **Country** | **MPN**        | **Notes**       |
+| ---------------- | ------------------ | ----------- | -------------- | --------------- |
+| 83666A           | 00000              | Japan       | CTR P ECRE USA |                 |
+| 100013A          | 00000              | Japan       | CTR P ECRE USA |                 |
+| 100013B          | 00001              | Japan       | CTR P ECRE USA | _(unconfirmed)_ |
+| 100014A          | 00000              | Japan       | CTR P ECRE CAN | Canadian        |
+| 101523A          | 00000              | Japan       | CTR P ECRE CAN | Canadian        |
 
 `83666A` is the earliest print.
 
 ## Pokemon AlphaSapphire
 
-| **Part Code** | **Satellite Code** | **Country** | **MPN**        | **Notes** |
-| ------------- | ------------------ | ----------- | -------------- | --------- |
-| 83667A        | 00000              | Japan       | CTR P ECLE USA |           |
-| 100022A       | 00000              | Japan       | CTR P ECLE USA |           |
-| 100022B       | 00001              | Japan       | CTR P ECLE USA |           |
-| 100023A       | 00000              | Japan       | CTR P ECLE CAN | Canadian  |
-| 101524B       | 00001              | Japan       | CTR P ECLE CAN | Canadian  |
+| **Product Code** | **Satellite Code** | **Country** | **MPN**        | **Notes** |
+| ---------------- | ------------------ | ----------- | -------------- | --------- |
+| 83667A           | 00000              | Japan       | CTR P ECLE USA |           |
+| 100022A          | 00000              | Japan       | CTR P ECLE USA |           |
+| 100022B          | 00001              | Japan       | CTR P ECLE USA |           |
+| 100023A          | 00000              | Japan       | CTR P ECLE CAN | Canadian  |
+| 101524B          | 00001              | Japan       | CTR P ECLE CAN | Canadian  |
 
 `83667A` is the earliest print.
 
 ## Pokemon Sun
 
-| **Part Code** | **Satellite Code** | **Country** | **MPN**        | **Notes**                                       |
-| ------------- | ------------------ | ----------- | -------------- | ----------------------------------------------- |
-| 103849A       | 00000              | Japan       | CTR P BNDE USA |                                                 |
-| 104788A       | 00000              | Japan       | CTR P TND1 USA |                                                 |
-|               | 00000              | Japan       |                | NFR, pack-in (104133A, 104302A, CTR R TJV1 USZ) |
-| 104299A       |                    | Japan       | CTR R WJV1 USZ | Solgaleo Figurine (box), Wal-Mart exclusive     |
-| 103850A       | 00000              | Japan       | CTR P BNDE CAN | Canadian                                        |
+| **Product Code** | **Satellite Code** | **Country** | **MPN**        | **Notes**                                       |
+| ---------------- | ------------------ | ----------- | -------------- | ----------------------------------------------- |
+| 103849A          | 00000              | Japan       | CTR P BNDE USA |                                                 |
+| 104788A          | 00000              | Japan       | CTR P TND1 USA |                                                 |
+|                  | 00000              | Japan       |                | NFR, pack-in (104133A, 104302A, CTR R TJV1 USZ) |
+| 104299A          |                    | Japan       | CTR R WJV1 USZ | Solgaleo Figurine (box), Wal-Mart exclusive     |
+| 103850A          | 00000              | Japan       | CTR P BNDE CAN | Canadian                                        |
 
 All of the above, except for `104788A`, are the earliest prints as they were released simultaneously. The NFR version is the same in each bundle (see also bundles at the end of this post).
 
 ## Pokemon Moon
 
-| **Part Code** | **Satellite Code** | **Country** | **MPN**        | **Notes**                                       |
-| ------------- | ------------------ | ----------- | -------------- | ----------------------------------------------- |
-| 103855A       | 00000              | Japan       | CTR P BNEE USA |                                                 |
-| 104790A       | 00000              | Japan       | CTR P TNE1 USA |                                                 |
-|               | 00000              | Japan       |                | NFR, pack-in (104133A, 104299A, CTR R TJV1 USZ) |
-| 104302A       |                    | Japan       | CTR R WJV2 USZ | Lunala Figurine (box), Wal-Mart exclusive       |
-| 103856A       | 00000              | Japan       | CTR P BNEE CAN | Canadian                                        |
+| **Product Code** | **Satellite Code** | **Country** | **MPN**        | **Notes**                                       |
+| ---------------- | ------------------ | ----------- | -------------- | ----------------------------------------------- |
+| 103855A          | 00000              | Japan       | CTR P BNEE USA |                                                 |
+| 104790A          | 00000              | Japan       | CTR P TNE1 USA |                                                 |
+|                  | 00000              | Japan       |                | NFR, pack-in (104133A, 104299A, CTR R TJV1 USZ) |
+| 104302A          |                    | Japan       | CTR R WJV2 USZ | Lunala Figurine (box), Wal-Mart exclusive       |
+| 103856A          | 00000              | Japan       | CTR P BNEE CAN | Canadian                                        |
 
 All of the above, except for `104790A`, are the earliest prints as they were released simultaneously. The NFR version is the same in each bundle (see also bundles at the end of this post).
 
 ## Pokemon UltraSun
 
-| **Part Code** | **Satellite Code** | **Country** | **MPN**        | **Notes**                                |
-| ------------- | ------------------ | ----------- | -------------- | ---------------------------------------- |
-| 106567A       | 00000              | Japan       | CTR P A2AE USA |                                          |
-| 106567B       | 00001              | Japan       | CTR P A2AE USA |                                          |
-|               | 00000              | Japan       |                | NFR, pack-in (016864A, 106607A, 106860A) |
-| 106860A       |                    | Japan       | CTR R A2A1 USZ | Dusk Mane Necrozma keychain (box)        |
-| 106568A       | 00000              | Japan       | CTR P A2AE CAN | Canadian                                 |
+| **Product Code** | **Satellite Code** | **Country** | **MPN**        | **Notes**                                |
+| ---------------- | ------------------ | ----------- | -------------- | ---------------------------------------- |
+| 106567A          | 00000              | Japan       | CTR P A2AE USA |                                          |
+| 106567B          | 00001              | Japan       | CTR P A2AE USA |                                          |
+|                  | 00000              | Japan       |                | NFR, pack-in (016864A, 106607A, 106860A) |
+| 106860A          |                    | Japan       | CTR R A2A1 USZ | Dusk Mane Necrozma keychain (box)        |
+| 106568A          | 00000              | Japan       | CTR P A2AE CAN | Canadian                                 |
 
 All of the above, except for `106567B`, are the earliest prints as they were released simultaneously. The NFR version is the same in each bundle (see also bundles at the end of this post).
 
 ## Pokemon UltraMoon
 
-| **Part Code** | **Satellite Code** | **Country** | **MPN**        | **Notes**                                |
-| ------------- | ------------------ | ----------- | -------------- | ---------------------------------------- |
-| 106570A       | 00000              | Japan       | CTR P A28E USA |                                          |
-| 106570B       | 00001              | Japan       | CTR P A28E USA |                                          |
-|               | 00000              | Japan       |                | NFR, pack-in (016864A, 106607A, 106862A) |
-| 106862A       |                    | Japan       | CTR R A2B1 USZ | Dawn Wings Necrozma keychain (box)       |
-| 106571A       | 00000              | Japan       | CTR P A28E CAN | Canadian                                 |
+| **Product Code** | **Satellite Code** | **Country** | **MPN**        | **Notes**                                |
+| ---------------- | ------------------ | ----------- | -------------- | ---------------------------------------- |
+| 106570A          | 00000              | Japan       | CTR P A28E USA |                                          |
+| 106570B          | 00001              | Japan       | CTR P A28E USA |                                          |
+|                  | 00000              | Japan       |                | NFR, pack-in (016864A, 106607A, 106862A) |
+| 106862A          |                    | Japan       | CTR R A2B1 USZ | Dawn Wings Necrozma keychain (box)       |
+| 106571A          | 00000              | Japan       | CTR P A28E CAN | Canadian                                 |
 
 All of the above, except for `106570B`, are the earliest prints as they were released simultaneously. The NFR version is the same in each bundle (see also bundles at the end of this post).
 
 ## Bundles
 
-| **Part Code** | **Satellite Code** | **Country** | **MPN**        | **Notes**                                     |
-| ------------- | ------------------ | ----------- | -------------- | --------------------------------------------- |
-| 100789A       |                    | Japan       | CTR P POA1 USA | ORAS 2-Pack                                   |
-| 104133A       |                    | Japan       | CTR R AJV1 USZ | Sun & Moon 2-pack, includes steelbook         |
-|               |                    | Japan       | CTR R TJV1 USZ | Sun & Moon 2-Pack, Includes Starter Figurines |
-| 016864A       |                    | Japan       | CTR R GA21 USZ | USUM 2-pack, includes art cards and codes     |
-| 106607A       |                    | Japan       | CTR R SA21 USZ | USUM 2-pack, includes steelbook               |
+| **Product Code** | **Satellite Code** | **Country** | **MPN**        | **Notes**                                     |
+| ---------------- | ------------------ | ----------- | -------------- | --------------------------------------------- |
+| 100789A          |                    | Japan       | CTR P POA1 USA | ORAS 2-Pack                                   |
+| 104133A          |                    | Japan       | CTR R AJV1 USZ | Sun & Moon 2-pack, includes steelbook         |
+|                  |                    | Japan       | CTR R TJV1 USZ | Sun & Moon 2-Pack, Includes Starter Figurines |
+| 016864A          |                    | Japan       | CTR R GA21 USZ | USUM 2-pack, includes art cards and codes     |
+| 106607A          |                    | Japan       | CTR R SA21 USZ | USUM 2-pack, includes steelbook               |
 
 All boxed 2-packs are launch editions.
 

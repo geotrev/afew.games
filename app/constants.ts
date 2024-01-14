@@ -1,5 +1,5 @@
 export const DatabaseFields = {
-  PART_CODE: "part_code",
+  PRODUCT_CODE: "product_code",
   SATELLITE_CODE: "satellite_code",
   COUNTRY: "country",
   MPN: "mpn",
@@ -11,7 +11,7 @@ export const DatabaseFields = {
  * The order here is important.
  */
 export const DB_FIELDS_SORTED: string[] = [
-  DatabaseFields.PART_CODE,
+  DatabaseFields.PRODUCT_CODE,
   DatabaseFields.SATELLITE_CODE,
   DatabaseFields.COUNTRY,
   DatabaseFields.MPN,
@@ -22,7 +22,7 @@ export const DB_FIELDS_SORTED: string[] = [
  * Database field descriptions. Used in tooltips & contribution form.
  */
 export const DB_FIELD_DESCRIPTIONS: Record<string, string> = {
-  [DatabaseFields.PART_CODE]:
+  [DatabaseFields.PRODUCT_CODE]:
     "The publisher's code to identify the unique print run of the game.",
   [DatabaseFields.SATELLITE_CODE]:
     "A secondary UPC code, often right next to the primary UPC, but with fewer numerical digits.",

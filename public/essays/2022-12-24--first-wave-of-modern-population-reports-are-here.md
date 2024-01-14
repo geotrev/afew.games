@@ -95,10 +95,10 @@ Here are some intriguing figures:
 - SSBM has only five Made in Japan NFR examples graded (this was part of the 2002 console pack-in). The highest graded is `9.6 A+` with two examples.
 - SSBM has 23 Made in USA examples graded. There is one of `9.8 A++` and `9.6 A++`, each, and three `9.6 A+`.
 - Mario Kart Double Dash (MKDD) has only 4 Made in Japan retail prints graded, three of which are `9.6 A` at the highest end.
-- MKDD has a sparse two total copies of its Made In USA Bonus Disc (standard retail) variant graded (`53155A` part code).
-- MKDD also has 39 examples of its NFR variant (part code `56043A`), with one `9.8 A++`, two `9.8 A+`, and eight `9.6 A+` examples.
+- MKDD has a sparse two total copies of its Made In USA Bonus Disc (standard retail) variant graded (`53155A` product code).
+- MKDD also has 39 examples of its NFR variant (product code `56043A`), with one `9.8 A++`, two `9.8 A+`, and eight `9.6 A+` examples.
 - Metroid Prime has all of 10 Made in Japan examples, the highest of which is `9.6 A+` with just one example.
 - Metroid Prime's standard Made in USA retail print has 43 copies graded, with one `9.8 A++`, three `9.8 A+`, one `9.6 A++`, and seven `9.6 A+` examples.
-- Metroid Prime has ZERO Target Exclusive variants (`49830A` part code) graded.
+- Metroid Prime has ZERO Target Exclusive variants (`49830A` product code) graded.
 
 See the complete GameCube population data [here.](https://www.watagames.com/populations/gamecube/index.html)

@@ -17,9 +17,9 @@ If you are going to collect for these Nintendo 3DS and Wii U, equip yourself wit
 Here is a quick glossary on common terms/acronyms:
 
 - **UPC:** Universal Product Code. This is the bar code on the back of most games that is used for categorizing games at retail.
-- **Part Code:** A five or six digit code near the UPC. It's common on most modern 1st and 2nd party Nintendo games.
-- **Print:** Refers to the numeric portion of a game's part code. For instance, a game with part code `12345B` will have the print `12345`.
-- **Revision:** Refers to the alpha-numeric portion of a game's part code. Typically it's a letter and the last character. For instance, a game with part code `12345B` has the revision `B`.
+- **Product Code:** A five or six digit code near the UPC. It's common on most modern 1st and 2nd party Nintendo games.
+- **Print:** Refers to the numeric portion of a game's product code. For instance, a game with product code `12345B` will have the print `12345`.
+- **Revision:** Refers to the alpha-numeric portion of a game's product code. Typically it's a letter and the last character. For instance, a game with product code `12345B` has the revision `B`.
 - **Variant:** Refers to a specific print and revision combination of a game.
 - **ESRB:** The Entertainment Software Ratings Board. They provide ratings for games similar to how movies are rated.
 
@@ -47,20 +47,20 @@ In addition, there were also general branding changes.
 
 All of these and more can help identify with good confidence if a specific variant is early, late, or somewhere in the middle of the system's life span.
 
-### Part Codes
+### Product Codes
 
-As covered in my [modern Nintendo variants essay](https://www.afew.games/essays/decoding-modern-nintendo-print-variants), part codes are the major indicator of a print. They're only excluded on occasion for pack-ins, e.g. console or controller bundle offerings. They're fairly predictable.
+As covered in my [modern Nintendo variants essay](https://www.afew.games/essays/decoding-modern-nintendo-print-variants), product codes are the major indicator of a print. They're only excluded on occasion for pack-ins, e.g. console or controller bundle offerings. They're fairly predictable.
 
-The code is always on the back near the UPC. In the below example, the part code is `83664A`.
+The code is always on the back near the UPC. In the below example, the product code is `83664A`.
 
-![Wii U game UPC, highlighting the part code](/uploads/super-smash-wii-u.jpg)
+![Wii U game UPC, highlighting the product code](/uploads/super-smash-wii-u.jpg)
 
 There are two major things to remember:
 
 1. The last character (always alpha-numeric). If it ends with the letter `A`, then the print you're holding is the original variant of the that print. This letter will descend alphabetically for each time the game had to be revised for production, for instance for fixing mistakes (patches), adding feature text (e.g., amiibo support), and the like.
 2. Second is five vs six digit codes. For five digits (i.e., `12345A`) that will represent an earlier print, or a variant of an early print (if the code doesn't end in `A`). Codes with six digits (i.e., `123456A`) will often signify later prints, regardless of revision.
 
-Finally, a notable detail about part codes is there can be _a lot_ of them. [Mario Kart 7 for instance has nine total variants.](https://www.afew.games/?search=mario+kart+7)
+Finally, a notable detail about product codes is there can be _a lot_ of them. [Mario Kart 7 for instance has nine total variants.](https://www.afew.games/?search=mario+kart+7)
 
 ### ESRB Rating
 
@@ -96,6 +96,6 @@ You can identify an NFR print by looking for "Not For Resale" text somewhere on 
 
 In short, you can use the above details to better discern when a game you're holding was produced for your own purposes.
 
-If there's one key take away I give you though, it's to not rely on _just one_ detail to determine the chronology of a variant. You will almost certainly need to leverage part codes and box art in addition to comparing with other known variants to accurately determine the print you have and/or want.
+If there's one key take away I give you though, it's to not rely on _just one_ detail to determine the chronology of a variant. You will almost certainly need to leverage product codes and box art in addition to comparing with other known variants to accurately determine the print you have and/or want.
 
 Thanks for reading!

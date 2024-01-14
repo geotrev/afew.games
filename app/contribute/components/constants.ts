@@ -23,7 +23,7 @@ export const FIELD_DATA = [
     input: { id: "country" },
   },
   {
-    label: "Part Code",
+    label: "Product Code",
     hint: "The unique identifier given to the game during manufacturing. Sometimes called a 'product code.' Typically found on the spine, or the back of a game near the UPC.",
     input: { id: "part" },
   },

@@ -9,7 +9,7 @@ export interface DatabaseGame {
 }
 
 export interface DatabaseVariant {
-  part_code?: string
+  product_code?: string
   satellite_code?: string
   country?: string
   mpn?: string

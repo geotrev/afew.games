@@ -13,11 +13,11 @@ In this article, we'll cover Wata Games' December 1st, 2022 population report fo
 
 In terms of collecting, one of the most acknowledged aspects to Wii U is that it's approachable. It has a very small library, which presents well to those seeking an master set.
 
-Why else is it so collectable? A big part for folks like myself is Nintendo's continued use of [part code notation](https://www.afew.games/essays/decoding-modern-nintendo-print-variants) on its games, making print collecting much easier. 
+Why else is it so collectable? A big part for folks like myself is Nintendo's continued use of [product code notation](https://www.afew.games/essays/decoding-modern-nintendo-print-variants) on its games, making print collecting much easier.
 
-Typically, peripheral product releases help identify prints too, which is the case for Wii U. In late 2014, the same year Wii U released, amiibo™ hit store shelves, and with it many games had non-trivial case art revisions to reflect amiibo™ support. This helps add a level of chronology *in addition* to those part codes.
+Typically, peripheral product releases help identify prints too, which is the case for Wii U. In late 2014, the same year Wii U released, amiibo™ hit store shelves, and with it many games had non-trivial case art revisions to reflect amiibo™ support. This helps add a level of chronology _in addition_ to those product codes.
 
-Here's a quick example using *Mario Kart 8*:
+Here's a quick example using _Mario Kart 8_:
 
 ![Left: Nintendo Network badge, first production. Right: amiibo™ badge, later production.](/uploads/wii_u_print_example.png)
 
@@ -25,9 +25,9 @@ Here's a quick example using *Mario Kart 8*:
 
 ![Left: No amiibo™ text, first production. Right: "amiibo™ sold separately" text, later production.*](/uploads/mk8-print-example-back-2.jpg)
 
-Like all things grading, however, Wii U has had only a handful of popular, speculative titles, similar to Wii. Over 38% of total Wii U submissions to Wata, for instance, have been *The Legend of Zelda: Breath of the Wild* (*BOTW*), with the next most frequently submitted at 15% of *BOTW*'s submission count, *The Legend of Zelda: Wind Waker HD*.
+Like all things grading, however, Wii U has had only a handful of popular, speculative titles, similar to Wii. Over 38% of total Wii U submissions to Wata, for instance, have been _The Legend of Zelda: Breath of the Wild_ (_BOTW_), with the next most frequently submitted at 15% of _BOTW_'s submission count, _The Legend of Zelda: Wind Waker HD_.
 
-- - -
+---
 
 As a caveat to the below data, remember: games submitted to Wata will never represent the wider collecting hobby. This is mainly due to the fact that community(ies) around graded games are minuscule when compared to the larger collecting sphere (1000s vs 100,000s).
 
@@ -35,12 +35,12 @@ Similarly, the motivations of grading are at least partially skewed by the highe
 
 Same as in previous essays, we'll break down each group of figures by a few metrics:
 
-* Seal grade totals
-* Box grade totals (starting at `9.0`)
-* Seal grade breakdown across each box grade (starting at `9.0`)
-* The top 10 submitted games
+- Seal grade totals
+- Box grade totals (starting at `9.0`)
+- Seal grade breakdown across each box grade (starting at `9.0`)
+- The top 10 submitted games
 
-- - -
+---
 
 Seal grades show a strong weight on A+, similar to other consoles. In fact, 90% of all submissions were A+ or better.
 
@@ -56,7 +56,7 @@ Seal grades show a strong weight on A+, similar to other consoles. In fact, 90% 
 | NS             | 0         | 0.00%    |
 | **Total**      | **1744**  | **100%** |
 
-Box grades also weigh heavily to the `9.4`-`9.6` range. A massive 95% of all submitted games are `9.0` (very fine to near mint) or higher, but it could likely be said that case-fresh *BOTW* submissions vastly skew these figures.
+Box grades also weigh heavily to the `9.4`-`9.6` range. A massive 95% of all submitted games are `9.0` (very fine to near mint) or higher, but it could likely be said that case-fresh _BOTW_ submissions vastly skew these figures.
 
 | **Box Grade** | **Total** | **%**      |
 | ------------- | --------- | ---------- |
@@ -101,15 +101,15 @@ Next up, here are the top 10 most graded games on Wii U:
 
 Some interesting figures related to the top 10 most-submitted games:
 
-* *Breath of the Wild*: Of the two prints, `103423A` (seven controllers) and `103423B` (two controllers), there are 191 and 487 examples graded, respectively.
-* *Breath of the Wild*: Of the 44 examples of the "seven controllers" variant, there are 22 examples in `9.8 A++` and another 22 examples in `9.8 A+`. An additional 21 examples in `9.6 A++` exist, as well as 59 examples in `9.6 A+`.
-* *Wind Waker HD*: Despite the foil version (`81115A`, first production) being the more coveted variant, there are a whopping 88 examples, compared just 18 non-foil (`101975A`, second production) examples.
-* *Wind Waker HD*: The foil version is relatively scarce in the highest end, where there are just two examples in `9.8 A++` and one `9.8 A+`. The next grade down is the most populous, which has seven examples in `9.6 A++` and 26 in `9.6 A+`. 
-* *Twilight Princess HD*: There is one `10 A++` example and 27 examples of `9.8 A++`.
-* *Twilight Princess HD*: There is no Nintendo Selects!
-* *Super Smash Bros. for Wii U*: There are 35 first prints (`83664A`) graded, more than any other print. 
-* *Super Smash Bros. for Wii U*: Of those 35 first prints, six are `9.8 A++`, and four are `9.8 A+`. An additional five examples of `9.6 A++` and nine `9.6 A+` have also been graded.
-* *Devil's Third*: This popular title has four `9.8 A++` and three `9.8 A+` examples. There's an additional seven examples in `9.6 A++`, and 19 examples in `9.6 A+`. There's one `9.4 A++` example.
+- _Breath of the Wild_: Of the two prints, `103423A` (seven controllers) and `103423B` (two controllers), there are 191 and 487 examples graded, respectively.
+- _Breath of the Wild_: Of the 44 examples of the "seven controllers" variant, there are 22 examples in `9.8 A++` and another 22 examples in `9.8 A+`. An additional 21 examples in `9.6 A++` exist, as well as 59 examples in `9.6 A+`.
+- _Wind Waker HD_: Despite the foil version (`81115A`, first production) being the more coveted variant, there are a whopping 88 examples, compared just 18 non-foil (`101975A`, second production) examples.
+- _Wind Waker HD_: The foil version is relatively scarce in the highest end, where there are just two examples in `9.8 A++` and one `9.8 A+`. The next grade down is the most populous, which has seven examples in `9.6 A++` and 26 in `9.6 A+`.
+- _Twilight Princess HD_: There is one `10 A++` example and 27 examples of `9.8 A++`.
+- _Twilight Princess HD_: There is no Nintendo Selects!
+- _Super Smash Bros. for Wii U_: There are 35 first prints (`83664A`) graded, more than any other print.
+- _Super Smash Bros. for Wii U_: Of those 35 first prints, six are `9.8 A++`, and four are `9.8 A+`. An additional five examples of `9.6 A++` and nine `9.6 A+` have also been graded.
+- _Devil's Third_: This popular title has four `9.8 A++` and three `9.8 A+` examples. There's an additional seven examples in `9.6 A++`, and 19 examples in `9.6 A+`. There's one `9.4 A++` example.
 
 See the complete Wii U population data [here](https://www.watagames.com/populations/wii_u/index.html) if you're interested!
 
