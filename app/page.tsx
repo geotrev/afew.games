@@ -27,7 +27,7 @@ export default function Page() {
             This tool exclusively tracks box and seal variants for NTSC-U games
           </strong>
           , but inner contents are noted when appropriate. International regions
-          will be specified either in the game title.
+          will be specified in the game title.
         </p>
         <p className="mb-0">
           <Link
