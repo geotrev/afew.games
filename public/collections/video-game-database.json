@@ -7,17 +7,17 @@
           "name": "Super Mario Kart (Japanese)",
           "variants": [
             {
-              "notes": "SHVC-MK / 920214 (cartridge), SHVC-MK (manual), AC adapter caution insert (900801), feedback postcard",
+              "notes": "MK code (cartridge), MK code (manual), AC Adapter Insert (no code), feedback postcard",
               "mpn": "SHVC-MK",
               "country": "Japan"
             },
             {
-              "notes": "SHVC-MK / 920214 (cartridge), SHVC-MK or SHVC-MK-1 (manual), AC adapter caution insert (yellow, 900801), no feedback postcard",
+              "notes": "MK code (cartridge), MK or MK-1 code (manual), AC Adapter Insert (no code), no feedback postcard",
               "mpn": "SHVC-MK",
               "country": "Japan"
             },
             {
-              "notes": "SHVC-JPN-1 / G741812 (cartridge), SHVC-MK-2 (manual), AC adapter insert (pink, no code)",
+              "notes": "MK code w/ JPN-1 label (cartridge), MK-2 code (manual), AC Adapter Insert (HVC-002)",
               "mpn": "SHVC-MK",
               "country": "Japan"
             }
