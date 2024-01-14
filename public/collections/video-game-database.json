@@ -1845,6 +1845,56 @@
       "platform": "SNES",
       "games": [
         {
+          "name": "Super Mario Kart (Japanese)",
+          "variants": [
+            {
+              "notes": "Japanese version, SHVC-MK / 920214 (cartridge), SHVC-MK (manual), AC adapter caution insert (900801), feedback postcard",
+              "country": "Japan",
+              "mpn": "SHVC-MK"
+            },
+            {
+              "notes": "Japanese version, SHVC-MK / 920214 (cartridge), SHVC-MK or SHVC-MK-1 (manual), AC adapter caution insert (900801), no feedback postcard",
+              "mpn": "SHVC-MK",
+              "country": "Japan"
+            },
+            {
+              "notes": "Japanese version, SHVC-JPN-1 / G741812 (cartridge), SHVC-MK-2 (manual), AC adapter insert (no code)",
+              "mpn": "SHVC-MK",
+              "country": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Kart",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "SNES P MK",
+              "notes": "E rating"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNES P MK",
+              "notes": "K-A rating"
+            },
+            {
+              "country": "Mexico",
+              "mpn": "SNES P MK",
+              "notes": "Player's Choice"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNES P MK",
+              "notes": "With 'Game Pak' text"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNES P MK",
+              "notes": "No 'Game Pak' text"
+            }
+          ]
+        },
+        {
           "name": "Super Mario RPG: Legend of the Seven Stars",
           "variants": [
             {
@@ -1914,36 +1964,6 @@
               "country": "Japan",
               "mpn": "SNS P 8X",
               "notes": "ESRB rating above UPC"
-            }
-          ]
-        },
-        {
-          "name": "Super Mario Kart",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "SNES P MK",
-              "notes": "E rating"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNES P MK",
-              "notes": "K-A rating"
-            },
-            {
-              "country": "Mexico",
-              "mpn": "SNES P MK",
-              "notes": "Player's Choice"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNES P MK",
-              "notes": "With 'Game Pak' text"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNES P MK",
-              "notes": "No 'Game Pak' text"
             }
           ]
         },
