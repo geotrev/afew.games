@@ -1,8 +1,9 @@
 "use client"
 
 import { usePathname } from "next/navigation"
+import Image from "next/image"
 import cn from "classnames"
-import Logo from "./logo"
+import Logo from "./afewgames.svg"
 import { SocialLinks } from "../social-links"
 
 const Routes = {
@@ -39,7 +40,7 @@ export function SiteHeader() {
           href={Routes.HOME_PATH}
           className="btn btn-ghost h-auto w-16 p-0 hover:bg-transparent md:w-24"
         >
-          <Logo />
+          <Image alt="A Few Games" src={Logo} width={94} height={76} />
         </a>
       </div>
       <nav className="flex flex-col items-end gap-4">
