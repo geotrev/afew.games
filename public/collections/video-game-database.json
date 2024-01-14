@@ -1,6 +1,256 @@
 {
   "platforms": [
     {
+      "platform": "Super Famicom",
+      "games": [
+        {
+          "name": "Super Mario Kart (Japanese)",
+          "variants": [
+            {
+              "notes": "SHVC-MK / 920214 (cartridge), SHVC-MK (manual), AC adapter caution insert (900801), feedback postcard",
+              "mpn": "SHVC-MK",
+              "country": "Japan"
+            },
+            {
+              "notes": "SHVC-MK / 920214 (cartridge), SHVC-MK or SHVC-MK-1 (manual), AC adapter caution insert (yellow, 900801), no feedback postcard",
+              "mpn": "SHVC-MK",
+              "country": "Japan"
+            },
+            {
+              "notes": "SHVC-JPN-1 / G741812 (cartridge), SHVC-MK-2 (manual), AC adapter insert (pink, no code)",
+              "mpn": "SHVC-MK",
+              "country": "Japan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "SNES",
+      "games": [
+        {
+          "name": "Super Mario Kart",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "SNES P MK",
+              "notes": "E rating"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNES P MK",
+              "notes": "K-A rating"
+            },
+            {
+              "country": "Mexico",
+              "mpn": "SNES P MK",
+              "notes": "Player's Choice"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNES P MK",
+              "notes": "With 'Game Pak' text"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNES P MK",
+              "notes": "No 'Game Pak' text"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario RPG: Legend of the Seven Stars",
+          "variants": [
+            {
+              "country": "Mexico",
+              "mpn": "SNS P ARWE"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNS P ARWE"
+            }
+          ]
+        },
+        {
+          "name": "Super Metroid",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "SNES P RI",
+              "notes": "Player's Choice"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNES P RI",
+              "notes": "Phantoon screenshot"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNES P RI",
+              "notes": "Torizo statue screenshot"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario World",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "SNS P MW",
+              "notes": "Player's Choice"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNS P MW",
+              "notes": "4 line warranty"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNS P MW",
+              "notes": "3 line warranty"
+            }
+          ]
+        },
+        {
+          "name": "Donkey Kong Country",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "SNS P 8X",
+              "notes": "Player's Choice"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNS P 8X",
+              "notes": "No ESRB rating above UPC"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNS P 8X",
+              "notes": "ESRB rating above UPC"
+            }
+          ]
+        },
+        {
+          "name": "Super Star Wars",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "SNES P V4"
+            },
+            {
+              "country": "Mexico",
+              "mpn": "SNES P V4",
+              "notes": "Player's Choice"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNES P V4",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Street Fighter II",
+          "variants": [
+            {
+              "country": "Mexico",
+              "mpn": "SNES P S2",
+              "notes": "Assembled in Mexico, distributed by Majesco"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNES P S2"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: A Link to the Past",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "SNES P ZL",
+              "notes": "Player's Choice, E rating"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNES P ZL",
+              "notes": "Player's Choice, K-A rating"
+            },
+            {
+              "country": "Mexico",
+              "mpn": "SNES P ZL",
+              "notes": "Player's Choice"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNES P ZL"
+            }
+          ]
+        },
+        {
+          "name": "F-Zero",
+          "variants": [
+            {
+              "notes": "Players Choice, E rating",
+              "mpn": "SNS P FZ",
+              "country": "Japan"
+            },
+            {
+              "notes": "Players Choice, K-A rating",
+              "mpn": "SNS P FZ",
+              "country": "Japan"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNS P FZ",
+              "notes": "Upright recycle symbol"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNS P FZ",
+              "notes": "Made in Japan, upside-down recycle symbol"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man X",
+          "variants": [
+            {
+              "country": "Mexico",
+              "mpn": "SNS RX USA",
+              "notes": "Assembled in Mexico, distributed by Majesco, H-overlap seam, upright SNES Code"
+            },
+            {
+              "country": "Mexico",
+              "mpn": "SNS RX USA",
+              "notes": "Assembled in Mexico, distributed by Majesco, H-overlap seam, upside-down SNES code"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNS P RX",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Aladdin",
+          "variants": [
+            {
+              "country": "Mexico",
+              "mpn": "SNS P RJ",
+              "notes": "Assembled in Mexico, distributed by Majesco"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNS P RJ",
+              "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
       "platform": "Game Boy",
       "games": [
         {
@@ -2641,251 +2891,6 @@
             {
               "country": "Japan",
               "notes": "NFR (Challenge Set)"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "platform": "SNES",
-      "games": [
-        {
-          "name": "Super Mario Kart (Japanese)",
-          "variants": [
-            {
-              "notes": "SHVC-MK / 920214 (cartridge), SHVC-MK (manual), AC adapter caution insert (900801), feedback postcard",
-              "country": "Japan",
-              "mpn": "SHVC-MK"
-            },
-            {
-              "notes": "SHVC-MK / 920214 (cartridge), SHVC-MK or SHVC-MK-1 (manual), AC adapter caution insert (yellow, 900801), no feedback postcard",
-              "mpn": "SHVC-MK",
-              "country": "Japan"
-            },
-            {
-              "notes": "SHVC-JPN-1 / G741812 (cartridge), SHVC-MK-2 (manual), AC adapter insert (pink, no code)",
-              "mpn": "SHVC-MK",
-              "country": "Japan"
-            }
-          ]
-        },
-        {
-          "name": "Super Mario Kart",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "SNES P MK",
-              "notes": "E rating"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNES P MK",
-              "notes": "K-A rating"
-            },
-            {
-              "country": "Mexico",
-              "mpn": "SNES P MK",
-              "notes": "Player's Choice"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNES P MK",
-              "notes": "With 'Game Pak' text"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNES P MK",
-              "notes": "No 'Game Pak' text"
-            }
-          ]
-        },
-        {
-          "name": "Super Mario RPG: Legend of the Seven Stars",
-          "variants": [
-            {
-              "country": "Mexico",
-              "mpn": "SNS P ARWE"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNS P ARWE"
-            }
-          ]
-        },
-        {
-          "name": "Super Metroid",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "SNES P RI",
-              "notes": "Player's Choice"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNES P RI",
-              "notes": "Phantoon screenshot"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNES P RI",
-              "notes": "Torizo statue screenshot"
-            }
-          ]
-        },
-        {
-          "name": "Super Mario World",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "SNS P MW",
-              "notes": "Player's Choice"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNS P MW",
-              "notes": "4 line warranty"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNS P MW",
-              "notes": "3 line warranty"
-            }
-          ]
-        },
-        {
-          "name": "Donkey Kong Country",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "SNS P 8X",
-              "notes": "Player's Choice"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNS P 8X",
-              "notes": "No ESRB rating above UPC"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNS P 8X",
-              "notes": "ESRB rating above UPC"
-            }
-          ]
-        },
-        {
-          "name": "Super Star Wars",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "SNES P V4"
-            },
-            {
-              "country": "Mexico",
-              "mpn": "SNES P V4",
-              "notes": "Player's Choice"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNES P V4",
-              "notes": "Player's Choice"
-            }
-          ]
-        },
-        {
-          "name": "Street Fighter II",
-          "variants": [
-            {
-              "country": "Mexico",
-              "mpn": "SNES P S2",
-              "notes": "Assembled in Mexico, distributed by Majesco"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNES P S2"
-            }
-          ]
-        },
-        {
-          "name": "The Legend of Zelda: A Link to the Past",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "SNES P ZL",
-              "notes": "Player's Choice, E rating"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNES P ZL",
-              "notes": "Player's Choice, K-A rating"
-            },
-            {
-              "country": "Mexico",
-              "mpn": "SNES P ZL",
-              "notes": "Player's Choice"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNES P ZL"
-            }
-          ]
-        },
-        {
-          "name": "F-Zero",
-          "variants": [
-            {
-              "notes": "Players Choice, E rating",
-              "mpn": "SNS P FZ",
-              "country": "Japan"
-            },
-            {
-              "notes": "Players Choice, K-A rating",
-              "mpn": "SNS P FZ",
-              "country": "Japan"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNS P FZ",
-              "notes": "Upright recycle symbol"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNS P FZ",
-              "notes": "Made in Japan, upside-down recycle symbol"
-            }
-          ]
-        },
-        {
-          "name": "Mega Man X",
-          "variants": [
-            {
-              "country": "Mexico",
-              "mpn": "SNS RX USA",
-              "notes": "Assembled in Mexico, distributed by Majesco, H-overlap seam, upright SNES Code"
-            },
-            {
-              "country": "Mexico",
-              "mpn": "SNS RX USA",
-              "notes": "Assembled in Mexico, distributed by Majesco, H-overlap seam, upside-down SNES code"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNS P RX",
-              "notes": ""
-            }
-          ]
-        },
-        {
-          "name": "Aladdin",
-          "variants": [
-            {
-              "country": "Mexico",
-              "mpn": "SNS P RJ",
-              "notes": "Assembled in Mexico, distributed by Majesco"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNS P RJ",
-              "notes": ""
             }
           ]
         }
