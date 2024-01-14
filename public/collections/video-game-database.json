@@ -8,7 +8,7 @@
           "variants": [
             {
               "mpn": "SHVC-MW",
-              "notes": "MW code (cartridge), MW code (manual), Operation Card (MW code), AC Adapter Insert (no code)"
+              "notes": "MW code (cartridge), MW code (manual), AC Adapter Insert (no code)"
             }
           ]
         },
@@ -18,7 +18,7 @@
             {
               "country": "Japan",
               "mpn": "SHVC-RI",
-              "notes": "RI code (cartridge), RI code (manual), AC Adapter Insert (no code)"
+              "notes": "RI code (cartridge), RI code (manual), Operation Card (RI code), AC Adapter Insert (no code)"
             }
           ]
         },
