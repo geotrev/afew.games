@@ -74,87 +74,87 @@
           ]
         },
         {
-          "name": "Pocket Monsters: Yellow",
+          "name": "Pocket Monsters: Yellow (Japanese)",
           "variants": [
             {
               "country": "Japan",
               "mpn": "DMG-P-APSJ(JPN)",
-              "notes": "Japanese version, Sealed Bag w/ Postcards 24-Hour Pre-Order (cartridge codes: 00, 12, 20, 22)"
+              "notes": "Sealed Bag w/ Postcards 24-Hour Pre-Order (cartridge codes: 00, 12, 20, 22)"
             },
             {
               "mpn": "DMG-P-APSJ(JPN)",
               "country": "Japan",
-              "notes": "Japanese version"
+              "notes": ""
             }
           ]
         },
         {
-          "name": "Pocket Monsters: Blue",
+          "name": "Pocket Monsters: Blue (Japanese)",
           "variants": [
             {
               "country": "Japan",
               "mpn": "DMG-P-APEJ(JPN)",
-              "notes": "Japanese version, Sealed Bag Mail Order, No UPC on Box"
+              "notes": "Sealed Bag Mail Order, No UPC on Box"
             },
             {
               "country": "Japan",
               "mpn": "DMG-P-APEJ(JPN)",
-              "notes": "Japanese version"
+              "notes": ""
             },
             {
               "country": "Japan",
               "mpn": "DMG-P-APEJ(JPN)",
-              "notes": "Japanese version, Toyota Auto promotion"
+              "notes": "Toyota Auto promotion"
             }
           ]
         },
         {
-          "name": "Pocket Monsters: Red",
+          "name": "Pocket Monsters: Red (Japanese)",
           "variants": [
             {
-              "notes": "Japanese version, Large UPC, Super Game Boy insert + Feedback Survey (cartridge codes: 00, 20, 22)",
+              "notes": "Large UPC, Super Game Boy insert + Feedback Survey (cartridge codes: 00, 20, 22)",
               "mpn": "DMG-P-APAJ(JPN)",
               "country": "Japan"
             },
             {
               "country": "Japan",
               "mpn": "DMG-P-APAJ(JPN)",
-              "notes": "Japanese version, Super Game Boy insert (cartridge codes: 00, 20, 22)"
+              "notes": "Super Game Boy insert (cartridge codes: 00, 20, 22)"
             },
             {
               "country": "Japan",
               "mpn": "DMG-P-APAJ(JPN)",
-              "notes": "Japanese version, Game Boy Pocket insert (1 code)"
+              "notes": "Game Boy Pocket insert (1 code)"
             },
             {
               "country": "Japan",
               "mpn": "DMG-P-APAJ(JPN)",
-              "notes": "Japanese version, Game Boy Color insert"
+              "notes": "Game Boy Color insert"
             }
           ]
         },
         {
-          "name": "Pocket Monsters: Green",
+          "name": "Pocket Monsters: Green (Japanese)",
           "variants": [
             {
-              "notes": "Japanese version, Large UPC, Super Game Boy insert + Feedback Survey (cartridge codes: 00, 20)",
+              "notes": "Large UPC, Super Game Boy insert + Feedback Survey (cartridge codes: 00, 20)",
               "country": "Japan",
               "mpn": "DMG-P-APBJ(JPN)"
             },
             {
               "country": "Japan",
               "mpn": "DMG-P-APBJ(JPN)",
-              "notes": "Japanese version, Super Game Boy insert (cartridge codes: 00, 20)"
+              "notes": "Super Game Boy insert (cartridge codes: 00, 20)"
             },
             {
               "country": "Japan",
               "mpn": "DMG-P-APBJ(JPN)",
-              "notes": "Japanese version, Game Boy Pocket insert (1 code)"
+              "notes": "Game Boy Pocket insert (1 code)"
             },
             {
               "country": "Japan",
               "mpn": "DMG-P-APBJ(JPN)",
-              "notes": "Japanese version, Game Boy Color insert"
+              "notes": "Game Boy Color insert"
             }
           ]
         },
@@ -405,6 +405,811 @@
               "country": "Japan",
               "mpn": "DMG P WM",
               "notes": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "Game Boy Color",
+      "games": [
+        {
+          "name": "Pocket Monsters: Crystal (Japanese)",
+          "variants": [
+            {
+              "mpn": "CGB-P-BXTJ(JPN)",
+              "country": "Japan",
+              "notes": "Sealed Bag 11/1~12/5 Pre-Order"
+            },
+            {
+              "country": "Japan",
+              "mpn": "CGB-P-BXTJ(JPN)",
+              "notes": "Sealed Bag 12/6~12/17 Pre-Order"
+            },
+            {
+              "mpn": "CGB-P-BXTJ(JPN)",
+              "notes": "",
+              "country": "Japan"
+            },
+            {
+              "country": "Japan",
+              "mpn": "CGB-P-BXTJ(JPN)",
+              "notes": "Sealed Bag 12/18~12/25 Pre-Order"
+            },
+            {
+              "mpn": "CGB-P-BXTJ(JPN)",
+              "country": "Japan",
+              "notes": "Sealed Bag 12/26~1/8 Pre-Order"
+            }
+          ]
+        },
+        {
+          "name": "Pocket Monsters: Gold (Japanese)",
+          "variants": [
+            {
+              "mpn": "DMG-P-AAUJ(JPN)",
+              "notes": "Sealed Bag Lawson Pre-Order 11/1",
+              "country": "Japan"
+            },
+            {
+              "mpn": "DMG-P-AAUJ(JPN)",
+              "notes": "No N64 Disclaimer",
+              "country": "Japan"
+            },
+            {
+              "notes": "Sealed Bag Lawson Pre-Order 11/28",
+              "country": "Japan",
+              "mpn": "DMG-P-AAUJ(JPN)"
+            },
+            {
+              "country": "Japan",
+              "notes": "N64 Disclaimer",
+              "mpn": "DMG-P-AAUJ(JPN)"
+            }
+          ]
+        },
+        {
+          "name": "Pocket Monsters: Silver (Japanese)",
+          "variants": [
+            {
+              "notes": "Sealed Bag Lawson Pre-Order 11/1",
+              "mpn": "DMG-P-AAXJ(JPN)",
+              "country": "Japan"
+            },
+            {
+              "mpn": "DMG-P-AAXJ(JPN)",
+              "country": "Japan",
+              "notes": "No N64 Disclaimer"
+            },
+            {
+              "mpn": "DMG-P-AAXJ(JPN)",
+              "notes": "Sealed Bag Lawson Pre-Order 11/28",
+              "country": "Japan"
+            },
+            {
+              "country": "Japan",
+              "notes": "N64 Disclaimer",
+              "mpn": "DMG-P-AAXJ(JPN)"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: Link's Awakening DX",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P AZLE",
+              "notes": "100% fiber, foil"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P AZLE",
+              "notes": "83% fiber, foil"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P AZLE",
+              "notes": "No foil"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Gold Version",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P AAUE"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Silver Version",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P AAXE"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Crystal Version",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "CGB P BYTE",
+              "notes": "Double-ended box, 'series' corrected"
+            },
+            {
+              "country": "Japan",
+              "mpn": "CGB P BYTE",
+              "notes": "Y-fold box, 'series' corrected"
+            },
+            {
+              "country": "Japan",
+              "mpn": "CGB P BYTE",
+              "notes": "'Series' typo"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: Oracle of Ages",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "CGB P AZ8E",
+              "notes": "Double-ended box, foil"
+            },
+            {
+              "country": "Japan",
+              "mpn": "CGB P AZ8E",
+              "notes": "Y-fold box, no foil"
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: Oracle of Seasons",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "CGB P AZ7E",
+              "notes": "Double-ended box, foil"
+            },
+            {
+              "country": "Japan",
+              "mpn": "CGB P AZ7E",
+              "notes": "Y-fold box, no foil"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Trading Card Game",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P AXQE"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Pinball",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P VPHE",
+              "notes": "100% fiber, foil"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P VPHE",
+              "notes": "83% fiber, foil"
+            },
+            {
+              "country": "Japan",
+              "mpn": "DMG P VPHP",
+              "notes": "No foil"
+            }
+          ]
+        },
+        {
+          "name": "Yu-Gi-Oh!: Dark Duel Stories",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "CGB P BY3E",
+              "notes": "Limited edition cards (Blue Eyes White Dragon)"
+            },
+            {
+              "country": "Japan",
+              "mpn": "CGB P BY3E",
+              "notes": "Limited edition cards (Seiyaryu)"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Bros. Deluxe",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "CGB P AHYE",
+              "notes": "100% fiber, foil"
+            },
+            {
+              "country": "Japan",
+              "mpn": "CGB P AHYE",
+              "notes": "83% fiber, foil"
+            },
+            {
+              "country": "Japan",
+              "mpn": "CGB P AHYE",
+              "notes": "No foil"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Xtreme",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "DMG P BM6E"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Xtreme 2",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "CGB P B2XE"
+            }
+          ]
+        },
+        {
+          "name": "Shantae",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "CGB P B3AE",
+              "notes": "Capcom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "Game Boy Advance",
+      "games": [
+        {
+          "name": "Konami Collector's Series: Arcade Advanced",
+          "variants": [
+            {
+              "notes": "Blue Box, New Konami Logo",
+              "mpn": "AGB P AKCE",
+              "country": "Japan"
+            },
+            {
+              "mpn": "AGB P AKCE",
+              "country": "Japan",
+              "notes": "Blue Box, Old Konami Logo"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P AKCE",
+              "notes": "Orange Box, Old Konami Logo"
+            }
+          ]
+        },
+        {
+          "name": "Pocket Monsters: Sapphire (Japanese)",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB-P-AXPJ(JPN)",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Pocket Monsters: Ruby (Japanese)",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB-P-AXVJ(JPN)",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Spyro: Attack of the Rhynocs",
+          "variants": [
+            {
+              "notes": "ISBN 0-7849-2294-2",
+              "mpn": "AGB P AOWE",
+              "country": "Japan"
+            },
+            {
+              "mpn": "AGB P AOWE",
+              "notes": "Spyro \"Game Boy Advance\" SP game skin inside (C7203650), ISBN 0-7849-2294-2",
+              "country": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Sapphire Version",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P AXPE",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Ruby Version",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P AXVE",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Pokemon Emerald Version",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P BPEE",
+              "notes": ""
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P BPEE",
+              "notes": "'Plays on DS' logo"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P WOO4",
+              "notes": "Carrying case bundle"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon LeafGreen Version",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P BPGE USA",
+              "notes": "Player's Choice"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P BPGE USA",
+              "notes": "'Plays on DS' logo, Player's Choice"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB-BPGE-USA(A)",
+              "notes": "Wireless adapter not included"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P BPGE",
+              "notes": "Wireless adapter not included"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB R BPGE",
+              "notes": "Printed in Philippines, Wireless adapter, 'Adapater' typo"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB R BPGE",
+              "notes": "Printed in Philippines, Wireless adapter, 'Adapter' corrected"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB R BPGE",
+              "notes": "Printed in Philippines (sticker), Wireless adapter, 'Adapter' corrected"
+            }
+          ]
+        },
+        {
+          "name": "Pokemon FireRed Version",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P BPRE USA",
+              "notes": "Player's Choice"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P BPRE USA",
+              "notes": "'Plays on DS' logo, Player's Choice"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB-BPRE-USA(A)",
+              "notes": "(unconfirmed) Wireless adapter not included"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P BPRE",
+              "notes": "Wireless adapter not included"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB R BPRE",
+              "notes": "Printed in Philippines, Wireless adapter, 'Adapater' typo"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB R BPRE",
+              "notes": "Printed in Philippines, Wireless adapter, 'Adapter' corrected"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB R BPRE",
+              "notes": "Printed in Philippines (sticker), Wireless adapter, 'Adapter' corrected"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Advance",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P AMAE",
+              "notes": ""
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P AMAE USA",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario World: Super Mario Advance 2",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P AA2E",
+              "notes": ""
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P AA2E USA",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Yoshi's Island: Super Mario Advance 3",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P A3AE",
+              "notes": ""
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P A3AE USA",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Advance 4: Super Mario Bros. 3",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P AX4E",
+              "notes": ""
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P AX4E",
+              "notes": "'Plays on DS' logo"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P W003",
+              "notes": "Seven bonus level e-reader cards"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P AX4E",
+              "notes": "Two bonus level e-reader cards"
+            }
+          ]
+        },
+        {
+          "name": "Metroid Fusion",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P AMTE",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Metroid: Zero Mission",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P BMXE",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: The Minish Cap",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P BZME",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "The Legend of Zelda: A Link to the Past and Four Swords",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P AZLE",
+              "notes": "100% fiber"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P AZLE",
+              "notes": "83% fiber"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P AZLE USA",
+              "notes": "Player's Choice, 100% fiber"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P AZLE USA",
+              "notes": "Player's Choice, 83% fiber"
+            }
+          ]
+        },
+        {
+          "name": "Mario & Luigi: Superstar Saga",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P A88E",
+              "notes": "100% fiber"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P A88E",
+              "notes": "83% fiber"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P A88E USA",
+              "notes": "Player's Choice"
+            }
+          ]
+        },
+        {
+          "name": "Castlevania: Circle of the Moon",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P AAME",
+              "notes": ""
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P AAME",
+              "notes": "Distributed by Majesco"
+            }
+          ]
+        },
+        {
+          "name": "Castlevania: Aria of Sorrow",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P A2CE",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Castlevania: Harmony of Dissonance",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P ACHE",
+              "notes": ""
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P ACHE",
+              "notes": "'A GBA masterpiece' Pocket Games quote"
+            }
+          ]
+        },
+        {
+          "name": "Golden Sun",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P AGSE",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Golden Sun: The Lost Age",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P AGFE",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Zero",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P AZCE",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Zero 2",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P A62E",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Zero 3",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P BZ3E",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Zero 4",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P B4ZE",
+              "notes": ""
+            }
+          ]
+        },
+        {
+          "name": "Kingdom Hearts: Chain of Memories",
+          "variants": [
+            {
+              "country": "USA",
+              "mpn": "AGB P B8CE",
+              "notes": "Double-ended box, 3-side seam"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man & Bass",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P A6ME",
+              "notes": "Y-fold box, H-seam"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P A6ME",
+              "notes": "Double-ended box, 3-side seam"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Battle Network",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P AREE",
+              "notes": "Y-fold box, H-seam"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Battle Network 2",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P AE2E",
+              "notes": "Y-fold box, H-seam"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Battle Network 3: White Version",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P A6BE",
+              "notes": "Y-fold box, missing art error, H-seam"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P A6BE",
+              "notes": "Double-ended box, art corrected, 3-side seam"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Battle Network 3: Blue Version",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P A3XE",
+              "notes": "Y-fold box, H-seam"
+            },
+            {
+              "country": "Japan",
+              "mpn": "AGB P A3XE",
+              "notes": "Double-ended box, 3-side seam"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Battle Network 4: Red Sun",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P B4WE",
+              "notes": "Y-fold box, H-seam"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Battle Network 4: Blue Moon",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P B4BE",
+              "notes": "Y-fold box, H-seam"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Battle Network 6: Cybeast Falzar",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P BR6E",
+              "notes": "Double-ended box, 3-side seam"
+            }
+          ]
+        },
+        {
+          "name": "Mega Man Battle Network 6: Cybeast Gregar",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "AGB P BR5E",
+              "notes": "Double-ended box, 3-side seam"
             }
           ]
         }
@@ -1845,6 +2650,56 @@
       "platform": "SNES",
       "games": [
         {
+          "name": "Super Mario Kart (Japanese)",
+          "variants": [
+            {
+              "notes": "SHVC-MK / 920214 (cartridge), SHVC-MK (manual), AC adapter caution insert (900801), feedback postcard",
+              "country": "Japan",
+              "mpn": "SHVC-MK"
+            },
+            {
+              "notes": "SHVC-MK / 920214 (cartridge), SHVC-MK or SHVC-MK-1 (manual), AC adapter caution insert (yellow, 900801), no feedback postcard",
+              "mpn": "SHVC-MK",
+              "country": "Japan"
+            },
+            {
+              "notes": "SHVC-JPN-1 / G741812 (cartridge), SHVC-MK-2 (manual), AC adapter insert (pink, no code)",
+              "mpn": "SHVC-MK",
+              "country": "Japan"
+            }
+          ]
+        },
+        {
+          "name": "Super Mario Kart",
+          "variants": [
+            {
+              "country": "Japan",
+              "mpn": "SNES P MK",
+              "notes": "E rating"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNES P MK",
+              "notes": "K-A rating"
+            },
+            {
+              "country": "Mexico",
+              "mpn": "SNES P MK",
+              "notes": "Player's Choice"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNES P MK",
+              "notes": "With 'Game Pak' text"
+            },
+            {
+              "country": "Japan",
+              "mpn": "SNES P MK",
+              "notes": "No 'Game Pak' text"
+            }
+          ]
+        },
+        {
           "name": "Super Mario RPG: Legend of the Seven Stars",
           "variants": [
             {
@@ -1914,36 +2769,6 @@
               "country": "Japan",
               "mpn": "SNS P 8X",
               "notes": "ESRB rating above UPC"
-            }
-          ]
-        },
-        {
-          "name": "Super Mario Kart",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "SNES P MK",
-              "notes": "E rating"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNES P MK",
-              "notes": "K-A rating"
-            },
-            {
-              "country": "Mexico",
-              "mpn": "SNES P MK",
-              "notes": "Player's Choice"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNES P MK",
-              "notes": "With 'Game Pak' text"
-            },
-            {
-              "country": "Japan",
-              "mpn": "SNES P MK",
-              "notes": "No 'Game Pak' text"
             }
           ]
         },
@@ -2061,811 +2886,6 @@
               "country": "Japan",
               "mpn": "SNS P RJ",
               "notes": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "platform": "Game Boy Advance",
-      "games": [
-        {
-          "name": "Konami Collector's Series: Arcade Advanced",
-          "variants": [
-            {
-              "notes": "Blue Box, New Konami Logo",
-              "mpn": "AGB P AKCE",
-              "country": "Japan"
-            },
-            {
-              "mpn": "AGB P AKCE",
-              "country": "Japan",
-              "notes": "Blue Box, Old Konami Logo"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P AKCE",
-              "notes": "Orange Box, Old Konami Logo"
-            }
-          ]
-        },
-        {
-          "name": "Pocket Monsters: Sapphire",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB-P-AXPJ(JPN)",
-              "notes": "Japanese version"
-            }
-          ]
-        },
-        {
-          "name": "Pocket Monsters: Ruby",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB-P-AXVJ(JPN)",
-              "notes": "Japanese version"
-            }
-          ]
-        },
-        {
-          "name": "Spyro: Attack of the Rhynocs",
-          "variants": [
-            {
-              "notes": "ISBN 0-7849-2294-2",
-              "mpn": "AGB P AOWE",
-              "country": "Japan"
-            },
-            {
-              "mpn": "AGB P AOWE",
-              "notes": "Spyro \"Game Boy Advance\" SP game skin inside (C7203650), ISBN 0-7849-2294-2",
-              "country": "Japan"
-            }
-          ]
-        },
-        {
-          "name": "Pokemon Sapphire Version",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P AXPE",
-              "notes": ""
-            }
-          ]
-        },
-        {
-          "name": "Pokemon Ruby Version",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P AXVE",
-              "notes": ""
-            }
-          ]
-        },
-        {
-          "name": "Pokemon Emerald Version",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P BPEE",
-              "notes": ""
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P BPEE",
-              "notes": "'Plays on DS' logo"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P WOO4",
-              "notes": "Carrying case bundle"
-            }
-          ]
-        },
-        {
-          "name": "Pokemon LeafGreen Version",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P BPGE USA",
-              "notes": "Player's Choice"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P BPGE USA",
-              "notes": "'Plays on DS' logo, Player's Choice"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB-BPGE-USA(A)",
-              "notes": "Wireless adapter not included"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P BPGE",
-              "notes": "Wireless adapter not included"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB R BPGE",
-              "notes": "Printed in Philippines, Wireless adapter, 'Adapater' typo"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB R BPGE",
-              "notes": "Printed in Philippines, Wireless adapter, 'Adapter' corrected"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB R BPGE",
-              "notes": "Printed in Philippines (sticker), Wireless adapter, 'Adapter' corrected"
-            }
-          ]
-        },
-        {
-          "name": "Pokemon FireRed Version",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P BPRE USA",
-              "notes": "Player's Choice"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P BPRE USA",
-              "notes": "'Plays on DS' logo, Player's Choice"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB-BPRE-USA(A)",
-              "notes": "(unconfirmed) Wireless adapter not included"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P BPRE",
-              "notes": "Wireless adapter not included"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB R BPRE",
-              "notes": "Printed in Philippines, Wireless adapter, 'Adapater' typo"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB R BPRE",
-              "notes": "Printed in Philippines, Wireless adapter, 'Adapter' corrected"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB R BPRE",
-              "notes": "Printed in Philippines (sticker), Wireless adapter, 'Adapter' corrected"
-            }
-          ]
-        },
-        {
-          "name": "Super Mario Advance",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P AMAE",
-              "notes": ""
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P AMAE USA",
-              "notes": "Player's Choice"
-            }
-          ]
-        },
-        {
-          "name": "Super Mario World: Super Mario Advance 2",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P AA2E",
-              "notes": ""
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P AA2E USA",
-              "notes": "Player's Choice"
-            }
-          ]
-        },
-        {
-          "name": "Yoshi's Island: Super Mario Advance 3",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P A3AE",
-              "notes": ""
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P A3AE USA",
-              "notes": "Player's Choice"
-            }
-          ]
-        },
-        {
-          "name": "Super Mario Advance 4: Super Mario Bros. 3",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P AX4E",
-              "notes": ""
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P AX4E",
-              "notes": "'Plays on DS' logo"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P W003",
-              "notes": "Seven bonus level e-reader cards"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P AX4E",
-              "notes": "Two bonus level e-reader cards"
-            }
-          ]
-        },
-        {
-          "name": "Metroid Fusion",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P AMTE",
-              "notes": ""
-            }
-          ]
-        },
-        {
-          "name": "Metroid: Zero Mission",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P BMXE",
-              "notes": ""
-            }
-          ]
-        },
-        {
-          "name": "The Legend of Zelda: The Minish Cap",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P BZME",
-              "notes": ""
-            }
-          ]
-        },
-        {
-          "name": "The Legend of Zelda: A Link to the Past and Four Swords",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P AZLE",
-              "notes": "100% fiber"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P AZLE",
-              "notes": "83% fiber"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P AZLE USA",
-              "notes": "Player's Choice, 100% fiber"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P AZLE USA",
-              "notes": "Player's Choice, 83% fiber"
-            }
-          ]
-        },
-        {
-          "name": "Mario & Luigi: Superstar Saga",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P A88E",
-              "notes": "100% fiber"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P A88E",
-              "notes": "83% fiber"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P A88E USA",
-              "notes": "Player's Choice"
-            }
-          ]
-        },
-        {
-          "name": "Castlevania: Circle of the Moon",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P AAME",
-              "notes": ""
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P AAME",
-              "notes": "Distributed by Majesco"
-            }
-          ]
-        },
-        {
-          "name": "Castlevania: Aria of Sorrow",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P A2CE",
-              "notes": ""
-            }
-          ]
-        },
-        {
-          "name": "Castlevania: Harmony of Dissonance",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P ACHE",
-              "notes": ""
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P ACHE",
-              "notes": "'A GBA masterpiece' Pocket Games quote"
-            }
-          ]
-        },
-        {
-          "name": "Golden Sun",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P AGSE",
-              "notes": ""
-            }
-          ]
-        },
-        {
-          "name": "Golden Sun: The Lost Age",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P AGFE",
-              "notes": ""
-            }
-          ]
-        },
-        {
-          "name": "Mega Man Zero",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P AZCE",
-              "notes": ""
-            }
-          ]
-        },
-        {
-          "name": "Mega Man Zero 2",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P A62E",
-              "notes": ""
-            }
-          ]
-        },
-        {
-          "name": "Mega Man Zero 3",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P BZ3E",
-              "notes": ""
-            }
-          ]
-        },
-        {
-          "name": "Mega Man Zero 4",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P B4ZE",
-              "notes": ""
-            }
-          ]
-        },
-        {
-          "name": "Kingdom Hearts: Chain of Memories",
-          "variants": [
-            {
-              "country": "USA",
-              "mpn": "AGB P B8CE",
-              "notes": "Double-ended box, 3-side seam"
-            }
-          ]
-        },
-        {
-          "name": "Mega Man & Bass",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P A6ME",
-              "notes": "Y-fold box, H-seam"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P A6ME",
-              "notes": "Double-ended box, 3-side seam"
-            }
-          ]
-        },
-        {
-          "name": "Mega Man Battle Network",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P AREE",
-              "notes": "Y-fold box, H-seam"
-            }
-          ]
-        },
-        {
-          "name": "Mega Man Battle Network 2",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P AE2E",
-              "notes": "Y-fold box, H-seam"
-            }
-          ]
-        },
-        {
-          "name": "Mega Man Battle Network 3: White Version",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P A6BE",
-              "notes": "Y-fold box, missing art error, H-seam"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P A6BE",
-              "notes": "Double-ended box, art corrected, 3-side seam"
-            }
-          ]
-        },
-        {
-          "name": "Mega Man Battle Network 3: Blue Version",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P A3XE",
-              "notes": "Y-fold box, H-seam"
-            },
-            {
-              "country": "Japan",
-              "mpn": "AGB P A3XE",
-              "notes": "Double-ended box, 3-side seam"
-            }
-          ]
-        },
-        {
-          "name": "Mega Man Battle Network 4: Red Sun",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P B4WE",
-              "notes": "Y-fold box, H-seam"
-            }
-          ]
-        },
-        {
-          "name": "Mega Man Battle Network 4: Blue Moon",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P B4BE",
-              "notes": "Y-fold box, H-seam"
-            }
-          ]
-        },
-        {
-          "name": "Mega Man Battle Network 6: Cybeast Falzar",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P BR6E",
-              "notes": "Double-ended box, 3-side seam"
-            }
-          ]
-        },
-        {
-          "name": "Mega Man Battle Network 6: Cybeast Gregar",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "AGB P BR5E",
-              "notes": "Double-ended box, 3-side seam"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "platform": "Game Boy Color",
-      "games": [
-        {
-          "name": "Pocket Monsters: Crystal",
-          "variants": [
-            {
-              "mpn": "CGB-P-BXTJ(JPN)",
-              "country": "Japan",
-              "notes": "Japanese version, Sealed Bag 11/1~12/5 Pre-Order"
-            },
-            {
-              "country": "Japan",
-              "mpn": "CGB-P-BXTJ(JPN)",
-              "notes": "Japanese version, Sealed Bag 12/6~12/17 Pre-Order"
-            },
-            {
-              "mpn": "CGB-P-BXTJ(JPN)",
-              "notes": "Japanese version",
-              "country": "Japan"
-            },
-            {
-              "country": "Japan",
-              "mpn": "CGB-P-BXTJ(JPN)",
-              "notes": "Japanese version, Sealed Bag 12/18~12/25 Pre-Order"
-            },
-            {
-              "mpn": "CGB-P-BXTJ(JPN)",
-              "country": "Japan",
-              "notes": "Japanese version, Sealed Bag 12/26~1/8 Pre-Order"
-            }
-          ]
-        },
-        {
-          "name": "Pocket Monsters: Gold",
-          "variants": [
-            {
-              "mpn": "DMG-P-AAUJ(JPN)",
-              "notes": "Japanese version, Sealed Bag Lawson Pre-Order 11/1",
-              "country": "Japan"
-            },
-            {
-              "mpn": "DMG-P-AAUJ(JPN)",
-              "notes": "Japanese version, No N64 Disclaimer",
-              "country": "Japan"
-            },
-            {
-              "notes": "Japanese version, Sealed Bag Lawson Pre-Order 11/28",
-              "country": "Japan",
-              "mpn": "DMG-P-AAUJ(JPN)"
-            },
-            {
-              "country": "Japan",
-              "notes": "Japanese version, N64 Disclaimer",
-              "mpn": "DMG-P-AAUJ(JPN)"
-            }
-          ]
-        },
-        {
-          "name": "Pocket Monsters: Silver",
-          "variants": [
-            {
-              "notes": "Japanese version, Sealed Bag Lawson Pre-Order 11/1",
-              "mpn": "DMG-P-AAXJ(JPN)",
-              "country": "Japan"
-            },
-            {
-              "mpn": "DMG-P-AAXJ(JPN)",
-              "country": "Japan",
-              "notes": "Japanese version, No N64 Disclaimer"
-            },
-            {
-              "mpn": "DMG-P-AAXJ(JPN)",
-              "notes": "Japanese version, Sealed Bag Lawson Pre-Order 11/28",
-              "country": "Japan"
-            },
-            {
-              "country": "Japan",
-              "notes": "Japanese version, N64 Disclaimer",
-              "mpn": "DMG-P-AAXJ(JPN)"
-            }
-          ]
-        },
-        {
-          "name": "The Legend of Zelda: Link's Awakening DX",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P AZLE",
-              "notes": "100% fiber, foil"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P AZLE",
-              "notes": "83% fiber, foil"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P AZLE",
-              "notes": "No foil"
-            }
-          ]
-        },
-        {
-          "name": "Pokemon Gold Version",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P AAUE"
-            }
-          ]
-        },
-        {
-          "name": "Pokemon Silver Version",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P AAXE"
-            }
-          ]
-        },
-        {
-          "name": "Pokemon Crystal Version",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "CGB P BYTE",
-              "notes": "Double-ended box, 'series' corrected"
-            },
-            {
-              "country": "Japan",
-              "mpn": "CGB P BYTE",
-              "notes": "Y-fold box, 'series' corrected"
-            },
-            {
-              "country": "Japan",
-              "mpn": "CGB P BYTE",
-              "notes": "'Series' typo"
-            }
-          ]
-        },
-        {
-          "name": "The Legend of Zelda: Oracle of Ages",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "CGB P AZ8E",
-              "notes": "Double-ended box, foil"
-            },
-            {
-              "country": "Japan",
-              "mpn": "CGB P AZ8E",
-              "notes": "Y-fold box, no foil"
-            }
-          ]
-        },
-        {
-          "name": "The Legend of Zelda: Oracle of Seasons",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "CGB P AZ7E",
-              "notes": "Double-ended box, foil"
-            },
-            {
-              "country": "Japan",
-              "mpn": "CGB P AZ7E",
-              "notes": "Y-fold box, no foil"
-            }
-          ]
-        },
-        {
-          "name": "Pokemon Trading Card Game",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P AXQE"
-            }
-          ]
-        },
-        {
-          "name": "Pokemon Pinball",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P VPHE",
-              "notes": "100% fiber, foil"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P VPHE",
-              "notes": "83% fiber, foil"
-            },
-            {
-              "country": "Japan",
-              "mpn": "DMG P VPHP",
-              "notes": "No foil"
-            }
-          ]
-        },
-        {
-          "name": "Yu-Gi-Oh!: Dark Duel Stories",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "CGB P BY3E",
-              "notes": "Limited edition cards (Blue Eyes White Dragon)"
-            },
-            {
-              "country": "Japan",
-              "mpn": "CGB P BY3E",
-              "notes": "Limited edition cards (Seiyaryu)"
-            }
-          ]
-        },
-        {
-          "name": "Super Mario Bros. Deluxe",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "CGB P AHYE",
-              "notes": "100% fiber, foil"
-            },
-            {
-              "country": "Japan",
-              "mpn": "CGB P AHYE",
-              "notes": "83% fiber, foil"
-            },
-            {
-              "country": "Japan",
-              "mpn": "CGB P AHYE",
-              "notes": "No foil"
-            }
-          ]
-        },
-        {
-          "name": "Mega Man Xtreme",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "DMG P BM6E"
-            }
-          ]
-        },
-        {
-          "name": "Mega Man Xtreme 2",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "CGB P B2XE"
-            }
-          ]
-        },
-        {
-          "name": "Shantae",
-          "variants": [
-            {
-              "country": "Japan",
-              "mpn": "CGB P B3AE",
-              "notes": "Capcom"
             }
           ]
         }
