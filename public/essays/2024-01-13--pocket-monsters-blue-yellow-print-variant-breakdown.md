@@ -1,5 +1,5 @@
 ---
-publish_date: 2024-01-15
+publish_date: 2024-01-22
 title: "Pocket Monsters: Blue & Yellow Print Variant Breakdown"
 description: A visual guide to the next two entries in the first generation of Pokemon
 ---
