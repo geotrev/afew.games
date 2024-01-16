@@ -47,9 +47,9 @@ According to @RB1989421GB on X/*Twitter* (translated roughly):
 
 ### 1997 Lawson Mail Order Campaign
 
-Between June and August in 1997, a second mail order campaign took place for customers who missed the late-1996 campaign in *Corocoro Comic*.
+Between June and August in 1997, a second mail order campaign took place for customers who missed the late-1996 campaign in *Corocoro Comic*. This time the applications were available in *CoroCoro Comic*, *Ciao*, and *Lawson* Magazines.
 
-Nothing about this campaign indicates the game had print differences from its previous two campaigns, but new information may reveal differently. For instance, there's a good chance a *Game Boy Pocket* ad, or very early Game Boy Pocket ad, were included.
+Nothing about this campaign indicates the game had print differences from its previous two campaigns, but new information may reveal differently. For instance, there's a possibility for either *Game Boy Pocket* or very early *Game Boy Camera* ads were included.
 
 ### Contents
 
