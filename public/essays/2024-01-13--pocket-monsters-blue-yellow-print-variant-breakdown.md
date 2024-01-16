@@ -3,9 +3,9 @@ publish_date: 2024-01-22
 title: "Pocket Monsters: Blue & Yellow Print Variant Breakdown"
 description: A visual guide to the next two entries in the first generation of Pokemon
 ---
-*This post is supplemental to the database. To see a list of first generation* Pocket Monsters *print variants as they exist on A Few Games, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy). A full list of sources can be found at the end of this post.*
-
 This is the second part of a series all about Pocket Monsters print variants, as a follow up to the [post](https://www.afew.games/essays/pocket-monsters-red-green-early-print-breakdown) about Red & Green versions.
+
+*This post is supplemental to the database. To see a list of first generation* Pocket Monsters *print variants as they exist on A Few Games, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy). A full list of sources can be found at the end of this post.*
 
 ## Pocket Monsters: Blue
 
