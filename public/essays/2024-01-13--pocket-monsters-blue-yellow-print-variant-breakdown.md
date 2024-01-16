@@ -128,11 +128,23 @@ A﻿dditionally, there is one documented copy of this pre-release *Yellow* versi
 
 ### Cartridge
 
-Like *Red* and *Green*, *Yellow* has multiple codes, some exclusive to the very earliest print run. They include `00`, `12`, `20`, and `22`.
+Like *Red* and *Green*, *Yellow* has multiple production codes, some exclusive to the very earliest print run. They include `00`, `12`, `20`, and `22`.
 
 Later print runs were quite complicated, however. Each letter in the production code indicates a full revision. Given there are codes ending in `D`, that means Yellow had at least **four** additional revisions produced.
 
-Other than the cartridge, other contents aren't likely to have any differences despite the cartridge being updated so often. Especially considering the game's release is so late in the *Game Boy*'s lifespan.
+Numeral-only production codes would likely be tied to the earliest paperwork included (see below).
+
+### Matching Paperwork
+
+Unlike its predecessors, the late release of *Yellow* in *Game Boy*'s lifecycle meant it wouldn't have major changes to inserts, mainly just the ads
+
+The very first prints would have included an updated *Game Boy Pocket* ad (`3` code) alongside *Pocket Monsters Stadium* and *Game Boy Camera* ads.
+
+![](/uploads/yellow-version-early-print-complete.jpeg)
+
+Later revisions would update the *Game Boy* ad to be for *Game Boy Color* and a new cleaning instructions insert*.* The rest would stay the same.
+
+
 
 - - -
 
