@@ -49,31 +49,31 @@ Unlike *Red*, *Green*, or *Yellow*, *Blue* always has the same four cartridge st
 
 ![Blue version cartridge label with production code 20](/uploads/blue-20-cart.png)
 
-![Blue version printed circuit board](/uploads/blue-20.jpeg)
+![Blue version circuit board](/uploads/blue-20.jpeg)
 
 This printed circuit board date code (`9646K7024`) is a few weeks before the December release date.
 
 Here is the reference to those cartridge production codes from the previous post*Pocket Monsters*:
 
-![](/uploads/cart-code-table.png)
+![Cartridge production codes for Red, Green, Blue, and Yellow versions](/uploads/cart-code-table.png)
 
 #### Manual
 
 Apart from having updated ad inserts in the years following its initial and *Toyota* print run, *Blue* received a single manual revision sometime after the *Toyota* limited promotion.
 
-The production code on the initial run is `DMG-APEJ-JPN`, and the revision is `DMG-APEJ-JPN-1`.
+The part code on the initial run is `DMG-APEJ-JPN`, and the revision is `DMG-APEJ-JPN-1`.
 
-#### Matching Contents
+#### Matching Paperwork
 
-![](/uploads/e_wwxh8vqaqcx7p.jpg)
+![Inserts shown for both mail order and retail print of Pocket Monsters: Blue](/uploads/e_wwxh8vqaqcx7p.jpg)
 
-While unconfirmed, if the source on Twitter is reliable, the mail order version seems to include a *Nintendo 64* ad, and at least one retail print variant included a *Game Boy Color* ad *(code: `T-DMG-CGB001-JPN`).*
+While unconfirmed, if the source on X/Twitter is reliable, the mail order version seems to include a *Nintendo 64* ad, and at least one retail print variant included a *Game Boy Color* ad *(code: `T-DMG-CGB001-JPN`), which lines up with the 1999 release timeframe.*
 
 ## Pocket Monsters: Yellow
 
 ![Pocket Monsters: Blue version, front and back](/uploads/yellow-hero.jpg)
 
-*Yellow* version proves simple in its box variants with two distinct printings, however its cartridge is more complex .
+*Yellow* version proves simple in its box variants with two distinct printings, however its cartridge is more complex.
 
 ### Seal & Box
 
