@@ -76,8 +76,8 @@ While unconfirmed, if the source on X/Twitter is reliable, the mail order versio
 When the ads changed exactly is still unclear, however looking at listings on the market place and from sources used for this post, a possible insert timeline might present like so:
 
 * 1996 – mail order release: *Game Boy Pocket* ad
-* 1997 – Toyota promotion: *Nintendo 64* ad
-* 1999 – retail release: *Game Boy Color* ad
+* 1997 – Toyota promotion: *Game Boy Camera* ad
+* 1999 – retail release: *Game Boy Color* and *N64* *Rumble Pack* ads
 
 Information is still needed to confirm this theory one way or another, but it \*does\* line up with hardware and prevalence of certain ads during those years.
 
