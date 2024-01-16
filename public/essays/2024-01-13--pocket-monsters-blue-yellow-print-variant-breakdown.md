@@ -69,7 +69,7 @@ The part code on the initial run is `DMG-APEJ-JPN`, and the revision is `DMG-APE
 
 #### Matching Paperwork
 
-Early prints of *Blue* would have included similar ads as Red and Blue at the time. Likely for *Game Boy Pocket*.
+Early prints of *Blue* would have included similar ads as Red and Blue at the time. In this case, the `1` code ad for *Game Boy Pocket*.
 
 ![]()
 
