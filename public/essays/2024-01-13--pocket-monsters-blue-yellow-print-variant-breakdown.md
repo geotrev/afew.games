@@ -63,7 +63,7 @@ Here is the reference to those cartridge production codes from the previous post
 
 #### Matching Paperwork
 
-The below info was determined by a thorough survey of listing data on *Mercari Japan* and *Yahoo! Auction Japan*.
+The below information was determined by a thorough survey of listing data on *eBay*, *Mercari* (Japanese), and *Yahoo! Auction Japan*.
 
 Early prints of *Blue* would have included similar ads as Red and Blue at the time. In this case, the `1` code ad for *Game Boy Pocket*.
 
