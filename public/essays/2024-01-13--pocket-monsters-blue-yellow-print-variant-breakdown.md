@@ -17,6 +17,12 @@ This is the second part of a series all about Pocket Monsters print variants, as
 
 *Blue* version was [announced on October 15th, 1996](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Blue_Version_(Japanese)), then [featured in CoroCoro Comic](https://lavacutcontent.com/corocoro-comic-pokemon-blue/) where readers were informed they could purchase & receive the game by mail.
 
+*CoroCoro* readers could expect to receive their copy of *Pocket Monsters Blue* in mid-December of that year, at the earliest.
+
+![](/uploads/corocoro-blue-version-application.png)
+
+*CoroCoro Comic magazine spread, with application and instructions to receive* Blue *version*
+
 This initial version included a plastic bag. The application period was October 15th through December 27th, 1996, to celebrate one million sales for *Red* and *Green*.
 
 ![Pocket Monsters Blue version, front](/uploads/0974ad5b-68c4-41ee-abdb-89a2d7bdba19.jpeg)
