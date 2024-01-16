@@ -92,11 +92,9 @@ The two notes in the top corner translate (roughly) to:
 
 Similarly, down in the bottom right corner, the preorder window is stated as `8/10 ~ 9/6`, and a pickup date of `9/11`. 
 
-Any copy acquired this way would definitively be the earliest possible print.
+Any copy acquired this way would definitively be the earliest possible print. 
 
-- - -
-
-There is one documented copy of this pre-release *Yellow* version that was graded by VGA as well. It came sealed in the bag, so VGA denoted it as "uncirculated" before encapsulating it. VGA returned the baggie to the owner as shown in the photo below.
+A﻿dditionally, there is one documented copy of this pre-release *Yellow* version that was graded by VGA. It came sealed in the bag, so VGA denoted it as "uncirculated" before encapsulating it. VGA returned the baggie to the owner as shown in the photo below.
 
 ![](/uploads/img_2187.jpeg)
 
