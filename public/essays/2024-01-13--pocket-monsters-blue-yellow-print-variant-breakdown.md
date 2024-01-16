@@ -143,17 +143,15 @@ The components included at launch are:
 * Manual
 * Map
 * Anti-tampering warning
-* Game Boy Pocket ad (`JPN-3` code)
-* Game Boy Camera ad (`JPN` code)
-* Pocket Monsters Stadium ad (`JPN` code)
-
-The very first prints would have included an updated *Game Boy Pocket* ad (`3` code) alongside *Pocket Monsters Stadium* and *Game Boy Camera* ads.
+* Game Boy Pocket ad (`MGB001-JPN-3`)
+* Game Boy Camera ad (`MGB006-JPN`)
+* Pocket Monsters Stadium ad (`APSJ-JPN`)
 
 ![](/uploads/yellow-version-early-print-complete.jpeg)
 
-Later revisions would update the *Game Boy* ad for *Game Boy Color* and a new cleaning instructions insert*.* The rest would stay the same.
+A later revision would update the *Game Boy* ad for *Game Boy Color* (`CGB001-JPN-2`)*.* The rest would stay the same.
 
-
+It's possible that future revisions could have added more *Game Boy Color*-era inserts, such as the cleaning instructions included with *Gold*, *Silver*, and *Crystal*, but not enough evidence suggests that happened.
 
 - - -
 
