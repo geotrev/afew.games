@@ -63,9 +63,9 @@ Here is the reference to those cartridge production codes from the previous post
 
 #### Manual
 
-Apart from having updated ad inserts for the much later 1999 release, *Blue* received a single manual revision sometime after the *Toyota* promotion in 1997. This was likely for the retail version only
+*Blue* received a single manual revision sometime after the *Toyota* promotion in 1997. This was likely for the retail version only, indicated by a survey of listing data of Blue versions with more 1999-relevant inserts.
 
-The part code on the initial run is `DMG-APEJ-JPN`, and the revision is `DMG-APEJ-JPN-1`.
+The revised part code number is `DMG-APEJ-JPN-1` (see late print contents in the next section). 
 
 #### Matching Paperwork
 
@@ -76,8 +76,6 @@ Early prints of *Blue* would have included similar ads as Red and Blue at the ti
 By the time *Blue* reached retail proper, the game would have included ads for *Game Boy Color, Game Boy Camera*, and *Pocket Monsters Stadium*. Each piece of hardware was released at the time and are consistent in listed samples on websites like *Yahoo! Auction Japan*, *Mercari*, and the like.
 
 ![Inserts shown for both mail order and retail print of Pocket Monsters: Blue](/uploads/blue-version-complete-retail.png)
-
-
 
 ## Pocket Monsters: Yellow
 
