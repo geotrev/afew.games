@@ -51,6 +51,14 @@ Between June and August in 1997, a second mail order campaign took place for cus
 
 Nothing about this campaign indicates the game had print differences from its previous two campaigns, but new information may reveal differently. For instance, there's a possibility for either *Game Boy Pocket* or very early *Game Boy Camera* ads were included.
 
+From *Game Freak*'s website (roughly translated, source at the end of this post):
+
+> There's another chance to get your hands on "Pokemon Blue Version." This time, to commemorate the sales of over 4 million copies, the blue version is being sold online as a special project jointly carried out by Nintendo, Shogakukan, and convenience store Lawson.
+>
+> The mail order period is from June 13th to August 31st.
+>
+> For details on mail order applications, please check Shogakukan's grade magazines, magazines such as CoroCoro Comic, Ciao, or Lawson.
+
 ### Contents
 
 #### Cartridge
