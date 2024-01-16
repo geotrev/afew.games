@@ -1,7 +1,7 @@
 ---
 publish_date: 2024-01-15
-title: "Pocket Monsters: Red & Green Print Variant Breakdown"
-description: A visual guide to Pocket Monsters Red, Green, Blue, and Yellow print runs
+title: "Pocket Monsters: Red & Green Early Print Breakdown"
+description: A visual guide to the earliest physical prints for Pocket Monsters Red & Green
 ---
 Video games, even today in their physical forms, are updated in minuscule ways during the lifetime of their production. *Pocket Monsters* is no different.
 
