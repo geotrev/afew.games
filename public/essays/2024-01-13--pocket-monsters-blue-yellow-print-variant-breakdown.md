@@ -31,7 +31,7 @@ This initial version included a plastic bag. The application period was October 
 
 #### Box
 
-The mail order variant had no barcode on the actual box (see above photos), however the retail version did include one:
+The mail order variant had no barcode on the actual box (see above photos), however the 1999 retail release included it:
 
 ![Blue verison with barcode added](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
 
