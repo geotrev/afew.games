@@ -69,17 +69,13 @@ The part code on the initial run is `DMG-APEJ-JPN`, and the revision is `DMG-APE
 
 #### Matching Paperwork
 
-![Inserts shown for both mail order and retail print of Pocket Monsters: Blue](/uploads/e_wwxh8vqaqcx7p.jpg)
+When the ads changed exactly is still unclear, however looking at listings in various marketplaces and from sources used for this post, the mail order game likely included only the *Game Boy Pocket* ad:
 
-While unconfirmed, if the source on X/Twitter is reliable, the mail order version seems to include both a *Nintendo 64* ad, and at least one retail print variant included a *Game Boy Color* ad *(code: `T-DMG-CGB001-JPN`),* which lines up with the 1999 release timeframe.
 
-When the ads changed exactly is still unclear, however looking at listings on the market place and from sources used for this post, a possible insert timeline might present like so:
 
-* 1996 – mail order release: *Game Boy Pocket* ad
-* 1997 – Toyota promotion: *Game Boy Camera* ad
-* 1999 – retail release: *Game Boy Color* and *N64* *Rumble Pack* ads
+By the time *Blue* reached retail proper, the game would have included relevant ads for *Game Boy Color* and N64 Rumble Pack, similar to *Red*, *Green*, and *Yellow* at the time.
 
-Information is still needed to confirm this theory one way or another, but it \*does\* line up with hardware and prevalence of certain ads during those years.
+![Inserts shown for both mail order and retail print of Pocket Monsters: Blue](/uploads/blue-version-retail-contents.jpeg)
 
 ## Pocket Monsters: Yellow
 
