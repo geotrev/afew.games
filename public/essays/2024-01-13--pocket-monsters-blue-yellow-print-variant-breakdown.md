@@ -5,7 +5,7 @@ description: A visual guide to the next two entries in the first generation of P
 ---
 *This post is supplemental to the database. To see a list of first generation* Pocket Monsters *print variants as they exist on A Few Games, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy). A full list of sources can be found at the end of this post.*
 
-This is the second part of a series all about Pocket Monsters print variants.
+This is the second part of a series all about Pocket Monsters print variants, as a follow up to the [post](https://www.afew.games/essays/pocket-monsters-red-green-early-print-breakdown) about Red & Green versions.
 
 ## Pocket Monsters: Blue
 
@@ -23,7 +23,7 @@ This initial version included a plastic bag. The application period was October 
 
 ### Contents
 
-*Blue* has notably fewer internal variations to document.
+*Blue* has notably fewer variations to document.
 
 #### Box
 
@@ -31,15 +31,17 @@ The mail order variant had no barcode on the actual box (see above photos), howe
 
 ![Blue verison with barcode added](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
 
-[According to @RB1989421GB](https://twitter.com/RB1989421GB/status/1440053195808526337), The retail version was supposedly only made available after *Yellow* version released, on October 10, 1999.
+According to @RB1989421GB on *X/Twitter*, The retail version was supposedly only made available after*Yellow* version released, on October 10, 1999 (almost three years after the mail order version).
 
 Uniquely, *Blue* version had an exclusive *TOYOTA AUTO* promotion that features a Toyota Auto sticker. The box doesn't appear to have any different characteristics compared to the mail order variant.
 
 ![Blue version with TOYOTA AUTO promotion](/uploads/screenshot-2024-01-08-at-8.58.26-pm.png)
 
-According to @RB1989421GB on *Twitter*:
+According to @RB1989421GB on X/*Twitter* (translated roughly):
 
 > The Toyota version was distributed as a commemorative gift to those who signed a contract during the Toyota campaign period in 1997, as a set of Toyota limited model *Game Boy Pocket Skeleton & Pokemon Blue Version*. There is a Toyota Auto **sticker** on the box.
+
+T﻿he sticker at least confirms this was *not* a unique box print.
 
 #### Cartridge
 
@@ -49,9 +51,9 @@ Unlike *Red*, *Green*, or *Yellow*, *Blue* always has the same four cartridge st
 
 ![Blue version printed circuit board](/uploads/blue-20.jpeg)
 
-The printed circuit board date code (`9646K7024`) is a few weeks before the December release date.
+This printed circuit board date code (`9646K7024`) is a few weeks before the December release date.
 
-Here is the reference to those catridge production codes again:
+Here is the reference to those cartridge production codes from the previous post*Pocket Monsters*:
 
 ![](/uploads/cart-code-table.png)
 
