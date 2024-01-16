@@ -73,7 +73,7 @@ The part code on the initial run is `DMG-APEJ-JPN`, and the revision is `DMG-APE
 
 While unconfirmed, if the source on X/Twitter is reliable, the mail order version seems to include both a *Nintendo 64* ad, and at least one retail print variant included a *Game Boy Color* ad *(code: `T-DMG-CGB001-JPN`),* which lines up with the 1999 release timeframe.
 
-When, or if, the ads changed from one to the other is still unclear, however looking at listings on the market place shows a possible insert timeline like so:
+When the ads changed exactly is still unclear, however looking at listings on the market place and from sources used for this post, a possible insert timeline might present like so:
 
 * 1996 – mail order release: *Game Boy Pocket* ad
 * 1997 – Toyota promotion: *Nintendo 64* ad
