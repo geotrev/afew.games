@@ -27,23 +27,31 @@ This initial version included a plastic bag. The application period was October 
 
 ![Pocket Monsters Blue version, front](/uploads/0974ad5b-68c4-41ee-abdb-89a2d7bdba19.jpeg)
 
-### Contents
-
-#### Box
-
 According to @RB1989421GB on *X/Twitter*, the retail version was supposedly only made available after *Yellow* version released, on October 10, 1999 (almost three years after the mail order version).
 
 While the mail order variant had no barcode on the actual box (see above photos), the retail release included it:
 
 ![Blue verison with barcode added](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
 
-Uniquely, before the retail version, *Blue* had an exclusive *TOYOTA AUTO* promotion that features a sticker. The box doesn't appear to have any different characteristics compared to the mail order variant.
+In 1997, two more events occurred to get *Blue* in customers' hands.
+
+### TOYOTA Campaign
+
+*Blue* had an exclusive *TOYOTA AUTO* promotion that features a sticker. The box doesn't appear to have any different characteristics compared to the mail order variant.
 
 ![Blue version with TOYOTA AUTO promotion](/uploads/screenshot-2024-01-08-at-8.58.26-pm.png)
 
 According to @RB1989421GB on X/*Twitter* (translated roughly):
 
 > The Toyota version was distributed as a commemorative gift to those who signed a contract during the Toyota campaign period in 1997, as a set of Toyota limited model *Game Boy Pocket Skeleton & Pokemon Blue Version*. There is a Toyota Auto **sticker** on the box.
+
+### 1997 Lawson Mail Order Campaign
+
+Between June and August in 1997, a second mail order campaign took place for customers who missed the late-1996 campaign in *Corocoro Comic*.
+
+Nothing about this campaign indicates the game had print differences from its previous two campaigns, but new information may reveal differently. For instance, there's a good chance a *Game Boy Pocket* ad, or very early Game Boy Pocket ad, were included.
+
+### Contents
 
 #### Cartridge
 
@@ -65,9 +73,13 @@ Here is the reference to those cartridge production codes from the previous post
 
 The below information was determined by a thorough survey of listing data on *eBay*, *Mercari* (Japanese), and *Yahoo! Auction Japan*.
 
-Early prints of *Blue* would have included similar ads as Red and Blue at the time. In this case, the `1` code ad for *Game Boy Pocket*.
+Early prints of *Blue* might not have included any ads, unlike Red and Blue at the time.
 
-![]()
+![](/uploads/blue-version-complete-early-no-ad.jpeg)
+
+If ads were included, it would have been the `1` code ad for *Game Boy Pocket*, but that is unconfirmed for now.
+
+- - -
 
 By the time *Blue* reached retail proper, the game would have included ads for *Game Boy Color, Game Boy Camera*, and *Pocket Monsters Stadium*. Each piece of hardware was released at the time and are consistent in listed samples on websites like *Yahoo! Auction Japan*, *Mercari*, and the like.
 
@@ -127,3 +139,4 @@ I hope this dive down history lane was helpful! It makes for a fun collecting hu
 * nintendo.co.jp [[1](https://www.nintendo.co.jp/n02/dmg/apajapbj/index.html)] [[2](https://www.nintendo.co.jp/n02/dmg/apej/index.html)] [[3](https://www.nintendo.co.jp/n02/dmg/apsj/index.html)]
 * dogasu [[1](https://dogasu.bulbagarden.net/features/pokemon_in_1996.html)]
 * lavacutcontent [[1](https://lavacutcontent.com/corocoro-comic-pokemon-blue/)]
+* gamefreak.co.jp (via Internet Archive) [[1](https://web.archive.org/web/19970707185911/http://www.gamefreak.co.jp/POKEMON/NEWS/NEWS.HTM)]
