@@ -69,15 +69,15 @@ The part code on the initial run is `DMG-APEJ-JPN`, and the revision is `DMG-APE
 
 #### Matching Paperwork
 
-When the ads changed exactly is still unclear, however looking at listings in various marketplaces and from sources used for this post, the mail order game likely included only the *Game Boy Pocket* ad:
+Early prints of *Blue* would have included similar ads as Red and Blue at the time. Likely for *Game Boy Pocket*.
+
+![]()
+
+By the time *Blue* reached retail proper, the game would have included ads for *Game Boy Color, Game Boy Camera*, and *Pocket Monsters Stadium*. Each piece of hardware was released at the time and are consistent in listed samples on websites like *Yahoo! Auction Japan*, *Mercari*, and the like.
+
+![Inserts shown for both mail order and retail print of Pocket Monsters: Blue](/uploads/blue-version-complete-retail.png)
 
 
-
-By the time *Blue* reached retail proper, the game would have included relevant ads for *Game Boy Color* and N64 Rumble Pack, similar to *Red*, *Green*, and *Yellow* at the time.
-
-![Inserts shown for both mail order and retail print of Pocket Monsters: Blue](/uploads/blue-version-retail-contents.jpeg)
-
-*NOTE: While not confirmed definitely, some prints may have included a Game Boy Camera ad, either as a replacement for another ad, or as wholly additional. More research is needed to confirm where this insert fits into the print history.*
 
 ## Pocket Monsters: Yellow
 
