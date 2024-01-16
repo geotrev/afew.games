@@ -85,17 +85,17 @@ Early prints of *Blue* might not have included any ads, unlike Red and Blue at t
 
 ![](/uploads/blue-version-complete-early-no-ad.jpeg)
 
-If ads were included, it would have been the `1` code ad for *Game Boy Pocket*, but that is unconfirmed for now.
+While unconfirmed for now, if ads were included, it would have been a *Game Boy Pocket* ad:
+
+![](/uploads/screenshot-2024-01-16-at-3.42.59-pm.png)
 
 - - -
 
-By the time *Blue* reached retail proper, the game would have included ads for *Game Boy Color, Game Boy Camera*, and *Pocket Monsters Stadium*. Each piece of hardware was released at the time and are consistent in listed samples on websites like *Yahoo! Auction Japan*, *Mercari*, and the like.
+By the time *Blue* reached retail proper, the game would include ads for *Game Boy Color, Game Boy Camera*, and *Pocket Monsters Stadium*. The manual also received a revision as noted by the `-1` code on the front.
+
+Each piece of hardware advertised was released at the time and are consistent in numerous listed samples on websites like *Yahoo! Auction Japan*, *Mercari*, and the like. Sibling games *Red*, *Green*, and *Yellow* also contain these ads.
 
 ![Inserts shown for both mail order and retail print of Pocket Monsters: Blue](/uploads/blue-version-complete-retail.png)
-
-Note above that the retail *Blue* version received a single manual revision.
-
-The revised part code number is `DMG-APEJ-JPN-1` (see late print contents in the next section).
 
 ## Pocket Monsters: Yellow
 
