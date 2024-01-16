@@ -136,7 +136,16 @@ Numeral-only production codes would likely be tied to the earliest paperwork inc
 
 ### Matching Paperwork
 
-Unlike its predecessors, the late release of *Yellow* in *Game Boy*'s lifecycle meant it wouldn't have major changes to inserts, mainly just the ads
+Unlike its predecessors, the late release of *Yellow* in *Game Boy*'s lifecycle meant it wouldn't have major changes to inserts, mainly just the ads.
+
+The components included at launch are:
+
+* Manual
+* Map
+* Anti-tampering warning
+* Game Boy Pocket ad (`JPN-3` code)
+* Game Boy Camera ad (`JPN` code)
+* Pocket Monsters Stadium ad (`JPN` code)
 
 The very first prints would have included an updated *Game Boy Pocket* ad (`3` code) alongside *Pocket Monsters Stadium* and *Game Boy Camera* ads.
 
