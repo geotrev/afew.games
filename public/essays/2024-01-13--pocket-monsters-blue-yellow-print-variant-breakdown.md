@@ -5,7 +5,7 @@ description: A visual guide to the next two entries in the first generation of P
 ---
 *This post is supplemental to the database. To see a list of first generation* Pocket Monsters *print variants as they exist on A Few Games, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy). A full list of sources can be found at the end of this post.*
 
-This is a follow-up to the previous blog post about Pocket Monsters print variants. Previously, we discussed *Green* and *Red* versions. As the title suggests, we're moving onto the next two games in the first generation!
+This is the second part of a series all about Pocket Monsters print variants.
 
 ## Pocket Monsters: Blue
 
