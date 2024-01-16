@@ -92,7 +92,7 @@ Worth noting is that the letter at the end of the code (e.g., `A` or `B`) typica
 
 Something else that remains unclear here is the 1M code for *Green* version. This needs additional information to know exactly what caused the jump from A to M. Perhaps a very late print in the game's life - but then it makes you wonder why *Red* doesn't have a similar jump in code(s).
 
-#### Survey
+### Survey
 
 Another document included in the earliest printings is a feedback survey postcard, only available during the first 30 days after release, and had to be postmarked by the end of March. Customers would be entered into a free raffle for the official guidebook or special playing cards, as well as an additional copy of either *Red* or *Green* version.
 
@@ -130,12 +130,6 @@ Sources also also tell me that the surveys uniformly use the *Red* model part nu
 And of course, here is the other (informational) side customers would fill out:
 
 ![Feedback survey, back](/uploads/survey-back.png)
-
-#### Ads
-
-Over the years, the games would be produced with ads to reflect Nintendo's changing hardware lineup.
-
-There are likely never 
 
 - - -
 
