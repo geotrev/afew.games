@@ -29,8 +29,6 @@ This initial version included a plastic bag. The application period was October 
 
 ### Contents
 
-*Blue* has notably fewer variations to document.
-
 #### Box
 
 The mail order variant had no barcode on the actual box (see above photos), however the retail version did include one:
@@ -123,3 +121,5 @@ I hope this dive down history lane was helpful! It makes for a fun collecting hu
 * [RB1989421GB](https://twitter.com/RB1989421GB) - *Blue* version variants & history
 * pokemon1gb2rgbp.wiki.fc2.com/ [[1](https://pokemon1gb2rgbp.wiki.fc2.com/)] [[2](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/初期版・後期版の違い)]
 * nintendo.co.jp [[1](https://www.nintendo.co.jp/n02/dmg/apajapbj/index.html)] [[2](https://www.nintendo.co.jp/n02/dmg/apej/index.html)] [[3](https://www.nintendo.co.jp/n02/dmg/apsj/index.html)]
+* dogasu [[1](https://dogasu.bulbagarden.net/features/pokemon_in_1996.html)]
+* lavacutcontent [[1](https://lavacutcontent.com/corocoro-comic-pokemon-blue/)]
