@@ -151,7 +151,7 @@ The very first prints would have included an updated *Game Boy Pocket* ad (`3` c
 
 ![](/uploads/yellow-version-early-print-complete.jpeg)
 
-Later revisions would update the *Game Boy* ad to be for *Game Boy Color* and a new cleaning instructions insert*.* The rest would stay the same.
+Later revisions would update the *Game Boy* ad for *Game Boy Color* and a new cleaning instructions insert*.* The rest would stay the same.
 
 
 
