@@ -77,6 +77,8 @@ By the time *Blue* reached retail proper, the game would have included relevant 
 
 ![Inserts shown for both mail order and retail print of Pocket Monsters: Blue](/uploads/blue-version-retail-contents.jpeg)
 
+*NOTE: While not confirmed definitely, some prints may have included a Game Boy Camera ad, either as a replacement for another ad, or as wholly additional. More research is needed to confirm where this insert fits into the print history.*
+
 ## Pocket Monsters: Yellow
 
 ![Pocket Monsters: Blue version, front and back](/uploads/yellow-hero.jpg)
