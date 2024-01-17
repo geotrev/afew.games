@@ -155,7 +155,7 @@ It's possible that future revisions could have added more *Game Boy Color*-era i
 
 - - -
 
-I hope this dive down history lane was helpful! It makes for a fun collecting hunt when you can find the most obscure, early prints of these extremely common games. Best of luck in your search!
+I hope this dive down history lane was helpful! Best of luck in your collecting search!
 
 ## Sources
 
