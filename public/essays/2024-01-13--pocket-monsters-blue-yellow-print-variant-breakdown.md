@@ -61,13 +61,13 @@ While the mail order variant had no barcode on the actual box (see above photos)
 
 #### Cartridge
 
-Unlike *Red*, *Green*, or *Yellow*, *Blue* always has the same four cartridge stamp codes: `00`, `12`, `20`, and `22`, with known launch copies using `20`.
+There are currently known launch copies using `20` production codes.
 
 ![Blue version cartridge label with production code 20](/uploads/blue-20-cart.png)
 
 There are likely parallel codes used at launch, but that's still unclear.
 
-When looking at the circuit board for the above cartridge, the date code (`9646K7024`) is a few weeks before the December release date, indicating its a first, or at least very early production copy.
+When looking at the circuit board for the above cartridge, the date code (`9646`) is a few weeks before the December release date, indicating its a first, or at least very early production copy.
 
 ![Blue version circuit board](/uploads/blue-20.jpeg)
 
