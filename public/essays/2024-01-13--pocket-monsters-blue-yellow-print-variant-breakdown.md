@@ -122,7 +122,9 @@ Any copy acquired this way would definitively be the earliest possible print.
 
 A﻿dditionally, there is one documented copy of this pre-release *Yellow* version that was graded by VGA. It came sealed in the bag, so VGA denoted it as "uncirculated" before encapsulating it. VGA returned the baggie to the owner as shown in the photo below.
 
-![](/uploads/img_2187.jpeg)
+![graded pocket monsters yellow from sealed pre-release bag](/uploads/img_2187.jpeg)
+
+This copy is owned by *first_print_mint* on Instagram.
 
 ### Cartridge
 
@@ -165,3 +167,4 @@ I hope this dive down history lane was helpful! Best of luck in your collecting 
 * dogasu [[1](https://dogasu.bulbagarden.net/features/pokemon_in_1996.html)]
 * lavacutcontent [[1](https://lavacutcontent.com/corocoro-comic-pokemon-blue/)]
 * gamefreak.co.jp (via Internet Archive) [[1](https://web.archive.org/web/19970707185911/http://www.gamefreak.co.jp/POKEMON/NEWS/NEWS.HTM)]
+* first_print_mint [[1]](https://www.instagram.com/p/CxtwcwHvHmM/?igsh=MWtlMHVqN3N0amJzdg==) - Graded Pokemon Yellow
