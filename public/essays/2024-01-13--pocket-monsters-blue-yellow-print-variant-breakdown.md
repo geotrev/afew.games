@@ -33,7 +33,7 @@ This initial version included a plastic bag. The application period was October 
 
 ![Blue version with TOYOTA AUTO promotion](/uploads/screenshot-2024-01-08-at-8.58.26-pm.png)
 
-According to @RB1989421GB on X/*Twitter* (translated roughly):
+According to collector @RB1989421GB on X/*Twitter* (roughly translated):
 
 > The Toyota version was distributed as a commemorative gift to those who signed a contract during the Toyota campaign period in 1997, as a set of Toyota limited model *Game Boy Pocket Skeleton & Pokemon Blue Version*. There is a Toyota Auto **sticker** on the box.
 
@@ -51,7 +51,7 @@ An Internet Archive page from *Game Freak*'s website, roughly translated, says:
 
 ### 1999 Retail Release
 
-According to @RB1989421GB on *X/Twitter*, the retail version was supposedly only made available after *Yellow* version released, on October 10, 1999 (almost three years after the mail order version).
+According to @RB1989421GB on *X/Twitter*, the retail version released on October 10th, 1999 (almost three years after the mail order version).
 
 While the mail order variant had no barcode on the actual box (see above photos), the retail release included it:
 
