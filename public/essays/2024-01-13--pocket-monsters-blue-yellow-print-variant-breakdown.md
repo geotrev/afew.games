@@ -151,7 +151,7 @@ The components included at launch are:
 
 A later revision would update the *Game Boy* ad for *Game Boy Color* (`CGB001-JPN-2`)*.* The rest would stay the same.
 
-It's possible that future revisions could have added more *Game Boy Color*-era inserts, such as the cleaning instructions included with *Gold*, *Silver*, and *Crystal*.
+There were likely future revisions to add even more *Game Boy Color*-era inserts, such as the cleaning instructions included with *Gold*, *Silver*, and *Crystal*. Should more evidence surface to confirm that, this post will be updated.
 
 - - -
 
