@@ -167,4 +167,4 @@ I hope this dive down history lane was helpful! Best of luck in your collecting 
 * dogasu [[1](https://dogasu.bulbagarden.net/features/pokemon_in_1996.html)]
 * lavacutcontent [[1](https://lavacutcontent.com/corocoro-comic-pokemon-blue/)]
 * gamefreak.co.jp (via Internet Archive) [[1](https://web.archive.org/web/19970707185911/http://www.gamefreak.co.jp/POKEMON/NEWS/NEWS.HTM)]
-* first_print_mint [[1]](https://www.instagram.com/p/CxtwcwHvHmM/?igsh=MWtlMHVqN3N0amJzdg==) - Graded Pokemon Yellow
+* first_print_mint [[1]](https://www.instagram.com/p/CxtwcwHvHmM/?igsh=MWtlMHVqN3N0amJzdg==) - Graded *Pocket Monsters Yellow* photo
