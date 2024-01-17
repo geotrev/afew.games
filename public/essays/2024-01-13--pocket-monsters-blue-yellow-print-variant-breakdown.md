@@ -13,7 +13,7 @@ This is the second part of a series all about *Pocket Monsters* print variants. 
 
 *Blue* version is unique for a few reasons. First, it started the first of a "sealed bag" treatment that would continue through *Crystal* version. It also was the first and only game to have a mail order launch before hitting retail proper.
 
-### 1996 Mail Order Release
+### 1996 _CoroCoro Comic_ Mail Order Campaign
 
 *Blue* version was [announced on October 15th, 1996](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Blue_Version_(Japanese)), then [featured in CoroCoro Comic](https://lavacutcontent.com/corocoro-comic-pokemon-blue/) where readers were informed they could purchase & receive the game by mail. In this model, *Blue* verison was the only made-to-order entry ever made. It's unclear exactly how many copies were produced for the campaign.
 
