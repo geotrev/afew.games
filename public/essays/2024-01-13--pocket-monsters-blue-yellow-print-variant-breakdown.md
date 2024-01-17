@@ -41,9 +41,7 @@ According to @RB1989421GB on X/*Twitter* (translated roughly):
 
 Between June and August in 1997, a second mail order campaign took place for customers who missed the late-1996 campaign in *Corocoro Comic*. This time the applications were available in *CoroCoro Comic*, *Ciao*, and *Lawson* Magazines.
 
-Nothing about this campaign indicates the game had print differences from its previous two campaigns, but new information may reveal differently. For instance, there's a possibility for either *Game Boy Pocket* or very early *Game Boy Camera* ads were included.
-
-From *Game Freak*'s website (roughly translated, source at the end of this post):
+An Internet Archive page from *Game Freak*'s website, roughly translated, says:
 
 > There's another chance to get your hands on "Pokemon Blue Version." This time, to commemorate the sales of over 4 million copies, the blue version is being sold online as a special project jointly carried out by Nintendo, Shogakukan, and convenience store Lawson.
 >
