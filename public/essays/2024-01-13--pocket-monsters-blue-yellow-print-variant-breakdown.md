@@ -51,7 +51,7 @@ From *Game Freak*'s website (roughly translated, source at the end of this post)
 >
 > For details on mail order applications, please check Shogakukan's grade magazines, magazines such as CoroCoro Comic, Ciao, or Lawson.
 
-Retail Release
+### 1999 Retail Release
 
 According to @RB1989421GB on *X/Twitter*, the retail version was supposedly only made available after *Yellow* version released, on October 10, 1999 (almost three years after the mail order version).
 
