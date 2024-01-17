@@ -17,7 +17,7 @@ With the help of packaging references, official _Nintendo_ interviews, and produ
 
 ## Box
 
-Early versions of at both _Red_ and _Green_ version had larger UPC barcodes compared to later prints.
+Early versions of both _Red_ and _Green_ version had wider barcodes compared to later prints.
 
 ![Green version: early print (left) and later print (right)](/uploads/green-box-early-and-late.png)
 
