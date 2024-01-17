@@ -38,7 +38,7 @@ export const EssayListItem = ({ title, description, urlPath, date }: Essay) => {
           Published&nbsp;
           <time dateTime={date}>{date}</time>
         </p>
-        {isRecent && <p className="badge badge-accent text-xs">New</p>}
+        {isRecent && <p className="badge badge-success text-xs">New</p>}
       </div>
       <h2 className="mb-1 text-xl font-bold text-white">
         <Link className="hover:underline" href={urlPath}>
