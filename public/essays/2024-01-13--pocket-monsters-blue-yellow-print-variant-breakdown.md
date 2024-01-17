@@ -13,7 +13,7 @@ This is the second part of a series all about *Pocket Monsters* print variants. 
 
 *Blue* version is unique for a few reasons. First, it started the first of a "sealed bag" treatment that would continue through *Crystal* version. It also was the first and only game to have a mail order launch before hitting retail proper.
 
-### Mail Order Release
+### 1996 Mail Order Release
 
 *Blue* version was [announced on October 15th, 1996](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Blue_Version_(Japanese)), then [featured in CoroCoro Comic](https://lavacutcontent.com/corocoro-comic-pokemon-blue/) where readers were informed they could purchase & receive the game by mail. In this model, *Blue* verison was the only made-to-order entry ever made. It's unclear exactly how many copies were produced for the campaign.
 
@@ -26,14 +26,6 @@ This is the second part of a series all about *Pocket Monsters* print variants. 
 This initial version included a plastic bag. The application period was October 15th through December 27th, 1996, to celebrate one million sales for *Red* and *Green*.
 
 ![Pocket Monsters Blue version, front](/uploads/0974ad5b-68c4-41ee-abdb-89a2d7bdba19.jpeg)
-
-According to @RB1989421GB on *X/Twitter*, the retail version was supposedly only made available after *Yellow* version released, on October 10, 1999 (almost three years after the mail order version).
-
-While the mail order variant had no barcode on the actual box (see above photos), the retail release included it:
-
-![Blue verison with barcode added](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
-
-In 1997, two more events occurred to get *Blue* in customers' hands.
 
 ### TOYOTA Campaign
 
@@ -58,6 +50,14 @@ From *Game Freak*'s website (roughly translated, source at the end of this post)
 > The mail order period is from June 13th to August 31st.
 >
 > For details on mail order applications, please check Shogakukan's grade magazines, magazines such as CoroCoro Comic, Ciao, or Lawson.
+
+Retail Release
+
+According to @RB1989421GB on *X/Twitter*, the retail version was supposedly only made available after *Yellow* version released, on October 10, 1999 (almost three years after the mail order version).
+
+While the mail order variant had no barcode on the actual box (see above photos), the retail release included it:
+
+![Blue verison with barcode added](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
 
 ### Contents
 
