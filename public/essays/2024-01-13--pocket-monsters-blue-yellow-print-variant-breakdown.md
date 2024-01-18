@@ -17,7 +17,7 @@ Here is a preview timeline of physical releases for Blue version. Read further t
 
 1. ***CoroCoro Comic* Mail Order Campaign (December 1996):** To celebrate 1 million sales of Red and Green versions, customers could order the limited release *Blue* version.
 2. ***TOYOTA* Campaign (1997):** Distributed for customers who signed on to a *Toyota* contract.
-3. ***Lawson* mail order campaign (July 1997):** Via online application, customers can once again apply & receive *Blue* via mail order.
+3. ***Lawson* mail order campaign (July 1997):** Customers can once again apply & receive *Blue* via online application.
 4. **General retail release (Oct. 10th, 1999):** Finally, customers can buy Blue version in stores.
 
 ### 1996 *CoroCoro Comic* Mail Order Campaign
