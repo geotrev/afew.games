@@ -13,60 +13,12 @@ This is the second part of a series all about *Pocket Monsters* print variants. 
 
 *Blue* version is unique for a few reasons. First, it started the first of a "sealed bag" treatment that would continue through *Crystal* version. It also was the first and only game to have a mail order launch before hitting retail proper.
 
-At a high level, here is a timeline of *Blue* version releases:
+Here is a preview timeline of physical releases for Blue version. Read further to learn about each individual event and the variant changes they had on the physical game.
 
-<ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
-  <li>
-    <div class="timeline-middle">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
-    </div>
-    <div class="timeline-start md:text-end mb-10">
-      <time class="font-mono italic">1996</time>
-      <div class="text-lg font-black">CoroCoro Comic Mail Order Campaign</div>
-     Fans could acquire the game to celebrate 1 million sales of <em>Red</em> and <em>Green</em> versions.
-    </div>
-    <div class="timeline-end md:text-start mb-10">
-      <img src="/blue-hero.jpg" alt="Pocket Monsters Blue mail order box" width="200px" height="auto">
-    </div>
-    <hr/>
-  </li>
-  <li>
-    <hr />
-    <div class="timeline-middle">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
-    </div>
-    <div class="timeline-end mb-10">
-      <time class="font-mono italic">1997</time>
-      <div class="text-lg font-black">TOYOTA Campaign</div>
-      <em>Blue</em> version could be acquired again as a commemorative gift for <em>Toyota</em> customers who signed on for a new contract.
-    </div>
-    <hr />
-  </li>
-  <li>
-    <hr />
-    <div class="timeline-middle">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
-    </div>
-    <div class="timeline-start md:text-end mb-10">
-      <time class="font-mono italic">1997</time>
-      <div class="text-lg font-black">Lawson Mail Order Campaign</div>
-      Another mail campaign to commemorate 4 million sales overall for the franchise, this time online through retail store <em>Lawson</em>.
-    </div>
-    <hr />
-  </li>
-  <li>
-    <hr />
-    <div class="timeline-middle">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
-    </div>
-    <div class="timeline-end mb-10">
-      <time class="font-mono italic">1999</time>
-      <div class="text-lg font-black">Retail release</div>
-      Released to the general public via retail. Note that this comes one year after the release of <em>Pocket Monsters Yellow</em>.
-    </div>
-    <hr />
-  </li>
-</ul>
+1. ***CoroCoro Comic* Mail Order Campaign (1996):** To celebrate 1 million sales of Red and Green versions, customers could order the limited release *Blue* version.
+2. ***TOYOTA* Campaign (1997):** Distributed for customers who signed on to a *Toyota* contract.
+3. ***Lawson* mail order campaign (1997):** sdfsdf
+4. **General retail release (1999):** sdfsdf
 
 ### 1996 *CoroCoro Comic* Mail Order Campaign
 
@@ -222,4 +174,4 @@ I hope this dive down history lane was helpful! Best of luck in your collecting 
 * dogasu [[1](https://dogasu.bulbagarden.net/features/pokemon_in_1996.html)]
 * lavacutcontent [[1](https://lavacutcontent.com/corocoro-comic-pokemon-blue/)]
 * gamefreak.co.jp (via Internet Archive) [[1](https://web.archive.org/web/19970707185911/http://www.gamefreak.co.jp/POKEMON/NEWS/NEWS.HTM)]
-* first_print_mint [\[1]](https://www.instagram.com/p/CxtwcwHvHmM/?igsh=MWtlMHVqN3N0amJzdg==) - Graded *Pocket Monsters Yellow* photo
+* first_print_mint \[[1]](https://www.instagram.com/p/CxtwcwHvHmM/?igsh=MWtlMHVqN3N0amJzdg==) - Graded *Pocket Monsters Yellow* photo
