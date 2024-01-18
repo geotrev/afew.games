@@ -1,6 +1,6 @@
 ---
 publish_date: 2024-01-22
-title: "Pocket Monsters: Blue & Yellow Print Variant Breakdown"
+title: "Pocket Monsters: Blue & Yellow Print Variant Guide"
 description: A visual guide to the next two entries in the first generation of Pokemon
 ---
 This is the second part of a series all about *Pocket Monsters* print variants. In the previous [post,](https://www.afew.games/essays/pocket-monsters-red-green-early-print-breakdown) I covered the early prints of *Red* & *Green* versions.
@@ -13,13 +13,13 @@ This is the second part of a series all about *Pocket Monsters* print variants. 
 
 *Blue* version is unique for a few reasons. First, it started the first of a "sealed bag" treatment that would continue through *Crystal* version. It also was the first and only game to have a mail order launch before hitting retail proper.
 
-### 1996 _CoroCoro Comic_ Mail Order Campaign
+### 1996 *CoroCoro Comic* Mail Order Campaign
 
 *Blue* version was [announced on October 15th, 1996](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Blue_Version_(Japanese)), then [featured in CoroCoro Comic](https://lavacutcontent.com/corocoro-comic-pokemon-blue/) where readers were informed they could purchase & receive the game by mail. In this model, *Blue* verison was the only made-to-order entry ever made. It's unclear exactly how many copies were produced for the campaign.
 
 ![](/uploads/corocoro-blue-version-application.png)
 
-*CoroCoro Comic magazine spread, with application and instructions to receive* Blue *version*
+*CoroCoro Comic magazine spread, instructions to apply & pay for* Blue *version*
 
 *CoroCoro* readers could expect to receive their copy of *Pocket Monsters Blue* in mid-December of that year, at the earliest, and orders after November would likely arrive by January or February in the new year.
 
@@ -167,4 +167,4 @@ I hope this dive down history lane was helpful! Best of luck in your collecting 
 * dogasu [[1](https://dogasu.bulbagarden.net/features/pokemon_in_1996.html)]
 * lavacutcontent [[1](https://lavacutcontent.com/corocoro-comic-pokemon-blue/)]
 * gamefreak.co.jp (via Internet Archive) [[1](https://web.archive.org/web/19970707185911/http://www.gamefreak.co.jp/POKEMON/NEWS/NEWS.HTM)]
-* first_print_mint [[1]](https://www.instagram.com/p/CxtwcwHvHmM/?igsh=MWtlMHVqN3N0amJzdg==) - Graded *Pocket Monsters Yellow* photo
+* first_print_mint [\[1]](https://www.instagram.com/p/CxtwcwHvHmM/?igsh=MWtlMHVqN3N0amJzdg==) - Graded *Pocket Monsters Yellow* photo
