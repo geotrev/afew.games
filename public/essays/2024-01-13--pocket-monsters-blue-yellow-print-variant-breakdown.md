@@ -13,6 +13,61 @@ This is the second part of a series all about *Pocket Monsters* print variants. 
 
 *Blue* version is unique for a few reasons. First, it started the first of a "sealed bag" treatment that would continue through *Crystal* version. It also was the first and only game to have a mail order launch before hitting retail proper.
 
+At a high level, here is a timeline of *Blue* version releases:
+
+<ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+  <li>
+    <div class="timeline-middle">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+    </div>
+    <div class="timeline-start md:text-end mb-10">
+      <time class="font-mono italic">1996</time>
+      <div class="text-lg font-black">CoroCoro Comic Mail Order Campaign</div>
+     Fans could acquire the game to celebrate 1 million sales of <em>Red</em> and <em>Green</em> versions.
+    </div>
+    <div class="timeline-end md:text-start mb-10">
+      <img src="/blue-hero.jpg" alt="Pocket Monsters Blue mail order box" width="200px" height="auto">
+    </div>
+    <hr/>
+  </li>
+  <li>
+    <hr />
+    <div class="timeline-middle">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+    </div>
+    <div class="timeline-end mb-10">
+      <time class="font-mono italic">1997</time>
+      <div class="text-lg font-black">TOYOTA Campaign</div>
+      <em>Blue</em> version could be acquired again as a commemorative gift for <em>Toyota</em> customers who signed on for a new contract.
+    </div>
+    <hr />
+  </li>
+  <li>
+    <hr />
+    <div class="timeline-middle">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+    </div>
+    <div class="timeline-start md:text-end mb-10">
+      <time class="font-mono italic">1997</time>
+      <div class="text-lg font-black">Lawson Mail Order Campaign</div>
+      Another mail campaign to commemorate 4 million sales overall for the franchise, this time online through retail store <em>Lawson</em>.
+    </div>
+    <hr />
+  </li>
+  <li>
+    <hr />
+    <div class="timeline-middle">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+    </div>
+    <div class="timeline-end mb-10">
+      <time class="font-mono italic">1999</time>
+      <div class="text-lg font-black">Retail release</div>
+      Released to the general public via retail. Note that this comes one year after the release of <em>Pocket Monsters Yellow</em>.
+    </div>
+    <hr />
+  </li>
+</ul>
+
 ### 1996 *CoroCoro Comic* Mail Order Campaign
 
 *Blue* version was [announced on October 15th, 1996](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Blue_Version_(Japanese)), then [featured in CoroCoro Comic](https://lavacutcontent.com/corocoro-comic-pokemon-blue/) where readers were informed they could purchase & receive the game by mail. In this model, *Blue* verison was the only made-to-order entry ever made. It's unclear exactly how many copies were produced for the campaign.
