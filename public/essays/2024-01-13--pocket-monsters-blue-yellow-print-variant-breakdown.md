@@ -15,10 +15,10 @@ This is the second part of a series all about *Pocket Monsters* print variants. 
 
 Here is a preview timeline of physical releases for Blue version. Read further to learn about each individual event and the variant changes they had on the physical game.
 
-1. ***CoroCoro Comic* Mail Order Campaign (1996):** To celebrate 1 million sales of Red and Green versions, customers could order the limited release *Blue* version.
+1. ***CoroCoro Comic* Mail Order Campaign (December 1996):** To celebrate 1 million sales of Red and Green versions, customers could order the limited release *Blue* version.
 2. ***TOYOTA* Campaign (1997):** Distributed for customers who signed on to a *Toyota* contract.
-3. ***Lawson* mail order campaign (1997):** sdfsdf
-4. **General retail release (1999):** sdfsdf
+3. ***Lawson* mail order campaign (July 1997):** Via online application, customers can once again apply & receive *Blue* via mail order.
+4. **General retail release (Oct. 10th, 1999):** Finally, customers can buy Blue version in stores.
 
 ### 1996 *CoroCoro Comic* Mail Order Campaign
 
