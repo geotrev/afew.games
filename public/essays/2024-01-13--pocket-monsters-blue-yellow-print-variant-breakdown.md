@@ -1,6 +1,6 @@
 ---
 publish_date: 2024-01-22
-title: "Pocket Monsters: Blue & Yellow Print Variant Guide"
+title: "Pocket Monsters: Blue & Yellow Print Variant Breakdown"
 description: A visual guide to the next two entries in the first generation of Pokemon
 ---
 This is the second part of a series all about *Pocket Monsters* print variants. In the previous [post,](https://www.afew.games/essays/pocket-monsters-red-green-early-print-breakdown) I covered the early prints of *Red* & *Green* versions.
