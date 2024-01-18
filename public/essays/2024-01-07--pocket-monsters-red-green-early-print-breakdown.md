@@ -64,7 +64,7 @@ _NOTE: There are unconfirmed reports of no-code cartridges, but historically the
 
 A look at the circuit boards (PCBs) of _Green_ and _Red_ indicate they were produced a few months before the launch of the game (around November 1995).
 
-According to sources, _Red_ would later receive a `00` label code, and Green received a `22` code as well, but this was well after the initial release period (late April into May 1996).
+According to sources, _Red_ would later receive a `00` label code, and Green received a `20` code as well, but this was well after the initial release period (late April into May 1996).
 
 The board chips were produced a little bit later in this case, in the fourth or fifth week of 1996 (component date codes: `9605` (_Red_) and `9604` (_Green_); `96` is the year and `05`/`04` is the week).
 
