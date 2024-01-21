@@ -4870,6 +4870,27 @@
       "platform": "GameCube",
       "games": [
         {
+          "name": "Bundles",
+          "variants": [
+            {
+              "country": "USA",
+              "notes": "Player's Choice, Duo Pack (Sonic Heroes & Super Monkey Ball)"
+            },
+            {
+              "country": "USA",
+              "notes": "Player's Choice, Super Monkey Ball 2-pack (Super Monkey Ball & Super Monkey Ball 2)"
+            },
+            {
+              "notes": "Player's Choice, Sonic Adventure 2-pack (Sonic Adventure 2: Battle & Sonic Adventure DX: Director's Cut)",
+              "country": "USA"
+            },
+            {
+              "notes": "Pure Evil 2-pack (Resident Evil & Resident Evil Zero)",
+              "country": "USA"
+            }
+          ]
+        },
+        {
           "name": "Resident Evil",
           "variants": [
             {
