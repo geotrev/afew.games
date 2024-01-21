@@ -5077,20 +5077,27 @@
               "satellite_code": "00100",
               "country": "USA",
               "mpn": "DOL R GP7E",
-              "notes": "Bonus Microphone Included box"
-            },
-            {
-              "product_code": "58692B",
-              "satellite_code": "00101",
-              "country": "USA",
-              "notes": "Nuance logo",
-              "mpn": "DOL P GP7E"
+              "notes": "Big box, Scansoft logo"
             },
             {
               "product_code": "58692A",
               "satellite_code": "00100",
               "country": "USA",
               "notes": "ScanSoft logo",
+              "mpn": "DOL P GP7E"
+            },
+            {
+              "notes": "Big box, Nuance logo",
+              "satellite_code": "00101",
+              "country": "USA",
+              "mpn": "DOL R GP7E",
+              "product_code": "58981B"
+            },
+            {
+              "product_code": "58692B",
+              "satellite_code": "00101",
+              "country": "USA",
+              "notes": "Nuance logo",
               "mpn": "DOL P GP7E"
             }
           ]
