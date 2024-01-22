@@ -3653,7 +3653,8 @@
               "product_code": "81562C",
               "satellite_code": "00002",
               "country": "Japan",
-              "mpn": "CTR P BZLE CAN"
+              "mpn": "CTR P BZLE CAN",
+              "notes": "Canadian release"
             },
             {
               "product_code": "107556A",
