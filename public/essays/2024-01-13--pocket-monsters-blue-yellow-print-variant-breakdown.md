@@ -86,19 +86,26 @@ Here is the reference to those cartridge production codes from the previous post
 
 The below information was determined by a thorough survey of listing data on *eBay*, *Mercari* (Japanese), and *Yahoo! Auction Japan*.
 
-Early prints of *Blue* might not have included any ads, unlike Red and Blue at the time.
+Early editions of *Blue* likely had minimal contents, and possibly no ad inserts. The game at least had the following:
+
+* Manual (`JPN` code)
+* Map
+* Anti-tampering warning
 
 ![](/uploads/blue-version-complete-early-no-ad.jpeg)
 
-While unconfirmed for now, if ads were included, it would have been a *Game Boy Pocket* ad:
+While unconfirmed for now, if ads were included in the 1996-1997 versions, it would have been this *Game Boy Pocket* ad, which also appeared in *Red* and *Green* versions at the time:
 
 ![](/uploads/screenshot-2024-01-16-at-3.42.59-pm.png)
 
-- - -
+Later versions would include multiple ads, especially retail copies:
 
-By the time *Blue* reached retail proper, the game would include ads for *Game Boy Color, Game Boy Camera*, and *Pocket Monsters Stadium*. The manual also received a revision as noted by the `-1` code on the front.
+* Manual (`JPN-1`)
+* Game Boy Color ad (`CGB001-JPN-2`)
+* Game Boy Camera ad (`MGB006-JPN`)
+* Pocket Monsters Stadium ad (`APSJ-JPN`)
 
-Each piece of hardware advertised was released at the time and are consistent in numerous listed samples on websites like *Yahoo! Auction Japan*, *Mercari*, and the like. Sibling games *Red*, *Green*, and *Yellow* also contain these ads.
+Each piece of hardware advertised was released at the time and are consistent in numerous listed samples on websites like *Yahoo! Auction Japan*, *Mercari*, and the like. Sibling games *Red*, *Green*, and *Yellow* also contained the same ads at this time:
 
 ![Inserts shown for both mail order and retail print of Pocket Monsters: Blue](/uploads/blue-version-complete-retail.png)
 
@@ -137,7 +144,7 @@ This copy is owned by *first_print_mint* on Instagram.
 
 Like *Red* and *Green*, *Yellow* has multiple production codes, some exclusive to the very earliest print run. They include `00`, `12`, `20`, and `22`.
 
-Later print runs were quite complicated, however. Each letter in the production code indicates a full revision. Given there are codes ending in `D`, that means Yellow had at least **four** additional revisions produced.
+Later print runs were quite complicated, however. Each letter in the production code indicates a software revision. Given there are codes ending in `D`, that means Yellow had at least **four** additional revisions produced.
 
 Numeral-only production codes would likely be tied to the earliest paperwork included (see below).
 
@@ -170,8 +177,8 @@ I hope this dive down history lane was helpful! Best of luck in your collecting 
 * Thaane (via SACK Discord server) – PCB & production code data
 * [RB1989421GB](https://twitter.com/RB1989421GB) - *Blue* version variants & history
 * pokemon1gb2rgbp.wiki.fc2.com/ [[1](https://pokemon1gb2rgbp.wiki.fc2.com/)] [[2](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/初期版・後期版の違い)]
-* nintendo.co.jp [[1](https://www.nintendo.co.jp/n02/dmg/apajapbj/index.html)] [[2](https://www.nintendo.co.jp/n02/dmg/apej/index.html)] [[3](https://www.nintendo.co.jp/n02/dmg/apsj/index.html)]
+* nintendo.co.jp [[2](https://www.nintendo.co.jp/n02/dmg/apej/index.html)] [[3](https://www.nintendo.co.jp/n02/dmg/apsj/index.html)]
 * dogasu [[1](https://dogasu.bulbagarden.net/features/pokemon_in_1996.html)]
 * lavacutcontent [[1](https://lavacutcontent.com/corocoro-comic-pokemon-blue/)]
 * gamefreak.co.jp (via Internet Archive) [[1](https://web.archive.org/web/19970707185911/http://www.gamefreak.co.jp/POKEMON/NEWS/NEWS.HTM)]
-* first_print_mint \[[1]](https://www.instagram.com/p/CxtwcwHvHmM/?igsh=MWtlMHVqN3N0amJzdg==) - Graded *Pocket Monsters Yellow* photo
+* first_print_mint [[1](<* https://www.instagram.com/p/CxtwcwHvHmM/?igsh=MWtlMHVqN3N0amJzdg==>)] - Graded *Pocket Monsters Yellow* photo
