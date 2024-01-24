@@ -82,6 +82,8 @@ Here is the reference to those cartridge production codes from the previous post
 
 ![Cartridge production codes for Red, Green, Blue, and Yellow versions](/uploads/cart-code-table.png)
 
+*Note: The second "green" in the table is actually* Blue *version.* 
+
 #### Matching Paperwork
 
 The below information was determined by a thorough survey of listing data on *eBay*, *Mercari* (Japanese), and *Yahoo! Auction Japan*.
