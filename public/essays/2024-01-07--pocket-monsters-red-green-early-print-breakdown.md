@@ -77,11 +77,11 @@ According to sources, *Red* would later receive a `00` label code, and Green rec
 
 A﻿s further suggestion of the sequence, h﻿ere's a `22` code *R﻿ed* cartridge w﻿ith a print date about 5 weeks before a `00` code cartridge.
 
-![](/uploads/red-22-code-9611.png)
+![22 code Red cartridge with date code of 11th week of 1996](/uploads/red-22-code-9611.png)
 
 *`22` code* Red *cartridge with date code `9611` (11th week of 1996).*
 
-![](/uploads/red-20-code-9616.png)
+![20 code Red cartridge with date code of 16th week of 1996](/uploads/red-20-code-9616.png)
 
 *`20` code* Red *cartridge with date code `9616` (16th week of 1996).*
 
