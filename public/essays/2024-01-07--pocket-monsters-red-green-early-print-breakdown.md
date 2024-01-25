@@ -52,7 +52,7 @@ Here is a confirmed example of a first-production copy of *Green* version with `
 
 ![Pocket Monsters: Green with label stamp code 00](/uploads/green-cart-label.png)
 
-A *Red* or *Green* cartridge from the true first print runs will have a **strictly numerical** code stamped on the label.
+A *Red* or *Green* cartridge from the true first print runs will have a **strictly numerical** code stamped on the label. In general, at the time, Nintendo cartridges (including Super Famicom and Game Boy) would apply a letter suffix to indicate a software revision. E.g., `20A`.
 
 *NOTE: There are unconfirmed reports of no-code cartridges, but historically these have been an indication of a reproduction. No direct evidence suggests this is a real phenomenon on authentic copies of these games.*
 
