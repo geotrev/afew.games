@@ -144,3 +144,7 @@ I hope this dive down history lane was fun! It makes for an interesting hunt whe
 * Thaane (via SACK Discord server) – Photos & production code data
 * pokemon1gb2rgbp.wiki.fc2.com/ [[1](https://pokemon1gb2rgbp.wiki.fc2.com/)] [[2](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/初期版・後期版の違い)]
 * nintendo.co.jp [[1](https://www.nintendo.co.jp/n02/dmg/apajapbj/index.html)] [[2](https://www.nintendo.co.jp/n02/dmg/apej/index.html)] [[3](https://www.nintendo.co.jp/n02/dmg/apsj/index.html)]
+
+## R﻿evisions:
+
+* *0﻿1/24/2024: Added photos of `00` and `22`* c﻿ode *cartridges, with date codes specified.*
