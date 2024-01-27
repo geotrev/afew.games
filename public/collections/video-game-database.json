@@ -352,11 +352,11 @@
           "variants": [
             {
               "country": "Japan",
-              "mpn": "DMG-P-APSJ(JPN)",
+              "mpn": "DMG-APSJ-JPN",
               "notes": "Sealed Bag w/ Postcards 24-Hour Pre-Order"
             },
             {
-              "mpn": "DMG-P-APSJ(JPN)",
+              "mpn": "DMG-APSJ-JPN",
               "country": "Japan",
               "notes": ""
             }
