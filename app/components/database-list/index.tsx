@@ -22,7 +22,7 @@ DatabaseList.propTypes = {
   id: propTypes.string,
 }
 
-const TableHeader = memo(() => (
+const TableHeader = memo<{ tooltipId: string }>(({ tooltipId }) => (
   <thead>
     <tr>
       {DB_FIELDS_SORTED.map((field) => (
@@ -39,7 +39,7 @@ const TableHeader = memo(() => (
               className="btn btn-ghost btn-xs p-0 hover:bg-transparent"
               type="button"
               aria-label={DB_FIELD_DESCRIPTIONS[field]}
-              data-tooltip-id="info-tooltip"
+              data-tooltip-id={tooltipId}
               data-tooltip-content={DB_FIELD_DESCRIPTIONS[field]}
               data-tooltip-delay-hide={300}
               data-tooltip-delay-show={300}
@@ -76,6 +76,7 @@ export function DatabaseList({
 }: DatabaseListProps): ReactElement | null {
   const [opened, setOpened] = useState<boolean>(true)
   const length = games.length
+  const tooltipId = `info-tooltip-${id}`
 
   // Re-expand games while searching for visibility
   useEffect(() => {
@@ -103,7 +104,7 @@ export function DatabaseList({
         setOpened={setOpened}
       />
       <Tooltip
-        id="info-tooltip"
+        id={tooltipId}
         className="z-20 max-w-48 text-wrap !bg-white !text-base-100"
       />
       {opened ? (
@@ -118,7 +119,7 @@ export function DatabaseList({
                 {data.name}
               </h3>
               <table className="table table-zebra table-sm w-full">
-                <TableHeader />
+                <TableHeader tooltipId={tooltipId} />
                 <tbody>
                   {data.variants!.map(
                     (variant: DatabaseVariant, rowIndex: number) => (
