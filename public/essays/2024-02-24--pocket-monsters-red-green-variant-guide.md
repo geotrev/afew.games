@@ -79,6 +79,84 @@ The final page on the 2000 reprint contains several layout changes, as indicated
 
 ## Inserts
 
+### Map
+
+* One-sided, fold-out
+* All copies included a fold-out map with the same code, for every print
+* Codes: `DMG-APAJ-JPN` / `G505910`
+
+
+
+### Postcard
+
+* Two-sided
+* Postcard included only for launch copies
+* Codes: `DMG-APAJ-JPN` / `G505928`
+
+
+
+### Link Cable Guide
+
+* One-sided
+* Included during 1996 print runs
+* Survey data indicates inclusion stopped sometime after 1997
+* Codes: `T-DMG-04A-JPN` / `G502768`
+
+
+
+### Anti-Tampering Notice
+
+* One-sided
+* Included for mid-production copies starting in 1996
+* Code: `G508989`
+
+
+
+### Cleaning Guide
+
+* One-sided
+* Included late-production copies (1999+)
+* Coinciding with *Pocket Monsters Kin* & *Gin* (*Gold* and *Silver*) release
+* Code: `DMG-JPN`
+
 
 
 ## Ads
+
+### Super Game Boy
+
+* Accordion fold-out
+* All early copies of Red & Green (Pre-GB Pocket) included this ad
+* Code: `T-DMG-APAJ-JPN`
+
+
+
+### Game Boy Pocket (early)
+
+* Accordion fold-out
+* Included for mid-production copies (1996-1997)
+* Code: `T-DMG-MGB001-JPN-1`
+
+
+
+### Game Boy Pocket (later)
+
+* Accordion fold-out
+* Included for mid-production copies (1997-1998)
+* Code: `T-DMG-MGB001-JPN-3`
+
+
+
+### Game Boy Camera
+
+* Accordion fold-out
+* Included for mid-production copies in 1998
+* Code: `T-DMG-MGB006-JPN`
+
+
+
+### Game Boy Color
+
+* Accordion fold-out
+* Included for mid- and late-production copies (1998+)
+* Code: `T-DMG-CGB001-JPN-2`
