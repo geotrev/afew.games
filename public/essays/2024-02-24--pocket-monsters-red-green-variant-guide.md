@@ -66,16 +66,18 @@ Inner pages seem to only show the last page as changing. It has a date code for 
 Known codes (`YYMMDD` format):
 
 * No code
-* `970530`
-* `980218`
-* `990630`
-* `001122` 
+* `97`
+* `98`
+* `99`
+* `00` 
+
+Although unconfirmed, there are likely additional codes during any given year, marking production runs.
 
 ![Final page with date code (1996, 1997, and 1998)](/uploads/manual-red-1.png)
 
 ![Final page with date code (1999 and 2000)](/uploads/manual-red-2.png)
 
-The final page on the 2000 reprint contains several layout changes, as indicated with arrows.
+The final design for `JPN-1` marks the final design used for the manual in 2000.
 
 ## Inserts
 
@@ -85,7 +87,7 @@ The final page on the 2000 reprint contains several layout changes, as indicated
 * All copies included a fold-out map with the same code, for every print
 * Codes: `DMG-APAJ-JPN` / `G505910`
 
-
+![Map insert](/uploads/insert-map-code.png)
 
 ### Postcard
 
@@ -93,7 +95,7 @@ The final page on the 2000 reprint contains several layout changes, as indicated
 * Postcard included only for launch copies
 * Codes: `DMG-APAJ-JPN` / `G505928`
 
-
+![Postcard insert](/uploads/insert-survey.png)
 
 ### Link Cable Guide
 
@@ -102,7 +104,7 @@ The final page on the 2000 reprint contains several layout changes, as indicated
 * Survey data indicates inclusion stopped sometime after 1997
 * Codes: `T-DMG-04A-JPN` / `G502768`
 
-
+![Link cable guide insert](/uploads/insert-link-cable.png)
 
 ### Anti-Tampering Notice
 
@@ -110,7 +112,7 @@ The final page on the 2000 reprint contains several layout changes, as indicated
 * Included for mid-production copies starting in 1996
 * Code: `G508989`
 
-
+![](/uploads/insert-anti-tampering.png)
 
 ### Cleaning Guide
 
@@ -119,7 +121,7 @@ The final page on the 2000 reprint contains several layout changes, as indicated
 * Coinciding with *Pocket Monsters Kin* & *Gin* (*Gold* and *Silver*) release
 * Code: `DMG-JPN`
 
-
+![](/uploads/insert-cleaning-instructions.png)
 
 ## Ads
 
@@ -129,7 +131,7 @@ The final page on the 2000 reprint contains several layout changes, as indicated
 * All early copies of Red & Green (Pre-GB Pocket) included this ad
 * Code: `T-DMG-APAJ-JPN`
 
-
+![](/uploads/ad-super-game-boy-code.png)
 
 ### Game Boy Pocket (early)
 
@@ -137,7 +139,7 @@ The final page on the 2000 reprint contains several layout changes, as indicated
 * Included for mid-production copies (1996-1997)
 * Code: `T-DMG-MGB001-JPN-1`
 
-
+![](/uploads/insert-gb-pocket-1.png)
 
 ### Game Boy Pocket (later)
 
@@ -145,7 +147,7 @@ The final page on the 2000 reprint contains several layout changes, as indicated
 * Included for mid-production copies (1997-1998)
 * Code: `T-DMG-MGB001-JPN-3`
 
-
+![](/uploads/insert-gb-pocket-2.png)
 
 ### Game Boy Camera
 
@@ -153,10 +155,16 @@ The final page on the 2000 reprint contains several layout changes, as indicated
 * Included for mid-production copies in 1998
 * Code: `T-DMG-MGB006-JPN`
 
-
+![](/uploads/insert-gb-camera.png)
 
 ### Game Boy Color
 
 * Accordion fold-out
 * Included for mid- and late-production copies (1998+)
 * Code: `T-DMG-CGB001-JPN-2`
+
+![](/uploads/insert-gb-color.png)
+
+## Correlated Parts
+
+Parts apply uniformly between Red and Green. There may still be missing combinations. This is a best guess given the year the inserts would have been used, and is based on a large survey of listings on *Yahoo! Japan Auctions*, *Mercari*, and *eBay*.
