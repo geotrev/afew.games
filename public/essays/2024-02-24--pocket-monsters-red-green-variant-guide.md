@@ -131,7 +131,7 @@ The final design for `JPN-1` marks the final design used for the manual in 2000.
 * All early copies of Red & Green (Pre-GB Pocket) included this ad
 * Code: `T-DMG-APAJ-JPN`
 
-![](/uploads/ad-super-game-boy-code.png)
+![Super Game Boy ad](/uploads/ad-super-game-boy-code.png)
 
 ### Game Boy Pocket (early)
 
@@ -139,7 +139,7 @@ The final design for `JPN-1` marks the final design used for the manual in 2000.
 * Included for mid-production copies (1996-1997)
 * Code: `T-DMG-MGB001-JPN-1`
 
-![](/uploads/insert-gb-pocket-1.png)
+![Game Boy Pocket ad, early variant](/uploads/insert-gb-pocket-1.png)
 
 ### Game Boy Pocket (later)
 
@@ -147,7 +147,7 @@ The final design for `JPN-1` marks the final design used for the manual in 2000.
 * Included for mid-production copies (1997-1998)
 * Code: `T-DMG-MGB001-JPN-3`
 
-![](/uploads/insert-gb-pocket-2.png)
+![Game Boy Pocket ad, later variant](/uploads/insert-gb-pocket-2.png)
 
 ### Game Boy Camera
 
@@ -155,7 +155,7 @@ The final design for `JPN-1` marks the final design used for the manual in 2000.
 * Included for mid-production copies in 1998
 * Code: `T-DMG-MGB006-JPN`
 
-![](/uploads/insert-gb-camera.png)
+![Game Boy Camera ad](/uploads/insert-gb-camera.png)
 
 ### Game Boy Color
 
@@ -163,7 +163,7 @@ The final design for `JPN-1` marks the final design used for the manual in 2000.
 * Included for mid- and late-production copies (1998+)
 * Code: `T-DMG-CGB001-JPN-2`
 
-![](/uploads/insert-gb-color.png)
+![Game Boy Color ad](/uploads/insert-gb-color.png)
 
 ## Correlated Parts
 
