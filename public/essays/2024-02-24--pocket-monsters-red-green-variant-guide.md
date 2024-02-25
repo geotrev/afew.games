@@ -182,14 +182,14 @@ A useful foreword on inserts: Typically, the Red model code (`APAJ`) is used for
 
 Part combinations apply uniformly between Red and Green. There may still be missing combinations. This is a "best guess" given date codes and approximate time-frame of when the inserts were used, and is based on a large survey of listings on *Yahoo! Japan Auctions*, *Mercari*, and *eBay*.
 
-| Box        | Cartridge                                                                    | Manual              | Inserts/Ads                                                                            |
-| ---------- | ---------------------------------------------------------------------------- | ------------------- | -------------------------------------------------------------------------------------- |
-| Large UPC* | **Label codes:** `00` (Green) / `22` (Red); **Date codes:** `9604` - `9606`  | *No code*           | Map, Postcard, Link Cable Guide, Super Game Boy Ad                                     |
-| Small UPC  | **Label codes:** `00`, `20` (Green) / `20` (Red); **Date codes:** `96XX`\*\* | *No code*           | Same as large UPC; no postcard                                                         |
-| Small UPC  | **Label codes:** `XXA`; **Date codes:** `96XX` - `97XX`                      | *No code*           | Map, Anti-Tampering Notice, Game Boy Camera ad, Game Boy Pocket Ad (JPN-1)             |
-| Small UPC  | **Label codes:** `XXA`; **Date codes:** `97XX` - `98XX`                      | `97xxxx`            | Map, Anti-Tampering Notice, Game Boy Camera Ad, Game Boy Pocket Ad (3 code)            |
-| Small UPC  | **Label codes:** `XXA`; **Date codes:** `98XX` - `99XX`                      | `98xxxx` - `99xxxx` | Map, Anti-Tampering Notice, Game Boy Camera Ad, Game Boy Color Ad                      |
-| Small UPC  | **Label codes:** `XXA` - `XXM`; **Date codes:** `99XX`+                      | `JPN-1` (`00xxxx`)  | Map, Cart Cleaning Guide, Anti-Tampering Notice, Game Boy Camera Ad, Game Boy Color ad |
+| Box        | Cartridge                                                                    | Manual              | Inserts/Ads                                                                 |
+| ---------- | ---------------------------------------------------------------------------- | ------------------- | --------------------------------------------------------------------------- |
+| Large UPC* | **Label codes:** `00` (Green) / `22` (Red); **Date codes:** `9604` - `9606`  | *No code*           | Map, Postcard, Link Cable Guide, Super Game Boy Ad                          |
+| Small UPC  | **Label codes:** `00`, `20` (Green) / `20` (Red); **Date codes:** `96XX`\*\* | *No code*           | Same as large UPC; no postcard                                              |
+| Small UPC  | **Label codes:** `XXA`; **Date codes:** `96XX` - `97XX`                      | *No code*           | Map, Anti-Tampering Notice, Game Boy Camera ad, Game Boy Pocket Ad (JPN-1)  |
+| Small UPC  | **Label codes:** `XXA`; **Date codes:** `97XX` - `98XX`                      | `97xxxx`            | Map, Anti-Tampering Notice, Game Boy Camera Ad, Game Boy Pocket Ad (3 code) |
+| Small UPC  | **Label codes:** `XXA`; **Date codes:** `98XX` - `99XX`                      | `98xxxx` - `99xxxx` | Map, Anti-Tampering Notice, Game Boy Camera Ad, Game Boy Color Ad           |
+| Small UPC  | **Label codes:** `XXA` - `XXM`; **Date codes:** `99XX`+                      | `JPN-1` (`00xxxx`)  | Map, Cart Cleaning Guide, Game Boy Camera Ad, Game Boy Color ad             |
 
 \**There is some anecdotal evidence at launch for small UPCs made in parallel, however large UPCs are guaranteed for first production.*
 
