@@ -55,7 +55,7 @@ Chip codes use a different date format.
 
 ## Manual Variants
 
-* `JPN` (1996-1999) and `JPN-1` (~2000) codes
+* `JPN` (1996-1999) used until 1999-2000
 * `JPN-1` removes date code and changes customer support number
 
 ![Manual changes from early/mid to late prints.](/uploads/manual-red.png)
