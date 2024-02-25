@@ -89,7 +89,7 @@ Although unconfirmed, there are likely multiple date codes used during a given y
 ### Map
 
 * One-sided, fold-out
-* All copies included a fold-out map with the same code, for every print
+* All copies have the same code, for every print of the game
 * Codes: `DMG-APAJ-JPN` / `G505910`
 
 ![Map insert](/uploads/insert-map-code.png)
