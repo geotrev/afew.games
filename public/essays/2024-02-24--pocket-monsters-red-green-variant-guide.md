@@ -34,6 +34,8 @@ Label codes have a two or three digit production code on bottom right corner. [[
 | **Red**   | 22             | 00, 20 | XXA      |
 | **Green** | 00             | 20     | XXA      |
 
+A letter suffix in the code (e.g., `A`) indicates a software patch revision. There is a mysterious `1M` code reported to exist. Unconconfirmed, but this may have been a very late production run of the game.
+
 ### PCB Codes
 
 PCBs use gold blocks to indicate dates.
