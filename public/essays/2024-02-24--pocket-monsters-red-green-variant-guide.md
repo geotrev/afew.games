@@ -65,10 +65,10 @@ Inner pages seem to only show the last page as changing. It has a date code for 
 Known codes (`YYMMDD` format):
 
 * No code
-* `97`
-* `98`
-* `99`
-* `00` 
+* `970530` 
+* `980218` 
+* `990630` 
+* `001122` 
 
 Although unconfirmed, there are likely additional codes during any given year, marking production runs.
 
