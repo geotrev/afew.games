@@ -16,7 +16,6 @@ I hope you find it useful!
 
 * First/early prints have large UPC
 * Later prints (mid-1996 onward) have smaller UPC
-* No other changes
 
 ![Large and small box UPCs](/uploads/box-back.png)
 
