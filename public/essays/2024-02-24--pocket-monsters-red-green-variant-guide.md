@@ -76,7 +76,7 @@ Although unconfirmed, there are likely multiple date codes used during a given y
 
 ![Final page with date code (1999 and 2000)](/uploads/manual-red-2.png)
 
-The final design for `JPN-1` marks the final design used for the manual in 2000.
+`JPN-1` marks the final design used for the manual in 2000.
 
 ## Inserts
 
