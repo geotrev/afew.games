@@ -184,4 +184,4 @@ Part combinations apply uniformly between Red and Green. There may still be miss
 
 - - -
 
-Huge thanks to *Mikaifu Collection* on Instagram and *Thaane* in SACK (Sealed and Collectibles Knowledge) discord server.
+Huge thanks to *Mikaifu Collection* on Instagram and *Thaane* in SACK (Sealed and Collectibles Knowledge) Discord server.
