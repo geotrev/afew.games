@@ -27,17 +27,17 @@ Cartridges can be dated with a combination of label production code, chip date c
 
 Stamp codes have a two or three digit production code on bottom right corner. [[source](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84)] 
 
-|       | Earliest Known | Early  | Mid/Late |
-| ----- | -------------- | ------ | -------- |
-| Red   | 22             | 00, 20 | XXA      |
-| Green | 00             | 20     | XXA      |
+|           | Earliest Known | Early  | Mid/Late |
+| --------- | -------------- | ------ | -------- |
+| **Red**   | 22             | 00, 20 | XXA      |
+| **Green** | 00             | 20     | XXA      |
 
 PCBs use gold blocks to indicate dates.
 
-|       | Earliest Known | Pre-Launch |
-| ----- | -------------- | ---------- |
-| Red   | Nov. 1995      | Jan. 1996  |
-| Green | Nov. 1995      | Jan. 1996  |
+|           | Earliest Known | Pre-Launch |
+| --------- | -------------- | ---------- |
+| **Red**   | Nov. 1995      | Jan. 1996  |
+| **Green** | Nov. 1995      | Jan. 1996  |
 
 The PCB dates use the below block format, from top right (January) to bottom left (December). The production date is the last un-punched dot.
 
