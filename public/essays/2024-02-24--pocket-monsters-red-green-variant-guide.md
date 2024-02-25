@@ -62,7 +62,11 @@ Chip codes use a different date format.
 ## Manual Variants
 
 * `JPN` (1996-1999) used until 1999-2000
-* `JPN-1` removes date code and changes customer support number
+
+  * Codes: `DMG-APAJ/APBJ-JPN` / `G972706`
+* `JPN-1` removes `G` code and changes customer support number
+
+  * Code: `DMG-APAJ/APBJ-JPN-1`
 
 ![Manual changes from early/mid to late prints.](/uploads/manual-red.png)
 
@@ -86,10 +90,12 @@ Although unconfirmed, there are likely multiple date codes used during a given y
 
 ## Inserts
 
+A useful foreword on inserts: Typically, the Red model code (`APAJ`) is used for both version's game-specific inserts. This includes the map and some ads.
+
 ### Map
 
 * One-sided, fold-out
-* All copies have the same code, for every print of the game
+* All copies have the same code for both *Green* and *Red*
 * Codes: `DMG-APAJ-JPN` / `G505910`
 
 ![Map insert](/uploads/insert-map-code.png)
