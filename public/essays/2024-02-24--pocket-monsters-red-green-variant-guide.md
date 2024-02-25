@@ -21,7 +21,7 @@ I hope you find it useful!
 
 ### Cartridge Variants
 
-Cartridges can be dated with a combination of label production code, chip date codes, and PCB production date code.
+Cartridges can be dated with a combination of label code, chip codes, and the PCB date module.
 
 ![Cartridge date and stamp codes](/uploads/cart-red-breakdwon.png)
 
