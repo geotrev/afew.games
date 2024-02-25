@@ -19,18 +19,22 @@ I hope you find it useful!
 
 ![Large and small box UPCs](/uploads/box-back.png)
 
-### Cartridge Variants
+## Cartridge Variants
 
 Cartridges can be dated with a combination of label code, chip codes, and the PCB date module.
 
 ![Cartridge date and stamp codes](/uploads/cart-red-breakdwon.png)
 
-Stamp codes have a two or three digit production code on bottom right corner. [[source](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84)] 
+### Label Codes
+
+Label codes have a two or three digit production code on bottom right corner. [[source](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84)] 
 
 |           | Earliest Known | Early  | Mid/Late |
 | --------- | -------------- | ------ | -------- |
 | **Red**   | 22             | 00, 20 | XXA      |
 | **Green** | 00             | 20     | XXA      |
+
+### PCB Codes
 
 PCBs use gold blocks to indicate dates.
 
@@ -42,6 +46,8 @@ PCBs use gold blocks to indicate dates.
 The PCB dates use the below block format, from top right (January) to bottom left (December). The production date is the last un-punched dot.
 
 ![PCB visual date codes](/uploads/cart-pcb-codes.png)
+
+### Chip Codes
 
 Chip codes use a different date format.
 
