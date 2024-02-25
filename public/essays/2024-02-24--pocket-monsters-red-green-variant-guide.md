@@ -70,7 +70,7 @@ Known codes (`YYMMDD` format):
 * `990630` 
 * `001122` 
 
-Although unconfirmed, there are likely additional codes during any given year, marking production runs.
+Although unconfirmed, there are likely multiple date codes used during a given year.
 
 ![Final page with date code (1996, 1997, and 1998)](/uploads/manual-red-1.png)
 
