@@ -189,7 +189,7 @@ Part combinations apply uniformly between Red and Green. There may still be miss
 | Small UPC  | **Label codes:** `XXA`; **Date codes:** `98XX` - `99XX`                      | `98xxxx` - `99xxxx` | Map, Anti-Tampering Notice, Game Boy Camera Ad, Game Boy Color Ad                      |
 | Small UPC  | **Label codes:** `XXA` - `XXM`; **Date codes:** `99XX`+                      | `JPN-1` (`00xxxx`)  | Map, Cart Cleaning Guide, Anti-Tampering Notice, Game Boy Camera Ad, Game Boy Color ad |
 
-\**There is some anecdotal evidence at launch for small UPCs made in parallel, but large UPCs are guaranteed for first production.*
+\**There is some anecdotal evidence at launch for small UPCs made in parallel, however large UPCs are guaranteed for first production.*
 
 *\*\*`X` designation is a placeholder for digits. E.g., `XXA` could be `00A`.*
 
