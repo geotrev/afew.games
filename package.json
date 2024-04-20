@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "seed": "rm -rf ./.seed && npm run seed:essays",
     "seed:essays": "node ./.bin/seed-essays.js",
     "dev": "npm run seed && next",
@@ -70,7 +70,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-tailwindcss": "^3.13.1",
     "eslint-prettier-config": "^1.0.1",
-    "husky": "^8.0.3",
+    "husky": "^9.0.0",
     "lint-staged": "^15.2.0",
     "path": "^0.12.7",
     "postcss": "^8.4.32",
