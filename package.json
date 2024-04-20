@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "seed": "rm -rf ./.seed && npm run seed:essays",
     "seed:essays": "node ./.bin/seed-essays.js",
     "dev": "npm run seed && next",
