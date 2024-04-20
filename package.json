@@ -29,7 +29,7 @@
   "homepage": "https://github.com/geotrev/afew.games#readme",
   "dependencies": {
     "@mailchimp/mailchimp_marketing": "^3.0.80",
-    "@octokit/core": "^5.0.2",
+    "@octokit/core": "^6.0.0",
     "@tailwindcss/typography": "^0.5.10",
     "classnames": "^2.5.1",
     "crypto-js": "^4.2.0",
