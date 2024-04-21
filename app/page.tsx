@@ -1,9 +1,9 @@
 import Link from "next/link"
-import { PageHeading } from "./components/page-heading"
-import { DatabaseWrapper } from "./components/database-wrapper"
+import { PageHeading } from "app/components/page-heading"
+import { DatabaseWrapper } from "app/components/database-wrapper"
+import { getGamesData } from "utils/db-helpers"
 import { transformGameProps, sortByKey } from "utils/helpers"
 import { BASE_TITLE } from "utils/constants"
-import database from "public/collections/video-game-database.json"
 import contributorData from "public/collections/contributors.json"
 
 export const metadata = {
@@ -13,6 +13,8 @@ export const metadata = {
   title: `${BASE_TITLE} database`,
   description: "A video game database and blog website",
 }
+
+const database = getGamesData()
 
 export default function Page() {
   const { games, queryData, count } = transformGameProps(database)
