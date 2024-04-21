@@ -13,7 +13,8 @@ import { getNextUrlState } from "../../utils/set-params"
 import { FilterListProps } from "./types"
 
 FilterOptions.propTypes = {
-  items: propTypes.arrayOf(
+  searchValue: propTypes.string,
+  filteredPlatforms: propTypes.arrayOf(
     propTypes.shape({
       value: propTypes.string,
       selected: propTypes.bool,
@@ -24,7 +25,6 @@ FilterOptions.propTypes = {
 }
 
 export function FilterOptions({
-  items,
   searchValue,
   filteredPlatforms,
   handleClick,
@@ -34,7 +34,7 @@ export function FilterOptions({
   const [rovingIndex, setRovingIndex] = useState<number>(0)
   const [opened, setOpened] = useState<boolean>(false)
 
-  const noneSelected = items.every((item) => !item.selected)
+  const noneSelected = filteredPlatforms.every((item) => !item.selected)
 
   useEffect(() => {
     if (copied) {
@@ -69,14 +69,14 @@ export function FilterOptions({
         target = container?.firstElementChild as HTMLButtonElement
         targetIndex = 0
       } else if (key === "End") {
-        const lastIdx = items.length - 1
+        const lastIdx = filteredPlatforms.length - 1
         const container = parentNode?.parentNode?.childNodes?.[
           lastIdx
         ] as HTMLDivElement
         target = container?.firstElementChild as HTMLButtonElement
         targetIndex = lastIdx
       } else if (key.length === 1 && /[0-9A-Za-z]/.test(key)) {
-        targetIndex = items.findIndex((item) =>
+        targetIndex = filteredPlatforms.findIndex((item) =>
           item.value.toLowerCase().startsWith(key)
         )
         const container = parentNode?.parentNode?.childNodes?.[
@@ -90,19 +90,19 @@ export function FilterOptions({
         setRovingIndex(targetIndex)
       }
     },
-    [items, rovingIndex]
+    [filteredPlatforms, rovingIndex]
   )
 
   const handleItemClick = useCallback<MouseEventHandler<HTMLButtonElement>>(
     (event) => {
-      const index = items.findIndex(
+      const index = filteredPlatforms.findIndex(
         (item) =>
           item.value === (event.target as HTMLButtonElement).dataset.itemValue
       )
       setRovingIndex(index)
       handleClick(event)
     },
-    [handleClick, items]
+    [handleClick, filteredPlatforms]
   )
 
   const handleToggleClick = useCallback<
@@ -122,7 +122,7 @@ export function FilterOptions({
   }, [filteredPlatforms, searchValue])
 
   return (
-    <div className="mb-4 rounded-b-lg bg-base-300 p-4">
+    <div className="my-4 rounded-lg bg-base-300 p-4">
       <div className={cn("sm:hidden", { "mb-4": opened })}>
         <button
           className="btn btn-ghost btn-sm w-full rounded normal-case"
@@ -151,7 +151,7 @@ export function FilterOptions({
         >
           <div role="rowgroup">
             <div className="flex flex-row flex-wrap gap-1 sm:gap-2" role="row">
-              {items.map((item, idx) => {
+              {filteredPlatforms.map((item, idx) => {
                 return (
                   <div key={item.value} role="gridcell">
                     <button

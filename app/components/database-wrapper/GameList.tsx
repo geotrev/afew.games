@@ -1,14 +1,33 @@
 import { DatabaseList } from "../database-list"
-import { DatabasePlatform } from "types/games"
+import { DatabasePlatform, FilterItem } from "types/games"
 
-function getGamesByCount(
-  count: number,
-  games: DatabasePlatform[]
+function getFilteredEntries(
+  entries: DatabasePlatform[],
+  filteredPlatforms: FilterItem[],
+  filterCount: number,
+  arePlatformsFiltered: boolean
 ): DatabasePlatform[] {
-  let inc = count
+  let filteredEntries: DatabasePlatform[] = []
+
+  if (arePlatformsFiltered) {
+    const selectedPlatforms = filteredPlatforms.reduce<string[]>(
+      (acc, p) => (p.selected ? [...acc, p.value] : acc),
+      []
+    )
+
+    for (const entry of entries) {
+      if (selectedPlatforms.includes(entry.platform)) {
+        filteredEntries.push(entry)
+      }
+    }
+  } else {
+    filteredEntries = entries
+  }
+
+  let inc = filterCount
   let retVal = []
 
-  for (const p of games) {
+  for (const p of filteredEntries) {
     if (inc <= 0) break
 
     if (p.games.length <= inc) {
@@ -28,15 +47,27 @@ function getGamesByCount(
 }
 
 export function GameList({
-  count,
-  games: _games,
+  arePlatformsFiltered,
+  filteredPlatforms,
+  filterCount,
+  entries,
 }: {
-  count: number | null
-  games: DatabasePlatform[]
+  arePlatformsFiltered: boolean
+  filteredPlatforms: FilterItem[]
+  filterCount: number | null
+  entries: DatabasePlatform[]
 }) {
-  const games = count === null ? _games : getGamesByCount(count, _games)
+  const filteredEntries =
+    filterCount === null
+      ? entries
+      : getFilteredEntries(
+          entries,
+          filteredPlatforms,
+          filterCount,
+          arePlatformsFiltered
+        )
 
-  return games.map((p: DatabasePlatform) => (
+  return filteredEntries?.map((p: DatabasePlatform) => (
     <DatabaseList
       key={p.platform}
       games={p.games}

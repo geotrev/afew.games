@@ -1,112 +1,109 @@
-import { useCallback, useMemo, useState } from "react"
-import { debounce } from "lodash-es"
+import { useCallback, useEffect, useMemo, useState } from "react"
+import { DatabasePlatform, FilterItem } from "types/games"
 
-import { DatabasePlatform, DatabaseGame, FilterItem } from "types/games"
-
-type FilterCallback = () => DatabasePlatform[]
-
-export function useSearch(searchQuery: string) {
-  const [searchValue, setSearchValue] = useState<string>(searchQuery)
-
-  return { defaultSearchValue: searchQuery, searchValue, setSearchValue }
+interface QueryParams {
+  value?: string
+  onSuccess?: () => void
 }
 
-export function useFilter({
-  defaultSearchValue,
-  platformQuery,
-  games,
-  queryData,
-}: {
-  defaultSearchValue: string
-  platformQuery: string[]
+interface UseFetchGamesReturnValue {
+  query: (params: QueryParams) => void
+  noMatches: boolean
+  isLoading: boolean
+  isError: boolean
   games: DatabasePlatform[]
-  queryData: Array<string[]>
-}) {
-  const [filterValue, setFilterValue] = useState<string>(defaultSearchValue)
-  const setDebouncedFilterValue = useMemo(
-    () => debounce(setFilterValue, 300),
-    []
-  )
+}
 
-  const [filteredPlatforms, setFilteredPlatforms] = useState<FilterItem[]>(
-    games.map((p) => ({
-      value: p.platform,
-      selected: platformQuery.indexOf(p.platform.toLowerCase()) > -1,
-    }))
-  )
-  const allSelected: boolean = filteredPlatforms.every((p) => p.selected)
-  const noneSelected: boolean = filteredPlatforms.every((p) => !p.selected)
-  const selectedPlatforms: string[] = filteredPlatforms.reduce<string[]>(
-    (acc, p: FilterItem) => {
-      if (p.selected) {
-        acc.push(p.value)
-        return acc
+export function useFetchGames(initialValue?: string): UseFetchGamesReturnValue {
+  const [noMatches, setNoMatches] = useState<boolean>(false)
+  const [games, setGames] = useState<DatabasePlatform[]>([])
+  const [isError, setIsError] = useState<boolean>(false)
+  const [isLoading, setIsLoading] = useState<boolean>(false)
+
+  const query = useCallback<UseFetchGamesReturnValue["query"]>(
+    async ({ value, onSuccess }: QueryParams) => {
+      if (!value) {
+        setIsError(true)
+
+        return
       }
-      return acc
+
+      setIsLoading(true)
+      setIsError(false)
+      setNoMatches(false)
+
+      await fetch("/api/search-games", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        cache: "no-store",
+        body: JSON.stringify({ value }),
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          if (data.status === "success") {
+            setGames(data.matches)
+
+            if (data.matches.length === 0) {
+              setNoMatches(true)
+            }
+
+            if (typeof onSuccess === "function") onSuccess()
+          }
+
+          if (data.status === "error") {
+            setIsError(true)
+          }
+
+          setIsLoading(false)
+        })
+        .catch(() => {
+          setIsError(true)
+        })
     },
     []
   )
 
-  // Reduce the games in the list based on:
-  // 1. Search query
-  // 2. Selected platforms
-  const filterGames = useCallback<FilterCallback>(() => {
-    const query = filterValue.toLowerCase()
-    if (!filterValue && allSelected) return games
+  useEffect(() => {
+    if (!initialValue) return
 
-    return queryData.reduce<DatabasePlatform[]>(
-      (acc, queryableGames: string[], idx) => {
-        const gameList: DatabaseGame[] = games[idx].games
-        const filteredEntry: DatabasePlatform = {
-          ...games[idx],
-          games: [],
-        }
-        let shouldQuery: boolean = true
+    query({ value: initialValue })
 
-        if (
-          !noneSelected &&
-          !allSelected &&
-          selectedPlatforms.indexOf(games[idx].platform) === -1
-        ) {
-          shouldQuery = false
-        }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
-        if (shouldQuery) {
-          if (query) {
-            queryableGames.forEach((q, gameIdx) => {
-              if (!q.includes(query)) return
-              filteredEntry.games.push(gameList[gameIdx])
-            })
-          } else {
-            filteredEntry.games.push(...gameList)
-          }
-        }
+  return useMemo(
+    () => ({
+      games,
+      query,
+      noMatches,
+      isError,
+      isLoading,
+    }),
+    [games, query, noMatches, isError, isLoading]
+  )
+}
 
-        acc.push(filteredEntry)
-        return acc
-      },
-      []
-    )
-  }, [
-    allSelected,
-    noneSelected,
-    filterValue,
-    games,
-    queryData,
-    selectedPlatforms,
-  ])
+export function useFilter({
+  platformQuery,
+  platformList,
+}: {
+  platformQuery: string[]
+  platformList: string[]
+}) {
+  const [filteredPlatforms, setFilteredPlatforms] = useState<FilterItem[]>(
+    platformList.map((p: string) => ({
+      value: p,
+      selected: platformQuery.indexOf(p.toLowerCase()) > -1,
+    }))
+  )
+  const noneSelected: boolean = filteredPlatforms.every((p) => !p.selected)
 
-  const filteredGames = filterGames()
-
-  let gameCount = 0
-  filteredGames.forEach((p) => (gameCount += p.games.length))
-
-  return {
-    setDebouncedFilterValue,
-    setFilteredPlatforms,
-    filteredPlatforms,
-    noneSelected,
-    filteredGames,
-    gameCount,
-  }
+  return useMemo(
+    () => ({
+      setFilteredPlatforms,
+      filteredPlatforms,
+      noneSelected,
+    }),
+    [setFilteredPlatforms, filteredPlatforms, noneSelected]
+  )
 }

@@ -32,9 +32,7 @@ export function flattenObjectValues(items: DatabaseGame[]): string[] {
   )
 }
 
-export function transformGameProps(database: {
-  platforms: DatabasePlatform[]
-}) {
+export function transformGameData(database: { platforms: DatabasePlatform[] }) {
   const games: DatabasePlatform[] = database.platforms
     .sort(sortByKey("platform"))
     .map((p) => ({
@@ -42,11 +40,9 @@ export function transformGameProps(database: {
       games: p.games.sort(sortByKey("name")),
     }))
 
-  let count = 0
   const queryData: string[][] = games.map((p) => {
-    count += p.games.length
     return flattenObjectValues(p.games)
   })
 
-  return { games, queryData, count }
+  return { games, queryData }
 }

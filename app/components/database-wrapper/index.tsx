@@ -1,54 +1,30 @@
 "use client"
 
-import propTypes from "prop-types"
 import {
   ChangeEventHandler,
+  FormEventHandler,
   MouseEventHandler,
-  useEffect,
   useMemo,
   useState,
 } from "react"
 import { useSearchParams } from "next/navigation"
 import xss from "xss"
 import { debounce } from "lodash-es"
-import { DatabasePlatform } from "types/games"
 import { FilterOptions } from "../filter-options"
 import { Search } from "../search"
-import { useFilter, useSearch } from "../../utils/hooks"
+import { useFilter, useFetchGames } from "../../utils/hooks"
 import { getNextUrlState } from "../../utils/set-params"
 import { GameList } from "./GameList"
 
-type DatabaseWrapperProps = {
-  games: DatabasePlatform[]
-  queryData: Array<string[]>
+interface DatabaseWrapperProps {
+  platformList: string[]
 }
 
-DatabaseWrapper.propTypes = {
-  games: propTypes.arrayOf(
-    propTypes.shape({
-      platform: propTypes.string,
-      games: propTypes.arrayOf(
-        propTypes.shape({
-          name: propTypes.string,
-          variants: propTypes.arrayOf(
-            propTypes.shape({
-              product_code: propTypes.string,
-              satellite_code: propTypes.string,
-              country: propTypes.string,
-              mpn: propTypes.string,
-              notes: propTypes.string,
-            })
-          ),
-        })
-      ),
-    })
-  ).isRequired,
-  queryData: propTypes.arrayOf(propTypes.arrayOf(propTypes.string)).isRequired,
-}
-
-export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
+export function DatabaseWrapper({ platformList }: DatabaseWrapperProps) {
+  /**
+   * Check params
+   */
   const searchParams = useSearchParams()
-
   const searchQuery = xss(searchParams.get("search") || "")
   const platformParam = searchParams.getAll("platform")
   const platformQuery = Array.isArray(platformParam)
@@ -57,20 +33,25 @@ export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
       ? [xss(platformParam).toLowerCase()]
       : []
 
-  const { defaultSearchValue, searchValue, setSearchValue } =
-    useSearch(searchQuery)
-  const {
-    setDebouncedFilterValue,
-    setFilteredPlatforms,
-    filteredPlatforms,
-    noneSelected,
-    filteredGames,
-    gameCount,
-  } = useFilter({
-    defaultSearchValue,
+  /**
+   * Initialize search value with search param
+   */
+  const [searchValue, setSearchValue] = useState<string>(searchQuery)
+
+  /**
+   * Initialize games from a specialized fetch hook.
+   */
+  const { query, games, noMatches, isLoading, isError } =
+    useFetchGames(searchValue)
+
+  let gameCount = games.reduce((count, p) => (count += p.games.length), 0)
+
+  /**
+   * Initialize platform filter hook to narrow down search options
+   */
+  const { setFilteredPlatforms, filteredPlatforms, noneSelected } = useFilter({
     platformQuery,
-    games,
-    queryData,
+    platformList,
   })
   const [count, setCount] = useState<number | null>(10)
   const [selectedCount, setSelectedCount] = useState<string>(String(count))
@@ -80,15 +61,21 @@ export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
     []
   )
 
-  useEffect(() => {
-    const url = getNextUrlState({ filteredPlatforms, searchValue })
-
-    setDebouncedURLState(url)
-  }, [filteredPlatforms, searchValue, setDebouncedURLState])
-
   const handleChange: ChangeEventHandler<HTMLInputElement> = (event) => {
     setSearchValue(event.target.value)
-    setDebouncedFilterValue(event.target.value)
+  }
+
+  const handleSubmit: FormEventHandler<HTMLFormElement> = (event) => {
+    event.preventDefault()
+
+    query({
+      value: searchValue,
+      onSuccess: () => {
+        // Set URL state:
+        const url = getNextUrlState({ filteredPlatforms, searchValue })
+        setDebouncedURLState(url)
+      },
+    })
   }
 
   const handlePillClick: MouseEventHandler<HTMLButtonElement> = (event) => {
@@ -129,41 +116,64 @@ export function DatabaseWrapper({ games, queryData }: DatabaseWrapperProps) {
     <>
       <Search
         label="Search variants"
-        placeholder="Mario Kart"
-        value={searchValue}
         handleChange={handleChange}
-      />
-      <FilterOptions
-        searchValue={searchValue}
-        filteredPlatforms={filteredPlatforms}
-        items={filteredPlatforms}
-        handleClick={handlePillClick}
-        handleReset={handlePillResetClick}
+        handleSubmit={handleSubmit}
+        value={searchValue}
       />
 
-      <div className="flex justify-end">
-        <label className="label pe-4">Games shown</label>
-        <select
-          value={selectedCount}
-          name="quantity"
-          onChange={handleSelectChange}
-          className="select select-bordered"
-        >
-          <option value="10">10</option>
-          <option value="25">25</option>
-          <option value="50">50</option>
-          <option value="100">100</option>
-          <option value="all">All</option>
-        </select>
-      </div>
-
-      {gameCount === 0 ? (
-        <p>No matches found, sorry.</p>
-      ) : (
-        <GameList count={count} games={filteredGames} />
+      {isLoading && (
+        <p className="align-center flex">
+          <span className="loading" aria-hidden="true" />{" "}
+          <span className="ps-2">Fetching games...</span>
+        </p>
       )}
 
-      {typeof count === "number" &&
+      {isError && (
+        <p className="text-red-500">
+          Uh-oh, check your search value and try again.
+        </p>
+      )}
+
+      {noMatches && <p>No matches found, sorry.</p>}
+
+      {gameCount > 0 && !isLoading && (
+        <FilterOptions
+          searchValue={searchValue}
+          filteredPlatforms={filteredPlatforms}
+          handleClick={handlePillClick}
+          handleReset={handlePillResetClick}
+        />
+      )}
+
+      {gameCount > 0 && !isLoading && (
+        <div className="flex justify-end">
+          <label className="label pe-4">Games shown</label>
+          <select
+            value={selectedCount}
+            name="quantity"
+            onChange={handleSelectChange}
+            className="select select-bordered"
+          >
+            <option value="10">10</option>
+            <option value="25">25</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="all">All</option>
+          </select>
+        </div>
+      )}
+
+      {gameCount > 0 && !isLoading && (
+        <GameList
+          entries={games}
+          filteredPlatforms={filteredPlatforms}
+          filterCount={count}
+          arePlatformsFiltered={!noneSelected}
+        />
+      )}
+
+      {!isLoading &&
+        typeof count === "number" &&
         selectedCount !== "all" &&
         count < gameCount && (
           <div className="flex justify-center">

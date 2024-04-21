@@ -1,9 +1,9 @@
 import Link from "next/link"
 import { PageHeading } from "app/components/page-heading"
 import { DatabaseWrapper } from "app/components/database-wrapper"
-import { getGamesData } from "utils/db-helpers"
-import { transformGameProps, sortByKey } from "utils/helpers"
+import { sortByKey } from "utils/helpers"
 import { BASE_TITLE } from "utils/constants"
+import { getPlatformList } from "utils/db-helpers"
 import contributorData from "public/collections/contributors.json"
 
 export const metadata = {
@@ -14,22 +14,19 @@ export const metadata = {
   description: "A video game database and blog website",
 }
 
-const database = getGamesData()
+const platformList = getPlatformList()
 
 export default function Page() {
-  const { games, queryData, count } = transformGameProps(database)
-
   return (
     <>
       <div className="prose max-w-full">
         <PageHeading>Database</PageHeading>
         <p>
-          This is a database of {count} games with documented print variants.{" "}
           <strong>
             This tool exclusively tracks box and seal variants for NTSC-U games
           </strong>
           , but inner contents are noted when appropriate. International regions
-          will be specified in the game title.
+          will be specified in a game&apos;s title or notes.
         </p>
         <p className="mb-0">
           <Link
@@ -46,7 +43,7 @@ export default function Page() {
         </p>
       </div>
       <div className="divider" role="separator" />
-      <DatabaseWrapper games={games} queryData={queryData} />
+      <DatabaseWrapper platformList={platformList} />
       <div className="divider" role="separator" />
       <div className="prose max-w-full">
         <p className="font-bold">♥ Database Contributors</p>
