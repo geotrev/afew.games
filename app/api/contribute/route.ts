@@ -42,54 +42,60 @@ export async function POST(req: Request) {
 
   // Verify recaptcha
 
-  const recaptchaResults = await fetch(
-    `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.APP_CAPTCHA_SECRET}&response=${res.gRecaptchaToken}`,
-    {
-      method: "POST",
-    }
-  ).then((res) => res.json())
+  if (process.env.NODE_ENV === "production") {
+    const recaptchaResults = await fetch(
+      `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.APP_CAPTCHA_SECRET}&response=${res.gRecaptchaToken}`,
+      {
+        method: "POST",
+      }
+    ).then((res) => res.json())
 
-  if (!recaptchaResults.success) {
-    return NextResponse.json({
-      status: "error",
-      message: "Unable to verify, try again",
-    })
+    if (!recaptchaResults.success) {
+      return NextResponse.json({
+        status: "error",
+        message: "Unable to verify, try again",
+      })
+    }
   }
 
   // Submit issue to GH
 
   const body = getIssueBody(res)
 
-  try {
-    const octokit = new Octokit({ auth: process.env.APP_GITHUB_ISSUE })
+  if (process.env.NODE_ENV === "production") {
+    try {
+      const octokit = new Octokit({ auth: process.env.APP_GITHUB_ISSUE })
 
-    const response = await octokit.request(
-      "POST /repos/geotrev/afew.games/issues",
-      {
-        title: `[Submission]: ${res.title}`,
-        body,
-        owner: "geotrev",
-        repo: "afew.games",
-        labels: ["contribution"],
-        projects: ["geotrev/1"],
-        headers: {
-          "X-GitHub-Api-Version": "2022-11-28",
-        },
+      const response = await octokit.request(
+        "POST /repos/geotrev/afew.games/issues",
+        {
+          title: `[Submission]: ${res.title}`,
+          body,
+          owner: "geotrev",
+          repo: "afew.games",
+          labels: ["contribution"],
+          projects: ["geotrev/1"],
+          headers: {
+            "X-GitHub-Api-Version": "2022-11-28",
+          },
+        }
+      )
+
+      if (response.status === 201) {
+        return NextResponse.json({ status: "success" })
+      } else {
+        return NextResponse.json({
+          status: "error",
+          message: "Submission error",
+        })
       }
-    )
-
-    if (response.status === 201) {
-      return NextResponse.json({ status: "success" })
-    } else {
+    } catch (e) {
       return NextResponse.json({
         status: "error",
-        message: "Submission error",
+        message: "Internal server error",
       })
     }
-  } catch (e) {
-    return NextResponse.json({
-      status: "error",
-      message: "Internal server error",
-    })
+  } else {
+    return NextResponse.json({ status: "success" })
   }
 }

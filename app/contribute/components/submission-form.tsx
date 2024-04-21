@@ -187,7 +187,7 @@ export function SubmissionForm() {
                 className={cn({
                   "textarea textarea-bordered textarea-info textarea-md mb-8 w-full max-w-full":
                     field.input.is,
-                  "input input-bordered input-info input-md mb-8 w-full max-w-full":
+                  "input input-md input-bordered input-info mb-8 w-full max-w-full":
                     !field.input.is,
                 })}
                 value={fieldValues[field.input.id]}
@@ -248,20 +248,27 @@ export function SubmissionForm() {
           </p>
         ))}
 
-        <div className={cn({ "mb-4": serverErrorMessage || isSubmitting })}>
+        <div
+          className={cn("flex justify-center", {
+            "mb-4": serverErrorMessage || isSubmitting,
+          })}
+        >
           <button
             className={cn(
-              "btn btn-primary btn-lg !min-h-0 w-full rounded-md py-3 md:btn-md",
-              { "btn-ghost loading": isSubmitting }
+              "btn btn-primary btn-lg !min-h-0 rounded-md py-3 md:btn-md",
+              {
+                "btn-ghost loading": isSubmitting,
+                "w-full": !isSubmitting,
+              }
             )}
           >
-            {isSubmitting ? "Submitting..." : "Submit"}
+            Submit
           </button>
         </div>
 
         {isSubmitting && (
           <p className="text-center">
-            ✋ Hold tight, this will take a second...
+            ✋ Hold tight, this might take a second...
           </p>
         )}
 
