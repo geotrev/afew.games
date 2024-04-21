@@ -1,21 +1,24 @@
+import glob from "glob"
+import fs from "fs"
 import Link from "next/link"
-import { PageHeading } from "./components/page-heading"
-import { DatabaseWrapper } from "./components/database-wrapper"
+import { DatabasePlatform } from "types/games"
+import { PageHeading } from "app/components/page-heading"
+import { DatabaseWrapper } from "app/components/database-wrapper"
 import { transformGameProps, sortByKey } from "utils/helpers"
 import { BASE_TITLE } from "utils/constants"
-const fs = require("fs")
-const glob = require("glob")
 import contributorData from "public/collections/contributors.json"
-import { DatabasePlatform } from "../types/games"
 
 const files: string[] = glob.sync("../public/collections/games/*.json")
-let database: { platforms: DatabasePlatform[] } = { platforms: [] }
 
-files.forEach((filePath) => {
-  const data = fs.readFileSync(filePath, "utf8")
-  const jsonObject = JSON.parse(data)
-  database.platforms.push(jsonObject)
-})
+const database = files.reduce<{ platforms: DatabasePlatform[] }>(
+  (mergedData, filePath) => {
+    const data = fs.readFileSync(filePath, "utf8")
+    const jsonObject: DatabasePlatform = JSON.parse(data)
+    mergedData.platforms.push(jsonObject)
+    return mergedData
+  },
+  { platforms: [] }
+)
 
 export const metadata = {
   alternates: {
