@@ -1,24 +1,10 @@
-import glob from "glob"
-import fs from "fs"
 import Link from "next/link"
-import { DatabasePlatform } from "types/games"
 import { PageHeading } from "app/components/page-heading"
 import { DatabaseWrapper } from "app/components/database-wrapper"
+import { getGamesData } from "utils/db-helpers"
 import { transformGameProps, sortByKey } from "utils/helpers"
 import { BASE_TITLE } from "utils/constants"
 import contributorData from "public/collections/contributors.json"
-
-const files: string[] = glob.sync("../public/collections/games/*.json")
-
-const database = files.reduce<{ platforms: DatabasePlatform[] }>(
-  (mergedData, filePath) => {
-    const data = fs.readFileSync(filePath, "utf8")
-    const jsonObject: DatabasePlatform = JSON.parse(data)
-    mergedData.platforms.push(jsonObject)
-    return mergedData
-  },
-  { platforms: [] }
-)
 
 export const metadata = {
   alternates: {
@@ -27,6 +13,8 @@ export const metadata = {
   title: `${BASE_TITLE} database`,
   description: "A video game database and blog website",
 }
+
+const database = getGamesData()
 
 export default function Page() {
   const { games, queryData, count } = transformGameProps(database)
