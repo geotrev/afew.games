@@ -1,0 +1,633 @@
+{
+  "platform": "DS",
+  "games": [
+    {
+      "name": "Mega Man Battle Network 5: Double Team DS",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NTR P A5TE",
+          "notes": "Sunnyvale address"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NTR P A5TE",
+          "notes": "San Mateo address"
+        }
+      ]
+    },
+    {
+      "name": "Mega Man Star Force 3 Red Joker",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NTR P CRRE"
+        }
+      ]
+    },
+    {
+      "name": "Mega Man Star Force 3 Black Ace",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NTR P CRBE"
+        }
+      ]
+    },
+    {
+      "name": "Mega Man Star Force 2 Zerker X Saurian",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NTR-P-YRWE"
+        }
+      ]
+    },
+    {
+      "name": "Mega Man Star Force 2 Zerker X Ninja",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NTR-P-YRVE"
+        }
+      ]
+    },
+    {
+      "name": "Mega Man Star Force Pegasus",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NTR P A6AE"
+        }
+      ]
+    },
+    {
+      "name": "Mega Man Star Force Leo",
+      "variants": [
+        {
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "NTR P A6BE"
+        }
+      ]
+    },
+    {
+      "name": "Mega Man Star Force Dragon",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NTR P A6CE"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon White",
+      "variants": [
+        {
+          "product_code": "73647A",
+          "satellite_code": "00100",
+          "country": "Japan",
+          "mpn": "TWL P IRAO USA",
+          "notes": "Target exclusive, Lucario download promo"
+        },
+        {
+          "product_code": "73329A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "TWL P IRAO USA",
+          "notes": ""
+        },
+        {
+          "product_code": "73330A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "TWL P IRAO CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon Black",
+      "variants": [
+        {
+          "product_code": "73646A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "TWL P IRBO USA",
+          "notes": "Target exclusive, Lucario download promo"
+        },
+        {
+          "product_code": "73319A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "TWL P IRBO USA",
+          "notes": ""
+        },
+        {
+          "product_code": "73320A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "TWL P IRBO CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon White 2",
+      "variants": [
+        {
+          "product_code": "77250A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "TWL P IRDO USA",
+          "notes": ""
+        },
+        {
+          "product_code": "79400A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "TWL P WPW2 USA",
+          "notes": "Wal-Mart exclusive, download offer sticker"
+        },
+        {
+          "product_code": "77251A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "TWL P IRDO CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon Black 2",
+      "variants": [
+        {
+          "product_code": "77244A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "TWL P IREO USA",
+          "notes": ""
+        },
+        {
+          "product_code": "",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "TWL P WPB2 USA",
+          "notes": "(unconfirmed) Wal-Mart exclusive, download offer sticker"
+        },
+        {
+          "product_code": "77245A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "TWL P IREO CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Mario Kart DS",
+      "variants": [
+        {
+          "product_code": "58695A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P AMCE USA",
+          "notes": "Wi-Fi logo bottom"
+        },
+        {
+          "product_code": "58695B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "NTR P AMCE USA",
+          "notes": "Wi-Fi logo top"
+        },
+        {
+          "product_code": "58695B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "NTR P AMCE USA",
+          "notes": "Red case, Wi-Fi logo top"
+        },
+        {
+          "product_code": "72516A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P AMCE USA",
+          "notes": "NFR, Wi-Fi logo top"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon Diamond",
+      "variants": [
+        {
+          "product_code": "63055A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P ADAE USA",
+          "notes": ""
+        },
+        {
+          "product_code": "63056A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P ADAE CAN",
+          "notes": "Canadian release"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P ADAE USA",
+          "notes": "NFR (carrying case bundle pack-in)"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "",
+          "notes": "NFR (carrying case bundle box)"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon Pearl",
+      "variants": [
+        {
+          "product_code": "63058A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P APAE USA",
+          "notes": ""
+        },
+        {
+          "product_code": "63059A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P APAE CAN",
+          "notes": "Canadian release"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P APAE USA",
+          "notes": "NFR (carrying case bundle pack-in)"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "",
+          "notes": "NFR (carrying case bundle box)"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon Platinum",
+      "variants": [
+        {
+          "product_code": "67708A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P CPUE USA",
+          "notes": ""
+        },
+        {
+          "product_code": "67709A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P CPUE CAN",
+          "notes": "Canadian release"
+        },
+        {
+          "product_code": "67873A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P CPUE USA",
+          "notes": "NFR (carrying case and figurine bundle pack-in)"
+        },
+        {
+          "product_code": "67941A",
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "NTR P PUW1 USA",
+          "notes": "NFR (carrying case and figurine bundle box)"
+        }
+      ]
+    },
+    {
+      "name": "New Super Mario Bros.",
+      "variants": [
+        {
+          "product_code": "60457A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P A2DE USA",
+          "notes": "Red Nintendo logo"
+        },
+        {
+          "product_code": "60457B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "NTR P A2DE USA",
+          "notes": "White Nintendo logo"
+        },
+        {
+          "product_code": "60457B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "NTR P A2DE USA",
+          "notes": "Red case, white Nintendo logo"
+        }
+      ]
+    },
+    {
+      "name": "The World Ends With You",
+      "variants": [
+        {
+          "product_code": "350100",
+          "country": "Japan",
+          "mpn": "NTR P AWLE"
+        }
+      ]
+    },
+    {
+      "name": "Kingdom Hearts 358/2 Days",
+      "variants": [
+        {
+          "product_code": "580100",
+          "country": "Japan",
+          "mpn": "NTR P YKGE",
+          "notes": "Limited edition w/ slip cover"
+        },
+        {
+          "product_code": "580100",
+          "country": "Japan",
+          "mpn": "NTR P YKGE"
+        }
+      ]
+    },
+    {
+      "name": "Kingdom Hearts Re: Coded",
+      "variants": [
+        {
+          "product_code": "1120100A",
+          "country": "Japan",
+          "mpn": "NTR P BK9E",
+          "notes": "No foil"
+        },
+        {
+          "product_code": "1120100A",
+          "country": "Japan",
+          "mpn": "NTR P BK9E",
+          "notes": "Light foil"
+        },
+        {
+          "product_code": "1120100A",
+          "country": "Japan",
+          "mpn": "NTR P BK9E",
+          "notes": "Heavy foil"
+        }
+      ]
+    },
+    {
+      "name": "Metroid Prime Hunters",
+      "variants": [
+        {
+          "product_code": "57096B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "NTR P AMHE USA",
+          "notes": ""
+        },
+        {
+          "product_code": "57096C",
+          "satellite_code": "00002",
+          "country": "Japan",
+          "mpn": "NTR P AMHE USA",
+          "notes": ""
+        },
+        {
+          "product_code": "57102A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P AMHE CAN",
+          "notes": "Canadian release"
+        },
+        {
+          "product_code": "57102B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "NTR P AMHE CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon HeartGold",
+      "variants": [
+        {
+          "product_code": "70777A",
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "NTR R PKW1 USA",
+          "notes": "Figurine/jacket large box, Wal-Mart exclusive"
+        },
+        {
+          "product_code": "70206A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR R IPKE USA",
+          "notes": "Pokewalker small box"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "(LCPK)NTR-IPKE-USA",
+          "notes": "NFR, Pokewalker pack-in"
+        },
+        {
+          "product_code": "70207A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR R IPKE CAN",
+          "notes": "Canadian release, Pokewalker small box"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "(LCPK)NTR-IPKE-CAN",
+          "notes": "Canadian release, NFR, Pokewalker pack-in"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon SoulSilver",
+      "variants": [
+        {
+          "product_code": "70779A",
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "NTR R PGW1 USA",
+          "notes": "Figurine/jacket large box, Wal-Mart exclusive"
+        },
+        {
+          "product_code": "70208A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR R IPGE USA",
+          "notes": "Pokewalker small box"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "(LCPK)NTR-IPGE-USA",
+          "notes": "NFR, Pokewalker pack-in"
+        },
+        {
+          "product_code": "70209A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR R IPGE CAN",
+          "notes": "Canadian release, Pokewalker small box"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "(LCPK)NTR-IPGE-CAN",
+          "notes": "Canadian release, NFR, Pokewalker pack-in"
+        }
+      ]
+    },
+    {
+      "name": "Animal Crossing: Wild World",
+      "variants": [
+        {
+          "product_code": "58699A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P ADME USA",
+          "notes": ""
+        },
+        {
+          "product_code": "58700A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P ADME CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Super Mario 64 DS",
+      "variants": [
+        {
+          "product_code": "56270A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P ASME",
+          "notes": "Red Nintendo logo"
+        },
+        {
+          "product_code": "56270B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "NTR P ASME",
+          "notes": "Red case, white Nintendo logo"
+        },
+        {
+          "product_code": "56270C",
+          "satellite_code": "00002",
+          "country": "Japan",
+          "mpn": "NTR P ASME",
+          "notes": "Red case, white Nintendo logo"
+        },
+        {
+          "product_code": "56270C",
+          "satellite_code": "00002",
+          "country": "Japan",
+          "mpn": "NTR P ASME",
+          "notes": "Standard case, white Nintendo logo"
+        },
+        {
+          "product_code": "56271A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P ASME",
+          "notes": "Canadian release, Red Nintendo logo"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Phantom Hourglass",
+      "variants": [
+        {
+          "product_code": "61332A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P AZEE USA",
+          "notes": ""
+        },
+        {
+          "product_code": "64567A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P AZEE USA",
+          "notes": "NFR, console pack-in"
+        },
+        {
+          "product_code": "61324A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P AZEE CAN",
+          "notes": "Canadian release"
+        },
+        {
+          "product_code": "64568A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P AZEE CAN",
+          "notes": "Canadian release, NFR, console pack-in"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Spirit Tracks",
+      "variants": [
+        {
+          "product_code": "69175A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P BKIE USA",
+          "notes": ""
+        },
+        {
+          "product_code": "69176A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "NTR P BKIE CAN",
+          "notes": "Canadian release"
+        },
+        {
+          "product_code": "69176B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "NTR P BKIE CAN",
+          "notes": "Canadian release"
+        },
+        {
+          "product_code": "69176C",
+          "satellite_code": "00002",
+          "country": "Japan",
+          "mpn": "NTR P BKIE CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    }
+  ]
+}

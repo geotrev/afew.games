@@ -1,0 +1,1341 @@
+{
+  "platform": "NES",
+  "games": [
+    {
+      "name": "Volleyball",
+      "variants": [
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, NES-GP, NES code, NES TM, Title TM"
+        }
+      ]
+    },
+    {
+      "name": "Slalom",
+      "variants": [
+        {
+          "country": "Japan",
+          "notes": "Rev-A, Round SOQ"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A, oval SOQ TM"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, NES-GP, NES code, NES TM"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, NES-GP, NES code"
+        }
+      ]
+    },
+    {
+      "name": "Pro Wrestling",
+      "variants": [
+        {
+          "country": "Japan",
+          "notes": "Rev-A"
+        },
+        {
+          "notes": "No Rev-A",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, NES-GP, NES Code, NES TM"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, NES-GP, NES code"
+        }
+      ]
+    },
+    {
+      "name": "Urban Champion",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES Code",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES Code, NES TM",
+          "country": "Japan"
+        },
+        {
+          "notes": "No Rev-A",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A"
+        }
+      ]
+    },
+    {
+      "name": "Popeye",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, gloss sticker"
+        },
+        {
+          "notes": "Hangtab, gloss sticker, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES Code",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES Code, NES TM",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A"
+        }
+      ]
+    },
+    {
+      "name": "Mario Bros.",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, gloss sticker"
+        },
+        {
+          "notes": "Hangtab, gloss sticker, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, NES-GP, NES code"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code, NES TM",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A, UPC digits aligned"
+        },
+        {
+          "notes": "Rev-A, UPC digits staggered",
+          "country": "Japan"
+        }
+      ]
+    },
+    {
+      "name": "Mach Rider",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code, NES TM",
+          "country": "Japan"
+        },
+        {
+          "notes": "No Rev-A",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A, UPC digits leveled"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A, UPC digits staggered"
+        }
+      ]
+    },
+    {
+      "name": "Gumshoe",
+      "variants": [
+        {
+          "country": "Japan",
+          "notes": "Hangtab"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code, NES TM",
+          "country": "Japan"
+        }
+      ]
+    },
+    {
+      "name": "Donkey Kong Jr. Math",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, gloss sticker, NES-GP"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code",
+          "country": "Japan"
+        }
+      ]
+    },
+    {
+      "name": "Donkey Kong Jr.",
+      "variants": [
+        {
+          "country": "Japan",
+          "notes": "Hangtab"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code, NES TM",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        }
+      ]
+    },
+    {
+      "name": "Donkey Kong 3",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, gloss sticker"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, gloss sticker, NES GP"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, NES-GP"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, NES-GP, NES code"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, NES-GP, NES code, NES TM"
+        },
+        {
+          "notes": "No Rev-A",
+          "country": "Japan"
+        },
+        {
+          "notes": "Rev-A",
+          "country": "Japan"
+        }
+      ]
+    },
+    {
+      "name": "Donkey Kong",
+      "variants": [
+        {
+          "country": "Japan",
+          "notes": "Hangtab"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, gloss sticker"
+        },
+        {
+          "notes": "Hangtab, gloss sticker, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, NES-GP, NES code"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, NES-GP, NES code, NES TM"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        }
+      ]
+    },
+    {
+      "name": "Wrecking Crew",
+      "variants": [
+        {
+          "country": "Japan",
+          "notes": "Hangtab"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, matte sticker",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, NES-GP"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, NES-GP, NES code"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code, NES TM",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A"
+        }
+      ]
+    },
+    {
+      "name": "Wild Gunman",
+      "variants": [
+        {
+          "country": "Japan",
+          "notes": "Hangtab"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, gloss sticker"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, matte sticker"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, NES-GP"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, NES-GP, NES code"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, NES-GP, NES code, NES TM"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A"
+        }
+      ]
+    },
+    {
+      "name": "Tennis",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, matte sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code, NES TM",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        },
+        {
+          "notes": "Rev-A, round SOQ, UPC digits aligned",
+          "country": "Japan"
+        },
+        {
+          "notes": "Rev-A, round SOQ, UPC digits staggered",
+          "country": "Japan"
+        }
+      ]
+    },
+    {
+      "name": "Soccer",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, matte sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code, NES TM",
+          "country": "Japan"
+        }
+      ]
+    },
+    {
+      "name": "Pinball",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, matte sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code, NES TM",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A, oval SOQ TM"
+        },
+        {
+          "notes": "Rev-A, round SOQ, UPC digits aligned",
+          "country": "Japan"
+        },
+        {
+          "notes": "Rev-A, round SOQ, UPC digits staggered",
+          "country": "Japan"
+        }
+      ]
+    },
+    {
+      "name": "Kung Fu",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, matte sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code, NES TM",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A, oval SOQ R"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A, oval SOQ TM"
+        },
+        {
+          "notes": "Rev-A, round SOQ, UPC digits aligned",
+          "country": "Japan"
+        },
+        {
+          "notes": "Rev-A, round SOQ, UPC digits staggered",
+          "country": "Japan"
+        }
+      ]
+    },
+    {
+      "name": "Ice Climber",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, matte sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code, NES TM",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A"
+        }
+      ]
+    },
+    {
+      "name": "Hogan's Alley",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, matte sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code, NES TM",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A, oval SOQ TM"
+        },
+        {
+          "notes": "Rev-A, round SOQ, UPC digits aligned",
+          "country": "Japan"
+        },
+        {
+          "notes": "Rev-A, round SOQ, UPC digits staggered",
+          "country": "Japan"
+        }
+      ]
+    },
+    {
+      "name": "Gyromite",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, matte sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code, NES TM",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        }
+      ]
+    },
+    {
+      "name": "Golf",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, matte sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code, NES TM",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A, oval SOQ R"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A, oval SOQ TM"
+        },
+        {
+          "notes": "Rev-A, round SOQ, UPC digits aligned",
+          "country": "Japan"
+        },
+        {
+          "notes": "Rev-A, round SOQ, UPC digits staggered",
+          "country": "Japan"
+        }
+      ]
+    },
+    {
+      "name": "Excitebike",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, matte sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code, NES TM",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A, oval SOQ TM"
+        },
+        {
+          "notes": "Rev-A, round SOQ, UPC digits aligned",
+          "country": "Japan"
+        },
+        {
+          "notes": "Rev-A, round SOQ, UPC digits staggered",
+          "country": "Japan"
+        }
+      ]
+    },
+    {
+      "name": "Duck Hunt",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, matte sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code, NES TM",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A"
+        }
+      ]
+    },
+    {
+      "name": "Clu Clu Land",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, matte sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code",
+          "country": "Japan"
+        }
+      ]
+    },
+    {
+      "name": "Baseball",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, matte sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code, NES TM",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A"
+        }
+      ]
+    },
+    {
+      "name": "Balloon Fight",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code, NES TM",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A"
+        }
+      ]
+    },
+    {
+      "name": "10-Yard Fight",
+      "variants": [
+        {
+          "notes": "Hangtab",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, gloss sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, matte sticker",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code",
+          "country": "Japan"
+        },
+        {
+          "notes": "Hangtab, NES-GP, NES code, NES TM",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A"
+        }
+      ]
+    },
+    {
+      "name": "Mega Man 6",
+      "variants": [
+        {
+          "country": "Japan"
+        }
+      ]
+    },
+    {
+      "name": "Mega Man 5",
+      "variants": [
+        {
+          "country": "Japan"
+        }
+      ]
+    },
+    {
+      "name": "Mega Man 4",
+      "variants": [
+        {
+          "country": "Japan"
+        }
+      ]
+    },
+    {
+      "name": "Mega Man 3",
+      "variants": [
+        {
+          "country": "Japan",
+          "notes": "Capcom offer removed"
+        },
+        {
+          "country": "Japan",
+          "notes": "Capcom offer"
+        }
+      ]
+    },
+    {
+      "name": "Mega Man 2",
+      "variants": [
+        {
+          "country": "Japan",
+          "notes": "Oval SOQ TM"
+        },
+        {
+          "country": "Japan",
+          "notes": "Oval SOQ R"
+        }
+      ]
+    },
+    {
+      "name": "Mega Man",
+      "variants": [
+        {
+          "notes": "Oval SOQ R",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "Round SOQ, 'Dr. Wily' corrected"
+        },
+        {
+          "country": "Japan",
+          "notes": "Round SOQ, 'Dr. Wily' corrected, Captain Commando sticker"
+        },
+        {
+          "country": "Japan",
+          "notes": "Round SOQ, 'Dr. Wright' typo"
+        }
+      ]
+    },
+    {
+      "name": "Castlevania III: Dracula's Curse",
+      "variants": [
+        {
+          "country": "Japan",
+          "notes": "Dracula's Hometown offer"
+        },
+        {
+          "country": "Japan"
+        }
+      ]
+    },
+    {
+      "name": "Castlevania II: Simon's Quest",
+      "variants": [
+        {
+          "country": "Japan",
+          "notes": "Oval SOQ TM"
+        },
+        {
+          "country": "Japan",
+          "notes": "Round SOQ"
+        }
+      ]
+    },
+    {
+      "name": "Castlevania",
+      "variants": [
+        {
+          "country": "Japan",
+          "notes": "Rev-A, oval SOQ TM"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A, round SOQ"
+        },
+        {
+          "notes": "No Rev-A",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab"
+        }
+      ]
+    },
+    {
+      "name": "Tetris",
+      "variants": [
+        {
+          "country": "Japan",
+          "notes": "Tengen"
+        },
+        {
+          "notes": "Nintendo, oval SOQ TM, 'USA, Canada and Mexico' text",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "Nintendo, oval SOQ TM, 'USA and Canada' text"
+        },
+        {
+          "country": "Japan",
+          "notes": "Nintendo, oval SOQ R, 4 line warranty"
+        },
+        {
+          "country": "Japan",
+          "notes": "Nintendo, oval SOQ R, 3 line warranty"
+        }
+      ]
+    },
+    {
+      "name": "Metroid",
+      "variants": [
+        {
+          "notes": "Classic Series",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "Oval SOQ TM, 1989"
+        },
+        {
+          "country": "Japan",
+          "notes": "Oval SOQ TM, 1988"
+        },
+        {
+          "notes": "Rev-A, oval SOQ TM, 1987",
+          "country": "Japan"
+        },
+        {
+          "notes": "Rev-A, oval SOQ R",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A, round SOQ"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab"
+        }
+      ]
+    },
+    {
+      "name": "Zelda II: The Adventure of Link",
+      "variants": [
+        {
+          "country": "Japan",
+          "notes": "Classic Series"
+        },
+        {
+          "country": "Japan",
+          "notes": "Oval SOQ TM, 1989"
+        },
+        {
+          "notes": "Oval SOQ TM, 1988",
+          "country": "Japan"
+        },
+        {
+          "notes": "Oval SOQ R",
+          "country": "Japan"
+        },
+        {
+          "notes": "Round SOQ",
+          "country": "Japan"
+        }
+      ]
+    },
+    {
+      "name": "Super Mario Bros. 2",
+      "variants": [
+        {
+          "notes": "Oval SOQ R, 'USA and Canada' text",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "Oval SOQ R, 'USA, Canada and Mexico' text"
+        },
+        {
+          "country": "Japan",
+          "notes": "Oval SOQ R, 3 line warranty"
+        },
+        {
+          "notes": "Oval SOQ R, 4 line warranty",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "Oval SOQ TM"
+        },
+        {
+          "country": "Japan",
+          "notes": "Oval SOQ TM, 'USA and Canada' text"
+        },
+        {
+          "country": "Japan",
+          "notes": "Round SOQ"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda",
+      "variants": [
+        {
+          "country": "Japan",
+          "notes": " Rev-A, round SOQ"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A, oval SOQ TM, 1989, 'USA and Canada' text"
+        },
+        {
+          "notes": "Rev-A, oval SOQ TM, 1989, 'USA Canada and Mexico' text",
+          "country": "Japan"
+        },
+        {
+          "notes": "Rev-A, oval SOQ TM, 1987",
+          "country": "Japan"
+        },
+        {
+          "notes": "Rev-A, oval SOQ R",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A, NES TM"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A, NES R, water screenshot"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A, NES R, ladder screenshot"
+        },
+        {
+          "country": "Japan",
+          "notes": "Classic Series"
+        }
+      ]
+    },
+    {
+      "name": "Super Mario Bros.",
+      "variants": [
+        {
+          "notes": "Rev-A, oval SOQ TM, 'USA and Canada' text",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A, oval SOQ TM"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A, oval SOQ R"
+        },
+        {
+          "country": "Japan",
+          "notes": "Rev-A, round SOQ"
+        },
+        {
+          "country": "Japan",
+          "notes": "No Rev-A"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, NES-GP, NES code, NES TM"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, NES-GP, NES code"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, NES-GP"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, gloss sticker"
+        },
+        {
+          "country": "Japan",
+          "notes": "Hangtab, matte sticker"
+        }
+      ]
+    },
+    {
+      "name": "Super Mario Bros. 3",
+      "variants": [
+        {
+          "country": "Japan",
+          "notes": "Oval SOQ TM, Right 'Bros.'"
+        },
+        {
+          "country": "Japan",
+          "notes": "Oval SOQ TM, Left 'Bros.'"
+        },
+        {
+          "country": "Japan",
+          "notes": "Oval SOQ R, 'USA, Canada, and Mexico' text"
+        },
+        {
+          "country": "Japan",
+          "notes": "Oval SOQ R, 'USA and Canada' text"
+        },
+        {
+          "country": "Japan",
+          "notes": "NFR (Challenge Set)"
+        }
+      ]
+    }
+  ]
+}

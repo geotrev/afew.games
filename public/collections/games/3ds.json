@@ -1,0 +1,891 @@
+{
+  "platform": "3DS",
+  "games": [
+    {
+      "name": "Animal Crossing New Leaf",
+      "variants": [
+        {
+          "notes": "Black ESRB",
+          "product_code": "79822A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P EGDE USA"
+        },
+        {
+          "product_code": "101516A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P EGDE USA",
+          "notes": "White ESRB"
+        },
+        {
+          "product_code": "104478B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P EAAE USA",
+          "notes": "Nintendo Selects, \"Welcome amiibo\""
+        },
+        {
+          "notes": "Nintendo Selects, \"Welcome amiibo\"",
+          "product_code": "104478A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P EAAE USA"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda Tri Force Heroes",
+      "variants": [
+        {
+          "product_code": "102479A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P EA3E USA"
+        }
+      ]
+    },
+    {
+      "name": "Hyrule Warriors Legends",
+      "variants": [
+        {
+          "product_code": "103362A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P BZHE CAN",
+          "notes": "Canadian release"
+        },
+        {
+          "product_code": "103361A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P BZHE USZ"
+        }
+      ]
+    },
+    {
+      "name": "New Super Mario Bros. 2",
+      "variants": [
+        {
+          "product_code": "77334A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P ABEE USA",
+          "notes": "White case, black ESRB"
+        },
+        {
+          "product_code": "101520A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P ABEE USA",
+          "notes": "Red case, white ESRB"
+        },
+        {
+          "product_code": "101520B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P ABEE USA",
+          "notes": "Red case, white ESRB"
+        }
+      ]
+    },
+    {
+      "name": "Mario Kart 7",
+      "variants": [
+        {
+          "product_code": "75611A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P AMKE USA",
+          "notes": "White case, black ESRB"
+        },
+        {
+          "product_code": "75611B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P AMKE USA",
+          "notes": "White case, black ESRB"
+        },
+        {
+          "product_code": "75611C",
+          "satellite_code": "00002",
+          "country": "Japan",
+          "notes": "Red case, white ESRB",
+          "mpn": "CTR P AMKE USA"
+        },
+        {
+          "product_code": "101519A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P AMKE USA",
+          "notes": "Red case, white ESRB"
+        },
+        {
+          "product_code": "101519B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P AMKE USA",
+          "notes": "Red case, white ESRB"
+        },
+        {
+          "product_code": "75612A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P AMKE CAN",
+          "notes": "White case, Canadian release"
+        },
+        {
+          "notes": "White case, Canadian release",
+          "product_code": "75612B",
+          "country": "Japan",
+          "satellite_code": "00001",
+          "mpn": "CTR P AMKE CAN"
+        },
+        {
+          "mpn": "CTR P AMKE CAN",
+          "product_code": "75612C",
+          "satellite_code": "00002",
+          "country": "Japan",
+          "notes": "Red case, Canadian release"
+        },
+        {
+          "product_code": "75612D",
+          "satellite_code": "00003",
+          "country": "Japan",
+          "mpn": "CTR P AMKE CAN",
+          "notes": "Red case, Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon X",
+      "variants": [
+        {
+          "product_code": "80773A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P EKJE USA",
+          "notes": "Black ESRB"
+        },
+        {
+          "product_code": "80773B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P EKJE USA",
+          "notes": "White ESRB"
+        },
+        {
+          "product_code": "82195A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P WKJ1 USA",
+          "notes": "Black ESRB, 06/30/2014 Garchomp download offer"
+        },
+        {
+          "product_code": "101525A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P EKJE USA",
+          "notes": "White ESRB"
+        },
+        {
+          "product_code": "80774A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P EKJE CAN",
+          "notes": "Canadian release"
+        },
+        {
+          "product_code": "80774B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P EKJE CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon Y",
+      "variants": [
+        {
+          "product_code": "80781A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P EK2E USA",
+          "notes": "Black ESRB"
+        },
+        {
+          "product_code": "80781B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR EK2E USA",
+          "notes": "White ESRB"
+        },
+        {
+          "product_code": "82198A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P WK21 USA",
+          "notes": "Black ESRB, 06/30/2014 Scizor download offer"
+        },
+        {
+          "product_code": "101527A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P EK2E USA",
+          "notes": "White ESRB"
+        },
+        {
+          "product_code": "80782A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P EK2E CAN",
+          "notes": "Canadian release"
+        },
+        {
+          "product_code": "80782B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P EK2E CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon OmegaRuby",
+      "variants": [
+        {
+          "product_code": "83666A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P ECRE USA"
+        },
+        {
+          "notes": "Bonus game codes",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "product_code": "83688A",
+          "mpn": "CTR P WCRI USA"
+        },
+        {
+          "product_code": "83687A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "notes": "NFR, pack-in (100789A)"
+        },
+        {
+          "product_code": "100013A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P ECRE USA"
+        },
+        {
+          "product_code": "100013B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P ECRE USA",
+          "notes": ""
+        },
+        {
+          "product_code": "100014A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P ECRE CAN",
+          "notes": "Canadian release"
+        },
+        {
+          "product_code": "101523A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P ECRE CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon AlphaSapphire",
+      "variants": [
+        {
+          "product_code": "83667A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P ECLE USA"
+        },
+        {
+          "product_code": "83689A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P WCLI USA",
+          "notes": "Bonus game codes"
+        },
+        {
+          "notes": "NFR, pack-in (100789A)",
+          "country": "Japan",
+          "satellite_code": "00000",
+          "product_code": "83686A"
+        },
+        {
+          "product_code": "100022A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P ECLE USA"
+        },
+        {
+          "product_code": "100022B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P ECLE USA"
+        },
+        {
+          "product_code": "100023A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P ECLE USA",
+          "notes": "Canadian release"
+        },
+        {
+          "product_code": "101524B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P ECLE CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon Sun",
+      "variants": [
+        {
+          "product_code": "103849A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P BNDE USA"
+        },
+        {
+          "product_code": "104788A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P TND1 USA"
+        },
+        {
+          "satellite_code": "00000",
+          "country": "Japan",
+          "notes": "NFR, pack-in (104133A, 104302A, CTR R TJV1 USZ)"
+        },
+        {
+          "product_code": "104299A",
+          "country": "Japan",
+          "mpn": "CTR R WJV1 USZ",
+          "notes": "Solgaleo Figurine (box)"
+        },
+        {
+          "product_code": "103850A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P BNDE CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon Moon",
+      "variants": [
+        {
+          "product_code": "103855A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P BNEE USA"
+        },
+        {
+          "product_code": "104790A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P TNE1 USA"
+        },
+        {
+          "satellite_code": "00000",
+          "country": "Japan",
+          "notes": "NFR, pack-in (104133A, 104299A, CTR R TJV1 USZ)"
+        },
+        {
+          "product_code": "104302A",
+          "country": "Japan",
+          "mpn": "CTR R WJV2 USZ",
+          "notes": "Lunala Figurine (box)"
+        },
+        {
+          "product_code": "103856A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P BNEE CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon UltraSun",
+      "variants": [
+        {
+          "mpn": "CTR P A2AE USA",
+          "product_code": "106567A",
+          "satellite_code": "00000",
+          "country": "Japan"
+        },
+        {
+          "product_code": "106567B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P A2AE USA"
+        },
+        {
+          "satellite_code": "00000",
+          "country": "Japan",
+          "notes": "NFR, pack-in (016864A, 106607A, 106860A)"
+        },
+        {
+          "product_code": "106860A",
+          "country": "Japan",
+          "mpn": "CTR R A2A1 USZ",
+          "notes": "Dusk Mane Necrozma keychain (box)"
+        },
+        {
+          "product_code": "106568A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P A2AE CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon UltraMoon",
+      "variants": [
+        {
+          "product_code": "106570A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P A28E USA"
+        },
+        {
+          "product_code": "106570B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P A28E USA"
+        },
+        {
+          "satellite_code": "00000",
+          "country": "Japan",
+          "notes": "NFR, pack-in (016864A, 106607A, 106862A)"
+        },
+        {
+          "product_code": "106862A",
+          "country": "Japan",
+          "mpn": "CTR R A2B1 USZ",
+          "notes": "Dawn Wings Necrozma keychain (box)"
+        },
+        {
+          "product_code": "106571A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P A28E CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Super Smash Bros. for 3DS",
+      "variants": [
+        {
+          "product_code": "83565A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P AXCE USA",
+          "notes": "'Nintendo Network' badge"
+        },
+        {
+          "product_code": "101840A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P AXCE USA",
+          "notes": "'amiibo' badge"
+        },
+        {
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P AXCE USA",
+          "notes": "'amiibo' badge",
+          "product_code": "101840B"
+        },
+        {
+          "product_code": "101840C",
+          "satellite_code": "00002",
+          "country": "Japan",
+          "mpn": "CTR P AXCE USA",
+          "notes": "'amiibo' badge"
+        },
+        {
+          "product_code": "83566A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P AXCE CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Bundles",
+      "variants": [
+        {
+          "product_code": "100789A",
+          "country": "Japan",
+          "mpn": "CTR P POA1 USA",
+          "notes": "Pokemon OmegaRuby & AlphaSapphire 2-pack"
+        },
+        {
+          "product_code": "104133A",
+          "country": "Japan",
+          "mpn": "CTR R AJV1 USZ",
+          "notes": "Pokemon Sun & Moon 2-pack, steelbook"
+        },
+        {
+          "country": "Japan",
+          "mpn": "CTR R TJV1 USZ",
+          "notes": "Pokemon Sun & Moon 2-pack, starter figurines"
+        },
+        {
+          "product_code": "016864A",
+          "country": "Japan",
+          "mpn": "CTR R GA21 USZ",
+          "notes": "Pokemon UltraMoon & UltraSun 2-pack, art cards & codes"
+        },
+        {
+          "product_code": "106607A",
+          "country": "Japan",
+          "mpn": "CTR R SA21 USZ",
+          "notes": "Pokemon UltraSun & UltraMoon 2-pack, steelbook"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Ocarina of Time 3D",
+      "variants": [
+        {
+          "product_code": "75885A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "",
+          "notes": "NFR, black ESRB"
+        },
+        {
+          "product_code": "74524A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P AQEE USA",
+          "notes": "Black ESRB"
+        },
+        {
+          "product_code": "74524B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P AQEE USA",
+          "notes": "Black ESRB"
+        },
+        {
+          "product_code": "103587A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P AQE2 USA",
+          "notes": "Nintendo Selects, white ESRB"
+        },
+        {
+          "product_code": "74525B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P AQEE CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Majora's Mask 3D",
+      "variants": [
+        {
+          "product_code": "",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "",
+          "notes": "NFR (amiibo bundle pack-in"
+        },
+        {
+          "product_code": "83319A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P AJRE USA",
+          "notes": ""
+        },
+        {
+          "product_code": "100952A",
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "CTR R AJR1 USZ",
+          "notes": "amiibo bundle box"
+        },
+        {
+          "product_code": "110011A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P AJR6 USA",
+          "notes": "Nintendo Selects"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: A Link Between Worlds",
+      "variants": [
+        {
+          "product_code": "81561A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P BZLE USA",
+          "notes": "Foil"
+        },
+        {
+          "product_code": "81561B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P BZLE USA",
+          "notes": "Foil, Handheld Game of the Year"
+        },
+        {
+          "product_code": "107555A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P BZL5 USA",
+          "notes": "Nintendo Selects"
+        },
+        {
+          "product_code": "107555B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P BZL5 USA",
+          "notes": "Nintendo Selects"
+        },
+        {
+          "product_code": "81562A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P BZLE CAN",
+          "notes": "Canadian release"
+        },
+        {
+          "product_code": "81562B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P BZLE CAN",
+          "notes": "Canadian release, Handheld Game of the Year"
+        },
+        {
+          "product_code": "81562C",
+          "satellite_code": "00002",
+          "country": "Japan",
+          "mpn": "CTR P BZLE CAN",
+          "notes": "Canadian release"
+        },
+        {
+          "product_code": "107556A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P BZL5 CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Yoshi's New Island",
+      "variants": [
+        {
+          "product_code": "82591A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P ATAE USA",
+          "notes": ""
+        },
+        {
+          "product_code": "103602A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P ATA2 USA",
+          "notes": "Nintendo Selects"
+        },
+        {
+          "product_code": "103602B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P ATA2 USA",
+          "notes": "Nintendo Selects"
+        },
+        {
+          "product_code": "103603A",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P ATA2 CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Kid Icarus: Uprising",
+      "variants": [
+        {
+          "product_code": "76429A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "TBA-CTR-AKDE-USA",
+          "notes": "NFR, pack-in"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR R AKDE USA",
+          "notes": "Outer box"
+        },
+        {
+          "product_code": "76430A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "TBA-CTR-AKDE-CAN",
+          "notes": "Canadian release, NFR, pack-in"
+        }
+      ]
+    },
+    {
+      "name": "Kingdom Hearts 3D: Dream Drop Distance",
+      "variants": [
+        {
+          "product_code": "1420100",
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "CTR P AKHE USA",
+          "notes": ""
+        },
+        {
+          "product_code": "1420102",
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "CTR P AKHE USA",
+          "notes": "Mark of Mastery Edition box"
+        },
+        {
+          "product_code": "1420104",
+          "country": "Japan",
+          "mpn": "CTR P AKHE USA",
+          "notes": "w/ Limited Edition AR Cards (1420103)"
+        },
+        {
+          "product_code": "1420104",
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "CTR P AKHE USA",
+          "notes": ""
+        },
+        {
+          "product_code": "1420105",
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "CTR P AKHE USA",
+          "notes": "French and English, USA model number"
+        },
+        {
+          "product_code": "1420106",
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "CTR P AKHE USA",
+          "notes": "French and English, USA model number"
+        }
+      ]
+    },
+    {
+      "name": "Super Mario 3D Land",
+      "variants": [
+        {
+          "product_code": "75604A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P AREE USA",
+          "notes": "White case, black ESRB"
+        },
+        {
+          "product_code": "75604A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P AREE USA",
+          "notes": "Red case, black ESRB"
+        },
+        {
+          "product_code": "75604B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P AREE USA",
+          "notes": "Red case, white ESRB"
+        },
+        {
+          "product_code": "75899A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "",
+          "notes": "NFR, white case, black ESRB"
+        },
+        {
+          "product_code": "101529A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P AREE USA",
+          "notes": "Red case, white ESRB"
+        },
+        {
+          "product_code": "107545A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P ARE5 USA",
+          "notes": "Nintendo Selects, white case, white ESRB"
+        },
+        {
+          "product_code": "107545B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P ARE5 USA",
+          "notes": "Nintendo Selects, white case, white ESRB"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "",
+          "notes": "Nintendo refurbished, white case, white ESRB"
+        },
+        {
+          "product_code": "75605A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "CTR P AREE CAN",
+          "notes": "Canadian release, white case, black ESRB"
+        },
+        {
+          "product_code": "75605B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "CTR P AREE CAN",
+          "notes": "Canadian release, white case, black ESRB"
+        },
+        {
+          "product_code": "75605C",
+          "satellite_code": "00002",
+          "country": "Japan",
+          "mpn": "CTR P AREE CAN",
+          "notes": "Canadian release, red case, white ESRB"
+        }
+      ]
+    }
+  ]
+}

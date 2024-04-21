@@ -1,0 +1,43 @@
+{
+  "platform": "PS2",
+  "games": [
+    {
+      "name": "Kingdom Hearts II",
+      "variants": [
+        {
+          "country": "USA",
+          "notes": "Greatest Hits"
+        },
+        {
+          "country": "USA",
+          "notes": "Silver foil"
+        },
+        {
+          "country": "USA",
+          "notes": "Rainbow foil"
+        }
+      ]
+    },
+    {
+      "name": "Kingdom Hearts",
+      "variants": [
+        {
+          "notes": "Made in USA, Greatest Hits, Square-Enix USA",
+          "country": "USA"
+        },
+        {
+          "country": "USA",
+          "notes": "Made in USA, Greatest Hits, Square-Enix"
+        },
+        {
+          "notes": "Square-Enix, Sony security label, tear strip",
+          "country": "USA"
+        },
+        {
+          "notes": "SquareSoft, Sony security label, tear strip",
+          "country": "USA"
+        }
+      ]
+    }
+  ]
+}

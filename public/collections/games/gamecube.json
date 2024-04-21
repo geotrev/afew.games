@@ -1,0 +1,763 @@
+{
+  "platform": "GameCube",
+  "games": [
+    {
+      "name": "Bundles",
+      "variants": [
+        {
+          "country": "USA",
+          "notes": "Player's Choice, Duo Pack (Sonic Heroes & Super Monkey Ball)"
+        },
+        {
+          "country": "USA",
+          "notes": "Player's Choice, Super Monkey Ball 2-pack (Super Monkey Ball & Super Monkey Ball 2)"
+        },
+        {
+          "notes": "Player's Choice, Sonic Adventure 2-pack (Sonic Adventure 2: Battle & Sonic Adventure DX: Director's Cut)",
+          "country": "USA"
+        },
+        {
+          "notes": "Pure Evil 2-pack (Resident Evil & Resident Evil Zero)",
+          "country": "USA"
+        }
+      ]
+    },
+    {
+      "name": "Resident Evil",
+      "variants": [
+        {
+          "product_code": "",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P GBIE",
+          "notes": ""
+        },
+        {
+          "product_code": "",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P GBIE",
+          "notes": "Player's Choice, 'icensed' typo"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P GBIE",
+          "notes": "Player's Choice, 'Licensed' corrected"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon XD: Gale of Darkness",
+      "variants": [
+        {
+          "product_code": "58410A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P GXXE",
+          "notes": ""
+        },
+        {
+          "product_code": "58410B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "DOL P GXXE",
+          "notes": "Best Seller"
+        },
+        {
+          "product_code": "58929A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P GXXE",
+          "notes": "NFR (console pack-in)"
+        },
+        {
+          "product_code": "58412B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "DOL P GXXE",
+          "notes": "Best Seller"
+        }
+      ]
+    },
+    {
+      "name": "Animal Crossing",
+      "variants": [
+        {
+          "product_code": "",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "DOL P GAFE",
+          "notes": ""
+        },
+        {
+          "product_code": "48661B",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "DOL P GAFE",
+          "notes": "Player's Choice"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P GAFE",
+          "notes": ""
+        },
+        {
+          "product_code": "48658B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "DOL P GAFE",
+          "notes": "Player's Choice"
+        },
+        {
+          "product_code": "48658C",
+          "satellite_code": "00102",
+          "country": "USA",
+          "mpn": "DOL P GAFE",
+          "notes": "Player's Choice"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P AFK",
+          "notes": "K-Mart exclusive"
+        }
+      ]
+    },
+    {
+      "name": "Luigi's Mansion",
+      "variants": [
+        {
+          "product_code": "",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "DOL GLME",
+          "notes": "'Memory Card' Text"
+        },
+        {
+          "product_code": "46300B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "DOL P GLME",
+          "notes": "'Uses 3 Blocks' Text"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL GLME",
+          "notes": "'Memory Card' Text"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "DOL GLME",
+          "notes": "'Uses 3 blocks' Text"
+        },
+        {
+          "product_code": "46179C",
+          "satellite_code": "00102",
+          "country": "USA",
+          "mpn": "DOL P GLME",
+          "notes": "Player's Choice"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "DOL P GLME",
+          "notes": "'Memory Card' Text, Canadian release"
+        },
+        {
+          "product_code": "46363B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "DOL P GLME",
+          "notes": "'Uses 3 Blocks' Text, Canadian release"
+        },
+        {
+          "product_code": "46181B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "DOL P GLME",
+          "notes": "'Uses 3 Blocks' Text, Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Mario Kart: Double Dash",
+      "variants": [
+        {
+          "product_code": "52955A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P GM4E",
+          "notes": ""
+        },
+        {
+          "product_code": "52956A",
+          "satellite_code": "00000",
+          "country": "USA",
+          "mpn": "DOL P GM4E",
+          "notes": ""
+        },
+        {
+          "product_code": "53156A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "DOL R GM41",
+          "notes": "Preorder Bonus Disc"
+        },
+        {
+          "product_code": "56043A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "",
+          "notes": "NFR"
+        }
+      ]
+    },
+    {
+      "name": "Mario Party 7",
+      "variants": [
+        {
+          "product_code": "58981A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL R GP7E",
+          "notes": "Big box, Scansoft logo"
+        },
+        {
+          "product_code": "58692A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "notes": "ScanSoft logo",
+          "mpn": "DOL P GP7E"
+        },
+        {
+          "notes": "Big box, Nuance logo",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "DOL R GP7E",
+          "product_code": "58981B"
+        },
+        {
+          "product_code": "58692B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "notes": "Nuance logo",
+          "mpn": "DOL P GP7E"
+        }
+      ]
+    },
+    {
+      "name": "Metroid Prime",
+      "variants": [
+        {
+          "product_code": "49689A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "DOL P GM8E",
+          "notes": ""
+        },
+        {
+          "product_code": "49689B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "DOL P GM8E",
+          "notes": "Player's Choice"
+        },
+        {
+          "product_code": "49688A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P GM8E",
+          "notes": ""
+        },
+        {
+          "product_code": "49688B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "DOL P GM8E",
+          "notes": "Player's Choice"
+        },
+        {
+          "product_code": "49830A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P GM8E",
+          "notes": "Target Exclusive, Coupons Promo"
+        },
+        {
+          "product_code": "49692A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P M8K",
+          "notes": "NFR, K-Mart Exclusive, Wavebird Promo, Front Barcode"
+        },
+        {
+          "product_code": "50011A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P 8KP",
+          "notes": "NFR, K-Mart Exclusive, Nintendo Power Promo, Front Barcode"
+        },
+        {
+          "product_code": "55107A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "",
+          "notes": "Metro Prime 2 Echoes Bonus Disc, RP-T rating"
+        },
+        {
+          "product_code": "58069A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "",
+          "notes": "NFR, Metroid Prime & Wind Waker 2-pack"
+        },
+        {
+          "product_code": "49690A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P GM8E",
+          "notes": "Best of Show E3 2002, Canadian release"
+        },
+        {
+          "product_code": "49690B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "DOL P GM8E",
+          "notes": "Player's Choice, Video Game of the Year, Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Metroid Prime 2: Echoes",
+      "variants": [
+        {
+          "notes": "",
+          "product_code": "56097A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P G2ME"
+        },
+        {
+          "product_code": "56104A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "notes": "",
+          "mpn": "DOL P G2ME"
+        }
+      ]
+    },
+    {
+      "name": "Paper Mario",
+      "variants": [
+        {
+          "product_code": "56433B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "DOL P G8ME",
+          "notes": "Best Seller"
+        },
+        {
+          "mpn": "DOL P G8ME",
+          "country": "USA",
+          "satellite_code": "00102",
+          "product_code": "55850C",
+          "notes": "Best Seller, Player's Choice"
+        },
+        {
+          "notes": "Best Seller",
+          "mpn": "DOL P G8ME",
+          "country": "USA",
+          "satellite_code": "00101",
+          "product_code": "55850B"
+        },
+        {
+          "product_code": "55850A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P G8ME"
+        },
+        {
+          "product_code": "56434A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "DOL P G8ME",
+          "notes": "Best Seller"
+        },
+        {
+          "product_code": "55901A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P G8ME",
+          "notes": "Best Seller, Canadian release"
+        },
+        {
+          "product_code": "55901B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "DOL P G8ME",
+          "notes": "Best Seller, Player's Choice, Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Pikmin",
+      "variants": [
+        {
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "DOL P GPIE"
+        },
+        {
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P GPIE"
+        },
+        {
+          "product_code": "46556B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "DOL P GPIE",
+          "notes": "Player's Choice"
+        }
+      ]
+    },
+    {
+      "name": "Resident Evil 4",
+      "variants": [
+        {
+          "satellite_code": "00101",
+          "country": "USA",
+          "notes": "Player's Choice, VGA GOTY badge",
+          "mpn": "DOL P G4BE"
+        },
+        {
+          "satellite_code": "00100",
+          "country": "USA",
+          "notes": "GameStop Special Edition"
+        },
+        {
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P G4BE"
+        }
+      ]
+    },
+    {
+      "name": "Super Mario Sunshine",
+      "variants": [
+        {
+          "satellite_code": "00100",
+          "country": "USA",
+          "notes": "NFR (console pack-in)",
+          "mpn": "DOL P GMSE"
+        },
+        {
+          "satellite_code": "00100",
+          "country": "USA",
+          "notes": "K-Mart Exclusive",
+          "mpn": "DOL P MSK"
+        },
+        {
+          "product_code": "48647B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "notes": "Player's Choice",
+          "mpn": "DOL P GMSE"
+        },
+        {
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P GMSE"
+        },
+        {
+          "satellite_code": "00000",
+          "country": "Japan",
+          "notes": "NFR (console pack-in)",
+          "mpn": "DOL P GMSE"
+        },
+        {
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "DOL P GMSE"
+        },
+        {
+          "product_code": "48648A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P GMSE",
+          "notes": "Canadian release"
+        },
+        {
+          "product_code": "48648B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "DOL P GMSE",
+          "notes": "Player's Choice, Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "Super Smash Bros Melee",
+      "variants": [
+        {
+          "product_code": "",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "DOL P GALE",
+          "notes": "Standard case, early Japan print start: 11/2/2001"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "DOL P GALE",
+          "notes": "Security case"
+        },
+        {
+          "product_code": "46552B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "DOL P GALE",
+          "notes": "Best Seller"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "DOL P GALE",
+          "notes": "NFR (front), 2002 Indigo GameCube pack-in"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P GALE",
+          "notes": "Early USA print start: 11/8/2001"
+        },
+        {
+          "product_code": "46551B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "DOL P GALE",
+          "notes": "Player's Choice"
+        },
+        {
+          "product_code": "46551C",
+          "satellite_code": "00102",
+          "country": "USA",
+          "mpn": "DOL P GALE",
+          "notes": "Best Seller"
+        },
+        {
+          "product_code": "58073A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P GALE",
+          "notes": "NFR (back), 2005 Platinum Gamecube pack-in"
+        },
+        {
+          "product_code": "58074A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P GALE",
+          "notes": "NFR (back), Canadian release"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "DOL P GALE",
+          "notes": "Canadian release"
+        },
+        {
+          "product_code": "46554B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "DOL P GALE",
+          "notes": "Player's Choice, Canadian release"
+        },
+        {
+          "product_code": "46554C",
+          "satellite_code": "00102",
+          "country": "USA",
+          "mpn": "DOL P GALE",
+          "notes": "Best Seller, Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Collector's Edition",
+      "variants": [
+        {
+          "product_code": "52538A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P PZLE",
+          "notes": "NFR"
+        },
+        {
+          "product_code": "53938A",
+          "satellite_code": "00000",
+          "notes": "NFR",
+          "country": "Japan",
+          "mpn": "DOL P PZLE"
+        },
+        {
+          "product_code": "52540A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P PZLE",
+          "notes": "NFR, Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Four Swords Adventures",
+      "variants": [
+        {
+          "product_code": "54703A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL R BB4",
+          "notes": "GBA Cable Included box"
+        },
+        {
+          "notes": "Best Seller, Player's Choice",
+          "country": "USA",
+          "satellite_code": "00101",
+          "product_code": "54324B",
+          "mpn": "DOL P G4SE"
+        },
+        {
+          "product_code": "54324A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P G4SE"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Ocarina of Time/Master's Quest",
+      "variants": [
+        {
+          "product_code": "50168A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P D43E",
+          "notes": "NFR"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: The Wind Waker",
+      "variants": [
+        {
+          "product_code": "50517A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "DOL P GZLE",
+          "notes": ""
+        },
+        {
+          "product_code": "50517B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "DOL P GZLE",
+          "notes": "Player's Choice"
+        },
+        {
+          "product_code": "50516A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P GZLE",
+          "notes": ""
+        },
+        {
+          "product_code": "50516B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "DOL P GZLE",
+          "notes": "Player's Choice / Best Seller"
+        },
+        {
+          "product_code": "50954A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P ZLK",
+          "notes": "K-Mart Exclusive/Nintendo Power Bonus"
+        },
+        {
+          "product_code": "50955A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P YZL",
+          "notes": "Rental Exclusive"
+        },
+        {
+          "product_code": "51061A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P YZL",
+          "notes": "Rental Exclusive"
+        },
+        {
+          "product_code": "57818A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P GZLE",
+          "notes": "NFR (front), Player's Choice"
+        },
+        {
+          "product_code": "51021A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P ZWD1",
+          "notes": "NFR, Ocarina of Time & Master Quest bonus disc"
+        },
+        {
+          "product_code": "58069A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "",
+          "notes": "NFR, Metroid Prime & Wind Waker 2-pack"
+        },
+        {
+          "product_code": "57581A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "DOL P GZLE",
+          "notes": "Player's Choice (Canadian release)"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Twilight Princess",
+      "variants": [
+        {
+          "product_code": "58683A",
+          "mpn": "DOL P GZ2E CAN",
+          "country": "USA",
+          "satellite_code": "00100",
+          "notes": "Canadian release"
+        },
+        {
+          "country": "USA",
+          "notes": "",
+          "product_code": "58684A",
+          "satellite_code": "00100",
+          "mpn": "DOL P GZ2E USA"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "platform": "Xbox 360",
+  "games": [
+    {
+      "name": "Dishonored",
+      "variants": [
+        {
+          "product_code": "793WR",
+          "satellite_code": "",
+          "country": "",
+          "mpn": "",
+          "notes": "2012, Made in Mexico sticker"
+        },
+        {
+          "product_code": "793WR",
+          "satellite_code": "",
+          "country": "",
+          "mpn": "",
+          "notes": "2012, Made in Mexico stamp"
+        },
+        {
+          "product_code": "892WR",
+          "satellite_code": "",
+          "country": "",
+          "mpn": "",
+          "notes": "2013, Slip cover, Game of the Year Edition"
+        }
+      ]
+    }
+  ]
+}

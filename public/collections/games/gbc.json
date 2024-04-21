@@ -1,0 +1,265 @@
+{
+  "platform": "Game Boy Color",
+  "games": [
+    {
+      "name": "Pocket Monsters: Crystal (Japanese)",
+      "variants": [
+        {
+          "mpn": "CGB-P-BXTJ(JPN)",
+          "country": "Japan",
+          "notes": "Sealed Bag 11/1~12/5 Pre-Order"
+        },
+        {
+          "country": "Japan",
+          "mpn": "CGB-P-BXTJ(JPN)",
+          "notes": "Sealed Bag 12/6~12/17 Pre-Order"
+        },
+        {
+          "mpn": "CGB-P-BXTJ(JPN)",
+          "notes": "",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "mpn": "CGB-P-BXTJ(JPN)",
+          "notes": "Sealed Bag 12/18~12/25 Pre-Order"
+        },
+        {
+          "mpn": "CGB-P-BXTJ(JPN)",
+          "country": "Japan",
+          "notes": "Sealed Bag 12/26~1/8 Pre-Order"
+        }
+      ]
+    },
+    {
+      "name": "Pocket Monsters: Gold (Japanese)",
+      "variants": [
+        {
+          "mpn": "DMG-P-AAUJ(JPN)",
+          "notes": "Sealed Bag Lawson Pre-Order 11/1",
+          "country": "Japan"
+        },
+        {
+          "mpn": "DMG-P-AAUJ(JPN)",
+          "notes": "No N64 Disclaimer",
+          "country": "Japan"
+        },
+        {
+          "notes": "Sealed Bag Lawson Pre-Order 11/28",
+          "country": "Japan",
+          "mpn": "DMG-P-AAUJ(JPN)"
+        },
+        {
+          "country": "Japan",
+          "notes": "N64 Disclaimer",
+          "mpn": "DMG-P-AAUJ(JPN)"
+        }
+      ]
+    },
+    {
+      "name": "Pocket Monsters: Silver (Japanese)",
+      "variants": [
+        {
+          "notes": "Sealed Bag Lawson Pre-Order 11/1",
+          "mpn": "DMG-P-AAXJ(JPN)",
+          "country": "Japan"
+        },
+        {
+          "mpn": "DMG-P-AAXJ(JPN)",
+          "country": "Japan",
+          "notes": "No N64 Disclaimer"
+        },
+        {
+          "mpn": "DMG-P-AAXJ(JPN)",
+          "notes": "Sealed Bag Lawson Pre-Order 11/28",
+          "country": "Japan"
+        },
+        {
+          "country": "Japan",
+          "notes": "N64 Disclaimer",
+          "mpn": "DMG-P-AAXJ(JPN)"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Link's Awakening DX",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "DMG P AZLE",
+          "notes": "100% fiber, foil"
+        },
+        {
+          "country": "Japan",
+          "mpn": "DMG P AZLE",
+          "notes": "83% fiber, foil"
+        },
+        {
+          "country": "Japan",
+          "mpn": "DMG P AZLE",
+          "notes": "No foil"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon Gold Version",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "DMG P AAUE"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon Silver Version",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "DMG P AAXE"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon Crystal Version",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "CGB P BYTE",
+          "notes": "Double-ended box, 'series' corrected"
+        },
+        {
+          "country": "Japan",
+          "mpn": "CGB P BYTE",
+          "notes": "Y-fold box, 'series' corrected"
+        },
+        {
+          "country": "Japan",
+          "mpn": "CGB P BYTE",
+          "notes": "'Series' typo"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Oracle of Ages",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "CGB P AZ8E",
+          "notes": "Double-ended box, foil"
+        },
+        {
+          "country": "Japan",
+          "mpn": "CGB P AZ8E",
+          "notes": "Y-fold box, no foil"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Oracle of Seasons",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "CGB P AZ7E",
+          "notes": "Double-ended box, foil"
+        },
+        {
+          "country": "Japan",
+          "mpn": "CGB P AZ7E",
+          "notes": "Y-fold box, no foil"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon Trading Card Game",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "DMG P AXQE"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon Pinball",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "DMG P VPHE",
+          "notes": "100% fiber, foil"
+        },
+        {
+          "country": "Japan",
+          "mpn": "DMG P VPHE",
+          "notes": "83% fiber, foil"
+        },
+        {
+          "country": "Japan",
+          "mpn": "DMG P VPHP",
+          "notes": "No foil"
+        }
+      ]
+    },
+    {
+      "name": "Yu-Gi-Oh!: Dark Duel Stories",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "CGB P BY3E",
+          "notes": "Limited edition cards (Blue Eyes White Dragon)"
+        },
+        {
+          "country": "Japan",
+          "mpn": "CGB P BY3E",
+          "notes": "Limited edition cards (Seiyaryu)"
+        }
+      ]
+    },
+    {
+      "name": "Super Mario Bros. Deluxe",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "CGB P AHYE",
+          "notes": "100% fiber, foil"
+        },
+        {
+          "country": "Japan",
+          "mpn": "CGB P AHYE",
+          "notes": "83% fiber, foil"
+        },
+        {
+          "country": "Japan",
+          "mpn": "CGB P AHYE",
+          "notes": "No foil"
+        }
+      ]
+    },
+    {
+      "name": "Mega Man Xtreme",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "DMG P BM6E"
+        }
+      ]
+    },
+    {
+      "name": "Mega Man Xtreme 2",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "CGB P B2XE"
+        }
+      ]
+    },
+    {
+      "name": "Shantae",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "CGB P B3AE",
+          "notes": "Capcom"
+        }
+      ]
+    }
+  ]
+}
