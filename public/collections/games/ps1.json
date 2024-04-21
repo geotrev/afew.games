@@ -1,0 +1,22 @@
+{
+  "platform": "PS1",
+  "games": [
+    {
+      "name": "Pipe Dreams 3D",
+      "variants": [
+        {
+          "notes": "UPC digits bottom-aligned",
+          "product_code": "SLUS-01409",
+          "country": "USA"
+        },
+        {
+          "country": "USA",
+          "mpn": "",
+          "satellite_code": "",
+          "product_code": "SLUS-01409",
+          "notes": "UPC digits top-aligned"
+        }
+      ]
+    }
+  ]
+}

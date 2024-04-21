@@ -1,0 +1,410 @@
+{
+  "platform": "Wii",
+  "games": [
+    {
+      "name": "Pokemon Battle Revolution",
+      "variants": [
+        {
+          "product_code": "63351A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL P RPBE USZ",
+          "notes": ""
+        },
+        {
+          "product_code": "63351B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "RVL P RPBE USZ",
+          "notes": ""
+        },
+        {
+          "product_code": "63352C",
+          "satellite_code": "00002",
+          "country": "Japan",
+          "mpn": "RVL P RPBE USZ",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "name": "Metroid Prime 3: Corruption",
+      "variants": [
+        {
+          "product_code": "61614A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL P RM3E USZ",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "name": "Metroid: Other M",
+      "variants": [
+        {
+          "product_code": "71214A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL P R30E USZ",
+          "notes": ""
+        },
+        {
+          "product_code": "71214A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL P R30E USZ",
+          "notes": "Nintendo refurbished sticker"
+        }
+      ]
+    },
+    {
+      "name": "New Super Mario Bros. Wii",
+      "variants": [
+        {
+          "product_code": "73076A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "RVL P SMNE USZ",
+          "notes": "Foil"
+        },
+        {
+          "product_code": "73076B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "RVL P SMNE USZ",
+          "notes": "No foil"
+        },
+        {
+          "product_code": "74583A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "",
+          "notes": "Nintendo refurbished"
+        },
+        {
+          "product_code": "69150A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL P SMNE USZ",
+          "notes": "Red case, foil"
+        },
+        {
+          "product_code": "69150A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL P SMNE USZ",
+          "notes": "White case, foil"
+        },
+        {
+          "product_code": "",
+          "satellite_code": "",
+          "country": "",
+          "mpn": "",
+          "notes": "No country, NFR (red 25th anniversary console pack-in)"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Twilight Princess",
+      "variants": [
+        {
+          "product_code": "62483A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "RVL P RZDE USA",
+          "notes": ""
+        },
+        {
+          "product_code": "61602A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL P RZDE USA",
+          "notes": ""
+        },
+        {
+          "product_code": "61602B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "RVL P RZDE USA",
+          "notes": ""
+        },
+        {
+          "product_code": "61602C",
+          "satellite_code": "00102",
+          "country": "USA",
+          "mpn": "RVL P RZDE USA",
+          "notes": ""
+        },
+        {
+          "product_code": "74472A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL P RZD1 USA",
+          "notes": "Nintendo Selects"
+        }
+      ]
+    },
+    {
+      "name": "Mario Kart Wii",
+      "variants": [
+        {
+          "product_code": "",
+          "satellite_code": "",
+          "country": "USA",
+          "mpn": "RVL R RMCE USZ",
+          "notes": "Wii Wheel box"
+        },
+        {
+          "product_code": "65687A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "RVL P RMCE USZ",
+          "notes": ""
+        },
+        {
+          "product_code": "65759B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "RVL-RMCE-USZ(J)-1",
+          "notes": "NFR (console pack-in)"
+        },
+        {
+          "product_code": "74373A",
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "TBA-RVL-RMCE-USZ-C0",
+          "notes": "NFR (console pack-in), Wi-Fi logo, no Wii Wheel, black ESRB, updated Dolby logo"
+        },
+        {
+          "product_code": "82432C",
+          "satellite_code": "00002",
+          "country": "Japan",
+          "mpn": "RVL P RMCE USZ",
+          "notes": "Refurbished"
+        },
+        {
+          "product_code": "65683A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL P RMCE USZ",
+          "notes": ""
+        },
+        {
+          "product_code": "65683C",
+          "satellite_code": "00102",
+          "country": "USA",
+          "mpn": "RVL P RMCE USZ",
+          "notes": "No Wi-Fi logo, No Wii Wheel, white ESRB, updated Dolby logo"
+        },
+        {
+          "product_code": "65758A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL P RMCE USZ",
+          "notes": ""
+        },
+        {
+          "product_code": "74373A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL P RMCE USZ",
+          "notes": ""
+        },
+        {
+          "product_code": "",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL P RMCE USZ",
+          "notes": "Product code omitted"
+        }
+      ]
+    },
+    {
+      "name": "Super Mario Galaxy 2",
+      "variants": [
+        {
+          "product_code": "71174A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL P SB4E USZ",
+          "notes": ""
+        },
+        {
+          "product_code": "103116B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "",
+          "notes": "Nintendo refurbished"
+        },
+        {
+          "product_code": "73079A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "RVL P SB4E USZ",
+          "notes": ""
+        },
+        {
+          "product_code": "103619A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "RVL P SB42 USZ",
+          "notes": "Nintendo Selects"
+        },
+        {
+          "product_code": "103619B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "RVL P SB42 USZ",
+          "notes": "Nintendo Selects"
+        }
+      ]
+    },
+    {
+      "name": "Super Mario Galaxy",
+      "variants": [
+        {
+          "product_code": "64297A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL P RMGE USZ",
+          "notes": ""
+        },
+        {
+          "product_code": "102062A",
+          "satellite_code": "00100",
+          "country": "Japan",
+          "mpn": "RVL P RMG1 USZ",
+          "notes": "Nintendo Selects"
+        },
+        {
+          "product_code": "75194A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL P RMG1 USZ",
+          "notes": "Nintendo Selects"
+        },
+        {
+          "product_code": "75194B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "RVL P RMG1 USZ",
+          "notes": "Nintendo Selects"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Skyward Sword",
+      "variants": [
+        {
+          "product_code": "75627A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL Q SOUE USZ",
+          "notes": "No foil"
+        },
+        {
+          "product_code": "75631A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL Q SOUE USZ",
+          "notes": "NFR, foil, 25th anniversary, Gold Wiimote Bundle pack-in"
+        },
+        {
+          "product_code": "75633A",
+          "satellite_code": "",
+          "country": "USA",
+          "mpn": "RVL R SOUE USA",
+          "notes": "Gold Wiimote & music CD bundle box"
+        },
+        {
+          "product_code": "75798A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL Q SOUE USZ",
+          "notes": "Foil, includes music CD, 25th anniversary"
+        }
+      ]
+    },
+    {
+      "name": "Super Smash Bros Brawl",
+      "variants": [
+        {
+          "product_code": "101880A",
+          "satellite_code": "00000",
+          "country": "Japan"
+        },
+        {
+          "product_code": "64279A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "RVL P RSBE USA",
+          "notes": "Wi-Fi Logo"
+        },
+        {
+          "product_code": "64279B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "RVL P RSBE USA",
+          "notes": "No Wi-Fi logo, white ESRB"
+        },
+        {
+          "product_code": "64278A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL P RSBE USA",
+          "notes": "Wi-Fi logo"
+        },
+        {
+          "product_code": "64278B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "RVL P RSBE USA",
+          "notes": "Wi-Fi logo, Fighting Game of the Year"
+        },
+        {
+          "product_code": "64278C",
+          "satellite_code": "00102",
+          "country": "USA",
+          "mpn": "RVL P RSBE USA",
+          "notes": "Wi-Fi logo"
+        },
+        {
+          "product_code": "64278D",
+          "satellite_code": "00103",
+          "country": "USA",
+          "mpn": "RVL P RSBE USA",
+          "notes": "No Wi-Fi logo, white ESRB"
+        },
+        {
+          "product_code": "77615A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL P GSB USA",
+          "notes": "Wi-Fi logo"
+        },
+        {
+          "product_code": "77615B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "RVL P GSB USA",
+          "notes": "No Wi-Fi logo, white ESRB"
+        },
+        {
+          "product_code": "65591A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "RVL P RSBE CAN",
+          "notes": "Wi-Fi logo"
+        },
+        {
+          "product_code": "65591B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "RVL P RSBE CAN",
+          "notes": "Wi-Fi logo"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "platform": "N64",
+  "games": [
+    {
+      "name": "The Legend of Zelda: Ocarina of Time",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NZGE",
+          "notes": "Collector's Edition"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NZGE",
+          "notes": "Collector's Edition, Nintendo employee store sticker"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NZLE",
+          "notes": ""
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NZLE",
+          "notes": "Player's Choice"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Majora's Mask",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NZSE",
+          "notes": "Collector's Edition"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NZSE",
+          "notes": "Collector's Edition, French inserts"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NZSE"
+        }
+      ]
+    },
+    {
+      "name": "Perfect Dark",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NPDE"
+        }
+      ]
+    },
+    {
+      "name": "Super Mario 64",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NSME",
+          "notes": "Player's Choice, K-A rating"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NSME",
+          "notes": "Player's Choice, E rating"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NSME"
+        }
+      ]
+    },
+    {
+      "name": "GoldenEye 007",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P MGEE"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P MGEE",
+          "notes": "GOTY sticker"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P MGEE",
+          "notes": "Player's Choice, 4 line warranty"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P MGEE",
+          "notes": "Player's Choice, 5 line warranty"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P MGEE",
+          "notes": "Player's Choice sticker"
+        }
+      ]
+    },
+    {
+      "name": "Conker's Bad Fur Day",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NFUE"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon Snap",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NPFE",
+          "notes": "100% fiber"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NPFE",
+          "notes": "78% fiber"
+        }
+      ]
+    },
+    {
+      "name": "Paper Mario",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NMQE"
+        }
+      ]
+    },
+    {
+      "name": "Mario Kart 64",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NKTE",
+          "notes": "Player's Choice, K-A rating"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NKTE",
+          "notes": "Player's Choice, E rating"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NKTE",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "name": "Diddy Kong Racing",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NDYE",
+          "notes": "Player's Choice, E rating"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NDYE",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "name": "Mega Man 64",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NM6E"
+        }
+      ]
+    },
+    {
+      "name": "Super Smash Bros",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NALE",
+          "notes": "Box printed in USA"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NALE",
+          "notes": "Box printed in Japan"
+        }
+      ]
+    },
+    {
+      "name": "Mario Party",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P CLBE",
+          "notes": "'Frantic 4 Player Fun!' text"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P CLBE",
+          "notes": "No 'Frantic 4 Player Fun!' text"
+        }
+      ]
+    },
+    {
+      "name": "Mario Party 2",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NMWE"
+        }
+      ]
+    },
+    {
+      "name": "Mario Party 3",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NMVE",
+          "notes": "Box printed in USA"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NMVE",
+          "notes": "Box printed in Japan"
+        }
+      ]
+    },
+    {
+      "name": "Yoshi's Story",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NYSE",
+          "notes": "100% fiber"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NYSE",
+          "notes": "78% fiber"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NYSE",
+          "notes": "Player's Choice"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon Stadium",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS R NPOE",
+          "notes": "42% fiber, 18% Post-Consumer Content, Game Pak #NUS-006 (USA), Transfer Pak #NUS-019"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS R NPOE",
+          "notes": "79% fiber, 74% Post-Consumer Content, Game Pak #NUS-006 (USA), Transfer Pak #NUS-019"
+        }
+      ]
+    },
+    {
+      "name": "Pokemon Stadium 2",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NP3E"
+        }
+      ]
+    },
+    {
+      "name": "Banjo Kazooie",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NBKE",
+          "notes": "Player's Choice"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NBKE",
+          "notes": "Left-facing Rumble Pak"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NBKE",
+          "notes": "Right-facing Rumble Pak"
+        }
+      ]
+    },
+    {
+      "name": "Banjo Tooie",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NB7E",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "name": "Star Wars: Shadows of the Empire",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NSWE"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NSWE",
+          "notes": "Player's Choice"
+        }
+      ]
+    },
+    {
+      "name": "1080 Snowboarding",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NTEE",
+          "notes": "N64 Sports logo"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NTEE",
+          "notes": "Original N64 logo"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NTEE",
+          "notes": "Player's Choice"
+        }
+      ]
+    },
+    {
+      "name": "Clay Fighter 63 1/3",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NCFE"
+        }
+      ]
+    },
+    {
+      "name": "Clay Fighter: Sculpter's Cut",
+      "variants": [
+        {
+          "country": "Japan"
+        }
+      ]
+    },
+    {
+      "name": "Snowboard Kids",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NSKE",
+          "notes": "Alton Parkway address"
+        },
+        {
+          "country": "Japan",
+          "mpn": "NUS P NSKE",
+          "notes": "Von Karman address"
+        }
+      ]
+    },
+    {
+      "name": "Snowboard Kids 2",
+      "variants": [
+        {
+          "country": "Japan",
+          "mpn": "NUS P NK2E"
+        }
+      ]
+    }
+  ]
+}

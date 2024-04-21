@@ -1,0 +1,361 @@
+{
+  "platform": "Wii U",
+  "games": [
+    {
+      "name": "The Legend of Zelda: Twilight Princess HD",
+      "variants": [
+        {
+          "product_code": "102472A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "WUP P AZAE USZ",
+          "notes": "NFR (amiibo bundle pack-in)"
+        },
+        {
+          "product_code": "103456A",
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "WUP R AZAE USZ",
+          "notes": "amiibo bundle box"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: The Wind Waker HD",
+      "variants": [
+        {
+          "product_code": "81115A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "WUP P BCZE USZ",
+          "notes": "Foil"
+        },
+        {
+          "product_code": "101975A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "WUP P BCZE USZ",
+          "notes": "No foil"
+        },
+        {
+          "product_code": "104186A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "WUP P BCZ3 USZ",
+          "notes": "Nintendo Selects"
+        }
+      ]
+    },
+    {
+      "name": "Devil's Third",
+      "variants": [
+        {
+          "product_code": "102699A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "WUP P ADNE USZ",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "name": "Hyrule Warriors",
+      "variants": [
+        {
+          "product_code": "101984A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "WUP P BWPE USZ",
+          "notes": ""
+        },
+        {
+          "product_code": "100184A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "WUP P BWPE USZ",
+          "notes": ""
+        },
+        {
+          "product_code": "83662A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "WUP P BWPE USZ",
+          "notes": ""
+        },
+        {
+          "product_code": "83662B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "WUP P BWPE USZ",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "name": "New Super Mario Bros. U",
+      "variants": [
+        {
+          "product_code": "78939A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "WUP P ARPE USZ",
+          "notes": "Black ESRB"
+        },
+        {
+          "product_code": "78748A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "WUP P ARPE USZ",
+          "notes": "Black ESRB"
+        },
+        {
+          "product_code": "78748B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "WUP P ARPE USZ",
+          "notes": ""
+        },
+        {
+          "product_code": "81647A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "WUP P ATWE USZ",
+          "notes": "NFR (console pack-in), blue case, black ESRB, New Super Luigi U bonus"
+        },
+        {
+          "product_code": "81647A",
+          "satellite_code": "",
+          "country": "USA",
+          "mpn": "WUP P ATWE USZ",
+          "notes": "NFR (console pack-in), blue case, QR code UPC, black ESRB, New Super Luigi U bonus"
+        },
+        {
+          "product_code": "102287A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "WUP P ATWE USZ",
+          "notes": "Red case, white ESRB, New Super Luigi U bonus"
+        },
+        {
+          "product_code": "101562A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "",
+          "notes": "Nintendo refurbished, blue case, white ESRB, New Super Luigi U bonus"
+        }
+      ]
+    },
+    {
+      "name": "New Super Luigi U",
+      "variants": [
+        {
+          "product_code": "102676A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "WUP P ARSE USZ",
+          "notes": "White ESRB"
+        },
+        {
+          "product_code": "80890A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "WUP P ARSE USZ",
+          "notes": "Black ESRB"
+        }
+      ]
+    },
+    {
+      "name": "Bayonetta 2",
+      "variants": [
+        {
+          "product_code": "83663A",
+          "satellite_code": "00000",
+          "country": "USA",
+          "mpn": "WUP P BPCE USZ",
+          "notes": "Satellite code error, includes Bayonetta 1"
+        },
+        {
+          "product_code": "83663B",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "WUP P BPCE USZ",
+          "notes": "Includes Bayonetta 1"
+        },
+        {
+          "product_code": "100178A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "WUP P BPCE USZ",
+          "notes": "Includes Bayonetta 1"
+        },
+        {
+          "product_code": "103567A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "WUP P BPCE USZ",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "name": "Mario Kart 8",
+      "variants": [
+        {
+          "product_code": "82909A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "WUP P AMKE USZ",
+          "notes": "Nintendo Network badge"
+        },
+        {
+          "product_code": "82909B",
+          "satellite_code": "00101",
+          "country": "USA",
+          "mpn": "WUP P AMKE USZ",
+          "notes": "Nintendo Network badge"
+        },
+        {
+          "product_code": "83055A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "WUP P AMKE USZ",
+          "notes": "Nintendo Network badge, NFR (2014 Wii U 32GB + Mario Kart 8 'Deluxe Set')"
+        },
+        {
+          "product_code": "101514A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "WUP P AMKE USZ",
+          "notes": "'amiibo' badge, 'amiibo' no TM"
+        },
+        {
+          "product_code": "101979A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "WUP P AMKE USZ",
+          "notes": "'amiibo' badge, 'amiibo' with TM"
+        }
+      ]
+    },
+    {
+      "name": "Super Mario 3D World",
+      "variants": [
+        {
+          "product_code": "81224A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "WUP P ARDE USZ",
+          "notes": ""
+        },
+        {
+          "product_code": "81224C",
+          "satellite_code": "00102",
+          "country": "USA",
+          "mpn": "WUP P ARDE USZ",
+          "notes": "Red case, Family Game of the Year Badge"
+        },
+        {
+          "product_code": "101973A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "WUP P ARDE USZ",
+          "notes": "Red case"
+        },
+        {
+          "product_code": "100420A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "WUP P ARDE USZ",
+          "notes": "Red case, NFR"
+        },
+        {
+          "product_code": "103634A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "WUP P ARD2 USZ",
+          "notes": "Nintendo Selects"
+        },
+        {
+          "product_code": "103634B",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "WUP P ARD2 USZ",
+          "notes": "Nintendo Selects"
+        }
+      ]
+    },
+    {
+      "name": "Super Smash Bros For Wii U",
+      "variants": [
+        {
+          "product_code": "83664A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "WUP P AXFE USZ",
+          "notes": ""
+        },
+        {
+          "product_code": "100201A",
+          "satellite_code": "N/A",
+          "country": "USA",
+          "mpn": "WUP Q AXFE USA",
+          "notes": "Controller w/ Adapter bundle box, limited edition first print"
+        },
+        {
+          "product_code": "83665A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "",
+          "notes": "Controller w/ Adapter bundle pack-in, NFR, first print"
+        },
+        {
+          "product_code": "101842A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "WUP P AXFE USZ",
+          "notes": "'Read/Write' text"
+        },
+        {
+          "product_code": "101986A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "WUP P AXFE USZ",
+          "notes": "'Read/Write' text"
+        },
+        {
+          "product_code": "101986B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "WUP P AXFE USZ",
+          "notes": "'Read/Write' text"
+        },
+        {
+          "product_code": "101986C",
+          "satellite_code": "00002",
+          "country": "Japan",
+          "mpn": "WUP P AXFE USZ",
+          "notes": "'Read/Write' text"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda Breath of the Wild",
+      "variants": [
+        {
+          "product_code": "103423A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "WUP P ALZE USZ",
+          "notes": "7 Controllers Error"
+        },
+        {
+          "product_code": "103423B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "WUP P ALZE USZ",
+          "notes": "2 Controllers"
+        }
+      ]
+    }
+  ]
+}

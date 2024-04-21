@@ -1,0 +1,22 @@
+{
+  "platform": "Xbox One",
+  "games": [
+    {
+      "name": "Red Dead Redemption 2",
+      "variants": [
+        {
+          "notes": "“Coming Soon” text, discs made in Mexico (49891-1.1, 49891-1.2)",
+          "product_code": "RCK 49893",
+          "mpn": "49893-3",
+          "country": "USA"
+        },
+        {
+          "mpn": "49891-3",
+          "country": "USA",
+          "notes": "“Coming Soon” text, discs made in Mexico (49891-1.1, 49891-1.2)",
+          "product_code": "RCK 49891"
+        }
+      ]
+    }
+  ]
+}

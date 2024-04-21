@@ -1,0 +1,208 @@
+{
+  "platform": "Switch",
+  "games": [
+    {
+      "name": "Metroid Prime Remastered",
+      "variants": [
+        {
+          "mpn": "114551",
+          "country": "Japan",
+          "product_code": "118912A",
+          "satellite_code": "00000"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda: Link’s Awakening",
+      "variants": [
+        {
+          "notes": "Dreamer Edition",
+          "product_code": "110576A",
+          "satellite_code": "00100",
+          "country": "USA",
+          "mpn": "HAC R AR3N1 USZ"
+        }
+      ]
+    },
+    {
+      "name": "Super Mario Wonder",
+      "variants": [
+        {
+          "product_code": "120234A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "118640"
+        }
+      ]
+    },
+    {
+      "name": "Splatoon 2",
+      "variants": [
+        {
+          "product_code": "108790A",
+          "country": "Japan",
+          "mpn": "HAC R AAB62 USA",
+          "notes": "w/ Strategy Guide (box)"
+        }
+      ]
+    },
+    {
+      "name": "Mario Kart 8 Deluxe",
+      "variants": [
+        {
+          "product_code": "105278A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "HAC P AABPA USA",
+          "notes": ""
+        },
+        {
+          "product_code": "105278B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "HAC P AABPA USA",
+          "notes": ""
+        },
+        {
+          "product_code": "105278C",
+          "satellite_code": "00002",
+          "country": "Japan",
+          "mpn": "HAC P AABPA USA",
+          "notes": "English & Spanish"
+        }
+      ]
+    },
+    {
+      "name": "Super Mario Odyssey",
+      "variants": [
+        {
+          "product_code": "105882A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "HAC P AAACA USA",
+          "notes": "English & Spanish"
+        },
+        {
+          "product_code": "105882B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "HAC P AAACA USA",
+          "notes": "English & Spanish"
+        },
+        {
+          "product_code": "105882C",
+          "satellite_code": "00002",
+          "country": "Japan",
+          "mpn": "HAC P AAACA USA",
+          "notes": "English & Spanish"
+        },
+        {
+          "product_code": "108795A",
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "HAC R AAAC3 USZ",
+          "notes": "'Starter Pack' box (English & Spanish)"
+        },
+        {
+          "product_code": "108807A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "",
+          "notes": "'Starter Pack' pack-in, NFR (English & Spanish)"
+        }
+      ]
+    },
+    {
+      "name": "Super Smash Bros Ultimate",
+      "variants": [
+        {
+          "product_code": "108491A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "HAC P AAABA USA",
+          "notes": "English & Spanish"
+        },
+        {
+          "product_code": "108491B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "HAC P AAABA USA",
+          "notes": "English & Spanish"
+        },
+        {
+          "product_code": "108613A",
+          "satellite_code": "",
+          "country": "Japan",
+          "mpn": "HAC R AAAB1 USZ",
+          "notes": "'Ultimate Edition' bundle (English, Spanish & French)"
+        },
+        {
+          "product_code": "108492A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "HAC P AAABA CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    },
+    {
+      "name": "The Legend of Zelda Breath of the Wild",
+      "variants": [
+        {
+          "product_code": "106350A",
+          "country": "Japan",
+          "mpn": "HAC W AAAA1 USA",
+          "notes": "w/ Bonus Explorer's Guide & Map (box)"
+        },
+        {
+          "product_code": "108785A",
+          "country": "Japan",
+          "mpn": "HAC R AAAA2 USA",
+          "notes": "w/ Bonus Explorer's Guide (box)"
+        },
+        {
+          "product_code": "105211A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "HAC P AAAAA USA",
+          "notes": ""
+        },
+        {
+          "product_code": "105211B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "HAC P AAAAA USA",
+          "notes": "English & Spanish ESRB (front)"
+        },
+        {
+          "product_code": "105252A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "",
+          "notes": "Master Edition, Special Edition, Explorer's Edition (pack-in); no ESRB, no mpn, NFR (March 3, 2017; Explorer's Edition: Nov 23, 2017)"
+        },
+        {
+          "product_code": "105212A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "HAC P AAAAA CAN",
+          "notes": "Canadian release"
+        },
+        {
+          "product_code": "105212B",
+          "satellite_code": "00001",
+          "country": "Japan",
+          "mpn": "HAC P AAAAA CAN",
+          "notes": "Canadian release"
+        },
+        {
+          "product_code": "108492A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "HAC P AAAAA CAN",
+          "notes": "Canadian release"
+        }
+      ]
+    }
+  ]
+}
