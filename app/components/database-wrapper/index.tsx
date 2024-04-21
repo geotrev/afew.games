@@ -1,12 +1,6 @@
 "use client"
 
 import propTypes from "prop-types"
-
-import { FilterOptions } from "../filter-options"
-import { Search } from "../search"
-import { useFilter, useSearch } from "../../utils/hooks"
-import { getNextUrlState } from "../../utils/set-params"
-import { DatabasePlatform } from "types/games"
 import {
   ChangeEventHandler,
   MouseEventHandler,
@@ -14,10 +8,15 @@ import {
   useMemo,
   useState,
 } from "react"
-import { GameList } from "./GameList"
 import { useSearchParams } from "next/navigation"
 import xss from "xss"
 import { debounce } from "lodash-es"
+import { DatabasePlatform } from "types/games"
+import { FilterOptions } from "../filter-options"
+import { Search } from "../search"
+import { useFilter, useSearch } from "../../utils/hooks"
+import { getNextUrlState } from "../../utils/set-params"
+import { GameList } from "./GameList"
 
 type DatabaseWrapperProps = {
   games: DatabasePlatform[]
