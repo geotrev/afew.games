@@ -3,8 +3,19 @@ import { PageHeading } from "./components/page-heading"
 import { DatabaseWrapper } from "./components/database-wrapper"
 import { transformGameProps, sortByKey } from "utils/helpers"
 import { BASE_TITLE } from "utils/constants"
-import database from "public/collections/video-game-database.json"
+const fs = require("fs")
+const glob = require("glob")
 import contributorData from "public/collections/contributors.json"
+import { DatabasePlatform } from "../types/games"
+
+const files: string[] = glob.sync("../public/collections/games/*.json")
+let database: { platforms: DatabasePlatform[] } = { platforms: [] }
+
+files.forEach((filePath) => {
+  const data = fs.readFileSync(filePath, "utf8")
+  const jsonObject = JSON.parse(data)
+  database.platforms.push(jsonObject)
+})
 
 export const metadata = {
   alternates: {
