@@ -16,7 +16,7 @@ export const Search = ({
   handleChange,
   handleSubmit,
 }: SearchProps) => (
-  <form className="form-control mb-4" onSubmit={handleSubmit}>
+  <form className="form-control mb-8" onSubmit={handleSubmit}>
     <label htmlFor="search" className="label font-semibold uppercase">
       <span className="label-text">{label}</span>
     </label>

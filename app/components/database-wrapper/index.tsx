@@ -117,7 +117,7 @@ export function DatabaseWrapper({ platformList }: DatabaseWrapperProps) {
   return (
     <>
       <Search
-        label="Search variants"
+        label="Search for games"
         handleChange={handleChange}
         handleSubmit={handleSubmit}
         value={searchValue}
@@ -133,6 +133,8 @@ export function DatabaseWrapper({ platformList }: DatabaseWrapperProps) {
       {isError && <p className="text-red-500">A search value is required.</p>}
 
       {noMatches && <p>No matches found. Try another search.</p>}
+
+      {gameCount > 0 && <p>Found {gameCount} matches</p>}
 
       {gameCount > 0 && !isLoading && (
         <FilterOptions

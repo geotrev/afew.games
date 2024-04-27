@@ -132,7 +132,7 @@ export function FilterOptions({
           onClick={handleToggleClick}
         >
           <span aria-hidden="true">{opened ? "–" : "+"}</span>&nbsp;
-          {opened ? "Hide" : "Show"} Search Options
+          {opened ? "Hide" : "Show"} Filter Options
         </button>
       </div>
       <div
