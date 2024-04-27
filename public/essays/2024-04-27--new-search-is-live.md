@@ -1,8 +1,7 @@
 ---
 publish_date: 2024-04-27
 title: New search is live
-description: Database uses API-backed search feature for better performance +
-  streamlined results
+description: Database search now uses API-backed search feature for better performance
 ---
 Howdy all! It has been somewhat quiet on the blog for a few months. I wanted to share some great news about the website's database feature so there's hopefully less confusion when you interact with it.
 
