@@ -130,13 +130,9 @@ export function DatabaseWrapper({ platformList }: DatabaseWrapperProps) {
         </p>
       )}
 
-      {isError && (
-        <p className="text-red-500">
-          Uh-oh, check your search value and try again.
-        </p>
-      )}
+      {isError && <p className="text-red-500">A search value is required.</p>}
 
-      {noMatches && <p>No matches found, sorry.</p>}
+      {noMatches && <p>No matches found. Try another search.</p>}
 
       {gameCount > 0 && !isLoading && (
         <FilterOptions

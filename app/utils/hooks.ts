@@ -51,6 +51,7 @@ export function useFetchGames(initialValue?: string): UseFetchGamesReturnValue {
         })
         .catch(() => {
           setIsError(true)
+          setIsLoading(false)
         })
     },
     []
