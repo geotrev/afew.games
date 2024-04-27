@@ -124,7 +124,7 @@ export function DatabaseList({
                   {data.variants!.map(
                     (variant: DatabaseVariant, rowIndex: number) => (
                       <tr key={`row-${rowIndex}`}>
-                        {DB_FIELDS_SORTED.map((field, fieldIndex) => (
+                        {DB_FIELDS_SORTED.map((field: string, fieldIndex) => (
                           <td
                             key={field}
                             width={COLUMN_WIDTHS[field]}
@@ -136,7 +136,7 @@ export function DatabaseList({
                               "sticky left-0 z-10": fieldIndex === 0,
                             })}
                           >
-                            {(variant as any)[field]}
+                            {variant[field]}
                           </td>
                         ))}
                       </tr>

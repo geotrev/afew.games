@@ -44,7 +44,10 @@ export function DatabaseWrapper({ platformList }: DatabaseWrapperProps) {
   const { query, games, noMatches, isLoading, isError } =
     useFetchGames(searchValue)
 
-  let gameCount = games.reduce((count, p) => (count += p.games.length), 0)
+  const gameCount = useMemo(
+    () => games.reduce((count, p) => (count += p.games.length), 0),
+    [games]
+  )
 
   /**
    * Initialize platform filter hook to narrow down search options

@@ -1,6 +1,6 @@
 import { memo, ReactElement } from "react"
 
-export function EssayListLoaderComponent(): ReactElement<{}> {
+export function EssayListLoaderComponent(): ReactElement<HTMLElement> {
   const placeholderIterator = Array(5).fill(null)
 
   return (

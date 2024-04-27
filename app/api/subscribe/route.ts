@@ -1,6 +1,6 @@
-// @ts-ignore-next-line
+// @ts-expect-error no types
 import MailChimpAPI from "@mailchimp/mailchimp_marketing"
-// @ts-ignore-next-line
+// @ts-expect-error no types
 import crypto from "crypto-js"
 import { NextResponse } from "next/server"
 import xss from "xss"
@@ -63,7 +63,7 @@ export async function POST(req: Request) {
       status: SubscribeFormStatuses.SUCCESS,
       message: "You're subscribed!",
     })
-  } catch (e: any) {
+  } catch (e) {
     return NextResponse.json({
       status: SubscribeFormStatuses.ERROR,
       message: ERROR_MESSAGE,

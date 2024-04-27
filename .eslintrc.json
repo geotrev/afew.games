@@ -5,13 +5,16 @@
     "commonjs": true,
     "es2021": true
   },
-  "plugins": ["tailwindcss"],
+  "plugins": ["@typescript-eslint", "tailwindcss"],
   "extends": [
     "next/core-web-vitals",
     "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
     "prettier",
     "plugin:tailwindcss/recommended"
   ],
+  "parser": "@typescript-eslint/parser",
+  "root": true,
   "rules": {
     "tailwindcss/no-custom-classname": "off",
     "no-console": 2

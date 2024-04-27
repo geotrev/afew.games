@@ -25,7 +25,7 @@ function getFilteredEntries(
   }
 
   let inc = filterCount
-  let retVal = []
+  const retVal: DatabasePlatform[] = []
 
   for (const p of filteredEntries) {
     if (inc <= 0) break

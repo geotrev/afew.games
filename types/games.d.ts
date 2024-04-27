@@ -1,3 +1,8 @@
+export type DatabaseVariant = Record<
+  product_code | satellite_code | country | mpn | notes,
+  string
+>
+
 export interface FilterItem {
   value: string
   selected: boolean
@@ -6,14 +11,6 @@ export interface FilterItem {
 export interface DatabaseGame {
   name: string
   variants?: DatabaseVariant[]
-}
-
-export interface DatabaseVariant {
-  product_code?: string
-  satellite_code?: string
-  country?: string
-  mpn?: string
-  notes?: string
 }
 
 export interface DatabasePlatform {
