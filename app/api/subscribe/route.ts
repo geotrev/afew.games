@@ -19,7 +19,7 @@ function invalidError() {
 
 export async function POST(req: Request) {
   // eslint-disable-next-line no-console
-  console.log("/api/subscribe", { NODE_ENV: process.env.NODE_ENV })
+  if (process.env.NODE_ENV !== "production") console.log("/api/subscribe")
 
   const res = await req.json()
 

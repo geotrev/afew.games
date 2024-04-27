@@ -6,7 +6,7 @@ import { NextResponse } from "next/server"
 
 export async function POST(req: Request) {
   // eslint-disable-next-line no-console
-  console.log("/api/search-games", { NODE_ENV: process.env.NODE_ENV })
+  if (process.env.NODE_ENV !== "production") console.log("/api/search-games")
 
   const res = await req.json()
   const searchValue = xss(res.value)?.toLowerCase()
@@ -23,22 +23,11 @@ export async function POST(req: Request) {
           platform: games[idx].platform,
           games: [],
         }
-        // let shouldQuery: boolean = true
 
-        // if (
-        //   !noneSelected &&
-        //   !allSelected &&
-        //   selectedPlatforms.indexOf(games[idx].platform) === -1
-        // ) {
-        //   shouldQuery = false
-        // }
-
-        // if (shouldQuery) {
         queryableGames.forEach((q, gameIdx) => {
           if (!q.includes(searchValue)) return
           filteredEntry.games.push(gameList[gameIdx])
         })
-        // }
 
         if (filteredEntry.games.length <= 0) {
           return acc

@@ -5,7 +5,7 @@ import { EssayPageData } from "types/essays"
 
 export async function POST(req: Request) {
   // eslint-disable-next-line no-console
-  console.log("/api/essays", { NODE_ENV: process.env.NODE_ENV })
+  if (process.env.NODE_ENV !== "production") console.log("/api/essays")
 
   const res = await req.json()
 
@@ -17,7 +17,7 @@ export async function POST(req: Request) {
     const index = parseInt(res.page, 10)
 
     if (typeof index === "number") {
-      const data: EssayPageData = await getEssayList(index)
+      const data: EssayPageData = getEssayList(index)
 
       return NextResponse.json(data)
     } else {
