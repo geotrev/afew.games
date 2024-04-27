@@ -4,6 +4,7 @@ import {
   ChangeEventHandler,
   FormEventHandler,
   MouseEventHandler,
+  useEffect,
   useMemo,
   useState,
 } from "react"
@@ -64,6 +65,11 @@ export function DatabaseWrapper({ platformList }: DatabaseWrapperProps) {
     []
   )
 
+  useEffect(() => {
+    const url = getNextUrlState({ filteredPlatforms, searchValue })
+    setDebouncedURLState(url)
+  }, [filteredPlatforms, searchValue, setDebouncedURLState])
+
   const handleChange: ChangeEventHandler<HTMLInputElement> = (event) => {
     setSearchValue(event.target.value)
   }
@@ -71,14 +77,7 @@ export function DatabaseWrapper({ platformList }: DatabaseWrapperProps) {
   const handleSubmit: FormEventHandler<HTMLFormElement> = (event) => {
     event.preventDefault()
 
-    query({
-      value: searchValue,
-      onSuccess: () => {
-        // Set URL state:
-        const url = getNextUrlState({ filteredPlatforms, searchValue })
-        setDebouncedURLState(url)
-      },
-    })
+    query(searchValue)
   }
 
   const handlePillClick: MouseEventHandler<HTMLButtonElement> = (event) => {

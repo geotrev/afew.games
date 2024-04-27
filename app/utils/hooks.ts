@@ -1,13 +1,8 @@
 import { useCallback, useEffect, useMemo, useState } from "react"
 import { DatabasePlatform, FilterItem } from "types/games"
 
-interface QueryParams {
-  value?: string
-  onSuccess?: () => void
-}
-
 interface UseFetchGamesReturnValue {
-  query: (params: QueryParams) => void
+  query: (value: string) => void
   noMatches: boolean
   isLoading: boolean
   isError: boolean
@@ -21,7 +16,7 @@ export function useFetchGames(initialValue?: string): UseFetchGamesReturnValue {
   const [isLoading, setIsLoading] = useState<boolean>(false)
 
   const query = useCallback<UseFetchGamesReturnValue["query"]>(
-    async ({ value, onSuccess }: QueryParams) => {
+    async (value) => {
       if (!value) {
         setIsError(true)
 
@@ -46,8 +41,6 @@ export function useFetchGames(initialValue?: string): UseFetchGamesReturnValue {
             if (data.matches.length === 0) {
               setNoMatches(true)
             }
-
-            if (typeof onSuccess === "function") onSuccess()
           }
 
           if (data.status === "error") {
@@ -66,7 +59,7 @@ export function useFetchGames(initialValue?: string): UseFetchGamesReturnValue {
   useEffect(() => {
     if (!initialValue) return
 
-    query({ value: initialValue })
+    query(initialValue)
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
