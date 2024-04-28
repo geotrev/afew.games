@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect, useMemo, useCallback } from "react"
 import { EssayPageData } from "types/essays"
 import { FetchEssaysArgs } from "./types"
 
@@ -61,12 +61,20 @@ export function useFetchEssays(initialData: EssayPageData) {
     }
   }, [initialData])
 
-  return {
-    isLoading,
-    isError,
-    data,
-    setPage: (index: number) => {
+  const setPage = useCallback(
+    (index: number) => {
       fetchEssays({ index, setData, setIsLoading, setIsError, isError })
     },
-  }
+    [isError]
+  )
+
+  return useMemo(
+    () => ({
+      isLoading,
+      isError,
+      data,
+      setPage,
+    }),
+    [isLoading, isError, data, setPage]
+  )
 }

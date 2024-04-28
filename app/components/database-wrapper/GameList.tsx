@@ -1,14 +1,33 @@
-import { DatabaseList } from "../database-list"
-import { DatabasePlatform } from "types/games"
+import { DatabasePlatform, FilterItem } from "types/games"
+import { DatabaseList } from "./DatabaseList"
 
-function getGamesByCount(
-  count: number,
-  games: DatabasePlatform[]
+function getFilteredEntries(
+  entries: DatabasePlatform[],
+  filteredPlatforms: FilterItem[],
+  filterValue: number,
+  arePlatformsFiltered: boolean
 ): DatabasePlatform[] {
-  let inc = count
-  let retVal = []
+  let filteredEntries: DatabasePlatform[] = []
 
-  for (const p of games) {
+  if (arePlatformsFiltered) {
+    const selectedPlatforms = filteredPlatforms.reduce<string[]>(
+      (acc, p) => (p.selected ? [...acc, p.value] : acc),
+      []
+    )
+
+    for (const entry of entries) {
+      if (selectedPlatforms.includes(entry.platform)) {
+        filteredEntries.push(entry)
+      }
+    }
+  } else {
+    filteredEntries = entries
+  }
+
+  let inc = filterValue
+  const retVal: DatabasePlatform[] = []
+
+  for (const p of filteredEntries) {
     if (inc <= 0) break
 
     if (p.games.length <= inc) {
@@ -28,15 +47,33 @@ function getGamesByCount(
 }
 
 export function GameList({
-  count,
-  games: _games,
+  totalGameCount,
+  isLoading,
+  arePlatformsFiltered,
+  filteredPlatforms,
+  filterValue,
+  entries,
 }: {
-  count: number | null
-  games: DatabasePlatform[]
+  totalGameCount: number
+  isLoading: boolean
+  arePlatformsFiltered: boolean
+  filteredPlatforms: FilterItem[]
+  filterValue: number | null
+  entries: DatabasePlatform[]
 }) {
-  const games = count === null ? _games : getGamesByCount(count, _games)
+  if (totalGameCount <= 0 || isLoading) return null
 
-  return games.map((p: DatabasePlatform) => (
+  const filteredEntries =
+    filterValue === null
+      ? entries
+      : getFilteredEntries(
+          entries,
+          filteredPlatforms,
+          filterValue,
+          arePlatformsFiltered
+        )
+
+  return filteredEntries?.map((p: DatabasePlatform) => (
     <DatabaseList
       key={p.platform}
       games={p.games}

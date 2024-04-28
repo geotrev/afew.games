@@ -10,31 +10,30 @@ import {
 import cn from "classnames"
 import propTypes from "prop-types"
 import { getNextUrlState } from "../../utils/set-params"
-import { FilterListProps } from "./types"
+import { FilterItem } from "types/games"
 
-FilterOptions.propTypes = {
-  items: propTypes.arrayOf(
-    propTypes.shape({
-      value: propTypes.string,
-      selected: propTypes.bool,
-    })
-  ).isRequired,
-  handleClick: propTypes.func,
-  handleReset: propTypes.func,
+export type FilterOptionsProps = {
+  totalGameCount: number
+  isLoading: boolean
+  searchValue: string
+  filteredPlatforms: FilterItem[]
+  handleClick: MouseEventHandler<HTMLButtonElement>
+  handleReset: MouseEventHandler<HTMLButtonElement>
 }
 
-export function FilterOptions({
-  items,
+export const FilterOptions = ({
+  totalGameCount,
+  isLoading,
   searchValue,
   filteredPlatforms,
   handleClick,
   handleReset,
-}: FilterListProps) {
+}: FilterOptionsProps) => {
   const [copied, setCopied] = useState<boolean>(false)
   const [rovingIndex, setRovingIndex] = useState<number>(0)
   const [opened, setOpened] = useState<boolean>(false)
 
-  const noneSelected = items.every((item) => !item.selected)
+  const noneSelected = filteredPlatforms.every((item) => !item.selected)
 
   useEffect(() => {
     if (copied) {
@@ -69,14 +68,14 @@ export function FilterOptions({
         target = container?.firstElementChild as HTMLButtonElement
         targetIndex = 0
       } else if (key === "End") {
-        const lastIdx = items.length - 1
+        const lastIdx = filteredPlatforms.length - 1
         const container = parentNode?.parentNode?.childNodes?.[
           lastIdx
         ] as HTMLDivElement
         target = container?.firstElementChild as HTMLButtonElement
         targetIndex = lastIdx
       } else if (key.length === 1 && /[0-9A-Za-z]/.test(key)) {
-        targetIndex = items.findIndex((item) =>
+        targetIndex = filteredPlatforms.findIndex((item) =>
           item.value.toLowerCase().startsWith(key)
         )
         const container = parentNode?.parentNode?.childNodes?.[
@@ -90,19 +89,19 @@ export function FilterOptions({
         setRovingIndex(targetIndex)
       }
     },
-    [items, rovingIndex]
+    [filteredPlatforms, rovingIndex]
   )
 
   const handleItemClick = useCallback<MouseEventHandler<HTMLButtonElement>>(
     (event) => {
-      const index = items.findIndex(
+      const index = filteredPlatforms.findIndex(
         (item) =>
           item.value === (event.target as HTMLButtonElement).dataset.itemValue
       )
       setRovingIndex(index)
       handleClick(event)
     },
-    [handleClick, items]
+    [handleClick, filteredPlatforms]
   )
 
   const handleToggleClick = useCallback<
@@ -121,8 +120,10 @@ export function FilterOptions({
     setCopied(true)
   }, [filteredPlatforms, searchValue])
 
+  if (totalGameCount <= 0 || isLoading) return null
+
   return (
-    <div className="mb-4 rounded-b-lg bg-base-300 p-4">
+    <div className="my-4 rounded-lg bg-base-300 p-4">
       <div className={cn("sm:hidden", { "mb-4": opened })}>
         <button
           className="btn btn-ghost btn-sm w-full rounded normal-case"
@@ -132,7 +133,7 @@ export function FilterOptions({
           onClick={handleToggleClick}
         >
           <span aria-hidden="true">{opened ? "–" : "+"}</span>&nbsp;
-          {opened ? "Hide" : "Show"} Search Options
+          {opened ? "Hide" : "Show"} Filter Options
         </button>
       </div>
       <div
@@ -151,7 +152,7 @@ export function FilterOptions({
         >
           <div role="rowgroup">
             <div className="flex flex-row flex-wrap gap-1 sm:gap-2" role="row">
-              {items.map((item, idx) => {
+              {filteredPlatforms.map((item, idx) => {
                 return (
                   <div key={item.value} role="gridcell">
                     <button
@@ -200,4 +201,18 @@ export function FilterOptions({
       </div>
     </div>
   )
+}
+
+FilterOptions.propTypes = {
+  totalGameCount: propTypes.number,
+  isLoading: propTypes.bool,
+  searchValue: propTypes.string,
+  filteredPlatforms: propTypes.arrayOf(
+    propTypes.shape({
+      value: propTypes.string,
+      selected: propTypes.bool,
+    })
+  ).isRequired,
+  handleClick: propTypes.func,
+  handleReset: propTypes.func,
 }

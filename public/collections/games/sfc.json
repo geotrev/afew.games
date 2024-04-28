@@ -2,7 +2,7 @@
   "platform": "Super Famicom",
   "games": [
     {
-      "name": "Super Mario World",
+      "name": "Super Mario World (Japanese)",
       "variants": [
         {
           "mpn": "SHVC-MW",
@@ -11,7 +11,7 @@
       ]
     },
     {
-      "name": "Super Metroid",
+      "name": "Super Metroid (Japanese)",
       "variants": [
         {
           "country": "Japan",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "name": "Super Mario Kart",
+      "name": "Super Mario Kart (Japanese)",
       "variants": [
         {
           "notes": "MK code (cartridge), MK code (manual), Operation Card (no code), AC Adapter Insert (no code), feedback postcard",

@@ -14,3 +14,11 @@ export const getGamesData = () =>
     },
     { platforms: [] }
   )
+
+export const getPlatformList = () =>
+  files.reduce<string[]>((platforms, filePath) => {
+    const gameJson = fs.readFileSync(filePath, "utf8")
+    const data: DatabasePlatform = JSON.parse(gameJson)
+    platforms.push(data.platform)
+    return platforms
+  }, [])
