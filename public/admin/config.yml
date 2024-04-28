@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   branch: main
-  commit_message:
+  commit_messages:
     create: "chore: create '{{slug}}'"
     update: "chore: update '{{slug}}'"
     delete: "chore: delete '{{slug}}'"

@@ -3,7 +3,6 @@ import { readdirSync, readFileSync } from "fs"
 import matter, { GrayMatterFile } from "gray-matter"
 import chunk from "lodash-es/chunk"
 import { marked } from "marked"
-// @ts-ignore
 import { mangle } from "marked-mangle"
 import { gfmHeadingId } from "marked-gfm-heading-id"
 import { ParsedUrlQuery } from "querystring"
@@ -51,7 +50,7 @@ export function getEssayList(index: number): EssayPageData {
       }
     })
 
-    let chunked = chunk(essayData, MAX_LIST_LENGTH)
+    const chunked = chunk(essayData, MAX_LIST_LENGTH)
     const totalPages: number = chunked.length
     return {
       index: totalPages - 1 < index ? 0 : index,
