@@ -1,5 +1,5 @@
-import { DatabaseList } from "../database-list"
 import { DatabasePlatform, FilterItem } from "types/games"
+import { DatabaseList } from "./DatabaseList"
 
 function getFilteredEntries(
   entries: DatabasePlatform[],

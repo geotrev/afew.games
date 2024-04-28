@@ -9,18 +9,32 @@ import {
   DB_FIELD_DESCRIPTIONS,
   DatabaseFields,
 } from "app/constants"
-import { DatabaseVariant } from "types/games"
+import { DatabaseGame, DatabaseVariant } from "types/games"
 
-import { ListToolbar } from "../list-toolbar"
-import { COLUMN_WIDTHS } from "./constants"
-import { DatabaseListProps } from "./types"
+import { ListToolbar } from "./ListToolbar"
 import { Tooltip } from "react-tooltip"
 
-DatabaseList.propTypes = {
-  games: propTypes.arrayOf(propTypes.object),
-  label: propTypes.string,
-  id: propTypes.string,
+export type DatabaseListProps = {
+  games: DatabaseGame[]
+  label: string
+  id: string
 }
+
+export const COLUMN_WIDTHS: Record<string, string> = DB_FIELDS_SORTED.reduce(
+  (acc, field) => {
+    switch (field) {
+      case DatabaseFields.NOTES:
+        return { ...acc, [field]: "35%" }
+      case DatabaseFields.MPN:
+        return { ...acc, [field]: "20%" }
+      default:
+        return { ...acc, [field]: "15%" }
+    }
+  },
+  {}
+)
+
+const isEven = (index: number) => index % 2 === 0
 
 const TableHeader = memo<{ tooltipId: string }>(({ tooltipId }) => (
   <thead>
@@ -67,13 +81,11 @@ const TableHeader = memo<{ tooltipId: string }>(({ tooltipId }) => (
 
 TableHeader.displayName = "TableHeader"
 
-const isEven = (index: number) => index % 2 === 0
-
-export function DatabaseList({
+export const DatabaseList = ({
   games,
   label,
   id,
-}: DatabaseListProps): ReactElement | null {
+}: DatabaseListProps): ReactElement | null => {
   const [opened, setOpened] = useState<boolean>(true)
   const length = games.length
   const tooltipId = `info-tooltip-${id}`
@@ -155,4 +167,10 @@ export function DatabaseList({
       )}
     </div>
   )
+}
+
+DatabaseList.propTypes = {
+  games: propTypes.arrayOf(propTypes.object),
+  label: propTypes.string,
+  id: propTypes.string,
 }
