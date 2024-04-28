@@ -39,6 +39,7 @@ export const Search = ({
 
 Search.propTypes = {
   value: propTypes.string,
-  handleChange: propTypes.func,
+  handleChange: propTypes.func.isRequired,
+  handleSubmit: propTypes.func.isRequired,
   label: propTypes.string.isRequired,
 }

@@ -4,7 +4,7 @@ import { DatabasePlatform, FilterItem } from "types/games"
 function getFilteredEntries(
   entries: DatabasePlatform[],
   filteredPlatforms: FilterItem[],
-  filterCount: number,
+  filterValue: number,
   arePlatformsFiltered: boolean
 ): DatabasePlatform[] {
   let filteredEntries: DatabasePlatform[] = []
@@ -24,7 +24,7 @@ function getFilteredEntries(
     filteredEntries = entries
   }
 
-  let inc = filterCount
+  let inc = filterValue
   const retVal: DatabasePlatform[] = []
 
   for (const p of filteredEntries) {
@@ -47,23 +47,29 @@ function getFilteredEntries(
 }
 
 export function GameList({
+  totalGameCount,
+  isLoading,
   arePlatformsFiltered,
   filteredPlatforms,
-  filterCount,
+  filterValue,
   entries,
 }: {
+  totalGameCount: number
+  isLoading: boolean
   arePlatformsFiltered: boolean
   filteredPlatforms: FilterItem[]
-  filterCount: number | null
+  filterValue: number | null
   entries: DatabasePlatform[]
 }) {
+  if (totalGameCount <= 0 || isLoading) return null
+
   const filteredEntries =
-    filterCount === null
+    filterValue === null
       ? entries
       : getFilteredEntries(
           entries,
           filteredPlatforms,
-          filterCount,
+          filterValue,
           arePlatformsFiltered
         )
 

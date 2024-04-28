@@ -10,26 +10,25 @@ import {
 import cn from "classnames"
 import propTypes from "prop-types"
 import { getNextUrlState } from "../../utils/set-params"
-import { FilterListProps } from "./types"
+import { FilterItem } from "types/games"
 
-FilterOptions.propTypes = {
-  searchValue: propTypes.string,
-  filteredPlatforms: propTypes.arrayOf(
-    propTypes.shape({
-      value: propTypes.string,
-      selected: propTypes.bool,
-    })
-  ).isRequired,
-  handleClick: propTypes.func,
-  handleReset: propTypes.func,
+export type FilterOptionsProps = {
+  totalGameCount: number
+  isLoading: boolean
+  searchValue: string
+  filteredPlatforms: FilterItem[]
+  handleClick: MouseEventHandler<HTMLButtonElement>
+  handleReset: MouseEventHandler<HTMLButtonElement>
 }
 
-export function FilterOptions({
+export const FilterOptions = ({
+  totalGameCount,
+  isLoading,
   searchValue,
   filteredPlatforms,
   handleClick,
   handleReset,
-}: FilterListProps) {
+}: FilterOptionsProps) => {
   const [copied, setCopied] = useState<boolean>(false)
   const [rovingIndex, setRovingIndex] = useState<number>(0)
   const [opened, setOpened] = useState<boolean>(false)
@@ -121,6 +120,8 @@ export function FilterOptions({
     setCopied(true)
   }, [filteredPlatforms, searchValue])
 
+  if (totalGameCount <= 0 || isLoading) return null
+
   return (
     <div className="my-4 rounded-lg bg-base-300 p-4">
       <div className={cn("sm:hidden", { "mb-4": opened })}>
@@ -200,4 +201,18 @@ export function FilterOptions({
       </div>
     </div>
   )
+}
+
+FilterOptions.propTypes = {
+  totalGameCount: propTypes.number,
+  isLoading: propTypes.bool,
+  searchValue: propTypes.string,
+  filteredPlatforms: propTypes.arrayOf(
+    propTypes.shape({
+      value: propTypes.string,
+      selected: propTypes.bool,
+    })
+  ).isRequired,
+  handleClick: propTypes.func,
+  handleReset: propTypes.func,
 }
