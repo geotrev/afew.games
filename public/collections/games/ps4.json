@@ -5,10 +5,16 @@
       "name": "Dark Souls III: The Fire Fades Edition",
       "variants": [
         {
+          "product_code": "2102738",
+          "country": "USA",
+          "mpn": "12140IN",
+          "notes": "Complete Edition"
+        },
+        {
           "mpn": "12140IN",
           "country": "USA",
           "product_code": "2102738",
-          "notes": "Complete Edition, \"Best of 2016: Best RPG\" sticker, new Bandai logo (made in Austria, assembled in US)"
+          "notes": "Complete Edition, updated Bandai logo (made in Austria assembled in US)"
         }
       ]
     },
