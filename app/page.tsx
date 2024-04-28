@@ -28,6 +28,20 @@ export default function Page() {
           , but inner contents are noted when appropriate. International regions
           will be specified in a game&apos;s title or notes.
         </p>
+        <p>
+          Looking for the complete data used by this search tool? It is{" "}
+          <Link
+            className="focus:rounded-sm focus:outline-none focus:ring-2 focus:ring-white"
+            href="https://github.com/geotrev/afew.games/tree/main/public/collections/games"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            publicly hosted here
+          </Link>
+          . We request <strong>respectful behavior</strong> and{" "}
+          <strong>avoiding abuse</strong> (e.g., using scripts and automated
+          tools) of this page.
+        </p>
         <p className="mb-0">
           <Link
             className="btn btn-secondary btn-sm text-base-100"
