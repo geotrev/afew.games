@@ -2,6 +2,15 @@
   "platform": "PS4",
   "games": [
     {
+      "name": "Dark Souls III: The Fire Fades Edition",
+      "variants": [
+        {
+          "mpn": "12140",
+          "country": "USA"
+        }
+      ]
+    },
+    {
       "name": "Red Dead Redemption 2",
       "variants": [
         {
