@@ -1,7 +1,7 @@
 ---
 publish_date: 2024-04-28
-title: Database changes now live
-description: Small changes to improve performance and longevity
+title: Database Changes Now Live
+description: Announcing some small changes to improve performance and prepare for longevity
 ---
 Howdy all! It has been somewhat quiet on the blog for a few months. I want to share some great news about the website's search feature!
 
