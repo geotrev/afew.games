@@ -23,10 +23,10 @@ export default function Page() {
         <PageHeading>Database</PageHeading>
         <p>
           <strong>
-            This tool exclusively tracks box and seal variants for NTSC-U games
+            This tool tracks video game variants
           </strong>
-          , but inner contents are noted when appropriate. International regions
-          will be specified in a game&apos;s title or notes.
+          , primarily for boxes, but inner contents are noted when appropriate. International regions
+          are specified in a game&apos;s title or notes.
         </p>
         <p>
           Looking for the complete data used by this search tool? It is{" "}
