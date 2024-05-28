@@ -360,18 +360,10 @@
       "name": "Paper Mario",
       "variants": [
         {
-          "product_code": "56433B",
-          "satellite_code": "00001",
-          "country": "Japan",
-          "mpn": "DOL P G8ME",
-          "notes": "Best Seller"
-        },
-        {
-          "mpn": "DOL P G8ME",
+          "product_code": "55850A",
+          "satellite_code": "00100",
           "country": "USA",
-          "satellite_code": "00102",
-          "product_code": "55850C",
-          "notes": "Best Seller, Player's Choice"
+          "mpn": "DOL P G8ME"
         },
         {
           "notes": "Best Seller",
@@ -381,14 +373,15 @@
           "product_code": "55850B"
         },
         {
-          "product_code": "55850A",
-          "satellite_code": "00100",
+          "mpn": "DOL P G8ME",
           "country": "USA",
-          "mpn": "DOL P G8ME"
+          "satellite_code": "00102",
+          "product_code": "55850C",
+          "notes": "Best Seller, Player's Choice"
         },
         {
-          "product_code": "56434A",
-          "satellite_code": "00000",
+          "product_code": "56433B",
+          "satellite_code": "00001",
           "country": "Japan",
           "mpn": "DOL P G8ME",
           "notes": "Best Seller"
@@ -406,6 +399,13 @@
           "country": "USA",
           "mpn": "DOL P G8ME",
           "notes": "Best Seller, Player's Choice, Canadian release"
+        },
+        {
+          "product_code": "56434A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "mpn": "DOL P G8ME",
+          "notes": "Best Seller, Canadian release"
         }
       ]
     },
