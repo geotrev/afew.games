@@ -46,4 +46,6 @@ W﻿ith all this information in mind, how can we truly identify a first print? T
 * P﻿roduct code has an `A` suffix, indicating it is the first version of the given print
 * C﻿ompare artwork to identify old and new details. This can include: dates, logos, and other distinct differences
 
-T﻿here can still be exceptions though. For instance, Japan and USA printed copies can have product codes only one number apart (i.e., `10101A` vs `10102A`). As is the case with games Super Smash Bros. Melee, the Japan variant is still recognized as having the earliest print run (even though it was partially in parallel with the USA version).
+T﻿here are still be exceptions though. For instance, Japan and USA printed copies can have product codes only one number apart (i.e., `10101A` vs `10102A`). As is the case with games Super Smash Bros. Melee, the Japan variant is still recognized as having the earliest print run (even though it was partially in parallel with the USA version).
+
+I﻿f you made it to the end of this extensive post, thank you! Feel free to reach out if you find any inaccuracies or have more info you think would help.
