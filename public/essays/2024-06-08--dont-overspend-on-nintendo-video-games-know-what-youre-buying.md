@@ -34,7 +34,9 @@ You might also see another misconception, which is that Japan printed games are 
 
 ## F﻿ollow The Data
 
-R﻿ecently I came across a fantastic technical design document, source unknown, but shown to me by a member of the collecting community. This document (or one very similar) is what Nintendo would have sent to manufacturers and publishers to align their games with the Nintendo brand and image. I recommend taking a close look, especially at the descriptions of codes.
+T﻿o wrap things up, let's arm ourselves with enough knowledge to correctly identify some modern games!
+
+R﻿ecently, I came across a seemingly authentic Nintendo GameCube technical design document, source unknown, but shown to me by a member of the collecting community. This document is what Nintendo would have sent to manufacturers and publishers to align their game packaging with Nintendo's brand/image. I recommend taking a close look, especially at the descriptions of codes.
 
 ![Nintendo GameCube video game technical design document](/uploads/2024-06-08-18_05_25-2024-06-08-18_04_38-arc.png.png)
 
