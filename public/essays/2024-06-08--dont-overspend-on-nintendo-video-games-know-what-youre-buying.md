@@ -8,6 +8,8 @@ Way back in July, 2022, the [first post](https://www.afew.games/essays/decoding-
 
 > **N﻿OTE:** It isn't my intention to paint Heritage Auctions or any seller as intentionally misleading buyers. Instead, it's to show how easy it is to mis-identify an item due to the complex nature of mass-production and manufacturing.
 
+T﻿o start, we'll discuss why some modern games sell for so much, and why collectors want them. We'll review some pitfalls that exist in the current collecting landscape, including misconceptions, and close with clarity on how to best identify modern first print games for your own collection in spite of the challenges.
+
 ## C﻿ollector Motivations
 
 What is a key factor for collectors buying video games? Often it's the print run. Earlier prints tend to be most sought after for a few reasons, but most importantly: they're always less available than those from subsequent print runs.
