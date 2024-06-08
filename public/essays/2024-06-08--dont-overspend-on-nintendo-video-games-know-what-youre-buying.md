@@ -38,6 +38,8 @@ R﻿ecently I came across a fantastic technical design document, source unknown,
 
 ![Nintendo GameCube video game technical design document](/uploads/2024-06-08-18_05_25-2024-06-08-18_04_38-arc.png.png)
 
+*(﻿Right click and select "Open image in new tab" to see the full size)*
+
 W﻿ith all this information in mind, how can we truly identify a first print? The answer is unsatisfying, but here is my recommended approach:
 
 * Product code is the lowest number among a sample of known prints
