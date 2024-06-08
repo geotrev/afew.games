@@ -10,7 +10,7 @@ To start, let's do a quick recap. What is a key factor for collectors buying vid
 
 For a price comparison, let's look at *The Legend of Zelda: Breath of the Wild* for *Nintendo Switch*. In this Thursday's HA auction, you'll find this game sold in mint grade for vastly different prices. [The first print](https://comics.ha.com/itm/video-games/nintendo/the-legend-of-zelda-breath-of-the-wild-vga-95-mint-sealed-105211a-first-production-switch-nintendo-2017-usa/a/44255-79042.s?ic4=GalleryView-Thumbnail-071515) (`105211A` product code) sold for $6250 (including buyer's premium). A later print, [Explorer's Guide variant](https://comics.ha.com/itm/video-games/nintendo/the-legend-of-zelda-breath-of-the-wild-vga-95-mint-sealed-starter-pack-switch-nintendo-2018-usa/a/44255-79045.s?ic4=GalleryView-ShortDescription-071515), sold in the same grade but for $937.50.
 
-T﻿he difference in price is no joke, so it's important to understand these print differences and to identify them before buying.
+T﻿he difference in price is no joke, so it's important to understand these print differences and to identify them before buying
 
 So what happens when people seem to have a first print, but actually don't? It happens everywhere, unfortunately.
 
@@ -20,6 +20,8 @@ H﻿A isn't alone in misidentifying these games, however. You can find plenty on
 
 A﻿nother well intentioned, but misinformed, factor I've seen is misattributing the satellite code (five digit, secondary UPC) on the game as solely indicating a first print. In all the examples I've shown above, they have `00000` satellite codes, but now you know a first print and later print can both have this code.
 
+L﻿astly, you will likely see another misconception, which is that Japan printed games are always printed first. Which true in some cases (Super Smash Bros. Melee, Wind Waker), it isn't in others (Paper Mario TTYD, New Super Mario Bros Wii, Super Mario Bros for Wii U, and Mario Kart 8).
+
 W﻿ith all this information in mind, how can we truly identify a first print? The answer is unfortunately unsatisfying, but here is my recommended approach:
 
 * Product code is the lowest number among a sample of known prints
@@ -27,5 +29,3 @@ W﻿ith all this information in mind, how can we truly identify a first print? T
 * C﻿ompare artwork to identify old and new details. This can include: dates, logos, and other distinct differences
 
 T﻿here can still be exceptions though. For instance, Japan and USA printed copies can have product codes only one number apart (i.e., `10101A` vs `10102A`). As is the case with games Super Smash Bros. Melee, the Japan variant is still recognized as having the earliest print run (even though it was partially in parallel with the USA version).
-
-D﻿ifferent consoles also brought in the era of changing Japan
