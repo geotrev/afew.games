@@ -32,7 +32,7 @@ L﻿astly, you will likely see another misconception, which is that Japan printe
 
 R﻿ecently I came across a fantastic technical design document, source unknown, but shown to me by a member of the collecting community. This document (or one very similar) is what Nintendo would have sent to manufacturers and publishers to align their games with the Nintendo brand and image. I recommend taking a close look, especially at the descriptions of codes.
 
-
+![Nintendo GameCube video game technical design document](/uploads/2024-06-08-18_05_25-2024-06-08-18_04_38-arc.png.png)
 
 W﻿ith all this information in mind, how can we truly identify a first print? The answer is unsatisfying, but here is my recommended approach:
 
