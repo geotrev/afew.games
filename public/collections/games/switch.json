@@ -50,6 +50,12 @@
       "name": "Mario Kart 8 Deluxe",
       "variants": [
         {
+          "country": "Japan",
+          "product_code": "113550A",
+          "satellite_code": "00000",
+          "notes": "NFR, English & French"
+        },
+        {
           "product_code": "105278A",
           "satellite_code": "00000",
           "country": "Japan",
