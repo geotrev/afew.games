@@ -8,7 +8,7 @@ Way back in July, 2022, the [first post](https://www.afew.games/essays/decoding-
 
 > **N﻿OTE:** It isn't my intention to paint Heritage Auctions or any seller as intentionally misleading buyers. Instead, it's to show how easy it is to mis-identify an item due to the complex nature of mass-production and manufacturing.
 
-T﻿o start, we'll discuss why some modern games sell for so much, and why collectors want them. We'll review some pitfalls that exist in the current collecting landscape, including misconceptions, and close with clarity on how to best identify modern first print games for your own collection in spite of the challenges.
+T﻿o start, we'll discuss why some modern games sell for so much, and why collectors want them. We'll review some pitfalls that exist in the current collecting landscape, including misconceptions, and close with clarity on how to best identify modern first print games for your own collection in spite of the many challenges.
 
 ## C﻿ollector Motivations
 
@@ -42,11 +42,11 @@ R﻿ecently, I came across a seemingly authentic Nintendo GameCube technical des
 
 *(﻿Right click and select "Open image in new tab" to see the full size)*
 
-W﻿ith all this information in mind, how can we truly identify a first print? The answer is unsatisfying, but here is my recommended approach:
+W﻿ith all this information in mind, how can we *more reliably* identify a first print? The answer is unsatisfying, but here is my recommended approach:
 
 * Product code is the lowest number among a sample of known prints
 * P﻿roduct code has an `A` suffix, indicating it is the first version of the given print
-* C﻿ompare artwork to identify old and new details. This can include: dates, logos, and other distinct differences
+* Examine artwork to identify old and new details. This can include: dates, logos, and other distinct differences. Pro tip: I like to get relatively high resolution images of multiple prints of a game, and layer them in Photoshop. I hide/show the layers which often makes it easy to identify discrete differences.
 
 T﻿here are still be exceptions though. For instance, Japan and USA printed copies can have product codes only one number apart (i.e., `10101A` vs `10102A`). As is the case with games Super Smash Bros. Melee, the Japan variant is still recognized as having the earliest print run (even though it was partially in parallel with the USA version).
 
