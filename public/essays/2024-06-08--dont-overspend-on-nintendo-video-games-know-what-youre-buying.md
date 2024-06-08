@@ -28,7 +28,13 @@ A﻿nother well intentioned, but misinformed, factor I've seen is misattributing
 
 L﻿astly, you will likely see another misconception, which is that Japan printed games are always printed first. While true in some cases (*Super Smash Bros. Melee*, *Wind Waker*), it isn't in others (*Paper Mario: The Thousand Year Door*, *New Super Mario Bros Wii*, *Super Mario Bros for Wii U*, and *Mario Kart 8*).
 
-W﻿ith all this information in mind, how can we truly identify a first print? The answer is unfortunately unsatisfying, but here is my recommended approach:
+## F﻿ollow The Data
+
+R﻿ecently I came across a fantastic technical design document, source unknown, but shown to me by a member of the collecting community. This document (or one very similar) is what Nintendo would have sent to manufacturers and publishers to align their games with the Nintendo brand and image. I recommend taking a close look, especially at the descriptions of codes.
+
+
+
+W﻿ith all this information in mind, how can we truly identify a first print? The answer is unsatisfying, but here is my recommended approach:
 
 * Product code is the lowest number among a sample of known prints
 * P﻿roduct code has an `A` suffix, indicating it is the first version of the given print
