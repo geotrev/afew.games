@@ -1,8 +1,7 @@
 ---
 publish_date: 2024-06-08
 title: "Don't Overspend On Nintendo Video Games: Know What You're Buying!"
-description: Collector's love a good first print, but how do you know that's
-  what you're buying?
+description: It's dangerous out there, take this information!
 ---
 Way back in July, 2022, the [first post](https://www.afew.games/essays/decoding-modern-nintendo-print-variants) I wrote on this blog was a breakdown of modern Nintendo video game variants. Given the recent [Sixth Generation & Beyond Showcase Auction](https://comics.ha.com/c/auction-home.zx?saleNo=44255&ic=breadcrumb-comics-121913-interior) over at Heritage Auctions this week, I think it's a great time for a refresher (and word of caution) to those buying these games. Especially to be informed of what you're buying to save yourself from overspending on a game that's been misrepresented to you in the marketplace.
 
