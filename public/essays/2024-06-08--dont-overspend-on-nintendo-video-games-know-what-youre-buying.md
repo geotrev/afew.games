@@ -5,7 +5,7 @@ description: It's dangerous out there, take this information!
 ---
 Way back in July, 2022, the [first post](https://www.afew.games/essays/decoding-modern-nintendo-print-variants) I wrote on this blog was a breakdown of modern Nintendo video game variants. Given the recent [Sixth Generation & Beyond Showcase Auction](https://comics.ha.com/c/auction-home.zx?saleNo=44255&ic=breadcrumb-comics-121913-interior) over at Heritage Auctions this week, I think it's a great time for a refresher (and word of caution) to those buying these games. Especially to be informed of what you're buying to save yourself from overspending on a game that's been misrepresented to you in the marketplace.
 
-_**N﻿OTE:** It isn't my intention to paint Heritage Auctions or any seller as intentionally misleading buyers. Instead, it's to show how easy it is to mis-identify an item due to the complex nature of mass-production and manufacturing._
+_**N﻿OTE:** It isn't my intention to paint Heritage Auctions or any seller as intentionally misleading buyers. Instead, it's to show how easy it is to mis-identify an item due to the complex nature of mass-production and manufacturing. Separately, all prices noted in this article are based on the time of publishing. Live listings may see price fluctuations._
 
 T﻿o start, we'll discuss why some modern games sell for so much, and why collectors want them. We'll review some pitfalls that exist in the current collecting landscape, including misconceptions, and close with clarity on how to best identify modern first print games for your own collection in spite of the many challenges.
 
