@@ -50,6 +50,6 @@ W﻿ith all this information in mind, how can we *more reliably* identify a firs
 
   * Look at dates, logos, and key art. Pro tip: I like to get relatively high resolution images of multiple prints of a game, and layer them in Photoshop. I hide/show the layers which often makes it easy to identify discrete differences.
 
-T﻿here are still be exceptions though. For instance, Japan and USA printed copies can have product codes only one number apart (i.e., `10101A` vs `10102A`). As is the case with games Super Smash Bros. Melee, the Japan variant is still recognized as having the earliest print run (even though it was partially in parallel with the USA version).
+T﻿here are still exceptions, even with the above approach. For instance, Japan and USA printed copies can have product codes only one number apart (i.e., USA `10101A` vs Japan `10102A`). As is the case with games like *Wind Waker*, the Japan variant is still recognized as having the earliest print run (even though it was likely partially printed in parallel with the USA version) and technically has one digit higher product code.
 
 I﻿f you made it to the end of this extensive post, thank you! Feel free to reach out if you find any inaccuracies or have more info you think would help.
