@@ -52,4 +52,4 @@ W﻿ith all this information in mind, how can we *more reliably* identify a firs
 
 T﻿here are still exceptions, even with the above approach. For instance, Japan and USA printed copies can have product codes only one number apart (i.e., USA `10101A` vs Japan `10102A`). As is the case with games like *Wind Waker*, the Japan variant is still recognized as having the earliest print run (even though it was likely partially printed in parallel with the USA version) and technically has one digit higher product code.
 
-I﻿f you made it to the end of this extensive post, thank you! Feel free to reach out if you find any inaccuracies or have more info you think would help.
+I﻿f you made it to the end of this extensive post, thank you! Feel free to reach out if you find any inaccuracies or think further clarity is needed on a given topic. It's my hope you feel ready to research and buy modern Nintendo games using this information!
