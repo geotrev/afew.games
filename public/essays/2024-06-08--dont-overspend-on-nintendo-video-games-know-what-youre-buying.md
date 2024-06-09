@@ -46,7 +46,9 @@ W﻿ith all this information in mind, how can we *more reliably* identify a firs
 
 * Product code is the lowest number among a sample of known prints
 * P﻿roduct code has an `A` suffix, indicating it is the first version of the given print
-* Examine artwork to identify old and new details. This can include: dates, logos, and other distinct differences. Pro tip: I like to get relatively high resolution images of multiple prints of a game, and layer them in Photoshop. I hide/show the layers which often makes it easy to identify discrete differences.
+* Examine artwork to identify old and new details.
+
+  * Look at dates, logos, and key art. Pro tip: I like to get relatively high resolution images of multiple prints of a game, and layer them in Photoshop. I hide/show the layers which often makes it easy to identify discrete differences.
 
 T﻿here are still be exceptions though. For instance, Japan and USA printed copies can have product codes only one number apart (i.e., `10101A` vs `10102A`). As is the case with games Super Smash Bros. Melee, the Japan variant is still recognized as having the earliest print run (even though it was partially in parallel with the USA version).
 
