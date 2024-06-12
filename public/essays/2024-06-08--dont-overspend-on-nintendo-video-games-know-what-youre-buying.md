@@ -23,13 +23,13 @@ In the same auction as the aforementioned first Breath of the Wild, a "first pri
 
 Heritage isn't alone in misidentifying these games. You can find plenty of games, where even the graders correctly identify the codes/variant of a game, but since they don't outright tell you it's a first print, sellers misinterpret that information. Take [this Mario Kart 8 Deluxe](https://www.ebay.com/itm/115932572041) for example, which was printed in 2020 (`113550A` product code), listed for $900. Similar to the Heritage example, it appears as a first print, but this is actually the *"Not For Resale"* variant [included with Super Mario Party](https://www.target.com/p/mario-kart-8-deluxe-super-mario-party-double-pack-nintendo-switch/-/A-80960673#lnk=sametab).
 
-This *Mario Kart 8 Deluxe* listing is also relevant now because a true first print copy [sold this week](https://comics.ha.com/c/auction-home.zx?saleNo=44255&ic=breadcrumb-comics-121913-interior) in the same grade... for $1156.25. Someone might see this sale, then later look at the eBay listing above thinking its a steal, but **these are not the same item!**
+This *Mario Kart 8 Deluxe* listing is also relevant now because a true first print copy [sold this week](https://comics.ha.com/c/auction-home.zx?saleNo=44255&ic=breadcrumb-comics-121913-interior) in the same grade... for $1156.25. Someone might see this sale, then later look at the eBay listing above thinking its a steal, but **these are not the same item.**
 
 ## Common Misconceptions
 
 A well intentioned, but misinformed factor I've seen is misattributing the satellite code (five digit, secondary UPC) on the game as solely indicating a first print. In all the examples I've shown above, they have `00000` satellite codes, but now you know a first print and later print can both have this code, and shouldn't be relied upon in isolation.
 
-You might also see another misconception, which is that Japan printed games are always printed first. While true in *some* cases (*Super Smash Bros. Melee* and *The Legend of Zelda: The Wind Waker*), many still have USA first prints (*Paper Mario: The Thousand Year Door*, *New Super Mario Bros Wii*, *Super Mario Bros for Wii U*, and *Mario Kart 8*).
+You might also see another misconception, which is that Japan printed games are always printed first. While true in *some* cases (*Super Smash Bros. Melee* and *The Legend of Zelda: The Wind Waker*), many still have USA first prints (*Paper Mario: The Thousand Year Door*, *New Super Mario Bros Wii*, *Super Smash Bros for Wii U*, and *Mario Kart 8*).
 
 ## F﻿ollow The Data
 
