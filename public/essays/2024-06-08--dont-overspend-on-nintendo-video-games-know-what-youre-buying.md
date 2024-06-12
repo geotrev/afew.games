@@ -29,7 +29,7 @@ This *Mario Kart 8 Deluxe* listing is also relevant now because a true first pri
 
 A well intentioned, but misinformed factor I've seen is misattributing the satellite code (five digit, secondary UPC) on the game as solely indicating a first print. In all the examples I've shown above, they have `00000` satellite codes, but now you know a first print and later print can both have this code, and shouldn't be relied upon in isolation.
 
-You might also see another misconception, which is that Japan printed games are always printed first. While true in *some* cases (*Super Smash Bros. Melee* and *The Legend of Zelda: The Wind Waker*), many still have USA first prints (*Paper Mario: The Thousand Year Door*, *New Super Mario Bros Wii*, *Super Mario Bros for Wii U*, and *Mario Kart 8*).
+You might also see another misconception, which is that Japan printed games are always printed first. While true in *some* cases (*Super Smash Bros. Melee* and *The Legend of Zelda: The Wind Waker*), many still have USA first prints (*Paper Mario: The Thousand Year Door*, *New Super Mario Bros Wii*, *Super Smash Bros for Wii U*, and *Mario Kart 8*).
 
 ## F﻿ollow The Data
 
