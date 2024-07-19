@@ -2,6 +2,22 @@
   "platform": "Switch",
   "games": [
     {
+      "name": "Nintendo World Championships: NES Edition",
+      "variants": [
+        {
+          "product_code": "121329A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "notes": "NFR, 121053 (SKU)"
+        },
+        {
+          "notes": "Deluxe Set (big box), Art Cards Made in USA, 121051 (SKU) (English & Spanish)",
+          "product_code": "121066A",
+          "country": "Japan"
+        }
+      ]
+    },
+    {
       "name": "Metroid Prime Remastered",
       "variants": [
         {
