@@ -1,9 +1,6 @@
 "use client"
 
-import {
-  useCallback,
-  ReactElement,
-} from "react"
+import { useCallback, ReactElement } from "react"
 import propTypes from "prop-types"
 import { PaginationProps } from "./types"
 import { PaginationListItems } from "./pagination-list-items"
@@ -93,7 +90,7 @@ export function Pagination(props: PaginationProps): ReactElement | null {
           <button
             className={BUTTON_CLASSNAMES}
             onKeyDown={(e) => e.stopPropagation()}
-            aria-disabled={activePageIndex === 0 ? true : undefined}
+            disabled={activePageIndex === 0 ? true : undefined}
             onClick={onFirstPageClick}
             aria-label="Goto First Page"
           >
@@ -102,7 +99,7 @@ export function Pagination(props: PaginationProps): ReactElement | null {
           <button
             className={BUTTON_CLASSNAMES}
             onKeyDown={(e) => e.stopPropagation()}
-            aria-disabled={activePageIndex === 0 ? true : undefined}
+            disabled={activePageIndex === 0 ? true : undefined}
             onClick={onPreviousClick}
           >
             Newer
@@ -115,7 +112,7 @@ export function Pagination(props: PaginationProps): ReactElement | null {
           <button
             className={BUTTON_CLASSNAMES}
             onKeyDown={(e) => e.stopPropagation()}
-            aria-disabled={lastPageIdx === activePageIndex ? true : undefined}
+            disabled={lastPageIdx === activePageIndex ? true : undefined}
             onClick={onNextClick}
           >
             Older
@@ -123,7 +120,7 @@ export function Pagination(props: PaginationProps): ReactElement | null {
           <button
             className={BUTTON_CLASSNAMES}
             onKeyDown={(e) => e.stopPropagation()}
-            aria-disabled={activePageIndex === count - 1 ? true : undefined}
+            disabled={activePageIndex === count - 1 ? true : undefined}
             onClick={onLastPageClick}
             aria-label="Goto Last Page"
           >
