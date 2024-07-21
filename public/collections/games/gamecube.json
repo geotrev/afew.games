@@ -2,6 +2,22 @@
   "platform": "GameCube",
   "games": [
     {
+      "name": "Harvest Moon: Another Wonderful Life",
+      "variants": [
+        {
+          "notes": "Corrected UPC",
+          "country": "USA",
+          "product_code": "",
+          "satellite_code": ""
+        },
+        {
+          "mpn": "DOL P G4GE",
+          "notes": "\"Wave Race: Blue Storm\" UPC Error",
+          "country": "USA"
+        }
+      ]
+    },
+    {
       "name": "Bundles",
       "variants": [
         {
