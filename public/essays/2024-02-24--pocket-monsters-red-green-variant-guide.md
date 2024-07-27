@@ -8,7 +8,7 @@ Greetings friends! This post is a researched guide on what I currently think are
 
 I hope you find it useful!
 
-*NOTE: This post is supplemental to the database. To see a list of first generation* Pocket Monsters *print variants as they exist on A Few Games, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy). A full list of sources can be found at the end of this post.*
+***NOTE**: This post is supplemental to the database. To see a list of first generation* Pocket Monsters *print variants as they exist on A Few Games, [view them here](https://www.afew.games/?search=pocket+monsters&platform=game+boy). A full list of sources can be found at the end of this post.*
 
 ![Pocket Monsters Red and Green, front and back](/uploads/red-green-hero.jpg)
 
