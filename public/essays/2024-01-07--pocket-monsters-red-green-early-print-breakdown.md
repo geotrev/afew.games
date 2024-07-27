@@ -16,15 +16,15 @@ With the help of packaging references, official *Nintendo* interviews, and produ
 
 ## Box
 
-Early versions of both *Red* and *Green* version had wider barcodes compared to later prints.
+T﻿here are two box prints to watch out for: pre-order (large UPC) and post-launch (small UPC) productions. Large UPC variants were part of the original 230,000 production run of Red and Green ([update](https://www.afew.games/essays/pocket-monsters-red-green-variant-updates)).
 
-![Green version: early print (left) and later print (right)](/uploads/green-box-early-and-late.png)
+![Green version: pre-order production (left) and launch production (right)](/uploads/green-box-early-and-late.png)
 
-Green *version: early print (left) and later print (right)*
+Green *version: pre-order production (left) and launch production (right)*
 
-![Red version: early print (left) and later print (right)](/uploads/red-box-early-and-late.png)
+![Red version: pre-order production (left) and launch production (right)](/uploads/red-box-early-and-late.png)
 
-Red *version: early print (left) and later print (right)*
+Red *version: pre-order production (left) and launch production (right)*
 
 ## Contents
 
@@ -141,6 +141,8 @@ I hope this dive down history lane was fun! It makes for an interesting hunt whe
 ## Sources
 
 * [The Mikaifu Collection](https://www.instagram.com/mikaifucollection/) - General timeline information
+
+  * [U﻿pdated production info](https://www.afew.games/essays/pocket-monsters-red-green-variant-updates)
 * Thaane (via SACK Discord server) – Photos & production code data
 * pokemon1gb2rgbp.wiki.fc2.com/ [[1](https://pokemon1gb2rgbp.wiki.fc2.com/)] [[2](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/初期版・後期版の違い)]
 * nintendo.co.jp [[1](https://www.nintendo.co.jp/n02/dmg/apajapbj/index.html)] [[2](https://www.nintendo.co.jp/n02/dmg/apej/index.html)] [[3](https://www.nintendo.co.jp/n02/dmg/apsj/index.html)]
