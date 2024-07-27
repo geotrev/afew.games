@@ -115,19 +115,24 @@
       "name": "Pocket Monsters: Red (Japanese)",
       "variants": [
         {
-          "notes": "Large UPC, Super Game Boy and Feedback Survey Inserts, 22 code (cartridge)",
-          "mpn": "DMG-APBJ-JPN",
+          "notes": "Pre-Order Production (Large UPC), Super Game Boy and Feedback Survey Inserts, 22 code (cartridge)",
+          "mpn": "DMG-APAJ-JPN",
           "country": "Japan"
         },
         {
+          "notes": "Launch Production (Small UPC), Super Game Boy and Feedback Survey Inserts, 22 code (cartridge)",
           "country": "Japan",
-          "mpn": "DMG-APBJ-JPN",
+          "mpn": "DMG-APAJ-JPN"
+        },
+        {
+          "country": "Japan",
+          "mpn": "DMG-APAJ-JPN",
           "notes": "Super Game Boy insert, 00/20/22 code (cartridge)"
         },
         {
           "notes": "1 code (manual)",
           "country": "Japan",
-          "mpn": "DMG-APBJ-JPN"
+          "mpn": "DMG-APAJ-JPN"
         }
       ]
     },
@@ -135,9 +140,14 @@
       "name": "Pocket Monsters: Green (Japanese)",
       "variants": [
         {
-          "notes": "Large UPC, Super Game Boy insert and Feedback Survey Inserts, 00 code (cartridge)",
+          "notes": "Pre-Order Production (Large UPC), Super Game Boy insert and Feedback Survey Inserts, 00 code (cartridge)",
           "country": "Japan",
           "mpn": "DMG-APBJ-JPN"
+        },
+        {
+          "notes": "Launch Production (Small UPC), Super Game Boy and Feedback Survey Inserts, 00 code (cartridge)",
+          "mpn": "DMG-APBJ-JPN",
+          "country": "Japan"
         },
         {
           "country": "Japan",
