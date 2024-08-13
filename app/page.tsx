@@ -19,14 +19,16 @@ const platformList = getPlatformList()
 export default function Page() {
   return (
     <>
-      <div className="prose max-w-full">
+      <div className="prose mb-6 max-w-full">
         <PageHeading>Database</PageHeading>
+      </div>
+      <DatabaseWrapper platformList={platformList} />
+      <div className="divider" role="separator" />
+      <div className="prose max-w-full">
         <p>
-          <strong>
-            This tool tracks video game variants
-          </strong>
-          , primarily for boxes, but inner contents are noted when appropriate. International regions
-          are specified in a game&apos;s title or notes.
+          <strong>This tool tracks video game variants</strong>, primarily for
+          boxes, but inner contents are noted when appropriate. International
+          regions are specified in a game&apos;s title or notes.
         </p>
         <p>
           Looking for the complete data used by this search tool? It is{" "}
@@ -56,8 +58,6 @@ export default function Page() {
           No account required. Credits are listed near the footer of this page.
         </p>
       </div>
-      <div className="divider" role="separator" />
-      <DatabaseWrapper platformList={platformList} />
       <div className="divider" role="separator" />
       <div className="prose max-w-full">
         <p className="font-bold">♥ Database Contributors</p>

@@ -15,11 +15,8 @@ export function PaginationListItems({
         return (
           <button
             className={cn(
-              "btn-xs btn !h-auto !min-h-0 rounded-md py-3 md:btn-md",
-              {
-                "btn-primary": isActive,
-                "btn-ghost": !isActive,
-              }
+              "btn btn-xs !h-auto !min-h-0 rounded-md py-3 md:btn-md",
+              { "btn-primary": isActive, "btn-ghost": !isActive }
             )}
             key={label}
             data-pagination-index={idx}
