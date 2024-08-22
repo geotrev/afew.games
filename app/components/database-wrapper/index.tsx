@@ -19,6 +19,7 @@ import { GameList } from "./GameList"
 import { StateMessages } from "./StateMessages"
 import { CountDropdown } from "./CountDropdown"
 import { LoadMoreButton } from "./LoadMorebutton"
+import { DEFAULT_THEME, ThemeProvider } from "@zendeskgarden/react-theming"
 
 interface DatabaseWrapperProps {
   platformList: string[]
@@ -163,7 +164,12 @@ export function DatabaseWrapper({ platformList }: DatabaseWrapperProps) {
   }
 
   return (
-    <>
+    <ThemeProvider
+      theme={{
+        ...DEFAULT_THEME,
+        colors: { ...DEFAULT_THEME.colors, base: "dark" },
+      }}
+    >
       <Search
         label="Search for games"
         handleChange={handleSearchChange}
@@ -205,6 +211,6 @@ export function DatabaseWrapper({ platformList }: DatabaseWrapperProps) {
         filteredGameCount={filteredGameCount}
         setFilterValue={setFilterValue}
       />
-    </>
+    </ThemeProvider>
   )
 }

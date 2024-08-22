@@ -5,18 +5,21 @@ import { RouteTracker } from "./components/route-tracker"
 import { App } from "./app"
 
 import "styles/globals.css"
+import StyledComponentsRegistry from "./StyledComponentsRegistry"
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-blue-1100">
       <head>
         <meta
           name="keywords"
           content="Video Games, Games, Collectibles, Graded Games, Sealed Video Games"
         />
       </head>
-      <body>
-        <App>{children}</App>
+      <body className="text-grey-200">
+        <StyledComponentsRegistry>
+          <App>{children}</App>
+        </StyledComponentsRegistry>
 
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`}

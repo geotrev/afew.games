@@ -19,12 +19,10 @@ const platformList = getPlatformList()
 export default function Page() {
   return (
     <>
-      <div className="prose mb-6 max-w-full">
-        <PageHeading>Database</PageHeading>
-      </div>
+      <PageHeading>Database</PageHeading>
       <DatabaseWrapper platformList={platformList} />
       <div className="divider" role="separator" />
-      <div className="prose max-w-full">
+      <div className="max-w-full">
         <p>
           <strong>This tool tracks video game variants</strong>, primarily for
           boxes, but inner contents are noted when appropriate. International
@@ -59,7 +57,7 @@ export default function Page() {
         </p>
       </div>
       <div className="divider" role="separator" />
-      <div className="prose max-w-full">
+      <div className="max-w-full">
         <p className="font-bold">♥ Database Contributors</p>
         <p>
           {contributorData.contributors

@@ -31,6 +31,11 @@
     "@mailchimp/mailchimp_marketing": "^3.0.80",
     "@octokit/core": "^6.0.0",
     "@tailwindcss/typography": "^0.5.10",
+    "@zendeskgarden/react-buttons": "^9.0.0-next.22",
+    "@zendeskgarden/react-theming": "^9.0.0-next.22",
+    "@zendeskgarden/react-typography": "^9.0.0-next.22",
+    "@zendeskgarden/svg-icons": "^7.2.0",
+    "@zendeskgarden/tailwindcss": "^4.0.0-next.0",
     "classnames": "^2.5.1",
     "crypto-js": "^4.2.0",
     "daisyui": "^4.4.24",
@@ -47,6 +52,7 @@
     "react-dom": "^18.2.0",
     "react-google-recaptcha-v3": "^1.10.1",
     "react-tooltip": "^5.25.1",
+    "styled-components": "^5.3.11",
     "xss": "^1.0.14"
   },
   "devDependencies": {

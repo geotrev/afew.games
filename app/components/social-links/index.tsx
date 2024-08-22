@@ -3,9 +3,8 @@ import Link from "next/link"
 
 export function SocialLinks() {
   return (
-    <span className="flex gap-2">
+    <>
       <Link
-        className="btn btn-ghost btn-sm flex items-center py-0.5"
         href="https://github.com/geotrev/afew.games"
         target="_blank"
         rel="noopener noreferrer"
@@ -20,7 +19,6 @@ export function SocialLinks() {
         />
       </Link>
       <Link
-        className="btn btn-success btn-sm block py-0.5"
         href="https://buymeacoffee.com/afew.games"
         target="_blank"
         rel="noopener noreferrer"
@@ -43,6 +41,6 @@ export function SocialLinks() {
           />
         </picture>
       </Link>
-    </span>
+    </>
   )
 }

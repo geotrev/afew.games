@@ -2,9 +2,10 @@
 
 import { usePathname } from "next/navigation"
 import Image from "next/image"
-import cn from "classnames"
+import { DEFAULT_THEME, ThemeProvider } from "@zendeskgarden/react-theming"
 import Logo from "./afewgames.svg"
 import { SocialLinks } from "../social-links"
+import Link from "next/link"
 
 const Routes = {
   HOME_PATH: "/",
@@ -34,37 +35,38 @@ export function SiteHeader() {
   const pathname = usePathname()
 
   return (
-    <header className="navbar items-start bg-transparent px-0 pb-8 pt-0">
-      <div className="flex-1" itemScope itemType="https://schema.org/Blog">
-        <a
-          href={Routes.HOME_PATH}
-          className="btn btn-ghost h-auto w-16 p-0 hover:bg-transparent md:w-24"
-        >
-          <Image alt="A Few Games" src={Logo} width={94} height={76} />
-        </a>
-      </div>
-      <nav className="flex flex-col items-end gap-4">
-        <div className="tabs-boxed tabs tabs-xs gap-2 sm:tabs-sm md:tabs-md">
+    <ThemeProvider
+      theme={{
+        ...DEFAULT_THEME,
+        colors: { ...DEFAULT_THEME.colors, base: "dark" },
+      }}
+    >
+      <header className="flex items-start bg-transparent px-0 pb-8 pt-0">
+        <div className="flex-1" itemScope itemType="https://schema.org/Blog">
+          <Link
+            href={Routes.HOME_PATH}
+            className="h-auto w-16 p-0 hover:bg-transparent md:w-24"
+          >
+            <Image alt="A Few Games" src={Logo} width={94} height={76} />
+          </Link>
+        </div>
+        <nav className="flex flex-row items-center gap-4">
           {NavigationItems.map(({ label, isActive, route }) => {
             const active = isActive(pathname)
 
             return (
-              <a
+              <Link
                 key={label}
                 href={route}
                 aria-current={active ? "true" : undefined}
-                className={cn("tab font-bold", {
-                  "tab-active": active,
-                  "text-neutral-content": !active,
-                })}
               >
                 {label}
-              </a>
+              </Link>
             )
           })}
-        </div>
-        <SocialLinks />
-      </nav>
-    </header>
+          <SocialLinks />
+        </nav>
+      </header>
+    </ThemeProvider>
   )
 }
