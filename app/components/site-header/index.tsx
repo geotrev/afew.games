@@ -1,7 +1,6 @@
 "use client"
 
 import { usePathname } from "next/navigation"
-import { DEFAULT_THEME, ThemeProvider } from "@zendeskgarden/react-theming"
 import Logo from "./afewgames.svg"
 import { SocialLinks } from "../social-links"
 import Link from "next/link"
@@ -34,43 +33,36 @@ export function SiteHeader() {
   const pathname = usePathname()
 
   return (
-    <ThemeProvider
-      theme={{
-        ...DEFAULT_THEME,
-        colors: { ...DEFAULT_THEME.colors, base: "dark" },
-      }}
-    >
-      <header className="flex items-start bg-transparent px-0 pb-8 pt-0">
-        <div className="flex-1" itemScope itemType="https://schema.org/Blog">
-          <Link
-            href={Routes.HOME_PATH}
-            className="h-auto w-16 p-0 hover:bg-transparent md:w-24"
-          >
-            <Logo />
-            <span className="sr-only">Go to home page</span>
-          </Link>
-        </div>
-        <nav className="flex flex-col gap-6 md:flex-row">
-          <div className="flex items-center gap-6">
-            {NavigationItems.map(({ label, isActive, route }) => {
-              const active = isActive(pathname)
+    <header className="flex items-start bg-transparent px-0 pb-8 pt-0">
+      <div className="flex-1" itemScope itemType="https://schema.org/Blog">
+        <Link
+          href={Routes.HOME_PATH}
+          className="h-auto w-16 p-0 hover:bg-transparent md:w-24"
+        >
+          <Logo />
+          <span className="sr-only">Go to home page</span>
+        </Link>
+      </div>
+      <nav className="flex flex-col gap-6 md:flex-row">
+        <div className="flex items-center gap-6">
+          {NavigationItems.map(({ label, isActive, route }) => {
+            const active = isActive(pathname)
 
-              return (
-                <Link
-                  key={label}
-                  href={route}
-                  aria-current={active ? "true" : undefined}
-                >
-                  {label}
-                </Link>
-              )
-            })}
-          </div>
-          <div className="flex items-center justify-end gap-6">
-            <SocialLinks />
-          </div>
-        </nav>
-      </header>
-    </ThemeProvider>
+            return (
+              <Link
+                key={label}
+                href={route}
+                aria-current={active ? "true" : undefined}
+              >
+                {label}
+              </Link>
+            )
+          })}
+        </div>
+        <div className="flex items-center justify-end gap-6">
+          <SocialLinks />
+        </div>
+      </nav>
+    </header>
   )
 }
