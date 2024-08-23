@@ -1,5 +1,8 @@
 "use client"
 
+import styled from "styled-components"
+import { Field, Select } from "@zendeskgarden/react-forms"
+import { getColor } from "@zendeskgarden/react-theming"
 import { ChangeEventHandler } from "react"
 
 interface CountDropdownProps {
@@ -8,6 +11,10 @@ interface CountDropdownProps {
   selectedCount: string
   handleCountSelect: ChangeEventHandler<HTMLSelectElement>
 }
+
+const StyledOption = styled.option`
+  color: ${(p) => getColor({ hue: "neutralHue", shade: 1100, theme: p.theme })};
+`
 
 export const CountDropdown = ({
   totalGameCount,
@@ -18,20 +25,22 @@ export const CountDropdown = ({
   if (totalGameCount <= 0 || isLoading) return null
 
   return (
-    <div className="flex justify-end">
-      <label className="label pe-4">Games shown</label>
-      <select
-        value={selectedCount}
-        name="quantity"
-        onChange={handleCountSelect}
-        className="select select-bordered"
-      >
-        <option value="10">10</option>
-        <option value="25">25</option>
-        <option value="50">50</option>
-        <option value="100">100</option>
-        <option value="all">All</option>
-      </select>
-    </div>
+    <Field className="flex items-center justify-end">
+      <Field.Label className="label pe-4">Games shown</Field.Label>
+      <div className="max-w-24">
+        <Select
+          isCompact
+          value={selectedCount}
+          name="quantity"
+          onChange={handleCountSelect}
+        >
+          <StyledOption value="10">10</StyledOption>
+          <StyledOption value="25">25</StyledOption>
+          <StyledOption value="50">50</StyledOption>
+          <StyledOption value="100">100</StyledOption>
+          <StyledOption value="all">All</StyledOption>
+        </Select>
+      </div>
+    </Field>
   )
 }

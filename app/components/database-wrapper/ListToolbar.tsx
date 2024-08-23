@@ -1,5 +1,7 @@
 "use client"
 
+import { Button } from "@zendeskgarden/react-buttons"
+import { SM } from "@zendeskgarden/react-typography"
 import { Dispatch, SetStateAction } from "react"
 
 export type ListToolbarProps = {
@@ -30,19 +32,20 @@ export function ListToolbar({
 
   return (
     <div className="mb-4 flex items-center justify-between">
-      <p className="text-sm">
+      <SM tag="p">
         {itemsLength} {itemsLength === 1 ? label : pluralLabel}{" "}
         {opened ? "shown" : "hidden"}
-      </p>
-      <button
-        className="btn btn-xs normal-case"
+      </SM>
+      <Button
+        size="small"
+        isBasic
         onClick={() => setOpened(!opened)}
         aria-expanded={opened}
         aria-describedby={`header-${id}`}
         aria-controls={`list-${id}`}
       >
         {renderMinimizeText()}
-      </button>
+      </Button>
     </div>
   )
 }

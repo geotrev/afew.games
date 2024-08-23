@@ -5,7 +5,7 @@ import cn from "classnames"
 import propTypes from "prop-types"
 
 import { Table } from "@zendeskgarden/react-tables"
-import { SM } from "@zendeskgarden/react-typography"
+import { MD, SM } from "@zendeskgarden/react-typography"
 import { IconButton } from "@zendeskgarden/react-buttons"
 import { Tooltip } from "@zendeskgarden/react-tooltips"
 import { ListToolbar } from "./ListToolbar"
@@ -112,9 +112,13 @@ export const DatabaseList = ({
       >
         {games.map((data) => (
           <li key={data.name}>
-            <h3 className="bg-base-300 sticky left-0 mb-1 flex max-w-fit px-3 py-1 font-bold text-white">
+            <MD
+              isBold
+              tag="h3"
+              className="mb-1 flex w-full bg-grey-1000 px-3 py-1 font-bold text-white"
+            >
               {data.name}
-            </h3>
+            </MD>
             <Table isReadOnly size="small">
               <TableHeader />
               <Table.Body>
@@ -124,7 +128,7 @@ export const DatabaseList = ({
                       key={`row-${rowIndex}`}
                       isStriped={rowIndex % 2 === 0}
                     >
-                      {DB_FIELDS_SORTED.map((field: string, fieldIndex) => (
+                      {DB_FIELDS_SORTED.map((field: string) => (
                         <Table.Cell
                           key={field}
                           width={COLUMN_WIDTHS[field]}
@@ -132,7 +136,6 @@ export const DatabaseList = ({
                             "bg-base-100": !isEven(rowIndex),
                             "bg-base-300": isEven(rowIndex),
                             "whitespace-normal": field === DatabaseFields.NOTES,
-                            "sticky left-0 z-10": fieldIndex === 0,
                           })}
                         >
                           {variant[field]}
