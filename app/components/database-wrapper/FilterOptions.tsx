@@ -11,6 +11,12 @@ import cn from "classnames"
 import propTypes from "prop-types"
 import { getNextUrlState } from "../../utils/set-params"
 import { FilterItem } from "types/games"
+import { Well } from "@zendeskgarden/react-notifications"
+import { Button, ToggleButton } from "@zendeskgarden/react-buttons"
+import XFill from "@zendeskgarden/svg-icons/src/12/x-fill.svg"
+import LinkFill from "@zendeskgarden/svg-icons/src/12/link-fill.svg"
+import CheckFill from "@zendeskgarden/svg-icons/src/12/check-lg-fill.svg"
+import { SM } from "@zendeskgarden/react-typography"
 
 export type FilterOptionsProps = {
   totalGameCount: number
@@ -123,18 +129,20 @@ export const FilterOptions = ({
   if (totalGameCount <= 0 || isLoading) return null
 
   return (
-    <div className="my-4 rounded-lg bg-base-300 p-4">
+    <Well className="my-6" isRecessed>
       <div className={cn("sm:hidden", { "mb-4": opened })}>
-        <button
-          className="btn btn-ghost btn-sm w-full rounded normal-case"
+        <ToggleButton
+          isStretched
+          size="small"
           id="filter-toggle"
           aria-controls="filter-controls"
           aria-expanded={opened}
+          isPressed={opened}
           onClick={handleToggleClick}
         >
           <span aria-hidden="true">{opened ? "–" : "+"}</span>&nbsp;
           {opened ? "Hide" : "Show"} Filter Options
-        </button>
+        </ToggleButton>
       </div>
       <div
         className={cn("sm:!block", { hidden: !opened })}
@@ -142,10 +150,11 @@ export const FilterOptions = ({
         role="region"
         aria-labelledby="filter-toggle"
       >
-        <p id="filter-by" className="mb-4 text-xs font-semibold uppercase">
+        <SM id="filter-by" tag="p" isBold className="mb-4 uppercase">
           Filter by platform
-        </p>
+        </SM>
         <div
+          className="mb-6"
           aria-describedby="filter-by"
           aria-label="Select an item to filter games by platform"
           role="grid"
@@ -155,51 +164,52 @@ export const FilterOptions = ({
               {filteredPlatforms.map((item, idx) => {
                 return (
                   <div key={item.value} role="gridcell">
-                    <button
+                    <Button
+                      isPill
+                      isNeutral
+                      size="small"
                       tabIndex={rovingIndex === idx ? 0 : -1}
-                      className={cn("btn btn-sm rounded-full normal-case", {
-                        "btn-ghost": !item.selected,
-                        "btn-accent btn-active": item.selected,
-                      })}
                       data-item-value={item.value}
                       aria-pressed={item.selected}
                       onClick={handleItemClick}
                       onKeyDown={handleKeydown}
                     >
                       {item.value}
-                    </button>
+                    </Button>
                   </div>
                 )
               })}
             </div>
           </div>
         </div>
-        <div className="divider my-2" role="separator" />
         <div className="flex justify-between">
-          <button
-            className="btn btn-ghost btn-sm rounded normal-case"
+          <Button
+            size="small"
+            isDanger
             onClick={handleReset}
             aria-disabled={noneSelected ? true : undefined}
             disabled={noneSelected}
-            type="button"
           >
-            <span aria-hidden="true">❌</span> Clear Selection
-          </button>
-          <button
-            className={cn("btn btn-sm rounded normal-case", {
-              "btn-ghost": !copied,
-            })}
+            <Button.StartIcon>
+              <XFill />
+            </Button.StartIcon>
+            Clear Selection
+          </Button>
+          <Button
+            size="small"
+            isNeutral
+            isBasic={copied}
             onClick={handleShareClick}
-            type="button"
             disabled={
               !searchValue && !filteredPlatforms.some((p) => p.selected)
             }
           >
-            {copied ? "Copied ✔" : "Share URL 🔗"}
-          </button>
+            {copied ? "Copied" : "Share URL"} &nbsp;
+            {copied ? <CheckFill /> : <LinkFill />}
+          </Button>
         </div>
       </div>
-    </div>
+    </Well>
   )
 }
 

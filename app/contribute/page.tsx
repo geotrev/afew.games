@@ -23,7 +23,7 @@ export default function Page() {
         <p>Looking for the status on a submission?</p>
         <p>
           <a
-            className="btn btn-secondary btn-sm mb-4 text-base-100"
+            className="text-base-100 mb-4"
             target="_blank"
             rel="noopener noreferrer"
             href="https://github.com/geotrev/afew.games/issues"

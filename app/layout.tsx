@@ -9,7 +9,7 @@ import StyledComponentsRegistry from "./StyledComponentsRegistry"
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html lang="en" className="bg-blue-1100">
+    <html lang="en" className="bg-grey-1100">
       <head>
         <meta
           name="keywords"

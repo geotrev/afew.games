@@ -1,25 +1,33 @@
+"use client"
+
+import { Well } from "@zendeskgarden/react-notifications"
 import { SocialLinks } from "../social-links"
 import { SubscribeForm } from "../subscribe-form"
+import { Span } from "@zendeskgarden/react-typography"
+import { Grid } from "@zendeskgarden/react-grid"
 
 export function SiteFooter() {
   return (
-    <footer className="my-12">
-      <div className="card card-bordered mb-4 w-full rounded-lg border-2 border-accent">
-        <div className="card-body p-4 md:p-8">
-          <h2 className="card-title text-primary">Subscribe to A Few Games!</h2>
-          <p className="mb-4">
-            Get occasional emails about game collecting. Unsubscribe at any
-            time.
-          </p>
-          <SubscribeForm />
-        </div>
-      </div>
-      <div className="flex justify-between">
-        <p className="text-xs">
-          <span>&copy; 2022-{new Date().getFullYear()} A Few Games</span>
-        </p>
-        <SocialLinks />
-      </div>
+    <footer>
+      <Well className="mb-6 mt-12">
+        <Well.Title>Subscribe to A Few Games!</Well.Title>
+        <Well.Paragraph className="!mb-4">
+          Get occasional emails about game collecting. Unsubscribe at any time.
+        </Well.Paragraph>
+        <SubscribeForm />
+      </Well>
+      <Grid>
+        <Grid.Row>
+          <Grid.Col>
+            <Span className="text-sm">
+              &copy; 2022-{new Date().getFullYear()} A Few Games
+            </Span>
+          </Grid.Col>
+          <Grid.Col textAlign="end">
+            <SocialLinks />
+          </Grid.Col>
+        </Grid.Row>
+      </Grid>
     </footer>
   )
 }

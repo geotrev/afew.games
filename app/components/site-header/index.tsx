@@ -1,7 +1,6 @@
 "use client"
 
 import { usePathname } from "next/navigation"
-import Image from "next/image"
 import { DEFAULT_THEME, ThemeProvider } from "@zendeskgarden/react-theming"
 import Logo from "./afewgames.svg"
 import { SocialLinks } from "../social-links"
@@ -47,24 +46,29 @@ export function SiteHeader() {
             href={Routes.HOME_PATH}
             className="h-auto w-16 p-0 hover:bg-transparent md:w-24"
           >
-            <Image alt="A Few Games" src={Logo} width={94} height={76} />
+            <Logo />
+            <span className="sr-only">Go to home page</span>
           </Link>
         </div>
-        <nav className="flex flex-row items-center gap-4">
-          {NavigationItems.map(({ label, isActive, route }) => {
-            const active = isActive(pathname)
+        <nav className="flex flex-col gap-6 md:flex-row">
+          <div className="flex items-center gap-6">
+            {NavigationItems.map(({ label, isActive, route }) => {
+              const active = isActive(pathname)
 
-            return (
-              <Link
-                key={label}
-                href={route}
-                aria-current={active ? "true" : undefined}
-              >
-                {label}
-              </Link>
-            )
-          })}
-          <SocialLinks />
+              return (
+                <Link
+                  key={label}
+                  href={route}
+                  aria-current={active ? "true" : undefined}
+                >
+                  {label}
+                </Link>
+              )
+            })}
+          </div>
+          <div className="flex items-center justify-end gap-6">
+            <SocialLinks />
+          </div>
         </nav>
       </header>
     </ThemeProvider>

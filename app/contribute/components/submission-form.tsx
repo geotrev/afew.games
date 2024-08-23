@@ -109,8 +109,8 @@ export function SubmissionForm() {
 
   if (isSuccess) {
     return (
-      <div className="my-12 rounded-md border-2 border-solid border-slate-800 p-5">
-        <p className="mb-2 text-success">
+      <div className="rounded-md border-slate-800 my-12 border-2 border-solid p-5">
+        <p className="text-success mb-2">
           Submitted successfully – thanks for contributing to the database!
         </p>
         <p className="mb-4">
@@ -131,7 +131,7 @@ export function SubmissionForm() {
 
   return (
     <form className="my-12" onSubmit={handleSubmit}>
-      <div className="rounded-md border-2 border-solid border-slate-800 p-5">
+      <div className="rounded-md border-slate-800 border-2 border-solid p-5">
         <h2 className="mb-4 text-2xl font-bold">Database Submission Form</h2>
 
         <p className="mb-2">First of all, thank you for your contribution!</p>
@@ -153,11 +153,9 @@ export function SubmissionForm() {
           </li>
         </ul>
 
-        <div className="divider" role="separator" />
-
         <p className="mb-4">
           <span className="text-white">*</span>{" "}
-          <span className="italic opacity-75">indicates a required field</span>
+          <span className="opacity-75 italic">indicates a required field</span>
         </p>
 
         {FIELD_DATA.map((field) => {
@@ -177,7 +175,7 @@ export function SubmissionForm() {
               </label>
               <p
                 id={`${field.input.id}-hint`}
-                className="mb-4 text-sm italic opacity-75"
+                className="opacity-75 mb-4 text-sm italic"
               >
                 {field.hint}
               </p>
@@ -200,8 +198,6 @@ export function SubmissionForm() {
             </div>
           )
         })}
-
-        <div className="divider" role="separator" />
 
         <p className="mb-2 text-sm font-bold">By submitting this form...</p>
 
@@ -255,7 +251,7 @@ export function SubmissionForm() {
         >
           <button
             className={cn(
-              "btn btn-primary btn-lg !min-h-0 rounded-md py-3 md:btn-md",
+              "btn btn-primary btn-lg rounded-md md:btn-md !min-h-0 py-3",
               {
                 "btn-ghost loading": isSubmitting,
                 "w-full": !isSubmitting,

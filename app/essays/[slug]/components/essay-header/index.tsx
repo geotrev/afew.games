@@ -10,7 +10,7 @@ EssayHeader.propTypes = {
 export function EssayHeader({ title, description, date }: EssayHeaderProps) {
   return (
     <div className="mb-6">
-      <p className="badge badge-accent badge-outline mb-4 font-semibold">
+      <p className="mb-4 font-semibold">
         Published&nbsp;
         <time aria-labelledby="essay-heading" dateTime={date}>
           {date}
@@ -18,12 +18,12 @@ export function EssayHeader({ title, description, date }: EssayHeaderProps) {
       </p>
       <h1
         id="essay-heading"
-        className="mb-4 text-2xl font-extrabold text-white sm:text-4xl sm:leading-normal"
+        className="sm:text-4xl sm:leading-normal mb-4 text-2xl font-extrabold text-white"
       >
         {title}
       </h1>
       {description && (
-        <p className="mb-6 text-lg font-light text-neutral-content sm:text-2xl sm:leading-relaxed">
+        <p className="sm:leading-relaxed mb-6 text-lg font-light sm:text-2xl">
           {description}
         </p>
       )}

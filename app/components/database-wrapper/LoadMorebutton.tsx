@@ -1,5 +1,6 @@
 "use client"
 
+import { Button } from "@zendeskgarden/react-buttons"
 import { Dispatch, SetStateAction } from "react"
 
 interface LoadMoreButtonProps {
@@ -21,14 +22,14 @@ export const LoadMoreButton = ({
   }
 
   return (
-    <div className="flex justify-center">
-      <button
+    <div className="mb-12 flex justify-center">
+      <Button
         type="button"
-        className="btn btn-outline btn-secondary btn-xs !h-auto !min-h-0 rounded-md py-3 md:btn-md"
+        isStretched
         onClick={() => setFilterValue((ct) => ct! + filterValue)}
       >
         Load more
-      </button>
+      </Button>
     </div>
   )
 }

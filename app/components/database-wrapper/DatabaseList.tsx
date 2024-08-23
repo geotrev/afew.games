@@ -4,15 +4,20 @@ import { useState, useEffect, ReactElement, memo } from "react"
 import cn from "classnames"
 import propTypes from "prop-types"
 
+import { Table } from "@zendeskgarden/react-tables"
+import { SM } from "@zendeskgarden/react-typography"
+import { IconButton } from "@zendeskgarden/react-buttons"
+import { Tooltip } from "@zendeskgarden/react-tooltips"
+import { ListToolbar } from "./ListToolbar"
+
+import InfoStroke from "@zendeskgarden/svg-icons/src/16/info-stroke.svg"
+
 import {
   DB_FIELDS_SORTED,
   DB_FIELD_DESCRIPTIONS,
   DatabaseFields,
 } from "app/constants"
 import { DatabaseGame, DatabaseVariant } from "types/games"
-
-import { ListToolbar } from "./ListToolbar"
-import { Tooltip } from "react-tooltip"
 
 export type DatabaseListProps = {
   games: DatabaseGame[]
@@ -36,47 +41,33 @@ export const COLUMN_WIDTHS: Record<string, string> = DB_FIELDS_SORTED.reduce(
 
 const isEven = (index: number) => index % 2 === 0
 
-const TableHeader = memo<{ tooltipId: string }>(({ tooltipId }) => (
-  <thead>
-    <tr>
+const TableHeader = memo(() => (
+  <Table.Head>
+    <Table.HeaderRow>
       {DB_FIELDS_SORTED.map((field) => (
-        <th
-          key={field}
-          className={cn("bg-base-200 text-xs", {
-            "sticky left-0 z-10": field === DatabaseFields.PRODUCT_CODE,
-          })}
-        >
-          <span className="flex items-center">
+        <Table.HeaderCell key={field}>
+          <SM isBold tag="span" className="flex items-center gap-1">
             <span className="uppercase">{field.replaceAll("_", " ")}</span>
             &nbsp;
-            <button
-              className="btn btn-ghost btn-xs p-0 hover:bg-transparent"
-              type="button"
-              aria-label={DB_FIELD_DESCRIPTIONS[field]}
-              data-tooltip-id={tooltipId}
-              data-tooltip-content={DB_FIELD_DESCRIPTIONS[field]}
-              data-tooltip-delay-hide={300}
-              data-tooltip-delay-show={300}
+            <Tooltip
+              size="medium"
+              content={DB_FIELD_DESCRIPTIONS[field]}
+              style={{ maxWidth: 200, textWrap: "wrap" }}
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                className="size-4 shrink-0 stroke-gray-500"
+              <IconButton
+                isBasic
+                size="small"
+                className="!h-5 !min-h-5 !w-5 !min-w-5 !p-0"
+                aria-label={DB_FIELD_DESCRIPTIONS[field]}
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                ></path>
-              </svg>
-            </button>
-          </span>
-        </th>
+                <InfoStroke />
+              </IconButton>
+            </Tooltip>
+          </SM>
+        </Table.HeaderCell>
       ))}
-    </tr>
-  </thead>
+    </Table.HeaderRow>
+  </Table.Head>
 ))
 
 TableHeader.displayName = "TableHeader"
@@ -88,7 +79,6 @@ export const DatabaseList = ({
 }: DatabaseListProps): ReactElement | null => {
   const [opened, setOpened] = useState<boolean>(true)
   const length = games.length
-  const tooltipId = `info-tooltip-${id}`
 
   // Re-expand games while searching for visibility
   useEffect(() => {
@@ -115,56 +105,47 @@ export const DatabaseList = ({
         opened={opened}
         setOpened={setOpened}
       />
-      <Tooltip
-        id={tooltipId}
-        className="z-20 max-w-48 text-wrap !bg-white !text-base-100"
-      />
-      {opened ? (
-        <ul
-          className="grid gap-12 overflow-x-auto"
-          aria-labelledby={`header-${id}`}
-          id={`list-${id}`}
-        >
-          {games.map((data) => (
-            <li key={data.name}>
-              <h3 className="sticky left-0 mb-1 flex max-w-fit bg-base-300 px-3 py-1 font-bold text-white">
-                {data.name}
-              </h3>
-              <table className="table table-zebra table-sm w-full">
-                <TableHeader tooltipId={tooltipId} />
-                <tbody>
-                  {data.variants!.map(
-                    (variant: DatabaseVariant, rowIndex: number) => (
-                      <tr key={`row-${rowIndex}`}>
-                        {DB_FIELDS_SORTED.map((field: string, fieldIndex) => (
-                          <td
-                            key={field}
-                            width={COLUMN_WIDTHS[field]}
-                            className={cn({
-                              "bg-base-100": !isEven(rowIndex),
-                              "bg-base-300": isEven(rowIndex),
-                              "whitespace-normal":
-                                field === DatabaseFields.NOTES,
-                              "sticky left-0 z-10": fieldIndex === 0,
-                            })}
-                          >
-                            {variant[field]}
-                          </td>
-                        ))}
-                      </tr>
-                    )
-                  )}
-                </tbody>
-              </table>
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <div
-          className="block h-2 w-full bg-secondary opacity-20"
-          role="separator"
-        />
-      )}
+      <ul
+        className="grid gap-12 overflow-x-auto"
+        aria-labelledby={`header-${id}`}
+        id={`list-${id}`}
+      >
+        {games.map((data) => (
+          <li key={data.name}>
+            <h3 className="bg-base-300 sticky left-0 mb-1 flex max-w-fit px-3 py-1 font-bold text-white">
+              {data.name}
+            </h3>
+            <Table isReadOnly size="small">
+              <TableHeader />
+              <Table.Body>
+                {data.variants!.map(
+                  (variant: DatabaseVariant, rowIndex: number) => (
+                    <Table.Row
+                      key={`row-${rowIndex}`}
+                      isStriped={rowIndex % 2 === 0}
+                    >
+                      {DB_FIELDS_SORTED.map((field: string, fieldIndex) => (
+                        <Table.Cell
+                          key={field}
+                          width={COLUMN_WIDTHS[field]}
+                          className={cn({
+                            "bg-base-100": !isEven(rowIndex),
+                            "bg-base-300": isEven(rowIndex),
+                            "whitespace-normal": field === DatabaseFields.NOTES,
+                            "sticky left-0 z-10": fieldIndex === 0,
+                          })}
+                        >
+                          {variant[field]}
+                        </Table.Cell>
+                      ))}
+                    </Table.Row>
+                  )
+                )}
+              </Table.Body>
+            </Table>
+          </li>
+        ))}
+      </ul>
     </div>
   )
 }

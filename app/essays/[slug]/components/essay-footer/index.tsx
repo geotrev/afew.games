@@ -3,7 +3,7 @@ import Image from "next/image"
 export function EssayFooter() {
   return (
     <footer>
-      <p className="mb-4 italic leading-relaxed">
+      <p className="leading-relaxed mb-4 italic">
         <strong>{"George W."}</strong>{" "}
         {
           "is a web developer by day and avid game collector by night. He considers himself an amateur blogger and isn't sure why he's writing in the third person."

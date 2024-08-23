@@ -21,11 +21,7 @@ export function EssayContent({
   return (
     <article>
       <EssayHeader title={title} description={description} date={date} />
-      <div
-        className="prose prose-zinc max-w-full lg:prose-lg"
-        dangerouslySetInnerHTML={{ __html: xss(content) }}
-      />
-      <div role="separator" className="divider" />
+      <div dangerouslySetInnerHTML={{ __html: xss(content) }} />
       <EssayFooter />
     </article>
   )

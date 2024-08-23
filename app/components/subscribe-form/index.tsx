@@ -1,8 +1,6 @@
 "use client"
 
 import { ChangeEventHandler, FormEvent, useCallback, useState } from "react"
-import { hideVisually } from "polished"
-import cn from "classnames"
 import {
   ERROR_MESSAGE,
   EMAIL_REGEXP,
@@ -10,6 +8,8 @@ import {
 } from "utils/constants"
 import { SubscribeFormState } from "./types"
 import xss from "xss"
+import { Field, Input, InputGroup } from "@zendeskgarden/react-forms"
+import { Button } from "@zendeskgarden/react-buttons"
 
 const DEFAULT_FORM_STATE = {
   status: SubscribeFormStatuses.NONE,
@@ -74,60 +74,55 @@ export function SubscribeForm() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <fieldset className="flex items-stretch">
+      <Field>
         {!isSuccess && (
-          <label style={hideVisually()} htmlFor="subscribe-email">
+          <Field.Label hidden htmlFor="subscribe-email">
             Email:
-          </label>
+          </Field.Label>
         )}
         {!isSuccess && (
-          <input
-            className={cn(
-              "input input-bordered input-secondary input-md me-2 rounded-md",
-              {
-                "input-error": formState.status === SubscribeFormStatuses.ERROR,
+          <InputGroup>
+            <Input
+              validation={
+                formState.status === SubscribeFormStatuses.ERROR
+                  ? "error"
+                  : undefined
               }
-            )}
-            disabled={isLoading}
-            type="email"
-            id="subscribe-input"
-            name="subscribe-email"
-            readOnly={isLoading ? true : undefined}
-            onChange={handleChange}
-            value={value}
-            placeholder="john.doe@email.com"
-            required
-            aria-required="true"
-            aria-describedby={
-              formState.message ? "subscribe-message" : undefined
-            }
-          />
-        )}
-        {!isSuccess && (
-          <button
-            type="submit"
-            className={cn("btn btn-secondary btn-md rounded-md", {
-              loading: isLoading,
-            })}
-            disabled={isLoading}
-          >
-            {isLoading ? "" : "Subscribe"}
-          </button>
+              disabled={isLoading}
+              type="email"
+              id="subscribe-input"
+              name="subscribe-email"
+              readOnly={isLoading ? true : undefined}
+              onChange={handleChange}
+              value={value}
+              placeholder="john.doe@email.com"
+              required
+              aria-required="true"
+              aria-describedby={
+                formState.message ? "subscribe-message" : undefined
+              }
+            />
+            <Button type="submit" isPrimary disabled={isLoading}>
+              {isLoading ? "" : "Subscribe"}
+            </Button>
+          </InputGroup>
         )}
         {formState.message && (
-          <p
+          <Field.Message
             id="subscribe-message"
-            className={cn("m-0 flex items-center text-xs", {
-              "ps-4": formState.status !== SubscribeFormStatuses.SUCCESS,
-              "text-success":
-                formState.status === SubscribeFormStatuses.SUCCESS,
-              "text-error": formState.status === SubscribeFormStatuses.ERROR,
-            })}
+            validation={
+              (
+                { error: "error", success: "success" } as Record<
+                  string,
+                  "success" | "error"
+                >
+              )[formState.status as "success" | "error"]
+            }
           >
             {formState.message}
-          </p>
+          </Field.Message>
         )}
-      </fieldset>
+      </Field>
     </form>
   )
 }

@@ -31,7 +31,6 @@ export default async function Page({
       <div className="prose">
         <PageHeading>Essays</PageHeading>
       </div>
-      <div className="divider" role="separator" />
       <EssaysWrapper initialData={initialData} />
     </>
   )
