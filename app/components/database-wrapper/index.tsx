@@ -155,11 +155,7 @@ export function DatabaseWrapper({ platformList }: DatabaseWrapperProps) {
 
     const rawValue = parseInt(value, 10)
 
-    if (value === "all") {
-      setFilterValue(null)
-    } else {
-      setFilterValue(rawValue)
-    }
+    setFilterValue(rawValue)
   }
 
   return (

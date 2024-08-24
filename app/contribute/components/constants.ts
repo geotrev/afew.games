@@ -1,3 +1,7 @@
+/**
+ * DO NOT change the order of this data. it is tied to app/api/contribute/route.ts
+ * which builds a markdown body for the GitHub API submission
+ */
 export const FIELD_DATA = [
   {
     label: "Title",

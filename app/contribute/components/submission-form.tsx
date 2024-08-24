@@ -1,6 +1,5 @@
 "use client"
 
-import cn from "classnames"
 import { useGoogleReCaptcha } from "react-google-recaptcha-v3"
 import {
   ChangeEventHandler,
@@ -10,20 +9,34 @@ import {
   useState,
 } from "react"
 import { CONSENT_DATA, FIELD_DATA } from "./constants"
+import { Well } from "@zendeskgarden/react-notifications"
+import { Anchor, Button } from "@zendeskgarden/react-buttons"
+import { Paragraph, UnorderedList, XL } from "@zendeskgarden/react-typography"
+import {
+  Checkbox,
+  Field,
+  Fieldset,
+  Input,
+  Textarea,
+} from "@zendeskgarden/react-forms"
+
+import ReloadFill from "@zendeskgarden/svg-icons/src/12/reload-fill.svg"
+import AsteriskStroke from "@zendeskgarden/svg-icons/src/12/asterisk-stroke.svg"
+import { Dots } from "@zendeskgarden/react-loaders"
 
 const method = "POST"
 const headers = { "Content-Type": "application/json" }
 
-const Field = ({
+const FormField = ({
   isTextarea,
   ...fieldProps
 }: HTMLProps<HTMLInputElement | HTMLTextAreaElement> & {
   isTextarea?: boolean
 }) =>
   isTextarea ? (
-    <textarea {...(fieldProps as HTMLProps<HTMLTextAreaElement>)} />
+    <Textarea {...(fieldProps as HTMLProps<HTMLTextAreaElement>)} />
   ) : (
-    <input {...(fieldProps as HTMLProps<HTMLInputElement>)} />
+    <Input {...(fieldProps as HTMLProps<HTMLInputElement>)} />
   )
 
 export function SubmissionForm() {
@@ -109,116 +122,107 @@ export function SubmissionForm() {
 
   if (isSuccess) {
     return (
-      <div className="rounded-md border-slate-800 my-12 border-2 border-solid p-5">
-        <p className="text-success mb-2">
+      <Well className="mt-6">
+        <Well.Title>
           Submitted successfully – thanks for contributing to the database!
-        </p>
-        <p className="mb-4">
+        </Well.Title>
+        <Well.Paragraph>
           You can track your submission on A Few Games&apos; GitHub issue
           tracker, linked above.
-        </p>
-        <p>
-          <button
+        </Well.Paragraph>
+        <Well.Paragraph>
+          <Button
+            size="small"
             className="btn btn-outline btn-sm"
             onClick={handleRefreshClick}
           >
-            Submit Another Game ↻
-          </button>
-        </p>
-      </div>
+            Submit Another Game{" "}
+            <Button.EndIcon>
+              <ReloadFill />
+            </Button.EndIcon>
+          </Button>
+        </Well.Paragraph>
+      </Well>
     )
   }
 
   return (
-    <form className="my-12" onSubmit={handleSubmit}>
-      <div className="rounded-md border-slate-800 border-2 border-solid p-5">
-        <h2 className="mb-4 text-2xl font-bold">Database Submission Form</h2>
+    <Well className="mt-6">
+      <form onSubmit={handleSubmit}>
+        <Well.Title>
+          <XL tag="h2" isBold>
+            Database Submission Form
+          </XL>
+        </Well.Title>
 
-        <p className="mb-2">First of all, thank you for your contribution!</p>
+        <Well.Paragraph>
+          First of all, thank you for your contribution!
+        </Well.Paragraph>
 
-        <p className="mb-2">
+        <Well.Paragraph>
           The data you submit will need to be cross-referenced. Please review
           this checklist before submitting:
-        </p>
-        <ul className="list-disc ps-4">
-          <li>Proof read your submission for inaccuracies, such as typos</li>
-          <li>
-            Links to official sources (e.g., press releases, publisher
-            documentation) are encouraged
-          </li>
-          <li>Links to eBay listings are encouraged</li>
-          <li>
-            If the game has so little documentation and so few listings that it
-            can&apos;t be easily referenced, say so in the notes
-          </li>
-        </ul>
+        </Well.Paragraph>
 
-        <p className="mb-4">
-          <span className="text-white">*</span>{" "}
+        <UnorderedList className="!mb-6">
+          <UnorderedList.Item>
+            Proof read your submission for inaccuracies, such as typos
+          </UnorderedList.Item>
+          <UnorderedList.Item>
+            UnorderedList.Itemnks to official sources (e.g., press releases,
+            pubUnorderedList.Itemsher documentation) are encouraged
+          </UnorderedList.Item>
+          <UnorderedList.Item>
+            UnorderedList.Itemnks to eBay listings are encouraged
+          </UnorderedList.Item>
+          <UnorderedList.Item>
+            If the game has so little documentation and so few
+            UnorderedList.Itemstings that it can&apos;t be easily referenced,
+            say so in the notes
+          </UnorderedList.Item>
+        </UnorderedList>
+
+        <Well.Paragraph className="!mb-4">
+          <span className="text-white">
+            <AsteriskStroke />
+          </span>{" "}
           <span className="opacity-75 italic">indicates a required field</span>
-        </p>
+        </Well.Paragraph>
 
         {FIELD_DATA.map((field) => {
           return (
-            <div className="form-control" key={field.input.id}>
-              <label
-                className="label flex justify-start px-0 pb-1 pt-0 text-sm font-bold uppercase text-white"
+            <Field key={field.input.id} className="!mb-4">
+              <Field.Label
                 htmlFor={field.input.id}
+                id={`${field.input.id}-label`}
               >
-                {field.label}
-                {field.input.required && (
-                  <span>
-                    <span aria-hidden="true">&nbsp;*</span>
-                    <span className="sr-only">&nbsp;required</span>
-                  </span>
-                )}
-              </label>
-              <p
-                id={`${field.input.id}-hint`}
-                className="opacity-75 mb-4 text-sm italic"
-              >
+                {field.label} {field.input.required && <AsteriskStroke />}
+              </Field.Label>
+              <Field.Hint id={`${field.input.id}-hint`}>
                 {field.hint}
-              </p>
-              <Field
+              </Field.Hint>
+              <FormField
                 isTextarea={field.input.is === "textarea"}
                 required={field.input.required}
-                className={cn({
-                  "textarea textarea-bordered textarea-info textarea-md mb-8 w-full max-w-full":
-                    field.input.is,
-                  "input input-md input-bordered input-info mb-8 w-full max-w-full":
-                    !field.input.is,
-                })}
                 value={fieldValues[field.input.id]}
                 onChange={handleFieldChange}
-                aria-describedby={`${field.input.id}-hint`}
-                type="text"
                 id={field.input.id}
                 name={field.input.id}
+                aria-labelledby={`${field.input.id}-label`}
+                aria-describedby={`${field.input.id}-hint`}
               />
-            </div>
+            </Field>
           )
         })}
 
-        <p className="mb-2 text-sm font-bold">By submitting this form...</p>
-
-        {CONSENT_DATA.map((consent, index) => (
-          <p
-            className={cn("form-control", {
-              "mb-8": index === CONSENT_DATA.length - 1,
-            })}
-            key={consent.id}
-          >
-            <label
-              className="label flex cursor-pointer items-start justify-start"
-              htmlFor={consent.id}
-            >
-              <input
+        <Fieldset className="!mb-6">
+          <Fieldset.Legend>
+            You must agree to these terms to submit this form
+          </Fieldset.Legend>
+          {CONSENT_DATA.map((consent) => (
+            <Field key={consent.id} className="mb-4">
+              <Checkbox
                 required
-                className="checkbox-info checkbox checkbox-sm me-3"
-                type="checkbox"
-                id={consent.id}
-                name={consent.id}
-                aria-invalid={!consentChecked[consent.id]}
                 checked={consentChecked[consent.id]}
                 onChange={(event) => {
                   setConsentChecked({
@@ -226,58 +230,47 @@ export function SubmissionForm() {
                     [consent.id]: event.target.checked,
                   })
                 }}
-              />
-              <span className="label-text">
-                {consent.label}{" "}
-                {consent.id === "terms" && (
-                  <a
-                    className="link"
-                    href="https://github.com/geotrev/afew.games/blob/main/CODE_OF_CONDUCT.md"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Code of Conduct ↗
-                  </a>
-                )}
-              </span>
-            </label>
-          </p>
-        ))}
+                aria-labelledby={`${consent.id}-label`}
+                id={consent.id}
+                name={consent.id}
+              >
+                <Field.Label htmlFor={consent.id} id={`${consent.id}-label`}>
+                  {consent.label}{" "}
+                  {consent.id === "terms" && (
+                    <Anchor
+                      href="https://github.com/geotrev/afew.games/blob/main/CODE_OF_CONDUCT.md"
+                      isExternal
+                      externalIconLabel="(opens in new tab)"
+                    >
+                      Code of Conduct
+                    </Anchor>
+                  )}
+                </Field.Label>
+              </Checkbox>
+            </Field>
+          ))}
+        </Fieldset>
 
-        <div
-          className={cn("flex justify-center", {
-            "mb-4": serverErrorMessage || isSubmitting,
-          })}
-        >
-          <button
-            className={cn(
-              "btn btn-primary btn-lg rounded-md md:btn-md !min-h-0 py-3",
-              {
-                "btn-ghost loading": isSubmitting,
-                "w-full": !isSubmitting,
-              }
-            )}
-          >
+        <Paragraph>
+          <Button type="submit" isStretched disabled={isSubmitting}>
             Submit
-          </button>
-        </div>
+          </Button>
+        </Paragraph>
 
         {isSubmitting && (
-          <p className="text-center">
-            ✋ Hold tight, this might take a second...
-          </p>
+          <Paragraph className="flex items-center justify-center gap-4">
+            <Dots /> Hold tight, this might take a second...
+          </Paragraph>
         )}
 
         {serverErrorMessage && (
-          <p className="text-error">
-            Uh-oh... {serverErrorMessage}. Try again or message{" "}
-            <a className="link" href="mailto:contact@afew.games">
-              contact@afew.games
-            </a>{" "}
+          <Paragraph className="text-error">
+            Uh-oh... {serverErrorMessage}. Try again or email{" "}
+            <Anchor href="mailto:contact@afew.games">contact@afew.games</Anchor>{" "}
             if the error persists.
-          </p>
+          </Paragraph>
         )}
-      </div>
-    </form>
+      </form>
+    </Well>
   )
 }

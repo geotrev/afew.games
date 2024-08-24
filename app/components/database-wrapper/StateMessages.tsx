@@ -1,3 +1,7 @@
+import { Dots } from "@zendeskgarden/react-loaders"
+import { getColor, IGardenTheme } from "@zendeskgarden/react-theming"
+import { useTheme } from "styled-components"
+
 interface StateMessagesProps {
   isLoading: boolean
   isError: boolean
@@ -11,11 +15,18 @@ export const StateMessages = ({
   noMatches,
   totalGameCount,
 }: StateMessagesProps) => {
+  const theme = useTheme()
+
   if (isLoading) {
     return (
-      <p className="align-center flex">
-        <span className="loading" aria-hidden="true" />{" "}
-        <span className="ps-2">Fetching games...</span>
+      <p className="mb-6 flex items-center justify-center gap-3">
+        <Dots
+          color={getColor({
+            variable: "foreground.subtle",
+            theme: theme as IGardenTheme,
+          })}
+        />
+        <span>Fetching games...</span>
       </p>
     )
   }

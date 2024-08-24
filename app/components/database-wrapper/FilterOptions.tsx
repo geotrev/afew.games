@@ -205,7 +205,9 @@ export const FilterOptions = ({
             }
           >
             {copied ? "Copied" : "Share URL"} &nbsp;
-            {copied ? <CheckFill /> : <LinkFill />}
+            <Button.EndIcon>
+              {copied ? <CheckFill /> : <LinkFill />}
+            </Button.EndIcon>
           </Button>
         </div>
       </div>

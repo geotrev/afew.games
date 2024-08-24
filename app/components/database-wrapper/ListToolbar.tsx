@@ -1,8 +1,10 @@
 "use client"
 
-import { Button } from "@zendeskgarden/react-buttons"
+import { Button, ToggleButton } from "@zendeskgarden/react-buttons"
 import { SM } from "@zendeskgarden/react-typography"
 import { Dispatch, SetStateAction } from "react"
+import DashFill from "@zendeskgarden/svg-icons/src/12/dash-fill.svg"
+import PlusFill from "@zendeskgarden/svg-icons/src/12/plus-fill.svg"
 
 export type ListToolbarProps = {
   label: string
@@ -24,7 +26,10 @@ export function ListToolbar({
   function renderMinimizeText() {
     return (
       <>
-        <span aria-hidden="true">{opened ? "–" : "+"}</span>&nbsp;
+        <Button.StartIcon>
+          {opened ? <DashFill /> : <PlusFill />}
+        </Button.StartIcon>
+        &nbsp;
         {opened ? "Hide" : "Show"} List
       </>
     )
@@ -36,16 +41,17 @@ export function ListToolbar({
         {itemsLength} {itemsLength === 1 ? label : pluralLabel}{" "}
         {opened ? "shown" : "hidden"}
       </SM>
-      <Button
+      <ToggleButton
         size="small"
         isBasic
+        isPressed={!opened}
         onClick={() => setOpened(!opened)}
         aria-expanded={opened}
         aria-describedby={`header-${id}`}
         aria-controls={`list-${id}`}
       >
         {renderMinimizeText()}
-      </Button>
+      </ToggleButton>
     </div>
   )
 }

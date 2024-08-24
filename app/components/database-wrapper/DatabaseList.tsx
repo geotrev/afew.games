@@ -5,7 +5,7 @@ import cn from "classnames"
 import propTypes from "prop-types"
 
 import { Table } from "@zendeskgarden/react-tables"
-import { MD, SM } from "@zendeskgarden/react-typography"
+import { SM, XL } from "@zendeskgarden/react-typography"
 import { IconButton } from "@zendeskgarden/react-buttons"
 import { Tooltip } from "@zendeskgarden/react-tooltips"
 import { ListToolbar } from "./ListToolbar"
@@ -91,12 +91,9 @@ export const DatabaseList = ({
 
   return (
     <div className="mb-16 mt-12">
-      <h2
-        className="mb-2 text-xl font-extrabold text-white"
-        id={`header-${id}`}
-      >
+      <XL isBold tag="h2" className="mb-2" id={`header-${id}`}>
         {label}
-      </h2>
+      </XL>
       <ListToolbar
         label="game"
         pluralLabel="games"
@@ -105,50 +102,49 @@ export const DatabaseList = ({
         opened={opened}
         setOpened={setOpened}
       />
-      <ul
-        className="grid gap-12 overflow-x-auto"
-        aria-labelledby={`header-${id}`}
-        id={`list-${id}`}
-      >
-        {games.map((data) => (
-          <li key={data.name}>
-            <MD
-              isBold
-              tag="h3"
-              className="mb-1 flex w-full bg-grey-1000 px-3 py-1 font-bold text-white"
-            >
-              {data.name}
-            </MD>
-            <Table isReadOnly size="small">
-              <TableHeader />
-              <Table.Body>
-                {data.variants!.map(
-                  (variant: DatabaseVariant, rowIndex: number) => (
-                    <Table.Row
-                      key={`row-${rowIndex}`}
-                      isStriped={rowIndex % 2 === 0}
-                    >
-                      {DB_FIELDS_SORTED.map((field: string) => (
-                        <Table.Cell
-                          key={field}
-                          width={COLUMN_WIDTHS[field]}
-                          className={cn({
-                            "bg-base-100": !isEven(rowIndex),
-                            "bg-base-300": isEven(rowIndex),
-                            "whitespace-normal": field === DatabaseFields.NOTES,
-                          })}
-                        >
-                          {variant[field]}
-                        </Table.Cell>
-                      ))}
-                    </Table.Row>
-                  )
-                )}
-              </Table.Body>
-            </Table>
-          </li>
-        ))}
-      </ul>
+      {opened && (
+        <ul
+          className="grid gap-12 overflow-x-auto"
+          aria-labelledby={`header-${id}`}
+          id={`list-${id}`}
+        >
+          {games.map((data) => (
+            <li key={data.name}>
+              <Table isReadOnly size="small">
+                <Table.Caption className="flex bg-grey-1000 px-3 py-1 font-bold">
+                  {data.name}
+                </Table.Caption>
+                <TableHeader />
+                <Table.Body>
+                  {data.variants!.map(
+                    (variant: DatabaseVariant, rowIndex: number) => (
+                      <Table.Row
+                        key={`row-${rowIndex}`}
+                        isStriped={rowIndex % 2 === 0}
+                      >
+                        {DB_FIELDS_SORTED.map((field: string) => (
+                          <Table.Cell
+                            key={field}
+                            width={COLUMN_WIDTHS[field]}
+                            className={cn({
+                              "bg-base-100": !isEven(rowIndex),
+                              "bg-base-300": isEven(rowIndex),
+                              "whitespace-normal":
+                                field === DatabaseFields.NOTES,
+                            })}
+                          >
+                            {variant[field]}
+                          </Table.Cell>
+                        ))}
+                      </Table.Row>
+                    )
+                  )}
+                </Table.Body>
+              </Table>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   )
 }

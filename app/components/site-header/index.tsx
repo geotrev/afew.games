@@ -59,9 +59,7 @@ export function SiteHeader() {
             )
           })}
         </div>
-        <div className="flex items-center justify-end gap-6">
-          <SocialLinks />
-        </div>
+        <SocialLinks />
       </nav>
     </header>
   )

@@ -35,6 +35,7 @@
     "@zendeskgarden/react-buttons": "^9.0.0-next.23",
     "@zendeskgarden/react-forms": "^9.0.0-next.23",
     "@zendeskgarden/react-grid": "^9.0.0-next.23",
+    "@zendeskgarden/react-loaders": "^9.0.0-next.23",
     "@zendeskgarden/react-notifications": "^9.0.0-next.23",
     "@zendeskgarden/react-tables": "^9.0.0-next.23",
     "@zendeskgarden/react-theming": "^9.0.0-next.23",

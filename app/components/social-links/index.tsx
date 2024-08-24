@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export function SocialLinks() {
   return (
-    <>
+    <div className="flex items-center justify-end gap-6">
       <Link
         href="https://github.com/geotrev/afew.games"
         target="_blank"
@@ -41,6 +41,6 @@ export function SocialLinks() {
           />
         </picture>
       </Link>
-    </>
+    </div>
   )
 }

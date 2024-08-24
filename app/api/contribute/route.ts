@@ -1,27 +1,28 @@
 import { Octokit } from "@octokit/core"
 import { NextResponse } from "next/server"
+import { FIELD_DATA, CONSENT_DATA } from "../../contribute/components/constants"
 
 function getIssueBody(res: Record<string, string>) {
   return (
     `_Submitted via https://afew.games._\n\n` +
-    `### Title\n\n` +
-    `${res.title}\n\n` +
-    `### Platform\n\n` +
-    `${res.platform}\n\n` +
-    `### MPN (Manufacturer's Part Number)\n\n` +
-    `${res.mpn || "No response"}\n\n` +
-    `### Country\n\n` +
-    `${res.country || "No response"}\n\n` +
-    `### Product Code\n\n` +
-    `${res.part || "No response"}\n\n` +
-    `### Additional Information\n\n` +
-    `${res.notes || "No response"}\n\n` +
-    `### Submitted By\n\n` +
-    `${res.credit || "No response"}\n\n` +
+    `### ${FIELD_DATA[0].label}\n\n` +
+    `${res.title.trim()}\n\n` +
+    `### ${FIELD_DATA[1].label}\n\n` +
+    `${res.platform.trim()}\n\n` +
+    `### ${FIELD_DATA[2].label}\n\n` +
+    `${res.mpn.trim() || "No response"}\n\n` +
+    `### ${FIELD_DATA[3].label}\n\n` +
+    `${res.country.trim() || "No response"}\n\n` +
+    `### ${FIELD_DATA[4].label}\n\n` +
+    `${res.part.trim() || "No response"}\n\n` +
+    `### ${FIELD_DATA[5].label}\n\n` +
+    `${res.notes.trim() || "No response"}\n\n` +
+    `### ${FIELD_DATA[6].label}\n\n` +
+    `${res.credit.trim() || "No response"}\n\n` +
     `### Code of Conduct\n\n` +
-    `- [X] I agree to follow this project's Code of Conduct\n\n` +
+    `- [X] ${CONSENT_DATA[0].label} code of conduct\n\n` +
     `### Terms of Use\n\n` +
-    `- [X] I understand this form will create a GitHub ticket with the provided information, to remain publicly visible for contributor & collector interest`
+    `- [X] ${CONSENT_DATA[1].label}`
   )
 }
 

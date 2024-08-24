@@ -38,7 +38,6 @@ export const CountDropdown = ({
           <StyledOption value="25">25</StyledOption>
           <StyledOption value="50">50</StyledOption>
           <StyledOption value="100">100</StyledOption>
-          <StyledOption value="all">All</StyledOption>
         </Select>
       </div>
     </Field>

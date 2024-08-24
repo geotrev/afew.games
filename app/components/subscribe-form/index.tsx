@@ -10,6 +10,7 @@ import { SubscribeFormState } from "./types"
 import xss from "xss"
 import { Field, Input, InputGroup } from "@zendeskgarden/react-forms"
 import { Button } from "@zendeskgarden/react-buttons"
+import { Dots } from "@zendeskgarden/react-loaders"
 
 const DEFAULT_FORM_STATE = {
   status: SubscribeFormStatuses.NONE,
@@ -75,11 +76,7 @@ export function SubscribeForm() {
   return (
     <form onSubmit={handleSubmit}>
       <Field>
-        {!isSuccess && (
-          <Field.Label hidden htmlFor="subscribe-email">
-            Email:
-          </Field.Label>
-        )}
+        {!isSuccess && <Field.Label hidden>Provide an email</Field.Label>}
         {!isSuccess && (
           <InputGroup>
             <Input
@@ -90,26 +87,19 @@ export function SubscribeForm() {
               }
               disabled={isLoading}
               type="email"
-              id="subscribe-input"
-              name="subscribe-email"
               readOnly={isLoading ? true : undefined}
               onChange={handleChange}
               value={value}
               placeholder="john.doe@email.com"
               required
-              aria-required="true"
-              aria-describedby={
-                formState.message ? "subscribe-message" : undefined
-              }
             />
             <Button type="submit" isPrimary disabled={isLoading}>
-              {isLoading ? "" : "Subscribe"}
+              Subscribe
             </Button>
           </InputGroup>
         )}
         {formState.message && (
           <Field.Message
-            id="subscribe-message"
             validation={
               (
                 { error: "error", success: "success" } as Record<
@@ -119,7 +109,7 @@ export function SubscribeForm() {
               )[formState.status as "success" | "error"]
             }
           >
-            {formState.message}
+            {isLoading && <Dots />} {formState.message}
           </Field.Message>
         )}
       </Field>

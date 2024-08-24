@@ -20,12 +20,10 @@ export const Search = ({
 }: SearchProps) => (
   <form className="form-control mb-8" onSubmit={handleSubmit}>
     <Field>
-      <Field.Label htmlFor="search">{label}</Field.Label>
+      <Field.Label>{label}</Field.Label>
       <InputGroup>
         <Input
-          name="collection-search"
           placeholder="Pokemon Red, etc..."
-          id="collection-search"
           onChange={handleChange}
           value={value || ""}
         />
