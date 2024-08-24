@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation"
 import Image from "next/image"
+import Link from "next/link"
 import cn from "classnames"
 import Logo from "./afewgames.svg"
 import { SocialLinks } from "../social-links"
@@ -44,25 +45,25 @@ export function SiteHeader() {
         </a>
       </div>
       <nav className="flex flex-col items-end gap-4">
-        <div className="tabs-boxed tabs tabs-xs gap-2 sm:tabs-sm md:tabs-md">
+        <ul className="menu menu-horizontal menu-sm gap-2 rounded-box bg-base-200 sm:menu-md">
           {NavigationItems.map(({ label, isActive, route }) => {
             const active = isActive(pathname)
 
             return (
-              <a
-                key={label}
-                href={route}
-                aria-current={active ? "true" : undefined}
-                className={cn("tab font-bold", {
-                  "tab-active": active,
-                  "text-neutral-content": !active,
-                })}
-              >
-                {label}
-              </a>
+              <li key={label}>
+                <Link
+                  href={route}
+                  aria-current={active ? "true" : undefined}
+                  className={cn("font-bold", {
+                    "!bg-blue-500 !text-black": active,
+                  })}
+                >
+                  {label}
+                </Link>
+              </li>
             )
           })}
-        </div>
+        </ul>
         <SocialLinks />
       </nav>
     </header>
