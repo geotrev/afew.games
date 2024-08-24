@@ -1,22 +1,22 @@
 import Script from "next/script"
 import { PropsWithChildren } from "react"
 
+import StyledComponentsRegistry from "./StyledComponentsRegistry"
 import { RouteTracker } from "./components/route-tracker"
 import { App } from "./app"
 
 import "styles/globals.css"
-import StyledComponentsRegistry from "./StyledComponentsRegistry"
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html lang="en" className="bg-grey-1100">
+    <html lang="en" className="h-screen w-screen">
       <head>
         <meta
           name="keywords"
           content="Video Games, Games, Collectibles, Graded Games, Sealed Video Games"
         />
       </head>
-      <body className="text-grey-200">
+      <body className="h-screen w-screen">
         <StyledComponentsRegistry>
           <App>{children}</App>
         </StyledComponentsRegistry>

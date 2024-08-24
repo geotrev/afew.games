@@ -19,10 +19,10 @@ import {
   Input,
   Textarea,
 } from "@zendeskgarden/react-forms"
+import { Dots } from "@zendeskgarden/react-loaders"
 
 import ReloadFill from "@zendeskgarden/svg-icons/src/12/reload-fill.svg"
 import AsteriskStroke from "@zendeskgarden/svg-icons/src/12/asterisk-stroke.svg"
-import { Dots } from "@zendeskgarden/react-loaders"
 
 const method = "POST"
 const headers = { "Content-Type": "application/json" }
