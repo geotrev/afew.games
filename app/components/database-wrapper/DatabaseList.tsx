@@ -111,7 +111,7 @@ export const DatabaseList = ({
           {games.map((data) => (
             <li key={data.name}>
               <Table isReadOnly size="small">
-                <Table.Caption className="flex bg-grey-1000 px-3 py-1 font-bold">
+                <Table.Caption className="flex py-1 font-bold">
                   {data.name}
                 </Table.Caption>
                 <TableHeader />
