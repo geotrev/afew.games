@@ -19,7 +19,7 @@ const platformList = getPlatformList()
 export default function Page() {
   return (
     <>
-      <div className="prose mb-6 max-w-full">
+      <div className="prose">
         <PageHeading>Database</PageHeading>
       </div>
       <DatabaseWrapper platformList={platformList} />

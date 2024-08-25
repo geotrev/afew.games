@@ -5,7 +5,6 @@ import Image from "next/image"
 import Link from "next/link"
 import cn from "classnames"
 import Logo from "./afewgames.svg"
-import { SocialLinks } from "../social-links"
 
 const Routes = {
   HOME_PATH: "/",
@@ -35,8 +34,8 @@ export function SiteHeader() {
   const pathname = usePathname()
 
   return (
-    <>
-      <header className="navbar sticky top-0 z-50 items-center bg-base-100 px-0 pb-2 pt-4">
+    <div className="sticky top-0 z-50 w-full bg-base-100">
+      <header className="navbar mx-auto max-w-screen-md items-center py-4 md:pt-6">
         <div className="flex-1" itemScope itemType="https://schema.org/Blog">
           <a
             href={Routes.HOME_PATH}
@@ -67,9 +66,6 @@ export function SiteHeader() {
           </ul>
         </nav>
       </header>
-      <div className="flex justify-end py-2">
-        <SocialLinks />
-      </div>
-    </>
+    </div>
   )
 }
