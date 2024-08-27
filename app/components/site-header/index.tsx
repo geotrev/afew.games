@@ -35,11 +35,11 @@ export function SiteHeader() {
 
   return (
     <div className="sticky top-0 z-50 w-full bg-base-100">
-      <header className="navbar mx-auto max-w-screen-md items-center py-4 md:pt-6">
+      <header className="navbar mx-auto w-full max-w-screen-md items-center px-4 py-1">
         <div className="flex-1" itemScope itemType="https://schema.org/Blog">
           <a
             href={Routes.HOME_PATH}
-            className="btn btn-ghost h-auto w-16 p-0 hover:bg-transparent md:w-24"
+            className="btn btn-ghost h-auto w-16 px-0 py-2 hover:bg-transparent md:w-24"
           >
             <Image alt="A Few Games" src={Logo} width={94} height={76} />
           </a>

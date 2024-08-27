@@ -6,7 +6,7 @@ import { SocialLinks } from "./components/social-links"
 export function App({ children }: PropsWithChildren) {
   return (
     <Suspense>
-      <div className="m-0 flex flex-col gap-2">
+      <div className="m-0 flex w-full flex-col gap-2">
         <SiteHeader />
         <div className="mx-auto flex max-w-screen-md flex-col gap-2 px-4 pb-4">
           <div className="flex flex-row justify-end">
