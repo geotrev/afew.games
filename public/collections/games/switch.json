@@ -5,6 +5,12 @@
       "name": "The Legend of Zelda: Tears of the Kingdom",
       "variants": [
         {
+          "product_code": "118147A",
+          "satellite_code": "00000",
+          "country": "Japan",
+          "notes": "NFR"
+        },
+        {
           "product_code": "117214A",
           "satellite_code": "00000",
           "notes": "SKU 112383",
