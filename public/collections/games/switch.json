@@ -2,6 +2,17 @@
   "platform": "Switch",
   "games": [
     {
+      "name": "The Legend of Zelda: Tears of the Kingdom",
+      "variants": [
+        {
+          "product_code": "117214A",
+          "satellite_code": "00000",
+          "notes": "SKU 112383",
+          "country": "Japan"
+        }
+      ]
+    },
+    {
       "name": "Nintendo World Championships: NES Edition",
       "variants": [
         {
