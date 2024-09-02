@@ -1,4 +1,50 @@
 {
   "platform": "Xbox",
-  "games": []
+  "games": [
+    {
+      "name": "Halo 2",
+      "variants": [
+        {
+          "country": null,
+          "notes": "Made in Hong Kong, Limited Collector's Edition steelbook, rating pending FDO"
+        },
+        {
+          "notes": "Limited Collector's Edition steelbook",
+          "country": "Mexico"
+        },
+        {
+          "country": "Mexico",
+          "notes": "Microsoft employee copy (sticker)"
+        },
+        {
+          "notes": "Platinum Hits - no country / made in Mexico / made in Peurto Rico",
+          "country": null
+        },
+        {
+          "country": "Mexico",
+          "notes": "Xbox 360 case"
+        },
+        {
+          "country": "Mexico",
+          "notes": "Platinum case"
+        },
+        {
+          "notes": "Standard, translucent Xbox case",
+          "country": "Mexico"
+        },
+        {
+          "country": "Mexico",
+          "notes": "X11 Xbox Live trial sticker"
+        },
+        {
+          "country": "Mexico",
+          "notes": "X10 Xbox Live trial sticker"
+        },
+        {
+          "notes": "DNSB, X10 Xbox Live trial sticker",
+          "country": "Mexico"
+        }
+      ]
+    }
+  ]
 }
