@@ -88,6 +88,9 @@ collections:
                   - USA
                   - Japan
                   - Mexico
+                  - Hong Kong
+                  - Peurto Rico
+                  - Thailand
               - label: MPN
                 name: mpn
                 required: false
