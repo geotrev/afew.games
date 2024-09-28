@@ -8,7 +8,7 @@ export function App({ children }: PropsWithChildren) {
     <Suspense>
       <div className="m-0 flex w-full flex-col gap-2">
         <SiteHeader />
-        <div className="mx-auto flex max-w-screen-md flex-col gap-2 px-4 pb-4">
+        <div className="mx-auto flex w-full max-w-screen-md flex-col gap-2 px-4 pb-4">
           <div className="flex flex-row justify-end">
             <SocialLinks />
           </div>

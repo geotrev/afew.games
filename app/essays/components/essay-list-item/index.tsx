@@ -27,7 +27,7 @@ export const EssayListItem = ({ title, description, urlPath, date }: Essay) => {
       }
     } catch (e) {
       // eslint-disable-next-line no-console
-      console.error("Essay item: Couldn't set recency.", { title, date }, e)
+      console.error("Essay item: Couldn't set post status.", { title, date }, e)
     }
   }, [date, title])
 

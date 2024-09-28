@@ -8,11 +8,7 @@ It's finally here! Almost a year after Wata released its initial population data
 
 Here's the statement they released with this change, for reference:
 
-> **Population Reports update**
->
-> You’ve been asking, and we’ve finally got them – seal ratings have been added to our Population Reports! We’ve been working hard the last few months to build and accurately represent this critical aspect of our pop reports. Now all populations can display the seal-rating breakdown for each box grade by hovering over the population count. [Pop reports are now updated](https://www.watagames.com/populations/index.html?utm_source=email&utm_medium=marketingemail&utm_campaign=email-watagames-turnaround-times-update-2022aug16) for all listed systems through August 1, 2022!
->
-> _\- Wata, Aug. 17, 2022_
+> Population Reports update: You’ve been asking, and we’ve finally got them – seal ratings have been added to our Population Reports! We’ve been working hard the last few months to build and accurately represent this critical aspect of our pop reports. Now all populations can display the seal-rating breakdown for each box grade by hovering over the population count. [Pop reports are now updated](https://www.watagames.com/populations/index.html?utm_source=email&utm_medium=marketingemail&utm_campaign=email-watagames-turnaround-times-update-2022aug16) for all listed systems through August 1, 2022! Wata, Aug. 17, 2022
 
 While it's not news at this point, being almost a full month late, I did want to share some interesting data I've compiled for Game Boy, Game Boy Color, and Game Boy Advance!
 

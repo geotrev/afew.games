@@ -15,3 +15,6 @@ out/
 *.tsbuildinfo
 next-env.d.ts
 .vscode/**
+
+node_modules
+.env
