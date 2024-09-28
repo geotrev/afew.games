@@ -5,4 +5,7 @@ module.exports = {
     cfg.experiments.topLevelAwait = true
     return cfg
   },
+  images: {
+    domains: ["assets.tina.io"],
+  },
 }
