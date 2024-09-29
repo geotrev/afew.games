@@ -9,7 +9,6 @@ export type Essay = {
 export type EssayPageData = {
   index: number
   essays: Essay[]
-  totalPages: number
 }
 
 export type EssayProps = {
