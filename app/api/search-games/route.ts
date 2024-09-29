@@ -1,4 +1,4 @@
-import { transformGameData } from "utils/helpers"
+import { transformGameData } from "utils/generics"
 import { getGamesData } from "utils/db-helpers"
 import { DatabaseGame, DatabasePlatform } from "types/games"
 import xss from "xss"

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { sortByKey } from "utils/helpers"
+import { sortByKey } from "utils/generics"
 import { BASE_TITLE } from "utils/constants"
 import { getPlatformList } from "utils/db-helpers"
 import contributorData from "public/collections/contributors/contributors.json"
