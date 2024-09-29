@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { PageHeading } from "../components/page-heading"
+import { PageHeading } from "../_components/page-heading"
 import { BASE_TITLE } from "utils/constants"
 
 export const metadata = {
@@ -27,8 +27,9 @@ export default function Page() {
       </p>
       <p>
         In other words, I want to answer questions like: What is the distinct
-        chronology of a physical game&apos;s printing? What signifiers do publishers
-        exercise when revising games? How scarce are these different print variants?
+        chronology of a physical game&apos;s printing? What signifiers do
+        publishers exercise when revising games? How scarce are these different
+        print variants?
       </p>
       <p>
         Finally, where do you, the reader/contributor, fit into this? As
@@ -58,8 +59,8 @@ export default function Page() {
         </Link>{" "}
         for that! I&apos;d love to see your games too. Thanks if you decide to
         give a follow. On a related note, sign up for occasional emails with
-        updates on new blog posts and database additions. I promise not to
-        spam you. ;)
+        updates on new blog posts and database additions. I promise not to spam
+        you. ;)
       </p>
     </div>
   )

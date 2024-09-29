@@ -1,9 +1,9 @@
 import xss from "xss"
-import { PageHeading } from "../components/page-heading"
 import { EssayPageData } from "types/essays"
 import { getEssayList } from "utils/essay-helpers"
 import { BASE_TITLE } from "utils/constants"
-import { EssaysWrapper } from "./components/essays-wrapper"
+import { PageHeading } from "../_components/page-heading"
+import { EssaysWrapper } from "./_components/essays-wrapper"
 
 export const dynamic = "force-dynamic"
 

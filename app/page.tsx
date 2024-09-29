@@ -1,10 +1,10 @@
 import Link from "next/link"
-import { PageHeading } from "app/components/page-heading"
-import { DatabaseWrapper } from "app/components/database-wrapper"
 import { sortByKey } from "utils/helpers"
 import { BASE_TITLE } from "utils/constants"
 import { getPlatformList } from "utils/db-helpers"
 import contributorData from "public/collections/contributors/contributors.json"
+import { PageHeading } from "./_components/page-heading"
+import { DatabaseWrapper } from "./_components/database-wrapper"
 
 export const metadata = {
   alternates: {

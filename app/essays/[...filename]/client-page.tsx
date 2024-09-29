@@ -2,7 +2,7 @@
 
 import { useTina } from "tinacms/dist/react"
 import { EssayQuery } from "@/tina/__generated__/types"
-import { EssayContent } from "./components/essay-content"
+import { EssayContent } from "./_components/essay-content"
 
 interface ClientPageProps {
   query: string

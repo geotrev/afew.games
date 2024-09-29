@@ -1,7 +1,7 @@
 import { PropsWithChildren, Suspense } from "react"
-import { SiteHeader } from "./components/site-header"
-import { SiteFooter } from "./components/site-footer"
-import { SocialLinks } from "./components/social-links"
+import { SiteHeader } from "./_components/site-header"
+import { SiteFooter } from "./_components/site-footer"
+import { SocialLinks } from "./_components/social-links"
 
 export function App({ children }: PropsWithChildren) {
   return (

@@ -1,7 +1,7 @@
-import { PageHeading } from "../components/page-heading"
 import { BASE_TITLE } from "utils/constants"
-import { SubmissionForm } from "./components/submission-form"
-import { RecaptchaVerifyWrapper } from "./components/recaptcha-verify-wrapper"
+import { PageHeading } from "../_components/page-heading"
+import { SubmissionForm } from "./_components/submission-form"
+import { RecaptchaVerifyWrapper } from "./_components/recaptcha-verify-wrapper"
 
 export const metadata = {
   alternates: {
