@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server"
-
 import { getEssayList } from "utils/essay-helpers"
 import { EssayPageData } from "types/essays"
 
