@@ -5,8 +5,7 @@ import chunk from "lodash-es/chunk"
 import { marked } from "marked"
 import { mangle } from "marked-mangle"
 import { gfmHeadingId } from "marked-gfm-heading-id"
-import { ParsedUrlQuery } from "querystring"
-import { EssayProps, Essay, EssayPageData } from "types/essays"
+import { Essay, EssayPageData } from "types/essays"
 
 marked.use(mangle())
 marked.use(gfmHeadingId())
@@ -61,40 +60,5 @@ export function getEssayList(index: number): EssayPageData {
     // eslint-disable-next-line
     console.error(e)
     return { index: -1, essays: [], totalPages: 0 }
-  }
-}
-
-export function getMatchingEssay(
-  params: ParsedUrlQuery | undefined
-): EssayProps | boolean {
-  const slug = params?.slug
-
-  // Redirect to 404
-  if (typeof slug !== "string") return false
-
-  const fileNames: string[] = readdirSync(getEssaysPath(), "utf8")
-  const fileName: string | undefined = fileNames.find((fileName) => {
-    const rawName = fileName.split("--")[1]
-    const fileSlug = rawName.replace(".md", "")
-
-    return slug === fileSlug
-  })
-
-  // Redirect to 404
-  if (!fileName) return false
-
-  const rawFile = readFileSync(getEssaysPath(fileName), "utf8")
-  const {
-    data: { title, description, publish_date },
-    content: markdownContent,
-  }: GrayMatterFile<typeof rawFile> = matter(rawFile)
-  const content = marked.parse(markdownContent) as string
-  const date = toDateString(publish_date)
-
-  return {
-    date,
-    title,
-    description,
-    content,
   }
 }

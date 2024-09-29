@@ -2,9 +2,11 @@ import { DatabaseGame, DatabasePlatform } from "types/games"
 import { isPlainObject, isString, pickBy } from "lodash-es"
 
 export function sortByKey(key: string) {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   return (a: any, b: any): 0 | 1 | -1 => {
     const aName: string = a[key as keyof typeof a].toLowerCase()
     const bName: string = b[key as keyof typeof b].toLowerCase()
+
     return aName > bName ? 1 : aName < bName ? -1 : 0
   }
 }

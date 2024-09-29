@@ -74,7 +74,7 @@ export function SubscribeForm() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <fieldset className="flex items-stretch">
+      <fieldset className="flex flex-wrap items-stretch">
         {!isSuccess && (
           <label style={hideVisually()} htmlFor="subscribe-email">
             Email:
@@ -83,7 +83,7 @@ export function SubscribeForm() {
         {!isSuccess && (
           <input
             className={cn(
-              "input input-bordered input-secondary input-md me-2 rounded-md",
+              "input input-md input-bordered input-secondary me-2 rounded-md",
               {
                 "input-error": formState.status === SubscribeFormStatuses.ERROR,
               }
@@ -117,8 +117,8 @@ export function SubscribeForm() {
         {formState.message && (
           <p
             id="subscribe-message"
-            className={cn("m-0 flex items-center text-xs", {
-              "ps-4": formState.status !== SubscribeFormStatuses.SUCCESS,
+            className={cn("m-0 flex w-full items-center text-xs", {
+              "pt-4": formState.status !== SubscribeFormStatuses.SUCCESS,
               "text-success":
                 formState.status === SubscribeFormStatuses.SUCCESS,
               "text-error": formState.status === SubscribeFormStatuses.ERROR,

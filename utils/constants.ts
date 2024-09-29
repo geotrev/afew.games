@@ -4,8 +4,6 @@ export const EMAIL_REGEXP: RegExp =
 export const ERROR_MESSAGE: string =
   "There was an error subscribing to the newsletter. Try again or email contact@afew.games if the error persists."
 
-export type SubscribeFormStates = "error" | "success" | "loading" | "none"
-
 export const SubscribeFormStatuses: {
   ERROR: "error"
   SUCCESS: "success"
