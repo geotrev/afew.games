@@ -13,7 +13,7 @@ export function EssayHeader({ title, description, date }: EssayHeaderProps) {
       <p className="badge badge-accent badge-outline mb-4 font-semibold">
         Published&nbsp;
         <time aria-labelledby="essay-heading" dateTime={date}>
-          {date}
+          {new Date(date).toLocaleDateString().replace(/\//g, "-")}
         </time>
       </p>
       <h1

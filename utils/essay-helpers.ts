@@ -14,9 +14,7 @@ marked.use(gfmHeadingId())
 const MAX_LIST_LENGTH = 5
 
 function getEssaysPath(target: string = ""): string {
-  return process.env.NODE_ENV === "development"
-    ? path.resolve(process.cwd(), ".seed/essays", target)
-    : path.resolve(process.cwd(), "public/essays", target)
+  return path.resolve(process.cwd(), "essays", target)
 }
 
 function toDateString(date: Date | string): string {
@@ -31,24 +29,26 @@ export function getEssayList(index: number): EssayPageData {
     .reverse()
 
   try {
-    const essayData: Essay[] = fileNames.map((fileName: string) => {
-      const raw = readFileSync(getEssaysPath(fileName), "utf8")
-      const {
-        data: { title, description, publish_date },
-      }: GrayMatterFile<typeof raw> = matter(raw)
-      const rawName = fileName.split("--")[1]
-      const slug = rawName.replace(".md", "")
-      const urlPath = `/essays/${slug}`
-      const date = toDateString(publish_date)
+    const essayData: Essay[] = fileNames
+      .map((fileName: string) => {
+        const raw = readFileSync(getEssaysPath(fileName), "utf8")
+        const {
+          data: { title, description, publish_date },
+        }: GrayMatterFile<typeof raw> = matter(raw)
+        const slug = fileName.replace(".md", "")
+        const urlPath = `/essays/${slug}`
+        const date = toDateString(publish_date)
 
-      return {
-        date,
-        title,
-        description,
-        urlPath,
-        slug,
-      }
-    })
+        return {
+          date,
+          title,
+          description,
+          urlPath,
+          slug,
+        }
+      })
+      // Sort the entries by date
+      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
     const chunked = chunk(essayData, MAX_LIST_LENGTH)
     const totalPages: number = chunked.length

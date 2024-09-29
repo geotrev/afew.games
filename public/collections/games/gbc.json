@@ -5,8 +5,8 @@
       "name": "Pocket Monsters: Crystal (Japanese)",
       "variants": [
         {
-          "mpn": "CGB-P-BXTJ(JPN)",
           "country": "Japan",
+          "mpn": "CGB-P-BXTJ(JPN)",
           "notes": "Sealed Bag 11/1~12/5 Pre-Order"
         },
         {
@@ -15,9 +15,9 @@
           "notes": "Sealed Bag 12/6~12/17 Pre-Order"
         },
         {
+          "country": "Japan",
           "mpn": "CGB-P-BXTJ(JPN)",
-          "notes": "",
-          "country": "Japan"
+          "notes": ""
         },
         {
           "country": "Japan",
@@ -25,8 +25,8 @@
           "notes": "Sealed Bag 12/18~12/25 Pre-Order"
         },
         {
-          "mpn": "CGB-P-BXTJ(JPN)",
           "country": "Japan",
+          "mpn": "CGB-P-BXTJ(JPN)",
           "notes": "Sealed Bag 12/26~1/8 Pre-Order"
         }
       ]
@@ -35,24 +35,24 @@
       "name": "Pocket Monsters: Gold (Japanese)",
       "variants": [
         {
-          "mpn": "DMG-P-AAUJ(JPN)",
-          "notes": "Sealed Bag Lawson Pre-Order 11/1",
-          "country": "Japan"
-        },
-        {
-          "mpn": "DMG-P-AAUJ(JPN)",
-          "notes": "No N64 Disclaimer",
-          "country": "Japan"
-        },
-        {
-          "notes": "Sealed Bag Lawson Pre-Order 11/28",
           "country": "Japan",
-          "mpn": "DMG-P-AAUJ(JPN)"
+          "mpn": "DMG-P-AAUJ(JPN)",
+          "notes": "Sealed Bag Lawson Pre-Order 11/1"
         },
         {
           "country": "Japan",
-          "notes": "N64 Disclaimer",
-          "mpn": "DMG-P-AAUJ(JPN)"
+          "mpn": "DMG-P-AAUJ(JPN)",
+          "notes": "No N64 Disclaimer"
+        },
+        {
+          "country": "Japan",
+          "mpn": "DMG-P-AAUJ(JPN)",
+          "notes": "Sealed Bag Lawson Pre-Order 11/28"
+        },
+        {
+          "country": "Japan",
+          "mpn": "DMG-P-AAUJ(JPN)",
+          "notes": "N64 Disclaimer"
         }
       ]
     },
@@ -60,24 +60,24 @@
       "name": "Pocket Monsters: Silver (Japanese)",
       "variants": [
         {
-          "notes": "Sealed Bag Lawson Pre-Order 11/1",
+          "country": "Japan",
           "mpn": "DMG-P-AAXJ(JPN)",
-          "country": "Japan"
+          "notes": "Sealed Bag Lawson Pre-Order 11/1"
         },
         {
-          "mpn": "DMG-P-AAXJ(JPN)",
           "country": "Japan",
+          "mpn": "DMG-P-AAXJ(JPN)",
           "notes": "No N64 Disclaimer"
         },
         {
+          "country": "Japan",
           "mpn": "DMG-P-AAXJ(JPN)",
-          "notes": "Sealed Bag Lawson Pre-Order 11/28",
-          "country": "Japan"
+          "notes": "Sealed Bag Lawson Pre-Order 11/28"
         },
         {
           "country": "Japan",
-          "notes": "N64 Disclaimer",
-          "mpn": "DMG-P-AAXJ(JPN)"
+          "mpn": "DMG-P-AAXJ(JPN)",
+          "notes": "N64 Disclaimer"
         }
       ]
     },

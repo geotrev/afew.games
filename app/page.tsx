@@ -4,7 +4,7 @@ import { DatabaseWrapper } from "app/components/database-wrapper"
 import { sortByKey } from "utils/helpers"
 import { BASE_TITLE } from "utils/constants"
 import { getPlatformList } from "utils/db-helpers"
-import contributorData from "public/collections/contributors.json"
+import contributorData from "public/collections/contributors/contributors.json"
 
 export const metadata = {
   alternates: {
