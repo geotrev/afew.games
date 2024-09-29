@@ -1,6 +1,5 @@
-import xss from "xss"
-import { EssayPageData } from "types/essays"
-import { getEssayList } from "utils/essay-helpers"
+import client from "@/tina/__generated__/client"
+import { Essay, EssayPageData } from "types/essays"
 import { BASE_TITLE } from "utils/constants"
 import { PageHeading } from "../_components/page-heading"
 import { EssaysWrapper } from "./_components/essays-wrapper"
@@ -15,16 +14,30 @@ export const metadata = {
   description: "Essays about video games, collecting, and nonsense",
 }
 
-export default async function Page({
-  searchParams,
-}: {
-  searchParams?: { page: string }
-}) {
-  const rawPage = searchParams?.page ? xss(searchParams.page) : ""
-  const pageInt = parseInt(rawPage, 10)
-  const essaysPage =
-    !isNaN(pageInt) && pageInt > 0 ? Math.floor(pageInt) - 1 : 0
-  const initialData: EssayPageData = getEssayList(essaysPage)
+export default async function Page() {
+  const pages = await client.queries.essayConnection({
+    sort: "publish_date",
+    last: 5,
+  })
+  const essays = pages.data?.essayConnection?.edges?.map((edge) => {
+    return {
+      slug: edge?.node?._sys.filename,
+      urlPath: `/essays/${edge?.node?._sys.filename}`,
+      date: edge?.node?.publish_date
+        ? new Date(edge.node.publish_date)
+            .toLocaleDateString()
+            .replace(/\//g, "-")
+        : null,
+      title: edge?.node?.title,
+      description: edge?.node?.description,
+    }
+  })
+
+  const initialData: EssayPageData = {
+    index: 0,
+    essays: essays as Essay[],
+    totalPages: 5,
+  }
 
   return (
     <>

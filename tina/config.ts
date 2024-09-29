@@ -26,4 +26,12 @@ export default defineConfig({
   schema: {
     collections: [Essay, DatabaseContributors, VideoGameDatabase],
   },
+  search: {
+    tina: {
+      indexerToken: process.env.TINA_SEARCH_INDEXER_TOKEN,
+      stopwordLanguages: ["eng"],
+    },
+    indexBatchSize: 100,
+    maxSearchIndexFieldLength: 100,
+  },
 })
