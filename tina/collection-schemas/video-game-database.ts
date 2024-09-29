@@ -65,6 +65,7 @@ export const VideoGameDatabase: Collection = {
                 "Hong Kong",
                 "Peurto Rico",
                 "Thailand",
+                "Germany",
               ],
             },
             {
