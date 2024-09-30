@@ -1,7 +1,8 @@
-import client from "@/tina/__generated__/client"
+import { queryEssays } from "@/app/_queries/essays"
 import { BASE_TITLE } from "utils/constants"
 import { PageHeading } from "../_components/page-heading"
-import { Essays, PaginatedEssay } from "./client-page"
+import { Essays } from "./client-page"
+import { PAGE_SIZE } from "./constants"
 
 export const dynamic = "force-dynamic"
 
@@ -15,30 +16,21 @@ export const metadata = {
 
 export default async function Page() {
   // Fetch the most recent 5 essays
-  const pages = await client.queries.essayConnection({
+  const result = await queryEssays({
     sort: "publish_date",
-    last: 5,
   })
 
-  // Shape the essay data into a format the UI expects
-  // Cursor must be included for pagination
-  const essays = pages.data?.essayConnection?.edges?.map((edge) => {
-    return {
-      cursor: edge?.cursor,
-      slug: edge?.node?._sys.filename,
-      urlPath: `/essays/${edge?.node?._sys.filename}`,
-      date: edge?.node?.publish_date,
-      title: edge?.node?.title,
-      description: edge?.node?.description,
-    }
-  })
+  const essays = result.essays!.slice(-5).reverse()
+  const pages = Math.ceil(result.essays!.length / PAGE_SIZE)
 
   return (
     <>
       <div className="prose">
         <PageHeading>Essays</PageHeading>
       </div>
-      <Essays essays={essays as PaginatedEssay[]} />
+      {essays && result.pageInfo && (
+        <Essays essays={essays} pageInfo={result.pageInfo} pages={pages} />
+      )}
     </>
   )
 }

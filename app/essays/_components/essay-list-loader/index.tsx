@@ -17,8 +17,6 @@ export function EssayListLoaderComponent(): ReactElement<HTMLElement> {
             <div className="grid grid-cols-4 gap-4">
               <div className="col-span-3 h-4 rounded bg-secondary opacity-20"></div>
               <div className="col-span-1 h-4 rounded bg-secondary opacity-20"></div>
-              <div className="col-span-1 h-4 rounded bg-secondary opacity-20"></div>
-              <div className="col-span-3 h-4 rounded bg-secondary opacity-20"></div>
             </div>
           </div>
         )

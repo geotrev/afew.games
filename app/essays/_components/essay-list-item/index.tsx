@@ -2,18 +2,18 @@
 
 import Link from "next/link"
 import { useEffect, useState } from "react"
-import { isEqual, isWithinInterval, parse, subMonths } from "date-fns"
+import { isEqual, isWithinInterval, subMonths } from "date-fns"
 import propTypes from "prop-types"
 import { Essay } from "types/essays"
 
 export const EssayListItem = ({ title, description, urlPath, date }: Essay) => {
   const [isRecent, setIsRecent] = useState(false)
+  const publishDate = new Date(date!).toLocaleDateString().replaceAll("/", "-")
 
   useEffect(() => {
     try {
       const currentDate = new Date()
       const recentOldestDate = subMonths(currentDate, 1)
-      const publishDate = parse(date, "MM-dd-yyyy", new Date())
 
       if (
         isWithinInterval(publishDate, {
@@ -27,21 +27,25 @@ export const EssayListItem = ({ title, description, urlPath, date }: Essay) => {
       }
     } catch (e) {
       // eslint-disable-next-line no-console
-      console.error("Essay item: Couldn't set post status.", { title, date }, e)
+      console.error(
+        "Essay item: Couldn't set post status.",
+        { title, publishDate },
+        e
+      )
     }
-  }, [date, title])
+  }, [title, publishDate])
 
   return (
     <li className="mb-12 flex flex-col">
       <div className="mb-1 flex gap-2 font-semibold">
         <p className="badge badge-accent badge-outline text-xs">
           Published&nbsp;
-          <time dateTime={date}>{date}</time>
+          <time dateTime={date}>{publishDate}</time>
         </p>
         {isRecent && <p className="badge badge-success text-xs">New</p>}
       </div>
       <h2 className="mb-1 text-xl font-bold text-white">
-        <Link className="hover:underline" href={urlPath}>
+        <Link className="hover:underline" href={urlPath!}>
           {title}
         </Link>
       </h2>
