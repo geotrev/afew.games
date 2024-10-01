@@ -41,7 +41,7 @@
     "react-dom": "^18.2.0",
     "react-google-recaptcha-v3": "^1.10.1",
     "react-tooltip": "^5.25.1",
-    "tinacms": "2.2.5",
+    "tinacms": "^2.2.8",
     "xss": "^1.0.14"
   },
   "devDependencies": {
@@ -52,7 +52,7 @@
     "@commitlint/cli": "^19.0.0",
     "@commitlint/config-conventional": "^19.0.0",
     "@netlify/plugin-nextjs": "^5.0.0",
-    "@tinacms/cli": "^1.6.5",
+    "@tinacms/cli": "^1.6.8",
     "@types/glob": "^8.1.0",
     "@types/lodash-es": "^4.17.12",
     "@types/node": "^20.14.11",
