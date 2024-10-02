@@ -5,13 +5,6 @@ import { EssayQuery } from "@/tina/__generated__/types"
 import { EssayFooter } from "../essay-footer"
 import { EssayHeader } from "../essay-header"
 
-EssayContent.propTypes = {
-  title: propTypes.string.isRequired,
-  description: propTypes.string.isRequired,
-  publish_date: propTypes.string.isRequired,
-  body: propTypes.string.isRequired,
-}
-
 export function EssayContent({
   title,
   description,
@@ -32,4 +25,11 @@ export function EssayContent({
       <EssayFooter />
     </article>
   )
+}
+
+EssayContent.propTypes = {
+  title: propTypes.string.isRequired,
+  description: propTypes.string.isRequired,
+  publish_date: propTypes.string.isRequired,
+  body: propTypes.string.isRequired,
 }

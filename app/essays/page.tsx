@@ -1,9 +1,8 @@
-import xss from "xss"
-import { EssayPageData } from "types/essays"
-import { getEssayList } from "utils/essay-helpers"
+import { queryEssays } from "@/app/_queries/essays"
 import { BASE_TITLE } from "utils/constants"
 import { PageHeading } from "../_components/page-heading"
-import { EssaysWrapper } from "./_components/essays-wrapper"
+import { Essays } from "./client-page"
+import { PAGE_SIZE } from "./constants"
 
 export const dynamic = "force-dynamic"
 
@@ -15,23 +14,23 @@ export const metadata = {
   description: "Essays about video games, collecting, and nonsense",
 }
 
-export default async function Page({
-  searchParams,
-}: {
-  searchParams?: { page: string }
-}) {
-  const rawPage = searchParams?.page ? xss(searchParams.page) : ""
-  const pageInt = parseInt(rawPage, 10)
-  const essaysPage =
-    !isNaN(pageInt) && pageInt > 0 ? Math.floor(pageInt) - 1 : 0
-  const initialData: EssayPageData = getEssayList(essaysPage)
+export default async function Page() {
+  // Fetch the most recent 5 essays
+  const result = await queryEssays({
+    sort: "publish_date",
+  })
+
+  const essays = result.essays!.slice(-5).reverse()
+  const pages = Math.ceil(result.essays!.length / PAGE_SIZE)
 
   return (
     <>
       <div className="prose">
         <PageHeading>Essays</PageHeading>
       </div>
-      <EssaysWrapper initialData={initialData} />
+      {essays && result.pageInfo && (
+        <Essays essays={essays} pageInfo={result.pageInfo} pages={pages} />
+      )}
     </>
   )
 }

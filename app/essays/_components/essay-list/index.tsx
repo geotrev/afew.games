@@ -1,28 +1,25 @@
 import propTypes from "prop-types"
 import { forwardRef, Ref } from "react"
-import { EssayPageData } from "types/essays"
+import { Essay } from "@/types/essays"
 import { EssayListItem } from "../essay-list-item"
 
-const EssayListComponent = (
-  { index, essays }: EssayPageData,
-  ref: Ref<HTMLUListElement>
-) => {
-  return (
-    <ul ref={ref} aria-label={`Essays, page ${index + 1}`}>
+export type EssayListProps = {
+  essays: Essay[]
+}
+
+export const EssayList = forwardRef<HTMLUListElement, EssayListProps>(
+  ({ essays }: EssayListProps, ref: Ref<HTMLUListElement>) => (
+    <ul ref={ref} aria-label={`Essays`}>
       {essays.map((essay) => (
         <EssayListItem key={essay.slug} {...essay} />
       ))}
     </ul>
   )
-}
-
-export const EssayList = forwardRef<HTMLUListElement, EssayPageData>(
-  EssayListComponent
 )
 
+EssayList.displayName = "EssayList"
+
 EssayList.propTypes = {
-  index: propTypes.number.isRequired,
-  totalPages: propTypes.number.isRequired,
   essays: propTypes.arrayOf(
     propTypes.shape({
       date: propTypes.string.isRequired,

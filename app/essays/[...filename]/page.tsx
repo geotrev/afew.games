@@ -15,9 +15,9 @@ export default async function Page({
 }: {
   params: { filename: string[] }
 }) {
-  const data = await client.queries.essay({
+  const result = await client.queries.essay({
     relativePath: `${params.filename}.md`,
   })
 
-  return <Essay {...data}></Essay>
+  return <Essay {...result}></Essay>
 }

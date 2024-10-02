@@ -13,12 +13,15 @@ export function EssayListLoaderComponent(): ReactElement<HTMLElement> {
             aria-hidden="true"
           >
             <div className="h-4 w-40 rounded bg-secondary opacity-20"></div>
-            <div className="h-6 w-full rounded bg-secondary opacity-20"></div>
+            <div className="grid grid-cols-6 gap-4">
+              <div className="col-span-2 h-5 w-full rounded bg-secondary opacity-20"></div>
+              <div className="col-span-1 h-5 w-full rounded bg-secondary opacity-20"></div>
+              <div className="col-span-3 h-5 w-full rounded bg-secondary opacity-20"></div>
+            </div>
             <div className="grid grid-cols-4 gap-4">
-              <div className="col-span-3 h-4 rounded bg-secondary opacity-20"></div>
               <div className="col-span-1 h-4 rounded bg-secondary opacity-20"></div>
+              <div className="col-span-2 h-4 rounded bg-secondary opacity-20"></div>
               <div className="col-span-1 h-4 rounded bg-secondary opacity-20"></div>
-              <div className="col-span-3 h-4 rounded bg-secondary opacity-20"></div>
             </div>
           </div>
         )
