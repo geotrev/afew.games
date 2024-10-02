@@ -113,7 +113,12 @@ export function Essays({
       ) : (
         <EssayList essays={pageData.essays!} />
       )}
+      <p className="text-center" id="page-detail">
+        Showing page <strong>{pageData.index + 1}</strong> of{" "}
+        <strong>{pages}</strong>
+      </p>
       <Pagination
+        aria-describedby="page-detail"
         index={pageData.index}
         totalPages={pages}
         handleNewestClick={handleNewestClick}

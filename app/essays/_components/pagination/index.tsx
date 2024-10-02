@@ -23,9 +23,14 @@ export const Pagination = ({
   handlePreviousClick,
   handleNextClick,
   handleLastClick,
+  ...props
 }: PaginationProps) => {
   return (
-    <nav aria-label="pagination" className="mt-8 flex justify-center gap-4">
+    <nav
+      aria-label="pagination"
+      className="mt-8 flex justify-center gap-4"
+      {...props}
+    >
       <button
         disabled={index === 0}
         onClick={handleNewestClick}
