@@ -11,13 +11,6 @@ export interface PaginatedEssay extends Essay {
   cursor?: string
 }
 
-export interface PageInfo {
-  hasPreviousPage: boolean
-  hasNextPage: boolean
-  startCursor: string
-  endCursor: string
-}
-
 export async function queryEssays(
   options: Exact<{
     before?: InputMaybe<Scalars["String"]["input"]>
@@ -27,7 +20,7 @@ export async function queryEssays(
     sort?: InputMaybe<Scalars["String"]["input"]>
     filter?: InputMaybe<EssayFilter>
   }>
-): Promise<{ essays?: PaginatedEssay[]; pageInfo?: PageInfo }> {
+): Promise<{ essays?: PaginatedEssay[] }> {
   const pages = await client.queries.essayConnection({ ...options })
 
   // Shape the essay data into a format the UI expects
@@ -43,6 +36,5 @@ export async function queryEssays(
         description: edge?.node?.description,
       }
     }),
-    pageInfo: pages.data?.essayConnection?.pageInfo,
   }
 }

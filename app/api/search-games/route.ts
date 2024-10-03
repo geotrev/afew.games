@@ -40,10 +40,12 @@ export async function POST(req: Request) {
     )
 
     return NextResponse.json({ status: "success", matches })
-  } catch (err) {
+  } catch (e) {
     return NextResponse.json({
       status: "error",
       message: "Error with search query. Try again.",
     })
+    // eslint-disable-next-line no-console
+    console.error("Error:", e)
   }
 }

@@ -69,6 +69,8 @@ export function SubscribeForm() {
         status: SubscribeFormStatuses.ERROR,
         message: ERROR_MESSAGE,
       })
+      // eslint-disable-next-line no-console
+      console.log("Error:", e)
     }
   }
 

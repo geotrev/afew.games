@@ -94,6 +94,8 @@ export async function POST(req: Request) {
         status: "error",
         message: "Internal server error",
       })
+      // eslint-disable-next-line no-console
+      console.log("Error:", e)
     }
   } else {
     return NextResponse.json({ status: "success" })

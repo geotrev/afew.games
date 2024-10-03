@@ -68,5 +68,7 @@ export async function POST(req: Request) {
       status: SubscribeFormStatuses.ERROR,
       message: ERROR_MESSAGE,
     })
+    // eslint-disable-next-line no-console
+    console.error("Error:", e)
   }
 }
