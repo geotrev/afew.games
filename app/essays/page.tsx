@@ -20,17 +20,15 @@ export default async function Page() {
     sort: "publish_date",
   })
 
-  const essays = result.essays!.slice(-5).reverse()
-  const pages = Math.ceil(result.essays!.length / PAGE_SIZE)
+  const essays = result.essays?.slice(-5).reverse()
+  const pages = result.essays ? Math.ceil(result.essays?.length / PAGE_SIZE) : 0
 
   return (
     <>
       <div className="prose">
         <PageHeading>Essays</PageHeading>
       </div>
-      {essays && result.pageInfo && (
-        <Essays essays={essays} pageInfo={result.pageInfo} pages={pages} />
-      )}
+      {essays && <Essays essays={essays} pages={pages} />}
     </>
   )
 }
