@@ -1,7 +1,7 @@
 import { BASE_TITLE } from "utils/constants"
 import { getPlatformList } from "utils/db-helpers"
 import contributors from "public/collections/contributors/contributors.json"
-import client from "@/tina/__generated__/client"
+// import client from "@/tina/__generated__/client"
 import { ClientPage } from "./client-page"
 
 export const metadata = {
@@ -15,11 +15,11 @@ export const metadata = {
 const platformList = getPlatformList()
 
 export default async function Page() {
-  const query = await client.queries.home({ relativePath: "content.md" })
+  // const query = await client.queries.content({ relativePath: "content.md" })
 
   return (
     <ClientPage
-      query={query}
+      // query={query}
       contributors={contributors}
       platformList={platformList}
     />

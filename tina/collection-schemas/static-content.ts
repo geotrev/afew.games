@@ -1,0 +1,55 @@
+import type { Collection, Template } from "tinacms"
+
+const HomeTemplate: Template = {
+  name: "home",
+  label: "Home",
+  fields: [
+    {
+      name: "message",
+      label: "Message",
+      type: "rich-text",
+    },
+    {
+      name: "contribute",
+      label: "Contribute",
+      type: "rich-text",
+    },
+  ],
+}
+
+const AboutTemplate: Template = {
+  name: "about",
+  label: "About",
+  fields: [
+    {
+      name: "body",
+      label: "Body",
+      type: "rich-text",
+    },
+  ],
+}
+
+export const StaticContent: Collection = {
+  name: "content",
+  label: "Content",
+  path: "content",
+  format: "md",
+  fields: [
+    {
+      name: "templates",
+      label: "Templates",
+      type: "object",
+      list: true,
+      templates: [HomeTemplate, AboutTemplate],
+    },
+  ],
+  ui: {
+    router: (props) => {
+      if (props.document._sys.relativePath === "home.md") {
+        return "/"
+      }
+
+      return props.document._sys.filename
+    },
+  },
+}
