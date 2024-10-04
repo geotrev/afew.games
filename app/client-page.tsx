@@ -5,17 +5,34 @@ import { tinaField, useTina } from "tinacms/dist/react"
 import Link from "next/link"
 import { DatabaseWrapper } from "./_components/database-wrapper"
 import { PageHeading } from "./_components/page-heading"
-import { ContentQuery } from "@/tina/__generated__/types"
+import {
+  ContentQuery,
+  Db_ContributorsQuery,
+  Exact,
+  Scalars,
+} from "@/tina/__generated__/types"
 import { sortByKey } from "@/utils/generics"
 
 interface HomePageProps {
   query: {
     data: ContentQuery
-    variables: { relativePath: string }
+    errors?:
+      | {
+          message: string
+          locations: {
+            line: number
+            column: number
+          }[]
+          path: string[]
+        }[]
+      | null
+    variables: Exact<{
+      relativePath: Scalars["String"]["input"]
+    }>
     query: string
   }
   platformList: string[]
-  contributors: { contributors: { name: string }[] }
+  contributors: Db_ContributorsQuery["db_contributors"]["contributors"]
 }
 
 export const ClientPage = ({
@@ -63,9 +80,9 @@ export const ClientPage = ({
       <div className="prose max-w-full">
         <p className="font-bold">♥ Database Contributors</p>
         <p>
-          {contributors.contributors
-            .sort(sortByKey("name"))
-            .map((contributor) => contributor.name)
+          {contributors
+            ?.sort(sortByKey("name"))
+            .map((contributor) => contributor?.name)
             .join(", ")}
         </p>
       </div>

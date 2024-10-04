@@ -23,7 +23,6 @@ export const Pagination = ({
   handlePreviousClick,
   handleNextClick,
   handleLastClick,
-  ...props
 }: PaginationProps) => {
   return (
     <>
@@ -33,8 +32,8 @@ export const Pagination = ({
       </div>
       <nav
         aria-label="pagination"
+        aria-describedby="page-detail"
         className="mt-8 flex justify-center gap-4"
-        {...props}
       >
         <button
           disabled={index === 0}

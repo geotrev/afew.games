@@ -11,7 +11,7 @@
       {
         "name": "content",
         "label": "Content",
-        "path": "content",
+        "path": "content/pages",
         "format": "md",
         "fields": [
           {
@@ -73,7 +73,7 @@
       {
         "label": "Essays",
         "name": "essay",
-        "path": "essays",
+        "path": "content/essays",
         "format": "md",
         "fields": [
           {

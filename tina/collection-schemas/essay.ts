@@ -3,7 +3,7 @@ import { Collection } from "tinacms"
 export const Essay: Collection = {
   label: "Essays",
   name: "essay",
-  path: "essays",
+  path: "content/essays",
   format: "md",
   fields: [
     {

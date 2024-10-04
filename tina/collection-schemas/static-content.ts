@@ -32,7 +32,7 @@ const AboutTemplate: Template = {
 export const StaticContent: Collection = {
   name: "content",
   label: "Content",
-  path: "content",
+  path: "content/pages",
   format: "md",
   fields: [
     {
