@@ -1,4 +1,4 @@
-import Essay from "./client-page"
+import { ClientPage } from "./client-page"
 import client from "../../../tina/__generated__/client"
 
 export async function generateStaticParams() {
@@ -15,9 +15,9 @@ export default async function Page({
 }: {
   params: { filename: string[] }
 }) {
-  const result = await client.queries.essay({
+  const query = await client.queries.essay({
     relativePath: `${params.filename}.md`,
   })
 
-  return <Essay {...result}></Essay>
+  return <ClientPage {...query} />
 }

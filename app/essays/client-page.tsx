@@ -7,16 +7,16 @@ import { PAGE_SIZE } from "./constants"
 import { EssayListLoader } from "./_components/essay-list-loader"
 import { Pagination } from "./_components/pagination"
 
-interface EssaysProps {
+interface EssaysPageProps {
   essays: PaginatedEssay[]
   pages: number
 }
 
-interface PageData extends Omit<EssaysProps, "pages"> {
+interface PageData extends Omit<EssaysPageProps, "pages"> {
   index: number
 }
 
-export function Essays({ essays: _essays, pages }: EssaysProps) {
+export function ClientPage({ essays: _essays, pages }: EssaysPageProps) {
   const [pageData, setPageData] = useState<PageData>({
     essays: _essays,
     index: 0,
@@ -33,7 +33,7 @@ export function Essays({ essays: _essays, pages }: EssaysProps) {
     })
 
     if (result.essays?.length) {
-      setPageData({ ...(result as EssaysProps), index: 0 })
+      setPageData({ ...(result as EssaysPageProps), index: 0 })
       setIsLoading(false)
     }
   }, [pageData])
@@ -69,7 +69,7 @@ export function Essays({ essays: _essays, pages }: EssaysProps) {
     })
 
     if (result.essays?.length) {
-      setPageData({ ...(result as EssaysProps), index: pageData.index + 1 })
+      setPageData({ ...(result as EssaysPageProps), index: pageData.index + 1 })
       setIsLoading(false)
     }
   }, [pageData, pages])
@@ -101,7 +101,6 @@ export function Essays({ essays: _essays, pages }: EssaysProps) {
         <EssayList essays={pageData.essays!} />
       )}
       <Pagination
-        aria-describedby="page-detail"
         index={pageData.index}
         totalPages={pages}
         handleNewestClick={handleNewestClick}

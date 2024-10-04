@@ -1,7 +1,7 @@
 import { queryEssays } from "@/app/_queries/essays"
 import { BASE_TITLE } from "utils/constants"
 import { PageHeading } from "../_components/page-heading"
-import { Essays } from "./client-page"
+import { ClientPage } from "./client-page"
 import { PAGE_SIZE } from "./constants"
 
 export const metadata = {
@@ -14,19 +14,20 @@ export const metadata = {
 
 export default async function Page() {
   // Fetch the most recent 5 essays
-  const result = await queryEssays({
+  const query = await queryEssays({
     sort: "publish_date",
   })
 
-  const essays = result.essays?.slice(-5).reverse()
-  const pages = result.essays ? Math.ceil(result.essays?.length / PAGE_SIZE) : 0
+  // Return only the most recent five essays
+  const essays = query.essays?.reverse().slice(0, 5)
+  const pages = query.essays ? Math.ceil(query.essays?.length / PAGE_SIZE) : 0
 
   return (
     <>
       <div className="prose">
         <PageHeading>Essays</PageHeading>
       </div>
-      {essays && <Essays essays={essays} pages={pages} />}
+      {essays && <ClientPage essays={essays} pages={pages} />}
     </>
   )
 }

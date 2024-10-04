@@ -1,10 +1,9 @@
 import propTypes from "prop-types"
-import { EssayHeaderProps } from "./types"
 
-EssayHeader.propTypes = {
-  title: propTypes.string.isRequired,
-  description: propTypes.string.isRequired,
-  date: propTypes.string.isRequired,
+export type EssayHeaderProps = {
+  title: string
+  description: string
+  date: string
 }
 
 export function EssayHeader({ title, description, date }: EssayHeaderProps) {
@@ -30,4 +29,10 @@ export function EssayHeader({ title, description, date }: EssayHeaderProps) {
       <p className="font-semibold">{"By George W."}</p>
     </div>
   )
+}
+
+EssayHeader.propTypes = {
+  title: propTypes.string.isRequired,
+  description: propTypes.string.isRequired,
+  date: propTypes.string.isRequired,
 }
