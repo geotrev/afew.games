@@ -45,7 +45,7 @@ export const StaticContent: Collection = {
   ],
   ui: {
     router: (props) => {
-      if (props.document._sys.relativePath === "home.md") {
+      if (props.document._sys.filename === "home") {
         return "/"
       }
 
