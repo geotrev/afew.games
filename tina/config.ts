@@ -2,6 +2,7 @@ import { defineConfig } from "tinacms"
 import { Essay } from "./collection-schemas/essay"
 import { DatabaseContributors } from "./collection-schemas/database-contributors"
 import { VideoGameDatabase } from "./collection-schemas/video-game-database"
+import { StaticContent } from "./collection-schemas/static-content"
 
 const branch =
   process.env.GITHUB_BRANCH ||
@@ -24,7 +25,12 @@ export default defineConfig({
     },
   },
   schema: {
-    collections: [Essay, DatabaseContributors, VideoGameDatabase],
+    collections: [
+      StaticContent,
+      Essay,
+      DatabaseContributors,
+      VideoGameDatabase,
+    ],
   },
   search: {
     tina: {

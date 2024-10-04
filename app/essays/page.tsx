@@ -4,8 +4,6 @@ import { PageHeading } from "../_components/page-heading"
 import { Essays } from "./client-page"
 import { PAGE_SIZE } from "./constants"
 
-export const dynamic = "force-dynamic"
-
 export const metadata = {
   alternates: {
     canonical: "https://afew.games/essays",
