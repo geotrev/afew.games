@@ -22,8 +22,8 @@ const AboutTemplate: Template = {
   label: "About",
   fields: [
     {
-      name: "body",
-      label: "Body",
+      name: "content",
+      label: "Content",
       type: "rich-text",
     },
   ],
@@ -36,8 +36,8 @@ export const StaticContent: Collection = {
   format: "md",
   fields: [
     {
-      name: "templates",
-      label: "Templates",
+      name: "blocks",
+      label: "Blocks",
       type: "object",
       list: true,
       templates: [HomeTemplate, AboutTemplate],
