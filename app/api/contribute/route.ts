@@ -1,27 +1,32 @@
 import { Octokit } from "@octokit/core"
 import { NextResponse } from "next/server"
+import matter from "gray-matter"
+import rawContributeContent from "@/content/pages/contribute.md"
 
 function getIssueBody(res: Record<string, string>) {
+  const { data } = matter(rawContributeContent)
+
+  // Get all fields from the form as defined in blocks
+  const formFields = data.blocks.find(
+    (block: Record<string, string>) => block._template === "contribute"
+  )?.formFields
+  const consentFields = data.blocks.find(
+    (block: Record<string, string>) => block._template === "contribute"
+  )?.consentFields
+
+  // Merge the blocks with user data
+  const fieldData = formFields.map((field: Record<string, string>) => {
+    return `### ${field.label}\n` + `${res[field.id] || "No response"}\n`
+  })
+  const consentData = consentFields.map((checkbox: Record<string, string>) => {
+    return `- [x] ${checkbox.label}\n`
+  })
+
   return (
     `_Submitted via https://afew.games._\n\n` +
-    `### Title\n\n` +
-    `${res.title}\n\n` +
-    `### Platform\n\n` +
-    `${res.platform}\n\n` +
-    `### MPN (Manufacturer's Part Number)\n\n` +
-    `${res.mpn || "No response"}\n\n` +
-    `### Country\n\n` +
-    `${res.country || "No response"}\n\n` +
-    `### Product Code\n\n` +
-    `${res.part || "No response"}\n\n` +
-    `### Additional Information\n\n` +
-    `${res.notes || "No response"}\n\n` +
-    `### Submitted By\n\n` +
-    `${res.credit || "No response"}\n\n` +
-    `### Code of Conduct\n\n` +
-    `- [X] I agree to follow this project's Code of Conduct\n\n` +
-    `### Terms of Use\n\n` +
-    `- [X] I understand this form will create a GitHub ticket with the provided information, to remain publicly visible for contributor & collector interest`
+    `${fieldData.join("")}` +
+    `\n` +
+    `${consentData.join("")}`
   )
 }
 
