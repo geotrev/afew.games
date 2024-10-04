@@ -30,9 +30,8 @@ const Field = ({
 export function SubmissionForm({ ...contentBlock }: ContentBlocksContribute) {
   const formHeader = contentBlock.formHeader
   const formSuccessMessage = contentBlock.formSuccessMessage
-  const submissionFormFields = contentBlock.submissionForm!
-  const textFields = submissionFormFields.slice(0, -2)
-  const consentFields = submissionFormFields.slice(-2)
+  const textFields = contentBlock.formFields!
+  const consentFields = contentBlock.consentFields!
 
   const { executeRecaptcha } = useGoogleReCaptcha()
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false)
@@ -117,14 +116,12 @@ export function SubmissionForm({ ...contentBlock }: ContentBlocksContribute) {
   if (isSuccess) {
     return (
       <div className="my-12 rounded-md border-2 border-solid border-slate-800 p-5">
-        {formSuccessMessage && (
-          <TinaMarkdown
-            content={formSuccessMessage}
-            components={{
-              p: (props) => <p className="mb-4 text-success" {...props} />,
-            }}
-          />
-        )}
+        <TinaMarkdown
+          content={formSuccessMessage}
+          components={{
+            p: (props) => <p className="mb-4 text-success" {...props} />,
+          }}
+        />
         <button className="btn btn-outline btn-sm" onClick={handleRefreshClick}>
           Submit Another Game ↻
         </button>
@@ -135,21 +132,19 @@ export function SubmissionForm({ ...contentBlock }: ContentBlocksContribute) {
   return (
     <form className="my-12" onSubmit={handleSubmit}>
       <div className="rounded-md border-2 border-solid border-slate-800 p-5">
-        {formHeader && (
-          <TinaMarkdown
-            content={formHeader}
-            components={{
-              h2: (props) => (
-                <h2 className="mb-4 text-2xl font-bold" {...props} />
-              ),
-              p: (props) => <p className="mb-4" {...props} />,
-              ul: (props) => <ul className="list-disc ps-4" {...props} />,
-              hr: (props) => (
-                <div className="divider" role="separator" {...props} />
-              ),
-            }}
-          />
-        )}
+        <TinaMarkdown
+          content={formHeader}
+          components={{
+            h2: (props) => (
+              <h2 className="mb-4 text-2xl font-bold" {...props} />
+            ),
+            p: (props) => <p className="mb-4" {...props} />,
+            ul: (props) => <ul className="list-disc ps-4" {...props} />,
+            hr: (props) => (
+              <div className="divider" role="separator" {...props} />
+            ),
+          }}
+        />
 
         {textFields?.map((field) => {
           return (
@@ -224,14 +219,14 @@ export function SubmissionForm({ ...contentBlock }: ContentBlocksContribute) {
               />
               <span className="label-text">
                 {consent?.label}{" "}
-                {consent?.id === "terms" && (
+                {consent?.externalLink && consent?.externalLinkLabel && (
                   <a
                     className="link"
-                    href="https://github.com/geotrev/afew.games/blob/main/CODE_OF_CONDUCT.md"
+                    href={consent.externalLink}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Code of Conduct ↗
+                    {consent.externalLinkLabel}
                   </a>
                 )}
               </span>

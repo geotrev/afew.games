@@ -62,8 +62,6 @@ export async function POST(req: Request) {
 
   const body = getIssueBody(res)
 
-  // console.log(body)
-
   if (process.env.NODE_ENV === "production") {
     try {
       const octokit = new Octokit({ auth: process.env.APP_GITHUB_ISSUE })

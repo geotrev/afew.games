@@ -39,12 +39,12 @@ blocks:
 
       You can track your submission on A Few Games' GitHub issue tracker, linked
       above.
-    submissionForm:
+    formFields:
       - required: true
         type: input
         id: title
         label: Title
-        hint: "Official title of the game, including subtitles."
+        hint: 'Official title of the game, including subtitles.'
       - required: true
         type: input
         id: platform
@@ -83,21 +83,16 @@ blocks:
         hint: >-
           Who should A Few Games credit for this submission? An online handle is
           OK. Leave blank if no credit desired.
-      - required: true
-        type: checkbox
-        id: terms
+    consentFields:
+      - id: terms
         label: I agree to A Few Games' code of conduct
-        externalLink: "https://github.com/geotrev/afew.games/blob/main/CODE_OF_CONDUCT.md"
-        hint: >-
-          I understand this form will create a GitHub ticket with the provided
-          information, to remain publicly visible for contributor & collector
-          interest
-      - required: true
-        type: checkbox
-        id: consent
+        externalLink: 'https://github.com/geotrev/afew.games/blob/main/CODE_OF_CONDUCT.md'
+        externalLinkLabel: Code of Conduct ↗
+      - id: consent
         label: >-
           I understand this form will create a GitHub ticket with the provided
           information, to remain publicly visible for contributor & collector
           interest
     _template: contribute
 ---
+

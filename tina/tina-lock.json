@@ -108,8 +108,8 @@
                     "uid": false
                   },
                   {
-                    "name": "submissionForm",
-                    "label": "Submission Form",
+                    "name": "formFields",
+                    "label": "Form Fields",
                     "type": "object",
                     "list": true,
                     "ui": {},
@@ -122,7 +122,7 @@
                           "content",
                           "blocks",
                           "contribute",
-                          "submissionForm",
+                          "formFields",
                           "required"
                         ]
                       },
@@ -131,12 +131,12 @@
                         "label": "Type",
                         "type": "string",
                         "required": true,
-                        "options": ["input", "textarea", "checkbox"],
+                        "options": ["input", "textarea"],
                         "namespace": [
                           "content",
                           "blocks",
                           "contribute",
-                          "submissionForm",
+                          "formFields",
                           "type"
                         ]
                       },
@@ -149,7 +149,7 @@
                           "content",
                           "blocks",
                           "contribute",
-                          "submissionForm",
+                          "formFields",
                           "id"
                         ]
                       },
@@ -163,7 +163,63 @@
                           "content",
                           "blocks",
                           "contribute",
-                          "submissionForm",
+                          "formFields",
+                          "label"
+                        ]
+                      },
+                      {
+                        "name": "hint",
+                        "label": "Hint",
+                        "type": "string",
+                        "namespace": [
+                          "content",
+                          "blocks",
+                          "contribute",
+                          "formFields",
+                          "hint"
+                        ]
+                      }
+                    ],
+                    "namespace": [
+                      "content",
+                      "blocks",
+                      "contribute",
+                      "formFields"
+                    ],
+                    "searchable": true,
+                    "uid": false
+                  },
+                  {
+                    "name": "consentFields",
+                    "label": "Consent Fields",
+                    "type": "object",
+                    "list": true,
+                    "ui": {},
+                    "fields": [
+                      {
+                        "name": "id",
+                        "label": "ID",
+                        "type": "string",
+                        "required": true,
+                        "namespace": [
+                          "content",
+                          "blocks",
+                          "contribute",
+                          "consentFields",
+                          "id"
+                        ]
+                      },
+                      {
+                        "name": "label",
+                        "label": "Label",
+                        "type": "string",
+                        "required": true,
+                        "isTitle": true,
+                        "namespace": [
+                          "content",
+                          "blocks",
+                          "contribute",
+                          "consentFields",
                           "label"
                         ]
                       },
@@ -175,20 +231,20 @@
                           "content",
                           "blocks",
                           "contribute",
-                          "submissionForm",
+                          "consentFields",
                           "externalLink"
                         ]
                       },
                       {
-                        "name": "hint",
-                        "label": "Hint",
+                        "name": "externalLinkLabel",
+                        "label": "External Link Label",
                         "type": "string",
                         "namespace": [
                           "content",
                           "blocks",
                           "contribute",
-                          "submissionForm",
-                          "hint"
+                          "consentFields",
+                          "externalLinkLabel"
                         ]
                       }
                     ],
@@ -196,7 +252,7 @@
                       "content",
                       "blocks",
                       "contribute",
-                      "submissionForm"
+                      "consentFields"
                     ],
                     "searchable": true,
                     "uid": false
@@ -321,7 +377,6 @@
                 "label": "Name",
                 "name": "name",
                 "required": true,
-                "isTitle": true,
                 "namespace": ["vgdb", "games", "name"],
                 "searchable": true,
                 "uid": false
@@ -1602,7 +1657,7 @@
         "directives": [],
         "name": {
           "kind": "Name",
-          "value": "ContentBlocksContributeSubmissionForm"
+          "value": "ContentBlocksContributeFormFields"
         },
         "fields": [
           {
@@ -1652,6 +1707,50 @@
           },
           {
             "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "hint" },
+            "arguments": [],
+            "type": {
+              "kind": "NamedType",
+              "name": { "kind": "Name", "value": "String" }
+            }
+          }
+        ]
+      },
+      {
+        "kind": "ObjectTypeDefinition",
+        "interfaces": [],
+        "directives": [],
+        "name": {
+          "kind": "Name",
+          "value": "ContentBlocksContributeConsentFields"
+        },
+        "fields": [
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "id" },
+            "arguments": [],
+            "type": {
+              "kind": "NonNullType",
+              "type": {
+                "kind": "NamedType",
+                "name": { "kind": "Name", "value": "String" }
+              }
+            }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "label" },
+            "arguments": [],
+            "type": {
+              "kind": "NonNullType",
+              "type": {
+                "kind": "NamedType",
+                "name": { "kind": "Name", "value": "String" }
+              }
+            }
+          },
+          {
+            "kind": "FieldDefinition",
             "name": { "kind": "Name", "value": "externalLink" },
             "arguments": [],
             "type": {
@@ -1661,7 +1760,7 @@
           },
           {
             "kind": "FieldDefinition",
-            "name": { "kind": "Name", "value": "hint" },
+            "name": { "kind": "Name", "value": "externalLinkLabel" },
             "arguments": [],
             "type": {
               "kind": "NamedType",
@@ -1705,7 +1804,7 @@
           },
           {
             "kind": "FieldDefinition",
-            "name": { "kind": "Name", "value": "submissionForm" },
+            "name": { "kind": "Name", "value": "formFields" },
             "arguments": [],
             "type": {
               "kind": "ListType",
@@ -1713,7 +1812,22 @@
                 "kind": "NamedType",
                 "name": {
                   "kind": "Name",
-                  "value": "ContentBlocksContributeSubmissionForm"
+                  "value": "ContentBlocksContributeFormFields"
+                }
+              }
+            }
+          },
+          {
+            "kind": "FieldDefinition",
+            "name": { "kind": "Name", "value": "consentFields" },
+            "arguments": [],
+            "type": {
+              "kind": "ListType",
+              "type": {
+                "kind": "NamedType",
+                "name": {
+                  "kind": "Name",
+                  "value": "ContentBlocksContributeConsentFields"
                 }
               }
             }
@@ -1934,7 +2048,7 @@
         "kind": "InputObjectTypeDefinition",
         "name": {
           "kind": "Name",
-          "value": "ContentBlocksContributeSubmissionFormFilter"
+          "value": "ContentBlocksContributeFormFieldsFilter"
         },
         "fields": [
           {
@@ -1971,6 +2085,39 @@
           },
           {
             "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "hint" },
+            "type": {
+              "kind": "NamedType",
+              "name": { "kind": "Name", "value": "StringFilter" }
+            }
+          }
+        ]
+      },
+      {
+        "kind": "InputObjectTypeDefinition",
+        "name": {
+          "kind": "Name",
+          "value": "ContentBlocksContributeConsentFieldsFilter"
+        },
+        "fields": [
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "id" },
+            "type": {
+              "kind": "NamedType",
+              "name": { "kind": "Name", "value": "StringFilter" }
+            }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "label" },
+            "type": {
+              "kind": "NamedType",
+              "name": { "kind": "Name", "value": "StringFilter" }
+            }
+          },
+          {
+            "kind": "InputValueDefinition",
             "name": { "kind": "Name", "value": "externalLink" },
             "type": {
               "kind": "NamedType",
@@ -1979,7 +2126,7 @@
           },
           {
             "kind": "InputValueDefinition",
-            "name": { "kind": "Name", "value": "hint" },
+            "name": { "kind": "Name", "value": "externalLinkLabel" },
             "type": {
               "kind": "NamedType",
               "name": { "kind": "Name", "value": "StringFilter" }
@@ -2017,12 +2164,23 @@
           },
           {
             "kind": "InputValueDefinition",
-            "name": { "kind": "Name", "value": "submissionForm" },
+            "name": { "kind": "Name", "value": "formFields" },
             "type": {
               "kind": "NamedType",
               "name": {
                 "kind": "Name",
-                "value": "ContentBlocksContributeSubmissionFormFilter"
+                "value": "ContentBlocksContributeFormFieldsFilter"
+              }
+            }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "consentFields" },
+            "type": {
+              "kind": "NamedType",
+              "name": {
+                "kind": "Name",
+                "value": "ContentBlocksContributeConsentFieldsFilter"
               }
             }
           }
@@ -3557,7 +3715,7 @@
         "kind": "InputObjectTypeDefinition",
         "name": {
           "kind": "Name",
-          "value": "ContentBlocksContributeSubmissionFormMutation"
+          "value": "ContentBlocksContributeFormFieldsMutation"
         },
         "fields": [
           {
@@ -3594,6 +3752,39 @@
           },
           {
             "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "hint" },
+            "type": {
+              "kind": "NamedType",
+              "name": { "kind": "Name", "value": "String" }
+            }
+          }
+        ]
+      },
+      {
+        "kind": "InputObjectTypeDefinition",
+        "name": {
+          "kind": "Name",
+          "value": "ContentBlocksContributeConsentFieldsMutation"
+        },
+        "fields": [
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "id" },
+            "type": {
+              "kind": "NamedType",
+              "name": { "kind": "Name", "value": "String" }
+            }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "label" },
+            "type": {
+              "kind": "NamedType",
+              "name": { "kind": "Name", "value": "String" }
+            }
+          },
+          {
+            "kind": "InputValueDefinition",
             "name": { "kind": "Name", "value": "externalLink" },
             "type": {
               "kind": "NamedType",
@@ -3602,7 +3793,7 @@
           },
           {
             "kind": "InputValueDefinition",
-            "name": { "kind": "Name", "value": "hint" },
+            "name": { "kind": "Name", "value": "externalLinkLabel" },
             "type": {
               "kind": "NamedType",
               "name": { "kind": "Name", "value": "String" }
@@ -3640,14 +3831,28 @@
           },
           {
             "kind": "InputValueDefinition",
-            "name": { "kind": "Name", "value": "submissionForm" },
+            "name": { "kind": "Name", "value": "formFields" },
             "type": {
               "kind": "ListType",
               "type": {
                 "kind": "NamedType",
                 "name": {
                   "kind": "Name",
-                  "value": "ContentBlocksContributeSubmissionFormMutation"
+                  "value": "ContentBlocksContributeFormFieldsMutation"
+                }
+              }
+            }
+          },
+          {
+            "kind": "InputValueDefinition",
+            "name": { "kind": "Name", "value": "consentFields" },
+            "type": {
+              "kind": "ListType",
+              "type": {
+                "kind": "NamedType",
+                "name": {
+                  "kind": "Name",
+                  "value": "ContentBlocksContributeConsentFieldsMutation"
                 }
               }
             }

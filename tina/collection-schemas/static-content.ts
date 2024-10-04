@@ -49,14 +49,14 @@ const ContributeTemplate: Template = {
       type: "rich-text",
     },
     {
-      name: "submissionForm",
-      label: "Submission Form",
+      name: "formFields",
+      label: "Form Fields",
       type: "object",
       list: true,
       ui: {
         itemProps: (item) => {
           return {
-            label: `${item.id || "Submission Field"} - ${item.type}`,
+            label: `${item.id} - ${item.type}`,
           }
         },
       },
@@ -71,8 +71,39 @@ const ContributeTemplate: Template = {
           label: "Type",
           type: "string",
           required: true,
-          options: ["input", "textarea", "checkbox"],
+          options: ["input", "textarea"],
         },
+        {
+          name: "id",
+          label: "ID",
+          type: "string",
+          required: true,
+        },
+        {
+          name: "label",
+          label: "Label",
+          type: "string",
+          required: true,
+          isTitle: true,
+        },
+        {
+          name: "hint",
+          label: "Hint",
+          type: "string",
+        },
+      ],
+    },
+    {
+      name: "consentFields",
+      label: "Consent Fields",
+      type: "object",
+      list: true,
+      ui: {
+        itemProps: (item) => {
+          return { label: item.id }
+        },
+      },
+      fields: [
         {
           name: "id",
           label: "ID",
@@ -92,8 +123,8 @@ const ContributeTemplate: Template = {
           type: "string",
         },
         {
-          name: "hint",
-          label: "Hint",
+          name: "externalLinkLabel",
+          label: "External Link Label",
           type: "string",
         },
       ],
