@@ -10,6 +10,7 @@ import {
   useState,
 } from "react"
 import { CONSENT_DATA, FIELD_DATA } from "./constants"
+import { TinaMarkdown, TinaMarkdownContent } from "tinacms/dist/rich-text"
 
 const method = "POST"
 const headers = { "Content-Type": "application/json" }
@@ -26,7 +27,26 @@ const Field = ({
     <input {...(fieldProps as HTMLProps<HTMLInputElement>)} />
   )
 
-export function SubmissionForm() {
+interface SubmissionFormProps {
+  blocks?: {
+    formHeader?: TinaMarkdownContent | TinaMarkdownContent[] | null
+    formSuccessMessage?: TinaMarkdownContent | TinaMarkdownContent[] | null
+    submissionForm?: Array<{
+      required?: boolean | null
+      type: string
+      id: string
+      label: string
+      externalLink?: string | null
+      hint?: string | null
+    } | null> | null
+  }
+}
+
+export function SubmissionForm({ blocks }: SubmissionFormProps) {
+  const formHeader = blocks?.formHeader
+  const formSuccessMessage = blocks?.formSuccessMessage
+  // const submissionForm = blocks?.submissionForm
+
   const { executeRecaptcha } = useGoogleReCaptcha()
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false)
   const [serverErrorMessage, setServerErrorMessage] = useState<string | null>(
@@ -110,21 +130,17 @@ export function SubmissionForm() {
   if (isSuccess) {
     return (
       <div className="my-12 rounded-md border-2 border-solid border-slate-800 p-5">
-        <p className="mb-2 text-success">
-          Submitted successfully – thanks for contributing to the database!
-        </p>
-        <p className="mb-4">
-          You can track your submission on A Few Games&apos; GitHub issue
-          tracker, linked above.
-        </p>
-        <p>
-          <button
-            className="btn btn-outline btn-sm"
-            onClick={handleRefreshClick}
-          >
-            Submit Another Game ↻
-          </button>
-        </p>
+        {formSuccessMessage && (
+          <TinaMarkdown
+            content={formSuccessMessage}
+            components={{
+              p: (props) => <p className="mb-4 text-success" {...props} />,
+            }}
+          />
+        )}
+        <button className="btn btn-outline btn-sm" onClick={handleRefreshClick}>
+          Submit Another Game ↻
+        </button>
       </div>
     )
   }
@@ -132,33 +148,21 @@ export function SubmissionForm() {
   return (
     <form className="my-12" onSubmit={handleSubmit}>
       <div className="rounded-md border-2 border-solid border-slate-800 p-5">
-        <h2 className="mb-4 text-2xl font-bold">Database Submission Form</h2>
-
-        <p className="mb-2">First of all, thank you for your contribution!</p>
-
-        <p className="mb-2">
-          The data you submit will need to be cross-referenced. Please review
-          this checklist before submitting:
-        </p>
-        <ul className="list-disc ps-4">
-          <li>Proof read your submission for inaccuracies, such as typos</li>
-          <li>
-            Links to official sources (e.g., press releases, publisher
-            documentation) are encouraged
-          </li>
-          <li>Links to eBay listings are encouraged</li>
-          <li>
-            If the game has so little documentation and so few listings that it
-            can&apos;t be easily referenced, say so in the notes
-          </li>
-        </ul>
-
-        <div className="divider" role="separator" />
-
-        <p className="mb-4">
-          <span className="text-white">*</span>{" "}
-          <span className="italic opacity-75">indicates a required field</span>
-        </p>
+        {formHeader && (
+          <TinaMarkdown
+            content={formHeader}
+            components={{
+              h2: (props) => (
+                <h2 className="mb-4 text-2xl font-bold" {...props} />
+              ),
+              p: (props) => <p className="mb-4" {...props} />,
+              ul: (props) => <ul className="list-disc ps-4" {...props} />,
+              hr: (props) => (
+                <div className="divider" role="separator" {...props} />
+              ),
+            }}
+          />
+        )}
 
         {FIELD_DATA.map((field) => {
           return (

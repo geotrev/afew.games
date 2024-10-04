@@ -4,7 +4,7 @@
   command = "npm run build"
 
 [functions]
-  included_files = ["essays/*.md", "public/collections/**/*.json"]
+  included_files = ["public/collections/**/*.json"]
 
 [[redirects]]
   from = "/database"
