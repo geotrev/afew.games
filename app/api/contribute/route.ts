@@ -25,7 +25,8 @@ function getIssueBody(res: Record<string, string>) {
   return (
     `_Submitted via https://afew.games._\n\n` +
     `${fieldData.join("")}` +
-    `\n` +
+    `\n\n` +
+    `---` +
     `${consentData.join("")}`
   )
 }
