@@ -58,9 +58,11 @@ export async function POST(req: Request) {
     }
   }
 
-  // Submit issue to GH
+  // Submit issue to GH in production only
 
   const body = getIssueBody(res)
+
+  // console.log(body)
 
   if (process.env.NODE_ENV === "production") {
     try {

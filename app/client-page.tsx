@@ -7,28 +7,15 @@ import { DatabaseWrapper } from "./_components/database-wrapper"
 import { PageHeading } from "./_components/page-heading"
 import {
   ContentQuery,
+  ContentQueryVariables,
   Db_ContributorsQuery,
-  Exact,
-  Scalars,
 } from "@/tina/__generated__/types"
 import { sortByKey } from "@/utils/generics"
 
 interface HomePageProps {
   query: {
     data: ContentQuery
-    errors?:
-      | {
-          message: string
-          locations: {
-            line: number
-            column: number
-          }[]
-          path: string[]
-        }[]
-      | null
-    variables: Exact<{
-      relativePath: Scalars["String"]["input"]
-    }>
+    variables: ContentQueryVariables
     query: string
   }
   platformList: string[]

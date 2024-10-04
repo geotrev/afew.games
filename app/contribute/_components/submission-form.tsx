@@ -9,8 +9,8 @@ import {
   useCallback,
   useState,
 } from "react"
-import { CONSENT_DATA, FIELD_DATA } from "./constants"
-import { TinaMarkdown, TinaMarkdownContent } from "tinacms/dist/rich-text"
+import { TinaMarkdown } from "tinacms/dist/rich-text"
+import { ContentBlocksContribute } from "@/tina/__generated__/types"
 
 const method = "POST"
 const headers = { "Content-Type": "application/json" }
@@ -27,25 +27,12 @@ const Field = ({
     <input {...(fieldProps as HTMLProps<HTMLInputElement>)} />
   )
 
-interface SubmissionFormProps {
-  blocks?: {
-    formHeader?: TinaMarkdownContent | TinaMarkdownContent[] | null
-    formSuccessMessage?: TinaMarkdownContent | TinaMarkdownContent[] | null
-    submissionForm?: Array<{
-      required?: boolean | null
-      type: string
-      id: string
-      label: string
-      externalLink?: string | null
-      hint?: string | null
-    } | null> | null
-  }
-}
-
-export function SubmissionForm({ blocks }: SubmissionFormProps) {
-  const formHeader = blocks?.formHeader
-  const formSuccessMessage = blocks?.formSuccessMessage
-  // const submissionForm = blocks?.submissionForm
+export function SubmissionForm({ ...contentBlock }: ContentBlocksContribute) {
+  const formHeader = contentBlock.formHeader
+  const formSuccessMessage = contentBlock.formSuccessMessage
+  const submissionFormFields = contentBlock.submissionForm!
+  const textFields = submissionFormFields.slice(0, -2)
+  const consentFields = submissionFormFields.slice(-2)
 
   const { executeRecaptcha } = useGoogleReCaptcha()
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false)
@@ -54,14 +41,14 @@ export function SubmissionForm({ blocks }: SubmissionFormProps) {
   )
   const [isSuccess, setIsSuccess] = useState<boolean>(false)
   const [consentChecked, setConsentChecked] = useState<Record<string, boolean>>(
-    CONSENT_DATA.reduce<Record<string, boolean>>(
-      (acc, box) => ({ ...acc, [box.id]: false }),
+    consentFields.reduce<Record<string, boolean>>(
+      (acc, checkbox) => ({ ...acc, [checkbox!.id]: false }),
       {}
     )
   )
   const [fieldValues, setFieldValues] = useState<Record<string, string>>(
-    FIELD_DATA.reduce<Record<string, string>>(
-      (acc, field) => ({ ...acc, [field.input.id]: "" }),
+    textFields.reduce<Record<string, string>>(
+      (acc, field) => ({ ...acc, [field!.id!]: "" }),
       {}
     )
   )
@@ -164,15 +151,15 @@ export function SubmissionForm({ blocks }: SubmissionFormProps) {
           />
         )}
 
-        {FIELD_DATA.map((field) => {
+        {textFields?.map((field) => {
           return (
-            <div className="form-control" key={field.input.id}>
+            <div className="form-control" key={field!.id}>
               <label
                 className="label flex justify-start px-0 pb-1 pt-0 text-sm font-bold uppercase text-white"
-                htmlFor={field.input.id}
+                htmlFor={field!.id}
               >
-                {field.label}
-                {field.input.required && (
+                {field!.label}
+                {field!.required && (
                   <span>
                     <span aria-hidden="true">&nbsp;*</span>
                     <span className="sr-only">&nbsp;required</span>
@@ -180,26 +167,26 @@ export function SubmissionForm({ blocks }: SubmissionFormProps) {
                 )}
               </label>
               <p
-                id={`${field.input.id}-hint`}
+                id={`${field!.id}-hint`}
                 className="mb-4 text-sm italic opacity-75"
               >
-                {field.hint}
+                {field!.hint}
               </p>
               <Field
-                isTextarea={field.input.is === "textarea"}
-                required={field.input.required}
+                isTextarea={field!.type === "textarea"}
+                required={field!.required as boolean}
                 className={cn({
                   "textarea textarea-bordered textarea-info textarea-md mb-8 w-full max-w-full":
-                    field.input.is,
+                    field!.type === "textarea",
                   "input input-md input-bordered input-info mb-8 w-full max-w-full":
-                    !field.input.is,
+                    field!.type === "input",
                 })}
-                value={fieldValues[field.input.id]}
+                value={fieldValues[field!.id]}
                 onChange={handleFieldChange}
-                aria-describedby={`${field.input.id}-hint`}
+                aria-describedby={`${field!.id}-hint`}
                 type="text"
-                id={field.input.id}
-                name={field.input.id}
+                id={field!.id}
+                name={field!.id}
               />
             </div>
           )
@@ -209,35 +196,35 @@ export function SubmissionForm({ blocks }: SubmissionFormProps) {
 
         <p className="mb-2 text-sm font-bold">By submitting this form...</p>
 
-        {CONSENT_DATA.map((consent, index) => (
+        {consentFields?.map((consent, index) => (
           <p
             className={cn("form-control", {
-              "mb-8": index === CONSENT_DATA.length - 1,
+              "mb-8": index === consentFields.length - 1,
             })}
-            key={consent.id}
+            key={consent?.id}
           >
             <label
               className="label flex cursor-pointer items-start justify-start"
-              htmlFor={consent.id}
+              htmlFor={consent?.id}
             >
               <input
                 required
                 className="checkbox-info checkbox checkbox-sm me-3"
                 type="checkbox"
-                id={consent.id}
-                name={consent.id}
-                aria-invalid={!consentChecked[consent.id]}
-                checked={consentChecked[consent.id]}
+                id={consent?.id}
+                name={consent?.id}
+                aria-invalid={!consentChecked[consent!.id]}
+                checked={consentChecked[consent!.id]}
                 onChange={(event) => {
                   setConsentChecked({
                     ...consentChecked,
-                    [consent.id]: event.target.checked,
+                    [consent!.id]: event.target.checked,
                   })
                 }}
               />
               <span className="label-text">
-                {consent.label}{" "}
-                {consent.id === "terms" && (
+                {consent?.label}{" "}
+                {consent?.id === "terms" && (
                   <a
                     className="link"
                     href="https://github.com/geotrev/afew.games/blob/main/CODE_OF_CONDUCT.md"
@@ -258,6 +245,7 @@ export function SubmissionForm({ blocks }: SubmissionFormProps) {
           })}
         >
           <button
+            disabled={isSubmitting}
             className={cn(
               "btn btn-primary btn-lg !min-h-0 rounded-md py-3 md:btn-md",
               {

@@ -1,6 +1,9 @@
 "use client"
 
-import { ContentQuery } from "@/tina/__generated__/types"
+import {
+  ContentBlocksContribute,
+  ContentQuery,
+} from "@/tina/__generated__/types"
 import { RecaptchaVerifyWrapper } from "./_components/recaptcha-verify-wrapper"
 import { SubmissionForm } from "./_components/submission-form"
 import { useTina } from "tinacms/dist/react"
@@ -14,11 +17,11 @@ interface ContributePageProps {
 
 export const ClientPage = (props: ContributePageProps) => {
   const { data } = useTina(props)
-
-  const blocks = data.content.blocks?.find(
+  const blocks: ContentQuery["content"]["blocks"] = data.content.blocks!
+  const contributeBlock: ContentBlocksContribute = blocks.find(
     (block) => block?.__typename === "ContentBlocksContribute"
-  )
-  const subheading = blocks?.subheading
+  )!
+  const subheading = contributeBlock.subheading
 
   return (
     <>
@@ -26,7 +29,7 @@ export const ClientPage = (props: ContributePageProps) => {
         <TinaMarkdown content={subheading} />
       </div>
       <RecaptchaVerifyWrapper>
-        <SubmissionForm blocks={blocks} />
+        <SubmissionForm {...contributeBlock} />
       </RecaptchaVerifyWrapper>
     </>
   )

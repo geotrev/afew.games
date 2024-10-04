@@ -1,13 +1,13 @@
 "use client"
 
-import { ContentQuery } from "@/tina/__generated__/types"
+import { ContentQuery, ContentQueryVariables } from "@/tina/__generated__/types"
 import { PageHeading } from "../_components/page-heading"
 import { tinaField, useTina } from "tinacms/dist/react"
 import { TinaMarkdown } from "tinacms/dist/rich-text"
 
 interface AboutPageProps {
   data: ContentQuery
-  variables: { relativePath: string }
+  variables: ContentQueryVariables
   query: string
 }
 

@@ -2,26 +2,14 @@
 
 import propTypes from "prop-types"
 import { TinaMarkdown } from "tinacms/dist/rich-text"
-import { EssayQuery, Exact, Scalars } from "@/tina/__generated__/types"
+import { EssayQuery, EssayQueryVariables } from "@/tina/__generated__/types"
 import { useTina } from "tinacms/dist/react"
 import { EssayFooter } from "./_components/essay-footer"
 import { EssayHeader } from "./_components/essay-header"
 
 interface EssayPageProps {
   data: EssayQuery
-  errors?:
-    | {
-        message: string
-        locations: {
-          line: number
-          column: number
-        }[]
-        path: string[]
-      }[]
-    | null
-  variables: Exact<{
-    relativePath: Scalars["String"]["input"]
-  }>
+  variables: EssayQueryVariables
   query: string
 }
 

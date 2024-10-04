@@ -44,7 +44,7 @@ blocks:
         type: input
         id: title
         label: Title
-        hint: 'Official title of the game, including subtitles.'
+        hint: "Official title of the game, including subtitles."
       - required: true
         type: input
         id: platform
@@ -65,14 +65,14 @@ blocks:
           USA,' etc. If there's no country indicated, leave this blank. The MPN
           might specify the country, e.g., ending in 'USA,' 'CAN' (Canada), etc.
       - type: input
-        id: product_code
+        id: part
         label: Product Code
         hint: >-
           The unique identifier given to the game during manufacturing.
           Sometimes called a 'product code.' Typically found on the spine, or
           the back of a game near the UPC.
       - type: textarea
-        id: additional_info
+        id: notes
         label: Additional Information
         hint: >-
           Provide links to resources, additional context, or anything else
@@ -87,7 +87,7 @@ blocks:
         type: checkbox
         id: terms
         label: I agree to A Few Games' code of conduct
-        externalLink: 'https://github.com/geotrev/afew.games/blob/main/CODE_OF_CONDUCT.md'
+        externalLink: "https://github.com/geotrev/afew.games/blob/main/CODE_OF_CONDUCT.md"
         hint: >-
           I understand this form will create a GitHub ticket with the provided
           information, to remain publicly visible for contributor & collector
@@ -101,4 +101,3 @@ blocks:
           interest
     _template: contribute
 ---
-
