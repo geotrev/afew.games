@@ -11,7 +11,7 @@ blocks:
       ## Database Submission Form
 
 
-      First of all, thank you for your contribution!
+      First of all, thanks for your contribution!
 
 
       The data you submit will need to be cross-referenced. Please review this
