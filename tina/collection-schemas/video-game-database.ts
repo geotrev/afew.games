@@ -20,7 +20,7 @@ export const VideoGameDatabase: Collection = {
       list: true,
       ui: {
         itemProps: (item) => {
-          return { label: `${item.name}` }
+          return { label: item.name }
         },
       },
       fields: [
@@ -29,7 +29,6 @@ export const VideoGameDatabase: Collection = {
           label: "Name",
           name: "name",
           required: true,
-          isTitle: true,
         },
         {
           type: "object",

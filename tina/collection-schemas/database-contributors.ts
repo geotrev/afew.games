@@ -13,7 +13,7 @@ export const DatabaseContributors: Collection = {
       list: true,
       ui: {
         itemProps: (item) => {
-          return { label: `${item.name}` }
+          return { label: item.name }
         },
       },
       fields: [

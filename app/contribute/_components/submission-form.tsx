@@ -9,7 +9,8 @@ import {
   useCallback,
   useState,
 } from "react"
-import { CONSENT_DATA, FIELD_DATA } from "./constants"
+import { TinaMarkdown } from "tinacms/dist/rich-text"
+import { ContentBlocksContribute } from "@/tina/__generated__/types"
 
 const method = "POST"
 const headers = { "Content-Type": "application/json" }
@@ -26,7 +27,12 @@ const Field = ({
     <input {...(fieldProps as HTMLProps<HTMLInputElement>)} />
   )
 
-export function SubmissionForm() {
+export function SubmissionForm({ ...contentBlock }: ContentBlocksContribute) {
+  const formHeader = contentBlock.formHeader
+  const formSuccessMessage = contentBlock.formSuccessMessage
+  const textFields = contentBlock.formFields!
+  const consentFields = contentBlock.consentFields!
+
   const { executeRecaptcha } = useGoogleReCaptcha()
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false)
   const [serverErrorMessage, setServerErrorMessage] = useState<string | null>(
@@ -34,14 +40,14 @@ export function SubmissionForm() {
   )
   const [isSuccess, setIsSuccess] = useState<boolean>(false)
   const [consentChecked, setConsentChecked] = useState<Record<string, boolean>>(
-    CONSENT_DATA.reduce<Record<string, boolean>>(
-      (acc, box) => ({ ...acc, [box.id]: false }),
+    consentFields.reduce<Record<string, boolean>>(
+      (acc, checkbox) => ({ ...acc, [checkbox!.id]: false }),
       {}
     )
   )
   const [fieldValues, setFieldValues] = useState<Record<string, string>>(
-    FIELD_DATA.reduce<Record<string, string>>(
-      (acc, field) => ({ ...acc, [field.input.id]: "" }),
+    textFields.reduce<Record<string, string>>(
+      (acc, field) => ({ ...acc, [field!.id!]: "" }),
       {}
     )
   )
@@ -110,21 +116,15 @@ export function SubmissionForm() {
   if (isSuccess) {
     return (
       <div className="my-12 rounded-md border-2 border-solid border-slate-800 p-5">
-        <p className="mb-2 text-success">
-          Submitted successfully – thanks for contributing to the database!
-        </p>
-        <p className="mb-4">
-          You can track your submission on A Few Games&apos; GitHub issue
-          tracker, linked above.
-        </p>
-        <p>
-          <button
-            className="btn btn-outline btn-sm"
-            onClick={handleRefreshClick}
-          >
-            Submit Another Game ↻
-          </button>
-        </p>
+        <TinaMarkdown
+          content={formSuccessMessage}
+          components={{
+            p: (props) => <p className="mb-4 text-success" {...props} />,
+          }}
+        />
+        <button className="btn btn-outline btn-sm" onClick={handleRefreshClick}>
+          Submit Another Game ↻
+        </button>
       </div>
     )
   }
@@ -132,43 +132,29 @@ export function SubmissionForm() {
   return (
     <form className="my-12" onSubmit={handleSubmit}>
       <div className="rounded-md border-2 border-solid border-slate-800 p-5">
-        <h2 className="mb-4 text-2xl font-bold">Database Submission Form</h2>
+        <TinaMarkdown
+          content={formHeader}
+          components={{
+            h2: (props) => (
+              <h2 className="mb-4 text-2xl font-bold" {...props} />
+            ),
+            p: (props) => <p className="mb-4" {...props} />,
+            ul: (props) => <ul className="list-disc ps-4" {...props} />,
+            hr: (props) => (
+              <div className="divider" role="separator" {...props} />
+            ),
+          }}
+        />
 
-        <p className="mb-2">First of all, thank you for your contribution!</p>
-
-        <p className="mb-2">
-          The data you submit will need to be cross-referenced. Please review
-          this checklist before submitting:
-        </p>
-        <ul className="list-disc ps-4">
-          <li>Proof read your submission for inaccuracies, such as typos</li>
-          <li>
-            Links to official sources (e.g., press releases, publisher
-            documentation) are encouraged
-          </li>
-          <li>Links to eBay listings are encouraged</li>
-          <li>
-            If the game has so little documentation and so few listings that it
-            can&apos;t be easily referenced, say so in the notes
-          </li>
-        </ul>
-
-        <div className="divider" role="separator" />
-
-        <p className="mb-4">
-          <span className="text-white">*</span>{" "}
-          <span className="italic opacity-75">indicates a required field</span>
-        </p>
-
-        {FIELD_DATA.map((field) => {
+        {textFields?.map((field) => {
           return (
-            <div className="form-control" key={field.input.id}>
+            <div className="form-control" key={field!.id}>
               <label
                 className="label flex justify-start px-0 pb-1 pt-0 text-sm font-bold uppercase text-white"
-                htmlFor={field.input.id}
+                htmlFor={field!.id}
               >
-                {field.label}
-                {field.input.required && (
+                {field!.label}
+                {field!.required && (
                   <span>
                     <span aria-hidden="true">&nbsp;*</span>
                     <span className="sr-only">&nbsp;required</span>
@@ -176,26 +162,26 @@ export function SubmissionForm() {
                 )}
               </label>
               <p
-                id={`${field.input.id}-hint`}
+                id={`${field!.id}-hint`}
                 className="mb-4 text-sm italic opacity-75"
               >
-                {field.hint}
+                {field!.hint}
               </p>
               <Field
-                isTextarea={field.input.is === "textarea"}
-                required={field.input.required}
+                isTextarea={field!.type === "textarea"}
+                required={field!.required as boolean}
                 className={cn({
                   "textarea textarea-bordered textarea-info textarea-md mb-8 w-full max-w-full":
-                    field.input.is,
+                    field!.type === "textarea",
                   "input input-md input-bordered input-info mb-8 w-full max-w-full":
-                    !field.input.is,
+                    field!.type === "input",
                 })}
-                value={fieldValues[field.input.id]}
+                value={fieldValues[field!.id]}
                 onChange={handleFieldChange}
-                aria-describedby={`${field.input.id}-hint`}
+                aria-describedby={`${field!.id}-hint`}
                 type="text"
-                id={field.input.id}
-                name={field.input.id}
+                id={field!.id}
+                name={field!.id}
               />
             </div>
           )
@@ -205,42 +191,42 @@ export function SubmissionForm() {
 
         <p className="mb-2 text-sm font-bold">By submitting this form...</p>
 
-        {CONSENT_DATA.map((consent, index) => (
+        {consentFields?.map((consent, index) => (
           <p
             className={cn("form-control", {
-              "mb-8": index === CONSENT_DATA.length - 1,
+              "mb-8": index === consentFields.length - 1,
             })}
-            key={consent.id}
+            key={consent?.id}
           >
             <label
               className="label flex cursor-pointer items-start justify-start"
-              htmlFor={consent.id}
+              htmlFor={consent?.id}
             >
               <input
                 required
                 className="checkbox-info checkbox checkbox-sm me-3"
                 type="checkbox"
-                id={consent.id}
-                name={consent.id}
-                aria-invalid={!consentChecked[consent.id]}
-                checked={consentChecked[consent.id]}
+                id={consent?.id}
+                name={consent?.id}
+                aria-invalid={!consentChecked[consent!.id]}
+                checked={consentChecked[consent!.id]}
                 onChange={(event) => {
                   setConsentChecked({
                     ...consentChecked,
-                    [consent.id]: event.target.checked,
+                    [consent!.id]: event.target.checked,
                   })
                 }}
               />
               <span className="label-text">
-                {consent.label}{" "}
-                {consent.id === "terms" && (
+                {consent?.label}{" "}
+                {consent?.externalLink && consent?.externalLinkLabel && (
                   <a
                     className="link"
-                    href="https://github.com/geotrev/afew.games/blob/main/CODE_OF_CONDUCT.md"
+                    href={consent.externalLink}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Code of Conduct ↗
+                    {consent.externalLinkLabel}
                   </a>
                 )}
               </span>
@@ -254,6 +240,7 @@ export function SubmissionForm() {
           })}
         >
           <button
+            disabled={isSubmitting}
             className={cn(
               "btn btn-primary btn-lg !min-h-0 rounded-md py-3 md:btn-md",
               {
