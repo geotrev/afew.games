@@ -50,7 +50,6 @@ export const ClientPage = ({
           <Link
             className="btn btn-secondary btn-sm text-base-100"
             href="/contribute"
-            target="_blank"
             rel="noopener noreferrer"
           >
             Contribute ↗
