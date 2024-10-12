@@ -12,21 +12,24 @@ As mentioned in the [README](README.md), filing an issue is a great start if you
 - [Application](#application)
   - [Blog Posts](#blog-posts)
   - [Blog Index](#blog-index)
-  - [Databases](#databases)
+  - [Game Data](#game-data)
 
 ## Overview
 
-A Few Games is a website with Netlify CMS integration (`public/admin/index.html`). It is written in TypeScript and views are in React. The CMS uses [Netlify Identity](https://docs.netlify.com/security/secure-access-to-sites/identity/) for authentication.
+A Few Games is a website with Tina CMS integration.
 
 Core tech stack includes:
 
 - `next` as the backbone of the app
+  - By extension, the app uses `react` for UI.
 - `tailwindcss` and `daisyui` for styles
-- Netlify CMS, soon to be Decap CMS (manages blog posts & database content)
+- `tinacms` to manage content, both static and dynamic
 - `husky` & `lint-staged` (commit linting & pre-commit hooks)
 - `eslint` and `prettier` (style and formatting)
 
-Of worthy note, the version of Netlify CMS on A Few Games is a [fork](https://github.com/geotrev/netlify-cms/tree/3415-list-lag-example) I created once Netlify had perceivably abandoned the project (hadn't been updated for about six months). This fork contains a critical performance improvement on [text](https://decapcms.org/docs/widgets/#text) widgets that is necessary for Collections required this project. You can read more about the bug fix question [here](https://github.com/decaporg/decap-cms/pull/6565), as it will be made available in Decap in the Near Future™.
+Tina CMS has many benefits in the architecture and multiple static content blocks use it (home & about page, contribute/submission form).
+
+When using Tina, the queries must happen server-side to benefit with caching at runtime. Never use a client query on a client component, as it will cause massive delay for contentful paint.
 
 ## Development Workflow
 
@@ -36,7 +39,6 @@ Basic scripts are used to run the app, all thanks to Next JS.
 - `build` - build the app for production, locally
 - `start` - to run the production app after running `build`
 - `lint` - lints the app for JS, CSS and `tailwind`/`daisyui` styles class name order
-- `seed` - clears & rebuilds local blog post examples for development
 
 Finally, all commits run through `husky` and `lint-staged` for formatting. Errors must be fixed before re-committing.
 
@@ -53,29 +55,24 @@ Finally, all commits run through `husky` and `lint-staged` for formatting. Error
 
 ### Blog posts
 
-All blog posts are managed via Netlify CMS. They can be written in the CMS, or locally via markdown. Using the CMS provides an automated pull request & review cycle that's proved useful, historically.
+All blog posts are managed via Tina CMS. They can be written in the CMS, or locally via markdown. Using the CMS provides a more user-friendly experience, at the expense of not having a draft feature (yet, but maybe one day it will be free!).
 
-Posts are processed by the application via two packages:
+For drafts, create a local branch and use markdown, then create a PR
 
-- `gray-matter` (markdown & metadata extraction)
-- `marked` (HTML conversion)
-
-Posts are processed on the server by Next JS at request time before serving to the client. The data is so small that often caching isn't critical to a speedy load time
+Since essays are managed via Tina, that means their content and the index page are provided at request time, but cached using Netlify CDN.
 
 ### Blog Index
 
-Blogs can be browsed by title, description, and publish data on this page.
+Blogs are accessed via their index page, which has cursor pagination.
 
-The index page uses basic pagination with URL search parameters. The initial page is always server rendered, including if search params are given. Any other pages are API-driven at run time (`app/api/essays`) as the user changes page.
+The initial list of essays is always server rendered. When paginating, Tina client is queried, which can take a second or two (depending on internet connection) to resolve. While not ideal, this is their recommended method of paginating in the browser.
 
 Recent posts are flagged with a "new" badge if they were published in the last 30 days.
 
-### Databases
+### Game Data
 
-While the database is similar to the blog, it is powered via the CMS [Collection](https://decapcms.org/docs/collection-types/#file-collections) composed of JSON, using the repository commit history for versioning.
+While the database is similar to the blog and its content is leveraging Tina CMS, it is entirely composed of JSON, and is queried using an edge function (rather than a Tina query).
 
-All collection schemas are defined at `public/admin/config.yml`.
+The primary reason to manage the "database" this way is to keep it open and referencable by everyone, not just on the website. In the future, it will most likely migrate to a proper database via SQL. For now, it's an MVP that works and the queries are fast.
 
-The primary reason to manage the "database" this way is to keep it open and referencable by everyone, not just on the website. In the future, it will most flikely be necessary to migrate to a proper database via SQL in the future, but for now, it's an MVP that works.
-
-Unlike blog posts, the database isn't API-driven (but is [planned](https://github.com/geotrev/afew.games/issues/274)). It may over time be split up into separate Collection files, but for now, for better or worse, it's one giant JSON blob.
+Since the data is API-driven, it has no initial load state unless the page loads with url params. In this case, the edge function is called immediately.
