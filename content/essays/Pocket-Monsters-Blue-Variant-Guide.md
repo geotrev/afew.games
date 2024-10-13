@@ -33,7 +33,7 @@ CoroCoro readers could expect to receive their copy of \*Pocket Monsters Blue\* 
 
 This initial version included a plastic bag. The application period was October 15th through December 27th, 1996, to celebrate one million sales for *Red* and *Green*.
 
-![](/uploads/0974ad5b-68c4-41ee-abdb-89a2d7bdba19.jpeg)
+![Pocket Monsters Blue mail-order version with plastic bag](/uploads/0974ad5b-68c4-41ee-abdb-89a2d7bdba19.jpeg)
 
 ## TOYOTA Campaign
 
