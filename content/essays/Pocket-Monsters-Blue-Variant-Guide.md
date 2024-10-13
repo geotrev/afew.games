@@ -110,6 +110,6 @@ Each piece of hardware advertised was released at the time and are consistent in
 
 ## Conclusion
 
-What did you think of this scroll down history lane? Like all the other guides I post, I try to fill as many blanks as I can, but unfortunately sometimes certain details are lost to time. With copies of these games unopened now selling for four- and five-figures, it can be challenging to definitively get to the bottom of this info short of a full set of manufacturing order sheets.
+What did you think of this scroll down history lane? Like all the other guides I post, I try to fill as many blanks as I can, but unfortunately sometimes certain details are lost to time. With unopened copies of these games now selling for four- and five-figures, it can be challenging to definitively get to the bottom of this info short of a full set of manufacturing order sheets.
 
 If you know anything that might add to the thoroughness of this guide, feel free to reach out!
