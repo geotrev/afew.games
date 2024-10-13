@@ -8,7 +8,7 @@ Greetings friends! This post is a researched guide on the various components & p
 
 ***NOTE:** To see the list of print variants as they exist on A Few Games' database, [view them here](https://www.afew.games). A full list of sources can be found at the end of this post.*
 
-**![Pocket Monsters Blue Version](/uploads/blue-hero.jpg)
+![Pocket Monsters Blue Version](/uploads/blue-hero.jpg)
 
 ## Overview
 
@@ -29,7 +29,7 @@ Blue version was [announced](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mo
 
 ![CoroCoro comic magazine spread, instructions to apply and pay for Blue version](/uploads/corocoro-blue-version-application.png)
 
-*CoroCoro *readers could expect to receive their copy of *Pocket Monsters Blue* in mid-December of that year, at the earliest, and orders after November would likely arrive by January or February in the new year.
+\*CoroCoro \*readers could expect to receive their copy of *Pocket Monsters Blue* in mid-December of that year, at the earliest, and orders after November would likely arrive by January or February in the new year.
 
 This initial version included a plastic bag. The application period was October 15th through December 27th, 1996, to celebrate one million sales for *Red* and *Green*.
 
