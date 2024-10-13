@@ -59,4 +59,4 @@ According to @RB1989421GB on *X/Twitter*, the retail version released on October
 
 While the mail order variant had no barcode on the actual box (see above photos), the retail release included it:
 
-![Blue version with barcode ](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
+![Blue version with retail barcode](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
