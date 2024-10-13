@@ -71,7 +71,7 @@ Okay, so lets recap on the specifics of how the game itself changed physically!
 
 To start, the box had no UPC on the back until retail copies in 1999:
 
-![](/uploads/blue-early-vs-late-upc.png)
+![No UPC box vs UPC box](/uploads/blue-early-vs-late-upc.png)
 
 The boxes with UPCs also had JPN-1 codes on the flaps:
 
