@@ -59,23 +59,25 @@ An Internet Archive page from *Game Freak*'s website, roughly translated, says:
 
 According to [@RB1989421GB](https://x.com/RB1989421GB/status/1440053195808526337) on *X/Twitter*, the retail version released on October 10th, 1999 (almost three years after the mail order version).
 
-While the mail order variant had no barcode on the actual box (see above photos), the retail release included it:
+While the mail order variant had no barcode on the actual box (see above photos), the retail release included it.
 
-![UPC box](/uploads/blue-upc.png)
+***
 
-## Contents
+Okay, let's dive deep into the physical print differences you can expect to see from such a long print history!
 
-Okay, so lets recap on the specifics of how the game itself changed physically!
+## Box
 
-### Box
-
-To start, the box had no UPC on the back until retail copies in 1999:
+Here's a side by side showing early box design vs. later (retail) design:
 
 ![No UPC box vs UPC box](/uploads/blue-early-vs-late-upc.png)
 
-The boxes with UPCs also had JPN-1 codes on the flaps:
+The boxes with UPCs also had JPN-1 codes on the flaps. Funnily, they removed those `G` codes.
 
 ![Boxes showing date codes on flaps](/uploads/blue-early-vs-late-ears.png)
+
+## Contents
+
+Now for what's inside the box. This is where it can get complicated, same as any other video game.
 
 ### Cartridge
 
