@@ -8,7 +8,7 @@ Greetings friends! This post is a researched guide on the various components & p
 
 ***NOTE:** To see the list of print variants as they exist on A Few Games' database, [view them here](https://www.afew.games). A full list of sources can be found at the end of this post.*
 
-**![](/uploads/blue-hero.jpg)
+**![Pocket Monsters Blue Version](/uploads/blue-hero.jpg)
 
 ## Overview
 
@@ -39,7 +39,7 @@ This initial version included a plastic bag. The application period was October 
 
 *Blue* had an exclusive *TOYOTA AUTO* promotion that features a sticker. The box doesn't appear to have any different characteristics compared to the mail order variant.
 
-![](/uploads/screenshot-2024-01-08-at-8.58.26-pm.png)
+![Blue version with TOYOTA AUTO sticker](/uploads/screenshot-2024-01-08-at-8.58.26-pm.png)
 
 According to collector @RB1989421GB on X/*Twitter* (roughly translated):
 
