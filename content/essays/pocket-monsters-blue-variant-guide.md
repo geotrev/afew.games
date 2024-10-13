@@ -75,13 +75,13 @@ To start, the box had no UPC on the back until retail copies in 1999:
 
 The boxes with UPCs also had JPN-1 codes on the flaps:
 
-![](/uploads/blue-early-vs-late-ears.png)
+![Boxes showing date codes on flaps](/uploads/blue-early-vs-late-ears.png)
 
 ### Cartridge
 
 Matching components means putting together a few pieces: stamp codes, PCB date codes, and chip codes:
 
-![](/uploads/blue-pcb-code.png)
+![Chip codes plus label stamp codes](/uploads/blue-pcb-code.png)
 
 There are currently known launch copies using `20` production codes. There were likely parallel codes used at launch, but that's still unclear.
 
