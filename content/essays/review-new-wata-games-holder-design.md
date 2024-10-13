@@ -1,5 +1,5 @@
 ---
-publish_date: 2023-04-25
+publish_date: 2023-04-25T05:00:00.000Z
 title: New Wata Games Holder Design Is Here
 description: New holder showcases more size options, less bulk, and new label design
 ---

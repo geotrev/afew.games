@@ -1,5 +1,5 @@
 ---
-publish_date: 2024-07-26
+publish_date: 2024-07-26T05:00:00.000Z
 title: "Pocket Monsters Red & Green: Variant Updates"
 description: Recent information adds clarity to early vs. later productions of
   the original Pokemon games

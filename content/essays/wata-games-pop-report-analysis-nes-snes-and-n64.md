@@ -1,5 +1,5 @@
 ---
-publish_date: 2022-09-13
+publish_date: 2022-09-13T05:00:00.000Z
 title: "Wata Games Pop Report Analysis: NES, SNES, and N64"
 description: A breakdown of seal grades across the breakthrough home consoles
 ---

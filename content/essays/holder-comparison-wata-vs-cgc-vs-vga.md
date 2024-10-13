@@ -1,5 +1,5 @@
 ---
-publish_date: 2023-01-02
+publish_date: 2023-01-02T05:00:00.000Z
 title: "Holder Comparison: Wata vs. CGC vs. VGA"
 description: A head-to-head face-off with the holders that store our precious games
 ---

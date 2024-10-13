@@ -1,5 +1,5 @@
 ---
-publish_date: 2023-07-09
+publish_date: 2023-07-09T05:00:00.000Z
 title: "The Review Is In: Does Wata's New Graded Holder Live Up To Expectations?"
 description: After two long months, here's a detailed breakdown of the new features
 ---

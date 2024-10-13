@@ -1,5 +1,5 @@
 ---
-publish_date: 2022-07-31
+publish_date: 2022-07-31T05:00:00.000Z
 title: The (Unfortunate) State of Graded Games
 description: As fun and lucrative as graded games might seem, the hobby (and
   corporate industry) has a long way to go

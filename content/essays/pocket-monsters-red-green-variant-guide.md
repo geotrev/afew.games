@@ -1,5 +1,5 @@
 ---
-publish_date: 2024-02-25
+publish_date: 2024-02-25T05:00:00.000Z
 title: Pocket Monsters Red & Green Variant Guide
 description: Detailed print variant breakdown of the first games in the Pocket
   Monsters franchise

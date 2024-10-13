@@ -1,5 +1,5 @@
 ---
-publish_date: 2022-12-27
+publish_date: 2022-12-27T05:00:00.000Z
 title: Nintendo Wii Pop Report Analysis
 description: This data won't surprise you (guaranteed)
 ---

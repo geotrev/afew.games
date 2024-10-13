@@ -1,5 +1,5 @@
 ---
-publish_date: 2023-01-14
+publish_date: 2023-01-14T05:00:00.000Z
 title: "Wata Games Pop Report Analysis: Wii U"
 description: Deep dive into Nintendo's least successful console with second
   lowest submission rate

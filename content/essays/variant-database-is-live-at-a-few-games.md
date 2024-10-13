@@ -1,5 +1,5 @@
 ---
-publish_date: 2023-03-08
+publish_date: 2023-03-08T05:00:00.000Z
 title: Variant Database is Live at A Few Games
 description: Look up and track game variants, database to grow in coming months,
   plus more features

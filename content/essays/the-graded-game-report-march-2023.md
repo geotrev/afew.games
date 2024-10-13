@@ -1,5 +1,5 @@
 ---
-publish_date: 2023-05-10
+publish_date: 2023-05-10T05:00:00.000Z
 title: "The Graded Games Report: Spring 2023"
 description: A quick summary of population and collecting community updates
 ---

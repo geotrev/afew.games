@@ -1,5 +1,5 @@
 ---
-publish_date: 2024-06-08
+publish_date: 2024-06-08T05:00:00.000Z
 title: "Don't Overspend On Modern Nintendo Games: Know What You're Buying!"
 description: It's dangerous out there, take this information!
 ---

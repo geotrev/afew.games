@@ -1,8 +1,9 @@
 ---
-publish_date: 2024-04-28
+publish_date: 2024-04-28T05:00:00.000Z
 title: Database Changes Now Live
 description: Announcing some small changes to improve performance and prepare for longevity
 ---
+
 Howdy all! It has been somewhat quiet on the blog for a few months. I want to share some great news about the website's search feature!
 
 **TL;DR:** The database no longer loads all games by default. Instead, a search is required to view game data.

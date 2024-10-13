@@ -1,5 +1,5 @@
 ---
-publish_date: 2023-06-18
+publish_date: 2023-06-18T05:00:00.000Z
 title: "On Graded Games & Collecting: A Hobby At Standstill"
 description: While there are profits to be made through grading, collectors are
   left in the dust
