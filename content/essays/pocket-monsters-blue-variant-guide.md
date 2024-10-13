@@ -1,5 +1,5 @@
 ---
-publish_date: 2024-10-14T05:00:00.000Z
+publish_date: 2024-10-12T05:00:00.000Z
 title: Pocket Monsters Blue Variant Guide
 description: Print variations for Pokemon's third series entry
 ---
@@ -61,56 +61,119 @@ According to [@RB1989421GB](https://x.com/RB1989421GB/status/1440053195808526337
 
 While the mail order variant had no barcode on the actual box (see above photos), the retail release included it:
 
-![Blue version with retail barcode](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
+![UPC box](/uploads/blue-upc.png)
 
 ## Contents
 
+Okay, so lets recap on the specifics of how the game itself changed physically!
+
+### Box
+
+To start, the box had no UPC on the back until retail copies in 1999:
+
+![](/uploads/blue-early-vs-late-upc.png)
+
+The boxes with UPCs also had JPN-1 codes on the flaps:
+
+![](/uploads/blue-early-vs-late-ears.png)
+
 ### Cartridge
 
-There are currently known launch copies using `20` production codes.
+Matching components means putting together a few pieces: stamp codes, PCB date codes, and chip codes:
 
-![Blue cartridge with '20' stamp code](/uploads/blue-20-cart.png)
+![](/uploads/blue-pcb-code.png)
 
-There are likely parallel codes used at launch, but that's still unclear.
+There are currently known launch copies using `20` production codes. There were likely parallel codes used at launch, but that's still unclear.
 
-When looking at the circuit board for the above cartridge, the date code (`9646`) is a few weeks before the December release date, indicating its a first, or at least very early production copy.
+When looking at the circuit board for an early print cartridge, the date code (`9646`) should be well before the December release date, for example this one in November, 1996:
 
-![Blue cartridge circuit board](/uploads/blue-20.jpeg)
+![](/uploads/blue-pcb.png)
 
-Here is the reference to those cartridge production codes:
+### Manual
 
-![Cartridge production codes for Red, Green, Blue, and Yellow versions](/uploads/cart-code-table.png)
+Like in Red and Green, we have some work to do in identifying the specific date ranges used in a given copy of the game. Thankfully, Nintendo includes production codes!
 
-*Note: The second "green" in the table is actually* Blue *version.*
+For the manual, there's one key difference: early prints have JPN code, late prints have JPN-1. The latter is likely for any copy starting with the 1999 retail print.
 
-#### Matching Paperwork
+![](/uploads/blue-manual-codes.png)
 
-The below information was determined by a thorough survey of listing data on *eBay*, *Mercari* (Japanese), and *Yahoo! Auction Japan*.
+We can differentiate further by looking at the last page of the manual, which highlights changes based on the date code. Early prints had no date code, middle prints (likely after the first mail-order run) began adding some (e.g., 971106, or 11/06/1997), and late prints would begin updating the page design plus updating date codes for a given print run (in this case, a 1999 date code).
 
-Early editions of *Blue* likely had minimal contents, and possibly no ad inserts. The game at least had the following:
+![](/uploads/blue-manual-page-variants.png)
 
-* Manual (`JPN` code)
-* Map
-* Anti-tampering warning
+### Inserts
 
-![](/uploads/blue-version-complete-early-no-ad.jpeg)
+Cartridge and manual are by far the most important pieces, but the inserts are useful to know about if you're a completionist (like me).
 
-While unconfirmed for now, if ads were included in the 1996-1997 versions, it would have been this *Game Boy Pocket* ad, which also appeared in *Red* and *Green* versions at the time:
+#### Map
+
+* Included for all prints
+* Code: DMG-APAJ-JPN / G505910
+
+![](/uploads/insert-map-code.png)
+
+#### Anti-Tampering Notice
+
+* Included for all prints
+* Code: G508989
+
+![](/uploads/insert-anti-tampering.png)
+
+#### Game Boy Pocket Ad (1 code) (unconfirmed)
+
+* May have been included in the first mail-order copies
+* Code: T-DMG-MGB001-JPN-1
 
 ![](/uploads/insert-gb-pocket-1.png)
 
-Later versions would include multiple ads, especially retail copies:
+#### Game Boy Pocket Ad (3 code) (unconfirmed)
 
-* Manual (`JPN-1`)
-* Game Boy Color ad (`CGB001-JPN-2`)
-* Game Boy Camera ad (`MGB006-JPN`)
-* Pocket Monsters Stadium ad (`APSJ-JPN`)
+* May have been included for TOYOTA AUTO promo or 2nd wave mail order copies (1997)
+* Code: T-DMG-MGB001-JPN-3
 
-Each piece of hardware advertised was released at the time and are consistent in numerous listed samples on websites like *Yahoo! Auction Japan*, *Mercari*, and the like. Sibling games *Red*, *Green*, and *Yellow* also contained the same ads at this time:
+![](/uploads/insert-gb-pocket-2.png)
 
-![Later print Blue version with game boy color ad](/uploads/blue-version-complete-retail.png)
+Game Boy Camera Ad
+
+* Included for retail copies (1999+)
+* Code: T-DMG-MGB006-JPN
+
+![](/uploads/insert-gb-camera.png)
+
+Game Boy Color Ad
+
+* Included for retail copies (1999+)
+* Code: T-DMG-CGB001-JPN-2
+
+![](/uploads/insert-gb-color.png)
+
+Cartridge Cleaning Guide
+
+* May have been included during the release range of Gold & Silver (late 1999+)
+* Code: DMG-JPN
+
+![](/uploads/insert-cleaning-instructions.png)
 
 ## Conclusion
+
+Let's wrap this up with a quick breakdown on parts correlation, to get a sense of which "bundles" make the most sense. Keep in mind this is approximate as the information may change over time with new insights and documentation revelations!
+
+Possible Combinations:
+
+* No UPC (box)
+  * 20 stamp code + 964X PCB chip code (cartridge)
+  * JPN code (manual)
+  * Anti-tampering notice, Game Boy Pocket ad (1 code), map
+* No UPC / TOYOTA AUTO promo (box)
+  * 20/12/00/22 stamp code + 96XX-97XX PCB chip code (cartridge)
+  * JPN code (manual)
+  * Anti-tampering notice, Game Boy Pocket ad (3 code), map
+* With UPC
+  * XX or XXA (revised) stamp codes + 99XX+ PCB chip code (cartridge)
+  * JPN-1 code (manual)
+  * Anti-tampering notice, Game Boy Camera ad, Game Boy Color ad, map
+
+***
 
 What did you think of this scroll down history lane? Like all the other guides I post, I try to fill as many blanks as I can, but unfortunately sometimes certain details are lost to time. With unopened copies of these games now selling for four- and five-figures, it can be challenging to definitively get to the bottom of this info short of a full set of manufacturing order sheets.
 
