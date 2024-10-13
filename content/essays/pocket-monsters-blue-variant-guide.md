@@ -87,7 +87,7 @@ There are currently known launch copies using `20` production codes. There were 
 
 When looking at the circuit board for an early print cartridge, the date code (`9646`) should be well before the December release date, for example this one in November, 1996:
 
-![](/uploads/blue-pcb.png)
+![PCB chip codes](/uploads/blue-pcb.png)
 
 ### Manual
 
@@ -95,11 +95,11 @@ Like in Red and Green, we have some work to do in identifying the specific date 
 
 For the manual, there's one key difference: early prints have JPN code, late prints have JPN-1. The latter is likely for any copy starting with the 1999 retail print.
 
-![](/uploads/blue-manual-codes.png)
+![Early vs late manual cover codes](/uploads/blue-manual-codes.png)
 
 We can differentiate further by looking at the last page of the manual, which highlights changes based on the date code. Early prints had no date code, middle prints (likely after the first mail-order run) began adding some (e.g., 971106, or 11/06/1997), and late prints would begin updating the page design plus updating date codes for a given print run (in this case, a 1999 date code).
 
-![](/uploads/blue-manual-page-variants.png)
+![Early, mid, and late manual content changes from 1996 through 1999](/uploads/blue-manual-page-variants.png)
 
 ### Inserts
 
@@ -110,55 +110,55 @@ Cartridge and manual are by far the most important pieces, but the inserts are u
 * Included for all prints
 * Code: DMG-APAJ-JPN / G505910
 
-![](/uploads/insert-map-code.png)
+![Kanto map insert](/uploads/insert-map-code.png)
 
 #### Anti-Tampering Notice
 
 * Included for all prints
 * Code: G508989
 
-![](/uploads/insert-anti-tampering.png)
+![Anti-tampering notice insert](/uploads/insert-anti-tampering.png)
 
 #### Game Boy Pocket Ad (1 code) (unconfirmed)
 
 * May have been included in the first mail-order copies
 * Code: T-DMG-MGB001-JPN-1
 
-![](/uploads/insert-gb-pocket-1.png)
+![Game boy pocket insert, early version](/uploads/insert-gb-pocket-1.png)
 
 #### Game Boy Pocket Ad (3 code) (unconfirmed)
 
 * May have been included for TOYOTA AUTO promo or 2nd wave mail order copies (1997)
 * Code: T-DMG-MGB001-JPN-3
 
-![](/uploads/insert-gb-pocket-2.png)
+![Game boy pocket insert, revised version](/uploads/insert-gb-pocket-2.png)
 
 Game Boy Camera Ad
 
 * Included for retail copies (1999+)
 * Code: T-DMG-MGB006-JPN
 
-![](/uploads/insert-gb-camera.png)
+![Game boy camera insert](/uploads/insert-gb-camera.png)
 
 Game Boy Color Ad
 
 * Included for retail copies (1999+)
 * Code: T-DMG-CGB001-JPN-2
 
-![](/uploads/insert-gb-color.png)
+![Game boy color insert](/uploads/insert-gb-color.png)
 
 Cartridge Cleaning Guide
 
 * May have been included during the release range of Gold & Silver (late 1999+)
 * Code: DMG-JPN
 
-![](/uploads/insert-cleaning-instructions.png)
+![Cartridge cleaning instruction insert](/uploads/insert-cleaning-instructions.png)
 
 ## Conclusion
 
-Let's wrap this up with a quick breakdown on parts correlation, to get a sense of which "bundles" make the most sense. Keep in mind this is approximate as the information may change over time with new insights and documentation revelations!
+Let's wrap this up with a quick breakdown on parts correlation, to get a sense of which "bundles" make the most sense.
 
-Possible Combinations:
+Possible combinations:
 
 * No UPC (box)
   * 20 stamp code + 964X PCB chip code (cartridge)
@@ -172,6 +172,8 @@ Possible Combinations:
   * XX or XXA (revised) stamp codes + 99XX+ PCB chip code (cartridge)
   * JPN-1 code (manual)
   * Anti-tampering notice, Game Boy Camera ad, Game Boy Color ad, map
+
+Keep in mind this is approximate as the information may change over time with new insights and documentation revelations!
 
 ***
 
