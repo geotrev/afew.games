@@ -54,9 +54,12 @@ export function SiteHeader() {
                   <Link
                     href={route}
                     aria-current={active ? "true" : undefined}
-                    className={cn("font-bold", {
-                      "!bg-blue-500 !text-black": active,
-                    })}
+                    className={cn(
+                      "font-bold focus-within:outline-0 focus-within:ring-2 focus-within:ring-inset focus-within:ring-base-100 focus-within:ring-offset-1 focus-within:ring-offset-secondary",
+                      {
+                        "!bg-blue-500 !text-black": active,
+                      }
+                    )}
                   >
                     {label}
                   </Link>
