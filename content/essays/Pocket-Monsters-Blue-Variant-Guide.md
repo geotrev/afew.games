@@ -29,7 +29,7 @@ Blue version was [announced](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mo
 
 ![CoroCoro comic magazine spread, instructions to apply and pay for Blue version](/uploads/corocoro-blue-version-application.png)
 
-CoroCoro readers could expect to receive their copy of \*Pocket Monsters Blue\* in mid-December of that year, at the earliest, and orders after November would likely arrive by January or February in the new year.
+*CoroCoro *readers could expect to receive their copy of *Pocket Monsters Blue* in mid-December of that year, at the earliest, and orders after November would likely arrive by January or February in the new year.
 
 This initial version included a plastic bag. The application period was October 15th through December 27th, 1996, to celebrate one million sales for *Red* and *Green*.
 
@@ -51,7 +51,9 @@ Between June and August in 1997, a second mail order campaign took place for cus
 
 An Internet Archive page from *Game Freak*'s website, roughly translated, says:
 
-> There's another chance to get your hands on "Pokemon Blue Version." This time, to commemorate the sales of over 4 million copies, the blue version is being sold online as a special project jointly carried out by Nintendo, Shogakukan, and convenience store Lawson. The mail order period is from June 13th to August 31st. For details on mail order applications, please check Shogakukan's grade magazines, magazines such as CoroCoro Comic, Ciao, or Lawson.
+> There's another chance to get your hands on "Pokemon Blue Version." This time, to commemorate the sales of over 4 million copies, the blue version is being sold online as a special project jointly carried out by Nintendo, Shogakukan, and convenience store Lawson.\
+> \
+> The mail order period is from June 13th to August 31st. For details on mail order applications, please check Shogakukan's grade magazines, magazines such as CoroCoro Comic, Ciao, or Lawson.
 
 ### 1999 Retail Release
 
@@ -113,3 +115,10 @@ Each piece of hardware advertised was released at the time and are consistent in
 What did you think of this scroll down history lane? Like all the other guides I post, I try to fill as many blanks as I can, but unfortunately sometimes certain details are lost to time. With unopened copies of these games now selling for four- and five-figures, it can be challenging to definitively get to the bottom of this info short of a full set of manufacturing order sheets.
 
 If you know anything that might add to the thoroughness of this guide, feel free to reach out!
+
+### Sources
+
+* [The Mikaifu Collection](https://www.instagram.com/mikaifucollection/) - General timeline information
+* Thaane (via SACK Discord server) – Photos & production code data
+* pokemon1gb2rgbp.wiki.fc2.com/ \[[1](https://pokemon1gb2rgbp.wiki.fc2.com/)] \[[2](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84)] - Requires account to view
+* nintendo.co.jp \[[1](https://www.nintendo.co.jp/n02/dmg/apajapbj/index.html)] \[[2](https://www.nintendo.co.jp/n02/dmg/apej/index.html)] \[[3](https://www.nintendo.co.jp/n02/dmg/apsj/index.html)]
