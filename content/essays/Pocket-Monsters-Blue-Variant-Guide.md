@@ -23,7 +23,7 @@ Here's a high level timeline of public availability for the game:
 3. ***Lawson* mail order campaign (July 1997):** Customers can once again apply & receive *Blue* via online application.
 4. **General retail release (Oct. 10th, 1999):** Finally, customers can buy Blue version in stores.
 
-## 1996 CoroCoro Comic Mail-Order Campaign
+### 1996 CoroCoro Comic Mail-Order Campaign
 
 Blue version was [announced](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Blue_Version_\(Japanese\)) on October 15th, 1996, then [featured in CoroCoro Comic](https://lavacutcontent.com/corocoro-comic-pokemon-blue/) where readers were informed they could purchase & receive the game by mail. To date, Blue version is the only made-to-order entry ever made. It's unclear exactly how many copies were produced.
 
@@ -35,7 +35,7 @@ This initial version included a plastic bag. The application period was October 
 
 ![Pocket Monsters Blue mail-order version with plastic bag](/uploads/0974ad5b-68c4-41ee-abdb-89a2d7bdba19.jpeg)
 
-## TOYOTA Campaign
+### TOYOTA Campaign
 
 *Blue* had an exclusive *TOYOTA AUTO* promotion that features a sticker. The box doesn't appear to have any different characteristics compared to the mail order variant.
 
@@ -60,3 +60,56 @@ According to @RB1989421GB on *X/Twitter*, the retail version released on October
 While the mail order variant had no barcode on the actual box (see above photos), the retail release included it:
 
 ![Blue version with retail barcode](/uploads/screenshot-2024-01-07-at-3.24.05-pm.png)
+
+## Contents
+
+### Cartridge
+
+There are currently known launch copies using `20` production codes.
+
+![Blue cartridge with '20' stamp code](/uploads/blue-20-cart.png)
+
+There are likely parallel codes used at launch, but that's still unclear.
+
+When looking at the circuit board for the above cartridge, the date code (`9646`) is a few weeks before the December release date, indicating its a first, or at least very early production copy.
+
+![Blue cartridge circuit board](/uploads/blue-20.jpeg)
+
+Here is the reference to those cartridge production codes:
+
+![Cartridge production codes for Red, Green, Blue, and Yellow versions](/uploads/cart-code-table.png)
+
+*Note: The second "green" in the table is actually* Blue *version. 😉*
+
+#### Matching Paperwork
+
+The below information was determined by a thorough survey of listing data on *eBay*, *Mercari* (Japanese), and *Yahoo! Auction Japan*.
+
+Early editions of *Blue* likely had minimal contents, and possibly no ad inserts. The game at least had the following:
+
+* Manual (`JPN` code)
+* Map
+* Anti-tampering warning
+
+![](/uploads/blue-version-complete-early-no-ad.jpeg)
+
+While unconfirmed for now, if ads were included in the 1996-1997 versions, it would have been this *Game Boy Pocket* ad, which also appeared in *Red* and *Green* versions at the time:
+
+![](/uploads/insert-gb-pocket-1.png)
+
+Later versions would include multiple ads, especially retail copies:
+
+* Manual (`JPN-1`)
+* Game Boy Color ad (`CGB001-JPN-2`)
+* Game Boy Camera ad (`MGB006-JPN`)
+* Pocket Monsters Stadium ad (`APSJ-JPN`)
+
+Each piece of hardware advertised was released at the time and are consistent in numerous listed samples on websites like *Yahoo! Auction Japan*, *Mercari*, and the like. Sibling games *Red*, *Green*, and *Yellow* also contained the same ads at this time:
+
+![Later print Blue version with game boy color ad](/uploads/blue-version-complete-retail.png)
+
+## Conclusion
+
+What did you think of this scroll down history lane? Like all the other guides I post, I try to fill as many blanks as I can, but unfortunately sometimes certain details are lost to time. With copies of these games unopened now selling for four- and five-figures, it can be challenging to definitively get to the bottom of this info short of a full set of manufacturing order sheets.
+
+If you know anything that might add to the thoroughness of this guide, feel free to reach out!
