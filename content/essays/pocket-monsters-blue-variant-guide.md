@@ -6,7 +6,7 @@ description: Print variations for Pokemon's third series entry
 
 Greetings friends! This post is a researched guide on the various components & print combinations of Pocket Monsters Ao (Blue version). As time goes on, I will update it as new information is presented & discussed in the collecting community. In our previous posts, we looked at [Pocket Monsters Red and Green](https://www.afew.games/essays/pocket-monsters-red-green-variant-guide), including a dedicated post to the [very first editions](https://www.afew.games/essays/pocket-monsters-red-green-early-print-breakdown).
 
-**\*NOTE:** To see the list of print variants as they exist on A Few Games' database, [view them here](https://www.afew.games). A full list of sources can be found at the end of this post.\*
+***NOTE:** To see the list of print variants as they exist on A Few Games' database, [view them here](https://www.afew.games). A full list of sources can be found at the end of this post.*
 
 ![Pocket Monsters Blue Version](/uploads/blue-hero.jpg)
 
@@ -18,38 +18,38 @@ It's also worth noting that Pocket Monsters Blue's software version would go on 
 
 Here's a high level timeline of public availability for the game:
 
-1. **_CoroCoro Comic_ Mail Order Campaign (December 1996):** To celebrate 1 million sales of Red and Green versions, customers could order the limited release _Blue_ version.
-2. **_TOYOTA_ Campaign (1997):** Distributed for customers who signed on to a _Toyota_ contract.
-3. **_Lawson_ mail order campaign (July 1997):** Customers can once again apply & receive _Blue_ via online application.
+1. ***CoroCoro Comic* Mail Order Campaign (December 1996):** To celebrate 1 million sales of Red and Green versions, customers could order the limited release *Blue* version.
+2. ***TOYOTA* Campaign (1997):** Distributed for customers who signed on to a *Toyota* contract.
+3. ***Lawson* mail order campaign (July 1997):** Customers can once again apply & receive *Blue* via online application.
 4. **General retail release (Oct. 10th, 1999):** Finally, customers can buy Blue version in stores.
 
 ### 1996 CoroCoro Comic Mail-Order Campaign
 
-Blue version was [announced](<https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Blue_Version_(Japanese)>) on October 15th, 1996, then [featured in CoroCoro Comic](https://lavacutcontent.com/corocoro-comic-pokemon-blue/) where readers were informed they could purchase & receive the game by mail. To date, Blue version is the only made-to-order entry ever made. It's unclear exactly how many copies were produced.
+Blue version was [announced](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Blue_Version_\(Japanese\)) on October 15th, 1996, then [featured in CoroCoro Comic](https://lavacutcontent.com/corocoro-comic-pokemon-blue/) where readers were informed they could purchase & receive the game by mail. To date, Blue version is the only made-to-order entry ever made. It's unclear exactly how many copies were produced.
 
 ![CoroCoro comic magazine spread, instructions to apply and pay for Blue version](/uploads/corocoro-blue-version-application.png)
 
-_CoroCoro_ readers could expect to receive their copy of _Pocket Monsters Blue_ in mid-December of that year, at the earliest, and orders after November would likely arrive by January or February in the new year.
+*CoroCoro* readers could expect to receive their copy of *Pocket Monsters Blue* in mid-December of that year, at the earliest, and orders after November would likely arrive by January or February in the new year.
 
-This initial version included a plastic bag. The application period was October 15th through December 27th, 1996, to celebrate one million sales for _Red_ and _Green_.
+This initial version included a plastic bag. The application period was October 15th through December 27th, 1996, to celebrate one million sales for *Red* and *Green*.
 
 ![Pocket Monsters Blue mail-order version with plastic bag](/uploads/0974ad5b-68c4-41ee-abdb-89a2d7bdba19.jpeg)
 
 ### TOYOTA Campaign
 
-_Blue_ had an exclusive _TOYOTA AUTO_ promotion that features a sticker. The box doesn't appear to have any different characteristics compared to the mail order variant.
+*Blue* had an exclusive *TOYOTA AUTO* promotion that features a sticker. The box doesn't appear to have any different characteristics compared to the mail order variant.
 
 ![Blue version with TOYOTA AUTO sticker](/uploads/screenshot-2024-01-08-at-8.58.26-pm.png)
 
-According to collector @RB1989421GB on X/_Twitter_ (roughly translated):
+According to collector @RB1989421GB on X/*Twitter* (roughly translated):
 
-> The Toyota version was distributed as a commemorative gift to those who signed a contract during the Toyota campaign period in 1997, as a set of Toyota limited model _Game Boy Pocket Skeleton & Pokemon Blue Version_. There is a Toyota Auto **sticker** on the box.
+> The Toyota version was distributed as a commemorative gift to those who signed a contract during the Toyota campaign period in 1997, as a set of Toyota limited model *Game Boy Pocket Skeleton & Pokemon Blue Version*. There is a Toyota Auto **sticker** on the box.
 
 ### 1997 Lawson Mail Order Campaign
 
-Between June and August in 1997, a second mail order campaign took place for customers who missed the late-1996 campaign in _Corocoro Comic_. This time the applications were available in _CoroCoro Comic_, _Ciao_, **and** _Lawson_ magazines.
+Between June and August in 1997, a second mail order campaign took place for customers who missed the late-1996 campaign in *Corocoro Comic*. This time the applications were available in *CoroCoro Comic*, *Ciao*, **and** *Lawson* magazines.
 
-An Internet Archive page from _Game Freak_'s website, roughly translated, says:
+An Internet Archive page from *Game Freak*'s website, roughly translated, says:
 
 > There's another chance to get your hands on "Pokemon Blue Version." This time, to commemorate the sales of over 4 million copies, the blue version is being sold online as a special project jointly carried out by Nintendo, Shogakukan, and convenience store Lawson.\
 > \
@@ -57,7 +57,7 @@ An Internet Archive page from _Game Freak_'s website, roughly translated, says:
 
 ### 1999 Retail Release
 
-According to [@RB1989421GB](https://x.com/RB1989421GB/status/1440053195808526337) on _X/Twitter_, the retail version released on October 10th, 1999 (almost three years after the mail order version).
+According to [@RB1989421GB](https://x.com/RB1989421GB/status/1440053195808526337) on *X/Twitter*, the retail version released on October 10th, 1999 (almost three years after the mail order version).
 
 While the mail order variant had no barcode on the actual box (see above photos), the retail release included it:
 
@@ -81,32 +81,32 @@ Here is the reference to those cartridge production codes:
 
 ![Cartridge production codes for Red, Green, Blue, and Yellow versions](/uploads/cart-code-table.png)
 
-_Note: The second "green" in the table is actually_ Blue _version._
+*Note: The second "green" in the table is actually* Blue *version.*
 
 #### Matching Paperwork
 
-The below information was determined by a thorough survey of listing data on _eBay_, _Mercari_ (Japanese), and _Yahoo! Auction Japan_.
+The below information was determined by a thorough survey of listing data on *eBay*, *Mercari* (Japanese), and *Yahoo! Auction Japan*.
 
-Early editions of _Blue_ likely had minimal contents, and possibly no ad inserts. The game at least had the following:
+Early editions of *Blue* likely had minimal contents, and possibly no ad inserts. The game at least had the following:
 
-- Manual (`JPN` code)
-- Map
-- Anti-tampering warning
+* Manual (`JPN` code)
+* Map
+* Anti-tampering warning
 
 ![](/uploads/blue-version-complete-early-no-ad.jpeg)
 
-While unconfirmed for now, if ads were included in the 1996-1997 versions, it would have been this _Game Boy Pocket_ ad, which also appeared in _Red_ and _Green_ versions at the time:
+While unconfirmed for now, if ads were included in the 1996-1997 versions, it would have been this *Game Boy Pocket* ad, which also appeared in *Red* and *Green* versions at the time:
 
 ![](/uploads/insert-gb-pocket-1.png)
 
 Later versions would include multiple ads, especially retail copies:
 
-- Manual (`JPN-1`)
-- Game Boy Color ad (`CGB001-JPN-2`)
-- Game Boy Camera ad (`MGB006-JPN`)
-- Pocket Monsters Stadium ad (`APSJ-JPN`)
+* Manual (`JPN-1`)
+* Game Boy Color ad (`CGB001-JPN-2`)
+* Game Boy Camera ad (`MGB006-JPN`)
+* Pocket Monsters Stadium ad (`APSJ-JPN`)
 
-Each piece of hardware advertised was released at the time and are consistent in numerous listed samples on websites like _Yahoo! Auction Japan_, _Mercari_, and the like. Sibling games _Red_, _Green_, and _Yellow_ also contained the same ads at this time:
+Each piece of hardware advertised was released at the time and are consistent in numerous listed samples on websites like *Yahoo! Auction Japan*, *Mercari*, and the like. Sibling games *Red*, *Green*, and *Yellow* also contained the same ads at this time:
 
 ![Later print Blue version with game boy color ad](/uploads/blue-version-complete-retail.png)
 
@@ -118,7 +118,7 @@ If you know anything that might add to the thoroughness of this guide, feel free
 
 ### Sources
 
-- [The Mikaifu Collection](https://www.instagram.com/mikaifucollection/) - General timeline information
-- Thaane (via SACK Discord server) – Photos & production code data
-- pokemon1gb2rgbp.wiki.fc2.com/ \[[1](https://pokemon1gb2rgbp.wiki.fc2.com/)] \[[2](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84)] - Requires account to view
-- nintendo.co.jp \[[1](https://www.nintendo.co.jp/n02/dmg/apajapbj/index.html)] \[[2](https://www.nintendo.co.jp/n02/dmg/apej/index.html)] \[[3](https://www.nintendo.co.jp/n02/dmg/apsj/index.html)]
+* [The Mikaifu Collection](https://www.instagram.com/mikaifucollection/) - General timeline information
+* Thaane (via SACK Discord server) – Photos & production code data
+* pokemon1gb2rgbp.wiki.fc2.com/ \[[1](https://pokemon1gb2rgbp.wiki.fc2.com/)] \[[2](https://pokemon1gb2rgbp.wiki.fc2.com/wiki/%E5%88%9D%E6%9C%9F%E7%89%88%E3%83%BB%E5%BE%8C%E6%9C%9F%E7%89%88%E3%81%AE%E9%81%95%E3%81%84)] - Requires account to view
+* nintendo.co.jp \[[1](https://www.nintendo.co.jp/n02/dmg/apajapbj/index.html)] \[[2](https://www.nintendo.co.jp/n02/dmg/apej/index.html)] \[[3](https://www.nintendo.co.jp/n02/dmg/apsj/index.html)]
