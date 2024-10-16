@@ -163,17 +163,17 @@ Let's wrap this up with a quick breakdown on parts correlation, to get a sense o
 Possible combinations:
 
 * No UPC (box)
-  * 20 stamp code + 964X PCB chip code (cartridge)
-  * JPN code (manual)
-  * Anti-tampering notice, Game Boy Pocket ad (1 code), map
+  * **Cartridge: **20 stamp code + 964X PCB chip code
+  * **Manual:** JPN code
+  * **Inserts: **Anti-tampering notice, Game Boy Pocket ad (1 code), map
 * No UPC / TOYOTA AUTO promo (box)
-  * 20/12/00/22 stamp code + 96XX-97XX PCB chip code (cartridge)
-  * JPN code (manual)
-  * Anti-tampering notice, Game Boy Pocket ad (3 code), map
-* With UPC
-  * XX or XXA (revised) stamp codes + 99XX+ PCB chip code (cartridge)
-  * JPN-1 code (manual)
-  * Anti-tampering notice, Game Boy Camera ad, Game Boy Color ad, map
+  * **Cartridge:** 20/12/00/22 stamp code + 96XX-97XX PCB chip code
+  * **Manual: **JPN code
+  * **Inserts:** Anti-tampering notice, Game Boy Pocket ad (3 code), map
+* With UPC (box)
+  * C**artridge: **XX or XXA (revised) stamp codes + 99XX+ PCB chip code
+  * **Manual:** JPN-1 code
+  * **Inserts: **Anti-tampering notice, Game Boy Camera ad, Game Boy Color ad, map
 
 Keep in mind this is approximate as the information may change over time with new insights and documentation revelations!
 
