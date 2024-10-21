@@ -1,6 +1,38 @@
 ---
 blocks:
-  - content: "A Few Games started as a simple blog & collection website. I enjoyed the\r idea of sharing my game collection, but quickly after building the initial version, I wanted to share my (at the time) private database of video game\r print data, not just the specific games I own.\n\nFast forward to today, the site has switched to a public & open source database, but with a secondary blog component. My passion is still to\r share the interesting & enjoyable history of physical video games.\n\nIn other words, I want to answer questions like: What is the chronology of\r a given game's printing? What signifiers do publishers exercise when revising games? How scarce are these different print variants?\n\nFinally, where do you, the reader/contributor, fit into this? As mentioned above, the database is fully open source. You can view both the raw data\r and code at the [GitHub repository](https://github.com/geotrev/afew.games). I aim to facilitate an environment where folks can help build a free, accessible, and transparent resource,\r\ntogether.\n\nThanks for reading and I hope to see you around!\n\n***\n\n***PS:** Do you want to see the games I own? I have an [Instagram ](https://instagram.com/a.few.games)for that! I'd love to see your games too. Thanks if you decide to give a follow. On a related note, sign up for occasional emails with updates on new blog posts and database additions. I promise not to spam you. ;)*\n"
+  - content: >
+      A Few Games started as a simple blog & collection website. I enjoyed the
+      idea of sharing my game collection, but soon after, I thought it would be
+      better to share my (at the time) private game variant databse.
+
+
+      This open source database is the form the site currently takes, with a
+      blog for long form content. 
+
+
+      Ultimately, my passion is to share the print history of video games. This
+      means exploring how physical games change over time and demystifying that
+      process for collectors. 
+
+
+      Finally, where do you, the reader, fit into this? As mentioned above, the
+      database is fully open source. You can view both the raw data and website
+      code at the [GitHub repository](https://github.com/geotrev/afew.games). I
+      aim to facilitate an environment where folks can help build a free,
+      accessible, and transparent resource together.
+
+
+      Thanks for reading and I hope to see you around!
+
+
+      ***
+
+
+      ***PS:** Do you want to see the games I own? I have an [Instagram
+      ](https://instagram.com/a.few.games)for that! I'd love to see your games
+      too. Thanks for viewing (and if you decide to give a follow). On a related
+      note, feel free to sign up for occasional emails about game collecting. I
+      promise not to spam you. ;)*
     _template: about
 ---
 
