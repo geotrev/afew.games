@@ -1,4 +1,4 @@
-import { BASE_TITLE } from "utils/constants"
+import { BASE_TITLE } from "../constants"
 import { queryEssays } from "../_queries"
 import { PageHeading } from "../_components/page-heading"
 import { ClientPage } from "./client-page"

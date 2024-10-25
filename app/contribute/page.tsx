@@ -1,7 +1,7 @@
-import { BASE_TITLE } from "utils/constants"
-import { PageHeading } from "../_components/page-heading"
 import { ClientPage } from "./client-page"
 import { queryContribute } from "../_queries"
+import { PageHeading } from "../_components/page-heading"
+import { BASE_TITLE } from "../constants"
 
 export const metadata = {
   alternates: {

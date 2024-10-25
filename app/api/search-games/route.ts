@@ -1,5 +1,5 @@
-import { transformGameData } from "utils/generics"
-import { getGamesData } from "utils/db-helpers"
+import { transformGameData } from "@/app/_utils/helpers"
+import { getGamesData } from "@/app/_utils/server-helpers"
 import { DatabaseGame, DatabasePlatform } from "types/games"
 import xss from "xss"
 import { NextResponse } from "next/server"

@@ -1,6 +1,6 @@
-import { BASE_TITLE } from "utils/constants"
 import { ClientPage } from "./client-page"
 import { queryAbout } from "../_queries"
+import { BASE_TITLE } from "../constants"
 
 export const metadata = {
   alternates: {

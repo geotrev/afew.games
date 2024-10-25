@@ -7,7 +7,7 @@ import {
   ERROR_MESSAGE,
   EMAIL_REGEXP,
   SubscribeFormStatuses,
-} from "utils/constants"
+} from "@/app/constants"
 import { SubscribeFormState } from "./types"
 import xss from "xss"
 

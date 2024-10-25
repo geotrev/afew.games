@@ -1,3 +1,5 @@
+import "server-only"
+
 import glob from "glob"
 import fs from "fs"
 import { DatabasePlatform } from "types/games"

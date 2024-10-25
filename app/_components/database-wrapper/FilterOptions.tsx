@@ -9,7 +9,7 @@ import {
 } from "react"
 import cn from "classnames"
 import propTypes from "prop-types"
-import { getNextUrlState } from "../../_utils/set-params"
+import { getNextUrlState } from "../../_utils/helpers"
 import { FilterItem } from "types/games"
 
 export type FilterOptionsProps = {
