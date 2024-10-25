@@ -1,7 +1,7 @@
 "use client"
 
 import { useCallback, useState } from "react"
-import { PaginatedEssay, queryEssays } from "@/app/_queries/essays"
+import { PaginatedEssay, queryEssays } from "@/app/_queries"
 import { EssayList } from "./_components/essay-list"
 import { PAGE_SIZE } from "./constants"
 import { EssayListLoader } from "./_components/essay-list-loader"

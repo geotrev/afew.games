@@ -1,6 +1,6 @@
 import { BASE_TITLE } from "utils/constants"
-import client from "@/tina/__generated__/client"
 import { ClientPage } from "./client-page"
+import { queryAbout } from "../_queries"
 
 export const metadata = {
   alternates: {
@@ -11,7 +11,7 @@ export const metadata = {
 }
 
 export default async function Page() {
-  const query = await client.queries.content({ relativePath: "about.md" })
+  const query = await queryAbout()
 
   return <ClientPage {...query} />
 }
