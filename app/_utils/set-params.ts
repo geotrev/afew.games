@@ -1,4 +1,4 @@
-import { FilterItem } from "types/games"
+import { FilterItem } from "@/app/types"
 
 export function getNextUrlState({
   searchValue,

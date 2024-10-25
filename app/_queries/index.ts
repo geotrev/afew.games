@@ -5,7 +5,7 @@ import {
   InputMaybe,
   Scalars,
 } from "@/tina/__generated__/types"
-import { Essay } from "@/types/essays"
+import { Essay } from "@/app/types"
 
 // home query
 

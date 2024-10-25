@@ -1,6 +1,5 @@
-import { DatabaseGame, DatabasePlatform } from "types/games"
 import { isPlainObject, isString, pickBy } from "lodash-es"
-import { FilterItem } from "types/games"
+import { DatabaseGame, DatabasePlatform, FilterItem } from "@/app/types"
 
 export function getNextUrlState({
   searchValue,

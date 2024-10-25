@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import propTypes from "prop-types"
-import { Essay } from "types/essays"
+import { Essay } from "@/app/types"
 
 function isNew(date: Date, days: number) {
   const today = new Date()

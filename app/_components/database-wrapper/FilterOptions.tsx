@@ -10,7 +10,7 @@ import {
 import cn from "classnames"
 import propTypes from "prop-types"
 import { getNextUrlState } from "../../_utils/helpers"
-import { FilterItem } from "types/games"
+import { FilterItem } from "@/app/types"
 
 export type FilterOptionsProps = {
   totalGameCount: number
