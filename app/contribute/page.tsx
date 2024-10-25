@@ -1,7 +1,7 @@
 import { BASE_TITLE } from "utils/constants"
 import { PageHeading } from "../_components/page-heading"
-import client from "@/tina/__generated__/client"
 import { ClientPage } from "./client-page"
+import { queryContribute } from "../_queries"
 
 export const metadata = {
   alternates: {
@@ -12,7 +12,7 @@ export const metadata = {
 }
 
 export default async function Page() {
-  const query = await client.queries.content({ relativePath: "contribute.md" })
+  const query = await queryContribute()
 
   return (
     <>

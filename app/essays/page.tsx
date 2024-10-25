@@ -1,5 +1,5 @@
-import { queryEssays } from "@/app/_queries/essays"
 import { BASE_TITLE } from "utils/constants"
+import { queryEssays } from "../_queries"
 import { PageHeading } from "../_components/page-heading"
 import { ClientPage } from "./client-page"
 import { PAGE_SIZE } from "./constants"

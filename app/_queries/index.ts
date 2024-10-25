@@ -7,6 +7,35 @@ import {
 } from "@/tina/__generated__/types"
 import { Essay } from "@/types/essays"
 
+// home query
+
+export const queryHome = async () => {
+  return client.queries.content({ relativePath: "home.md" })
+}
+
+// about query
+
+export const queryAbout = async () => {
+  return client.queries.content({ relativePath: "about.md" })
+}
+
+// contribute query
+
+export const queryContribute = async () => {
+  return client.queries.content({ relativePath: "contribute.md" })
+}
+
+// contributors query
+
+export const queryContributors = async () => {
+  const contribQuery = await client.queries.db_contributors({
+    relativePath: "contributors.json",
+  })
+  return contribQuery?.data?.db_contributors?.contributors
+}
+
+// essays query
+
 export interface PaginatedEssay extends Essay {
   cursor?: string
 }
@@ -37,4 +66,10 @@ export async function queryEssays(
       }
     }),
   }
+}
+
+// essay query
+
+export const queryEssay = async (slug: string) => {
+  return client.queries.essay({ relativePath: `${slug}.md` })
 }
