@@ -10,7 +10,7 @@ import {
   ContentQueryVariables,
   Db_ContributorsQuery,
 } from "@/tina/__generated__/types"
-import { sortByKey } from "@/utils/generics"
+import { sortByKey } from "@/app/_utils/helpers"
 
 interface HomePageProps {
   query: {

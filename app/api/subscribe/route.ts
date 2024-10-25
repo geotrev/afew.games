@@ -9,7 +9,7 @@ import {
   EMAIL_REGEXP,
   ERROR_MESSAGE,
   SubscribeFormStatuses,
-} from "utils/constants"
+} from "@/app/constants"
 
 function invalidError() {
   return NextResponse.json({

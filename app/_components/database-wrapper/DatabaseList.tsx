@@ -3,13 +3,12 @@
 import { useState, useEffect, ReactElement, memo } from "react"
 import cn from "classnames"
 import propTypes from "prop-types"
-
 import {
   DB_FIELDS_SORTED,
   DB_FIELD_DESCRIPTIONS,
   DatabaseFields,
-} from "app/constants"
-import { DatabaseGame, DatabaseVariant } from "types/games"
+} from "@/app/constants"
+import { DatabaseFieldKey, DatabaseGame, DatabaseVariant } from "@/app/types"
 
 import { ListToolbar } from "./ListToolbar"
 import { Tooltip } from "react-tooltip"
@@ -148,7 +147,7 @@ export const DatabaseList = ({
                               "sticky left-0 z-10": fieldIndex === 0,
                             })}
                           >
-                            {variant[field]}
+                            {variant[field as DatabaseFieldKey]}
                           </td>
                         ))}
                       </tr>

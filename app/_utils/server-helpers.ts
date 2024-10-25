@@ -1,6 +1,8 @@
+import "server-only"
+
 import glob from "glob"
 import fs from "fs"
-import { DatabasePlatform } from "types/games"
+import { DatabasePlatform } from "@/app/types"
 
 const files: string[] = glob.sync("public/collections/games/*.json")
 

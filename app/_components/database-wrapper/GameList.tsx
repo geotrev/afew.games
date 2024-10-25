@@ -1,4 +1,4 @@
-import { DatabasePlatform, FilterItem } from "types/games"
+import { DatabasePlatform, FilterItem } from "@/app/types"
 import { DatabaseList } from "./DatabaseList"
 
 function getFilteredEntries(

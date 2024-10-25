@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react"
-import { DatabasePlatform, FilterItem } from "types/games"
+import { DatabasePlatform, FilterItem } from "@/app/types"
 
 interface UseFetchGamesReturnValue {
   query: (value: string) => void

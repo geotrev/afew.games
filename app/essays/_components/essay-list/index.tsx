@@ -1,6 +1,6 @@
 import propTypes from "prop-types"
 import { forwardRef, Ref } from "react"
-import { Essay } from "@/types/essays"
+import { Essay } from "@/app/types"
 import { EssayListItem } from "../essay-list-item"
 
 export type EssayListProps = {

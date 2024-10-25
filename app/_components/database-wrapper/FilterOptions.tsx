@@ -9,8 +9,8 @@ import {
 } from "react"
 import cn from "classnames"
 import propTypes from "prop-types"
-import { getNextUrlState } from "../../_utils/set-params"
-import { FilterItem } from "types/games"
+import { getNextUrlState } from "../../_utils/helpers"
+import { FilterItem } from "@/app/types"
 
 export type FilterOptionsProps = {
   totalGameCount: number

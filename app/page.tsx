@@ -1,7 +1,7 @@
-import { BASE_TITLE } from "utils/constants"
-import { getPlatformList } from "utils/db-helpers"
 import { ClientPage } from "./client-page"
 import { queryContributors, queryHome } from "./_queries"
+import { getPlatformList } from "./_utils/server-helpers"
+import { BASE_TITLE } from "./constants"
 
 export const metadata = {
   alternates: {

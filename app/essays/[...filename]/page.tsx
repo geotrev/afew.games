@@ -11,6 +11,13 @@ export async function generateStaticParams() {
   return paths || []
 }
 
+// export const metadata = ({ filename }: { filename: string[] }) => {
+//   return {
+//     title: filename.join("/"),
+//     description: "A few games",
+//   }
+// }
+
 export default async function Page({
   params,
 }: {
