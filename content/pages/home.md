@@ -7,7 +7,7 @@ blocks:
       search tool? It is publicly hosted
       [here](https://github.com/geotrev/afew.games/tree/main/public/collections/games).
     contribute: |
-      No account required. Credits are listed near the footer of this page.
+      No account required.
     _template: home
 ---
 
