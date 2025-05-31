@@ -17,6 +17,8 @@ export function SiteFooter() {
       <div className="flex justify-between">
         <p className="text-xs">
           <span>&copy; 2022-{new Date().getFullYear()} A Few Games</span>
+          &nbsp;&bull;&nbsp;
+          <span>Designed &amp; developed by <a href="https://rightwarp.com" className="link">Right Warp, LLC</a></span>
         </p>
         <SocialLinks />
       </div>
