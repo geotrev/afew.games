@@ -69,8 +69,8 @@ blocks:
         label: Product Code
         hint: >-
           The unique identifier given to the game during manufacturing.
-          Sometimes called a 'product code.' Typically found on the spine, or
-          the back of a game near the UPC.
+          Sometimes called a 'part code.' Typically found on the spine, or the
+          back of a game near the UPC.
       - type: textarea
         id: notes
         label: Additional Information
