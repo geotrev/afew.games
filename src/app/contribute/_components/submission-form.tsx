@@ -9,11 +9,16 @@ import {
   useCallback,
   useState,
 } from "react"
-import { TinaMarkdown } from "tinacms/dist/rich-text"
+import { Components, TinaMarkdown } from "tinacms/dist/rich-text"
 import { ContentBlocksContribute } from "@/tina/__generated__/types"
 
 const method = "POST"
 const headers = { "Content-Type": "application/json" }
+
+type MarkdownComponents =
+  | Components<object>
+  | Components<{ [x: string]: (props: object) => JSX.Element }>
+  | undefined
 
 const Field = ({
   isTextarea,
@@ -118,9 +123,11 @@ export function SubmissionForm({ ...contentBlock }: ContentBlocksContribute) {
       <div className="my-12 rounded-md border-2 border-solid border-slate-800 p-5">
         <TinaMarkdown
           content={formSuccessMessage}
-          components={{
-            p: (props) => <p className="mb-4 text-success" {...props} />,
-          }}
+          components={
+            {
+              p: (props) => <p className="mb-4 text-success" {...props} />,
+            } as MarkdownComponents
+          }
         />
         <button className="btn btn-outline btn-sm" onClick={handleRefreshClick}>
           Submit Another Game ↻
@@ -134,16 +141,18 @@ export function SubmissionForm({ ...contentBlock }: ContentBlocksContribute) {
       <div className="rounded-md border-2 border-solid border-slate-800 p-5">
         <TinaMarkdown
           content={formHeader}
-          components={{
-            h2: (props) => (
-              <h2 className="mb-4 text-2xl font-bold" {...props} />
-            ),
-            p: (props) => <p className="mb-4" {...props} />,
-            ul: (props) => <ul className="list-disc ps-4" {...props} />,
-            hr: (props) => (
-              <div className="divider" role="separator" {...props} />
-            ),
-          }}
+          components={
+            {
+              h2: (props) => (
+                <h2 className="mb-4 text-2xl font-bold" {...props} />
+              ),
+              p: (props) => <p className="mb-4" {...props} />,
+              ul: (props) => <ul className="list-disc ps-4" {...props} />,
+              hr: (props) => (
+                <div className="divider" role="separator" {...props} />
+              ),
+            } as MarkdownComponents
+          }
         />
 
         {textFields?.map((field) => {

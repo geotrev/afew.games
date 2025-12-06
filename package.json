@@ -12,7 +12,8 @@
     "prettier:check": "prettier --config .prettierrc.json --check",
     "prettier:write": "prettier --config .prettierrc.json --write",
     "eslint:check": "eslint -c .eslintrc.json",
-    "lint": "next lint"
+    "lint:types": "tsc --noEmit",
+    "lint": "npm run lint:types && next lint"
   },
   "repository": {
     "type": "git",
